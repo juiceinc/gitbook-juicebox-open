@@ -2,7 +2,7 @@
 
 * [Initial page](README.md)
 
-## Visualizations
+## Visualization Options <a id="visualizations"></a>
 
 * [Filters](visualizations/filters.md)
 * [Dimension Chooser](visualizations/dimension-chooser.md)
