@@ -2,3 +2,7 @@
 
 * [Initial page](README.md)
 
+## Visualizations
+
+* [Filters](visualizations/filters.md)
+
