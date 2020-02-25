@@ -11,4 +11,5 @@
 * [Ranked List](visualizations/ranked-list.md)
 * [Nine-Box \(Scatterplot\)](visualizations/nine-box-scatterplot.md)
 * [Leaderboard](visualizations/leaderboard.md)
+* [Map](visualizations/map.md)
 
