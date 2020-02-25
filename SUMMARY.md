@@ -8,4 +8,5 @@
 * [Dimension Chooser](visualizations/dimension-chooser.md)
 * [Measure Chooser](visualizations/measure-chooser.md)
 * [Table](visualizations/table.md)
+* [Ranked List](visualizations/ranked-list.md)
 
