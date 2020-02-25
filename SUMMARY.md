@@ -9,4 +9,5 @@
 * [Measure Chooser](visualizations/measure-chooser.md)
 * [Table](visualizations/table.md)
 * [Ranked List](visualizations/ranked-list.md)
+* [Nine-Box \(Scatterplot\)](visualizations/nine-box-scatterplot.md)
 
