@@ -13,3 +13,15 @@
 * [Leaderboard](visualizations/leaderboard.md)
 * [Map](visualizations/map.md)
 
+## Exploring JBO: Header
+
+* [Untitled](exploring-jbo-header/untitled.md)
+
+## Exploring JBO: Data Outliner
+
+* [Untitled](exploring-jbo-data-outliner/untitled.md)
+
+## Exploring JBO: Story Outliner <a id="story-outliner"></a>
+
+* [Untitled](story-outliner/untitled.md)
+
