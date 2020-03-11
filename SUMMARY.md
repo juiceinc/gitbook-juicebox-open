@@ -2,13 +2,17 @@
 
 * [Initial page](README.md)
 
-## Quick Overview <a id="exploring-jbo-header"></a>
+## Exploring JBO <a id="exploring-jbo-header"></a>
 
 * [Quick Overview](exploring-jbo-header/untitled/README.md)
   * [Components](exploring-jbo-header/untitled/components.md)
   * [Layouts](exploring-jbo-header/untitled/layouts.md)
   * [Data Flow](exploring-jbo-header/untitled/data-flow.md)
   * [Data Ingredients](exploring-jbo-header/untitled/data-ingredients.md)
+* [Getting Started](exploring-jbo-header/getting-started/README.md)
+  * [Accessing Your Account](exploring-jbo-header/getting-started/accessing-your-account.md)
+  * [What You Should See \(RENAME ME?\)](exploring-jbo-header/getting-started/what-you-should-see-rename-me.md)
+  * [App Creation Wizard](exploring-jbo-header/getting-started/app-creation-wizard.md)
 
 ## Visualization Options <a id="visualizations"></a>
 
