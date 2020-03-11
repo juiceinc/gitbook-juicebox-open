@@ -16,22 +16,25 @@
 
 ## Juicebox Open Editor <a id="juicebox-editor"></a>
 
-* [Story Outliner Tab](juicebox-editor/story-outliner-tab.md)
+* [Story Outliner Tab](juicebox-editor/story-outliner-tab/README.md)
+  * [Story Settings](juicebox-editor/story-outliner-tab/story-settings.md)
+  * [Story Sections](juicebox-editor/story-outliner-tab/story-sections.md)
+  * [Story Cards](juicebox-editor/story-outliner-tab/story-cards.md)
+  * [Visualizations](juicebox-editor/story-outliner-tab/visualizations/README.md)
+    * [Filters](juicebox-editor/story-outliner-tab/visualizations/filters.md)
+    * [Dimension Chooser](juicebox-editor/story-outliner-tab/visualizations/dimension-chooser.md)
+    * [Measure Chooser](juicebox-editor/story-outliner-tab/visualizations/measure-chooser.md)
+    * [Table](juicebox-editor/story-outliner-tab/visualizations/table.md)
+    * [Map](juicebox-editor/story-outliner-tab/visualizations/map.md)
+    * [Leaderboard](juicebox-editor/story-outliner-tab/visualizations/leaderboard.md)
+    * [Nine-Box \(Scatterplot\)](juicebox-editor/story-outliner-tab/visualizations/nine-box-scatterplot.md)
+    * [Ranked List](juicebox-editor/story-outliner-tab/visualizations/ranked-list.md)
 * [Data Source Tab](juicebox-editor/data-source-tab.md)
 * [Data Outliner Tab](juicebox-editor/data-outliner-tab/README.md)
   * [Data Ingredients](juicebox-editor/data-outliner-tab/data-ingredients/README.md)
     * [Measures](juicebox-editor/data-outliner-tab/data-ingredients/measures.md)
     * [Dimensions](juicebox-editor/data-outliner-tab/data-ingredients/dimensions.md)
-* [App Setting Tab](juicebox-editor/app-setting-tab.md)
+* [App Settings Tab](juicebox-editor/app-setting-tab.md)
 
 ## Visualization Options <a id="visualizations"></a>
-
-* [Filters](visualizations/filters.md)
-* [Measure Chooser](visualizations/measure-chooser.md)
-* [Dimension Chooser](visualizations/dimension-chooser.md)
-* [Table](visualizations/table.md)
-* [Ranked List](visualizations/ranked-list.md)
-* [Nine-Box \(Scatterplot\)](visualizations/nine-box-scatterplot.md)
-* [Leaderboard](visualizations/leaderboard.md)
-* [Map](visualizations/map.md)
 

@@ -1,2 +1,2 @@
-# App Setting Tab
+# App Settings Tab
 
