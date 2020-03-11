@@ -2,6 +2,10 @@
 
 * [Welcome to Juicebox Open](README.md)
 
+## Tutorial
+
+* [Let's Build an App!](tutorial/lets-build-an-app.md)
+
 ## Explore the Basics <a id="exploring-jbo-header"></a>
 
 * [Quick Overview](exploring-jbo-header/untitled/README.md)
