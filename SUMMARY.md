@@ -2,7 +2,7 @@
 
 * [Welcome to Juicebox Open](README.md)
 
-## Exploring JBO <a id="exploring-jbo-header"></a>
+## Explore the Basics <a id="exploring-jbo-header"></a>
 
 * [Quick Overview](exploring-jbo-header/untitled/README.md)
   * [Components](exploring-jbo-header/untitled/components.md)
@@ -14,13 +14,13 @@
   * [What You Should See \(RENAME ME?\)](exploring-jbo-header/getting-started/what-you-should-see-rename-me.md)
   * [App Creation Wizard](exploring-jbo-header/getting-started/app-creation-wizard.md)
 
-## Juicebox Open Editor <a id="juicebox-editor"></a>
+## The Juicebox Open Editor <a id="juicebox-editor"></a>
 
 * [Story Outliner Tab](juicebox-editor/story-outliner-tab/README.md)
   * [Story Settings](juicebox-editor/story-outliner-tab/story-settings.md)
   * [Story Sections](juicebox-editor/story-outliner-tab/story-sections.md)
   * [Story Cards](juicebox-editor/story-outliner-tab/story-cards.md)
-  * [Visualizations](juicebox-editor/story-outliner-tab/visualizations/README.md)
+  * [Available Visualizations](juicebox-editor/story-outliner-tab/visualizations/README.md)
     * [Filters](juicebox-editor/story-outliner-tab/visualizations/filters.md)
     * [Dimension Chooser](juicebox-editor/story-outliner-tab/visualizations/dimension-chooser.md)
     * [Measure Chooser](juicebox-editor/story-outliner-tab/visualizations/measure-chooser.md)
@@ -36,5 +36,13 @@
     * [Dimensions](juicebox-editor/data-outliner-tab/data-ingredients/dimensions.md)
 * [App Settings Tab](juicebox-editor/app-setting-tab.md)
 
-## Visualization Options <a id="visualizations"></a>
+## Styling, Sharing, and Troubleshooting Your App <a id="other-topics"></a>
+
+* [Styling Options](styling-options/README.md)
+  * [Themes](styling-options/themes.md)
+  * [Layouts](styling-options/layouts.md)
+  * [Colors](styling-options/colors.md)
+  * [Images and Icons](styling-options/images-and-icons.md)
+* [Sharing Your App](sharing-your-app.md)
+* [Troubleshooting Common Problems](troubleshooting-common-problems.md)
 
