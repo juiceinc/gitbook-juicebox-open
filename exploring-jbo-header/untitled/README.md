@@ -12,5 +12,5 @@ At Juice, we love data stories! A data story is more than just a dashboard. It i
   
 With JBO, you'll build data stories with our easy to use editor. The JBO Editor will allow you to go from uploading your data to creating your first visualization in just a few minutes!   
   
-In the following pages, we'll give you an peek into the Juicebox kitchen and explain the components that make up JBO, help you learn the lingo, and give you an idea of how all the pieces come together. 
+In the following pages, we'll give you an overview of the components that make up JBO, help you learn the lingo, and give you an idea of how all the pieces come together. 
 
