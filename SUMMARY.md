@@ -10,7 +10,7 @@
 
 * [Quick Overview](exploring-jbo-header/untitled/README.md)
   * [Components of an App](exploring-jbo-header/untitled/components.md)
-  * [Layouts](exploring-jbo-header/untitled/layouts.md)
+  * [Layouts \(FIX IMAGES\)](exploring-jbo-header/untitled/layouts.md)
   * [Data Flow](exploring-jbo-header/untitled/data-flow.md)
   * [Data Ingredients](exploring-jbo-header/untitled/data-ingredients.md)
 * [Getting Started](exploring-jbo-header/getting-started/README.md)

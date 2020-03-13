@@ -1,4 +1,4 @@
-# Layouts
+# Layouts \(FIX IMAGES\)
 
 You have control of how you layout the components of your story. By default, the story is going to flow vertically from the initial title and overview to more detailed analysis and data. 
 
