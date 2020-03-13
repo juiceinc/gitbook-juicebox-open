@@ -4,7 +4,7 @@ Welcome to the Juicebox Open documentation. We're glad you're here! You'll find 
 
 #### The Tutorial
 
-If you prefer to learn by doing, the tutorial is a great place to start. In the tutorial, we'll build an app that explores data from The World Happiness index. We'll walk through each step of creating an app, loading data, adding visualizations, and customizing the layout. By the time you've finished, you'll have a great understanding of the pieces that make up a Juicebox Open App. 
+If you prefer to learn by doing, the tutorial is a great place to start. In the tutorial, we'll build a data story that explores data from The World Happiness index. We'll walk through each step of creating a story, loading data, adding visualizations, and customizing the layout. By the time you've finished, you'll have a great understanding of the pieces that make up Juicebox Open. 
 
 #### Commonly Used Resources
 

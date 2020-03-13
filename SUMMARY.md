@@ -4,7 +4,7 @@
 
 ## Tutorial
 
-* [Let's Build an App!](tutorial/lets-build-an-app.md)
+* [Let's Build a Data Story!](tutorial/lets-build-an-app.md)
 
 ## Explore the Basics <a id="exploring-jbo-header"></a>
 
