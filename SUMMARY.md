@@ -9,7 +9,7 @@
 ## Explore the Basics <a id="exploring-jbo-header"></a>
 
 * [Quick Overview](exploring-jbo-header/untitled/README.md)
-  * [Components](exploring-jbo-header/untitled/components.md)
+  * [Components of an App](exploring-jbo-header/untitled/components.md)
   * [Layouts](exploring-jbo-header/untitled/layouts.md)
   * [Data Flow](exploring-jbo-header/untitled/data-flow.md)
   * [Data Ingredients](exploring-jbo-header/untitled/data-ingredients.md)
