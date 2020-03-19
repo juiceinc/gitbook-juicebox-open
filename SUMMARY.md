@@ -36,6 +36,7 @@
 * [Data Source Tab](juicebox-editor/data-source-tab.md)
 * [Data Outliner Tab](juicebox-editor/data-outliner-tab/README.md)
   * [Data Ingredients](juicebox-editor/data-outliner-tab/data-ingredients/README.md)
+    * [V2 Syntax](juicebox-editor/data-outliner-tab/data-ingredients/v2-syntax.md)
     * [Measures](juicebox-editor/data-outliner-tab/data-ingredients/measures.md)
     * [Dimensions](juicebox-editor/data-outliner-tab/data-ingredients/dimensions.md)
 * [App Settings Tab](juicebox-editor/app-setting-tab.md)
