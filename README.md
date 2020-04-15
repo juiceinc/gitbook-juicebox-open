@@ -10,9 +10,9 @@ If you prefer to learn by doing, the tutorial is a great place to start. In the 
 
 If you're looking for information on a specific concept, check out these links for the most commonly used sections of this documentation:
 
-{% page-ref page="exploring-jbo-header/untitled/data-ingredients.md" %}
+{% page-ref page="getting-started-header/untitled/data-ingredients.md" %}
 
-{% page-ref page="juicebox-editor/story-outliner-tab/visualizations/" %}
+{% page-ref page="juicebox-editor/story-outliner/visualizations/" %}
 
 {% page-ref page="troubleshooting-common-problems.md" %}
 

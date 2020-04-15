@@ -1,4 +1,4 @@
-# Quick Overview
+# Intro to Juicebox
 
 Juicebox Open \(JBO\) is the self-service version of our **Juicebox** platform. With JBO, you can easily and quickly create interactive **data stories** to share with your users. 
 

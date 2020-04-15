@@ -1,4 +1,4 @@
-# Getting Started
+# Creating a Juicebox Client
 
 * logging in 
 * app creation wizard
