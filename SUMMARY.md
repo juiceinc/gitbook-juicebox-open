@@ -19,7 +19,9 @@
 
 * [Creating and Editing](juicebox-editor/creating-and-editing.md)
 * [Settings](juicebox-editor/app-settings/README.md)
-  * [App Settings Tab](juicebox-editor/app-settings/app-setting-tab.md)
+  * [App Info Settings](juicebox-editor/app-settings/app-setting-tab.md)
+  * [Theming Settings](juicebox-editor/app-settings/theming-settings.md)
+  * [Deleting an App](juicebox-editor/app-settings/deleting-an-app.md)
 * [Data Editor](juicebox-editor/data-editor/README.md)
   * [Data Outliner Tab](juicebox-editor/data-editor/data-outliner-tab/README.md)
     * [Data Ingredients](juicebox-editor/data-editor/data-outliner-tab/data-ingredients/README.md)
@@ -54,4 +56,10 @@
   * [Images and Icons](styling-options/images-and-icons.md)
 * [Sharing Your App](sharing-your-app.md)
 * [Troubleshooting Common Problems](troubleshooting-common-problems.md)
+
+## App Management
+
+* [Sharing Apps](app-management/sharing-apps.md)
+* [Usage Reporting](app-management/usage-reporting.md)
+* [User Management & Roles](app-management/user-management-and-roles.md)
 
