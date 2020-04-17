@@ -1,4 +1,4 @@
-# Story Sections
+# Sections
 
 ### Sections <a id="docs-internal-guid-3f04fa94-7fff-e04d-86d4-f27746d31af9"></a>
 

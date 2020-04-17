@@ -14,8 +14,6 @@ If you're looking for information on a specific concept, check out these links f
 
 {% page-ref page="juicebox-editor/story-outliner/visualizations/" %}
 
-{% page-ref page="troubleshooting-common-problems.md" %}
-
 
 
 
