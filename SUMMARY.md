@@ -85,12 +85,6 @@
     * [Map](authoring-apps/story-outliner/visualizations/map.md)
     * [Trend](authoring-apps/story-outliner/visualizations/trend.md)
     * [Image \(coming soon\)](authoring-apps/story-outliner/visualizations/image-coming-soon.md)
-* [Design Tips](authoring-apps/design-tips/README.md)
-  * [Telling Data Stories](authoring-apps/design-tips/telling-data-stories.md)
-  * [Visual Design](authoring-apps/design-tips/visual-design/README.md)
-    * [Layouts](authoring-apps/design-tips/visual-design/layouts.md)
-    * [Colors](authoring-apps/design-tips/visual-design/colors.md)
-    * [Images](authoring-apps/design-tips/visual-design/images.md)
 * [Publish and Share](authoring-apps/publish-and-share/README.md)
   * [Editing & Publishing](authoring-apps/publish-and-share/editing-and-publishing/README.md)
     * [Publishing an App](authoring-apps/publish-and-share/editing-and-publishing/publishing-an-app.md)
@@ -100,6 +94,12 @@
   * [Sharing & Access Controls](authoring-apps/publish-and-share/sharing-and-access-controls/README.md)
     * [App Access Link](authoring-apps/publish-and-share/sharing-and-access-controls/app-access-link.md)
     * [Email Domain Control](authoring-apps/publish-and-share/sharing-and-access-controls/email-domain-control.md)
+* [Design Tips](authoring-apps/design-tips/README.md)
+  * [Telling Data Stories](authoring-apps/design-tips/telling-data-stories.md)
+  * [Visual Design](authoring-apps/design-tips/visual-design/README.md)
+    * [Layouts](authoring-apps/design-tips/visual-design/layouts.md)
+    * [Colors](authoring-apps/design-tips/visual-design/colors.md)
+    * [Images](authoring-apps/design-tips/visual-design/images.md)
 
 ## App Management
 
