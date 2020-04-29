@@ -12,7 +12,7 @@ If you're looking for information on a specific concept, check out these links f
 
 {% page-ref page="getting-started/intro-to-juicebox/what-is-a-juicebox-app/data-ingredients.md" %}
 
-{% page-ref page="authoring-apps/story-outliner/visualizations/" %}
+{% page-ref page="authoring-apps/story-designer/visualizations/" %}
 
 
 
