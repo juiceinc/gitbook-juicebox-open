@@ -20,15 +20,13 @@
 
 ## Authoring Apps
 
-* [Accessing Your Account](authoring-apps/accessing-your-account/README.md)
-  * [What You Should See \(RENAME ME?\)](authoring-apps/accessing-your-account/what-you-should-see-rename-me.md)
 * [Creating and Editing](authoring-apps/creating-and-editing/README.md)
-  * [App Creation Wizard](authoring-apps/creating-and-editing/app-creation-wizard.md)
+  * [Author UI \[rename\]](authoring-apps/creating-and-editing/author-ui.md)
   * [Add New App](authoring-apps/creating-and-editing/add-new-app.md)
-  * [Editing Apps](authoring-apps/creating-and-editing/editing-apps.md)
+  * [Edit Existing App](authoring-apps/creating-and-editing/edit-existing-app.md)
 * [Settings](authoring-apps/app-settings/README.md)
-  * [App Info Settings](authoring-apps/app-settings/app-setting-tab.md)
-  * [Theming Settings](authoring-apps/app-settings/theming-settings.md)
+  * [App Info](authoring-apps/app-settings/app-info.md)
+  * [Theming](authoring-apps/app-settings/theming.md)
   * [Deleting an App](authoring-apps/app-settings/deleting-an-app.md)
 * [Data Editor](authoring-apps/data-editor/README.md)
   * [Working With Data](authoring-apps/data-editor/data-outliner-tab.md)
