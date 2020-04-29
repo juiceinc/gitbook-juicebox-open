@@ -1,6 +1,6 @@
 # Components of an App
 
-![the structure of a JBO application](../../.gitbook/assets/jbo-app-parts.png)
+![the structure of a JBO application](../../../.gitbook/assets/jbo-app-parts.png)
 
 So what exactly makes up a Juicebox Open app? Each app has the following parts that flow in a hierarchy:
 

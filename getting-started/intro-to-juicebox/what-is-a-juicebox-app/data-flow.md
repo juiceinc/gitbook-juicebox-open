@@ -4,7 +4,7 @@ One of the best and most unqiue aspects of a JBO data story is how we filter and
 
 ### Visualizations as Filters
 
-![](../../.gitbook/assets/data_flow_viz.gif)
+![](../../../.gitbook/assets/data_flow_viz.gif)
 
 Visualizations on cards automatically act as filters for the cards that are positioned after them in the story flow. Therefore, a selection of a bar or bubble will necessarily filter the data further down the page.  
   
@@ -12,7 +12,7 @@ In this example, a user selection in the **ranked list** visualization are passe
 
 ### Capturing User Selections
 
-![](../../.gitbook/assets/data_flow_dim.gif)
+![](../../../.gitbook/assets/data_flow_dim.gif)
 
 Certain visualizations \(like the measure chooser and dimension chooser\) can capture user selections you want to use to drive other visualizations.   
   
