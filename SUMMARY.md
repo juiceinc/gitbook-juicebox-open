@@ -15,7 +15,8 @@
     * [User Roles](getting-started/intro-to-juicebox/sharing-apps/user-roles.md)
 * [Creating a Juicebox Client](getting-started/creating-a-juicebox-client/README.md)
   * [Signing Up](getting-started/creating-a-juicebox-client/signing-up.md)
-* [Joining a Juicebox Client](getting-started/joining-a-juicebox-client.md)
+* [Joining a Juicebox Client](getting-started/joining-a-juicebox-client/README.md)
+  * [Viewing Apps](getting-started/joining-a-juicebox-client/viewing-apps.md)
 
 ## Authoring Apps
 
