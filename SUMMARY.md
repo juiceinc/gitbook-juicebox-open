@@ -67,5 +67,7 @@
 
 ## Client Management \(Coming Soon!\)
 
-* [Untitled](client-management-coming-soon/untitled.md)
+* [Subscription & Billing](client-management-coming-soon/untitled.md)
+* [Settings](client-management-coming-soon/settings.md)
+* [Managing Users](client-management-coming-soon/managing-users.md)
 
