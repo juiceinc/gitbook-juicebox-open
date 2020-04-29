@@ -11,12 +11,12 @@
     * [Data Ingredients](getting-started/intro-to-juicebox/what-is-a-juicebox-app/data-ingredients.md)
     * [Layouts \(FIX IMAGES\)](getting-started/intro-to-juicebox/what-is-a-juicebox-app/layouts.md)
   * [Navigating Apps](getting-started/intro-to-juicebox/navigating-apps.md)
-  * [Sharing Apps](getting-started/intro-to-juicebox/sharing-apps/README.md)
-    * [User Roles](getting-started/intro-to-juicebox/sharing-apps/user-roles.md)
+  * [Sharing Apps](getting-started/intro-to-juicebox/sharing-apps.md)
 * [Creating a Juicebox Client](getting-started/creating-a-juicebox-client/README.md)
   * [Signing Up](getting-started/creating-a-juicebox-client/signing-up.md)
 * [Joining a Juicebox Client](getting-started/joining-a-juicebox-client/README.md)
-  * [Viewing Apps](getting-started/joining-a-juicebox-client/viewing-apps.md)
+  * [Joining as a Viewer](getting-started/joining-a-juicebox-client/viewing-apps.md)
+  * [Joining as an Author](getting-started/joining-a-juicebox-client/joining-as-an-author.md)
 
 ## Authoring Apps
 
@@ -91,8 +91,14 @@
     * [Colors](authoring-apps/design-tips/visual-design/colors.md)
     * [Images](authoring-apps/design-tips/visual-design/images.md)
 * [Publish and Share](authoring-apps/publish-and-share/README.md)
-  * [Editing & Publishing](authoring-apps/publish-and-share/editing-and-publishing.md)
-  * [Sharing & Access Controls](authoring-apps/publish-and-share/sharing-and-access-controls.md)
+  * [Editing & Publishing](authoring-apps/publish-and-share/editing-and-publishing/README.md)
+    * [Publishing an App](authoring-apps/publish-and-share/editing-and-publishing/publishing-an-app.md)
+    * [Making Changes to an App](authoring-apps/publish-and-share/editing-and-publishing/making-changes-to-an-app.md)
+    * [Discard Changes to an App](authoring-apps/publish-and-share/editing-and-publishing/discard-changes-to-an-app.md)
+    * [Multiple Authors \(coming soon\)](authoring-apps/publish-and-share/editing-and-publishing/multiple-authors-coming-soon.md)
+  * [Sharing & Access Controls](authoring-apps/publish-and-share/sharing-and-access-controls/README.md)
+    * [App Access Link](authoring-apps/publish-and-share/sharing-and-access-controls/app-access-link.md)
+    * [Email Domain Control](authoring-apps/publish-and-share/sharing-and-access-controls/email-domain-control.md)
 
 ## App Management
 
@@ -103,6 +109,15 @@
 ## Client Management \(Coming Soon!\)
 
 * [Subscription & Billing](client-management-coming-soon/untitled.md)
-* [Settings](client-management-coming-soon/settings.md)
-* [Managing Users](client-management-coming-soon/managing-users.md)
+* [Settings](client-management-coming-soon/settings/README.md)
+  * [Name](client-management-coming-soon/settings/name.md)
+  * [Domain](client-management-coming-soon/settings/domain.md)
+  * [Access Controls](client-management-coming-soon/settings/access-controls/README.md)
+    * [App Access Links](client-management-coming-soon/settings/access-controls/app-access-links.md)
+    * [Email Domain Control](client-management-coming-soon/settings/access-controls/email-domain-control.md)
+* [Managing Users](client-management-coming-soon/managing-users/README.md)
+  * [Client Owner](client-management-coming-soon/managing-users/client-owner.md)
+  * [Client Admin](client-management-coming-soon/managing-users/client-admin.md)
+  * [Author](client-management-coming-soon/managing-users/author.md)
+  * [Viewer](client-management-coming-soon/managing-users/viewer.md)
 

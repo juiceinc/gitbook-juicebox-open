@@ -1,2 +1,2 @@
-# Viewing Apps
+# Joining as a Viewer
 
