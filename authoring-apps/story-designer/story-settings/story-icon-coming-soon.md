@@ -1,2 +1,0 @@
-# Story Icon \(coming soon\)
-

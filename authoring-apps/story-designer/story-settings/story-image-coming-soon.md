@@ -1,2 +1,0 @@
-# Story Image \(coming soon\)
-
