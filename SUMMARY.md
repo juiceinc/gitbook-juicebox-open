@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to Juicebox Open](README.md)
+* [Welcome to Juicebox](README.md)
 
 ## Getting Started
 
