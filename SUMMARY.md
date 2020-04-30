@@ -20,8 +20,6 @@
 
 ## Authoring Apps
 
-* [What is an Author?](authoring-apps/what-is-an-author/README.md)
-  * [Author UI Tour \(rename\)](authoring-apps/what-is-an-author/author-ui.md)
 * [Creating and Editing](authoring-apps/creating-and-editing/README.md)
   * [Add a New App](authoring-apps/creating-and-editing/add-new-app.md)
   * [Edit an App](authoring-apps/creating-and-editing/edit-existing-app.md)
