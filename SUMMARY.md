@@ -35,6 +35,7 @@
       * [Connect to a Google Sheet \(coming soon\)](authoring-apps/data-editor/create-a-data-source/load-your-data/connect-to-a-google-sheet.md)
     * [Define Data Ingredients](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/README.md)
       * [What are Data Ingredients?](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/what-are-data-ingredients.md)
+      * [Data Ingredient Components](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/data-ingredient-components.md)
       * [Inferred Ingredients](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/inferred-ingredients.md)
       * [Advanced Ingredients \(coming soon\)](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/v2-syntax.md)
       * [Example Ingredients](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/example-ingredients.md)
@@ -94,6 +95,7 @@
     * [Layouts](authoring-apps/design-tips/visual-design/layouts.md)
     * [Colors](authoring-apps/design-tips/visual-design/colors.md)
     * [Images](authoring-apps/design-tips/visual-design/images.md)
+* [More About Measures and Dimension](authoring-apps/more-about-measures-and-dimension.md)
 
 ## App Management
 
