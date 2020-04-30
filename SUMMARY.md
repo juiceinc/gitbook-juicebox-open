@@ -38,6 +38,7 @@
       * [Data Ingredient Components](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/data-ingredient-components.md)
       * [Inferred Ingredients](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/inferred-ingredients.md)
       * [Advanced Ingredients \(coming soon\)](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/v2-syntax.md)
+      * [Ingredient Formats](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/ingredient-formats.md)
       * [Example Ingredients](authoring-apps/data-editor/create-a-data-source/define-data-ingredients/example-ingredients.md)
   * [Edit a Data Source](authoring-apps/data-editor/edit-a-data-source.md)
   * [Delete a Data Source](authoring-apps/data-editor/delete-a-data-source.md)
