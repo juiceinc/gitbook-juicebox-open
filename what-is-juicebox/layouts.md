@@ -8,12 +8,12 @@ You can choose to layout the cards in a group either vertically:
    
 
 
-![](../../../.gitbook/assets/cards-vert.png)
+![](../.gitbook/assets/cards-vert.png)
 
 Or horizontally:  
 
 
-![](../../../.gitbook/assets/cards-horizontal.png)
+![](../.gitbook/assets/cards-horizontal.png)
 
 Within a Card, you have the option to layout the text and visualization in four ways:  
 

@@ -1,17 +1,15 @@
 # Table of contents
 
-* [Welcome to Juicebox](README.md)
+* [Juicebox Documentation](README.md)
+* [What is Juicebox?](what-is-juicebox/README.md)
+  * [Data Flow](what-is-juicebox/data-flow.md)
+  * [Layouts \(FIX IMAGES\)](what-is-juicebox/layouts.md)
+  * [Navigating Apps](what-is-juicebox/navigating-apps.md)
+  * [Sharing Apps](what-is-juicebox/sharing-apps.md)
 
 ## Getting Started
 
-* [Intro to Juicebox](getting-started/intro-to-juicebox/README.md)
-  * [What is a Juicebox App?](getting-started/intro-to-juicebox/what-is-a-juicebox-app/README.md)
-    * [Components of an App](getting-started/intro-to-juicebox/what-is-a-juicebox-app/components.md)
-    * [Data Flow](getting-started/intro-to-juicebox/what-is-a-juicebox-app/data-flow.md)
-    * [Data Ingredients](getting-started/intro-to-juicebox/what-is-a-juicebox-app/data-ingredients.md)
-    * [Layouts \(FIX IMAGES\)](getting-started/intro-to-juicebox/what-is-a-juicebox-app/layouts.md)
-  * [Navigating Apps](getting-started/intro-to-juicebox/navigating-apps.md)
-  * [Sharing Apps](getting-started/intro-to-juicebox/sharing-apps.md)
+* [Getting Started with Juicebox](getting-started/intro-to-juicebox.md)
 * [Creating a Juicebox Client](getting-started/creating-a-juicebox-client/README.md)
   * [Signing Up](getting-started/creating-a-juicebox-client/signing-up.md)
 * [Joining a Juicebox Client](getting-started/joining-a-juicebox-client/README.md)
