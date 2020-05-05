@@ -2,7 +2,7 @@
 
 **Juicebox** is a platform that lets you easily create and share beautiful, interactive data visualization apps. No code required!
 
-A Juicebox **app** is the solution you create with Juicebox that is shared on the web. [Here's an example of a Juicebox app](www.example.com). Each app has its own URL and you manage who can view it or make changes to it.
+A Juicebox **app** is the solution you create with Juicebox. [Here's an example of a Juicebox app](www.example.com). Each app has its own URL and you manage who can view it or make changes to it.
 
 ## Parts of a Juicebox App
 
