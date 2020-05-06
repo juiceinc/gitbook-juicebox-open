@@ -30,5 +30,9 @@ Each app has a unique link that will take a user directly to the app. For exampl
 
 ### Using the story chooser button
 
+\[Coming soon\]
+
 ### Using the \[other method\]
+
+\[Coming soon\]
 
