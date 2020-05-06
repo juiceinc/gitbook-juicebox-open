@@ -4,6 +4,10 @@ One of the best and most unqiue aspects of a JBO data story is how we filter and
 
 ### Visualizations as Filters
 
+Selections in a slice will automatically filter downstream slices. This allows users to drill down on the data that is relevant to their problem. 
+
+In the example below, there are two slices. The top slice has a bar visualization that ranks world regions **\[by \_\_\_\_\_\]**, and the bottom slice has a leaderboard visualization which shows . WhFor example, ifTherefore, a selection of a bar or bubble will necessarily filter the data further down the page. In this example, a user selection in the **ranked list** visualization are passed down to the **leaderboard** that follows.
+
 ![](../.gitbook/assets/data_flow_viz.gif)
 
 Visualizations on cards automatically act as filters for the cards that are positioned after them in the story flow. Therefore, a selection of a bar or bubble will necessarily filter the data further down the page.  

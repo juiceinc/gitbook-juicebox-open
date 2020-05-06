@@ -2,6 +2,7 @@
 
 * [Juicebox Documentation](README.md)
 * [What is Juicebox?](what-is-juicebox/README.md)
+  * [Example App: World Happiness](what-is-juicebox/example-app-world-happiness.md)
   * [Data Flow](what-is-juicebox/data-flow.md)
   * [Layouts \(FIX IMAGES\)](what-is-juicebox/layouts.md)
   * [Navigating Apps](what-is-juicebox/navigating-apps.md)
