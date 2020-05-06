@@ -3,10 +3,10 @@
 * [Juicebox Documentation](README.md)
 * [What is Juicebox?](what-is-juicebox/README.md)
   * [Example App: World Happiness](what-is-juicebox/example-app-world-happiness.md)
-  * [Data Flow](what-is-juicebox/data-flow.md)
-  * [Layouts \(FIX IMAGES\)](what-is-juicebox/layouts.md)
+  * [Data Flow \[Interactivity?\]](what-is-juicebox/data-flow.md)
   * [Navigating Apps](what-is-juicebox/navigating-apps.md)
   * [Sharing Apps](what-is-juicebox/sharing-apps.md)
+  * [Layouts \(FIX IMAGES\)](what-is-juicebox/layouts.md)
 
 ## Getting Started
 
@@ -25,7 +25,7 @@
 * [Settings](authoring-apps/app-settings.md)
 * [Data Editor](authoring-apps/data-editor/README.md)
   * [What is a Data Source?](authoring-apps/data-editor/what-is-a-data-source.md)
-  * [Create a Data Source](authoring-apps/data-editor/create-a-data-source/README.md)
+  * [Add a Data Source](authoring-apps/data-editor/create-a-data-source/README.md)
     * [Load Your Data](authoring-apps/data-editor/create-a-data-source/load-your-data/README.md)
       * [Upload a CSV](authoring-apps/data-editor/create-a-data-source/load-your-data/upload-a-csv.md)
       * [Connect to Database Table \(coming soon\)](authoring-apps/data-editor/create-a-data-source/load-your-data/connect-to-database-table-coming-soon.md)

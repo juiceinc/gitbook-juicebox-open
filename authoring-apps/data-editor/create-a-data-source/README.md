@@ -1,6 +1,6 @@
-# Create a Data Source
+# Add a Data Source
 
-There are 2 steps to creating a data source:
+There are 2 main steps to adding a data source:
 
 1. Load your data
 2. Define your data ingredients

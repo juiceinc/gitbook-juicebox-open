@@ -1,24 +1,22 @@
-# Data Flow
+# Data Flow \[Interactivity?\]
 
-One of the best and most unqiue aspects of a JBO data story is how we filter and distill your data as the story progresses. There are two ways that we ensure that each data story gives users a connected workflow as they explore your data:
+Selections made in a story automatically drive how the story progresses. This is done in two ways: selections as filters and selections as **\[path?\]**. **\[Can we describe this better than "capturing user selections"? Every selection is "captured", so not a useful distinction.\]**
 
-### Visualizations as Filters
+### Selections as Filters
 
 Selections in a slice will automatically filter downstream slices. This allows users to drill down on the data that is relevant to their problem. 
 
-In the example below, there are two slices. The top slice has a bar visualization that ranks world regions **\[by \_\_\_\_\_\]**, and the bottom slice has a leaderboard visualization which shows . WhFor example, ifTherefore, a selection of a bar or bubble will necessarily filter the data further down the page. In this example, a user selection in the **ranked list** visualization are passed down to the **leaderboard** that follows.
+In the example below, there are two slices. The top slice has a [**bar**](../authoring-apps/story-designer/visualizations/ranked-list.md) visualization that shows regions ****ranked by **\[Y\]**, and the bottom slice has a [**leaderboard**](../authoring-apps/story-designer/visualizations/leaderboard.md) visualization that shows which countries lead across multiple measures. Notice that when nothing is selected in the bar visualization, the leaderboard shows the leaders across all countries. But when a particular region is selected in the bar visualization \(i.e., Western Europe\), the leaderboard only ranks countries within the selected region. 
 
-![](../.gitbook/assets/data_flow_viz.gif)
-
-Visualizations on cards automatically act as filters for the cards that are positioned after them in the story flow. Therefore, a selection of a bar or bubble will necessarily filter the data further down the page.  
-  
-In this example, a user selection in the **ranked list** visualization are passed down to the **leaderboard** that follows.
+![Selections in slices above filter slices below](../.gitbook/assets/data_flow_viz.gif)
 
 ### Capturing User Selections
-
-![](../.gitbook/assets/data_flow_dim.gif)
 
 Certain visualizations \(like the measure chooser and dimension chooser\) can capture user selections you want to use to drive other visualizations.   
   
 In this example, a user can select a measure \(like Happiness or Family\) using the **measure chooser**. This selection drives what data the **ranked list** displays to the user. 
+
+![](../.gitbook/assets/data_flow_dim.gif)
+
+
 
