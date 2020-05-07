@@ -11,16 +11,15 @@
 * [Creating a Juicebox Client](getting-started/creating-a-juicebox-client/README.md)
   * [Signing Up](getting-started/creating-a-juicebox-client/signing-up.md)
 * [Joining a Juicebox Client](getting-started/joining-a-juicebox-client/README.md)
-  * [Navigating apps](getting-started/joining-a-juicebox-client/navigating-apps.md)
   * [Joining as a Viewer](getting-started/joining-a-juicebox-client/viewing-apps.md)
   * [Joining as an Author](getting-started/joining-a-juicebox-client/joining-as-an-author.md)
 
 ## Authoring Apps
 
-* [Editing panel: a quick tour](authoring-apps/editing-panel-a-quick-tour.md)
 * [Creating and Editing](authoring-apps/creating-and-editing/README.md)
   * [Add a New App](authoring-apps/creating-and-editing/add-new-app.md)
-  * [Edit an App](authoring-apps/creating-and-editing/edit-existing-app.md)
+  * [Edit an App](authoring-apps/creating-and-editing/edit-existing-app/README.md)
+    * [Editing panel: a quick tour](authoring-apps/creating-and-editing/edit-existing-app/editing-panel-a-quick-tour.md)
 * [Settings](authoring-apps/app-settings.md)
 * [Data Editor](authoring-apps/data-editor/README.md)
   * [What is a Data Source?](authoring-apps/data-editor/what-is-a-data-source.md)
@@ -74,25 +73,21 @@
     * [Trend](authoring-apps/story-designer/visualizations/trend.md)
     * [Image \(coming soon\)](authoring-apps/story-designer/visualizations/image.md)
 * [Publish and Share](authoring-apps/publish-and-share/README.md)
-  * [Editing & Publishing](authoring-apps/publish-and-share/editing-and-publishing/README.md)
-    * [Publishing an App](authoring-apps/publish-and-share/editing-and-publishing/publishing-an-app.md)
-    * [Making Changes to an App](authoring-apps/publish-and-share/editing-and-publishing/making-changes-to-an-app.md)
-    * [Discard Changes to an App](authoring-apps/publish-and-share/editing-and-publishing/discard-changes-to-an-app.md)
-    * [Multiple Authors \(coming soon\)](authoring-apps/publish-and-share/editing-and-publishing/multiple-authors-coming-soon.md)
-  * [Sharing & Access Controls](authoring-apps/publish-and-share/sharing-and-access-controls/README.md)
-    * [App Access Link](authoring-apps/publish-and-share/sharing-and-access-controls/app-access-link.md)
-    * [Email Domain Control](authoring-apps/publish-and-share/sharing-and-access-controls/email-domain-control.md)
+  * [Editing & Publishing](authoring-apps/publish-and-share/editing-and-publishing.md)
+  * [Sharing & Access Controls](authoring-apps/publish-and-share/sharing-and-access-controls.md)
 * [Design Tips](authoring-apps/design-tips/README.md)
   * [Telling Data Stories](authoring-apps/design-tips/telling-data-stories.md)
-  * [Visual Design](authoring-apps/design-tips/visual-design/README.md)
-    * [Layouts](authoring-apps/design-tips/visual-design/layouts.md)
-    * [Colors](authoring-apps/design-tips/visual-design/colors.md)
-    * [Images](authoring-apps/design-tips/visual-design/images.md)
+  * [Visual Design](authoring-apps/design-tips/visual-design.md)
 * [Defining Data Ingredients](authoring-apps/defining-data-ingredients.md)
+
+## Viewing Apps
+
+* [Navigating apps](viewing-apps/navigating-apps.md)
+* [Filtering](viewing-apps/filtering.md)
 
 ## Managing Apps
 
-* [Sharing Apps](managing-apps/sharing-apps-1.md)
+* [Sharing Apps](managing-apps/sharing-apps.md)
 * [Usage Reporting](managing-apps/usage-reporting.md)
 * [User Management & Roles](managing-apps/user-management-and-roles.md)
 

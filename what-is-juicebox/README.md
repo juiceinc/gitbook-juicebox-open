@@ -12,13 +12,13 @@ So what makes up a Juicebox app? Each app has the following parts that flow in a
 * Each [**section**](../authoring-apps/story-designer/story-sections/) is composed of one or more slices. Sections allow you to control layouts and background colors within the story.
 * \*\*\*\*[**Slices**](../authoring-apps/story-designer/slices/) are the basic building block of your story. Each slice can have text and/or visualizations. 
 
-![Parts of a Juicebox app](../.gitbook/assets/image%20%282%29.png)
+![Parts of a Juicebox app](../.gitbook/assets/image%20%287%29.png)
 
 ## Juicebox magic
 
 We've built a lot of magic into the Juicebox platform, including:
 
-* **No code required**. You can build a Juicebox app entirely from your browser using the [Editing Panel](../authoring-apps/editing-panel-a-quick-tour.md). If you know how to create a formula in a spreadsheet, you are ready to start building apps. 
+* **No code required**. You can build a Juicebox app entirely from your browser using the [Editing Panel](../authoring-apps/creating-and-editing/edit-existing-app/editing-panel-a-quick-tour.md). If you know how to create a formula in a spreadsheet, you are ready to start building apps. 
 * **Interactivity is automatic**. Selections made in slices above _automatically_ flow down to the slices below, allowing users to drill down and drive the story where they want to go. We call this [data flow](data-flow.md).
-* **Sharing is the point**. Juicebox apps are meant to be [shared](../managing-apps/sharing-apps-1.md)--easily, widely, and without budget stress. 
+* **Sharing is the point**. Juicebox apps are meant to be [shared](../authoring-apps/publish-and-share/sharing-and-access-controls.md)--easily, widely, and without budget stress. 
 

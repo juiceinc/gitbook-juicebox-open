@@ -4,15 +4,15 @@
 
 To add a new app,  select the `+ New App` button from \[the Apps Home page\]:
 
-![+ New App from Apps Home page](../../.gitbook/assets/image%20%281%29.png)
+![+ New App from Apps Home page](../../.gitbook/assets/image%20%286%29.png)
 
 or select the `+ New App` item from the \[Apps dropdown\] from within an app:
 
-![+ New App from Apps dropdown](../../.gitbook/assets/image%20%288%29.png)
+![+ New App from Apps dropdown](../../.gitbook/assets/image%20%2813%29.png)
 
 The App Creation Wizard will walk you through creating your app.
 
-![App Creation Wizard](../../.gitbook/assets/image%20%285%29.png)
+![App Creation Wizard](../../.gitbook/assets/image%20%2810%29.png)
 
 
 
