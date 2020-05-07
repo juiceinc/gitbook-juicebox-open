@@ -72,7 +72,7 @@
     * [Map](authoring-apps/story-designer/visualizations/map.md)
     * [Trend](authoring-apps/story-designer/visualizations/trend.md)
     * [Image \(coming soon\)](authoring-apps/story-designer/visualizations/image.md)
-* [Publish and Share](authoring-apps/publish-and-share/README.md)
+* [Publish & Share](authoring-apps/publish-and-share/README.md)
   * [Editing & Publishing](authoring-apps/publish-and-share/editing-and-publishing.md)
   * [Sharing & Access Controls](authoring-apps/publish-and-share/sharing-and-access-controls.md)
 * [Design Tips](authoring-apps/design-tips/README.md)

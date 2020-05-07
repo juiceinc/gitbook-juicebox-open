@@ -1,4 +1,4 @@
-# Publish and Share
+# Publish & Share
 
 There are multiple sections about Sharing. Should there only be one?
 
