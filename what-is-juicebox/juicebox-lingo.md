@@ -2,9 +2,9 @@
 
 A glossary of Juicebox terminology
 
-#### Access links
+Access links
 
-#### App
+App
 
 App editor
 
@@ -33,6 +33,8 @@ Slice
 Story
 
 Viewer
+
+Visualization
 
 
 
