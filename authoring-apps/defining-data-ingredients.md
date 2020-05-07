@@ -1,4 +1,4 @@
-# Defining Measures and Dimension
+# Defining Data Ingredients
 
 ```text
 full_name:
@@ -17,7 +17,7 @@ avg_sales_per_salesperson:
 
 As of Juicebox 3.49, When you upload a CSV you will get a version 2 data source.
 
-What’s new in version 2? "Automagically" defined ingredients get singular, plural, icon and format added. If the field is a string, date or boolean, it will get created as a Dimension, otherwise as Measure. In version 2 data sources, the terms Metric and Measure are interchangable.
+What’s new in version 2? "Automagically" defined data ingredients get singular, plural, icon and format added. If the field is a string, date or boolean, it will get created as a Dimension, otherwise as Measure. In version 2 data sources, the terms Metric and Measure are interchangable.
 
 Here’s an example of what you might get.
 

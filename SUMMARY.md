@@ -88,26 +88,26 @@
     * [Layouts](authoring-apps/design-tips/visual-design/layouts.md)
     * [Colors](authoring-apps/design-tips/visual-design/colors.md)
     * [Images](authoring-apps/design-tips/visual-design/images.md)
-* [Defining Measures and Dimension](authoring-apps/more-about-measures-and-dimension.md)
+* [Defining Data Ingredients](authoring-apps/defining-data-ingredients.md)
 
-## App Management
+## Managing Apps
 
-* [Sharing Apps](app-management/sharing-apps-1.md)
-* [Usage Reporting](app-management/usage-reporting.md)
-* [User Management & Roles](app-management/user-management-and-roles.md)
+* [Sharing Apps](managing-apps/sharing-apps-1.md)
+* [Usage Reporting](managing-apps/usage-reporting.md)
+* [User Management & Roles](managing-apps/user-management-and-roles.md)
 
-## Client Management \(Coming Soon!\)
+## Managing your account \(Coming Soon!\) <a id="account-management"></a>
 
-* [Subscription & Billing](client-management-coming-soon/untitled.md)
-* [Settings](client-management-coming-soon/settings/README.md)
-  * [Name](client-management-coming-soon/settings/name.md)
-  * [Domain](client-management-coming-soon/settings/domain.md)
-  * [Access Controls](client-management-coming-soon/settings/access-controls/README.md)
-    * [App Access Links](client-management-coming-soon/settings/access-controls/app-access-links.md)
-    * [Email Domain Control](client-management-coming-soon/settings/access-controls/email-domain-control.md)
-* [Managing Users](client-management-coming-soon/managing-users/README.md)
-  * [Client Owner](client-management-coming-soon/managing-users/client-owner.md)
-  * [Client Admin](client-management-coming-soon/managing-users/client-admin.md)
-  * [Author](client-management-coming-soon/managing-users/author.md)
-  * [Viewer](client-management-coming-soon/managing-users/viewer.md)
+* [Subscription & Billing](account-management/untitled.md)
+* [Settings](account-management/settings/README.md)
+  * [Name](account-management/settings/name.md)
+  * [Domain](account-management/settings/domain.md)
+  * [Access Controls](account-management/settings/access-controls/README.md)
+    * [App Access Links](account-management/settings/access-controls/app-access-links.md)
+    * [Email Domain Control](account-management/settings/access-controls/email-domain-control.md)
+* [Managing Users](account-management/managing-users/README.md)
+  * [Client Owner](account-management/managing-users/client-owner.md)
+  * [Client Admin](account-management/managing-users/client-admin.md)
+  * [Author](account-management/managing-users/author.md)
+  * [Viewer](account-management/managing-users/viewer.md)
 
