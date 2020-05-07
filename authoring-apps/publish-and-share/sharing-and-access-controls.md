@@ -1,6 +1,6 @@
 # Sharing & Access Controls
 
-Once you've built your app, it's time to share it! Sharing is down through access links. You can allow anyone with the link to view the app or you can limit access to a specific email domain. 
+Once you've built your app, it's time to share it! Sharing is done through access links. By default, anyone who clicks the an access link can get access to view the app. Optionally, you can set email domain control, which limits access to only those people with email addresses having a specific email domain.
 
 ## Access links
 
