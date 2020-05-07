@@ -31,7 +31,7 @@ Because sections can get quite long, reordering will be easier if you collapse y
 
 You can control how slices are laid out within a section. By default, the section will display slices vertically, with the first slice displaying at the top and each additional slice displaying underneath the previous slice. You can opt to change this layout to horizontal, with the first slice displaying on the left and each additional slice displaying to the right of the previous slice. 
 
-![](../../../.gitbook/assets/image%20%285%29.png)
+![](../../.gitbook/assets/image%20%285%29.png)
 
 To change the section layout, hover over the section header until you see the layout icon \(\[insert icon\] or \[insert icon\]\). Click the layout icon and select either horizontal or vertical. 
 

@@ -2,7 +2,7 @@
 description: Customize and save your app settings.
 ---
 
-# Settings
+# App Settings
 
 ## App Info
 
