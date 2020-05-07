@@ -10,7 +10,7 @@ After publishing your app for the first time, Publish & Share will look like thi
 
 ![Publish &amp; Share after publishing](../../.gitbook/assets/image%20%281%29.png)
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 ## Making changes to an app
 
@@ -30,7 +30,5 @@ Because all changes are saved to the draft version until they are published, you
 
 If at some point you want to discard all the changes in the draft version, you can do this by **\[how?\]**.
 
-## Multiple authors
-
-\(Coming soon\)
+## Multiple authors \(coming soon!\)
 

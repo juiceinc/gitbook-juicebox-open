@@ -3,7 +3,6 @@
 * [Juicebox Documentation](README.md)
 * [What is Juicebox?](what-is-juicebox/README.md)
   * [An example app](what-is-juicebox/example-app-world-happiness.md)
-  * [Data flow](what-is-juicebox/data-flow.md)
 
 ## Getting Started
 
@@ -44,13 +43,7 @@
   * [What is a Story?](authoring-apps/story-designer/what-is-a-story.md)
   * [Story Settings](authoring-apps/story-designer/story-settings.md)
   * [Sections](authoring-apps/story-designer/story-sections/README.md)
-    * [What are Sections?](authoring-apps/story-designer/story-sections/what-are-sections.md)
-    * [Adding or Deleting Sections](authoring-apps/story-designer/story-sections/adding-or-deleting-sections.md)
-    * [Reordering Sections](authoring-apps/story-designer/story-sections/reordering-sections.md)
-    * [Section Layouts](authoring-apps/story-designer/story-sections/section-layouts/README.md)
-      * [Layouts \(FIX IMAGES\)](authoring-apps/story-designer/story-sections/section-layouts/layouts.md)
     * [Section Background Color](authoring-apps/story-designer/story-sections/section-background-color.md)
-    * [Section Background Image \(coming soon\)](authoring-apps/story-designer/story-sections/section-background-image-coming-soon.md)
   * [Slices](authoring-apps/story-designer/slices/README.md)
     * [What are Slices?](authoring-apps/story-designer/slices/what-are-slices.md)
     * [Adding or Deleting Slices](authoring-apps/story-designer/slices/adding-or-deleting-slices.md)
@@ -83,7 +76,7 @@
 ## Viewing Apps
 
 * [Navigating apps](viewing-apps/navigating-apps.md)
-* [Filtering](viewing-apps/filtering.md)
+* [Data flow](viewing-apps/data-flow.md)
 
 ## Managing Apps
 
