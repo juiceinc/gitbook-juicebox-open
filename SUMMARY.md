@@ -88,7 +88,7 @@
     * [Layouts](authoring-apps/design-tips/visual-design/layouts.md)
     * [Colors](authoring-apps/design-tips/visual-design/colors.md)
     * [Images](authoring-apps/design-tips/visual-design/images.md)
-* [More About Measures and Dimension](authoring-apps/more-about-measures-and-dimension.md)
+* [Defining Measures and Dimension](authoring-apps/more-about-measures-and-dimension.md)
 
 ## App Management
 
