@@ -26,8 +26,6 @@ Data ingredient
 
 Data source
 
-Email domain control
-
 Section
 
 Slice
