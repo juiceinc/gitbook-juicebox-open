@@ -3,6 +3,7 @@
 * [Juicebox Documentation](README.md)
 * [What is Juicebox?](what-is-juicebox/README.md)
   * [An example app](what-is-juicebox/example-app-world-happiness.md)
+  * [Juicebox lingo](what-is-juicebox/juicebox-lingo.md)
 
 ## Getting Started
 
