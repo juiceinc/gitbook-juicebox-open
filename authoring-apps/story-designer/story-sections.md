@@ -37,7 +37,7 @@ To change the section layout, hover over the section header until you see the la
 
 ## Section background color
 
-By default the section background color will be white. You can change this by clicking the paint drop icon \(\[insert icon\]\). From there, you can select one of the pre-set colors or enter a the hex code for the color of your choice.
+By default the section background color will be white. You can change this by clicking the paint drop![](../../.gitbook/assets/image%20%289%29.png)in the section header. From there, you can select one of the pre-set colors or enter a the hex code for the color of your choice.
 
 ## Section background image \(coming soon!\)
 
