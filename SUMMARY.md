@@ -78,7 +78,7 @@
 * [Design Tips](authoring-apps/design-tips/README.md)
   * [Telling Data Stories](authoring-apps/design-tips/telling-data-stories.md)
   * [Visual Design](authoring-apps/design-tips/visual-design.md)
-* [Defining Data Ingredients](authoring-apps/defining-data-ingredients.md)
+* [Creating Advanced Data Ingredients](authoring-apps/creating-data-ingredients.md)
 
 ## Viewing Apps
 

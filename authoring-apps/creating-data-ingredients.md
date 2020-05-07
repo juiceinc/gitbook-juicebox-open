@@ -1,19 +1,8 @@
-# Defining Data Ingredients
+---
+description: How to use formulas to create advanced data ingredients.
+---
 
-```text
-full_name:
-  kind: Dimension
-  field: first_name + " " + last_name
-avg_sales:
-  kind: Measure
-  field: avg(sales_dollars)
-sales_tax:
-  kind: Measure
-  field: sum(total_revenue*0.0725)
-avg_sales_per_salesperson:
-  kind: Measure
-  field: sum(total_sales) / count_distinct(salesperson_id)
-```
+# Creating Advanced Data Ingredients
 
 As of Juicebox 3.49, When you upload a CSV you will get a version 2 data source.
 

@@ -8,7 +8,7 @@ A **measure** is a value calculated over a group of data records. A **dimension*
 The word **aggregation** means "a group of data records." So you can also say that a measure is a value calculated for an aggregation, and a dimension is a value used to define an aggregation. 
 {% endhint %}
 
-Perfectly clear, right? If not, you're not alone. We find the best way to understand the distinction between measures and dimensions is to work with [some examples](../../../defining-data-ingredients.md). 
+Perfectly clear, right? If not, you're not alone. We find the best way to understand the distinction between measures and dimensions is to work with [some examples](../../../creating-data-ingredients.md). 
 
 ## Measures
 
