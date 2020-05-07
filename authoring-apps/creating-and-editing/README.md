@@ -16,7 +16,7 @@ The App Creation Wizard will walk you through creating your app.
 
 ![App Creation Wizard](../../.gitbook/assets/image%20%2812%29.png)
 
-## Edit an existing app
+## Edit an app
 
 ## Delete an app
 
