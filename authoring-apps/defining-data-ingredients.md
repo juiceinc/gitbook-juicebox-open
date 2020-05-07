@@ -92,9 +92,9 @@ shelf = {
 }
 ```
 
-### What’s new? Formulas! 
+### What’s new? Formulas 
 
-Just like the ingredients you’re used to, database columns are always referenced by a string. You can perform math on these columns as well as use aggregation functions like count, count\_distinct, sum, min, and max. If your database backend is Redshift \(or postgres\), you can also calculate percentiles and median with functions. If you divide; you’ll get a SQL-safe division \(which prevents divide by zeros\). If you divide by zero you’ll get a null.
+Database columns are always referenced by a string. You can perform math on these columns as well as use aggregation functions like **count**, **count\_distinct**, **sum**, **min**, and **max**. If your database backend is Redshift \(or postgres\), you can also calculate percentiles and median with functions. If you divide two values; you’ll get a SQL-safe division \(which prevents divide by zeros\). If you divide by zero, you’ll get a null.
 
 You can also define strings, using double quotes, numbers and lists.
 
