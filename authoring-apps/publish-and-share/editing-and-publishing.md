@@ -14,7 +14,7 @@ After publishing your app for the first time, Publish & Share will look like thi
 
 ## Making changes to an app
 
-Any changes you make to an app are automatically saved to a draft version of the app that only Authors can see. Viewers will not see your changes until you publish them. You publish, refine your app as a draft, republish, refine some more, republish, and so on. In this way, you can continually improve and experiment with your app without negatively impacting Viewers. 
+Any changes you make to an app are automatically saved to a draft version of the app that only Authors can see. Viewers will not see your changes until you publish them. You publish, refine your app, republish, refine some more, republish, and so on. In this way, you can continually improve and experiment with your app without disturbing Viewers. 
 
 Because all changes are saved to the draft version until they are published, you do not have to keep track of whether you are working in the draft version. But here are indicators that you are in the draft version:
 
