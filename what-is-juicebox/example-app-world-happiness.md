@@ -1,4 +1,4 @@
-# Example App: World Happiness
+# An example app
 
 Throughout this documentation, we will use an example app, [the World Happiness app](www.example.com), to demonstrate how to build an app using the Juicebox platform and how to use a Juicebox app once it's built. 
 

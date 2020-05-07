@@ -2,11 +2,8 @@
 
 * [Juicebox Documentation](README.md)
 * [What is Juicebox?](what-is-juicebox/README.md)
-  * [Example App: World Happiness](what-is-juicebox/example-app-world-happiness.md)
-  * [Data Flow \[Interactivity?\]](what-is-juicebox/data-flow.md)
-  * [Navigating Apps](what-is-juicebox/navigating-apps.md)
-  * [Sharing Apps](what-is-juicebox/sharing-apps.md)
-  * [Layouts \(FIX IMAGES\)](what-is-juicebox/layouts.md)
+  * [An example app](what-is-juicebox/example-app-world-happiness.md)
+  * [Data flow](what-is-juicebox/data-flow.md)
 
 ## Getting Started
 
@@ -14,11 +11,13 @@
 * [Creating a Juicebox Client](getting-started/creating-a-juicebox-client/README.md)
   * [Signing Up](getting-started/creating-a-juicebox-client/signing-up.md)
 * [Joining a Juicebox Client](getting-started/joining-a-juicebox-client/README.md)
+  * [Navigating apps](getting-started/joining-a-juicebox-client/navigating-apps.md)
   * [Joining as a Viewer](getting-started/joining-a-juicebox-client/viewing-apps.md)
   * [Joining as an Author](getting-started/joining-a-juicebox-client/joining-as-an-author.md)
 
 ## Authoring Apps
 
+* [Editing panel: a quick tour](authoring-apps/editing-panel-a-quick-tour.md)
 * [Creating and Editing](authoring-apps/creating-and-editing/README.md)
   * [Add a New App](authoring-apps/creating-and-editing/add-new-app.md)
   * [Edit an App](authoring-apps/creating-and-editing/edit-existing-app.md)
@@ -49,7 +48,8 @@
     * [What are Sections?](authoring-apps/story-designer/story-sections/what-are-sections.md)
     * [Adding or Deleting Sections](authoring-apps/story-designer/story-sections/adding-or-deleting-sections.md)
     * [Reordering Sections](authoring-apps/story-designer/story-sections/reordering-sections.md)
-    * [Section Layouts](authoring-apps/story-designer/story-sections/section-layouts.md)
+    * [Section Layouts](authoring-apps/story-designer/story-sections/section-layouts/README.md)
+      * [Layouts \(FIX IMAGES\)](authoring-apps/story-designer/story-sections/section-layouts/layouts.md)
     * [Section Background Color](authoring-apps/story-designer/story-sections/section-background-color.md)
     * [Section Background Image \(coming soon\)](authoring-apps/story-designer/story-sections/section-background-image-coming-soon.md)
   * [Slices](authoring-apps/story-designer/slices/README.md)
@@ -92,7 +92,7 @@
 
 ## App Management
 
-* [Sharing Apps](app-management/sharing-apps.md)
+* [Sharing Apps](app-management/sharing-apps-1.md)
 * [Usage Reporting](app-management/usage-reporting.md)
 * [User Management & Roles](app-management/user-management-and-roles.md)
 

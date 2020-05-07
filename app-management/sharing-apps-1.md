@@ -1,7 +1,5 @@
 # Sharing Apps
 
-**\[There is a separate section for this under App Management. Move this there. Instead, have a quick blurb about the fact that you can share on the What is Juicebox page?\]**
-
 Once you've built your app, it's time to share it! There are two ways to share apps: access links and email domain control.
 
 ## Sharing by access links

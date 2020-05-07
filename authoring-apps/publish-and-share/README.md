@@ -2,7 +2,7 @@
 
 There are multiple sections about Sharing. Should there only be one?
 
-See here, [here](../../what-is-juicebox/sharing-apps.md),  [here](../../app-management/sharing-apps.md), and [here](../../client-management-coming-soon/settings/access-controls/).
+See here, [here](../../app-management/sharing-apps-1.md),  [here](), and [here](../../client-management-coming-soon/settings/access-controls/).
 
 
 
