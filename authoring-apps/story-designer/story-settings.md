@@ -2,7 +2,7 @@
 
 At the top of the Story Designer, you’ll see the Story Settings. 
 
-![\[Replace image\] Story Settings](../../.gitbook/assets/image%20%2811%29.png)
+![\[Replace image\] Story Settings](../../.gitbook/assets/image%20%2812%29.png)
 
 Here you can configure the story's title, description, color, and other options. 
 

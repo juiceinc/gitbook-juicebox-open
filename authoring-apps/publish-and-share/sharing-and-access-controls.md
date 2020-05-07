@@ -6,7 +6,7 @@ Once you've built your app, it's time to share it! There are two ways to share a
 
 To share using access links, you first generate an access link and then share the link with anybody you want to see the app. Access links give access to anyone clicking the link, but to a certain maximum. Once the maximum is reached, no additional users will get access until you regenerate the access link. 
 
-![Access links\[REPLACE\]](../../.gitbook/assets/image%20%288%29.png)
+![Access links\[REPLACE\]](../../.gitbook/assets/image%20%289%29.png)
 
 If an existing Juicebox user clicks the link, the app will be added to the user's available apps. If a person clicks the link who is not already a Juicebox user, the person will be invited to set up a user account first and, after account setup, be given access to the app.
 
@@ -14,5 +14,5 @@ If an existing Juicebox user clicks the link, the app will be added to the user'
 
 Sharing by email domain control gives everyone with an email address having that domain access to the app. For example, if you set up email domain control for acme.com, everyone with an @acme.com email address will have access to the app after setting up their Juicebox user account. 
 
-![Email domain control \[REPLACE\]](../../.gitbook/assets/image%20%288%29.png)
+![Email domain control \[REPLACE\]](../../.gitbook/assets/image%20%289%29.png)
 

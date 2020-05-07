@@ -10,7 +10,7 @@ After publishing your app for the first time, Publish & Share will look like thi
 
 ![Publish &amp; Share after publishing](../../.gitbook/assets/image%20%281%29.png)
 
-
+![](../../.gitbook/assets/image%20%287%29.png)
 
 ## Making changes to an app
 
