@@ -8,7 +8,7 @@ To add a new app,  select the `+ New App`  button from the Apps page:
 
 ![+ New App from Apps Home page](../../.gitbook/assets/image%20%287%29.png)
 
-or select the `+ New App` item from the \[Apps dropdown\] from within an app:
+or select  `+ New App` from the dropdown in the app header:
 
 ![+ New App from Apps dropdown](../../.gitbook/assets/image%20%2816%29.png)
 
