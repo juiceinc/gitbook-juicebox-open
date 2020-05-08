@@ -1,4 +1,4 @@
 # Visualizations
 
-See [this](../visualizations/)
+See [this](../charts/)
 

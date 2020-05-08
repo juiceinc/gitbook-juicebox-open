@@ -1,4 +1,4 @@
-# Define Data Ingredients
+# Define data ingredients
 
 * What are they?
   * Measure

@@ -1,6 +1,6 @@
-# What are Data Ingredients?
+# What are data ingredients?
 
-**Data ingredients** are the data elements that are used to construct your visualizations. There are two main types of ingredients: **measures** and **dimensions**. 
+**Data ingredients** are the data elements that are used to construct your chart. There are two main types of ingredients: **measures** and **dimensions**. 
 
 A **measure** is a value calculated over a group of data records. A **dimension** is a value used to define a group of data records. 
 
@@ -16,7 +16,7 @@ A **measure** is a value calculated over a group of data records. Average sales,
 
 In defining measures, you can use the following formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify a formula in the measure definition, then `sum()` will be implied.
 
-You can combine formulas and field math together to create complex measures, such as weighted averages. These are covered in [Advanced Ingredients](v2-syntax.md).
+You can combine formulas and field math together to create complex measures, such as weighted averages. These are covered in [Advanced Ingredients](advanced-ingredients.md).
 
 ## Dimensions
 
@@ -24,9 +24,9 @@ A **dimension** is a value used to define a group of data records. Students, sta
 
 There are two special kinds of dimensions: **place** dimensions and **time** dimensions. 
 
-A **place** dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions can be used with the Map slice. 
+A **place** dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions can be used with the [Map](../../../story-designer/charts/map.md) chart. 
 
-A **time** dimension is a dimension that is a date **\[or datetime?**\]. Time dimensions can be used with the Trend slice. 
+A **time** dimension is a dimension that is a date **\[or datetime?**\]. Time dimensions can be used with the [Trend](../../../story-designer/charts/trend.md) chart. 
 
 
 

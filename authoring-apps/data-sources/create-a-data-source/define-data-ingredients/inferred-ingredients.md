@@ -1,6 +1,6 @@
-# Inferred Ingredients
+# Inferred ingredients
 
-Juicebox will create an initial set of ingredients from your loaded data that you can then revise according to your needs. It does this by taking the first \[1000\] records \(i.e., rows\), reviewing the values in each column, and creating an ingredient for each column as follows:
+Juicebox will create an initial set of ingredients from your loaded data that you can then revise according to your needs. It does this by taking the first **\[1000\]** records \(i.e., rows\), reviewing the values in each column, and creating an ingredient for each column as follows:
 
 * If the column contains only numeric values \(either integers or floats\), a **measure** ingredient will be inferred.
 * If the column contains only date values \(formatted like MM/DD/YYYY or YYYY-MM-DD\), a **time dimension** ingredient will be inferred.

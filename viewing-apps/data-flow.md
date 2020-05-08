@@ -6,7 +6,7 @@ Selections made in a story automatically drive how the story progresses. This is
 
 Selections in a slice will automatically filter downstream slices. This allows users to drill down on the data that is relevant to their problem. 
 
-In the example below, there are two slices. The top slice has a [**bar**](../authoring-apps/story-designer/visualizations/ranked-list.md) visualization that shows regions ****ranked by **\[Y\]**, and the bottom slice has a [**leaderboard**](../authoring-apps/story-designer/visualizations/leaderboard.md) visualization that shows which countries lead across multiple measures. Notice that when nothing is selected in the bar visualization, the leaderboard shows the leaders across all countries. But when a particular region is selected in the bar visualization \(i.e., Western Europe\), the leaderboard only ranks countries within the selected region. 
+In the example below, there are two slices. The top slice has a [**bar**](../authoring-apps/story-designer/charts/ranked-list.md) visualization that shows regions ****ranked by **\[Y\]**, and the bottom slice has a [**leaderboard**](../authoring-apps/story-designer/charts/leaderboard.md) visualization that shows which countries lead across multiple measures. Notice that when nothing is selected in the bar visualization, the leaderboard shows the leaders across all countries. But when a particular region is selected in the bar visualization \(i.e., Western Europe\), the leaderboard only ranks countries within the selected region. 
 
 ![Selections in slices above filter slices below](../.gitbook/assets/data_flow_viz.gif)
 

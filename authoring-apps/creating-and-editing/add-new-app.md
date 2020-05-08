@@ -1,4 +1,4 @@
-# Add a New App
+# Add a new app
 
 **Add a New App**
 

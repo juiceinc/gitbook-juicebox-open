@@ -1,2 +1,2 @@
-# Connect to Database Table \(coming soon\)
+# Connect to a database table \(coming soon!\)
 

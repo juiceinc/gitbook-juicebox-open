@@ -1,40 +1,40 @@
 # Juicebox lingo
 
-A glossary of Juicebox terminology
+## A glossary of Juicebox terminology
 
-Access links
+### Access link
 
-App
+### App
 
-App editor
+### App editor
 
-App header
+### App header
 
-Apps page
+### Apps page
 
-Author
+### Author
 
-Client
+### Chart
 
-Client owner
+### Client
 
-Client admin
+### Client owner
 
-Data connection
+### Client admin
 
-Data ingredient
+### Data connection
 
-Data source
+### Data ingredient
 
-Section
+### Data source
 
-Slice
+### Section
 
-Story
+### Slice
 
-Viewer
+### Story
 
-Visualization
+### Viewer
 
 
 

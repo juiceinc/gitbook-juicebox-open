@@ -1,4 +1,4 @@
-# Load Your Data
+# Load your data
 
 There are  3 methods:
 

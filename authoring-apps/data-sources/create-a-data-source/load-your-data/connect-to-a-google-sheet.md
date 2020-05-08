@@ -1,2 +1,2 @@
-# Connect to a Google Sheet \(coming soon\)
+# Connect to a Google Sheet \(coming soon!\)
 

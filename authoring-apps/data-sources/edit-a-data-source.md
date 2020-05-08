@@ -1,4 +1,4 @@
-# Edit a Data Source
+# Edit a data source
 
 * Updating data
 * Updating ingredients

@@ -1,2 +1,2 @@
-# Example Ingredients
+# Example ingredients
 

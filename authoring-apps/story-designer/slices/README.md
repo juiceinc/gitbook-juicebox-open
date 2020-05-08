@@ -7,7 +7,7 @@
   * Text
     * Markdown
     * HTML / embedding
-  * Visualizations
+  * Charts
   * Slice Layouts
   * Reordering
   * Duplicate

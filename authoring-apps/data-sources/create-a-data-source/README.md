@@ -1,4 +1,4 @@
-# Add a Data Source
+# Add a data source
 
 There are 2 main steps to adding a data source:
 

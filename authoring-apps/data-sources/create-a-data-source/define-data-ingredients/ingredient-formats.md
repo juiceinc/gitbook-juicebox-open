@@ -1,2 +1,2 @@
-# Ingredient Formats
+# Ingredient formats
 
