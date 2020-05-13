@@ -74,7 +74,7 @@
 ## Managing Apps
 
 * [Sharing Apps](managing-apps/sharing-apps.md)
-* [Usage Reporting](managing-apps/usage-reporting.md)
+* [Usage Reporting \(coming soon!\)](managing-apps/usage-reporting.md)
 * [User Management & Roles](managing-apps/user-management-and-roles.md)
 
 ## Managing your account \(Coming Soon!\) <a id="account-management"></a>
