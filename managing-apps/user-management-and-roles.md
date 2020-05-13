@@ -14,11 +14,13 @@ Authors can create new apps and make changes to apps they've created or apps for
 
 ### Client Admins
 
-Client admins can create new apps and make changes to any app. Admins can invite new viewers to apps and manage user roles for any app. Admins can also generate and re-generate access links and set email domain control for apps. 
+Client admins can create new apps and make changes to any app. 
 
-### Client Owners
+Coming soon, admins will be able to access the user management view, from which admins can manage user roles for any app, generate and re-generate access links, and set email domain control for apps. 
 
-Client owners can do everything client admins can do plus adjust the billing plan and payment information. **\[There is only one client owner for a Juicebox client.\]**
+### Client Owners \(coming soon!\)
+
+Coming soon, client owners will be able to do everything client admins can do plus adjust the billing plan and payment information from the **\[account management view\]**. **\[There is only one client owner for a Juicebox client.\]**
 
 ## User Management \(coming soon!\)
 
