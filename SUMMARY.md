@@ -8,11 +8,6 @@
 ## Getting Started
 
 * [Getting Started with Juicebox](getting-started/intro-to-juicebox.md)
-* [Creating a Juicebox Client](getting-started/creating-a-juicebox-client/README.md)
-  * [Signing Up](getting-started/creating-a-juicebox-client/signing-up.md)
-* [Joining a Juicebox Client](getting-started/joining-a-juicebox-client/README.md)
-  * [Joining as a Viewer](getting-started/joining-a-juicebox-client/viewing-apps.md)
-  * [Joining as an Author](getting-started/joining-a-juicebox-client/joining-as-an-author.md)
 
 ## Authoring Apps
 
