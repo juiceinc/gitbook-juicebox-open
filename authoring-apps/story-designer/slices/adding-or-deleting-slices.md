@@ -1,2 +1,2 @@
-# Adding or Deleting Slices
+# Adding or deleting slices
 

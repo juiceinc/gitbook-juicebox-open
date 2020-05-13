@@ -1,4 +1,4 @@
 # Usage Reporting \(coming soon!\)
 
-From the \[user management view\], client owners and client admins will be able to see 
+Coming soon, client owners and client admins will be able to see the total number of users and download usage reports for each app from the **\[user management view\]**. 
 

@@ -1,2 +1,2 @@
-# Duplicating Slices \(coming soon\)
+# Duplicating slices \(coming soon!\)
 

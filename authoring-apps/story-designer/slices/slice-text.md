@@ -1,4 +1,4 @@
-# Slice Text
+# Slice text
 
 * Markdown
 * HTML / embedding

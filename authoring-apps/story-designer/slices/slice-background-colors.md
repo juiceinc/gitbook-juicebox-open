@@ -1,2 +1,2 @@
-# Slice Background Colors
+# Slice background colors
 

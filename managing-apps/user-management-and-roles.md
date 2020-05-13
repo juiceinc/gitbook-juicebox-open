@@ -10,11 +10,11 @@ Viewers can view the apps they've been given access to. They cannot see apps the
 
 ### Authors
 
-Authors can create new apps and make changes to apps they've created or apps for which they've been made an author.  Authors can also invite new viewers to their apps by sharing access links. 
+Authors can author new apps and make changes to apps they've created or apps for which they've been made an author.  Authors can also invite new viewers to their apps by sharing access links. 
 
 ### Client Admins
 
-Client admins can create new apps and make changes to any app. 
+Client admins can author new apps and make changes to any app. 
 
 Coming soon, admins will be able to access the **\[user management view\]**, from which admins can manage user roles for any app, generate and re-generate access links, and set email domain control for apps. 
 

@@ -1,4 +1,4 @@
-# Slice Layouts
+# Slice layouts
 
 Within a Card, you have the option to layout the text and visualization in four ways:  
 

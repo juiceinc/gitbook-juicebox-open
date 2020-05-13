@@ -1,20 +1,18 @@
 # Creating and Editing
 
-To create new apps and edit existing apps, a user must be an Author. 
+To create new apps or edit existing apps, a user must be an author for the app, or a client admin or client owner.  
 
 ## Add a new app
 
-To add a new app,  select the `+ New App`  button from the Apps page:
+To add a new app,  select **+ New App**  from the apps page. You can also select **+ New App** from the dropdown in the app header.  
 
-![+ New App from Apps Home page](../../.gitbook/assets/image%20%287%29.png)
+Selecting **+ New App** will start the app creation wizard, which will walk you through creating your app.
 
-or select  `+ New App` from the dropdown in the app header:
+![App Creation Wizard](../../.gitbook/assets/image%20%2814%29.png)
 
-![+ New App from Apps dropdown](../../.gitbook/assets/image%20%2816%29.png)
+Here's a video showing how the Unhealthy Americans app was created
 
-The App Creation Wizard will walk you through creating your app.
-
-![App Creation Wizard](../../.gitbook/assets/image%20%2813%29.png)
+Once your app is created, you will use the [app editor](app-editor-a-quick-tour.md) to add your data source and design your story.  
 
 ## Edit an app
 

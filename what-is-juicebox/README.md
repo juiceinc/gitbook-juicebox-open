@@ -12,7 +12,7 @@ So what makes up a Juicebox app? Each app has the following parts that flow in a
 * Each [**section**](../authoring-apps/story-designer/story-sections.md) is composed of one or more slices. Sections allow you to control layouts and background colors within the story.
 * \*\*\*\*[**Slices**](../authoring-apps/story-designer/slices/) are the basic building block of your story. Each slice can have text and/or charts. 
 
-![Parts of a Juicebox app](../.gitbook/assets/image%20%2810%29.png)
+![Parts of a Juicebox app](../.gitbook/assets/image%20%2811%29.png)
 
 ## Juicebox magic
 

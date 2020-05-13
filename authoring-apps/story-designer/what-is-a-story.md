@@ -1,2 +1,2 @@
-# What is a Story?
+# What is a story?
 

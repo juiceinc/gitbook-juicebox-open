@@ -1,2 +1,2 @@
-# What are Slices?
+# What are slices?
 

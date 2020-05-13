@@ -1,2 +1,2 @@
-# Reordering
+# Reordering slices
 

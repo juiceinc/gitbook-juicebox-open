@@ -32,9 +32,9 @@
 
 ### Slice
 
-### Story
+### [Story](../authoring-apps/story-designer/what-is-a-story.md)
 
-### Viewer
+### [Viewer](../managing-apps/user-management-and-roles.md#viewers)
 
 
 
