@@ -14,7 +14,6 @@
 * [Creating and Editing](authoring-apps/creating-and-editing.md)
 * [App Settings](authoring-apps/app-settings.md)
 * [Data Sources](authoring-apps/data-sources/README.md)
-  * [What is a data source?](authoring-apps/data-sources/what-is-a-data-source.md)
   * [Add a data source](authoring-apps/data-sources/create-a-data-source/README.md)
     * [Load your data](authoring-apps/data-sources/create-a-data-source/load-your-data/README.md)
       * [Upload a CSV](authoring-apps/data-sources/create-a-data-source/load-your-data/upload-a-csv.md)
