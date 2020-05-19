@@ -11,10 +11,7 @@
 
 ## Authoring Apps
 
-* [Creating and Editing](authoring-apps/creating-and-editing/README.md)
-  * [App editor: a quick tour](authoring-apps/creating-and-editing/app-editor-a-quick-tour.md)
-  * [Add a new app](authoring-apps/creating-and-editing/add-new-app.md)
-  * [Edit an app](authoring-apps/creating-and-editing/edit-app.md)
+* [Creating and Editing](authoring-apps/creating-and-editing.md)
 * [App Settings](authoring-apps/app-settings.md)
 * [Data Sources](authoring-apps/data-sources/README.md)
   * [What is a data source?](authoring-apps/data-sources/what-is-a-data-source.md)

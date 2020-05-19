@@ -8,6 +8,8 @@
 
 ### App editor
 
+### App creation wizard
+
 ### App header
 
 ### Apps page

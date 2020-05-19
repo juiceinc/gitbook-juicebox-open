@@ -18,7 +18,7 @@ So what makes up a Juicebox app? Each app has the following parts that flow in a
 
 We've built a lot of magic into the Juicebox platform, including:
 
-* **No code required**. You can build a Juicebox app entirely from your browser using the [app editor](../authoring-apps/creating-and-editing/app-editor-a-quick-tour.md). If you know how to create a formula in a spreadsheet, you are ready to start building apps. 
+* **No code required**. You can build a Juicebox app entirely from your browser using the [app editor](). If you know how to create a formula in a spreadsheet, you are ready to start building apps. 
 * **Interactivity is automatic**. Selections made in slices above _automatically_ flow down to the slices below, allowing users to drill down and drive the story where they want to go. We call this [data flow](../viewing-apps/data-flow.md).
 * **Sharing is the point**. Juicebox apps are meant to be [shared](../authoring-apps/publish-and-share/sharing-and-access-controls.md)--easily, widely, and without budget stress.
 
