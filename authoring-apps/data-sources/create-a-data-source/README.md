@@ -27,7 +27,7 @@ To connect to a database table or view, click **Connect & Upload Data** and **\[
 
 ## Define your data ingredients
 
-Data ingredients are the basic building block for every chart in your app. So before you can add charts to your app, you'll need to set up ingredients.
+Data ingredients are the basic building block for every chart in your app. So before you can add charts to your app, you'll need ingredients.
 
 ### Initial ingredients
 
