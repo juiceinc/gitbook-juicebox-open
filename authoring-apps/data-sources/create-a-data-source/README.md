@@ -17,6 +17,10 @@ To upload a CSV, click **Connect & Upload Data** and select the CSV file. Then w
 When using CSVs, it is important that your data be nice and clean. Common problem areas include missing data, text values in numeric columns, and leading or trailing spaces. Here are some tips for [preparing your data](../data-outliner-tab/preparing-your-data.md). 
 {% endhint %}
 
+Here's a video showing how to upload a CSV:
+
+
+
 ### Connect to a database table or view
 
 To connect to a database table or view, click **Connect & Upload Data** and **\[TODO\]**.
@@ -27,7 +31,7 @@ To connect to a database table or view, click **Connect & Upload Data** and **\[
 
 ## Define your data ingredients
 
-Data ingredients are the basic building block for every chart in your app. So before you can add charts to your app, you'll need ingredients.
+Data ingredients are the basic building blocks for every chart in your app. So before you can add charts to your app, you'll need ingredients.
 
 ### Initial ingredients
 
