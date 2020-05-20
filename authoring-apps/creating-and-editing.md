@@ -4,9 +4,7 @@ If you're logged in as an author \(or a user with authoring rights\), you're rea
 
 ## Add a new app
 
-To add a new app,  select **+ New App** from the apps page or from the dropdown in the app header. 
-
-Selecting **+ New App** will start the app creation wizard, which walks you through creating your app. Here's a video showing how the Unhealthy Americans app was created:
+To add a new app,  select **+ New App** from the apps page. Selecting **+ New App** will start the app creation wizard, which walks you through creating your app. Here's a video showing how the Unhealthy Americans app was created:
 
 {% embed url="https://www.loom.com/share/e707496dbb55466a97642df54fff6879" %}
 
