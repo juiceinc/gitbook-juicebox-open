@@ -20,7 +20,7 @@ Changes made in the app editor are immediately reflected in the draft app. Chang
 
 ### Accessing the app editor
 
-To access the app editor for an existing app, select **Edit** on the app \(or the pencil icon on the story\) from the apps page, or select **Edit App** in profile dropdown menu from the app header of a published app. 
+To access the app editor for an existing app, select **Edit** on the app \(or the pencil icon on the story\) from the apps page, or select **Edit App** from the profile menu in the app header of a published app. 
 
 ![Accessing the app editors from the apps page](../.gitbook/assets/image%20%2819%29.png)
 
@@ -44,7 +44,7 @@ There are four app editor sections: [App Settings](app-settings.md), [Data Sourc
 
 ## Delete an app
 
-Deleting an app is done from [App Settings](app-settings.md#deleting-an-app). 
+[Deleting an app](app-settings.md#deleting-an-app) is done from App Settings. 
 
 
 
