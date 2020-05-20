@@ -2,13 +2,13 @@
 
 The App Settings section of the app editor is where you set up basic information about your app, including title, description, color, and font. This is also where you can delete an app. To access the App Settings section, select the **Settings** button at the top of the app editor. 
 
-![](../.gitbook/assets/image%20%2820%29.png)
+![Select Settings to access App Settings section](../.gitbook/assets/image%20%2820%29.png)
 
 ## App Info
 
 ### App title
 
-The app title appears on the apps page and in the app URL \(e.g., https://healthyco.juiceboxdata.com/a/unhealthy\_americans\). Aim to keep this short, ideally 1-2 words.
+The app title appears on the apps page and in the app URL \(e.g., https://healthyco.juiceboxdata.com/a/**unhealthy\_americans**\). Aim to keep this short, ideally 1-2 words.
 
 ### App description
 

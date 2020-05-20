@@ -19,7 +19,7 @@ When using CSVs, it is important that your data is nice and clean. Common proble
 
 ### Connect to a database table or view
 
-To connect to a database table or view, click **Connect & Upload Data** and **\[to come\]**.
+To connect to a database table or view, click **Connect & Upload Data** and **\[TODO\]**.
 
 ### Connect to a Google Sheet \(coming soon!\)
 
@@ -27,9 +27,21 @@ To connect to a database table or view, click **Connect & Upload Data** and **\[
 
 ## Define your data ingredients
 
-### Data ingredient components
+Data ingredients are the basic building block for every chart in your app. So before you can add charts to your app, you'll need to set up ingredients.
 
-Each data ingredient has the following components:
+### Initial ingredients
+
+When you load or connect to your data, Juicebox will inspect a sample of your data and create an ingredient for each column in your data based on its best guess. 
+
+* If the column contains only numeric values, a **measure** ingredient will be inferred.
+* If the column contains only date **\[or datetime?\]** values, a **time** dimension ingredient will be inferred.
+* If the column contains values other than numeric or date values, a **dimension** ingredient will be inferred. 
+
+These initial ingredients are just a starting point for you. You can revise them or add new ones. 
+
+### Ingredient components
+
+Each ingredient has the following components:
 
 * name
 * kind

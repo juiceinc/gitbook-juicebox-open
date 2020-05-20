@@ -8,6 +8,8 @@ We are continually updating the documentation to reflect what's new in Juicebox.
 
 If you're looking for information on a specific concept, check out these links for the most commonly used sections of this documentation:
 
+**\[TODO: Confirm these are commonly used sections\]**
+
 {% page-ref page="what-is-juicebox/" %}
 
 {% page-ref page="authoring-apps/data-sources/create-a-data-source/define-data-ingredients/" %}
