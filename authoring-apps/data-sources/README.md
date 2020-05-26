@@ -15,7 +15,7 @@ The data can be a CSV, a table or view in a database, or \(coming soon!\) a Goog
 
 ## Data ingredients
 
-**Data ingredients** \(or just **ingredients**\) are the data elements that are used to construct the charts in your data story. There are two main types of ingredients: **measures** and **dimensions**. 
+**Data ingredients** \(or just **ingredients**\) are the basic building blocks that are used to construct the charts in your data story. There are two main types of ingredients: **measures** and **dimensions**. 
 
 A **measure** is a value calculated over a group of data records. A **dimension** is a value used to define a group of data records. 
 
@@ -35,7 +35,7 @@ Measures are a type of data ingredient. A measure is a value calculated over a g
 
 In defining measures, you can use the following formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify a formula in the measure definition, then `sum()` will be implied.
 
-You can combine formulas and field math together to create complex measures, such as weighted averages. These are covered in [Advanced Ingredients](create-a-data-source/define-data-ingredients/advanced-ingredients.md).
+You can combine formulas and field math together to create complex measures, such as weighted averages. These are covered in [Advanced Ingredients](create-a-data-source/advanced-ingredients.md).
 
 ### Dimensions
 

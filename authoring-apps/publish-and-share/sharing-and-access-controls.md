@@ -12,7 +12,7 @@ If an existing Juicebox user clicks the link, the app will be added to the user'
 
 ## Email domain control
 
-**\[THIS IS NOT RIGHT\]** Sharing by email domain control gives everyone with an email address having that domain access to the app. For example, if you set up email domain control for acme.com, everyone with an @acme.com email address will have access to the app after setting up their Juicebox user account. 
+**\[TODO: THIS IS NOT RIGHT\]** Sharing by email domain control gives everyone with an email address having that domain access to the app. For example, if you set up email domain control for acme.com, everyone with an @acme.com email address will have access to the app after setting up their Juicebox user account. 
 
 ![Email domain control \[REPLACE\]](../../.gitbook/assets/image%20%2812%29.png)
 

@@ -16,7 +16,7 @@ What to avoid? \(i.e. what breaks an upload?\)
 * and more
 
 {% hint style="success" %}
-After loading your data, do a quick review of the [inferred ingredients](../create-a-data-source/define-data-ingredients/inferred-ingredients.md) for anything inferred in an unexpected way. If you spot something unexpected, this indicates an issue with the data. Here are some common examples:
+After loading your data, do a quick review of the [inferred ingredients]() for anything inferred in an unexpected way. If you spot something unexpected, this indicates an issue with the data. Here are some common examples:
 
 * Did a field that should only have numbers get inferred as a Dimension? That likely means you have non-numeric data in the column \(e.g., spaces, commas, "N/A", "null", or "-"\).
 * Is a field name showing with unexpected underscores \(e.g., `_column_name_`, rather than `column_name`\)? That likely means there are leading or trailing spaces in your column headings.

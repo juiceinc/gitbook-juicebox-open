@@ -11,16 +11,14 @@
 
 ## Authoring Apps
 
-* [Creating and Editing](authoring-apps/creating-and-editing.md)
+* [Creating and Editing Apps](authoring-apps/creating-and-editing.md)
 * [App Settings](authoring-apps/app-settings.md)
 * [Data Sources](authoring-apps/data-sources/README.md)
   * [Add a data source](authoring-apps/data-sources/create-a-data-source/README.md)
-    * [Define data ingredients](authoring-apps/data-sources/create-a-data-source/define-data-ingredients/README.md)
-      * [Data ingredient components](authoring-apps/data-sources/create-a-data-source/define-data-ingredients/data-ingredient-components.md)
-      * [Inferred ingredients](authoring-apps/data-sources/create-a-data-source/define-data-ingredients/inferred-ingredients.md)
-      * [Advanced ingredients](authoring-apps/data-sources/create-a-data-source/define-data-ingredients/advanced-ingredients.md)
-      * [Ingredient formats](authoring-apps/data-sources/create-a-data-source/define-data-ingredients/ingredient-formats.md)
-      * [Example ingredients](authoring-apps/data-sources/create-a-data-source/define-data-ingredients/example-ingredients.md)
+    * [Define data ingredients](authoring-apps/data-sources/create-a-data-source/define-data-ingredients.md)
+    * [Ingredient formats](authoring-apps/data-sources/create-a-data-source/ingredient-formats.md)
+    * [Advanced ingredients](authoring-apps/data-sources/create-a-data-source/advanced-ingredients.md)
+    * [Example ingredients](authoring-apps/data-sources/create-a-data-source/example-ingredients.md)
   * [Edit a data source](authoring-apps/data-sources/edit-a-data-source.md)
   * [Delete a data source \(coming soon!\)](authoring-apps/data-sources/delete-a-data-source.md)
   * [Working with data](authoring-apps/data-sources/data-outliner-tab/README.md)

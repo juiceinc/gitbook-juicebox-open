@@ -7,7 +7,7 @@ Sections are groups of slices within a story. You can define layouts and backgro
 To add a section, scroll to the bottom of the editing panel. There you will see the **Add Section** button.   
 
 
-![\[REPLACE\]](https://lh5.googleusercontent.com/8-N3Ktlx-G9GfIeUcTKw5vmL5fuvdGz2O6wqnIC4cZEwlNI8iu0Bw9vFc0Ud02TZwZSjxQ-YqeidXUacHc5oMw-3oJ5ACJ-5WqhOYy2Cw-4p2kOLDz4rOnLhYQLo8d6NkUH_qQF8)
+![\[TODO: REPLACE\]](https://lh5.googleusercontent.com/8-N3Ktlx-G9GfIeUcTKw5vmL5fuvdGz2O6wqnIC4cZEwlNI8iu0Bw9vFc0Ud02TZwZSjxQ-YqeidXUacHc5oMw-3oJ5ACJ-5WqhOYy2Cw-4p2kOLDz4rOnLhYQLo8d6NkUH_qQF8)
 
 When you click **Add Section**, a new section will be added at the end of your story. The section will initially be empty, waiting for you to add a slice.
 
@@ -16,14 +16,14 @@ When you click **Add Section**, a new section will be added at the end of your s
 To delete a section, hover over the section header \(the gray area at the top of the setion\) until you see the menu icon \(\[insert icon\]\). Click the menu icon and then click **Delete**.  
 
 
-![\[REPLACE\]](https://lh3.googleusercontent.com/7yS8mzAoYDAqwsaVxzN9l-7xRHPFEvRum9FFUN8nLdUPhec4sEvdOqFR53L6iQm4nS-vGSbjWLKPF3xvbI5sSsl7rk9_iM00_MYu-wlT7Vq_f0lvpbs4Wv9E4AcqgGYehjJRyHY1)
+![\[TODO: REPLACE\]](https://lh3.googleusercontent.com/7yS8mzAoYDAqwsaVxzN9l-7xRHPFEvRum9FFUN8nLdUPhec4sEvdOqFR53L6iQm4nS-vGSbjWLKPF3xvbI5sSsl7rk9_iM00_MYu-wlT7Vq_f0lvpbs4Wv9E4AcqgGYehjJRyHY1)
 
 ## Collapse and reorder sections
 
 To move a section up or down, hover over the section header until you see the reorder icon \(\[insert icon\]\). Hover over the reorder icon until you see a hand. Then drag the section and drop it where you want it to display.  
 
 
-![\[REPLACE\]](https://lh5.googleusercontent.com/n1WFMoOiBMbiZB4OLianafLtWgE8-3xGKWfQr_UAFNwvjGb3Z7BmPV9j1FDk9WRVh6sciQpv8f3lL5BMRHaJsmdpHqsUSc-mXYkrEZuQ0HR555SP0jWPSaRmpqc0ar55xXf7f9BR)
+![\[TODO: REPLACE\]](https://lh5.googleusercontent.com/n1WFMoOiBMbiZB4OLianafLtWgE8-3xGKWfQr_UAFNwvjGb3Z7BmPV9j1FDk9WRVh6sciQpv8f3lL5BMRHaJsmdpHqsUSc-mXYkrEZuQ0HR555SP0jWPSaRmpqc0ar55xXf7f9BR)
 
 Because sections can get quite long, reordering will be easier if you collapse your sections first. To collapse a section, simply click the section header. To expand a collapsed section, click section header again again.
 
@@ -42,6 +42,4 @@ By default the section background color will be white. You can change this by cl
 ## Section background image \(coming soon!\)
 
 Instead of a background color, you can have a background image.
-
-[Reordering and collapsing sections — Watch Video](https://www.loom.com/share/4698f07f24b248d0a355d562d5f4f9fb)
 
