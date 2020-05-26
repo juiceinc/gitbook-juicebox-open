@@ -1,6 +1,6 @@
 # Getting Started with Juicebox
 
-Ready to build Juicebox apps? Great! Once you set up your Juicebox client account and your Juicebox user account, you'll be ready to go. 
+Ready to build Juicebox apps? Great! Once you set up your Juicebox client account and your Juicebox user account, you can start building! 
 
 ## Set up your Juicebox client account
 
