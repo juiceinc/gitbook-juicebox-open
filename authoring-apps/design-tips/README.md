@@ -1,2 +1,2 @@
-# Design Tips
+# Tips and Tricks
 

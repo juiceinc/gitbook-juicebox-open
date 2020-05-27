@@ -1,2 +1,2 @@
-# Telling Data Stories
+# Telling data stories
 

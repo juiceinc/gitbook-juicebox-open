@@ -1,4 +1,4 @@
-# Visual Design
+# Visual design
 
 ## Layouts
 

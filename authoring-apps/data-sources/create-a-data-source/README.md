@@ -14,7 +14,7 @@ You can upload a CSV or connect to a database table or view. \(Coming soon, you 
 To upload a CSV, click **Connect & Upload Data** and select the CSV file. Then wait about 15-30 seconds. Once the CSV has loaded, a modal will pop up confirming that your data was loaded and the [initial ingredients ](./#initial-ingredients)were inferred from your data. 
 
 {% hint style="warning" %}
-When using CSVs, it is important that your data be nice and clean. Common problem areas include missing data, text values in numeric columns, and leading or trailing spaces. Here are some tips for [preparing your data](../data-outliner-tab/preparing-your-data.md). 
+When using CSVs, it is important that your data be nice and clean. Common problem areas include missing data, text values in numeric columns, and leading or trailing spaces. Here are some tips for [preparing your data](../../design-tips/preparing-your-data.md). 
 {% endhint %}
 
 Here's a video showing how to upload a CSV:

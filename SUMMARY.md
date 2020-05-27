@@ -23,9 +23,6 @@
     * [Example ingredients](authoring-apps/data-sources/create-a-data-source/example-ingredients.md)
   * [Edit a data source](authoring-apps/data-sources/edit-a-data-source.md)
   * [Delete a data source \(coming soon!\)](authoring-apps/data-sources/delete-a-data-source.md)
-  * [Working with data](authoring-apps/data-sources/data-outliner-tab/README.md)
-    * [Preparing your data](authoring-apps/data-sources/data-outliner-tab/preparing-your-data.md)
-    * [Working with multiple data sources](authoring-apps/data-sources/data-outliner-tab/working-with-multiple-data-sources.md)
 * [Story Designer](authoring-apps/story-designer/README.md)
   * [What is a story?](authoring-apps/story-designer/what-is-a-story.md)
   * [Story settings](authoring-apps/story-designer/story-settings.md)
@@ -39,6 +36,7 @@
     * [Reordering slices](authoring-apps/story-designer/slices/reordering.md)
     * [Slice layouts](authoring-apps/story-designer/slices/slice-layouts.md)
     * [Slice background colors](authoring-apps/story-designer/slices/slice-background-colors.md)
+    * [Working with multiple data sources](authoring-apps/story-designer/slices/working-with-multiple-data-sources.md)
   * [Charts](authoring-apps/story-designer/charts/README.md)
     * [Filters](authoring-apps/story-designer/charts/filters.md)
     * [Data chooser](authoring-apps/story-designer/charts/data-chooser.md)
@@ -52,9 +50,11 @@
 * [Publish & Share](authoring-apps/publish-and-share/README.md)
   * [Editing & Publishing](authoring-apps/publish-and-share/editing-and-publishing.md)
   * [Sharing & Access Controls](authoring-apps/publish-and-share/sharing-and-access-controls.md)
-* [Design Tips](authoring-apps/design-tips/README.md)
-  * [Telling Data Stories](authoring-apps/design-tips/telling-data-stories.md)
-  * [Visual Design](authoring-apps/design-tips/visual-design.md)
+* [Tips and Tricks](authoring-apps/design-tips/README.md)
+  * [Telling data stories](authoring-apps/design-tips/telling-data-stories.md)
+  * [Visual design](authoring-apps/design-tips/visual-design.md)
+  * [Preparing your data](authoring-apps/design-tips/preparing-your-data.md)
+  * [Useful resources](authoring-apps/design-tips/useful-resources.md)
 
 ## Viewing Apps
 
