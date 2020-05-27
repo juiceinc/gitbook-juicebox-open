@@ -67,13 +67,13 @@
 * [Usage Reporting \(coming soon!\)](managing-apps/usage-reporting.md)
 * [User Management & Roles](managing-apps/user-management-and-roles.md)
 
-## Managing your account \(Coming Soon!\) <a id="account-management"></a>
+## Managing clients \(soming Soon!\) <a id="managing-clients"></a>
 
-* [Settings](account-management/settings/README.md)
-  * [Name](account-management/settings/name.md)
-  * [Domain](account-management/settings/domain.md)
-  * [Access Controls](account-management/settings/access-controls/README.md)
-    * [App Access Links](account-management/settings/access-controls/app-access-links.md)
-    * [Email Domain Control](account-management/settings/access-controls/email-domain-control.md)
-* [Subscription & Billing](account-management/untitled.md)
+* [Settings](managing-clients/settings/README.md)
+  * [Name](managing-clients/settings/name.md)
+  * [Domain](managing-clients/settings/domain.md)
+  * [Access Controls](managing-clients/settings/access-controls/README.md)
+    * [App Access Links](managing-clients/settings/access-controls/app-access-links.md)
+    * [Email Domain Control](managing-clients/settings/access-controls/email-domain-control.md)
+* [Subscription & Billing](managing-clients/untitled.md)
 
