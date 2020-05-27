@@ -15,7 +15,7 @@ The data can be a CSV, a table or view in a database, or \(coming soon!\) a Goog
 
 ## Data ingredients
 
-**Data ingredients** \(or just **ingredients**\) are the basic building blocks used to build the charts in your data story. There are two main types of ingredients: **measures** and **dimensions**. 
+**Data ingredients** \(or just **ingredients**\) are the basic building blocks used to build the charts in your story. There are two main types of ingredients: **measures** and **dimensions**. 
 
 A **measure** is a value calculated over a group of data records. A **dimension** is a value used to define a group of data records. 
 
