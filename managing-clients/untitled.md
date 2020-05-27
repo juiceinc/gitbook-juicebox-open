@@ -1,4 +1,4 @@
-# Subscription & Billing
+# Subscription and Billing
 
 * Plan
 

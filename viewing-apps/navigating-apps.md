@@ -1,4 +1,4 @@
-# Navigating apps
+# Navigating Apps
 
 For clients with multiple apps, users need to navigate between apps. For apps with multiple stories, users need to navigate between apps. Here's how to do that.
 

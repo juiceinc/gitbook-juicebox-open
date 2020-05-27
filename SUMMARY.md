@@ -58,16 +58,16 @@
 
 ## Viewing Apps
 
-* [Navigating apps](viewing-apps/navigating-apps.md)
-* [Data flow](viewing-apps/data-flow.md)
+* [Navigating Apps](viewing-apps/navigating-apps.md)
+* [Data Flow](viewing-apps/data-flow.md)
 
 ## Managing Apps
 
-* [Sharing apps](managing-apps/sharing-apps.md)
-* [Usage reporting \(coming soon!\)](managing-apps/usage-reporting.md)
-* [User roles & management](managing-apps/user-management-and-roles.md)
+* [Sharing Apps](managing-apps/sharing-apps.md)
+* [Usage Reporting \(coming soon!\)](managing-apps/usage-reporting.md)
+* [User Roles and Management](managing-apps/user-management-and-roles.md)
 
-## Managing clients \(soming Soon!\) <a id="managing-clients"></a>
+## Managing clients \(coming soon!\) <a id="managing-clients"></a>
 
 * [Settings](managing-clients/settings/README.md)
   * [Name](managing-clients/settings/name.md)
@@ -75,5 +75,5 @@
   * [Access Controls](managing-clients/settings/access-controls/README.md)
     * [App Access Links](managing-clients/settings/access-controls/app-access-links.md)
     * [Email Domain Control](managing-clients/settings/access-controls/email-domain-control.md)
-* [Subscription & Billing](managing-clients/untitled.md)
+* [Subscription and Billing](managing-clients/untitled.md)
 
