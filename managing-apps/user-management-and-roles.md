@@ -1,18 +1,18 @@
-# User Management & Roles
+# User roles & management
 
-Before you can view an app, you must set up a Juicebox user account. Each person invited to an app will set up a Juicebox user account. What a user can do once logged in depends on their user role.  There are four user roles: viewer, author, client admin, and client owner. 
+Before you can view an app, you must set up a Juicebox user account. Each person invited to an app will set up a Juicebox user account. What users can do once logged in depends on their user role.  There are four user roles: viewer, author, client admin, and client owner. 
 
 ## User Roles
 
-### Viewers
+### Viewer
 
 Viewers can view the apps they've been given access to. They cannot see apps they have not been given access to and they cannot create new apps or make changes to existing apps. 
 
-### Authors
+### Author
 
 Authors can author new apps and make changes to apps they've created or apps for which they've been made an author.  Authors can also invite new viewers to their apps by sharing access links. 
 
-### Client Admins
+### Client Admin
 
 Client admins can author new apps and make changes to any app. 
 

@@ -63,9 +63,9 @@
 
 ## Managing Apps
 
-* [Sharing Apps](managing-apps/sharing-apps.md)
-* [Usage Reporting \(coming soon!\)](managing-apps/usage-reporting.md)
-* [User Management & Roles](managing-apps/user-management-and-roles.md)
+* [Sharing apps](managing-apps/sharing-apps.md)
+* [Usage reporting \(coming soon!\)](managing-apps/usage-reporting.md)
+* [User roles & management](managing-apps/user-management-and-roles.md)
 
 ## Managing clients \(soming Soon!\) <a id="managing-clients"></a>
 

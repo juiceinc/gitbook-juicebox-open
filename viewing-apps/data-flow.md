@@ -1,6 +1,6 @@
 # Data flow
 
-Selections made in a story automatically drive how the story progresses. This is done in two ways: selections as filters and selections as **\[path?\]**. **\[Can we describe this better than "capturing user selections"? Every selection is "captured", so not a useful distinction.\]**
+Selections made in a story automatically drive how the story progresses. This is done in two ways: selections as filters and selections as **\[paths? decisions?\]**. **\[Can we describe this better than "capturing user selections"? Every selection is "captured", so not a useful distinction.\]**
 
 ### Selections as Filters
 
