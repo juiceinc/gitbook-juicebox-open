@@ -17,7 +17,9 @@
   * [Add a data source](authoring-apps/data-sources/create-a-data-source/README.md)
     * [Define data ingredients](authoring-apps/data-sources/create-a-data-source/define-data-ingredients.md)
     * [Ingredient formats](authoring-apps/data-sources/create-a-data-source/ingredient-formats.md)
+    * [Basic ingredients](authoring-apps/data-sources/create-a-data-source/basic-ingredients.md)
     * [Advanced ingredients](authoring-apps/data-sources/create-a-data-source/advanced-ingredients.md)
+    * [Creating Advanced Data Ingredients](authoring-apps/data-sources/create-a-data-source/creating-data-ingredients.md)
     * [Example ingredients](authoring-apps/data-sources/create-a-data-source/example-ingredients.md)
   * [Edit a data source](authoring-apps/data-sources/edit-a-data-source.md)
   * [Delete a data source \(coming soon!\)](authoring-apps/data-sources/delete-a-data-source.md)
@@ -53,7 +55,6 @@
 * [Design Tips](authoring-apps/design-tips/README.md)
   * [Telling Data Stories](authoring-apps/design-tips/telling-data-stories.md)
   * [Visual Design](authoring-apps/design-tips/visual-design.md)
-* [Creating Advanced Data Ingredients](authoring-apps/creating-data-ingredients.md)
 
 ## Viewing Apps
 

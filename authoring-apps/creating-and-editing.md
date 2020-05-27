@@ -8,7 +8,7 @@ To add a new app,  select **+ New App** from the apps page. Selecting **+ New Ap
 
 {% embed url="https://www.loom.com/share/e707496dbb55466a97642df54fff6879" %}
 
-Once your app is created, you will be taken automatically to the app editor to add your data source and design your story.  **\[TODO: Video shows the user being taken to the apps page after app creation. Replace video.\]**
+Once your app is created, you will be taken automatically to the app editor to [add your data source](data-sources/) and [design your story](story-designer/).  **\[TODO: Video shows the user being taken to the apps page after app creation. Replace video.\]**
 
 ## Edit an app
 
@@ -28,7 +28,7 @@ To access the app editor for an existing app, select **Edit** on the app \(or th
 
 ### Overview of the app editor
 
-Changes to an app are made to a draft version of the app. If you see the app editor, you know you are in the draft version. The app editor is a panel on the left side of the draft app. 
+Changes to an app are made to a draft version of the app. If you see the app editor, you know you are in the draft version. The app editor is a panel on the left side of the draft app. Changes made in the app editor are immediately reflected in the draft app. 
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 

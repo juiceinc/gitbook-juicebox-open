@@ -12,7 +12,7 @@ In the example below, there are two slices. The top slice has a [**bar**](../aut
 
 ### Capturing User Selections
 
-Certain visualizations \(like the measure chooser and dimension chooser\) can capture user selections you want to use to drive other visualizations.   
+Certain charts \(like the measure chooser and dimension chooser\) can capture user selections you want to use to drive other charts.   
   
 In this example, a user can select a measure \(like Happiness or Family\) using the **measure chooser**. This selection drives what data the **ranked list** displays to the user. 
 

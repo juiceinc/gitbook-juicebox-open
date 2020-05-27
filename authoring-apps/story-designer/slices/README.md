@@ -20,9 +20,11 @@ Slices
 
 ## Reordering slices
 
+To reorder slices, hover over the slice and put the cursor over the reorder icon \(\[insert\]\) until the cursor becomes a hand. Then click and drag the slice where you want it to display. 
+
 ## Slice layouts
 
-There are four layout options for slices, which control how slice text will appear in relation to the chart. To adjust the layout, hover over the slice header until you see one of the layout icons. Click on the icon and select the desired layout option. 
+There are four layout options for slices, which control how slice text will appear in relation to the chart. To adjust the layout, hover over the slice, click the layout icon, and select the desired layout option.
 
 | Icon | Layout option | Description |
 | :--- | :--- | :--- |
@@ -36,4 +38,6 @@ For text-only slices, each layout will display the same.
 {% endhint %}
 
 ## Slice backgrounds
+
+By default, slices have a transparent background. To adjust the background color, hover over the slice, click the paint drop icon, and select the desired color from the color picker. If you have a specific color in mind, you can enter the hex code for that color. 
 
