@@ -4,7 +4,7 @@ The Data Sources section of the app editor is where you set up your data sources
 
 ![Select Data to access Data Sources section](../../.gitbook/assets/image%20%2821%29.png)
 
-You must set up at least one data source before you can design your data story. A data source is made up of two things: 
+You must set up at least one data source before you can design your story. A data source is made up of two things: 
 
 1. data
 2. data ingredients
@@ -15,7 +15,7 @@ The data can be a CSV, a table or view in a database, or \(coming soon!\) a Goog
 
 ## Data ingredients
 
-**Data ingredients** \(or just **ingredients**\) are the basic building blocks that are used to construct the charts in your data story. There are two main types of ingredients: **measures** and **dimensions**. 
+**Data ingredients** \(or just **ingredients**\) are the basic building blocks used to build the charts in your data story. There are two main types of ingredients: **measures** and **dimensions**. 
 
 A **measure** is a value calculated over a group of data records. A **dimension** is a value used to define a group of data records. 
 
