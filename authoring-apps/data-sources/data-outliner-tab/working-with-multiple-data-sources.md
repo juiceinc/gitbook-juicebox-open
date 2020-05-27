@@ -1,4 +1,4 @@
-# Working with Multiple Data Sources
+# Working with multiple data sources
 
 Filtering across Data Sources
 

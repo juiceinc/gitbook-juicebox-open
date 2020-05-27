@@ -1,5 +1,6 @@
 # Edit a data source
 
-* Updating data
-* Updating ingredients
+## Replace data \(coming soon!\)
+
+## Update data ingredients
 
