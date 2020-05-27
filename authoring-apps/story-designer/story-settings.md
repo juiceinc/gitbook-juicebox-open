@@ -1,10 +1,8 @@
 # Story settings
 
-At the top of the Story Designer, you’ll see the Story Settings. 
+The Story Settings section at the top of the Story Designer is where you set up basic information about your story, including title, description, color, and icon.  
 
-![\[Replace image\] Story Settings](../../.gitbook/assets/image%20%2815%29.png)
-
-Here you can configure the story's title, description, color, and other options. 
+![\[TODO: Replace image\] Story Settings](../../.gitbook/assets/image%20%2815%29.png)
 
 ## Title
 
@@ -16,13 +14,13 @@ This is the description for the story. It will appear on the Apps page. By defau
 
 ## Color
 
-This is the color that will appear on the Apps page as a background color for the story. By default, it will be white.
+This is the color that will appear on the apps page as a background color for the story. By default, it will be white.
 
 ## Icon \(coming soon!\)
 
-This is the icon that will appear on the Apps page for the story. By default, there is no icon.
+This is the icon that will appear on the apps page for the story. **\[By default, there is no icon.\]**
 
 ## Image \(coming soon!\)
 
-Instead of a color, you can opt to have an image for the story. This will be appear on the Apps page as a background image for the story. 
+Instead of a color, you can opt to have an image for the story. This will be appear on the apps page as a background image for the story. 
 

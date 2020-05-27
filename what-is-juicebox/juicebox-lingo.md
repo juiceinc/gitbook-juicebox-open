@@ -30,6 +30,8 @@
 
 ### Data source
 
+### Inferred ingredient
+
 ### Section
 
 ### Slice

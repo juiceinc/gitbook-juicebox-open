@@ -1,5 +1,13 @@
 # Story Designer
 
+The Story Designer section of the app editor is where you design your story. To access the Story Designer section, select the **Designer** button at the top of the app editor. 
+
+
+
+## What is a story?
+
+
+
 {% hint style="danger" %}
 Unless directed to do so by your Onboarding Manager, do not make changes to the Story Outliner view on the second tab! This is where the Story Outliner configurations are expressed as yaml code. Changes here can cause unexpected results. 
 {% endhint %}
