@@ -46,7 +46,7 @@ When you load or connect to your data, Juicebox will inspect a sample of your da
 The initial ingredients are just a starting point. You can revise them or add new ones. 
 
 {% hint style="warning" %}
-**\[TODO: Confirm\]** If you delete the ingredient inferred for a field in your data without adding an ingredient for that field, the deleted ingredient will be inferred again when you save your ingredients. 
+**\[TODO: Confirm\]** If you delete the inferred ingredient for a field in your data without adding another ingredient for that field, the deleted ingredient will be inferred again when you save your ingredients. 
 {% endhint %}
 
 ### Ingredient components
@@ -54,7 +54,7 @@ The initial ingredients are just a starting point. You can revise them or add ne
 Each ingredient has the following components:
 
 * **kind**. The ingredient type, either `Dimension` or `Measure`. 
-* **field**. The instructions for what will display in the app. These definitions can be basic or advanced and are explained in more detail in the [next section](). 
+* **field**. The instructions for what will display in the app. These definitions can be basic or advanced and are explained in more detail in the next sections. 
 * **singular**. The label displayed for the dimension or measure. 
 * **plural**. The label displayed when more than one dimension value is selected in the app. The `plural`component is only used by dimensions.
 * **\(optional\) icon**. The Font Awesome icon to display with your Dimension or Measure. By default, measures will have \[hashtag\] and dimensions will have \[check\]. 

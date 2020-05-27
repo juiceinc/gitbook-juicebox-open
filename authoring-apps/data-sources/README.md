@@ -35,7 +35,7 @@ Measures are a type of data ingredient. A measure is a value calculated over a g
 
 In defining measures, you can use the following formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify a formula in the measure definition, then `sum()` will be implied.
 
-You can combine formulas and field math together to create complex measures, such as weighted averages. These are covered in [Advanced Ingredients](create-a-data-source/advanced-ingredients.md).
+You can combine formulas and field math together to create complex measures, such as weighted averages. See [Defining advanced ingredients](create-a-data-source/advanced-ingredients.md).
 
 ### Dimensions
 
