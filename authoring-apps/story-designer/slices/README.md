@@ -4,15 +4,15 @@
 
 ## What are slices?
 
-Slices 
+Slices are...
 
 ## Adding and deleting slices
 
-
+To add a slice...
 
 Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, 
 
-To delete a slice, 
+To delete a slice,...
 
 ## Slice text
 
