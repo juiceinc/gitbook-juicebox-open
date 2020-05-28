@@ -34,7 +34,7 @@ active:
   field: sum(active)
   singular: 'Active Cases'
   plural: 'Active Cases'
-  format: ',0f'
+  format: ',.0f'
 ```
 
 These are just a starting point. You can add additional ingredients by.... You will be able to.... You will not be able to.... **\[TODO: insert based on ingredients editor UI\]**.
