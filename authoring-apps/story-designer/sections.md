@@ -1,6 +1,6 @@
 # Sections
 
-Sections are groups of slices within a story. Layouts and background colors for the section will affect all slices in the section. 
+Sections are groups of slices within a story. Sections allow you to control layouts and backgrounds.
 
 ## Add a section
 
