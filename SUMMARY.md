@@ -58,7 +58,7 @@
 
 ## Managing clients \(coming soon!\) <a id="managing-clients"></a>
 
-* [Settings](managing-clients/settings/README.md)
+* [Client Settings](managing-clients/settings/README.md)
   * [Name](managing-clients/settings/name.md)
   * [Domain](managing-clients/settings/domain.md)
   * [Access Controls](managing-clients/settings/access-controls/README.md)
