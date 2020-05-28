@@ -8,7 +8,11 @@ Slices
 
 ## Adding and deleting slices
 
-## Duplicating slices \(coming soon!\)
+
+
+Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, 
+
+To delete a slice, 
 
 ## Slice text
 
@@ -20,7 +24,7 @@ Slices
 
 ## Reordering slices
 
-To reorder slices, hover over the slice and put the cursor over the reorder icon \(\[insert\]\) until the cursor becomes a hand. Then click and drag the slice where you want it to display. 
+To reorder slices, hover over the slice and put the cursor over the handle icon \( ![](../../../.gitbook/assets/grip-vertical-solid.svg) \) until the cursor becomes a hand. Then drag the slice and drop it where you want it to display.
 
 ## Slice layouts
 
