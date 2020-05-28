@@ -25,9 +25,9 @@ Here's a video showing how to upload a CSV:
 
 To connect to a database table or view, click **Connect & Upload Data** and **\[TODO: describe this\]**.
 
-### Connect to a Google Sheet \(coming soon!\)
+### Connect to a Google Sheet
 
-**\[To come\]**
+**\[Coming soon!\]**
 
 ## Define your data ingredients
 
@@ -57,7 +57,7 @@ Each ingredient has the following components:
 * **field**. The instructions for what will display in the app. These definitions can be basic or advanced and are explained in more detail in the next sections. 
 * **singular**. The label displayed for the dimension or measure. 
 * **plural**. The label displayed when more than one dimension value is selected in the app. The `plural`component is only used by dimensions.
-* **\(optional\) icon**. The Font Awesome icon to display with your Dimension or Measure. By default, measures will have \[hashtag\] and dimensions will have \[check\]. 
+* **\(optional\) icon**. The Font Awesome icon to display with your Dimension or Measure. By default, measures will have \[hashtag\] and dimensions will have \[check-square\]. 
 * **\(optional\) format**. The number or date format to be used. The `format` component is only used to format numbers and dates. 
 
 **\[TODO: Update based on Ingredients UI\]**

@@ -33,7 +33,7 @@ The format specified in the ingredient definition will determine how the value w
 
 **\[TODO: Confirm changes from JB-3101 have been made.\]**
 
-If you want to apply a number format other than one of the standard formats, you can do so by creating an [Advanced Ingredient](advanced-ingredients.md). **\[TODO: Confirm\]**
+If you want to apply a number format other than one of the standard formats, you can do so by creating an [advanced ingredient](defining-ingredients.md#advanced-ingredients). **\[TODO: Confirm\]**
 
 ## Date formatting
 
@@ -59,7 +59,7 @@ The format specified in the ingredient definition will determine how the value w
 | day month yyyy | `%d %b %Y` | 1 Mar 2019 |
 | mm/dd/yyyy | `%m/%d/%Y` | 03/01/2019 |
 | mm-dd-yyyy | `%m-%d-%Y` | 03-01-2019 |
-| month yyyy | `$,.0f` | Mar 2019 |
+| month yyyy | `%b %Y` | Mar 2019 |
 
-If you want to apply a date format other than one of the standard formats, you can do so by creating an [Advanced Ingredient](advanced-ingredients.md). **\[TODO: Confirm\]**
+If you want to apply a date format other than one of the standard formats, you can do so by creating an [advanced ingredient](defining-ingredients.md#advanced-ingredients). **\[TODO: Confirm\]**
 

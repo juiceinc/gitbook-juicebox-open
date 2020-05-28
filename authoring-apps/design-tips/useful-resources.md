@@ -6,3 +6,5 @@ Markdown
 
 Images
 
+Font Awesome icons
+
