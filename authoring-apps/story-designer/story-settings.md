@@ -1,4 +1,4 @@
-# Story settings
+# Story Settings
 
 The Story Settings section at the top of the Story Designer is where you set up basic information about your story, including title, description, color, and icon.  
 

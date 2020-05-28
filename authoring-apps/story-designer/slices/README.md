@@ -24,7 +24,7 @@ To reorder slices, hover over the slice and put the cursor over the reorder icon
 
 ## Slice layouts
 
-There are four layout options for slices, which control how slice text will appear in relation to the chart. To adjust the layout, hover over the slice, click the layout icon, and select the desired layout option.
+There are four layout options for slices that control how slice text will appear in relation to the chart. To adjust the layout, hover over the slice, click the layout icon, and select the desired layout option.
 
 | Icon | Layout option | Description |
 | :--- | :--- | :--- |

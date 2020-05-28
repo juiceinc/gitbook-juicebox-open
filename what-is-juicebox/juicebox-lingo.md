@@ -36,7 +36,7 @@
 
 ### Slice
 
-### [Story](../authoring-apps/story-designer/what-is-a-story.md)
+### [Story]()
 
 ### [Viewer](../managing-apps/user-management-and-roles.md#viewers)
 
