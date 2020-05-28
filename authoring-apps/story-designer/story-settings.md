@@ -6,11 +6,11 @@ The Story Settings section at the top of the Story Designer is where you set up 
 
 ## Title
 
-This is the title for the story. It will appear on the Apps page. By default it will be the same as the [app title](../app-settings.md#title). The story title should be brief, ideally one or two words.
+This is the title for the story. It will appear on the apps page. By default it will be the same as the app title. The story title should be brief, ideally one or two words.
 
 ## Description
 
-This is the description for the story. It will appear on the Apps page. By default it will be the same as the [app description](../app-settings.md#description). The story description can provide a bit more detail, ideally a phrase or two.
+This is the description for the story. It will appear on the apps page. By default it will be the same as the app description. The story description can provide a bit more detail, ideally a phrase or two.
 
 ## Color
 
