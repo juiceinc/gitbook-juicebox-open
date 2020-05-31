@@ -89,6 +89,8 @@ sales_group:
 
 The conditions within buckets are evaluated in the order they are defined.
 
+## Quickselect filtering
+
 ## Lookup dimensions
 
 ## Field math
