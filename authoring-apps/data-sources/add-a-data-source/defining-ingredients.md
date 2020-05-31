@@ -43,7 +43,7 @@ These are just a starting point. You can add additional ingredients by.... You w
 
 Most of your ingredients will be basic ingredients. But in cases where you need to do something more with the `field` and `format` than the basics, you can use advanced ingredients. Advanced ingredients allow you to use--
 
-* Dimensions that group values into "buckets" **\[TODO: What is the difference between buckets and quickselects?\]**
+* Dimensions that group values into "buckets" based on conditions **\[TODO: What is the difference between buckets and quickselects?\]**
 * Dimensions that display a lookup value rather than the field value
 * Measures that use field math
 * Measures that combine multiple formulas

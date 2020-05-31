@@ -1,6 +1,6 @@
 # Data Flow
 
-Selections made in a story automatically drive how the story progresses. This is done in two ways: selections as filters and selections as **\[direction?\]**. **\[Can we describe this better than "capturing user selections"? Every selection is "captured", so not a useful distinction. Maybe microscope \(filters\) vs. binoculars \(choosers\)? Choosers let you "chooser your own adventure", set the direction of your story. Filters let you drill down or inspect something closely along your chosen path. Although, really, the distinction is not a bright line. Focus = filters, Direction = choosers?\]**
+Selections made in a story automatically drive how the story progresses. This is done in two ways: selections as filters and selections as **\[direction?\]**. **\[Can we describe this better than "capturing user selections"? Every selection is "captured", so not a useful distinction.  Choosers let you "chooser your own adventure", set the direction of your story. Filters let you drill down or inspect something closely. Although, really, the distinction is not a bright line. Focus = filters, Direction = choosers? down vs across?\]**
 
 ### Selections as Filters
 
