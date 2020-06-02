@@ -28,7 +28,7 @@ Because all changes are saved to the draft version until they are published, you
 
 ## Discard changes to an app
 
-If at some point you want to discard all the changes in the draft version, you can do this by **\[how?\]**.
+If at some point you want to discard all the changes in the draft version, you can do this by selecting Discard Changes... **\[how?\]**.
 
 ## Multiple authors \(coming soon!\)
 

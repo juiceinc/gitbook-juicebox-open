@@ -1,8 +1,8 @@
 # Useful resources
 
-Hex codes
-
 Markdown
+
+Hex codes
 
 Images
 
