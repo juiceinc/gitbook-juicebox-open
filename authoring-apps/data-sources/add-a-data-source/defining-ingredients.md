@@ -91,6 +91,18 @@ The conditions within buckets are evaluated in the order they are defined.
 
 ## Lookup dimensions
 
+```text
+Rain:
+  kind: Dimension
+  field:
+    value: Rain
+    aggregation: none
+  lookup:
+    'N': 'No'
+    'Y': 'Yes'
+  role: dimension
+```
+
 ## Quickselect filtering
 
 ## Field math
