@@ -16,9 +16,7 @@ To delete a slice,...
 
 ## Slice text
 
-### Markdown
-
-### HTML?
+Markdown
 
 ## Slices with charts
 
