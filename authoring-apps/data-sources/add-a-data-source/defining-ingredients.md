@@ -52,6 +52,8 @@ Most of your ingredients will be basic ingredients. But in cases where you need 
 * Measures formatted using any d3 number format
 * Date dimensions formatted using any d3 date format
 
+## Lookup dimensions
+
 ## Bucketed dimensions
 
 Buckets are a convenient way of defining Dimensions using continuous variables. **In Juicebox Open; you’ll do this by making an advanced ingredient.** 
@@ -89,8 +91,6 @@ sales_group:
 
 The conditions within buckets are evaluated in the order they are defined.
 
-## Lookup dimensions
-
 ```text
 Rain:
   kind: Dimension
@@ -104,6 +104,10 @@ Rain:
 ```
 
 ## Quickselect filtering
+
+{% hint style="info" %}
+Both bucketed dimensions and quickselects can be used for filtering. But quickselects can **only** be used in filter slices, whereas bucketed dimensions can be used in other slices. You would use quickselects vs buckets if a single data value should be associated with more than one filter option.  For example, if you want filters for ages `18 and older` and `45 and older` , you must use a quickselect because some age values \(e.g., 46\) will be associated with both filters. Buckets will not work because each age value can only belong to one bucket.
+{% endhint %}
 
 ## Field math
 
