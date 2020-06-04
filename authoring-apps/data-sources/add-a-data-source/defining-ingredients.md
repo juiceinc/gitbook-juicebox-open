@@ -1,5 +1,7 @@
 # Defining ingredients
 
+## \[Do not move or rename this page\]
+
 ## Basic ingredients
 
 After uploading or connecting your data, a set of [initial ingredients](./#initial-ingredients) will be created. Here’s an example of what you might get.

@@ -36,9 +36,9 @@
 
 ### Slice
 
-### [Story]()
+### Story
 
-### [Viewer](../managing-apps/user-management-and-roles.md#viewers)
+### Viewer
 
 
 
