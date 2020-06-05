@@ -4,7 +4,11 @@
 
 ## Basic ingredients
 
-After uploading or connecting your data, a set of [initial ingredients](./#initial-ingredients) will be created. Here’s an example of what you might get.
+After uploading or connecting your data, a set of [initial ingredients](./#initial-ingredients) will be created. For example, after uploading the CSV for the Unhealthy Americans app, here are the initial ingredients:
+
+
+
+
 
 ```text
 facility:

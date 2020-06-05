@@ -54,7 +54,7 @@ Each ingredient has the following components:
 * **\(optional\) format**. The number or date format to be used. The `format` component is only used to format numbers and dates. 
 * **\(optional\) icon**. The Font Awesome icon to display with your Dimension or Measure. By default, measures will have `hashtag` \(![](../../../.gitbook/assets/hashtag-solid.svg)\) and dimensions will have `check-square`\( ![](../../../.gitbook/assets/check-square-solid.svg) \). 
 
-
+These components are configured as you define your ingredients. 
 
 
 

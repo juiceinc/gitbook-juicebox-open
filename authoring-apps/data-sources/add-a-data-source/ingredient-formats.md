@@ -33,11 +33,13 @@ The format specified in the ingredient definition will determine how the value w
 
 **\[TODO: Confirm changes from JB-3101 have been made.\]**
 
-If you want to apply a number format other than one of the standard formats, you can do so by creating an [advanced ingredient](defining-ingredients.md#advanced-ingredients). **\[TODO: Confirm\]**
+If you want to apply a number format other than one of the standard formats, you can do so by creating an [advanced ingredient](defining-ingredients.md#advanced-ingredients). 
 
 ## Date formatting
 
-To control how dates are displayed in the app, you can specify a format. For example, let's say you have the following ingredient definition for `start_date`:
+To control how dates are displayed in the app, you can specify a format. For example, let's say you have the following ingredient definition for `Year_Date`:
+
+![](../../../.gitbook/assets/image%20%2825%29.png)
 
 ```text
 start_date:

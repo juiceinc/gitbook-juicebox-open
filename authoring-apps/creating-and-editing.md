@@ -24,7 +24,7 @@ To access the app editor for an existing app, select **Edit** on the app \(or th
 
 ![Accessing the app editors from the apps page](../.gitbook/assets/image%20%2819%29.png)
 
-![Accessing the app editor from the app header in published app](../.gitbook/assets/image%20%2825%29.png)
+![Accessing the app editor from the app header in published app](../.gitbook/assets/image%20%2826%29.png)
 
 ### Overview of the app editor
 

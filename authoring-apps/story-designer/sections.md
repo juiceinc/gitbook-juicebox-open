@@ -20,7 +20,7 @@ To delete a section, hover over the section header \(the gray area at the top of
 
 To move a section up or down, hover over the section header until you see the handle icon \( ![](../../.gitbook/assets/grip-vertical-solid.svg) \). Hover over the handle icon until you see a hand. Then drag the section and drop it where you want it to display.
 
-![Use the handle icon to reorder sections](../../.gitbook/assets/image%20%2828%29.png)
+![Use the handle icon to reorder sections](../../.gitbook/assets/image%20%2829%29.png)
 
 Because sections can get quite long, reordering will be easier if you collapse your sections first. To collapse a section, simply click the section header. To expand a collapsed section, click section header again again.
 
