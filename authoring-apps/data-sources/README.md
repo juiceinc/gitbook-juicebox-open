@@ -11,7 +11,7 @@ You must set up at least one data source before you can design your story. A dat
 
 ## Data
 
-The data can be a CSV, a table or view in a database, or \(coming soon!\) a Google Sheet. If your data is in a CSV, you upload the CSV. If your data is in a database, you connect to the database and select the table or view that should be used. 
+The data can be a CSV or \(coming soon!\) a table or view in a database or a Google Sheet. If your data is in a CSV, you upload the CSV. \(Coming soon, if your data is in a database, you connect to the database and select the table or view that should be used. \)
 
 ## Data ingredients
 
@@ -45,5 +45,5 @@ There are two special kinds of dimensions: **place** dimensions and **time** dim
 
 A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the the [Map](../story-designer/charts/map.md) chart. 
 
-A time dimension is a dimension that is a date **\[or datetime?**\]. Time dimensions are used in the [Trend](../story-designer/charts/trend.md) chart. 
+A time dimension is a dimension that is a date. Time dimensions are used in the [Trend](../story-designer/charts/trend.md) chart. 
 
