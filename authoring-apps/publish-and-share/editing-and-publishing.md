@@ -6,15 +6,15 @@ Before publishing your app, only authors can see the changes you've made. When y
 
 ### Publishing for the first time
 
-Before publishing your app, only authors can see the app. When you're ready to share your work with viewers, it's time to publish. To publish for the first time, go to **Publish & Share** in the editing panel and click **Publish**.
+Before publishing your app, only authors can see the app. When you're ready to share your work with viewers, it's time to publish. To publish for the first time, go to the Publish & Share section in the app editor and click **Publish**.
 
 ![Publish &amp; Share prior to first publishing](../../.gitbook/assets/image%20%282%29.png)
 
 ### Republishing
 
-Changes made after the first publishing will not be seen by viewers until they are republished. When you make changes to the app, the **Publish & Share** section will change to **Republish & Share**. To republish, go to the **Republish & Share** section and click **Republish changes**. 
+Changes made after the first publishing will not be seen by viewers until they are republished. When you make changes to the app, the Publish & Share section's name will change to **Republish & Share**. To republish, go to the Republish & Share section and click **Republish changes**. 
 
-![Republish &amp; Share after first publishing](../../.gitbook/assets/image%20%2823%29.png)
+![Republish &amp; Share after first publishing](../../.gitbook/assets/image%20%2826%29.png)
 
 ## Making changes to an app
 
@@ -24,10 +24,10 @@ Because all changes are saved to the draft version until they are published, you
 
 * You will see "draft" in the app link
 * Prior to first publishing:
-  * You will see "There are unpublished changes..." in **Publish & Share**
+  * You will see "There are unpublished changes..." in Publish & Share
   * You will see an "Unpublished" pill in the app header
 * After first publishing:
-  * The **Publish & Share** section will change to **Republish & Share**, highlighted yellow
+  * The Publish & Share section's name will change to Republish & Share, highlighted yellow
   * You will see an "Unpublished changes" pill in the app header
 
 ![](../../.gitbook/assets/image%20%283%29.png)
@@ -36,7 +36,7 @@ Because all changes are saved to the draft version until they are published, you
 
 ## Discard changes to an app
 
-If at some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to **Republish & Share** and select **Discard changes**. Discarding changes will discard all changes made since the last publishing _including changes to data sources_. 
+If at some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to the Republish & Share section and select **Discard changes**. Discarding changes will discard _**all changes**_ made since the last publishing _i**ncluding changes to data sources**_. 
 
 ## Multiple authors \(coming soon!\)
 

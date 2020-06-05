@@ -4,7 +4,7 @@ A story is a set of charts \(i.e., data visualizations\) presented on a single p
 
 The Story Designer section of the app editor is where you design your story. To access the Story Designer section, select the **Designer** button at the top of the app editor. 
 
-**\[TODO: Insert image\]**
+![](../../.gitbook/assets/image%20%2825%29.png)
 
 There are several components you will be working with in the Story Designer. They are:
 
