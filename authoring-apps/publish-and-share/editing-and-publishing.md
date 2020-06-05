@@ -2,25 +2,33 @@
 
 ## Publishing an app
 
-Before publishing your app, only app Authors can see the changes you've made. When you're ready to share your work with Viewers, it's time to publish. Simply go to **Publish & Share** in the editing panel and click **Publish**.
+Before publishing your app, only authors can see the changes you've made. When you're ready to share your work with viewers, it's time to publish. 
+
+### Publishing for the first time
+
+Before publishing your app, only authors can see the app. When you're ready to share your work with viewers, it's time to publish. To publish for the first time, go to **Publish & Share** in the editing panel and click **Publish**.
 
 ![Publish &amp; Share prior to first publishing](../../.gitbook/assets/image%20%282%29.png)
 
-After publishing your app for the first time, Publish & Share will look like this. You can see the published version by clicking **View Published App** \(this will open the published app in a new browser tab\) or copy the access link to share the app. 
+### Republishing
 
-![Publish &amp; Share after publishing](../../.gitbook/assets/image%20%281%29.png)
+Changes made after the first publishing will not be seen by viewers until they are republished. When you make changes to the app, the **Publish & Share** section will change to **Republish & Share**. To republish, go to the **Republish & Share** section and click **Republish changes**. 
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![Republish &amp; Share after first publishing](../../.gitbook/assets/image%20%2823%29.png)
 
 ## Making changes to an app
 
-Any changes you make to an app are automatically saved to a draft version of the app that only Authors can see. Viewers will not see your changes until you publish them. You publish, refine your app, republish, refine some more, republish, and so on. In this way, you can continually improve and experiment with your app without disturbing Viewers. 
+Any changes you make to an app are automatically saved to a draft version of the app that only authors can see. Viewers will not see your changes until you publish them. You publish, refine your app, republish, refine some more, republish, and so on. In this way, you can continually improve and experiment with your app without disturbing viewers. 
 
 Because all changes are saved to the draft version until they are published, you do not have to keep track of whether you are working in the draft version. But here are indicators that you are in the draft version:
 
-* You will see "There are unpublished changes..." in **Publish & Share**
 * You will see "draft" in the app link
-* You will see an Unpublished pill in the app header
+* Prior to first publishing:
+  * You will see "There are unpublished changes..." in **Publish & Share**
+  * You will see an "Unpublished" pill in the app header
+* After first publishing:
+  * The **Publish & Share** section will change to **Republish & Share**, highlighted yellow
+  * You will see an "Unpublished changes" pill in the app header
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
@@ -28,7 +36,7 @@ Because all changes are saved to the draft version until they are published, you
 
 ## Discard changes to an app
 
-If at some point you want to discard all the changes in the draft version, you can do this by selecting Discard Changes... **\[how?\]**.
+If at some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to **Republish & Share** and select **Discard changes**. Discarding changes will discard all changes made since the last publishing _including changes to data sources_. 
 
 ## Multiple authors \(coming soon!\)
 
