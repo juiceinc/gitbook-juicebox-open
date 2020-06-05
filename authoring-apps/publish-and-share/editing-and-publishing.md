@@ -36,7 +36,11 @@ Because all changes are saved to the draft version until they are published, you
 
 ## Discard changes to an app
 
-If at some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to the Republish & Share section and select **Discard changes**. Discarding changes will discard _**all changes**_ made since the last publishing _i**ncluding changes to data sources**_. 
+If at some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to the Republish & Share section and select **Discard changes**. 
+
+{% hint style="warning" %}
+Discarding changes will discard _**all changes**_ made since the last publishing _i**ncluding changes to data sources**_. 
+{% endhint %}
 
 ## Multiple authors \(coming soon!\)
 
