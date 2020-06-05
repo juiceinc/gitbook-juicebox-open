@@ -54,7 +54,7 @@ Numeric columns should only contain numbers or nulls. Anything else will prevent
 
 ### 10. Confirm date columns contain only dates with date formatting \(or nulls\)
 
-Date columns should only contain dates or nulls. Dates should be formatted like MM-DD-YYYY, MM/DD/YYYY, or YYYY-MM-DD. **\[TODO: Can we include seconds?\]**
+Date columns should only contain dates or nulls. Dates should be formatted like MM-DD-YYYY, MM/DD/YYYY, or YYYY-MM-DD. 
 
 ### 11. Add first-day-of-the-month dates
 
