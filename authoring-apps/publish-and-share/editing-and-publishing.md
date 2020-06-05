@@ -14,7 +14,7 @@ Before publishing your app, only authors can see the app. When you're ready to s
 
 Changes made after the first publishing will not be seen by viewers until they are republished. When you make changes to the app, the Publish & Share section's name will change to **Republish & Share**. To republish, go to the Republish & Share section and click **Republish changes**. 
 
-![Republish &amp; Share after first publishing](../../.gitbook/assets/image%20%2826%29.png)
+![Republish &amp; Share after first publishing](../../.gitbook/assets/image%20%2827%29.png)
 
 ## Making changes to an app
 
