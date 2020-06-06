@@ -50,7 +50,7 @@ Any column with numeric data should be free of formatting that adds thousands se
 
 ### 9. Confirm numeric columns contain only numeric data \(or nulls\)
 
-Numeric columns should only contain numbers or nulls. Anything else will prevent you from using the column in measures that use sum\(\), avg\(\), min\(\), or max\(\) aggregation formulas. You'll want to remove things like spaces, "-", "--", "N/A", "\#N/A", and "\#ERROR". 
+Numeric columns should only contain numbers or nulls. Anything else will prevent you from using the column in measures that use sum\(\), avg\(\), min\(\), or max\(\) aggregation functions. You'll want to remove things like spaces, "-", "--", "N/A", "\#N/A", and "\#ERROR". 
 
 ### 10. Confirm date columns contain only dates with date formatting \(or nulls\)
 
