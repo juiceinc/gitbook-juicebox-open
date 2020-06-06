@@ -38,11 +38,11 @@ Columns you don't need can be distracting during data preparation and app buildi
 
 ### 6. Remove rows you don't need
 
-Sometimes your data will contain rows you don't need. For example, let's say your data contains data broken out by state as well as data aggregated for the US. You can aggregate the state-level records to get the US values, so you do not need the US records. Removing unneeded rows will simplify your ingredient definitions later on. 
+Sometimes your data will contain rows you don't need. For example, let's say your data contains data broken out by state as well as data aggregated for the US. Because you can aggregate the state-level records to get the US values, you do not need the US records. Removing unneeded rows will simplify your ingredient definitions later on. 
 
 ### 7. Revise column names as needed
 
-Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `First.Last.Name`, you could change it to `Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels in your initial ingredients, so better column names mean less work for you when defining ingredients. 
+Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels in your initial ingredients, so better column names mean less work for you when defining ingredients. 
 
 ### 8. Remove number formatting
 
@@ -58,7 +58,7 @@ Date columns should only contain dates or nulls. Dates should be formatted like 
 
 ### 11. Add first-day-of-the-month dates
 
-At this time, the Trend slice only works for dates on the first day of the month. Therefore, for each date column in your data, you'll need to add a corresponding date column with the date modified to the first day of the month. We recommend using the spreadsheet formula `=EOMONTH(A1,-1) + 1`, where A1 is the original date value. 
+At this time, the [trend](../story-designer/charts/trend.md) chart only works for dates on the first day of the month. Therefore, for each date column in your data, you'll need to add a corresponding date column with the date modified to the first day of the month. We recommend using the spreadsheet formula `=EOMONTH(A1,-1) + 1`, where A1 is the original date value. 
 
 ### 12. Add latitude and longitude
 
@@ -72,12 +72,5 @@ You're almost there! Do a final check to make everything looks ok. Should null v
 
 Download your prepared data as a CSV file. Give it a meaningful but brief name and save it in a location you can easily find.
 
-{% hint style="success" %}
-After loading your data, do a quick review of the [initial ingredients](../data-sources/add-a-data-source/#initial-ingredients) for anything inferred in an unexpected way. If you spot something unexpected, this indicates an issue with the data. Here are some common examples:
-
-* Did a field that should only have numbers get inferred as a Dimension? That likely means you have non-numeric data in the column \(e.g., spaces, commas, "N/A", "null", or "-"\).
-* Is a field name showing with unexpected underscores \(e.g., `_column_name_`, rather than `column_name`\)? That likely means there are leading or trailing spaces in your column headings.
-
-Spotting, fixing, and re-loading these issues early will save you time and frustration down the road.
-{% endhint %}
+Congratulations! You're now ready to [add a data source](../data-sources/add-a-data-source/).
 

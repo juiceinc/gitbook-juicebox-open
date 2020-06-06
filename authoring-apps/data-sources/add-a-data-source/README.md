@@ -21,6 +21,17 @@ Here's a video showing how to upload a CSV:
 
 **\[TODO: insert video\]**
 
+\*\*\*\*
+
+{% hint style="success" %}
+After loading your data, do a quick review of the [initial ingredients](./#initial-ingredients) for anything inferred in an unexpected way. If you spot something unexpected, this indicates an issue with the data. Here are some common examples:
+
+* Did a field that should only have numbers get inferred as a Dimension? That likely means you have non-numeric data in the column \(e.g., spaces, commas, "N/A", "null", or "-"\).
+* Is a field name showing with unexpected underscores \(e.g., `_column_name_`, rather than `column_name`\)? That likely means there are leading or trailing spaces in your column headings.
+
+Spotting, fixing, and re-loading these issues early will save you time and frustration down the road.
+{% endhint %}
+
 ### Connect to a database table or view \(coming soon!\)
 
 ### Connect to a Google Sheet \(coming soon!\)
