@@ -1,4 +1,2 @@
-# Subscription and Billing
-
-* Plan
+# Subscription and Billing \(coming soon!\)
 

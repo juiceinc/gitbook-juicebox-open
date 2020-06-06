@@ -58,11 +58,6 @@
 
 ## Managing clients \(coming soon!\) <a id="managing-clients"></a>
 
-* [Client Settings](managing-clients/settings/README.md)
-  * [Name](managing-clients/settings/name.md)
-  * [Domain](managing-clients/settings/domain.md)
-  * [Access Controls](managing-clients/settings/access-controls/README.md)
-    * [App Access Links](managing-clients/settings/access-controls/app-access-links.md)
-    * [Email Domain Control](managing-clients/settings/access-controls/email-domain-control.md)
-* [Subscription and Billing](managing-clients/untitled.md)
+* [Client Settings](managing-clients/settings.md)
+* [Subscription and Billing \(coming soon!\)](managing-clients/untitled.md)
 
