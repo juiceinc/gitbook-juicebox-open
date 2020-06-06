@@ -1,8 +1,84 @@
 # User Roles and Management
 
-Before you can view an app, you must set up a Juicebox user account. Each person invited to an app will set up a Juicebox user account. What users can do once logged in depends on their user role.  There are four user roles: viewer, author, client admin, and client owner. 
+Before you can view an app, you must set up a Juicebox user account. Each person invited to an app will set up a Juicebox user account. What users can do once logged in depends on their user role.  There are four user roles: viewer, author, admin, and owner. 
 
 ## User Roles
+
+Here's an overview of what each role can do. 
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Action</th>
+      <th style="text-align:left">Viewers can...</th>
+      <th style="text-align:left">Authors can...</th>
+      <th style="text-align:left">Admins can...</th>
+      <th style="text-align:left">Owner can...</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">View specific apps</td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">N/A</td>
+      <td style="text-align:left">N/A</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Invite users to specific
+        <br />apps (coming soon)</td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Create new apps</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Change specific apps</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">N/A</td>
+      <td style="text-align:left">N/A</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">View all apps</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Change all apps</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Manage users (coming soon)</td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">X</td>
+      <td style="text-align:left">X</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>Change subscription</p>
+        <p>and payment info (coming soon)</p>
+      </td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">X</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Viewer
 
@@ -10,19 +86,15 @@ Viewers can view the apps they've been given access to. They cannot see apps the
 
 ### Author
 
-Authors can author new apps and make changes to apps they've created or apps for which they've been made an author.  Authors can also invite new viewers to their apps by sharing access links. 
+Authors can view apps they've been given access to, create new apps, and make changes to apps they've created or apps for which they've been made an author.  
 
-### Client Admin
+### Admin
 
-Client admins can author new apps and make changes to any app. 
+ Admins can view all apps, create new apps and make changes to any app. \(Coming soon, admins will be able to access the user management view to manage user roles for any app.\) 
 
-Coming soon, admins will be able to access the **\[user management view\]**, from which admins can manage user roles for any app, generate and re-generate access links, and set email domain control for apps. 
+### Owner
 
-### Client Owners \(coming soon!\)
-
-Coming soon, client owners will be able to do everything client admins can do plus adjust the billing plan and payment information from the **\[account management view\]**. **\[There is only one client owner for a Juicebox client.\]**
+Each client has one owner. The owner can do everything client admins can do. \(Coming soon, the owner will be able to adjust the subscription and payment information.\) 
 
 ## User Management \(coming soon!\)
-
-Client owners and admins will have access to the user management view. From this view, user roles can be adjusted and app access links can be generated and re-generated. In this way, owners and admins can control the number of users and authors. 
 

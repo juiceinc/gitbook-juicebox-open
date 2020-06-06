@@ -1,4 +1,2 @@
-# Sharing Apps
-
-To share apps, authors
+# Sharing Apps \(coming soon!\)
 

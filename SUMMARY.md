@@ -52,7 +52,7 @@
 
 ## Managing Apps
 
-* [Sharing Apps](managing-apps/sharing-apps.md)
+* [Sharing Apps \(coming soon!\)](managing-apps/sharing-apps.md)
 * [Usage Reporting \(coming soon!\)](managing-apps/usage-reporting.md)
 * [User Roles and Management](managing-apps/user-management-and-roles.md)
 
