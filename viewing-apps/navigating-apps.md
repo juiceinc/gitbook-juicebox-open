@@ -14,7 +14,7 @@ Each Juicebox client has its own apps page. \(For example, the apps page for Hea
 
 To get back to the apps page from any app, click on the app name in the app header.
 
-![Click app name in header to return to apps page](../.gitbook/assets/image%20%2831%29.png)
+![Click app name in header to return to apps page](../.gitbook/assets/image%20%2832%29.png)
 
 ### From the app link
 

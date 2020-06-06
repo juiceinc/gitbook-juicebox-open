@@ -6,7 +6,7 @@ Before publishing your app, only authors can see the changes you've made. When y
 
 ### Publishing for the first time
 
-Before publishing your app, only authors can see the app. When you're ready to share your work with viewers, it's time to publish. To publish for the first time, go to the Publish & Share section in the app editor and click **Publish**.
+To publish for the first time, go to the Publish & Share section in the app editor and click **Publish**.
 
 ![Publish &amp; Share prior to first publishing](../../.gitbook/assets/image%20%282%29.png)
 

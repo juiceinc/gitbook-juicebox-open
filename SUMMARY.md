@@ -38,7 +38,7 @@
     * [Image \(coming soon!\)](authoring-apps/story-designer/charts/image.md)
 * [Publish & Share](authoring-apps/publish-and-share/README.md)
   * [Editing & Publishing](authoring-apps/publish-and-share/editing-and-publishing.md)
-  * [Sharing & Access Controls](authoring-apps/publish-and-share/sharing-and-access-controls.md)
+  * [Sharing & Access Controls \(coming soon!\)](authoring-apps/publish-and-share/sharing-and-access-controls.md)
 * [Tips and Tricks](authoring-apps/design-tips/README.md)
   * [Telling data stories](authoring-apps/design-tips/telling-data-stories.md)
   * [Visual design](authoring-apps/design-tips/visual-design.md)

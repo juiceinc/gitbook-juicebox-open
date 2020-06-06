@@ -16,9 +16,9 @@ Data preparation is tedious and time-consuming. We get it. But unless the data i
 
 Your goal here is a single sheet containing all data organized into columns and rows, with the first row containing the column headers and each column containing values of the correct data type. 
 
-### 1. Review your data
+### 1. Review and understand your data
 
-Do you know what the column headings mean? Do the values in the columns make sense? Are there any columns you need that are missing? Interrogate your data early on. If the data is not quite right, better to find that out before you spend time on the following steps. 
+Interrogate your data early on. Do you know what the column headings mean? Do the values in the columns make sense? Are there any columns you need that are missing? If the data is not quite right, fix it before going to the next step. 
 
 ### 2. Make a working copy of your data
 
@@ -62,7 +62,7 @@ At this time, the [trend](../story-designer/charts/trend.md) chart only works fo
 
 ### 12. Add latitude and longitude
 
-If you want to use the Map slice, you will need to have latitude and longitude columns in your data. If you do not, you will need to add a these. We recommend using [this process in Google Sheets](https://discourse.looker.com/t/get-latitude-longitude-for-any-location-through-google-sheets-and-plot-these-in-looker/5402). 
+If you want to use the [map](../story-designer/charts/map.md) slice, you will need to have latitude and longitude columns in your data. If you do not, you will need to add a these. We recommend using [this process in Google Sheets](https://discourse.looker.com/t/get-latitude-longitude-for-any-location-through-google-sheets-and-plot-these-in-looker/5402). 
 
 ### 13. Do a final check
 
