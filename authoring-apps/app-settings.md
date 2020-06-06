@@ -28,7 +28,7 @@ Choose a typographic style for your app.
 
 ### Deleting an app
 
-To delete an app, click the menu icon and select **Delete App**. 
+To delete an app, click the menu icon \(![](../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Delete App**. 
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 
