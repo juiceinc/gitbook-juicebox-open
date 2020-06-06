@@ -62,10 +62,10 @@ Each ingredient has the following components:
 * **field**. The instructions for what will display in the app. These definitions can be basic or advanced and are explained in more detail in the next sections. 
 * **singular**. The label displayed for the dimension or measure. 
 * **plural**. The label displayed when more than one dimension value is selected in the app. The `plural`component is only used by dimensions.
-* **\(optional\) format**. The number or date format to be used. The `format` component is only used to format numbers and dates. 
-* **\(optional\) icon**. The Font Awesome icon to display with your Dimension or Measure. By default, measures will have `hashtag` \(![](../../../.gitbook/assets/hashtag-solid.svg)\) and dimensions will have `check-square`\( ![](../../../.gitbook/assets/check-square-solid.svg) \). 
+* **format**. The number or date format to be used. The `format` component is only used to format numbers and dates. 
+* **icon**. The Font Awesome icon to display with your Dimension or Measure. By default, measures will have `hashtag` \(![](../../../.gitbook/assets/hashtag-solid.svg)\) and dimensions will have `check-square`\( ![](../../../.gitbook/assets/check-square-solid.svg) \). 
 
-These components are configured as you define your ingredients. 
+These components are configured as you [define your ingredients](defining-ingredients.md). 
 
 
 
