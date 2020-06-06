@@ -15,7 +15,6 @@
 * [Data Sources](authoring-apps/data-sources/README.md)
   * [Add a data source](authoring-apps/data-sources/add-a-data-source/README.md)
     * [Defining ingredients](authoring-apps/data-sources/add-a-data-source/defining-ingredients.md)
-    * [Creating Advanced Data Ingredients \(Chris\)](authoring-apps/data-sources/add-a-data-source/creating-data-ingredients.md)
     * [Ingredient formats](authoring-apps/data-sources/add-a-data-source/ingredient-formats.md)
   * [Edit a data source](authoring-apps/data-sources/edit-a-data-source.md)
   * [Delete a data source \(coming soon!\)](authoring-apps/data-sources/delete-a-data-source.md)
