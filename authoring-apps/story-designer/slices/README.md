@@ -1,9 +1,5 @@
 # Slices
 
-
-
-## What are slices?
-
 Slices are...
 
 ## Adding and deleting slices
