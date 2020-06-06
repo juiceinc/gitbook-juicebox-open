@@ -43,7 +43,7 @@ Dimensions are a type of data ingredient. A dimension is a value used to define 
 
 There are two special kinds of dimensions: **place** dimensions and **time** dimensions. 
 
-A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the the [Map](../story-designer/charts/map.md) chart. 
+A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the the [map](../story-designer/charts/map.md) chart. 
 
-A time dimension is a dimension that is a date. Time dimensions are used in the [Trend](../story-designer/charts/trend.md) chart. 
+A time dimension is a dimension that is a date. Time dimensions are used in the [trend](../story-designer/charts/trend.md) chart. 
 

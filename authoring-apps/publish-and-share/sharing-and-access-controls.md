@@ -1,4 +1,4 @@
-# Sharing & Access Controls \(coming soon!\)
+# Sharing and access controls \(coming soon!\)
 
 ## Access links
 

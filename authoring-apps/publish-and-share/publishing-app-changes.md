@@ -1,4 +1,4 @@
-# Editing & Publishing
+# Publishing app changes
 
 ## Publishing an app
 
