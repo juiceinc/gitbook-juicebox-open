@@ -12,7 +12,7 @@ Once your app is created, you will see the app on the apps page. You're now read
 
 ## Edit an app
 
-Changes can be made to a draft version of the app using an in-browser interface called the **app editor**. Only authors for the app, client admins, and client owners can access the app editor. 
+Changes can be made to a draft version of the app using an in-browser interface called the **app editor**. Only [users with authoring rights](../managing-apps/user-management-and-roles.md#user-roles) can access the app editor. 
 
 {% hint style="info" %}
 While changes made in the app editor are immediately reflected in the draft app, viewers cannot see the changes until they are published.
@@ -22,7 +22,7 @@ While changes made in the app editor are immediately reflected in the draft app,
 
 To access the app editor, select **Edit** on the app \(or the pencil icon on the story\) from the apps page, or select **Edit this app** from the profile menu in a published app's header. 
 
-![Accessing the app editors from the apps page](../.gitbook/assets/image%20%2819%29.png)
+![Accessing the app editor from the apps page](../.gitbook/assets/image%20%2819%29.png)
 
 ![Accessing the app editor from the app header in published app](../.gitbook/assets/image%20%2826%29.png)
 
