@@ -59,7 +59,7 @@ If you delete the inferred ingredient for a field in your data without adding an
 Each ingredient has the following components:
 
 * **kind**. The ingredient type, either `Dimension` or `Measure`. 
-* **field**. The instructions for what will display in the app. These definitions can be basic or advanced and are explained in more detail in the next sections. 
+* **field**. The instructions for what will display in the app. These instructions can be basic or advanced and are explained in more detail in [the next section](defining-ingredients.md). 
 * **singular**. The label displayed for the dimension or measure. 
 * **plural**. The label displayed when more than one dimension value is selected in the app. This is also the name of the ingredient.
 * **format**. The number or date format to be used. The `format` component is only used to format numbers and dates. 
