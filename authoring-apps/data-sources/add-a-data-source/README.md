@@ -29,7 +29,7 @@ After loading your data, do a quick review of the [initial ingredients](./#initi
 * Did a field that should only have numbers get inferred as a Dimension? That likely means you have non-numeric data in the column \(e.g., spaces, commas, "N/A", "null", or "-"\).
 * Is a field name showing with unexpected underscores \(e.g., `_column_name_`, rather than `column_name`\)? That likely means there are leading or trailing spaces in your column headings.
 
-Spotting, fixing, and re-loading these issues early will save you time and frustration down the road.
+Spotting and fixing these issues early and re-loading your data will save you time and frustration down the road.
 {% endhint %}
 
 ### Connect to a database table or view \(coming soon!\)
