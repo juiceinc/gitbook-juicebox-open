@@ -10,7 +10,11 @@ To add a table chart to a slice:
 * select the ingredients you want displayed in the table in the order you want them displayed
 * choose whether you want users to be able to download the data
 
-{% embed url="https://www.loom.com/share/efb4e37e69af47fe9f14b7e1f7a3e4bc" caption="Adding a table slice" %}
+{% embed url="https://www.loom.com/share/efb4e37e69af47fe9f14b7e1f7a3e4bc" %}
+
+
+
+
 
 ## Using a table slice
 

@@ -6,7 +6,7 @@ If you're logged in as an author \(or a user with authoring rights\), you're abl
 
 To add a new app, select **+ New App** from the apps page. Selecting **+ New App** will start the app creation wizard, which walks you through creating your app. Here's a video showing how the Unhealthy Americans app was created:
 
-{% embed url="https://www.loom.com/share/e707496dbb55466a97642df54fff6879" %}
+{% embed url="https://www.loom.com/share/e707496dbb55466a97642df54fff6879" caption="Adding a new app" %}
 
 Once your app is created, you will see the app on the apps page. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/).  ****
 
