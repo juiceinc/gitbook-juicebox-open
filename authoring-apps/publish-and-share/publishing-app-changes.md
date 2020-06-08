@@ -27,7 +27,7 @@ Because all changes are saved to the draft version until they are published, you
   * You will see "There are unpublished changes..." in Publish & Share
   * You will see an "Unpublished" pill in the app header
 * After first publishing:
-  * The Publish & Share section's name will change to Republish & Share, highlighted yellow
+  * The Publish & Share section's name will change to Republish & Share, highlighted yellow, if there are any unpublished changes
   * You will see an "Unpublished changes" pill in the app header
 
 ![](../../.gitbook/assets/image%20%283%29.png)
