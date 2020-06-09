@@ -12,8 +12,6 @@ To add a filter slice:
 
 {% embed url="https://www.loom.com/share/0307b76752bb4a428827940d809f3c53" caption="Adding a filter slice" %}
 
-
-
 ## Using a filter slice
 
 To use a filter slice, click on the filter pill and select the values that you want to filter on. 

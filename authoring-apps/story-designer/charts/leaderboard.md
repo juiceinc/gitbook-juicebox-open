@@ -14,8 +14,6 @@ To add a leaderboard slice:
 
 {% embed url="https://www.loom.com/share/270a4471feab4a8d96ce5bfef14291bb" caption="Adding a leaderboard slice" %}
 
-
-
 ## Using a leaderboard slice
 
 If you have 10 rows in your leaderboard, you can use the **LOOK AT** options to see the top 10, bottom 10, or top 5 and bottom 5. \(If you have 25 rows, you can opt to see the top 25, bottom 25, or top 13 and bottom 12\). To see the ranking of a dimension value not shown in the leaderboard, you can click the filter pill and search for the dimension. Selections made in the leaderboard slice will filter downstream slices. 
