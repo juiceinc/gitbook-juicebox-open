@@ -8,8 +8,9 @@ To add a filter slice:
 
 * select **Filters** from the chart list
 * select the ingredients you want to add as filters in the order you want them displayed
+* \(optional\) add a title
 
-{% embed url="https://www.loom.com/share/0307b76752bb4a428827940d809f3c53" %}
+{% embed url="https://www.loom.com/share/0307b76752bb4a428827940d809f3c53" caption="Adding a filter slice" %}
 
 
 
