@@ -55,6 +55,6 @@
 
 ## Managing clients \(coming soon!\) <a id="managing-clients"></a>
 
-* [Client Settings](managing-clients/settings.md)
+* [Client Settings \(coming soon!\)](managing-clients/settings.md)
 * [Subscription and Billing \(coming soon!\)](managing-clients/untitled.md)
 
