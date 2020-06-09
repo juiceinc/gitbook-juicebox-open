@@ -12,7 +12,7 @@ The basic ingredients will look like this:
 
 ### Basic dimension
 
-![A basic dimension](../../../.gitbook/assets/image%20%2844%29.png)
+![A basic dimension](../../../.gitbook/assets/image%20%2846%29.png)
 
 ### Basic measure
 
@@ -22,11 +22,17 @@ Sometimes the options available in the basic ingredient editor will not be suffi
 
 ## Advanced ingredients
 
-Most of your ingredients will be basic ingredients. But in cases where you need to do something more than the basic ingredient editor allows, you can use advanced ingredients. 
+In cases where you need to do something more than the basic ingredient editor allows, you can use advanced ingredients. 
 
 ### Adding an advanced ingredient
 
-To create an advanced ingredient, click on the ingredient pill for a field you will use in your definition. From there, click the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\), and select **Duplicate as Advanced**. Modify the ingredient definition in the text editor as needed. 
+To create an advanced ingredient, click on the ingredient pill for a field you will use in your definition. From there, click the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\), and select **Duplicate as Advanced**. 
+
+![Select Duplicate as Advanced to create an advanced ingredient](../../../.gitbook/assets/image%20%2836%29.png)
+
+This will make a copy of the ingredient and open a text editor. Modify the ingredient definition in the text editor as needed. 
+
+![Duplicate ingredient created with text editor](../../../.gitbook/assets/image%20%2843%29.png)
 
 ### What you can do with advanced ingredients
 
@@ -46,7 +52,7 @@ Advanced ingredients allow you to define the ingredient components in a text edi
 
 If the dimension values in your data are not what you want displayed in your app, you can create a lookup dimension to change them. For example, the Unhealthy Americans data has a Question field with two distinct, very long values: "Percent of adults aged 18 years and older who have obesity" and "Percent of adults aged 18 years and older who have an overweight classification." You want to display "Obese" and "Overweight" instead.  To do that, you would create an advanced ingredient like so:
 
-![Advanced ingredient: lookup dimension](../../../.gitbook/assets/image%20%2836%29.png)
+![Advanced ingredient: lookup dimension](../../../.gitbook/assets/image%20%2837%29.png)
 
 To create a lookup dimension, you add the `lookup:` component to the dimension definition.
 
@@ -68,7 +74,7 @@ If there is a value in your data that is not added to the list of values to look
 
 A bucketed dimension is a dimension that groups field values into buckets based on conditions. For example, the Unhealthy Americans data includes the `LocationAbbr` field with state abbreviation values. Let's say you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you would create an advanced ingredient like so--
 
-![Advanced ingredient: bucketed dimension](../../../.gitbook/assets/image%20%2838%29.png)
+![Advanced ingredient: bucketed dimension](../../../.gitbook/assets/image%20%2839%29.png)
 
 --with the following components:
 

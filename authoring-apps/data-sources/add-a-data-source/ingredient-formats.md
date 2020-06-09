@@ -6,7 +6,7 @@ Often you will want to control how number and date values are formatted in your 
 
 To control how numbers are displayed in the app, you can specify a format. For example, let's say you have the following ingredient definition for `Data_Value`:
 
-![Measure with &quot;\# 2 Decimals&quot; format ](../../../.gitbook/assets/image%20%2839%29.png)
+![Measure with &quot;\# 2 Decimals&quot; format ](../../../.gitbook/assets/image%20%2840%29.png)
 
 Representative values for `Data_Value` in your data are `3231.447` and `0.5264`. You probably do  not want price to display the unformatted value your app. Therefore, you will want to specify a format in the `Data_Value` ingredient definition. 
 
