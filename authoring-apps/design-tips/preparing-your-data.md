@@ -38,7 +38,7 @@ Columns you don't need can be distracting during data preparation and app buildi
 
 ### 6. Remove rows you don't need
 
-Sometimes your data will contain rows you don't need. For example, let's say your data contains has values broken out by state as well as values for the US. Because you can aggregate the state-level values to get the US values, you do not need the US records. Removing unneeded rows will simplify your ingredient definitions later on. 
+Sometimes your data will contain rows you don't need. For example, let's say your data contains values broken out by state as well as values for the US. Because you can aggregate the state-level values to get the US values, you do not need the US records. Removing unneeded rows will simplify your ingredient definitions later on. 
 
 ### 7. Revise column names as needed
 

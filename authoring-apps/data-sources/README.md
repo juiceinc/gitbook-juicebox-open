@@ -4,10 +4,7 @@ The Data Sources section of the app editor is where you set up your data sources
 
 ![Select Data to access Data Sources section](../../.gitbook/assets/image%20%2821%29.png)
 
-You must set up at least one data source before you can design your story. A data source is made up of two things: 
-
-1. data
-2. data ingredients
+You must set up at least one data source before you can design your story. A data source is made up of two things:  1\) data and 2\) data ingredients.
 
 ## Data
 

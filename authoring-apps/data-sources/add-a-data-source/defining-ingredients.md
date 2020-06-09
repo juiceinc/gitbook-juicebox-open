@@ -49,8 +49,9 @@ These are just a starting point. You can add additional ingredients by.... You w
 
 Most of your ingredients will be basic ingredients. But in cases where you need to do something more with the `field` and `format` than the basics, you can use advanced ingredients. Advanced ingredients allow you to use--
 
-* Dimensions that group values into "buckets" based on conditions **\[TODO: What is the difference between buckets and quickselects?\]**
 * Dimensions that display a lookup value rather than the field value
+* Dimensions that group values into "buckets" based on conditions 
+* Filters that group values into frequently used groups based on conditions \(e.g., "Year to Date", "Last 90 days"\)
 * Measures that use field math
 * Measures that combine multiple formulas
 * Measures and dimensions that reference other measures and dimensions
@@ -60,53 +61,86 @@ Most of your ingredients will be basic ingredients. But in cases where you need 
 
 ## Lookup dimensions
 
+If the dimension values in your data are not what you want displayed in your app, you can create a lookup dimension to change them. For example, the Unhealthy Americans data has a Question field with two distinct, very long values: "Percent of adults aged 18 years and older who have obesity" and "Percent of adults aged 18 years and older who have an overweight classification." You want to display "Obese" and "Overweight" instead.  To do that, you would create an advanced ingredient like so:
+
+![Advanced ingredient: lookup dimension](../../../.gitbook/assets/image%20%2834%29.png)
+
+To create a lookup dimension, you add the `lookup:` component to the dimension definition.
+
+```text
+kind: Dimension
+field: [field]
+singular: [singular label]
+plural: [plural label]
+icon: [icon]
+lookup:
+  [value to lookup]:[value to display]
+  [value to lookup]:[value to display]
+  [value to lookup]:[value to display]
+```
+
+If there is a value in your data that is not added to the list of values to lookup, then the value in the data will be displayed. 
+
 ## Bucketed dimensions
 
-Buckets are a convenient way of defining Dimensions using continuous variables. **In Juicebox Open; you’ll do this by making an advanced ingredient.** 
+If you want to create a dimension that groups values of a field into buckets based on conditions, you will create a bucketed dimension. For example, the Unhealthy Americans data includes the `LocationAbbr` field with state abbreviation values. Let's say you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you would create an advanced ingredient like so--
+
+![Advanced ingredient: bucketed dimension](../../../.gitbook/assets/image%20%2835%29.png)
+
+--with the following components:
 
 ```text
-grades:
-  kind: Dimension
-  field: grade
-  buckets:
-    - label: "Grade School"
-      condition: 'in ("K", "1", "2", "3", "4", "5")'
-    - label: "Middle School"
-      condition: 'in ("6", "7", "8")'
-    - label: "Grade School"
-      condition: 'in ("9", "10", "11", "12")'
-  buckets_default_label: Otherc
+kind: Dimension
+field: LocationAbbr
+singular: Region
+plural: Regions
+buckets:
+  - label: Southeast
+    condition: 'IN ("AR", "AL", "GA", "MS", "TN", "KY", "SC", "NC", "VA", "WV", "DC", "FL")'
+  - label: Northeast
+    condition: 'IN ("ME","VT","NH","CT","NY","NJ","DE","MD","PA","MA","RI")'
+  - label: Midwest
+    condition: 'IN ("IA","MI","WI","MN","NE","MO","IN","IL","OH","KS","ND","SD")'
+  - label: Southwest
+    condition: 'IN ("TX","OK","AZ","NM")'
+  - label: West
+    condition: 'IN ("CA","NV","CO","UT","OR","WA","HI","WY","MT","ID","AK")'
+buckets_default_label: Other
 ```
 
-Buckets will evaluate their condition against the “field” but you can supply a full condition.
+By default, each condition will be evaluated against the main `field`, but you can provide an alternative field in the condition itself, like so:
 
 ```text
-sales_group:
-  kind: Dimension
-  field: grade
-  buckets:
-    # This first condition does not use the field because it contains its own
-    - label: In-state
-      condition: 'state = "Tennessee"'
-    - label: Small
-      condition: '<100.0'
-    - label: Medium
-      condition: '<1000.0'
-  buckets_default_label: Large
+kind: Dimension
+field: grade
+singular: Sales Group
+plural: Sales Groups
+buckets:
+  # This first condition does not use the field because it contains its own
+  - label: In-state
+    condition: 'state = "Tennessee"'
+  - label: Small
+    condition: '<100.0'
+  - label: Medium
+    condition: '<1000.0'
+buckets_default_label: Large
 ```
 
-The conditions within buckets are evaluated in the order they are defined.
+The conditions within buckets are evaluated in the order they are defined, which makes defining dimensions using continuous variables convenient:
 
 ```text
-Rain:
-  kind: Dimension
-  field:
-    value: Rain
-    aggregation: none
-  lookup:
-    'N': 'No'
-    'Y': 'Yes'
-  role: dimension
+kind: Dimension
+field: age
+singular: Age Range
+plural: Age Bands
+buckets:
+  - label: "Under 5"
+    condition: '< 5'
+  - label: "5-17"
+    condition: '< 18'
+  - label: "18-64"
+    condition: '< 65'
+buckets_default_label: 65 and over
 ```
 
 ## Quickselect filtering

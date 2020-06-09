@@ -7,7 +7,7 @@ There are two steps to adding a data source:
 
 ## Upload or connect to your data
 
-You can upload a CSV or \(coming soon!\) connect to a database table or view. \(Coming soon, you can connect to a Google Sheet.\)
+You can upload a CSV or \(coming soon!\) connect to a database table or view or a Google Sheet.
 
 ### Upload a CSV
 
