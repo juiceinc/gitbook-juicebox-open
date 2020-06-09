@@ -1,6 +1,6 @@
 # Creating and Editing Apps
 
-If you're logged in as an author \(or a user with authoring rights\), you're able to create and edit apps.
+If you're logged in as [an author \(or a user with authoring rights\)](../managing-apps/user-management-and-roles.md#user-roles), you're able to create and edit apps.
 
 ## Add a new app
 
