@@ -132,13 +132,13 @@ buckets:
 buckets_default_label: 65 and over
 ```
 
-#### Quickselect filtering
+#### Quickselect filtering \[incomplete\]
 
 {% hint style="info" %}
 Both bucketed dimensions and quickselects can be used for filtering. But quickselects can **only** be used in filter slices, whereas bucketed dimensions can be used in other slices. You would use quickselects vs buckets if a single data value should be associated with more than one filter option.  For example, if you want filters for ages `18 and older` and `45 and older` , you must use a quickselect because some age values \(e.g., 46\) will be associated with both filters. Buckets will not work because each age value can only belong to one bucket.
 {% endhint %}
 
-#### Field math
+#### Field math \[incomplete\]
 
 Database columns are always referenced by a string. You can perform math on these columns as well as use aggregation functions like **count**, **count\_distinct**, **sum**, **min**, and **max**. If your database backend is Redshift \(or postgres\), you can also calculate percentiles and median with functions. If you divide two values; you’ll get a SQL-safe division \(which prevents divide by zeros\). If you divide by zero, you’ll get a null.
 
@@ -161,7 +161,7 @@ avg_sales_per_salesperson:
   field: sum(total_sales) / count_distinct(salesperson_id)
 ```
 
-#### Combining multiple functions
+#### Combining multiple functions \[incomplete\]
 
 Database columns are always referenced by a string. You can perform math on these columns as well as use aggregation functions like **count**, **count\_distinct**, **sum**, **min**, and **max**. If your database backend is Redshift \(or postgres\), you can also calculate percentiles and median with functions. If you divide two values; you’ll get a SQL-safe division \(which prevents divide by zeros\). If you divide by zero, you’ll get a null.
 
@@ -184,7 +184,7 @@ avg_sales_per_salesperson:
   field: sum(total_sales) / count_distinct(salesperson_id)
 ```
 
-#### Referencing other measures and dimensions
+#### Referencing other measures and dimensions \[incomplete\]
 
 Referencing other dimensions or metrics is supported using the "@" syntax.
 
@@ -200,7 +200,7 @@ recovered_change:
   format: '"+",0f; ,0f'
 ```
 
-#### Conditional logic
+#### Conditional logic \[incomplete\]
 
 What if I only want certain calculations to happen conditionally? For instance, to only sum sales if the region is in the northeast.
 
@@ -250,7 +250,7 @@ previous_active:
   format: ',0f'
 ```
 
-#### Advanced  formats
+#### Advanced  formats \[incomplete\]
 
 
 
