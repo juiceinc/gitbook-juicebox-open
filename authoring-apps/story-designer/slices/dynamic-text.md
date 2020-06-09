@@ -1,4 +1,4 @@
-# Dynamic text
+# Dynamic text \[incomplete\]
 
 Slice text can change dynamically based on what a user has selected in slices above. This is done using title templates. The two most commonly used title templates are...
 
