@@ -4,54 +4,25 @@
 
 ## Basic ingredients
 
-After uploading or connecting your data, a set of [initial ingredients](./#initial-ingredients) will be created. For example, after uploading the CSV for the Unhealthy Americans app, here are the initial ingredients:
+Basic ingredients are defined using the basic ingredient editor. To access the ingredient editor for an ingredient, click on the ingredient pill. The basic ingredients will look like this:
 
+### Basic dimension
 
+![A basic dimension](../../../.gitbook/assets/image%20%2843%29.png)
 
+### Basic measure
 
+![A basic measure](../../../.gitbook/assets/image%20%2834%29.png)
 
-```text
-facility:
-  kind: Dimension
-  singular: Facility
-  plural: Facilities
-  icon: check-square
-sales_dollars:
-  kind: Measure
-  field: sum(sales_dollars)
-  singular: "Sales Dollar"
-  plural: "Sales Dollars"
-  format: "$,.0f"
-  icon: "usd"
-total:
-  kind: Measure
-  field: sum(total)
-  singular: "Total"
-  plural: "Totals"
-  format: ",.2f"
-  icon: "hashtag"  
-```
-
-```text
-# a basic summing metric
-
-active:
-  kind: Metric
-  field: sum(active)
-  singular: 'Active Cases'
-  plural: 'Active Cases'
-  format: ',.0f'
-```
-
-These are just a starting point. You can add additional ingredients by.... You will be able to.... You will not be able to.... **\[TODO: insert based on ingredients editor UI\]**.
+Sometimes the options available in the basic ingredient editor will not be sufficient to define your desired ingredient. In those cases, you will need to create an advanced ingredient. 
 
 ## Advanced ingredients
 
-Most of your ingredients will be basic ingredients. But in cases where you need to do something more with the `field` and `format` than the basics, you can use advanced ingredients. Advanced ingredients allow you to use--
+Most of your ingredients will be basic ingredients. But in cases where you need to do something more with the `field` and `format` than the basic ingredient editor allows, you can create advanced ingredients. Advanced ingredients allow you to define the ingredient components in a text editor. Advanced ingredients allow you to use--
 
 * Dimensions that display a lookup value rather than the field value
 * Dimensions that group values into "buckets" based on conditions 
-* Filters that group values into frequently used groups based on conditions \(e.g., "Year to Date", "Last 90 days"\)
+* Filters that group values into frequently-used ranges based on conditions
 * Measures that use field math
 * Measures that combine multiple formulas
 * Measures and dimensions that reference other measures and dimensions
@@ -63,7 +34,7 @@ Most of your ingredients will be basic ingredients. But in cases where you need 
 
 If the dimension values in your data are not what you want displayed in your app, you can create a lookup dimension to change them. For example, the Unhealthy Americans data has a Question field with two distinct, very long values: "Percent of adults aged 18 years and older who have obesity" and "Percent of adults aged 18 years and older who have an overweight classification." You want to display "Obese" and "Overweight" instead.  To do that, you would create an advanced ingredient like so:
 
-![Advanced ingredient: lookup dimension](../../../.gitbook/assets/image%20%2834%29.png)
+![Advanced ingredient: lookup dimension](../../../.gitbook/assets/image%20%2835%29.png)
 
 To create a lookup dimension, you add the `lookup:` component to the dimension definition.
 
@@ -83,9 +54,9 @@ If there is a value in your data that is not added to the list of values to look
 
 ## Bucketed dimensions
 
-If you want to create a dimension that groups values of a field into buckets based on conditions, you will create a bucketed dimension. For example, the Unhealthy Americans data includes the `LocationAbbr` field with state abbreviation values. Let's say you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you would create an advanced ingredient like so--
+A bucketed dimension is a dimension that groups field values into buckets based on conditions. For example, the Unhealthy Americans data includes the `LocationAbbr` field with state abbreviation values. Let's say you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you would create an advanced ingredient like so--
 
-![Advanced ingredient: bucketed dimension](../../../.gitbook/assets/image%20%2835%29.png)
+![Advanced ingredient: bucketed dimension](../../../.gitbook/assets/image%20%2837%29.png)
 
 --with the following components:
 
@@ -126,7 +97,7 @@ buckets:
 buckets_default_label: Large
 ```
 
-The conditions within buckets are evaluated in the order they are defined, which makes defining dimensions using continuous variables convenient:
+The conditions within buckets are evaluated in the order they are defined, which makes defining buckets for continuous values convenient:
 
 ```text
 kind: Dimension
