@@ -9,7 +9,7 @@ Data preparation is tedious and time-consuming. We get it. But unless the data i
 * Organized. Data values are organized in columns and rows. No merged cells, and no titles or notes that span multiple columns. 
 * Complete. All the values you need are in the data. 
 * Consistent. Data in a column should be of the same type. Number columns should contain only numbers. Date columns should contain only dates. 
-* Clean. Number formatting, leading and trailing spaces, carriage returns, and other weird values \(e.g., "\#N/A" and "\#ERROR"\) are removed.
+* Clean. Number formatting, leading and trailing spaces, carriage returns, and other weird values \(e.g., "\#N/A" and "\#ERROR"\) are removed. The TRIM function is useful for dealing with large numbers of leading and trailing spaces.
 * Column headers. The first row of your data should be your column header row. Column names should have letters, spaces, or underscores, and nothing else. 
 
 ## Let's take it step-by-step
