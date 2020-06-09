@@ -1,6 +1,6 @@
 # User Roles and Management
 
-Users must be log in to the apps page with a Juicebox user account. What users can do once logged in depends on their user role.  There are four user roles: viewer, author, admin, and owner. 
+Users must be logged in to the apps page with a Juicebox user account. What users can do once logged in depends on their user role.  There are four user roles: viewer, author, admin, and owner. 
 
 ## User Roles
 
