@@ -45,7 +45,7 @@ Advanced ingredients allow you to define the ingredient components in a text edi
 * Measures that combine multiple formulas
 * Measures and dimensions that reference other measures and dimensions
 * Measures and dimensions that include conditional logic
-* Measures formatted using any d3 number format
+* Measures or numeric dimensions formatted using any d3 number format
 * Date dimensions formatted using any d3 date format
 
 #### Lookup dimensions
@@ -161,7 +161,7 @@ avg_sales_per_salesperson:
   field: sum(total_sales) / count_distinct(salesperson_id)
 ```
 
-#### Combining multiple formulas
+#### Combining multiple functions
 
 Database columns are always referenced by a string. You can perform math on these columns as well as use aggregation functions like **count**, **count\_distinct**, **sum**, **min**, and **max**. If your database backend is Redshift \(or postgres\), you can also calculate percentiles and median with functions. If you divide two values; you’ll get a SQL-safe division \(which prevents divide by zeros\). If you divide by zero, you’ll get a null.
 
@@ -250,9 +250,7 @@ previous_active:
   format: ',0f'
 ```
 
-#### Advanced number formats
-
-#### Advanced date formats
+#### Advanced  formats
 
 
 
