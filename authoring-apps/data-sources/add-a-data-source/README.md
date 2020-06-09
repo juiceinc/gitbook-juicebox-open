@@ -5,7 +5,7 @@ There are two steps to adding a data source:
 1. upload or connect to your data
 2. define your data ingredients
 
-## Upload or connect to your data
+## Upload or connect to your data \[incomplete\]
 
 You can upload a CSV or \(coming soon!\) connect to a database table or view or a Google Sheet.
 
