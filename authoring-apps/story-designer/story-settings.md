@@ -2,7 +2,7 @@
 
 The Story Settings section at the top of the Story Designer is where you set up basic information about your story, including title, description, color, and icon.  
 
-![\[TODO: Replace image\] Story Settings](../../.gitbook/assets/image%20%2815%29.png)
+![Story Settings](../../.gitbook/assets/image%20%2847%29.png)
 
 ## Title
 

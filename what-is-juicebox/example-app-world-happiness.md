@@ -1,4 +1,4 @@
-# An example app
+# An example app \[incomplete\]
 
 Throughout this documentation, we will consider the needs of HealthyCo \(a fake client\). HealthyCo is a healthcare company that promotes health. 
 
