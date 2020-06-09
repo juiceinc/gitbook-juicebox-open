@@ -4,19 +4,11 @@ Often you will want to control how number and date values are formatted in your 
 
 ## Number formatting
 
-To control how numbers are displayed in the app, you can specify a format. For example, let's say you have the following ingredient definition for `price`:
+To control how numbers are displayed in the app, you can specify a format. For example, let's say you have the following ingredient definition for `Data_Value`:
 
-```text
-price:
-  kind: Measure
-  field: avg(price)
-  singular: Price
-  plural: Price
-```
+![Measure with &quot;\# 2 Decimals&quot; format ](../../../.gitbook/assets/image%20%2833%29.png)
 
-**\[TODO: Replace with image of ingredient UI\]**
-
-Representative values for `price` in your data are `3231.447` and `0.5264`. You probably do  not want price to display the unformatted value your app. Therefore, you will want to specify a format in the `price` ingredient definition. 
+Representative values for `Data_Value` in your data are `3231.447` and `0.5264`. You probably do  not want price to display the unformatted value your app. Therefore, you will want to specify a format in the `Data_Value` ingredient definition. 
 
 The format specified in the ingredient definition will determine how the value will display in your app. The following standard formats are available for numbers: 
 
@@ -31,27 +23,15 @@ The format specified in the ingredient definition will determine how the value w
 | % 2 Decimals | `,.2%` | 323,144.70% | 52.64% |
 | % Rounded | `,.0%` | 323,145% | 53% |
 
-**\[TODO: Confirm changes from JB-3101 have been made.\]**
-
 If you want to apply a number format other than one of the standard formats, you can do so by creating an [advanced ingredient](defining-ingredients.md#advanced-ingredients). 
 
 ## Date formatting
 
 To control how dates are displayed in the app, you can specify a format. For example, let's say you have the following ingredient definition for `Year_Date`:
 
-![](../../../.gitbook/assets/image%20%2825%29.png)
+![Time dimension with &quot;month day, yyyy&quot; format](../../../.gitbook/assets/image%20%2825%29.png)
 
-```text
-start_date:
-  kind: Dimension
-  field: start_date
-  singular: Start Date
-  plural: Start Dates
-```
-
-**\[TODO: Replace with image of ingredient UI\]**
-
-A representative values for `start_date` in your data is `2019-03-01`. You probably do  not want dates to display the unformatted value your app. Therefore, you will want to specify a format in the `start_date` ingredient definition. 
+A representative values for`Year_Date` in your data is `2019-03-01`. You probably do  not want dates to display the unformatted value your app. Therefore, you will want to specify a format in the `Year_Date` ingredient definition. 
 
 The format specified in the ingredient definition will determine how the value will display in your app. The following standard formats are available for dates: 
 
@@ -63,5 +43,5 @@ The format specified in the ingredient definition will determine how the value w
 | mm-dd-yyyy | `%m-%d-%Y` | 03-01-2019 |
 | month yyyy | `%b %Y` | Mar 2019 |
 
-If you want to apply a date format other than one of the standard formats, you can do so by creating an [advanced ingredient](defining-ingredients.md#advanced-ingredients). **\[TODO: Confirm\]**
+If you want to apply a date format other than one of the standard formats, you can do so by creating an [advanced ingredient](defining-ingredients.md#advanced-ingredients). 
 
