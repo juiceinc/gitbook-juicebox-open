@@ -38,7 +38,7 @@ This will make a copy of the ingredient and open the advanced ingredient editor.
 
 ### What you can do with advanced ingredients
 
-Advanced ingredients allow you to define the ingredient components in a text editor. Advanced ingredients allow you to use--
+Advanced ingredients allow you to define the [ingredient components](./#ingredient-components) in a text editor. Advanced ingredients allow you to use--
 
 * Dimensions that display a lookup value rather than the field value
 * Dimensions that group values into "buckets" based on conditions 
@@ -97,6 +97,24 @@ buckets:
   - label: West
     condition: 'IN ("CA","NV","CO","UT","OR","WA","HI","WY","MT","ID","AK")'
 buckets_default_label: Other
+```
+
+To create a bucketed dimension, you add the `buckets:` and `bucket_default_label:` components to the dimension definition.
+
+```text
+kind: Dimension
+field: [field]
+singular: [singular label]
+plural: [plural label]
+icon: [icon]
+bucket:
+  - label: [bucket1label]
+    condition: [bucket1condition]
+  - label: [bucket2label]
+    condition: [bucket2condition]
+  - label: [bucket3label]
+    condition: [bucket3condition]
+bucket_default_label: [defaultbucketlabel]
 ```
 
 By default, each condition will be evaluated against the main `field`, but you can provide an alternative field in the condition itself, like so:
