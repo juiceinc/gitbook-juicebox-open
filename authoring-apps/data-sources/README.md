@@ -4,7 +4,7 @@ The Data Sources section of the app editor is where you set up your data sources
 
 ![Select Data to access Data Sources section](../../.gitbook/assets/image%20%2821%29.png)
 
-You must set up at least one data source before you can design your story. A data source is made up of two things:  1\) data and 2\) data ingredients.
+You must set up at least one data source before you can design your story. A data source is made up of two things:  **data** and **data ingredients**.
 
 ## Data
 
@@ -12,7 +12,7 @@ The data can be a CSV or \(coming soon!\) a table or view in a database or a Goo
 
 ## Data ingredients
 
-**Data ingredients** \(or just **ingredients**\) are the basic building blocks used to build the charts in your story. There are two types of ingredients: **measures** and **dimensions**. 
+Data ingredients \(or just **ingredients**\) are the basic building blocks used to build the charts in your story. There are two types of ingredients: **measures** and **dimensions**. 
 
 A **measure** is a value calculated over a group of data records. A **dimension** is a value used to define a group of data records. 
 
@@ -32,7 +32,7 @@ Measures are a type of data ingredient. A measure is a value calculated over a g
 
 In defining measures, you can use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify an aggregation formula in the measure definition, then `sum()` will be implied.
 
-You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](add-a-data-source/defining-ingredients/#advanced-ingredients).
+You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](add-a-data-source/defining-ingredients.md#advanced-ingredients).
 
 ### Dimensions
 

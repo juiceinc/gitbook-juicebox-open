@@ -20,15 +20,13 @@ There are multiple billing plans available, depending on your needs, including:
 
 Amanda will work with you to find the billing plan that best meets your needs. Payment is processed as an annual subscription. 
 
-### Select your initial client owner, admins, and authors
+### Select your initial users: owner, admins, and authors
 
-You'll need to select one user to act as client owner and, optionally, users to act as client admins and authors. For each user, we'll need to know their email address and [user role](../managing-apps/user-management-and-roles.md). 
-
-With this information, we'll set up your client account and email access links to the client owner, client admins, and authors.
+You'll need to select one person to act as owner and, optionally, additional people to act as admins and authors. We'll need to know each person's email address and [user role](../managing-apps/user-management-and-roles.md). With this information, we'll set up your client account and send access links via email.
 
 ## Set up your Juicebox user account
 
-Each person designated as a client owner, admin, or author will be sent an access link via email. Upon clicking the link, each person will be asked to set up their Juicebox user account. After setting up their user account, users will be taken to the apps page. From there, authors \(and other users with authoring rights\) will see the **+ New App** button. Clicking that button will begin the app authoring process. 
+Each person you designate as an owner, admin, or author will be sent an access link via email. Upon clicking the link, they will be asked to set up their Juicebox user account. After setting up their user account, users will be taken to the apps page. From there, authors \(and other users with authoring rights\) will see the **+ New App** button. Clicking that button will begin the [app authoring process](../authoring-apps/creating-and-editing.md). 
 
 ![The apps page with + New App button](../.gitbook/assets/image%20%289%29.png)
 
