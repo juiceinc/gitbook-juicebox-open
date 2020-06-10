@@ -1,12 +1,8 @@
 # Advanced ingredients
 
-
-
-## Advanced ingredients
-
 In cases where you need to do something more than the basic ingredient editor allows, you can use advanced ingredients. 
 
-### Adding an advanced ingredient
+## Adding an advanced ingredient
 
 To create an advanced ingredient, click on the ingredient pill for a field you will use in your definition. From there, click the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\), and select **Duplicate as Advanced**. 
 
@@ -16,7 +12,7 @@ This will make a copy of the ingredient and open the advanced ingredient editor.
 
 ![Duplicate ingredient created with text editor](../../../.gitbook/assets/image%20%2843%29.png)
 
-### What you can do with advanced ingredients
+## What you can do with advanced ingredients
 
 Advanced ingredients allow you to define the [ingredient components](../add-a-data-source.md#ingredient-components) in a text editor. Advanced ingredients allow you to use--
 
