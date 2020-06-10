@@ -2,13 +2,15 @@
 
 ## \[Do not move or rename this page\]
 
-## Basic ingredients
-
-Basic ingredients are defined using the basic ingredient editor. To access the ingredient editor for an ingredient, click on the ingredient pill. \(You can select ingredient pills in either in Data Sources or the Story Designer sections of the app editor.\)
+Ingredients are defined using the ingredient editor. To access the ingredient editor for an ingredient, click on the ingredient pill. \(You can select ingredient pills in either in Data Sources or the Story Designer sections of the app editor.\)
 
 ![Access ingredient editor by clicking on ingredient pill](../../../.gitbook/assets/image%20%2834%29.png)
 
-The basic ingredients will look like this:
+You can define ingredients using the basic ingredient editor or the advanced ingredient editor. Ingredients defined using the basic ingredient editor are called basic ingredients. Ingredients defined using the advanced ingredient editor are called advanced ingredients. 
+
+## Basic ingredients
+
+Basic ingredients are defined using the basic ingredient editor. Basic ingredients look like this:
 
 ### Basic dimension
 
@@ -30,7 +32,7 @@ To create an advanced ingredient, click on the ingredient pill for a field you w
 
 ![Select Duplicate as Advanced to create an advanced ingredient](../../../.gitbook/assets/image%20%2836%29.png)
 
-This will make a copy of the ingredient and open a text editor. Modify the ingredient definition in the text editor as needed. 
+This will make a copy of the ingredient and open the advanced ingredient editor. The advanced ingredient editor is essentially a text editor. Modify the ingredient definition in the text editor as needed. 
 
 ![Duplicate ingredient created with text editor](../../../.gitbook/assets/image%20%2843%29.png)
 
@@ -124,11 +126,11 @@ singular: Age Range
 plural: Age Bands
 buckets:
   - label: "Under 5"
-    condition: '< 5'
+    condition: '<5'
   - label: "5-17"
-    condition: '< 18'
+    condition: '<18'
   - label: "18-64"
-    condition: '< 65'
+    condition: '<65'
 buckets_default_label: 65 and over
 ```
 
