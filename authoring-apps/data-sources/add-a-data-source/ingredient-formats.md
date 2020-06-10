@@ -1,6 +1,6 @@
 # Ingredient formats
 
-Often you will want to control how number and date values are formatted in your apps. You can do this by specifying a format in your ingredient definition. 
+Often you will want to control how number and date values are formatted in your apps. You can do this by specifying a format in your ingredient definition.  
 
 ## Number formatting
 
@@ -43,5 +43,5 @@ The format specified in the ingredient definition will determine how the value w
 | mm-dd-yyyy | `%m-%d-%Y` | 03-01-2019 |
 | month yyyy | `%b %Y` | Mar 2019 |
 
-If you want to apply a date format other than one of the standard formats, you can do so by creating an [advanced ingredient](defining-ingredients.md#advanced-ingredients). 
+If you want to apply a date format other than one of the standard formats, you can do so by creating an [advanced ingredient](advanced-formats-incomplete.md). 
 
