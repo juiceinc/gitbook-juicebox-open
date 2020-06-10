@@ -32,7 +32,7 @@ Measures are a type of data ingredient. A measure is a value calculated over a g
 
 In defining measures, you can use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify an aggregation formula in the measure definition, then `sum()` will be implied.
 
-You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](add-a-data-source/defining-ingredients.md#advanced-ingredients).
+You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](add-a-data-source/defining-ingredients/#advanced-ingredients).
 
 ### Dimensions
 
