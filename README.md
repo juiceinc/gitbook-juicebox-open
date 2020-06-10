@@ -12,7 +12,7 @@ If you're looking for information on a specific concept, check out these links f
 
 {% page-ref page="authoring-apps/creating-and-editing.md" %}
 
-{% page-ref page="authoring-apps/data-sources/add-a-data-source/defining-ingredients.md" %}
+{% page-ref page="authoring-apps/data-sources/defining-ingredients/" %}
 
 {% page-ref page="authoring-apps/story-designer/" %}
 

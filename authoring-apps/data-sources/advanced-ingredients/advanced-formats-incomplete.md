@@ -1,6 +1,6 @@
 # Advanced formats \[incomplete\]
 
-The [most commonly used formats](ingredient-formats.md) are available in the basic ingredient editor. But if you need to use a different format, you can [add an advanced ingredient](defining-ingredients.md#adding-an-advanced-ingredient) and adjust the `format:` component within the advanced ingredient definition.
+The [most commonly used formats](../defining-ingredients/ingredient-formats.md) are available in the basic ingredient editor. But if you need to use a different format, you can [add an advanced ingredient](../defining-ingredients/#adding-an-advanced-ingredient) and adjust the `format:` component within the advanced ingredient definition.
 
 ## Advanced number formats
 

@@ -72,5 +72,5 @@ You're almost there! Do a final check to make everything looks ok. Should null v
 
 Download your prepared data as a CSV file. Give it a meaningful but brief name and save it in a location you can easily find.
 
-Congratulations! You're now ready to [add a data source](../data-sources/add-a-data-source/).
+Congratulations! You're now ready to [add a data source](../data-sources/add-a-data-source.md).
 
