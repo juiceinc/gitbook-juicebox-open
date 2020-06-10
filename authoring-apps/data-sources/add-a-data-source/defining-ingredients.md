@@ -2,7 +2,7 @@
 
 ## \[Do not move or rename this page\]
 
-Ingredients are defined using the ingredient editor. To access the ingredient editor for an ingredient, click on the ingredient pill. \(You can select ingredient pills in either in Data Sources or the Story Designer sections of the app editor.\)
+Ingredients are defined using the ingredient editor. To access the ingredient editor for an ingredient, click on the ingredient pill. \(You can select ingredient pills in either the Data Sources or the Story Designer sections of the app editor.\)
 
 ![Access ingredient editor by clicking on ingredient pill](../../../.gitbook/assets/image%20%2834%29.png)
 
@@ -271,10 +271,6 @@ previous_active:
 ```
 
 #### Advanced  formats \[incomplete\]
-
-
-
-
 
 
 
