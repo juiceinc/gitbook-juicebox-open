@@ -14,14 +14,12 @@ You can upload a CSV or \(coming soon!\) connect to a database table or view or 
 To upload a CSV, click **Connect & Upload Data** and select the CSV file. Then wait about 15-30 seconds. Once the CSV has loaded, a modal will pop up confirming that your data was loaded and the [initial ingredients ](./#initial-ingredients)were inferred from your data. 
 
 {% hint style="warning" %}
-When using CSVs, it is important that your data be nice and clean. Common problem areas include missing data, text values in numeric columns, and leading or trailing spaces. Here are some tips for [preparing your data](../../design-tips/preparing-your-data.md). 
+When using CSVs, it is important that your data be nice and clean. Common problem areas include missing data ****and text values in numeric columns. Here are some tips for [preparing your data](../../design-tips/preparing-your-data.md). 
 {% endhint %}
 
 Here's a video showing how to upload a CSV:
 
-**\[TODO: insert video\]**
-
-\*\*\*\*
+{% embed url="https://www.loom.com/share/fe33cbc5b95d4e10817f15bcd7f9e4ae" caption="Upload a CSV" %}
 
 {% hint style="success" %}
 After loading your data, do a quick review of the [initial ingredients](./#initial-ingredients) for anything inferred in an unexpected way. If you spot something unexpected, this usually indicates an issue with the data. Here are some common examples:
