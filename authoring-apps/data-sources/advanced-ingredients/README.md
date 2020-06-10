@@ -1,6 +1,6 @@
 # Advanced ingredients
 
-In cases where you need to do something more than the basic ingredient editor allows, you can use advanced ingredients. 
+In cases where you need to do something more than the ingredient editor allows, you can use advanced ingredients. 
 
 ## Adding an advanced ingredient
 
@@ -8,7 +8,7 @@ To create an advanced ingredient, click on the ingredient pill for a field you w
 
 ![Select Duplicate as Advanced to create an advanced ingredient](../../../.gitbook/assets/image%20%2836%29.png)
 
-This will make a copy of the ingredient and open the advanced ingredient editor. The advanced ingredient editor is essentially a text editor. Modify the ingredient definition in the text editor as needed. 
+This will make a copy of the ingredient and open the advanced ingredient text editor. Modify the ingredient definition in the text editor as needed. 
 
 ![Duplicate ingredient created with text editor](../../../.gitbook/assets/image%20%2843%29.png)
 
