@@ -4,10 +4,6 @@
 
 Slice text uses Markdown. This [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) is a great guide.
 
-## Icons
-
-Ingredients use Font Awesome icons. 
-
 ## Colors and images
 
 Here are some tools we like for finding the right colors and images for your app:
