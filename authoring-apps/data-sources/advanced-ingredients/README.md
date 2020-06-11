@@ -23,6 +23,6 @@ Advanced ingredients allow you to define the [ingredient components](../add-a-da
 * Measures that [use multiple aggregation functions](complex-formulas-incomplete.md#multiple-aggregate-functions)
 * Measures and dimensions that [reference other measures and dimensions](complex-formulas-incomplete.md#references-to-other-measures-and-dimensions)
 * Measures and dimensions that [include conditional logic](complex-formulas-incomplete.md#conditional-logic)
-* Measures or numeric dimensions formatted using any d3 number format
-* Date dimensions formatted using any d3 date format
+* Measures or numeric dimensions formatted to [use any d3 number format](advanced-formats-incomplete.md#advanced-number-formats)
+* Date dimensions formatted to [use any d3 date format](advanced-formats-incomplete.md#advanced-date-formats)
 

@@ -4,7 +4,7 @@ The Data Sources section of the app editor is where you set up your data sources
 
 ![Select Data to access Data Sources section](../../.gitbook/assets/image%20%2821%29.png)
 
-You must set up at least one data source before you can design your story. A data source is made up of two things:  **data** and **data ingredients**.
+You must [add a data source](add-a-data-source.md) before you can design your story. A data source is made up of two things:  **data** and **data ingredients**.
 
 ## Data
 
@@ -14,10 +14,10 @@ The data can be a CSV or \(coming soon!\) a table or view in a database or a Goo
 
 Data ingredients \(or just **ingredients**\) are the basic building blocks used to build the charts in your story. There are two types of ingredients: **measures** and **dimensions**. 
 
-A **measure** is a value calculated over a group of data records. A **dimension** is a value used to define a group of data records. 
+A **measure** is a value calculated over a group of data records. A **dimension** is used to define a group of data records. 
 
 {% hint style="info" %}
-The word **aggregation** means "a group of data records." So you can also say that a measure is a value calculated for an aggregation, and a dimension is a value used to define an aggregation. 
+The word **aggregation** means "a group of data records." So you can also say that a measure is a value calculated for an aggregation, and a dimension is used to define an aggregation. 
 {% endhint %}
 
 Perfectly clear, right? If not, you're not alone. We find the best way to understand the distinction between measures and dimensions is to just start building apps. Pretty soon, you'll get the hang of it. 
@@ -36,7 +36,7 @@ You can combine aggregation formulas and field math together to create complex m
 
 ### Dimensions
 
-Dimensions are a type of data ingredient. A dimension is a value used to define a group of data records. Students, states, and years are all examples of dimensions.
+Dimensions are a type of data ingredient. A dimension is used to define a group of data records. Students, states, and years are all examples of dimensions.
 
 There are two special kinds of dimensions: **place** dimensions and **time** dimensions. 
 

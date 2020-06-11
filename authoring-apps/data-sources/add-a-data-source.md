@@ -52,16 +52,20 @@ If you delete the inferred ingredient for a field in your data without adding an
 
 ### Ingredient components
 
-Each ingredient has the following components:
+Each ingredient has a set of components:
 
-* **kind**. The ingredient type, either `Dimension` or `Measure`. 
-* **field**. The instructions for what will display in the app. These instructions can be basic or advanced and are explained in more detail in [the next section](defining-ingredients/). 
-* **singular**. The label displayed for the dimension or measure. 
-* **plural**. The label displayed when more than one dimension value is selected in the app. This is also the name of the ingredient.
-* **format**. The number or date format to be used. The `format` component is only used to format numbers and dates. 
-* **icon**. The Font Awesome icon to display with your Dimension or Measure. By default, measures will have `hashtag` \(![](../../.gitbook/assets/hashtag-solid.svg)\) and dimensions will have `check-square`\( ![](../../.gitbook/assets/check-square-solid.svg) \). 
+| component | required by | description |
+| :--- | :--- | :--- |
+| kind | all | The ingredient type, either `Dimension` or `Measure`. |
+| field | all | The instructions for what will display in the app. These instructions can be simple or advanced and are explained in more detail in the next sections.  |
+| singular | all | The label displayed for measures or when one dimension value selected. |
+| plural | all dimensions  | The label displayed when more than one dimension value is selected. |
+| format | measures and time dimensions | The [number or date format](defining-ingredients/ingredient-formats.md) to be displayed. |
+| icon | all | The Font Awesome icon to display with your Dimension or Measure. By default, dimensions have `check-square`![](../../.gitbook/assets/check-square-solid.svg), time dimensions have `calendar`![](../../.gitbook/assets/calendar-solid.svg), place dimensions have `map-marker` ![](../../.gitbook/assets/map-marker-alt-solid.svg) , and measures have `hashtag` ![](../../.gitbook/assets/hashtag-solid.svg). |
+| latitude\_field | place dimensions | Used in place dimension to set the latitude field. |
+| longitude\_field | place dimensions | Used in place dimensions to set the longitude field. |
 
-These components are configured as you [add your ingredients](defining-ingredients/). 
+These components are configured as you [add your ingredients using the ingredients editor](defining-ingredients/). 
 
 
 
