@@ -82,19 +82,19 @@ Here's an overview of what each role can do.
 
 ### Viewer
 
-Viewers can view the apps they've been given access to. They cannot see apps they have not been given access to and they cannot create new apps or make changes to existing apps. 
+Viewers can view the apps they've been given access to. They cannot see apps they have not been given access to and they cannot create new apps or edit apps. 
 
 ### Author
 
-Authors can view apps they've been given access to, create new apps, and make changes to apps they've created or apps for which they've been made an author.  
+Authors can view apps they've been given access to, create new apps, and edit apps they've created or apps for which they've been made an author.  
 
 ### Admin
 
- Admins can view all apps, create new apps and make changes to any app. \(Coming soon, admins will be able to access the user management view to manage user roles for any app.\) 
+ Admins can view all apps, create new apps, and edit any app. \(Coming soon, admins will be able to access the user management view to manage user roles for any app.\) 
 
 ### Owner
 
-Each client has one owner. The owner can do everything client admins can do. \(Coming soon, the owner will be able to adjust the subscription and payment information.\) 
+Each client has one owner. The owner can do everything admins can do. \(Coming soon, the owner will be able to adjust the client's subscription and payment information.\) 
 
 ## User Management \(coming soon!\)
 
