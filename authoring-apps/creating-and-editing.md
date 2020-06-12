@@ -46,5 +46,3 @@ There are four app editor sections: [App Settings](app-settings.md), [Data Sourc
 
 [Deleting an app](app-settings.md#deleting-an-app) is done from App Settings. 
 
-
-
