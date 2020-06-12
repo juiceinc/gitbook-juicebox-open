@@ -19,10 +19,10 @@ Advanced ingredients allow you to define the [ingredient components](../add-a-da
 * Dimensions that [display a lookup value](lookup-dimensions.md) rather than the field value
 * Dimensions that [group values into "buckets"](bucketed-dimensions.md) based on conditions 
 * Filters that [group values into frequently-used filter ranges](quickselect-filters-incomplete.md) based on conditions
-* Measures that [use field math](complex-formulas-incomplete.md#field-math)
+* Measures and dimensions that [use field math](complex-formulas-incomplete.md#field-math)
 * Measures that [use multiple aggregation functions](complex-formulas-incomplete.md#multiple-aggregate-functions)
-* Measures and dimensions that [reference other measures and dimensions](complex-formulas-incomplete.md#references-to-other-measures-and-dimensions)
 * Measures and dimensions that [include conditional logic](complex-formulas-incomplete.md#conditional-logic)
+* Measures and dimensions that [reference other measures and dimensions](complex-formulas-incomplete.md#references-to-other-measures-and-dimensions)
 * Measures or numeric dimensions formatted to [use any d3 number format](advanced-formats-incomplete.md#advanced-number-formats)
 * Date dimensions formatted to [use any d3 date format](advanced-formats-incomplete.md#advanced-date-formats)
 
