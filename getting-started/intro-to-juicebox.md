@@ -26,7 +26,7 @@ You'll need to select one person to act as owner and, optionally, additional peo
 
 ## Set up your Juicebox user account
 
-Each person you designate as an owner, admin, or author will be sent an access link via email. Upon clicking the link, they will be asked to set up their Juicebox user account. After setting up their user account, users will be taken to the apps page. From there, authors \(and other users with authoring rights\) will see the **+ New App** button. Clicking that button will begin the [app authoring process](../authoring-apps/creating-and-editing.md). 
+Each person you designate as an owner, admin, or author will be sent an access link via email. Upon clicking the link, they will be asked to set up their Juicebox user account. Once logged in with their user account, users will be taken to the apps page. From there, authors \(and other users with authoring rights\) will see the **+ New App** button. Clicking that button will begin the [app authoring process](../authoring-apps/creating-and-editing.md). 
 
 ![The apps page with + New App button](../.gitbook/assets/image%20%289%29.png)
 

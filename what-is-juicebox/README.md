@@ -8,7 +8,7 @@ A Juicebox **app** is the solution you create with Juicebox. [Here's an example 
 
 So what makes up a Juicebox app? Each app has the following parts that flow in a hierarchy:
 
-* A [**story**](../authoring-apps/story-designer/#what-is-a-story) \(or data story\) is a set of charts \(i.e., data visualizations\) presented on a single page, similar to a data dashboard. Each story should be tightly focused on a particular audience and a particular purpose and gently guide users to the actionable insights they need. Within each story are sections, and within each section are slices. \(Support for multiple stories per app is planned for a future version.\)
+* A [**story**](../authoring-apps/story-designer/#what-is-a-story) \(or data story\) is a set of charts \(i.e., data visualizations\) presented on a single page, similar to a data dashboard. Each story should be tightly focused on a particular audience and purpose and gently guide users to the actionable insights they need. Within each story are sections, and within each section are slices. \(Support for multiple stories per app is planned for a future version.\)
 * Each [**section**](../authoring-apps/story-designer/sections.md) is composed of one or more slices. Sections allow you to control layouts and background colors within the story.
 * \*\*\*\*[**Slices**](../authoring-apps/story-designer/slices/) are the basic building blocks of your story. Each slice can have text and/or charts. 
 

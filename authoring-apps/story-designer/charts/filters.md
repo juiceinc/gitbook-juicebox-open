@@ -12,11 +12,11 @@ To add a filter slice:
 
 {% embed url="https://www.loom.com/share/0307b76752bb4a428827940d809f3c53" caption="Adding a filter slice" %}
 
-## Using a filter slice
-
-To use a filter slice, click on the filter pill and select the values that you want to filter on. 
-
 {% hint style="info" %}
 The order of your filter pills may be important, because selections made in a filter pill will filter "downstream" filter pills. For example, say you have three filter pills in this order: Organization, Cohort, and Student Name. Values selected for Organization will filter Cohort and Student Name. Values selected for Cohort, will filter Student Name but not filter Organization. Values selected in Student Name will not filter either Organization or Cohort. 
 {% endhint %}
+
+## Using a filter slice
+
+To use a filter slice, click on the filter pill and select the values that you want to filter on. 
 

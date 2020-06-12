@@ -13,5 +13,5 @@ Here are some tools we like for finding the right colors and images for your app
 
 ## Fake data generator
 
-Sometimes you want to play around with design before gather real data. To do that, you'll need some fake data. [Mockaroo](https://www.mockaroo.com/) can help generate good quality fake data quickly. 
+Sometimes you want to play around with design before gathering real data. To do that, you'll need some fake data. [Mockaroo](https://www.mockaroo.com/) can help generate good quality fake data quickly. 
 

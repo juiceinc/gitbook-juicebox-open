@@ -6,7 +6,7 @@ We are continually updating the documentation to reflect what's new in Juicebox.
 
 #### Commonly Used Resources
 
-If you're looking for information on a specific concept, check out these links for the most commonly used sections of this documentation:
+If you're looking for information on a specific concept, check out these links for the most commonly used sections of the documentation:
 
 {% page-ref page="authoring-apps/design-tips/preparing-your-data.md" %}
 

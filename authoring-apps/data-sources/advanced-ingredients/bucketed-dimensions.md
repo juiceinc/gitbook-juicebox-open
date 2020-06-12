@@ -25,7 +25,7 @@ buckets:
 buckets_default_label: Other
 ```
 
-To create a bucketed dimension, you add the `buckets:` and `bucket_default_label:` components to the dimension definition. Within `buckets`, you define the `label`, `condition`, and \(optional\) `field`. 
+To create a bucketed dimension, you add the `buckets:` and `bucket_default_label:` components to the dimension definition. Within `buckets`, you define the `label`, `condition`, and optionally `field`. 
 
 ```text
 kind: Dimension
