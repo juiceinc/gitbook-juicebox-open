@@ -114,25 +114,5 @@ Here's an example of conditional logic in a dimension:
 
 What if I only want certain calculations to happen conditionally? For instance, to only sum sales if the region is in the northeast.
 
-## References to other measures and dimensions
-
-Referencing other dimensions or metrics is supported using the "@" syntax.
-
-```text
-# recovered_change references existing metrics 
-# @current_recovered and @previous_recovered to calculate change
-
-recovered_change:
-  kind: Metric
-  field: 'sum(@current_recovered) - sum(@previous_recovered)'
-  singular: 'Change in Deaths'
-  plural: 'Change in Deaths'
-  format: '"+",0f; ,0f'
-```
-
-
-
-You can also define strings, using double quotes, numbers and lists.
-
 
 
