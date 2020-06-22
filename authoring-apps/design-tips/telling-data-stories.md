@@ -1,4 +1,4 @@
-# Telling data stories \[incomplete\]\[Zach\]
+# Telling data stories \[incomplete\]
 
 ## Start with your audience
 
