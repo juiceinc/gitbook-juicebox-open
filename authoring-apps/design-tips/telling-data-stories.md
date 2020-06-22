@@ -83,7 +83,7 @@ Before your reader dives into the data, you want to [set the context](https://ww
 
 ### ![](../../.gitbook/assets/check-square-solid.svg) Using descriptive text and dynamic statements
 
-Juicebox is designed to do more than just show data visualizations. You can use text and images to explain what’s being shown in the data. This text could include:
+Juicebox is designed to do more than just show data visualizations. You can [use text to explain](https://www.juiceanalytics.com/design-principles/use-common-language/) what’s being shown in the data. This text could include:
 
 * Titles for the visualizations to explain the content. Often the title can be expressed as the question that is answered by the visualization.
 * Explanations or insights based on the visualization. Is there something you want your audience to see in the data? Tell them. The text areas in Juicebox are an opportunity to [be in conversation with your audience](https://www.juiceanalytics.com/design-principles/make-it-conversational/).
@@ -121,15 +121,5 @@ A data story will often have multiple sections, perhaps reflecting the [three-pa
 
 ### ![](../../.gitbook/assets/check-square-solid.svg) Data ingredient labels
 
-Getting your data ingredient labels right is a small and important design choice. Often when you load data into Juicebox, the data columns may not be written in a way that is easy for your audience to understand. We’ve made it easy in Juicebox to change those labels. What is the simplest and clearest way to describe the data ingredient? Will your audience understand any abbreviations or acronyms you are using? 
-
-## Other resources
-
-
-
-[https://www.juiceanalytics.com/design-principles/use-common-language/](https://www.juiceanalytics.com/design-principles/use-common-language/)
-
-{% embed url="https://www.juiceanalytics.com/design-principles/make-it-conversational/" %}
-
-[https://www.juiceanalytics.com/design-principles/use-common-language/](https://www.juiceanalytics.com/design-principles/use-common-language/)
+Getting your data ingredient labels right is a small and important design choice. Often when you load data into Juicebox, the data columns may not be written in a way that is easy for your audience to understand. We’ve made it easy in Juicebox to change those labels. What is [the simplest and clearest way to describe](https://www.juiceanalytics.com/design-principles/use-common-language/) the data ingredient? Will your audience understand any abbreviations or acronyms you are using? 
 
