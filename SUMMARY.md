@@ -44,7 +44,7 @@
   * [Sharing and access controls \(coming soon!\)](authoring-apps/publish-and-share/sharing-and-access-controls.md)
 * [Tips and Tricks](authoring-apps/design-tips/README.md)
   * [Telling data stories \[incomplete\]\[Zach\]](authoring-apps/design-tips/telling-data-stories.md)
-  * [Visual design \[incomplete\]\[James\]](authoring-apps/design-tips/visual-design.md)
+  * [Visual design](authoring-apps/design-tips/visual-design.md)
   * [Preparing your data](authoring-apps/design-tips/preparing-your-data.md)
   * [Useful resources](authoring-apps/design-tips/useful-resources.md)
 
