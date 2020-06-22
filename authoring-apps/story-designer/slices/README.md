@@ -26,7 +26,7 @@ Slices can contain text, a chart, or both a chart and text.
 
 ### Adding text
 
-To add text to a slice, simply type in the text area. The text area supports most of the basic [Markdown](../../design-tips/useful-resources.md#markdown) syntax, including headings, links, and images.
+To add text to a slice, simply type in the text area. The text area supports most of the basic [markdown](../../design-tips/useful-resources.md#markdown) syntax, including headings, links, and images.
 
 ![Use Markdown to add text, links, and images](../../../.gitbook/assets/image%20%2859%29.png)
 
