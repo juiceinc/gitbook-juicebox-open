@@ -1,20 +1,40 @@
-# Slices \[incomplete\]
+# Slices
 
-Slices are...
+Slices are the basic building blocks of your story. Slices are added to [sections](../sections.md), and each slice can have text and/or a [chart](../charts/). 
 
 ## Adding and deleting slices
 
-To add a slice...
+To add a slice to an empty section, select the **+ Add Slice** button. 
 
-Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, 
+![Adding a slice to an empty section](../../../.gitbook/assets/image%20%2865%29.png)
 
-To delete a slice,...
+To add a slice to a section that has one or more slices, click the **+** where you want the new slice to appear.
 
-## Slice text
+![Adding a slice to a section with one or more slice](../../../.gitbook/assets/image%20%2862%29.png)
 
-Markdown
+Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) in the slice you want to duplicate and select **Duplicate** from the dropdown. The new duplicate slice will appear directly below the original slice. 
 
-## Slices with charts
+![Duplicating a slice](../../../.gitbook/assets/image%20%2864%29.png)
+
+To delete a slice, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) in the slice you want to duplicate and select **Delete** from the dropdown. 
+
+![Deleting a slice](../../../.gitbook/assets/image%20%2861%29.png)
+
+## Slice content
+
+Slices can contain text, a chart, or both a chart and text.
+
+### Adding text
+
+To add text to a slice, simply type in the text area. The text area supports most of the basic [Markdown](../../design-tips/useful-resources.md#markdown) syntax, including headings, links, and images.
+
+![Use Markdown to add text, links, and images](../../../.gitbook/assets/image%20%2859%29.png)
+
+### Adding a chart
+
+To add a chart to a slice, select the **+Chart** button and select the desired [chart](../charts/) from the list. 
+
+![](../../../.gitbook/assets/image%20%2863%29.png)
 
 ## Reordering slices
 
