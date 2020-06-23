@@ -37,7 +37,7 @@
     * [Scatterplot](authoring-apps/story-designer/charts/nine-box-scatterplot.md)
     * [Leaderboard](authoring-apps/story-designer/charts/leaderboard.md)
     * [Map](authoring-apps/story-designer/charts/map.md)
-    * [Trend \[incomplete\]](authoring-apps/story-designer/charts/trend.md)
+    * [Trend](authoring-apps/story-designer/charts/trend.md)
     * [Image \(coming soon!\)](authoring-apps/story-designer/charts/image.md)
 * [Publish & Share](authoring-apps/publish-and-share/README.md)
   * [Publishing app changes](authoring-apps/publish-and-share/publishing-app-changes.md)
