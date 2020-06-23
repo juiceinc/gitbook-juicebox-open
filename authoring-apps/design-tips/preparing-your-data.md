@@ -1,15 +1,13 @@
 # Preparing your data
 
-## \[Do not move or rename this page\]
-
 Data preparation is tedious and time-consuming. We get it. But unless the data is properly prepared, your app building process is likely to be frustrating and unsuccessful. Time spent preparing your data will be worth it.
 
 ## What does properly prepared data look like?
 
-* Organized. Data values are organized in columns and rows. No merged cells, and no titles or notes that span multiple columns. 
+* Organized. Data values are organized in columns and rows in a single table. No merged cells, and no titles or notes that span multiple columns. 
 * Complete. All the values you need are in the data. 
 * Consistent. Data in a column should be of the same type. Number columns should contain only numbers. Date columns should contain only dates. 
-* Clean. Number formatting, leading and trailing spaces, carriage returns, and other weird values \(e.g., "\#N/A" and "\#ERROR"\) are removed. The TRIM function is useful for dealing with large numbers of leading and trailing spaces.
+* Clean. Number formatting, leading and trailing spaces, carriage returns, and other weird values \(e.g., "\#N/A" and "\#ERROR"\) are removed. 
 * Column headers. The first row of your data should be your column header row. Column names should have letters, spaces, or underscores, and nothing else. 
 
 ## Let's take it step-by-step
@@ -66,7 +64,7 @@ If you want to use the [map](../story-designer/charts/map.md) slice, you will ne
 
 ### 13. Do a final check
 
-You're almost there! Do a final check to make everything looks ok. Should null values be null? Do values contain carriage returns, leading or trailing spaces, or anything else odd? 
+You're almost there! Do a final check to make everything looks ok. Should null values be null? Do values contain carriage returns, leading or trailing spaces, or anything else odd? The `TRIM()` function is useful for dealing with large numbers of leading and trailing spaces.
 
 ### 14. Download your data as a CSV file
 

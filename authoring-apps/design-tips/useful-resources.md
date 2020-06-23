@@ -1,5 +1,7 @@
 # Useful resources
 
+Here are some resources that we use at Juice and recommend.
+
 ## Markdown
 
 Slice text uses Markdown. This [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) is a great guide.

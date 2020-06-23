@@ -27,7 +27,7 @@
   * [Story Settings](authoring-apps/story-designer/story-settings.md)
   * [Sections](authoring-apps/story-designer/sections.md)
   * [Slices](authoring-apps/story-designer/slices/README.md)
-    * [Dynamic text \[incomplete\]](authoring-apps/story-designer/slices/dynamic-text.md)
+    * [Dynamic text](authoring-apps/story-designer/slices/dynamic-text.md)
     * [Multiple data sources](authoring-apps/story-designer/slices/working-with-multiple-data-sources.md)
   * [Charts](authoring-apps/story-designer/charts/README.md)
     * [Filters](authoring-apps/story-designer/charts/filters.md)
