@@ -2,7 +2,7 @@
 
 * [Juicebox Documentation](README.md)
 * [What is Juicebox?](what-is-juicebox/README.md)
-  * [An example app \[incomplete\]](what-is-juicebox/example-app-world-happiness.md)
+  * [An example app](what-is-juicebox/example-app-world-happiness.md)
 
 ## Getting Started
 

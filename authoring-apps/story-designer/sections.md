@@ -6,7 +6,7 @@ Sections are groups of slices within a story. Sections allow you to control layo
 
 To add a section, scroll to the bottom of the Story Designer. There you will see the **Add Section** button. 
 
-![Add Section at bottom of Story Designer](../../.gitbook/assets/image%20%2824%29.png)
+![Add Section button at bottom of Story Designer](../../.gitbook/assets/image%20%2824%29.png)
 
 When you click **Add Section**, a new section will be added at the end of your story. The section will initially be empty, waiting for you to add a slice.
 
