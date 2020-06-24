@@ -43,6 +43,10 @@ latitude_field: Latitude
 longitude_field: Longitude
 ```
 
+{% hint style="warning" %}
+Use double quotes only in field expressions. Single quotes will not work work.
+{% endhint %}
+
 ## Multiple aggregate functions
 
 You can combine multiple aggregate functions together. For example, if you have `sales_revenue` and `salesperson_id` in your data, you can add an `Avg Sales per salesperson` measure using the `sum()` and `count()` aggregate functions together like so: 
