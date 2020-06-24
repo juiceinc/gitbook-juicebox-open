@@ -18,7 +18,6 @@ Advanced ingredients allow you to define the [ingredient components](../add-a-da
 
 * Dimensions that [display a lookup value](lookup-dimensions.md) rather than the field value
 * Dimensions that [group values into "buckets"](bucketed-dimensions.md) based on conditions 
-* Filters that [group values into frequently-used filter ranges](quickselect-filters-incomplete.md) based on conditions
 * Measures and dimensions that [use field math](complex-formulas-incomplete.md#field-math)
 * Measures that [use multiple aggregation functions](complex-formulas-incomplete.md#multiple-aggregate-functions)
 * Measures and dimensions that [include conditional logic](complex-formulas-incomplete.md#conditional-logic)

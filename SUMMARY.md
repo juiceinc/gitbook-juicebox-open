@@ -19,7 +19,6 @@
   * [Advanced ingredients](authoring-apps/data-sources/advanced-ingredients/README.md)
     * [Lookup dimensions](authoring-apps/data-sources/advanced-ingredients/lookup-dimensions.md)
     * [Bucketed dimensions](authoring-apps/data-sources/advanced-ingredients/bucketed-dimensions.md)
-    * [Quickselect filters](authoring-apps/data-sources/advanced-ingredients/quickselect-filters-incomplete.md)
     * [Complex formulas](authoring-apps/data-sources/advanced-ingredients/complex-formulas-incomplete.md)
     * [Advanced formats](authoring-apps/data-sources/advanced-ingredients/advanced-formats-incomplete.md)
   * [Edit or delete a data source](authoring-apps/data-sources/edit-a-data-source.md)
