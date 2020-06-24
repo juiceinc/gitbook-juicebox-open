@@ -30,8 +30,6 @@ A place dimension is a special kind of dimension ingredient that has an associat
 
 And here are the underlying components:
 
-
-
 ```text
 kind: Dimension
 field: LocationDesc
