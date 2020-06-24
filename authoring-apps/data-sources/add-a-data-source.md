@@ -46,10 +46,6 @@ When you load or connect to your data, Juicebox will inspect a sample of your da
 
 The initial ingredients are just a starting point. You can revise them or add new ones. 
 
-{% hint style="warning" %}
-If you delete the inferred ingredient for a field in your data without adding another ingredient for that field, the deleted ingredient will be inferred again when you save your ingredients. 
-{% endhint %}
-
 ### Ingredient components
 
 Each ingredient has a set of components:
