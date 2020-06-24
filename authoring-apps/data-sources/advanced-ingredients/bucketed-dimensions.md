@@ -13,7 +13,7 @@ singular: Region
 plural: Regions
 buckets:
   - label: Southeast
-    condition: 'IN ("AR", "AL", "GA", "MS", "TN", "KY", "SC", "NC", "VA", "WV", "DC", "FL")'
+    condition: 'IN ("AR", "AL", "GA", "MS", "TN", "KY", "SC", "NC", "VA", "WV", "DC", "FL", "LA")'
   - label: Northeast
     condition: 'IN ("ME","VT","NH","CT","NY","NJ","DE","MD","PA","MA","RI")'
   - label: Midwest
@@ -69,12 +69,28 @@ field: age
 singular: Age Range
 plural: Age Bands
 buckets:
-  - label: "Under 5"
-    condition: '<5'
-  - label: "5-17"
-    condition: '<18'
-  - label: "18-64"
-    condition: '<65'
+  - label: Under 5
+    condition: <5
+  - label: 5-17
+    condition: <18
+  - label: 18-64
+    condition: <65
 buckets_default_label: 65 and over
+```
+
+```text
+kind: Dimension
+field: household_income
+singular: Income Range
+plural: Income Ranges
+buckets:
+  - label: Under 25k
+    condition: <25000
+  - label: 25k-49k
+    condition: <50000
+  - label: 50k-99k
+    condition: <99000
+buckets_default_label: 100k and over
+icon: money-bill-alt
 ```
 

@@ -56,7 +56,7 @@ Each ingredient has a set of components:
 
 | component | required by | description |
 | :--- | :--- | :--- |
-| kind | all | The ingredient type, either `Dimension` or `Measure`. |
+| kind | all | The ingredient type, either `Dimension` or `Metric`. |
 | field | all | The instructions for what will display in the app. These instructions can be simple or advanced and are explained in more detail in the next sections.  |
 | singular | all | The label displayed for measures or when one dimension value selected. |
 | plural | all dimensions  | The label displayed when more than one dimension value is selected. |
