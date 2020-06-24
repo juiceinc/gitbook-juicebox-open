@@ -1,6 +1,6 @@
 # Data card \[incomplete\]
 
-A data card chart lets the user choose an option from a set of options. The choice will drive the direction of the story below. There are two types:  measure chooser and dimension chooser. Both are accessed by selecting the "Data card" option from the chart drop down, but measures and dimensions cannot be mixed in the same slice.
+A data card chart lets the user choose an option from a set of options. The choice will drive the direction of the story below. There are two types: measure chooser and dimension chooser. Both are accessed by selecting Data card the chart list, but measures and dimensions cannot be mixed in the same slice.
 
 ## Measure chooser
 
@@ -27,6 +27,10 @@ Dimension choosers let the user decide how they want to see their data.
 ## Using dynamic ingredients
 
 Data cards, or more specifically measure and dimension choosers, are particularly powerful when slices further down the app refer to the selections in the choosers.
+
+{% hint style="info" %}
+Data card values will be "display only" \(i.e., unselectable\) unless a downstream slice includes a dynamic ingredient referring to the data card.
+{% endhint %}
 
 To reference the selection made in a **Data card:** 
 
