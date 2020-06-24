@@ -2,7 +2,7 @@
 
 Welcome to the Juicebox documentation! Here you'll find resources and information on creating and sharing your Juicebox applications, as well as helpful tips and troubleshooting advice. We hope you find this resource helpful. 
 
-We are continually updating the documentation to reflect what's new in Juicebox. If you spot an area that could be improved, please email us at [support@juiceanalytics.com](mailto:support@juiceanalytics.com). 
+We are continually updating the documentation to reflect what's new in Juicebox. If you spot an area that could be improved, please email us at [support@juiceboxdata.com](mailto:support@juiceanalytics.com). 
 
 #### Commonly Used Resources
 

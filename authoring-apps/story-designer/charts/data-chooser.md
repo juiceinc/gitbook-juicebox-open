@@ -4,7 +4,7 @@ A data card chart lets the user choose an option from a set of options. The choi
 
 ## Measure chooser
 
-Measure choosers let the user choose a metric to focus on and also display high level metrics, which provides some context for users as they make their selections.
+Measure choosers let the user choose a measure to focus on and also display high-level measures, which provides some context for users as they make their selections.
 
 #### To add a measure chooser slice:
 
