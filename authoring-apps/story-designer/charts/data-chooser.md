@@ -1,4 +1,4 @@
-# Data card \[incomplete\]
+# Data card
 
 A data card chart lets the user choose an option from a set of options. The choice will drive the direction of the story below. There are two types: measure chooser and dimension chooser. Both are accessed by selecting Data card the chart list, but measures and dimensions cannot be mixed in the same slice.
 
