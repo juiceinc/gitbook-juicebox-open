@@ -17,7 +17,7 @@ Data ingredients \(or just **ingredients**\) are the basic building blocks used 
 A **measure** is a value calculated over a group of data records. A **dimension** is used to define a group of data records. 
 
 {% hint style="info" %}
-The word **aggregation** means "a group of data records." So you can also say that a measure is a value calculated for an aggregation, and a dimension is used to define an aggregation. 
+The word **aggregation** means "a group of data records." So you can also say that a measure is a value calculated over an aggregation, and a dimension is used to define an aggregation. 
 {% endhint %}
 
 Perfectly clear, right? If not, you're not alone. We find the best way to understand the distinction between measures and dimensions is to just start building apps. Pretty soon, you'll get the hang of it. 

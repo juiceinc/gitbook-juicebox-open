@@ -8,7 +8,7 @@ The App Settings section of the app editor is where you set up basic information
 
 ### App title
 
-The app title appears on the apps page and in the app URL \(e.g., https://healthyco.juiceboxdata.com/a/**unhealthy\_americans**\). Aim to keep this short, ideally 1-2 words.
+The app title appears on the apps page and in the app URL \(e.g., https://healthyco.juiceboxdata.com/a/**unhealthy\_americans**/\). Aim to keep this short, ideally 1-2 words.
 
 ### App description
 
