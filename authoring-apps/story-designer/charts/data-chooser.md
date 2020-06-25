@@ -1,23 +1,35 @@
+---
+description: >-
+  Summarize measures, and allow user selections to configure other charts
+  dynamically.
+---
+
 # Data card
 
-A data card chart lets the user choose an option from a set of options. The choice will drive the direction of the story below. There are two types: measure chooser and dimension chooser. Both are accessed by selecting Data card the chart list, but measures and dimensions cannot be mixed in the same slice.
+A data card chart can be used to--
 
-## Measure chooser
+* Show a summary of measures
+* Let a user choose which measure to explore 
+* Let a user choose which dimension to explore
 
-Measure choosers let the user choose a measure to focus on and also display high-level measures, which provides some context for users as they make their selections.
+Choices made in a data card drive the direction of the story below. There are two types: measure data card and dimension data card.
 
-#### To add a measure chooser slice:
+## Data card chart with measures
+
+A data card chart with measures \(i.e., a measure data card slice\) will display a high-level summary that provides context for users as they make their selections. Selections made in a measure data card slice can be used as dynamic ingredients in other charts, allowing for user-driven exploration.
+
+#### To add a measure data card slice:
 
 * select **Data card** from the chart list
 * select the measures you want to add in the order you want them displayed
   * Once you select the first measure, the app will remove the dimensions as options, as you cannot mix dimensions and measures
 * \(optional\) add a title
 
-## Dimension chooser
+## Data card chart with dimensions
 
-Dimension choosers let the user decide how they want to see their data.
+A data card chart with dimensions \(i.e., a dimension data card slice\) lets users decide how they want to see their data in downstream charts.
 
-#### To add a dimension chooser slice:
+#### To add a dimension data card slice:
 
 * select **Data card** from the chart list
 * select the dimensions you want to add in the order you want them displayed
@@ -26,19 +38,19 @@ Dimension choosers let the user decide how they want to see their data.
 
 ## Using dynamic ingredients
 
-Data cards, or more specifically measure and dimension choosers, are particularly powerful when slices further down the app refer to the selections in the choosers.
+Data card slices are particularly powerful when slices further down the app refer to the selections in the data card.
 
 {% hint style="info" %}
 Data card values will be "display only" \(i.e., unselectable\) unless a downstream slice includes a dynamic ingredient referring to the data card.
 {% endhint %}
 
-To reference the selection made in a **Data card:** 
+To reference the selection made in a data card slice**:** 
 
-* Create a dimension chooser or measure chooser using the above instructions
-* In a slice that is below the chooser that should be referenced, select the data chooser's slice slug in the dimension drop down and/or measure drop down
+* Create a dimension data card or measure data card using the above instructions
+* In a slice that is below the data card slice that should be referenced, select the data card's slice slug in the dimension drop down and/or measure drop down
 
 {% hint style="info" %}
-A slice can reference both a dimension chooser and a measure chooser in the respective dimension and measure drop downs.
+A slice can reference both a dimension data card and a measure data card in the respective dimension and measure drop downs.
 {% endhint %}
 
 ![The slice slug is in the header](../../../.gitbook/assets/screen-shot-2020-06-23-at-12.34.29-pm.png)
