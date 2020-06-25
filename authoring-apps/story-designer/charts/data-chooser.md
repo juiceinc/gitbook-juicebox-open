@@ -16,7 +16,7 @@ Choices made in a data card drive the direction of the story below. There are tw
 
 ## Data card chart with measures
 
-A data card chart with measures \(i.e., a measure data card slice\) will display a high-level summary that provides context for users as they make their selections. Selections made in a measure data card slice can be used as dynamic ingredients in other charts, allowing for user-driven exploration.
+A data card chart with measures \(i.e., a measure data card slice\) will display a high-level summary that provides context for users as they make their selections. The selection made in a measure data card slice can be used as a [dynamic measure](data-chooser.md#using-dynamic-ingredients) in other charts, allowing for user-driven exploration.
 
 #### To add a measure data card slice:
 
@@ -27,7 +27,7 @@ A data card chart with measures \(i.e., a measure data card slice\) will display
 
 ## Data card chart with dimensions
 
-A data card chart with dimensions \(i.e., a dimension data card slice\) lets users decide how they want to see their data in downstream charts.
+A data card chart with dimensions \(i.e., a dimension data card slice\) lets users select one dimension from a group of dimensions. The selection made in a dimension data card can be used as a [dynamic dimension](data-chooser.md#using-dynamic-ingredients) in other charts, allowing for user-driven exploration.
 
 #### To add a dimension data card slice:
 
