@@ -16,6 +16,7 @@ This will make a copy of the ingredient and open the advanced ingredient text ed
 
 Advanced ingredients allow you to define the [ingredient components](../add-a-data-source.md#ingredient-components) in a text editor. Advanced ingredients allow you to use--
 
+* Dimensions that were incorrectly interpreted as a measure
 * Dimensions that [display a lookup value](lookup-dimensions.md) rather than the field value
 * Dimensions that [group values into "buckets"](bucketed-dimensions.md) based on conditions 
 * Measures and dimensions that [use field math](complex-formulas-incomplete.md#field-math)
