@@ -1,6 +1,6 @@
 # Complex formulas
 
-You can create complex formulas that use field math, combine multiple aggregate functions,  use conditional logic, and reference other ingredients
+You can create complex formulas that use field math, combine multiple aggregate functions,  and use conditional logic.
 
 ## Field math
 

@@ -18,9 +18,9 @@ singular: [singular label]
 plural: [plural label]
 icon: [icon]
 lookup:
-  [value to lookup]:[value to display]
-  [value to lookup]:[value to display]
-  [value to lookup]:[value to display]
+  [value to lookup]: [value to display]
+  [value to lookup]: [value to display]
+  [value to lookup]: [value to display]
 ```
 
 If there is a value in your data that is not added to the list of values to lookup, then the value in the data will be displayed. 

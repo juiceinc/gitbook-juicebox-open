@@ -5,7 +5,7 @@ In cases where you need to do something more than the ingredient editor allows, 
 1. by adding a new advanced ingredient from the table view
 2. by duplicating an existing ingredient as advanced from within the ingredients editor
 
-Advanced ingredients are defined using the advanced ingredients editor. In the advanced ingredients editor, you define your ingredient using YAML. This allows for [more complex ingredient definitions](./#what-you-can-do-with-advanced-ingredients), but is also more susceptible to syntax errors. 
+Advanced ingredients are defined using the advanced ingredients editor. In the advanced ingredients editor, you define your ingredient using a text editor. This allows for [more complex ingredient definitions](./#what-you-can-do-with-advanced-ingredients), but is also more susceptible to typographical errors. 
 
 ## Adding a new advanced ingredient from the table view
 

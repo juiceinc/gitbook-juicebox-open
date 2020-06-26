@@ -13,7 +13,7 @@ You can add a new ingredient from the table view. To access the table view, clic
 
 To create a new ingredient form the table view:
 
-* click the **+** next to the field that relates to the ingredient you want to add
+* click the **+** next to the field you want to use in the new ingredient
 * select the type of ingredient you want to create from the available options
 * define the ingredient in the [ingredients editor](../add-a-data-source.md#ingredients-editor)
 
@@ -23,11 +23,11 @@ For example, here's how to create a new place dimension based on the `address` f
 
 ## Duplicating an existing ingredient from within the ingredients editor
 
-You can add a new ingredient by duplicating an existing ingredient. To do this, open the ingredients editor by clicking the ingredient pill for the ingredient you want to duplicate. From there, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate**. 
+You can add a new ingredient by duplicating an existing ingredient. To do this, open the ingredients editor for the ingredient you want to duplicate. From there, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate**. 
 
 ![Duplicating an ingredient](../../../.gitbook/assets/image%20%2877%29.png)
 
-This will duplicate the ingredient and open the ingredients editor for the duplicated ingredient. Revise the ingredient definition as needed.  
+This will duplicate the ingredient and open the ingredients editor for the duplicated ingredient. Revise the ingredient definition as needed and save.
 
 ![Ingredients editor for the duplicated ingredient](../../../.gitbook/assets/image%20%2878%29.png)
 
