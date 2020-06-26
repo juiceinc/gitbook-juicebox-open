@@ -20,7 +20,7 @@ Here's what that looks like:
 
 ## Embed a filter pill using embedFilterPill\(\)
 
-As with the `displaySelection()` text template described above, embedding a filter pill will display what was selected in an upstream slice. In addition, embedding a filter pill will enable the user to click the  pill and change the selection. This is done using the `embedFilterPill()` text template. 
+As with the `selectionDisplay()` text template described above, embedding a filter pill will display what was selected in an upstream slice. In addition, embedding a filter pill will enable the user to click the  pill and change the selection. This is done using the `embedFilterPill()` text template. 
 
 Using the example from above, suppose you want to replace the phrase "the measure selected above" with a filter pill that displays what was selected above and allows the user to click the pill and make a different selection. To do this, you would replace "the measure selected above" in the slice text area with  `==sliceslug.embedFilterPill()==`, where `sliceslug` is the "slug" of the data card slice. The slug can be found in the slice header.
 
@@ -31,6 +31,4 @@ Here's what that looks like:
 {% hint style="warning" %}
 At this time, you cannot use dynamic text that refers to selections made in filter slices.
 {% endhint %}
-
-
 
