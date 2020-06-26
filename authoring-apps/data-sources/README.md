@@ -12,9 +12,9 @@ The data can be a CSV or \(coming soon!\) a table or view in a database or a Goo
 
 ## Data ingredients
 
-Data ingredients \(or just **ingredients**\) are the basic building blocks used to build the charts in your story. There are two types of ingredients: **measures** and **dimensions**. 
+Data ingredients \(or just **ingredients**\) are the basic building blocks used to build the charts in your story. There are two main types of ingredients: **measures** and **dimensions**. 
 
-A **measure** is a value calculated over a group of data records. A **dimension** is used to define a group of data records. 
+A **measure** is a value calculated over a group of data records. A **dimension** is used to define a group of data records.
 
 {% hint style="info" %}
 The word **aggregation** means "a group of data records." So you can also say that a measure is a value calculated over an aggregation, and a dimension is used to define an aggregation. 

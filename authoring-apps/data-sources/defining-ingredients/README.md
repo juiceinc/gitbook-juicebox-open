@@ -1,81 +1,37 @@
 # Adding ingredients
 
-Ingredients are added using the ingredients editor. To access the ingredients editor for an ingredient, click on the ingredient pill. \(You can select ingredient pills in either the Data Sources or the Story Designer sections of the app editor.\)
+Ingredients are added in two ways: 
 
-![Access the ingredients editor by clicking on an ingredient pill](../../../.gitbook/assets/image%20%2834%29.png)
+1. by adding a new ingredient from the table view
+2. by duplicating an existing ingredient from within the ingredients editor
 
-Below are examples of the ingredients editor for the different ingredient types \(dimension, place, time, and measure\).
+## Adding a new ingredient from the table view
 
-## Dimension
+You can add a new ingredient from the table view. To access the table view, click on the table view button for the data source: 
 
-A dimension is an ingredient that is used to define a group of data records. Students, states, and years are all examples of dimensions. Here is the `Categories` dimension from the Unhealthy Americans app. 
+![Click the table view button to access the table view](../../../.gitbook/assets/image%20%2879%29.png)
 
-![Dimension definition](../../../.gitbook/assets/image%20%2846%29.png)
+To create a new ingredient form the table view:
 
-And here are the underlying components:
+* click the **+** next to the field that relates to the ingredient you want to add
+* select the type of ingredient you want to create from the available options
+* define the ingredient in the [ingredients editor](../add-a-data-source.md#ingredients-editor)
 
-```text
-kind: Dimension
-field: StratificationCategory1
-singular: Category
-plural: Categories
-icon: hashtag
-```
+For example, here's how to create a new place dimension based on the `address` field in the `testdata` table view:
 
-## Place dimension
+{% embed url="https://www.loom.com/share/7124db831b0445ecb13d9383677295f4" caption="Adding an ingredient from the table view" %}
 
-A place dimension is a special kind of dimension ingredient that has an associated geographic location \(i.e., latitude and longitude\). A place dimension is required by the [map](../../story-designer/charts/map.md) chart. 
+## Duplicating an existing ingredient from within the ingredients editor
 
-![Place dimension definition](../../../.gitbook/assets/image%20%2853%29.png)
+You can add a new ingredient by duplicating an existing ingredient. To do this, open the ingredients editor by clicking the ingredient pill for the ingredient you want to duplicate. From there, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate**. 
 
-And here are the underlying components:
+![Duplicating an ingredient](../../../.gitbook/assets/image%20%2877%29.png)
 
-```text
-kind: Dimension
-field: LocationDesc
-singular: State
-plural: States
-icon: map-marker-alt
-latitude_field: Latitude
-longitude_field: Longitude
-```
+This will duplicate the ingredient and open the ingredients editor for the duplicated ingredient. Revise the ingredient definition as needed.  
 
-## Time dimension
+![Ingredients editor for the duplicated ingredient](../../../.gitbook/assets/image%20%2878%29.png)
 
-A time dimension  is a special kind of dimension ingredient that uses a date field. A place dimension is required by the [trend](../../story-designer/charts/trend.md) chart. 
-
-![Time dimension definition](../../../.gitbook/assets/image%20%2851%29.png)
-
-And here are the underlying components:
-
-```text
-kind: Dimension
-field: Year_Date
-singular: Year Date
-plural: Year Dates
-icon: calendar
-format: '%b %d, %Y'
-```
-
-## Measure
-
-A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. 
-
-![Measure definition](../../../.gitbook/assets/image%20%2835%29.png)
-
-And here are the underlying components:
-
-```text
-kind: Metric
-field: avg(Data_Value)
-singular: Data Value
-icon: hashtag
-format: ',.2f'
-```
-
-{% hint style="info" %}
-If the options available in the ingredients editor are not sufficient to define your desired ingredient, you will need to add an [advanced ingredient](../advanced-ingredients/). 
+{% hint style="warning" %}
+You cannot change the ingredient type when using this duplicate method. For example, you cannot create a place dimension ingredient from a measure ingredient. Therefore, the ingredient you select for duplication will need to be the desired ingredient type. Alternatively, you can add a new ingredient of the desired type using the [table view method](./#adding-a-new-ingredient-from-the-table-view). 
 {% endhint %}
-
-## 
 

@@ -15,6 +15,7 @@
 * [Data Sources](authoring-apps/data-sources/README.md)
   * [Add a data source](authoring-apps/data-sources/add-a-data-source.md)
   * [Adding ingredients](authoring-apps/data-sources/defining-ingredients/README.md)
+    * [Ingredient components](authoring-apps/data-sources/defining-ingredients/ingredient-components.md)
     * [Ingredient formats](authoring-apps/data-sources/defining-ingredients/ingredient-formats.md)
   * [Advanced ingredients](authoring-apps/data-sources/advanced-ingredients/README.md)
     * [Lookup dimensions](authoring-apps/data-sources/advanced-ingredients/lookup-dimensions.md)
