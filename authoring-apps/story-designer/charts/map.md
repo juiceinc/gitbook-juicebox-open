@@ -25,7 +25,7 @@ For best results, each distinct value of a place dimension should have a distinc
 
 ## Using a map slice
 
-Selections made in the map slice will filter downstream slices. 
+You can hover over a map bubble to see details. Selections made in the map slice will filter downstream slices. 
 
 
 
