@@ -23,6 +23,7 @@ Any changes you make to an app are automatically saved to a draft version of the
 Because all changes are saved to the draft version until they are published, you do not have to keep track of whether you are working in the draft version. But here are indicators that you are in the draft version:
 
 * You will see "draft" in the app link
+* You will see the app editor
 * Prior to first publishing:
   * You will see "There are unpublished changes..." in Publish & Share
   * You will see an "Unpublished" pill in the app header
@@ -36,7 +37,7 @@ Because all changes are saved to the draft version until they are published, you
 
 ## Discard changes to an app
 
-If at some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to the Republish & Share section and select **Discard changes**. 
+At some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to the Republish & Share section and select **Discard changes**. 
 
 {% hint style="warning" %}
 Discarding changes will discard _**all changes**_ made since the last publishing _i**ncluding changes to data sources**_. 
