@@ -49,7 +49,9 @@ The initial ingredients are just a starting point. You can revise them or add ne
 
 ### Ingredients editor
 
-Adding or revising ingredients is done using the ingredients editor. The ingredients editor is essentially a form that you fill out to define your ingredient. The form varies somewhat by type of ingredient because different ingredient types require somewhat different [components](defining-ingredients/ingredient-components.md). You access the ingredients editor for an ingredient by clicking on the ingredient pill.
+Adding or revising ingredients is done using the ingredients editor. The ingredients editor is a form that you fill out to define your ingredient. The form varies somewhat by type of ingredient because different ingredient types require somewhat different [components](defining-ingredients/ingredient-components.md). 
+
+You access the ingredients editor for an ingredient by clicking on the ingredient pill, either in the Data Sources or the Story Designer sections of the app editor.
 
 ![Access ingredients editor by clicking ingredient pill](../../.gitbook/assets/open-ingredients-editor.gif)
 
@@ -57,7 +59,7 @@ Below are examples of the ingredient editor for the different ingredient types \
 
 #### Dimension
 
-A dimension is an ingredient that is used to define a group of data records. Students, states, and years are all examples of dimensions. Here is the `Categories` dimension from the Unhealthy Americans app. 
+A dimension is an ingredient that is used to define a group of data records. Students, states, and years are all examples of dimensions. Here is the `Categories` dimension from the Unhealthy Americans app.:
 
 ![Dimension definition](../../.gitbook/assets/image%20%2846%29.png)
 
@@ -73,7 +75,7 @@ icon: hashtag
 
 #### Place dimension
 
-A place dimension is a special kind of dimension ingredient that has an associated geographic location \(i.e., latitude and longitude\). A place dimension is required by the [map](../story-designer/charts/map.md) chart. 
+A place dimension is a special kind of dimension ingredient that has an associated geographic location \(i.e., latitude and longitude\). A place dimension is required by the [map](../story-designer/charts/map.md) chart. Here is the `States` place dimension from the Unhealthy Americans app:
 
 ![Place dimension definition](../../.gitbook/assets/image%20%2853%29.png)
 
@@ -91,7 +93,7 @@ longitude_field: Longitude
 
 #### Time dimension
 
-A time dimension  is a special kind of dimension ingredient that uses a date field. A place dimension is required by the [trend](../story-designer/charts/trend.md) chart. 
+A time dimension  is a special kind of dimension ingredient that uses a date field. A place dimension is required by the [trend](../story-designer/charts/trend.md) chart. Here is the `Year Dates` time dimension from the Unhealthy Americans app:
 
 ![Time dimension definition](../../.gitbook/assets/image%20%2851%29.png)
 
@@ -108,7 +110,7 @@ format: '%b %d, %Y'
 
 #### Measure
 
-A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. 
+A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Here is the `Data Value` measure from the Unhealthy Americans app:
 
 ![Measure definition](../../.gitbook/assets/image%20%2835%29.png)
 
