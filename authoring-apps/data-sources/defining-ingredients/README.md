@@ -11,7 +11,7 @@ You can add a new ingredient from the table view. To access the table view, clic
 
 ![Click the table view button to access the table view](../../../.gitbook/assets/image%20%2879%29.png)
 
-To create a new ingredient form the table view:
+To create a new ingredient from the table view:
 
 * click the **+** next to the field you want to use in the new ingredient
 * select the type of ingredient you want to create from the available options
