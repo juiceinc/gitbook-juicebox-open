@@ -31,7 +31,7 @@ To control how dates are displayed in the app, you can specify a format. For exa
 
 ![Time dimension with &quot;month day, yyyy&quot; format](../../../.gitbook/assets/image%20%2825%29.png)
 
-A representative values for`Year_Date` in your data is `2019-03-01`. You probably do  not want to display the unformatted value in your app. Therefore, you will want to specify a format in the `Year_Date` ingredient definition. 
+A representative value for`Year_Date` in your data is `2019-03-01`. You probably do  not want to display the unformatted value in your app. Therefore, you will want to specify a format in the `Year_Date` ingredient definition. 
 
 The format specified in the ingredient definition will determine how the value will display in your app. The following standard formats are available for dates: 
 

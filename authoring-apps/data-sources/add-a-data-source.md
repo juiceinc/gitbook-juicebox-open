@@ -22,7 +22,7 @@ When using CSVs, it is important that your data be nice and clean. Common proble
 {% hint style="success" %}
 After loading your data, do a quick review of the table view for anything unexpected. If you spot something unexpected, this usually indicates an issue with the data. Here are some common examples:
 
-* Do any numeric fields have a`string`data type? That likely means you have non-numeric data in the column \(e.g., spaces, commas, "N/A", "null", "-"\). Any field you plan to use in a sum or average calculation must have the `number` data type. 
+* Do any numeric fields have a`string`data type? That likely means you have non-numeric data in the column \(e.g., spaces, commas, "N/A", "null", "-"\). Any field you plan to use in a sum or average calculation must have the`number`data type. 
 * Do any data fields have a`string`data type? That likely means you have non-date data in the column. Any date fields you want to use in a [trend](../story-designer/charts/trend.md) chart must have the`date`data type. 
 * Does a field name have unexpected underscores \(e.g., `_column_name_`, rather than `column_name`\)? That likely means there are leading or trailing spaces in your column headings.
 
@@ -51,7 +51,7 @@ The initial ingredients are just a starting point. You can revise them or add ne
 
 Adding or revising ingredients is done using the ingredients editor. The ingredients editor is a form that you fill out to define your ingredient. The form varies somewhat by type of ingredient because different ingredient types require somewhat different [components](defining-ingredients/ingredient-components.md). 
 
-To access the ingredients editor for an ingredient, clicking on the ingredient pill. You can click on an ingredient pill in either the Data Sources or the Story Designer sections of the app editor.
+To access the ingredients editor for an ingredient, click on the ingredient pill. You can click on an ingredient pill in either the Data Sources or the Story Designer sections of the app editor.
 
 ![Access ingredients editor by clicking ingredient pill](../../.gitbook/assets/open-ingredients-editor.gif)
 

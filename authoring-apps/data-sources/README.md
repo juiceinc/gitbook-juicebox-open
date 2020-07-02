@@ -38,9 +38,8 @@ You can combine aggregation formulas and field math together to create complex m
 
 Dimensions are a type of data ingredient. A dimension is used to define a group of data records. Students, states, and years are all examples of dimensions.
 
-There are two special kinds of dimensions in Juicebox: **place** dimensions and **time** dimensions. 
+There are two special kinds of dimensions in Juicebox: **place** dimensions and **time** dimensions:
 
-A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the the [map](../story-designer/charts/map.md) chart. 
-
-A time dimension is a dimension that is a date. Time dimensions are used in the [trend](../story-designer/charts/trend.md) chart. 
+* A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the the [map](../story-designer/charts/map.md) chart. 
+* A time dimension is a dimension that is a date. Time dimensions are used in the [trend](../story-designer/charts/trend.md) chart. 
 

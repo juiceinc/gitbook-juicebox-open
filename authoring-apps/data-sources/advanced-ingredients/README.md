@@ -1,6 +1,6 @@
 # Advanced ingredients
 
-In cases where you need to do something more than the ingredient editor allows, you can use advanced ingredients. Advanced ingredients are added in two ways: 
+In cases where you need to do something more than the ingredients editor allows, you can use advanced ingredients. Advanced ingredients are added in two ways: 
 
 1. by adding a new advanced ingredient from the table view
 2. by duplicating an existing ingredient as advanced from within the ingredients editor
@@ -29,7 +29,7 @@ This will make a copy of the ingredient and open the advanced ingredient text ed
 
 ## What you can do with advanced ingredients
 
-Advanced ingredients allow you to define the [ingredient components](../defining-ingredients/ingredient-components.md) in a text editor. Advanced ingredients allow you to use--
+Advanced ingredients have [ingredient components](../defining-ingredients/ingredient-components.md) that are defined in a text editor. Advanced ingredients allow you to use--
 
 * Dimensions that [display a lookup value](lookup-dimensions.md) rather than the field value
 * Dimensions that [group values into "buckets"](bucketed-dimensions.md) based on conditions 
