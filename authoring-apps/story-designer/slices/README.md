@@ -28,6 +28,84 @@ Slices can contain text, a chart, or both a chart and text.
 
 To add text to a slice, simply type in the text area. The text area supports most of the basic [Markdown](../../design-tips/useful-resources.md#markdown) syntax, including headings, links, and images. 
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Element</th>
+      <th style="text-align:left"><b>Markdown</b> syntax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Large header</td>
+      <td style="text-align:left"><code># This is Large</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Medium header</td>
+      <td style="text-align:left"><code>## This is Medium</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Small header</td>
+      <td style="text-align:left"><code>### This is normal bold header</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Small text</td>
+      <td style="text-align:left"><code>##### This is a footnote</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <ol>
+          <li>Numbered list</li>
+        </ol>
+      </td>
+      <td style="text-align:left"><code>1. Point one</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <ul>
+          <li>Bulleted list</li>
+        </ul>
+      </td>
+      <td style="text-align:left"><code>* Bullet point</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Blockquote</td>
+      <td style="text-align:left"><code>&gt; This is a blockquote</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><em>Italic</em>
+      </td>
+      <td style="text-align:left"><code>_italic_</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Bold</b>
+      </td>
+      <td style="text-align:left"><code>**bold**</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Divider</td>
+      <td style="text-align:left"><b><code>---</code></b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Image</td>
+      <td style="text-align:left"><code>![Alternate image text](image.jpg)</code>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 ![Use Markdown to add text, links, and images](../../../.gitbook/assets/image%20%2859%29.png)
 
 If the section or slice has a dark background color, you can make the first line of text in the slice  `--invert` to change the text color to white.
