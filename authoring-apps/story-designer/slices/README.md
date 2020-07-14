@@ -6,7 +6,7 @@ Slices are the basic building blocks of your story. Slices are added to [section
 
 To add a slice to an empty section, select the **+ Add Slice** button. 
 
-![Adding a slice to an empty section](../../../.gitbook/assets/image%20%2865%29.png)
+![](../../../.gitbook/assets/screen-shot-2020-07-14-at-9.58.01-am.png)
 
 To add a slice to a section that has one or more slices, click the **+** where you want the new slice to appear.
 
