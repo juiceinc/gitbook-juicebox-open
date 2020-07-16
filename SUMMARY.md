@@ -6,7 +6,7 @@
 
 ## Getting Started
 
-* [Getting Started with Juicebox](getting-started/intro-to-juicebox.md)
+* [Setup a Juicebox Organization \(coming soon!\)](getting-started/intro-to-juicebox.md)
 
 ## Authoring Apps
 
