@@ -97,7 +97,7 @@ longitude_field: Longitude
 
 ### Time Ingredient
 
-A time dimension  is a special kind of dimension ingredient that uses a date field. A place dimension is required by the [trend](../story-designer/charts/trend.md) chart. Here is the `Year Dates` time dimension from the Unhealthy Americans app:
+A time dimension  is a special kind of dimension ingredient that uses a date field. A Time dimension is required by the [trend](../story-designer/charts/trend.md) chart. Here is the `Year Dates` time dimension from the Unhealthy Americans app:
 
 ![Time dimension definition](../../.gitbook/assets/image%20%2851%29.png)
 
