@@ -48,5 +48,5 @@ There are four app editor sections: [App Settings](app-settings.md), [Data Sourc
 
 ## Delete an app
 
-[Deleting an app](app-settings.md#deleting-an-app) is done from App Settings. 
+[Deleting an app](https://juicebox.gitbook.io/juicebox/authoring-apps/app-settings#deleting-an-app) is done from App Settings. 
 
