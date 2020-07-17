@@ -20,21 +20,21 @@ A data card chart with measures will display a high-level summary that provides 
 
 #### To add a measure data card slice:
 
-* Select **Data card** from the chart list
-* Select the measures you want to add in the order you want them displayed
+* select **Data card** from the chart list
+* select the measures you want to add in the order you want them displayed
   * Once you select the first measure, the app will remove the dimensions as options, as you cannot mix dimensions and measures
-* Add text title \(optional\)
+* add title text \(optional\)
 
 ## Data card chart with dimensions
 
-A data card chart with dimensions \(i.e., a dimension data card slice\) lets users select one dimension from a group of dimensions. The selection made in a dimension data card can be used as a [dynamic dimension](data-chooser.md#using-dynamic-ingredients) in other charts, allowing for user-driven exploration.
+A data card chart with dimensions \(i.e., a dimension data card slice\) lets users select one dimension from a group of dimensions. The selection made in a dimension data card can be used as a [dynamic dimension](data-chooser.md#using-dynamic-ingredients) ingredient in other charts, allowing for user-driven exploration.
 
 #### To add a dimension data card slice:
 
 * select **Data card** from the chart list
 * select the dimensions you want to add in the order you want them displayed
   * Once you select the first dimension, the app will remove the measures as options, as you cannot mix dimensions and measures
-* \(optional\) add a title
+* add title text \(optional\)
 
 ## Using dynamic ingredients
 

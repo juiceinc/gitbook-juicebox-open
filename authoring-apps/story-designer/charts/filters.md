@@ -6,9 +6,9 @@ The filters chart displays pills \(i.e., filter pills\) that allow users to filt
 
 To add a filter slice:
 
-* Select **Filters** from the chart list
-* Select the ingredients you want to add as filters in the order you want them displayed
-* Add title text \(optional\)
+* select **Filters** from the chart list
+* select the ingredients you want to add as filters in the order you want them displayed
+* add title text \(optional\)
 
 {% embed url="https://www.loom.com/share/0307b76752bb4a428827940d809f3c53" caption="Adding a filter slice" %}
 
