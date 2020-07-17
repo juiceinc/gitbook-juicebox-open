@@ -25,9 +25,9 @@ icon: sack-dollar
 
 If you divide by zero, you’ll get a null. If you do not specify an aggregate function, `sum()` will be implied. 
 
-### Concatenate
+### Concatenating text fields
 
-You can use `+` to concatenate text data fields together. For example, if `LocationDesc` has state names and `LocationAbbr` has state abbreviations, this`States2` dimension will combine state names with state abbreviations to display like `Georgia (GA)`.
+You can use `+` to concatenate text data fields together. For example, if `LocationDesc` has state names and `LocationAbbr` has state abbreviations, this`States2` dimension will combine state names with state abbreviations to display like `Georgia (GA)`.  
 
 ![Field math: concatenation](../../../.gitbook/assets/image%20%2856%29.png)
 
@@ -44,7 +44,7 @@ longitude_field: Longitude
 ```
 
 {% hint style="warning" %}
-Use double quotes only in field expressions. Single quotes will not work.
+You must use double quotes in field expressions to define string constants. Single quotes will not work.
 {% endhint %}
 
 ## Multiple aggregate functions
@@ -84,7 +84,7 @@ name IS NULL
 To use conditions in formulas, use the `IF` function. This function contains pairs of conditions and values. A final value is used if none of your conditions match. Here is the `IF` function pattern:
 
 ```text
-IF({condition1}, {value1}, {condition2}, {value2}, …, {else_value})
+IF([condition1], [value1], [condition2], [value2], …, [else_value])
 ```
 
 Here are examples for formulas that use the `IF` function:
@@ -121,4 +121,19 @@ singular: Campaign
 plural: Campaign
 icon: envelope
 ```
+
+### Defining conditions in IF statements
+
+Conditions are defined as \[field\] \[comparison\] \[values\]. These comparisons can be ANDed or ORed together. 
+
+| Conditions | Examples |
+| :--- | :--- |
+| Greater than a number | `sales>20` or `sales>20.5` |
+| Equal to a number or a string \(strings must be surrounded by double quotes. | `age=20` or `state="Tennessee"` |
+| Checking if a value is null | `state IS NULL` |
+| Checking if a value is in a list of values | `state IN ("TN", "GA", "FL")` |
+| Comparing dates.  | `sales_date BETWEEN "ONE WEEK AGO" and "TODAY"` or `sales_date BETWEEN "2020-01-01" AND "2020-06-30"` |
+| Intelligent date ranges \(use PREVIOUS, THIS, or NEXT to define an offset and DAY, MONTH, MTD, QTR, YEAR, or YTD to define the period\). | `sales_date IS THIS MONTH` or `sales_date IS LAST MONTH` |
+| ANDing two conditions |  `sales > 1000 AND sales_date IS THIS MONTH` |
+| ORing two conditions | `sales > 1000 OR sales IS NULL` |
 

@@ -43,15 +43,62 @@ buckets:
 bucket_default_label: [defaultbucketlabel]
 ```
 
-By default, each condition will be evaluated against the main `field`, but you can provide an alternative field in the condition itself, like so:
+### Defining conditions
+
+Conditions are defined like \[\(optional\) field\] \[comparison\] \[values\]. These comparisons can be ANDed or ORed together. 
+
+| Conditions | Examples |
+| :--- | :--- |
+| Greater than a number | `>20` or `>20.5` |
+| Equal to a number or a string \(strings must be surrounded by double quotes. | `=20` or `="Tennessee"` |
+| Checking if a value is null | `IS NULL` |
+| Checking if a value is in a list of values | `IN ("TN", "GA", "FL")` |
+| Comparing dates.  | `BETWEEN "ONE WEEK AGO" and "TODAY"` or `BETWEEN "2020-01-01" AND "2020-06-30"` |
+| Intelligent date ranges \(use PREVIOUS, THIS, or NEXT to define an offset and DAY, MONTH, MTD, QTR, YEAR, or YTD to define the period\). | `IS THIS MONTH` or `IS LAST MONTH` |
+| ANDing two conditions |  `sales > 1000 AND sales_date IS THIS MONTH` |
+| ORing two conditions | `sales > 1000 OR sales IS NULL` |
+
+### Providing an explicit field for the condition
+
+By default, each condition will be compared against the main `field`. Let's look at a sample ingredient--
 
 ```text
 kind: Dimension
-field: grade
+field: sales_dollars
 singular: Sales Group
 plural: Sales Groups
 buckets:
-  # This first condition does not use the field because it contains its own
+  - label: Small
+    condition: '<100.0'
+  - label: Medium
+    condition: '<1000.0'
+buckets_default_label: Large
+```
+
+You can provide an alternative field in the condition itself. This is the **same definition** with the field provided explicitly.
+
+```text
+kind: Dimension
+field: sales_dollars
+singular: Sales Group
+plural: Sales Groups
+buckets:
+  - label: Small
+    condition: 'sales_dollars<100.0'
+  - label: Medium
+    condition: 'sales_dollars<1000.0'
+buckets_default_label: Large
+```
+
+By providing an alternative field, you can create complex buckets that look at multiple values
+
+```text
+kind: Dimension
+field: sales_dollars
+singular: Sales Group
+plural: Sales Groups
+buckets:
+  # This first condition does not use sales_dollars because it contains its own field
   - label: In-state
     condition: 'state = "Tennessee"'
   - label: Small
@@ -61,21 +108,7 @@ buckets:
 buckets_default_label: Large
 ```
 
-### Defining conditions
-
-Conditions are defined like \[field\] \[comparison\] \[values\]
-
-| Conditions | Examples |
-| :--- | :--- |
-| Greater than a number | `>20` or `>20.5` |
-| Equal to a number or a string \(strings must be surrounded by double quotes. | `=20` or `="Tennessee"` |
-| Checking if a value is null | `IS NULL` |
-| Checking if a value is in a list of values | `IN ("TN", "GA", "FL")` |
-| Comparing dates.  | `BETWEEN "ONE WEEK AGO" and "TODAY"` or `BETWEEN "2020-01-01" AND "2020-06-30"` |
-| Intelligent date ranges | `IS THIS MONTH` or `IS LAST MONTH` |
-| ANDing two conditions |  |
-
-### How conditions are evaluated
+### Conditions are evaluated in order
 
 Conditions within buckets are evaluated in the order they are defined, which makes defining buckets for continuous values convenient:
 

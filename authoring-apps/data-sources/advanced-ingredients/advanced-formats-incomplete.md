@@ -4,7 +4,7 @@ The [most commonly used formats](../defining-ingredients/ingredient-formats.md) 
 
 ## Advanced number formats
 
-You can use  [d3 number formats](https://github.com/d3/d3-format) to adjust how numbers display in your story. For example, let's say you want to display `Overweight %` with 1 decimal. Because the ingredients editor does not include an option to display a percent with 1 decimal, you will need to do this as an advanced ingredient, like so:
+You can use  [number formats](https://github.com/d3/d3-format) to adjust how numbers display in your story. For example, let's say you want to display `Overweight %` with 1 decimal. Because the ingredients editor does not include an option to display a percent with 1 decimal, you will need to do this as an advanced ingredient, like so:
 
 ![Set format to a percent with 1 decimal](../../../.gitbook/assets/image%20%2848%29.png)
 
@@ -25,7 +25,7 @@ icon: hashtag
 
 ## Advanced date formats
 
-You can use [d3 date formats](https://github.com/d3/d3-time-format) to adjust how dates display in your story. For example, let's say you want to display `Year Dates` like "January 1, 2018" \(full month and unpadded day\). Because the ingredients editor does not include an option to display this date format, you will need to do this as an advanced ingredient, like so:
+You can use [date formats](https://github.com/d3/d3-time-format) to adjust how dates display in your story. For example, let's say you want to display `Year Dates` like "January 1, 2018" \(full month and unpadded day\). Because the ingredients editor does not include an option to display this date format, you will need to do this as an advanced ingredient, like so:
 
 ![Set date format to full month and unpadded day](../../../.gitbook/assets/image%20%2849%29.png)
 
