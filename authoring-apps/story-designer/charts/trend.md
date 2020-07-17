@@ -13,11 +13,11 @@ To add a trend slice:
 * \(optional\) add a title
 
 {% hint style="info" %}
-The trend slice requires that one of your dimensions be a [time dimension](../../data-sources/defining-ingredients/#time-dimension).  A time dimension is a date field.
+The trend slice requires that one of your dimensions be a [time ingredient](https://app.gitbook.com/@juicebox/s/juicebox/authoring-apps/data-sources/add-a-data-source#time-ingredient).  A time ingredient is a date field.
 {% endhint %}
 
 {% hint style="warning" %}
-At this time, the [trend](trend.md) chart requires dates on the first day of the month. 
+At this time, the trend chart requires dates on the first day of the month. 
 {% endhint %}
 
 {% embed url="https://www.loom.com/share/b2d09f1279e24cc9846517a2698c1c00" caption="Adding a table slice" %}
