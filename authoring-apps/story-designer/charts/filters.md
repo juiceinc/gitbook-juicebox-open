@@ -1,14 +1,14 @@
 # Filters
 
-The filters chart displays pills \(i.e., filter pills\) that allow users to filter by dimension values. When a user clicks on a filter pill, all of the dimension values are displayed in a side panel. Selecting one or more of the values will filter the downstream slices. Adding a slice with a filters chart \(i.e., a filter slice\) is a good choice when you want to let your users focus the story on what is most important to them. 
+The filters chart displays pills \(i.e., filter pills\) that allow users to filter story data by dimension values. When a user clicks on a filter pill, all of the dimension values are displayed in a side panel. Selecting one or more of the values will filter the downstream slices. Adding a slice with a filters chart \(i.e., a filter slice\) is a good choice when you want to let your users focus the story on what is most important to them. 
 
 ## Adding a filter slice
 
 To add a filter slice:
 
-* select **Filters** from the chart list
-* select the ingredients you want to add as filters in the order you want them displayed
-* \(optional\) add a title
+* Select **Filters** from the chart list
+* Select the ingredients you want to add as filters in the order you want them displayed
+* Add title text \(optional\)
 
 {% embed url="https://www.loom.com/share/0307b76752bb4a428827940d809f3c53" caption="Adding a filter slice" %}
 

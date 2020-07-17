@@ -4,26 +4,26 @@ description: >-
   dynamically.
 ---
 
-# Data card
+# Data Card
 
-A data card chart can be used to--
+A data card chart can be used to for the following:
 
 * Show a summary of measures
 * Let a user choose which measure to explore 
 * Let a user choose which dimension to explore
 
-Choices made in a data card drive the direction of the story below. There are two types: measure data card and dimension data card.
+Choices made in a data card can drive the filtering narrative of the story that follows. There are two types: measure data card and dimension data card.
 
 ## Data card chart with measures
 
-A data card chart with measures \(i.e., a measure data card slice\) will display a high-level summary that provides context for users as they make their selections. The selection made in a measure data card slice can be used as a [dynamic measure](data-chooser.md#using-dynamic-ingredients) in other charts, allowing for user-driven exploration.
+A data card chart with measures will display a high-level summary that provides context for users as they make their selections. The selection made in a measure data card slice can be used as a [dynamic measure](data-chooser.md#using-dynamic-ingredients) ingredient in other charts, allowing for user-driven exploration.
 
 #### To add a measure data card slice:
 
-* select **Data card** from the chart list
-* select the measures you want to add in the order you want them displayed
+* Select **Data card** from the chart list
+* Select the measures you want to add in the order you want them displayed
   * Once you select the first measure, the app will remove the dimensions as options, as you cannot mix dimensions and measures
-* \(optional\) add a title
+* Add text title \(optional\)
 
 ## Data card chart with dimensions
 
