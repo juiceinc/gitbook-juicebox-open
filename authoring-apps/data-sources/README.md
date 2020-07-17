@@ -20,17 +20,15 @@ A **measure** is a value calculated over a group of data records. A **dimension*
 The word **aggregation** means "a group of data records." So you can also say that a measure is a value calculated over an aggregation, and a dimension is used to define an aggregation. 
 {% endhint %}
 
-Perfectly clear, right? If not, you're not alone. We find the best way to understand the distinction between measures and dimensions is to just start building apps. Pretty soon, you'll get the hang of it. 
-
 {% hint style="success" %}
 A good rule of thumb is that measures are calculated numbers and dimensions are categories of things. 
 {% endhint %}
 
 ### Measures
 
-Measures are a type of data ingredient. A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. 
+Measures are a kind of data ingredient. A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. 
 
-In defining measures, you can use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify an aggregation formula in the measure definition, then `sum()` will be implied.
+Under the hood, measures use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify an aggregation formula in the measure definition, then `sum()` will be implied.
 
 You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](defining-ingredients/#advanced-ingredients).
 
@@ -38,7 +36,7 @@ You can combine aggregation formulas and field math together to create complex m
 
 Dimensions are a type of data ingredient. A dimension is used to define a group of data records. Students, states, and years are all examples of dimensions.
 
-There are two special kinds of dimensions in Juicebox: **place** dimensions and **time** dimensions:
+There are two special kinds of dimensions in Juicebox: [**place**](https://juicebox.gitbook.io/juicebox/authoring-apps/data-sources/add-a-data-source#place-ingredient) dimensions and [**time**](https://juicebox.gitbook.io/juicebox/authoring-apps/data-sources/add-a-data-source#time-ingredient) dimensions:
 
 * A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the [map](../story-designer/charts/map.md) chart. 
 * A time dimension is a dimension that is a date. Time dimensions are used in the [trend](../story-designer/charts/trend.md) chart. 
