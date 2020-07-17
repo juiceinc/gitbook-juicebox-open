@@ -10,7 +10,7 @@ Also, currently selections in individual [Filters](../charts/filters.md) slice i
 
 ## Display selections made above using selectionDisplay\(\)
 
-If you want your slice text to display what was selected in an upstream slice, you can use the `selectionDisplay()` text template. For example, suppose you have a data card slice followed by a trend slice, and the measure used in the trend slice is the measure selected in the upstream data card slice. Your trend slice title says "See how the measure selected above changes over time":
+If you want your slice text to display what was selected in an upstream slice, you can use the `selectionDisplay()` text template. For example, suppose you have a [data card](https://juicebox.gitbook.io/juicebox/authoring-apps/story-designer/charts/data-chooser#using-dynamic-ingredients) slice followed by a trend slice, and the measure used in the trend slice is the measure selected in the upstream data card slice. Your trend slice title says "See how the measure selected above changes over time":
 
 ![Trend slice has a static title](../../../.gitbook/assets/image%20%2873%29.png)
 
@@ -34,7 +34,5 @@ Here's what that looks like:
 
 {% embed url="https://www.loom.com/share/c8509f862e0c4b6a99bce53c716f3422" caption="Add dynamic text using embedFilterPill\(\)" %}
 
-{% hint style="warning" %}
-At this time, you cannot use dynamic text that refers to selections made in filter slices.
-{% endhint %}
+
 
