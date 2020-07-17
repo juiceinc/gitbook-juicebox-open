@@ -50,6 +50,7 @@ Conditions are defined like \[\(optional\) field\] \[comparison\] \[values\]. Th
 | Conditions | Examples |
 | :--- | :--- |
 | Greater than a number | `>20` or `>20.5` |
+| Greater than or equal to | `>=20` |
 | Equal to a number or a string \(strings must be surrounded by double quotes. | `=20` or `="Tennessee"` |
 | Checking if a value is null | `IS NULL` |
 | Checking if a value is in a list of values | `IN ("TN", "GA", "FL")` |
