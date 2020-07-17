@@ -52,6 +52,7 @@ Conditions are defined like \[\(optional\) field\] \[comparison\] \[values\]. Th
 | Greater than a number | `>20` or `>20.5` |
 | Greater than or equal to | `>=20` |
 | Equal to a number or a string \(strings must be surrounded by double quotes. | `=20` or `="Tennessee"` |
+| Not equal to a number or string | `!=20` or `!="Tennessee` |
 | Checking if a value is null | `IS NULL` |
 | Checking if a value is in a list of values | `IN ("TN", "GA", "FL")` |
 | Comparing dates.  | `BETWEEN "ONE WEEK AGO" and "TODAY"` or `BETWEEN "2020-01-01" AND "2020-06-30"` |
