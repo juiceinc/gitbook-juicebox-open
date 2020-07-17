@@ -2,6 +2,12 @@
 
 Slice text can change dynamically based on what a user has selected in slices above. This is done using text templates. The two most commonly used text templates allow you to display selections or embed a filter pill.
 
+{% hint style="info" %}
+Dynamic text will only return _selections_ in Slices. It is best to add dynamic text after all charts have been configured as you like. 
+
+Also, currently selections in individual [Filters](../charts/filters.md) slice ingredients cannot be referenced but that is coming soon.
+{% endhint %}
+
 ## Display selections made above using selectionDisplay\(\)
 
 If you want your slice text to display what was selected in an upstream slice, you can use the `selectionDisplay()` text template. For example, suppose you have a data card slice followed by a trend slice, and the measure used in the trend slice is the measure selected in the upstream data card slice. Your trend slice title says "See how the measure selected above changes over time":
