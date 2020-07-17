@@ -130,7 +130,7 @@ To add a chart to a slice, select the **+Chart** button and select the desired [
 
 ## Reordering slices
 
-To reorder slices, hover over the slice and put the cursor over the handle icon \( ![](../../../.gitbook/assets/grip-vertical-solid.svg) \) until the cursor becomes a hand. Then drag the slice and drop it where you want it to display.
+To reorder slices, hover over the slice and put the cursor over the handle icon \( ![](../../../.gitbook/assets/screen-shot-2020-07-17-at-4.21.42-pm.png) \) until the cursor becomes a hand. Then click and drag the slice and drop it where you want it to display.
 
 ## Slice layouts
 
