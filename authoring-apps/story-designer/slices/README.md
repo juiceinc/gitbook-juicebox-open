@@ -26,7 +26,7 @@ Slices can contain text, a chart, or both a chart and text.
 
 ### Adding text
 
-To add text to a slice, simply type in the text area. The text area supports most of the basic [Markdown](../../design-tips/useful-resources.md#markdown) syntax, including headings, links, and images. 
+To add text to a slice, simply type in the text area. The text area supports most of the basic [Markdown](https://www.markdownguide.org/cheat-sheet/) syntax, including headings, links, and images. 
 
 <table>
   <thead>
@@ -52,6 +52,11 @@ To add text to a slice, simply type in the text area. The text area supports mos
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">Normal/Body text</td>
+      <td style="text-align:left"><em>No markdown syntax is needed for an h4 size.</em>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">Small text</td>
       <td style="text-align:left"><code>##### This is a footnote</code>
       </td>
@@ -71,7 +76,7 @@ To add text to a slice, simply type in the text area. The text area supports mos
           <li>Bulleted list</li>
         </ul>
       </td>
-      <td style="text-align:left"><code>* Bullet point</code>
+      <td style="text-align:left"><code>- Bullet point</code>
       </td>
     </tr>
     <tr>
@@ -82,7 +87,7 @@ To add text to a slice, simply type in the text area. The text area supports mos
     <tr>
       <td style="text-align:left"><em>Italic</em>
       </td>
-      <td style="text-align:left"><code>_italic_</code>
+      <td style="text-align:left"><code>_italic_, or *italic*</code>
       </td>
     </tr>
     <tr>
@@ -99,6 +104,11 @@ To add text to a slice, simply type in the text area. The text area supports mos
     <tr>
       <td style="text-align:left">Image</td>
       <td style="text-align:left"><code>![Alternate image text](image.jpg)</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Link</td>
+      <td style="text-align:left"><code>[title](https://www.example.com)</code>
       </td>
     </tr>
   </tbody>
