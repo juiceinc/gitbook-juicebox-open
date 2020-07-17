@@ -8,14 +8,9 @@ Before you start creating your Juicebox data story, you’ll want to make sure y
 * What role do they have in the organization?
 * What makes them successful in that role?
 * What do they already know about the content of your data story?
-* What don’t they know, but should?
-* What are particularly complicated, confusing, or tricky bits that must be included?
-* Why do they need/want to use your data story?
-* What do they perceive to be important?
-* What don’t they think is important, but should?
 * What are some ways your data story will influence them?
 
-Our [data personality framework](https://www.juiceanalytics.com/writing/toward-a-data-personality-framework) gives you a way to understand your target audience. 
+A good place to start in designing your data story is with understanding the personality of your audience. Our [data personality framework](https://www.juiceanalytics.com/writing/toward-a-data-personality-framework) gives you a way to understand your target audience. 
 
 ![Data personality framework](https://lh4.googleusercontent.com/YJznB-8xRdPH4t43WHUois_hdbD1SOWNIx0Ln6S1sSisk1gt2yZOhg5E7T31GjzmOz94lPKgVG6ZtckJJHZEfffKxucq-AUkBJhLJ_pVVyauNzQSa59qwfahmLlJBodKvGR1oC0)
 
