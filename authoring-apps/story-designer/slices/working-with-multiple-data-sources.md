@@ -1,11 +1,12 @@
 # Multiple data sources
 
-While each slice is limited to ingredients from a single data source, slices within a story do not have to use the same data source. For example, suppose you have two data sources \(A and  B\) and two slices \(1, 2\). The following combinations are all options:
+While each slice is limited to ingredients from a single data source, slices within a story do not have to use the same data source. 
 
-| Slice | Option 1 | Option 2 | Option 3 | Option 4 |
-| :--- | :--- | :--- | :--- | :--- |
-| Slice 1 | Data Source A | Data Source A | Data Source B | Data Source B |
-| Slice 2 | Data Source A | Data Source B | Data Source A | Data Source B |
+While you _can_ do this, you should know that selections in slices using different data sources will **only filter for simple ingredients that are defined using fields that have the same name**.
 
-Notice that options 2 and 3 combine more than one data source. While you _can_ do this, it is generally not recommended because selections in slices using Data Source A will not filter slices using Data Source B, and vice versa. \(In the future, Juicebox will allow filtering across slices with different data sources.\)
+Here's an example: Imagine you have a first data source uses a csv that contains a column named `state`. Let's say this column contains United States state name abbreviations. If you have another data source that also has a column named state that contains matching US state name abbreviations then selections of these states will filter the other data source.
+
+{% hint style="info" %}
+In the future, Juicebox will support more extensive filtering across slices with different data sources.
+{% endhint %}
 
