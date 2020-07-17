@@ -42,7 +42,7 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Branding
 
-* Often you may have a logo or branding colors you would like to style a data story with. You may want to set the data color \([described above](https://app.gitbook.com/@juicebox/s/juicebox/~/drafts/-MAD9TFws3DziRcQnPS2/authoring-apps/design-tips/visual-design#color)\) as your logo color. And then use lighter secondary brand colors in section or slice backgrounds. 
+* Often you may have a logo or branding colors you would like to style a data story with. You may want to set the [data color](visual-design.md#color) as your logo color. And then use lighter secondary brand colors in section or slice backgrounds. 
 * Have a logo? Right now, the best way to present it is [via Markdown](../story-designer/slices/#slice-text) in a slice text area. Add it in your intro section or perhaps also in a concluding section. If your logo shows up too big, change the dimensions of your image file to be the size you would like it to appear as.
 
 ## Photos
