@@ -131,7 +131,7 @@ Conditions are defined as \[field\] \[comparison\] \[values\]. These comparisons
 | Greater than a number | `sales>20` or `sales>20.5` |
 | Greater than or equal to | `sales>=20` |
 | Equal to a number or a string \(strings must be surrounded by double quotes. | `age=20` or `state="Tennessee"` |
-| Not equal to a number or string | `age!=20` or `state!="Tennessee` |
+| Not equal to a number or string | `age!=20` or `state!="Tennessee"` |
 | Checking if a value is null | `state IS NULL` |
 | Checking if a value is in a list of values | `state IN ("TN", "GA", "FL")` |
 | Comparing dates.  | `sales_date BETWEEN "ONE WEEK AGO" and "TODAY"` or `sales_date BETWEEN "2020-01-01" AND "2020-06-30"` |
