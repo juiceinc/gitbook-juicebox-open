@@ -8,7 +8,9 @@ You must [add a data source](add-a-data-source.md) before you can design your st
 
 ## Data
 
-The data can be a CSV or \(coming soon!\) a table or view in a database or a Google Sheet. If your data is in a CSV, you upload the CSV. \(Coming soon, if your data is in a database, you connect to the database and select the table or view that should be used. \)
+The data can be a CSV or \(coming soon!\) a table or view in a database or a Google Sheet. If your data is in a CSV, you upload the CSV. \(Coming soon, if your data is in a database, you connect to the database and select the table or view that should be used.\)
+
+Here are some tips on how to [prepare your data](../design-tips/preparing-your-data.md).
 
 ## Data ingredients
 
