@@ -16,7 +16,7 @@ Rather than adding a brand new slice, it may be easier to duplicate and modify a
 
 ![Duplicating a slice](../../../.gitbook/assets/image%20%2864%29.png)
 
-To delete a slice, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) in the slice you want to duplicate and select **Delete** from the dropdown. 
+To delete a slice, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) in the slice you want to delete and select **Delete** from the dropdown. 
 
 ![Deleting a slice](../../../.gitbook/assets/image%20%2861%29.png)
 
