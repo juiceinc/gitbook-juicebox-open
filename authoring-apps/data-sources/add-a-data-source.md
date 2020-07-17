@@ -23,7 +23,7 @@ When using CSVs, it is important that your data be nice and clean. Common proble
 After loading your data, do a quick review of the table view for anything unexpected. If you spot something unexpected, this usually indicates an issue with the data. Here are some common examples:
 
 * Do any numeric fields have a`string`data type? That likely means you have non-numeric data in the column \(e.g., spaces, commas, "N/A", "null", "-"\). Any field you plan to use in a sum or average calculation must have the`number`data type. 
-* Do any data fields have a`string`data type? That likely means you have non-date data in the column. Any date fields you want to use in a [trend](../story-designer/charts/trend.md) chart must have the`date`data type. 
+* Do any date fields have a`string`data type? That likely means you have non-date data in the column. Any date fields you want to use in a [trend](../story-designer/charts/trend.md) chart must have the`date`data type. 
 * Does a field name have unexpected underscores \(e.g., `_column_name_`, rather than `column_name`\)? That likely means there are leading or trailing spaces in your column headings.
 
 Spotting and fixing these issues early and re-loading your data will save you time and frustration down the road.
@@ -97,7 +97,7 @@ longitude_field: Longitude
 
 ### Time Ingredient
 
-A time dimension  is a special kind of dimension ingredient that uses a date field. A Time dimension is required by the [trend](../story-designer/charts/trend.md) chart. Here is the `Year Dates` time dimension from the Unhealthy Americans app:
+A time dimension  is a special kind of dimension ingredient that uses a date field. A place dimension is required by the [trend](../story-designer/charts/trend.md) chart. Here is the `Year Dates` time dimension from the Unhealthy Americans app:
 
 ![Time dimension definition](../../.gitbook/assets/image%20%2851%29.png)
 
