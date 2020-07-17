@@ -38,7 +38,7 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 * Unlike other dashboard reporting tools, Juicebox is more about helping you present your data like a story that has a beginning, middle, and end. This is why slices lay out vertically, by default, like a cross between a website and a slideshow presentation. You wouldn't start a presentation to your team by showing thumbnails of all your slides at once. Why would a data presentation be any different?
 * Put text next to your chart with a slice "Left to Right" or "Right to Left" [**layout option.**](../story-designer/slices/#slice-layouts) This is great for adding more explanatory text that can easily be read while viewing a chart. 
 * You also may put entire slices next to each other by changing the [s**ection layout**](../story-designer/sections.md#section-layouts) to "Horizontal". For this option, sometimes slices will scroll horizontally, so this is a good option when there are charts or text you would consider optional viewing. 
-* In general, a bit of layout diversity will create a more visually interesting story, but don't forgot to put yourself in your audiences' shoes. They are likely less familiar with the data than you, so you don't want to create unnecessarily distracting layout changes when they are simply wanting to understand something clearly. 
+* In general, a bit of layout diversity will create a more visually interesting story, but don't forget to put yourself in your audiences' shoes. They are likely less familiar with the data than you, so you don't want to create unnecessarily distracting layout changes when they are simply wanting to understand something clearly. 
 
 ## Branding
 
