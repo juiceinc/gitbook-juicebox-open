@@ -31,7 +31,7 @@ To access the app editor, select **Edit** on the app \(or the pencil icon on the
 Changes to an app are made to a draft version of the app. If you see the app editor, you know you are in the draft version. The app editor is a panel on the left side of the draft app. Changes made \(and saved\) in the app editor are immediately reflected and saved in the draft app. 
 
 {% hint style="info" %}
-Tip: If you are working on a new app, it is a good practice to Publish it from the [Publish & Share](publish-and-share/) view. Then you can keep editing and publishing changes. If you make some edits you don't want, you may discard those changes from the Publish & Share view. Discarding a draft restores your editing state to the last published state of your app.
+Learn more about [how to manage app changes](publish-and-share/publishing-app-changes.md#making-changes-to-an-app).
 {% endhint %}
 
 ![](../.gitbook/assets/image%20%2822%29.png)
