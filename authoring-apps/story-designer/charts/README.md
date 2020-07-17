@@ -4,7 +4,7 @@ Charts are data visualizations you can add to your story. Each slice can contain
 
 {% page-ref page="filters.md" %}
 
-{% page-ref page="data-chooser.md" %}
+{% page-ref page="data-card.md" %}
 
 {% page-ref page="table.md" %}
 

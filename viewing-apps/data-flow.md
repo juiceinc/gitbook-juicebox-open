@@ -15,7 +15,7 @@ In the example below, there are two slices. The top slice has a [bar](../authori
 
 ### Selections that set direction
 
-Selections in [data card](../authoring-apps/story-designer/charts/data-chooser.md) charts determine which direction the story will go.  In the example below, a user can select a measure \(like Happiness or Family\) using the measure chooser ****data card. This selection drives what measure will be used to in the [bar](../authoring-apps/story-designer/charts/ranked-list.md) chart below. 
+Selections in [data card](../authoring-apps/story-designer/charts/data-card.md) charts determine which direction the story will go.  In the example below, a user can select a measure \(like Happiness or Family\) using the measure chooser ****data card. This selection drives what measure will be used to in the [bar](../authoring-apps/story-designer/charts/ranked-list.md) chart below. 
 
 ![Selections in data cards set story direction](../.gitbook/assets/data_flow_dim.gif)
 
