@@ -29,6 +29,10 @@ After loading your data, do a quick review of the table view for anything unexpe
 Spotting and fixing these issues early and re-loading your data will save you time and frustration down the road.
 {% endhint %}
 
+#### Replace CSV
+
+When previewing a CSV Data Source table view, there is a button top right in the modal to "Replace CSV". This allows you to update your rows/values, and add more columns. However, keep in mind that changing previously existing column field names in the data source may break connections with your existing ingredients.
+
 ### Connect to a database table or view \(coming soon!\)
 
 ### Connect to a Google Sheet \(coming soon!\)
