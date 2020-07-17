@@ -57,7 +57,7 @@ To access the ingredients editor for an ingredient, click on the ingredient pill
 
 Below are examples of the ingredient editor for the different ingredient types \(dimension, place, time, and measure\) as well as the underlying components for each ingredient.
 
-#### Dimension
+### Dimension Ingredient
 
 A dimension is an ingredient that is used to define a group of data records. Students, states, and years are all examples of dimensions. Here is the `Categories` dimension from the Unhealthy Americans app.:
 
@@ -73,7 +73,7 @@ plural: Categories
 icon: hashtag
 ```
 
-#### Place dimension
+### Place Ingredient
 
 A place dimension is a special kind of dimension ingredient that has an associated geographic location \(i.e., latitude and longitude\). A place dimension is required by the [map](../story-designer/charts/map.md) chart. Here is the `States` place dimension from the Unhealthy Americans app:
 
@@ -91,7 +91,7 @@ latitude_field: Latitude
 longitude_field: Longitude
 ```
 
-#### Time dimension
+### Time Ingredient
 
 A time dimension  is a special kind of dimension ingredient that uses a date field. A place dimension is required by the [trend](../story-designer/charts/trend.md) chart. Here is the `Year Dates` time dimension from the Unhealthy Americans app:
 
@@ -108,7 +108,7 @@ icon: calendar
 format: '%b %d, %Y'
 ```
 
-#### Measure
+### Measure Ingredient
 
 A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Here is the `Data Value` measure from the Unhealthy Americans app:
 
@@ -124,7 +124,7 @@ icon: hashtag
 format: ',.2f'
 ```
 
-#### Advanced ingredients
+#### Advanced Ingredient
 
 If the options available in the ingredients editor are not sufficient to define your desired ingredient, you will need to add an [advanced ingredient](advanced-ingredients/). 
 
