@@ -9,7 +9,7 @@ Instead of those long values, you want to display "Obese" and "Overweight," resp
 
 ![Advanced ingredient: lookup dimension](../../../.gitbook/assets/image%20%2837%29.png)
 
-To create a lookup dimension, you add the `lookup:` component to the dimension definition.
+To create a lookup dimension, you add the `lookup:` component to the dimension definition. The lookup values need to be indented consistently.
 
 ```text
 kind: Dimension
@@ -23,5 +23,5 @@ lookup:
   [value to lookup]: [value to display]
 ```
 
-If there is a value in your data that is not added to the list of values to lookup, then the value in the data will be displayed. 
+If there is a value in your data that is not added to the list of values to lookup, then the original value in your data will be displayed. 
 

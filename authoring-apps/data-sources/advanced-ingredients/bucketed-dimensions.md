@@ -25,7 +25,7 @@ buckets:
 buckets_default_label: Other
 ```
 
-To create a bucketed dimension, you add the `buckets:` and `bucket_default_label:` components to the dimension definition. Within `buckets`, you define the `label`, `condition`, and optionally `field`. 
+To create a bucketed dimension, you add the `buckets:` and \(optionally\) a `bucket_default_label:` components to the dimension definition. Within `buckets`, define a list of`label` and `condition`. If the `condition` is met, your `label` will be displayed.
 
 ```text
 kind: Dimension
@@ -61,7 +61,23 @@ buckets:
 buckets_default_label: Large
 ```
 
-The conditions within buckets are evaluated in the order they are defined, which makes defining buckets for continuous values convenient:
+### Defining conditions
+
+Conditions are defined like \[field\] \[comparison\] \[values\]
+
+| Conditions | Examples |
+| :--- | :--- |
+| Greater than a number | `>20` or `>20.5` |
+| Equal to a number or a string \(strings must be surrounded by double quotes. | `=20` or `="Tennessee"` |
+| Checking if a value is null | `IS NULL` |
+| Checking if a value is in a list of values | `IN ("TN", "GA", "FL")` |
+| Comparing dates.  | `BETWEEN "ONE WEEK AGO" and "TODAY"` or `BETWEEN "2020-01-01" AND "2020-06-30"` |
+| Intelligent date ranges | `IS THIS MONTH` or `IS LAST MONTH` |
+| ANDing two conditions |  |
+
+### How conditions are evaluated
+
+Conditions within buckets are evaluated in the order they are defined, which makes defining buckets for continuous values convenient:
 
 ```text
 kind: Dimension

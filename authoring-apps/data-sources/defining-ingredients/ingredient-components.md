@@ -6,7 +6,7 @@ Each ingredient has a set of components that are configured as you [add your ing
 | :--- | :--- | :--- |
 | kind | all | The ingredient type, either `Dimension` or `Metric`. |
 | field | all | The instructions for what will display in the app. These instructions can be simple or advanced and are explained in more detail in the next sections.  |
-| singular | all | The label displayed for measures or when one dimension value is selected. |
+| singular | all | The label displayed for measures or when a single dimension value is selected. |
 | plural | all dimensions  | The label displayed when more than one dimension value is selected. |
 | format | measures and time dimensions | The [number or date format](ingredient-formats.md) to be displayed. |
 | icon | all | The [Font Awesome icon](https://fontawesome.com/icons?d=gallery) to display with your Dimension or Measure. By default, dimensions have `check-square`![](../../../.gitbook/assets/check-square-solid.svg), time dimensions have `calendar`![](../../../.gitbook/assets/calendar-solid.svg), place dimensions have `map-marker-alt` ![](../../../.gitbook/assets/map-marker-alt-solid.svg) , and measures have `hashtag` ![](../../../.gitbook/assets/hashtag-solid.svg). |
