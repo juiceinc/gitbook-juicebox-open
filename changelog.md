@@ -5,6 +5,18 @@
 * Sharing & New login experience.
 * Admin for changing app user rights and light usage reporting.
 
+## August 6, 2020
+
+### What's New?
+
+* **Date improvements** 📅- New Data Ingredients options let you [group dates](authoring-apps/data-sources/advanced-ingredients/complex-formulas-incomplete.md#conversion-functions) by week, month, quarter or year.
+
+### 🐛Bug Fixes & Other improvements
+
+* Sharing is caring🔨- Lots of behind the scenes work to let you share your data stories.
+* Juicebox is more outgoing and informative if there's an issue uploading data.
+* Various infrastructure, error handling and warning improvements.
+
 ## July 16, 2020
 
 ### What's New?

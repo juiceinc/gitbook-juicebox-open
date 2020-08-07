@@ -25,6 +25,49 @@ icon: sack-dollar
 
 If you divide by zero, you’ll get a null. If you do not specify an aggregate function, `sum()` will be implied. 
 
+### Aggregation functions
+
+Aggregation functions let you add up values for a field. If no aggregation function is provided for a  Metric, `sum()` will be used. 
+
+| Function | Examples |
+| :--- | :--- |
+| Sum | `sum(sales_dollars)` or `sum(revenue - expenses)` |
+| Minimum | `min(age)` |
+| Maximum | `max(age)` |
+| Average | `average(home_value)` |
+| Count | `count(student_name)` or `count(*)` |
+| Count only distinct items | `count_distinct(student_name)` |
+
+{% hint style="danger" %}
+The following functions are only available if Juicebox is connected to a compatible database. They are not available when you upload a CSV file.
+{% endhint %}
+
+| Function | Examples |
+| :--- | :--- |
+| Median | `median(sales_dollars)` |
+| Percentiles expressed as `percentileN` | `percentile1(age)` or `percentile75(age)` |
+
+### Conversion functions
+
+Conversion functions change the value for a field. It might change to a different type or to a different time period.
+
+| Function | Examples |
+| :--- | :--- |
+| Round to the nearest week \(requires a date field\) | `week(sales_date)` |
+| Round to the nearest month \(requires a date field\) | `month(sales_date)` |
+| Round to the nearest quarter \(requires a date field\) | `quarter(sales_date)` |
+| Round to the nearest year \(requires a date field\) | `year(sales_date)` |
+| Convert a numeric value to a string | `string(zipcode)` |
+| Convert a string value to an integer | `int(age)` |
+
+{% hint style="danger" %}
+The following functions are only available if Juicebox is connected to a compatible database. They are not available when you upload a CSV file.
+{% endhint %}
+
+| Function | Examples |
+| :--- | :--- |
+| Calculate an age at the current date.  | `age(birth_date)` |
+
 ### Concatenating text fields
 
 You can use `+` to concatenate text data fields together. For example, if `LocationDesc` has state names and `LocationAbbr` has state abbreviations, this`States2` dimension will combine state names with state abbreviations to display like `Georgia (GA)`.  
@@ -47,7 +90,7 @@ longitude_field: Longitude
 You must use double quotes in field expressions to define string constants. Single quotes will not work.
 {% endhint %}
 
-## Multiple aggregate functions
+## Using multiple aggregation functions
 
 You can combine multiple aggregate functions together. For example, if you have `sales_revenue` and `salesperson_id` in your data, you can add an `Avg Sales per salesperson` measure using the `sum()` and `count()` aggregate functions together like so: 
 
