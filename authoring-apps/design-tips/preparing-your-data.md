@@ -62,7 +62,7 @@ At this time, the [trend](../story-designer/charts/trend.md) chart only works fo
 
 If you want to use the [map](../story-designer/charts/map.md) slice, you will need to have latitude and longitude columns in your data. If you need to add them, we recommend using [this process in Google Sheets](https://discourse.looker.com/t/get-latitude-longitude-for-any-location-through-google-sheets-and-plot-these-in-looker/5402). 
 
-### 13. Add a numeric column to your data, if you don't already have one
+### 13. Add a numeric column to your data \(if you don't already have one\)
 
 At this time, your data upload will fail if you don't have at least one numeric column in your data. Therefore, if your data does not already have at least one column with numeric data only \(i.e., numbers, with or without decimals, or NULL\), you will need to add one. The numeric data doesn't need to be meaningful. For example, adding a column of all 1s will do the trick.
 
