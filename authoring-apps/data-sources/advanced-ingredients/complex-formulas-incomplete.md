@@ -34,7 +34,7 @@ Aggregation functions let you add up values for a field. If no aggregation funct
 | Sum | `sum(sales_dollars)` or `sum(revenue - expenses)` |
 | Minimum | `min(age)` |
 | Maximum | `max(age)` |
-| Average | `average(home_value)` |
+| Average | `avg(home_value)` |
 | Count | `count(student_name)` or `count(*)` |
 | Count only distinct items | `count_distinct(student_name)` |
 
