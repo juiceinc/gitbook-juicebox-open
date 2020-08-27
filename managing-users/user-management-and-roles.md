@@ -26,7 +26,7 @@ Here's an overview of what each role can do.
     </tr>
     <tr>
       <td style="text-align:left">Invite users to specific
-        <br />apps (coming soon)</td>
+        <br />apps (future release)</td>
       <td style="text-align:left">X</td>
       <td style="text-align:left">X</td>
       <td style="text-align:left">X</td>
@@ -61,7 +61,7 @@ Here's an overview of what each role can do.
       <td style="text-align:left">X</td>
     </tr>
     <tr>
-      <td style="text-align:left">Manage users (coming soon)</td>
+      <td style="text-align:left">Manage users (future release)</td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left">X</td>
@@ -70,7 +70,7 @@ Here's an overview of what each role can do.
     <tr>
       <td style="text-align:left">
         <p>Change subscription</p>
-        <p>and payment info (coming soon)</p>
+        <p>and payment info (future release)</p>
       </td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -90,11 +90,11 @@ Authors can view apps they've been given access to, create new apps, and edit ap
 
 ### Admin
 
- Admins can view all apps, create new apps, and edit any app. \(Coming soon, admins will be able to access the user management view to manage user roles for any app.\) 
+ Admins can view all apps, create new apps, and edit any app. \(In a future release, admins will be able to access the user management view to manage user roles for any app.\) 
 
 ### Owner
 
-Each client has one owner. The owner can do everything admins can do. \(Coming soon, the owner will be able to adjust the client's subscription and payment information.\) 
+Each client has one owner. The owner can do everything admins can do. \(In a future release, the owner will be able to adjust the client's subscription and payment information.\) 
 
-## User Management \(coming soon!\)
+## User Management \(future release\)
 

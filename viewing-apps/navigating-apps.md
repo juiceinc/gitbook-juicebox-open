@@ -20,5 +20,5 @@ To get back to the apps page from any app, click on the app name in the app head
 
 Each app has a unique link that will take a user directly to the app. For example, the app link for HealthyCo's Unhealthy Americans app is `https://healthyco.juiceboxdata.com/a/unhealthy_americans/`.
 
-## Navigating between stories \(coming soon!\)
+## Navigating between stories \(future release\)
 

@@ -1,6 +1,6 @@
 # Ingredient components
 
-Each ingredient has a set of components that are configured as you [add your ingredients using the ingredients editor](./). 
+Each ingredient has a set of components that are configured as you [add your ingredients using the ingredient editor](./). 
 
 | component | required by | description |
 | :--- | :--- | :--- |

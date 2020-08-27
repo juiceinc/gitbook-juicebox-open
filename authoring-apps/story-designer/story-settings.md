@@ -22,7 +22,7 @@ This sets the primary color for your story, and will be used as the background c
 
 This is the icon that will appear on the apps page for the story. Each story starts with a basic icon.
 
-## Image \(coming soon!\)
+## Image \(future release\)
 
 Instead of a color, you can opt to have an image for the story. This will be appear on the apps page as a background image for the story. 
 

@@ -1,2 +1,0 @@
-# Sharing Apps \(coming soon!\)
-

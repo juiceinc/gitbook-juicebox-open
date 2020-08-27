@@ -4,8 +4,10 @@ Slice text can change dynamically based on what a user has selected in slices ab
 
 {% hint style="info" %}
 Dynamic text will only return _selections_ in Slices. It is best to add dynamic text after all charts have been configured as you like. 
+{% endhint %}
 
-Also, currently selections in individual [Filters](../charts/filters.md) slice ingredients cannot be referenced but that is coming soon.
+{% hint style="warning" %}
+At this time, selections in individual [Filters](../charts/filters.md) slice ingredients cannot be referenced.
 {% endhint %}
 
 ## Display selections made above using selectionDisplay\(\)

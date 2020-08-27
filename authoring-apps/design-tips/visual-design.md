@@ -29,9 +29,9 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Data ingredient labels & Icons 
 
-* Any data you add to Juicebox will be represented by a [data ingredient](../data-sources/defining-ingredients/). Taking the extra thought to label this well and provide complimentary icons will make the editing experience better for you as an Author. However more importantly, this will result in a more unique and understandable story for your audience. 
+* Any data you add to Juicebox will be represented by a [data ingredient](../data-sources/adding-ingredients/). Taking the extra thought to label this well and provide complimentary icons will make the editing experience better for you as an Author. However more importantly, this will result in a more unique and understandable story for your audience. 
 * **Keep your labels as short as possible** while maintaining clarity. For example, instead of "Sales Dollars", you may just want to write "Sales" since you can use a dollar sign for your icon and format your numbers with the dollar format. 
-* \*\*\*\*[**Ingredient icons**](../data-sources/defining-ingredients/#dimension) allow you to add uniqueness or personality appropriate to your story style and data. Don't be afraid to have some fun with your icons! Search for good icons via text search or categories dropdown.
+* \*\*\*\*[**Ingredient icons**](../data-sources/adding-ingredients/#dimension) allow you to add uniqueness or personality appropriate to your story style and data. Don't be afraid to have some fun with your icons! Search for good icons via text search or categories dropdown.
 
 ## Slices & Layouts
 

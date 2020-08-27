@@ -1,6 +1,6 @@
 # Creating and Editing Apps
 
-If you're logged in as [an author \(or a user with authoring rights\)](../managing-apps/user-management-and-roles.md#user-roles), you're able to create and edit apps.
+If you're logged in as [an author \(or a user with authoring rights\)](../managing-users/user-management-and-roles.md#user-roles), you're able to create and edit apps.
 
 ## Add a new app
 
@@ -12,7 +12,7 @@ Once your app is created, you will see the app on the apps page. You're now read
 
 ## Edit an app
 
-You can make changes to a draft version of the app using an in-browser interface called the **app editor**. Only [users with authoring rights](../managing-apps/user-management-and-roles.md#user-roles) can access the app editor. 
+You can make changes to a draft version of the app using an in-browser interface called the **app editor**. Only [users with authoring rights](../managing-users/user-management-and-roles.md#user-roles) can access the app editor. 
 
 {% hint style="info" %}
 While changes made in the app editor are immediately reflected in the draft app, viewers cannot see the changes until they are published.

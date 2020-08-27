@@ -8,7 +8,7 @@ You must [add a data source](add-a-data-source.md) before you can design your st
 
 ## Data
 
-The data can be a CSV or \(coming soon!\) a table or view in a database or a Google Sheet. If your data is in a CSV, you upload the CSV. \(Coming soon, if your data is in a database, you connect to the database and select the table or view that should be used. \)
+The data can be a CSV or \(future release\) a table or view in a database or a Google Sheet. If your data is in a CSV, you upload the CSV. \(In a future release, if your data is in a database, you connect to the database and select the table or view that should be used. \)
 
 ## Data ingredients
 
@@ -30,7 +30,7 @@ Measures are a kind of data ingredient. A measure is a value calculated over a g
 
 Under the hood, measures use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify an aggregation formula in the measure definition, then `sum()` will be implied.
 
-You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](defining-ingredients/#advanced-ingredients).
+You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](adding-ingredients/#advanced-ingredients).
 
 ### Dimensions
 

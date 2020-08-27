@@ -9,7 +9,11 @@ description: >-
 
 To access the Publish & Share section, select the **Publish & Share** button \(or **Republish & Share** button\) at the top of the app editor. 
 
-![](../../.gitbook/assets/screen-shot-2020-07-17-at-3.16.10-pm.png)
+![The Publish &amp; Share section of the app editor](../../.gitbook/assets/screen-shot-2020-07-17-at-3.16.10-pm.png)
 
+The functionality of the Publish & Share section is described on the following pages:
 
+{% page-ref page="publishing-app-changes.md" %}
+
+{% page-ref page="sharing-and-access-controls.md" %}
 

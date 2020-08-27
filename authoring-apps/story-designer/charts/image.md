@@ -1,2 +1,2 @@
-# Image \(coming soon!\)
+# Image \(future release\)
 

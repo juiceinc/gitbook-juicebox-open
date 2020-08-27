@@ -1,2 +1,2 @@
-# Subscription and Billing \(coming soon!\)
+# Subscription and Billing \(future release\)
 

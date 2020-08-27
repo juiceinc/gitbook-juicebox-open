@@ -1,2 +1,2 @@
-# Client Settings \(coming soon!\)
+# Client Settings \(future release\)
 

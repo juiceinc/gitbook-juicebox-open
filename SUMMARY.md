@@ -7,17 +7,17 @@
 
 ## Getting Started
 
-* [Setup a Juicebox Organization \(coming soon!\)](getting-started/setup-juicebox-org.md)
+* [Setup a Client Workspace \(future release\)](getting-started/setup-client-workspace.md)
 
 ## Authoring Apps
 
 * [Creating and Editing Apps](authoring-apps/creating-and-editing.md)
 * [App Settings](authoring-apps/app-settings.md)
 * [Data Sources](authoring-apps/data-sources/README.md)
-  * [Add a data source](authoring-apps/data-sources/add-a-data-source.md)
-  * [Adding ingredients](authoring-apps/data-sources/defining-ingredients/README.md)
-    * [Ingredient components](authoring-apps/data-sources/defining-ingredients/ingredient-components.md)
-    * [Ingredient formats](authoring-apps/data-sources/defining-ingredients/ingredient-formats.md)
+  * [Loading data](authoring-apps/data-sources/add-a-data-source.md)
+  * [Adding ingredients](authoring-apps/data-sources/adding-ingredients/README.md)
+    * [Ingredient components](authoring-apps/data-sources/adding-ingredients/ingredient-components.md)
+    * [Ingredient formats](authoring-apps/data-sources/adding-ingredients/ingredient-formats.md)
   * [Advanced ingredients](authoring-apps/data-sources/advanced-ingredients/README.md)
     * [Lookup dimensions](authoring-apps/data-sources/advanced-ingredients/lookup-dimensions.md)
     * [Bucketed dimensions](authoring-apps/data-sources/advanced-ingredients/bucketed-dimensions.md)
@@ -39,10 +39,10 @@
     * [Leaderboard](authoring-apps/story-designer/charts/leaderboard.md)
     * [Map](authoring-apps/story-designer/charts/map.md)
     * [Trend](authoring-apps/story-designer/charts/trend.md)
-    * [Image \(coming soon!\)](authoring-apps/story-designer/charts/image.md)
+    * [Image \(future release\)](authoring-apps/story-designer/charts/image.md)
 * [Publish & Share](authoring-apps/publish-and-share/README.md)
   * [Publishing app changes](authoring-apps/publish-and-share/publishing-app-changes.md)
-  * [Sharing and access controls \(coming soon!\)](authoring-apps/publish-and-share/sharing-and-access-controls.md)
+  * [Sharing and access controls](authoring-apps/publish-and-share/sharing-and-access-controls.md)
 * [Tips and Tricks](authoring-apps/design-tips/README.md)
   * [Telling data stories](authoring-apps/design-tips/telling-data-stories.md)
   * [Visual design](authoring-apps/design-tips/visual-design.md)
@@ -51,19 +51,20 @@
 
 ## Viewing Apps
 
+* [Signing In](viewing-apps/signing-in.md)
 * [Navigating Apps](viewing-apps/navigating-apps.md)
 * [Data Flow](viewing-apps/data-flow.md)
 
-## Managing Apps
+## Managing Users
 
-* [Sharing Apps \(coming soon!\)](managing-apps/sharing-apps.md)
-* [Usage Reporting \(coming soon!\)](managing-apps/usage-reporting.md)
-* [User Roles and Management](managing-apps/user-management-and-roles.md)
+* [Adding App Users](managing-users/adding-app-users.md)
+* [Usage Reporting \(future release\)](managing-users/usage-reporting.md)
+* [User Roles and Management](managing-users/user-management-and-roles.md)
 
-## Managing clients \(coming soon!\) <a id="managing-clients"></a>
+## Managing clients \(future release\) <a id="managing-clients"></a>
 
-* [Client Settings \(coming soon!\)](managing-clients/settings.md)
-* [Subscription and Billing \(coming soon!\)](managing-clients/untitled.md)
+* [Client Settings \(future release\)](managing-clients/settings.md)
+* [Subscription and Billing \(future release\)](managing-clients/untitled.md)
 
 ---
 

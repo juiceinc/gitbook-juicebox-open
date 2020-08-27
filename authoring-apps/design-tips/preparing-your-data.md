@@ -40,7 +40,7 @@ Sometimes your data will contain rows you don't need. For example, let's say you
 
 ### 7. Revise column names as needed
 
-Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels in your initial ingredients, so better column names mean less work for you when defining ingredients. 
+Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels in the ingredients you [add automagically](../data-sources/adding-ingredients/#adding-ingredients-automagically), so better column names mean less work for you when defining ingredients. 
 
 ### 8. Remove number formatting
 
