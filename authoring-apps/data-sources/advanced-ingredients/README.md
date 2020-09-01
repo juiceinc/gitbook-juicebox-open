@@ -13,7 +13,7 @@ You can add a new advanced ingredient from the table view. To access the table v
 
 ![Click the table view button to access the table view](../../../.gitbook/assets/image%20%2879%29.png)
 
-To create a new advanced ingredient from the table view, click the **+ Add Advanced** button. This will open the advanced ingredient editor where you can enter the ingredient components using a text editor. 
+To create a new advanced ingredient from the table view, click the **+ Add Advanced** button. This will open the advanced ingredient editor where you can enter the [ingredient components](../adding-ingredients/ingredient-components.md) using a text editor. 
 
 ![](../../../.gitbook/assets/image%20%2881%29.png)
 
@@ -23,7 +23,7 @@ You can also add a new advanced ingredient by duplicating an existing ingredient
 
 ![Select Duplicate as Advanced to create an advanced ingredient](../../../.gitbook/assets/image%20%2836%29.png)
 
-This will make a copy of the ingredient and open the advanced ingredient editor. Modify the ingredient definition in the advanced ingredient editor as needed. 
+This will make a copy of the ingredient and open the advanced ingredient editor. Modify the ingredient components in the advanced ingredient editor as needed. 
 
 ![Duplicate ingredient created with text editor](../../../.gitbook/assets/image%20%2843%29.png)
 
