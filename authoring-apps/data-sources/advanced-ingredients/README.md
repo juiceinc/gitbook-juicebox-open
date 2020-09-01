@@ -1,9 +1,9 @@
 # Advanced ingredients
 
-In cases where you need to do something more than the ingredient editor allows, you can use advanced ingredients. Advanced ingredients are added in two ways: 
+In cases where you need to do something more than the [ingredient editor](../adding-ingredients/#ingredient-editor) allows, you can use advanced ingredients. Advanced ingredients are added in two ways: 
 
 1. by [adding a new advanced ingredient](../adding-ingredients/#adding-a-new-ingredient-from-the-table-view) from the table view
-2. by [duplicating an existing ingredient as advanced](./#duplicating-an-existing-ingredient-as-advanced-from-within-the-ingredients-editor) from within the ingredients editor
+2. by [duplicating an existing ingredient as advanced](./#duplicating-an-existing-ingredient-as-advanced-from-within-the-ingredients-editor) from within the ingredient editor
 
 Advanced ingredients are defined using the **advanced ingredient editor**. In the advanced ingredient editor, you define your ingredient using a text editor. This allows for [more complex ingredient definitions](./#what-you-can-do-with-advanced-ingredients), but is also more susceptible to typos or syntax errors. 
 
