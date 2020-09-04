@@ -13,7 +13,7 @@ To add a trend slice:
 * \(optional\) add a title
 
 {% hint style="info" %}
-The trend slice requires that one of your dimensions be a [time ingredient](https://app.gitbook.com/@juicebox/s/juicebox/authoring-apps/data-sources/add-a-data-source#time-ingredient).  A time ingredient is a date field.
+The trend slice requires that one of your dimensions be a [Time ingredient](../../data-sources/adding-ingredients/#time-ingredient).  A Time ingredient is a date field.
 {% endhint %}
 
 {% hint style="warning" %}
