@@ -7,7 +7,7 @@
 
 ## Getting Started
 
-* [Setup a Client Workspace \(future release\)](getting-started/setup-client-workspace.md)
+* [Set up a Client Workspace \(future release\)](getting-started/set-up-client-workspace.md)
 
 ## Authoring Apps
 
