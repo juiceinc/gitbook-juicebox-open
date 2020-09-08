@@ -1,6 +1,6 @@
 # Changelog
 
-## What's Coming soon?
+## What's coming soon?
 
 * Improvements to time data and trend charts
 * Improved experience around replacing data that may break existing data ingredients and slices in your story.
