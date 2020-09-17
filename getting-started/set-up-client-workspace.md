@@ -1,2 +1,2 @@
-# Set up a Client Workspace \(future release\)
+# Set up a Workspace \(future release\)
 

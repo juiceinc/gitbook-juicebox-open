@@ -52,25 +52,21 @@ Numeric columns should only contain numbers or nulls. Anything else will prevent
 
 ### 10. Confirm date columns contain only dates with date formatting \(or nulls\)
 
-Date columns should only contain dates or nulls. Dates should be formatted like MM-DD-YYYY, MM/DD/YYYY, or YYYY-MM-DD. While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not. 
+Date columns should only contain dates or nulls. Dates should be formatted like MM-DD-YYYY, MM/DD/YYYY, or YYYY-MM-DD. While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not.
 
-### 11. Add first-day-of-the-month dates
-
-At this time, the [trend](../story-designer/charts/trend.md) chart only works for dates on the first day of the month. Therefore, for each date column in your data, you'll need to add a corresponding date column with the date modified to the first day of the month. We recommend using the spreadsheet formula `=EOMONTH(A1,-1) + 1`, where A1 is the original date value. 
-
-### 12. Add latitude and longitude
+### 11. Add latitude and longitude
 
 If you want to use the [map](../story-designer/charts/map.md) slice, you will need to have latitude and longitude columns in your data. If you need to add them, we recommend using [this process in Google Sheets](https://discourse.looker.com/t/get-latitude-longitude-for-any-location-through-google-sheets-and-plot-these-in-looker/5402). 
 
-### 13. Add a numeric column to your data \(if you don't already have one\)
+### 12. Add a numeric column to your data \(if you don't already have one\)
 
 At this time, your data upload will fail if you don't have at least one numeric column in your data. Therefore, if your data does not already have at least one column with numeric data only \(i.e., numbers, with or without decimals, or NULL\), you will need to add one. The numeric data doesn't need to be meaningful. For example, adding a column of all 1s will do the trick.
 
-### 14. Do a final check
+### 13. Do a final check
 
 You're almost there! Do a final check to make everything looks ok. Should null values be null? Do values contain carriage returns, leading or trailing spaces, or anything else odd? The `TRIM()` function is useful for dealing with large numbers of leading and trailing spaces.
 
-### 15. Download your data as a CSV file
+### 14. Download your data as a CSV file
 
 Download your prepared data as a CSV file. Give it a meaningful but brief name and save it in a location you can easily find.
 

@@ -23,7 +23,7 @@ The format specified in the ingredient definition will determine how the value w
 | % 2 Decimals | `,.2%` | 323,144.70% | 52.64% |
 | % Rounded | `,.0%` | 323,145% | 53% |
 
-If you want to apply a number format other than one of the standard formats, you can do so by creating an [advanced ingredient](../advanced-ingredients/advanced-formats-incomplete.md). 
+If you want to apply a number format other than one of the standard formats, you can do so by creating an [advanced ingredient](../advanced-ingredients/advanced-formats.md). 
 
 ## Date formatting
 
@@ -43,5 +43,5 @@ The format specified in the ingredient definition will determine how the value w
 | mm-dd-yyyy | `%m-%d-%Y` | 03-01-2019 |
 | month yyyy | `%b %Y` | Mar 2019 |
 
-If you want to apply a date format other than one of the standard formats, you can do so by creating an [advanced ingredient](../advanced-ingredients/advanced-formats-incomplete.md). 
+If you want to apply a date format other than one of the standard formats, you can do so by creating an [advanced ingredient](../advanced-ingredients/advanced-formats.md). 
 

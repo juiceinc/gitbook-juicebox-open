@@ -7,24 +7,23 @@ The trend chart displays a measure plotted over a time dimension. Adding a slice
 To add a trend slice:
 
 * select **Trend** from the chart list
-* select the time dimension to use for the x-axis
+* select the [time ingredient](../../data-sources/adding-ingredients/#time-ingredient) to use for the x-axis
 * select the measure to use for the y-axis
-* select a trend style
 * \(optional\) add a title
 
 {% hint style="info" %}
-The trend slice requires that one of your dimensions be a [Time ingredient](../../data-sources/adding-ingredients/#time-ingredient).  A Time ingredient is a date field.
+Because the trend chart requires a [time ingredient](../../data-sources/adding-ingredients/#time-ingredient), at least one of your dimensions must be a time ingredient. A time ingredient is an ingredient defined using a date field. The format selected for the time ingredient will determine how your dates roll up in your trend chart. For example, if you select the format `month yyyy`, the trend chart will roll up by month. If you select the format `yyyy`, the trend chart will roll up by year. 
 {% endhint %}
 
-{% hint style="warning" %}
-At this time, the trend chart requires dates on the first day of the month. 
-{% endhint %}
-
-{% embed url="https://www.loom.com/share/b2d09f1279e24cc9846517a2698c1c00" caption="Adding a table slice" %}
+{% embed url="https://www.loom.com/share/0aab6c25f80f4b6fa6f6893161e574e1" caption="Adding a trend slice" %}
 
 ## Using a trend slice
 
 You can hover over individual points to see more detail. Date range selections made in the trend slice will filter downstream slices. 
+
+Dates in the data that are missing values will show a break in the trend line, like so:
+
+![The trend line has a break because household\_size is null for all 1973 dates](../../../.gitbook/assets/image%20%2890%29.png)
 
 
 

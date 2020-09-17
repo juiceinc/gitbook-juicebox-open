@@ -7,7 +7,7 @@
 
 ## Getting Started
 
-* [Set up a Client Workspace \(future release\)](getting-started/set-up-client-workspace.md)
+* [Set up a Workspace \(future release\)](getting-started/set-up-client-workspace.md)
 
 ## Authoring Apps
 
@@ -21,8 +21,8 @@
   * [Advanced ingredients](authoring-apps/data-sources/advanced-ingredients/README.md)
     * [Lookup dimensions](authoring-apps/data-sources/advanced-ingredients/lookup-dimensions.md)
     * [Bucketed dimensions](authoring-apps/data-sources/advanced-ingredients/bucketed-dimensions.md)
-    * [Complex formulas](authoring-apps/data-sources/advanced-ingredients/complex-formulas-incomplete.md)
-    * [Advanced formats](authoring-apps/data-sources/advanced-ingredients/advanced-formats-incomplete.md)
+    * [Advanced formulas](authoring-apps/data-sources/advanced-ingredients/advanced-formulas.md)
+    * [Advanced formats](authoring-apps/data-sources/advanced-ingredients/advanced-formats.md)
   * [Edit or delete a data source](authoring-apps/data-sources/edit-a-data-source.md)
 * [Story Designer](authoring-apps/story-designer/README.md)
   * [Story Settings](authoring-apps/story-designer/story-settings.md)
@@ -61,10 +61,10 @@
 * [Usage Reporting \(future release\)](managing-users/usage-reporting.md)
 * [User Roles and Management](managing-users/user-management-and-roles.md)
 
-## Managing clients \(future release\) <a id="managing-clients"></a>
+## Managing my workspace \(future release\) <a id="managing-workspaces"></a>
 
-* [Client Settings \(future release\)](managing-clients/settings.md)
-* [Subscription and Billing \(future release\)](managing-clients/untitled.md)
+* [Workspace Settings \(future release\)](managing-workspaces/settings.md)
+* [Subscription and Billing \(future release\)](managing-workspaces/untitled.md)
 
 ---
 

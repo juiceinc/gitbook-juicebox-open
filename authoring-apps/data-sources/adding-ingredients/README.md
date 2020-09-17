@@ -96,11 +96,9 @@ longitude_field: Longitude
 
 ### Time Ingredient
 
-A time ingredient is a special kind of dimension ingredient that uses a date field. A Time ingredient is required by the [trend](../../story-designer/charts/trend.md) chart.  Time ingredients are automatically created from data fields with the proper [formatting](../../design-tips/preparing-your-data.md#10-confirm-date-columns-contain-only-dates-with-date-formatting-or-nulls).
+A time ingredient is a special kind of dimension ingredient that uses a date field. Time ingredients are automatically created from date fields in your data, so long as the fields are [formatted properly](../../design-tips/preparing-your-data.md). 
 
-{% hint style="warning" %}
-At this time, the trend chart requires that dates be on the [first day of the month](../../design-tips/preparing-your-data.md#11-add-first-day-of-the-month-dates). 
-{% endhint %}
+You must have at least one time ingredient defined if you want to use the [trend](../../story-designer/charts/trend.md) chart, because the trend chart requires a time ingredient. 
 
 Here is the `Year Dates` time ingredient from the Unhealthy Americans app:
 
@@ -116,6 +114,10 @@ plural: Year Dates
 icon: calendar
 format: '%b %d, %Y'
 ```
+
+{% hint style="success" %}
+Time ingredients will "roll up" to the period selected for the `format`component. For example, selecting the `month yyyy` format will roll up to the month. Selecting the `yyyy` format will roll up to the year. 
+{% endhint %}
 
 ### Measure Ingredient
 

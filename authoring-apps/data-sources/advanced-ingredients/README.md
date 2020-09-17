@@ -33,9 +33,9 @@ Advanced ingredients have [ingredient components](../adding-ingredients/ingredie
 
 * Dimensions that [display a lookup value](lookup-dimensions.md) rather than the field value
 * Dimensions that [group values into "buckets"](bucketed-dimensions.md) based on conditions 
-* Measures and dimensions that [use field math](complex-formulas-incomplete.md#field-math)
-* Measures that [use multiple aggregation functions](complex-formulas-incomplete.md#multiple-aggregate-functions)
-* Measures and dimensions that [include conditional logic](complex-formulas-incomplete.md#conditional-logic)
-* Measures or numeric dimensions formatted to [use any d3 number format](advanced-formats-incomplete.md#advanced-number-formats)
-* Date dimensions formatted to [use any d3 date format](advanced-formats-incomplete.md#advanced-date-formats)
+* Measures and dimensions that [use field math](advanced-formulas.md#field-math)
+* Measures that [use multiple aggregation functions](advanced-formulas.md#multiple-aggregate-functions)
+* Measures and dimensions that [include conditional logic](advanced-formulas.md#conditional-logic)
+* Measures or numeric dimensions formatted to [use any d3 number format](advanced-formats.md#advanced-number-formats)
+* Date dimensions formatted to [use any d3 date format](advanced-formats.md#advanced-date-formats)
 
