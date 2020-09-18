@@ -23,7 +23,7 @@ You can hover over individual points to see more detail. Date range selections m
 
 Dates in the data that are missing values will show a break in the trend line, like so:
 
-![The trend line has a break because household\_size is null for all 1973 dates](../../../.gitbook/assets/image%20%2890%29.png)
+![The trend line has a break because household\_size is null for all 1973 dates](../../../.gitbook/assets/image%20%2891%29.png)
 
 
 

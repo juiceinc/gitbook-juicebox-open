@@ -77,8 +77,12 @@ longitude_field: Longitude
 ```
 
 {% hint style="warning" %}
-You must use double quotes in field expressions to define string constants. Single quotes will not work.
+You must use double quotes in field expressions to define string constants. Single quotes will not work. 
 {% endhint %}
+
+If you want to concatenate fields that do not have the `string` data type, you'll need to first cast the field as string using the [conversion function](advanced-formulas.md#conversion-functions) `string()`. For example, if you want to concatenate `address`, `state`, `city`, and `zip` together, but `zip` is not a string, you'll need to define the ingredient like so:
+
+![](../../../.gitbook/assets/image%20%2890%29.png)
 
 ## Using multiple aggregation functions
 
