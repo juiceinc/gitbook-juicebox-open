@@ -5,7 +5,7 @@
 * Signing up for a new Juicebox workspace
 * An improved app header
 
-## September 16, 2020
+## September 17, 2020
 
 ### 🎁 What's new?
 
