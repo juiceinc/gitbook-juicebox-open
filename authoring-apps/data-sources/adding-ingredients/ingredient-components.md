@@ -4,7 +4,7 @@ Each ingredient has a set of components that are configured as you [add your ing
 
 | component | required by | description |
 | :--- | :--- | :--- |
-| kind | all | The ingredient type, either `Dimension` or `Metric`. |
+| kind | all | The ingredient type, either `Dimension` or `Measure`. |
 | field | all | The instructions for what will display in the app. These instructions can be simple or advanced and are explained in more detail in the next sections.  |
 | singular | all | The label displayed for measures or when a single dimension value is selected. |
 | plural | all dimensions  | The label displayed when more than one dimension value is selected. |

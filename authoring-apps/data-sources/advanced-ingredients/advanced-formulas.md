@@ -16,7 +16,7 @@ Here are the underlying components:
 
 ```text
 field: sum(revenue - cost)
-kind: Metric
+kind: Measure
 format: '$,.0f'
 singular: Profit
 plural: Profit
@@ -27,7 +27,7 @@ If you divide by zero, you’ll get a null. If you do not specify an aggregate f
 
 ### Aggregation functions
 
-Aggregation functions let you add up values for a field. If no aggregation function is provided for a  Metric, `sum()` will be used. 
+Aggregation functions let you add up values for a field. If no aggregation function is provided for a  measure, `sum()` will be used. 
 
 | Function | Examples |
 | :--- | :--- |
@@ -93,7 +93,7 @@ You can combine multiple aggregate functions together. For example, if you have 
 Here are the underlying components:
 
 ```text
-kind: Metric
+kind: Measure
 field: sum(total_sales) / count_distinct(salesperson_id)
 singular: Avg Sales per salesperson
 plural: Avg Sales per salesperson
@@ -133,14 +133,14 @@ sum(if(state="Texas", sales_dollars, 0.0))
 # Multiple condition/value pairs
 sum(if(state="Texas", sales_dollars*0.08, state="Georgia", sales_dollars*0.07, state="Tennessee", sales_dollars*0.0925, sales_dollars*0.055))
 
-# You can use IF functions for both dimensions and metrics
+# You can use IF functions for both dimensions and measures
 if(last_name IS NULL, first_name, first_name + " " + last_name)
 ```
 
 Here's an example of an conditional logic in a measure:
 
 ```text
-kind: Metric
+kind: Measure
 field: 'avg(if(race = "White", household_income))'
 singular: Avg Income per White household
 plural: Avg Income per White household
