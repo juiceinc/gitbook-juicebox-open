@@ -32,10 +32,6 @@ Juicebox will inspect the selected fields and create an ingredient for each base
 
 The automagically added ingredients are just a starting point. You can revise them using the [**ingredient editor**](./#ingredient-editor).  
 
-{% hint style="warning" %}
-You cannot convert from one ingredient type to another. For example, you cannot create a place dimension ingredient from a measure ingredient. Therefore, the ingredient you select for duplication will need to be of the desired ingredient type. Alternatively, you can add a new ingredient of the desired type using the [this method](./#adding-ingredients-one-at-a-time). 
-{% endhint %}
-
 {% embed url="https://www.loom.com/share/1bb19adb302444ea8a7302b778997b8f" caption="Adding ingredients using Add Automagically button" %}
 
 ## Adding ingredients manually
@@ -148,4 +144,8 @@ You can add a new ingredient by duplicating an existing ingredient. To do this, 
 This will duplicate the ingredient and open the ingredient editor for the duplicated ingredient. Revise the ingredient definition as needed and save.
 
 ![Ingredient editor for the duplicated ingredient](../../../.gitbook/assets/image%20%2878%29.png)
+
+{% hint style="warning" %}
+You cannot convert from one ingredient type to another. For example, you cannot create a place dimension ingredient from a measure ingredient. Therefore, the ingredient you select for duplication will need to be of the desired ingredient type. Alternatively, you can add a new ingredient of the desired type using [this method](./#adding-ingredients-one-at-a-time). 
+{% endhint %}
 
