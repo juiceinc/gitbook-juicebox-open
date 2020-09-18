@@ -94,7 +94,7 @@ Authors can view apps they've been given access to, create new apps, and edit ap
 
 ### Owner
 
-Each client has one owner. The owner can do everything admins can do. \(In a future release, the owner will be able to adjust the client's subscription and payment information.\) 
+Each workspace has one owner. The owner can do everything admins can do. \(In a future release, the owner will be able to adjust the subscription and payment information.\) 
 
 ## User Management \(future release\)
 
