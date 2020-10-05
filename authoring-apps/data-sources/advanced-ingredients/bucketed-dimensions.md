@@ -55,7 +55,7 @@ Conditions are defined like \[\(optional\) field\] \[comparison\] \[values\]. Th
 | Not equal to a number or string | `!=20` or `!="Tennessee` |
 | Checking if a value is null | `IS NULL` |
 | Checking if a value is in a list of values | `IN ("TN", "GA", "FL")` |
-| Comparing dates.  | `BETWEEN "ONE WEEK AGO" and "TODAY"` or `BETWEEN "2020-01-01" AND "2020-06-30"` |
+| Comparing dates.  | `BETWEEN "A WEEK AGO" and "TODAY"` or `BETWEEN "2020-01-01" AND "2020-06-30"` |
 | Intelligent date ranges \(use PREVIOUS, THIS, or NEXT to define an offset and DAY, MONTH, MTD, QTR, YEAR, or YTD to define the period\). | `IS THIS MONTH` or `IS LAST MONTH` |
 | ANDing two conditions |  `sales > 1000 AND sales_date IS THIS MONTH` |
 | ORing two conditions | `sales > 1000 OR sales IS NULL` |
