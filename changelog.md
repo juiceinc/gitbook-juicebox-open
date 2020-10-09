@@ -9,7 +9,7 @@
 
 ### 🎁 What's new?
 
-* **Automagic color contrast** - Don't be afraid of the dark! **🎃**Now, when you change the background of your slices to a dark color, the slice will automatically invert its other colors so that it remains readable. It's a beautiful way to draw attention to the highlights of your data story! 
+* **Automagic color contrast** - Don't be afraid of the dark! **🎃**Now, when you change the background of your slices to a dark color, the slice will automatically invert other colors so that it remains readable. It's a beautiful way to draw attention to the highlights of your data story! 
 
 ![Color your story with beautiful Sections.](.gitbook/assets/feature-inverting.gif)
 
