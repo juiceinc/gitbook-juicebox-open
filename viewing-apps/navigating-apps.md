@@ -12,9 +12,9 @@ Each Juicebox workspace has its own apps page. \(For example, the apps page for 
 
 ![Click the story to access the app](../.gitbook/assets/image%20%2830%29.png)
 
-To get back to the apps page from any app, click on the app name in the app header.
+To get back to the apps page from any app, click on the Apps button in the app header.
 
-![Click app name in header to return to apps page](../.gitbook/assets/image%20%2832%29.png)
+![Click the Apps button to return to the apps page](../.gitbook/assets/image%20%2892%29.png)
 
 ### From the app link
 

@@ -2,8 +2,26 @@
 
 ## What's coming soon?
 
-* Signing up for a new Juicebox workspace
-* An improved app header
+* Improvements to slice and section layouts
+* Improvements to ingredient pills
+
+## October 10, 2020
+
+### 🎁 What's new?
+
+* **Automagic color contrast** - Don't be afraid of the dark! **🎃**Now, when you change the background of your slices to a dark color, the slice will automatically invert its other colors so that it remains readable. It's a beautiful way to draw attention to the highlights of your data story! 
+
+![Color your story with beautiful Sections.](.gitbook/assets/feature-inverting.gif)
+
+* **Easier to find your way home** 🏠 ****- To get back to the apps page, just click the Apps button in the header of any app. It's a little like Little Red Riding Hood... but without the wolf.
+
+### 🐛 Bug fixes & other improvements
+
+* **Faster loading apps**: Apps built with uploaded CSVs now get faster the more you use them thanks to the magic of enhanced caching. Nobody likes waiting. Now there's less of it.
+* **Better labels**: Ok, we know that in some situations, labeling in the [scatterplot chart](authoring-apps/story-designer/charts/scatterplot.md) was well... broken. 🤕It's better now. Boo-boo all gone. 
+* **Bar charts use bucket order:** [Bar charts](authoring-apps/story-designer/charts/bar.md) that use [bucketed dimensions](authoring-apps/data-sources/advanced-ingredients/bucketed-dimensions.md) will now show the buckets in the order you defined them. After all, can't we all use a little more order?  
+* **Map charts zoom out farther**: The [map chart](authoring-apps/story-designer/charts/map.md) now lets you zoom out farther to get a global perspective. 🌍Next step: Mars. Maybe
+* Various performance and bug fixes. Much perform. Un-bugged.
 
 ## September 17, 2020
 

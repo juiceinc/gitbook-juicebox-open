@@ -36,6 +36,10 @@ To change the section layout, hover over the section header until you see the la
 
 By default the section background color will be white. You can change this by clicking the paint drop ![](../../.gitbook/assets/tint-solid.svg) in the section header. From there, you can select one of the pre-set colors or enter the hex code for the color of your choice.
 
+If you choose a dark background, Juicebox will invert the visualization and text colors automatically.
+
+![Examples of automatic behavior with light and dark backgrounds.](../../.gitbook/assets/light-dark-2048.png)
+
 ## Section background image \(future release\)
 
 Instead of a background color, you can have a background image.

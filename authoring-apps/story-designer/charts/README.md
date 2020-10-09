@@ -8,9 +8,9 @@ Charts are data visualizations you can add to your story. Each slice can contain
 
 {% page-ref page="table.md" %}
 
-{% page-ref page="ranked-list.md" %}
+{% page-ref page="bar.md" %}
 
-{% page-ref page="nine-box-scatterplot.md" %}
+{% page-ref page="scatterplot.md" %}
 
 {% page-ref page="leaderboard.md" %}
 

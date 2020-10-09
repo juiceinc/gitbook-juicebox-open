@@ -118,10 +118,6 @@ To add text to a slice, simply type in the text area. The text area supports mos
 
 ![Use Markdown to add text, links, and images](../../../.gitbook/assets/image%20%2859%29.png)
 
-If the section or slice has a dark background color, you can make the first line of text in the slice  `--invert` to change the text color to white.
-
-![Make first line --invert to make the text color white](../../../.gitbook/assets/image%20%2871%29.png)
-
 ### Adding a chart
 
 To add a chart to a slice, select the **+Chart** button and select the desired [chart](../charts/) from the list. 
