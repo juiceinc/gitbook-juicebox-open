@@ -8,13 +8,13 @@ We are continually updating the documentation to reflect what's new in Juicebox.
 
 If you're looking for information on a specific concept, check out these links for the most commonly used sections of the documentation:
 
-{% page-ref page="authoring-apps/design-tips/preparing-your-data.md" %}
+{% page-ref page="editing-apps/design-tips/preparing-your-data.md" %}
 
-{% page-ref page="authoring-apps/creating-and-editing.md" %}
+{% page-ref page="editing-apps/creating-and-editing.md" %}
 
-{% page-ref page="authoring-apps/data-sources/adding-ingredients/" %}
+{% page-ref page="editing-apps/data-sources/adding-ingredients/" %}
 
-{% page-ref page="authoring-apps/story-designer/" %}
+{% page-ref page="editing-apps/story-designer/" %}
 
 
 

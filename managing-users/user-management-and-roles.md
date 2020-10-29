@@ -1,6 +1,6 @@
 # User Roles and Management
 
-Users must be logged in to the apps page with a Juicebox user account. What users can do once logged in depends on their user role.  There are four user roles: viewer, author, admin, and owner. 
+Users must be logged in to the apps page with a Juicebox user account. What users can do once logged in depends on their user role.  There are four user roles: viewer, editor, admin, and owner. 
 
 ## User Roles
 
@@ -10,62 +10,65 @@ Here's an overview of what each role can do.
   <thead>
     <tr>
       <th style="text-align:left">Action</th>
-      <th style="text-align:left">Viewers can...</th>
-      <th style="text-align:left">Authors can...</th>
-      <th style="text-align:left">Admins can...</th>
-      <th style="text-align:left">Owner can...</th>
+      <th style="text-align:left">Viewer</th>
+      <th style="text-align:center">Editor</th>
+      <th style="text-align:center">Admin</th>
+      <th style="text-align:center">Owner</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">View specific apps</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">N/A</td>
-      <td style="text-align:left">N/A</td>
+      <td style="text-align:left">View specific apps that they&apos;ve been invited to</td>
+      <td style="text-align:left">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">N/A</td>
+      <td style="text-align:center">N/A</td>
+      <td style="text-align:center">N/A</td>
     </tr>
     <tr>
       <td style="text-align:left">Invite users to specific
-        <br />apps (future release)</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Create new apps</td>
+        <br />apps</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Change specific apps</td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">N/A</td>
-      <td style="text-align:left">N/A</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
     </tr>
     <tr>
       <td style="text-align:left">View all apps</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Change all apps</td>
+      <td style="text-align:left">Edit all apps</td>
       <td style="text-align:left"></td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Create new apps</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
     </tr>
     <tr>
       <td style="text-align:left">Manage users (future release)</td>
       <td style="text-align:left"></td>
+      <td style="text-align:center">
+        <p>limited to</p>
+        <p>Viewers</p>
+      </td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Workspace settings</td>
       <td style="text-align:left"></td>
-      <td style="text-align:left">X</td>
-      <td style="text-align:left">X</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -73,28 +76,28 @@ Here's an overview of what each role can do.
         <p>and payment info (future release)</p>
       </td>
       <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left">X</td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center"></td>
+      <td style="text-align:center">&#x2714;&#xFE0F;</td>
     </tr>
   </tbody>
 </table>
 
 ### Viewer
 
-Viewers can view the apps they've been given access to. They cannot see apps they have not been given access to and they cannot create new apps or edit apps. 
+**Viewers** can view the apps they've been given access to through an access link. They cannot see apps they have not been given access to and they can not create new apps or edit apps. 
 
-### Author
+### Editor
 
-Authors can view apps they've been given access to, create new apps, and edit apps they've created or apps for which they've been made an author.  
+**Editors** can view all apps, edit all apps, and create new apps.  \(In a future release, **Editors** can manage **Viewers** of  apps\)
 
 ### Admin
 
- Admins can view all apps, create new apps, and edit any app. \(In a future release, admins will be able to access the user management view to manage user roles for any app.\) 
+**Admins** can view all apps, edit all apps, and create new apps. \(In a future release, **Admins** can manage all user roles, except changing the **Owner**\) 
 
 ### Owner
 
-Each workspace has one owner. The owner can do everything admins can do. \(In a future release, the owner will be able to adjust the subscription and payment information.\) 
+Each workspace has one **Owner**. The **Owner** can do everything **Admins** can do. \(In a future release, the **Owner** will be able to adjust the subscription and payment information.\) 
 
-## User Management \(future release\)
+## Managing Users \(future release\)
 
