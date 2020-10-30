@@ -17,8 +17,8 @@ Here are data types that are supported:
 | Data type | Description | Example |
 | :--- | :--- | :--- |
 | string | Variable-length character data | `882d8f4dccdb3d143df3cc06901f3399` |
-| number | Numeric values, either with or without decimal values | `46` or `53.5` |
-| boolean | Values that denote either TRUE or FALSE | `True` or `False`  \(also `Yes` or `No`\) |
+| number | Numeric values, either with or without decimals | `46` or `53.5` |
+| boolean | Values that denote either TRUE or FALSE | `True` or `False` |
 | date | A value for a date that includes the year, month, and day | `2020-10-30` |
 | timestamp | A value for a date and time that includes the year, month, day, hour, minute, second, and \(optionally\) subsecond | `2020-10-30 19:35:25.125456` |
 
