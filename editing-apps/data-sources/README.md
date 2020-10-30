@@ -12,7 +12,7 @@ The data can be a CSV or \(future release\) a table or view in a database or a G
 
 ### Supported data types
 
-Here are Data types that are supported:
+Here are data types that are supported:
 
 | data type | description |  |
 | :--- | :--- | :--- |
