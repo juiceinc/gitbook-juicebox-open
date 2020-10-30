@@ -10,6 +10,19 @@ You must [add a data source](loading-data.md) before you can design your story. 
 
 The data can be a CSV or \(future release\) a table or view in a database or a Google Sheet. If your data is in a CSV, you upload the CSV. \(In a future release, if your data is in a database, you connect to the database and select the table or view that should be used. \)
 
+### Supported data types
+
+Here are Data types that are supported:
+
+| data type | description |  |
+| :--- | :--- | :--- |
+| string | Variable-length character data | `882d8f4dccdb3d143df3cc06901f3399` |
+| integer | Numeric values that do not have decimals | `46` |
+| float | Numeric values that have decimal values | `53.5` |
+| boolean | Values that denote either TRUE or FALSE | `True` or `False`  |
+| date | A value for a date that includes the year, month, and day | `2020-10-30` |
+| datetime | A value for a date and time that includes the year, month, day, hour, minute, second, and \(optionally\) subsecond | `2020-10-30 19:35:25.125456` |
+
 ## Data ingredients
 
 Data ingredients \(or just **ingredients**\) are the basic building blocks used to build the charts in your story. There are two main types of ingredients: **measures** and **dimensions**. 
