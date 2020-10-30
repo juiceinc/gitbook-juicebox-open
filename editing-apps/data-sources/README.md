@@ -21,7 +21,7 @@ Here are Data types that are supported:
 | float | Numeric values that have decimal values | `53.5` |
 | boolean | Values that denote either TRUE or FALSE | `True` or `False`  |
 | date | A value for a date that includes the year, month, and day | `2020-10-30` |
-| datetime | A value for a date and time that includes the year, month, day, hour, minute, second, and \(optionally\) subsecond | `2020-10-30 19:35:25.125456` |
+| timestamp | A value for a date and time that includes the year, month, day, hour, minute, second, and \(optionally\) subsecond | `2020-10-30 19:35:25.125456` |
 
 ## Data ingredients
 
