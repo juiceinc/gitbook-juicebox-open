@@ -10,7 +10,7 @@ To add a section, scroll to the bottom of the Story Designer. There you will see
 
 When you click **Add Section**, a new section named "Untitled section" will be added at the end of your story. The new section will initially be empty, waiting for you to add one or more slices. 
 
-![](../../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2898%29.png)
 
 Although not required, adding a meaningful section name help you organize your slices around a theme. Section names also help when you want to collapse them, move the around, and easily find the section you want to work on. 
 

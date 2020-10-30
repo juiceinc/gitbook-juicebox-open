@@ -28,9 +28,17 @@ A good rule of thumb is that measures are calculated numbers and dimensions are 
 
 Measures are a type of data ingredient. A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. 
 
-Under the hood, measures use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify an aggregation formula in the measure definition, then `sum()` will be implied.
+Under the hood, measures use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify an aggregation formula in the measure definition, then `sum()` will be implied. 
 
 You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](adding-ingredients/#advanced-ingredients).
+
+Measure ingredients that are not advanced ingredients display as a pill with an aggregation, like so: 
+
+![Measure ingredient with the sum\(\) aggregation](../../.gitbook/assets/image%20%2897%29.png)
+
+Measure ingredients that are advanced ingredients display with a calculator icon, like so:
+
+![Measure ingredient that is an advanced ingredient](../../.gitbook/assets/image%20%2895%29.png)
 
 ### Dimensions
 
@@ -40,4 +48,8 @@ There are two special kinds of dimensions in Juicebox: [**place**](https://juice
 
 * A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the [map](../story-designer/charts/map.md) chart. 
 * A time dimension is a dimension that is a date. Time dimensions are used in the [trend](../story-designer/charts/trend.md) chart. 
+
+Dimension ingredients display as a pill like so:
+
+![Dimension ingredient](../../.gitbook/assets/image%20%2894%29.png)
 
