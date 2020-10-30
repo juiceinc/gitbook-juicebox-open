@@ -14,7 +14,7 @@ The data can be a CSV or \(future release\) a table or view in a database or a G
 
 Here are data types that are supported:
 
-| data type | description |  |
+| data type | description | example |
 | :--- | :--- | :--- |
 | string | Variable-length character data | `882d8f4dccdb3d143df3cc06901f3399` |
 | integer | Numeric values that do not have decimals | `46` |
