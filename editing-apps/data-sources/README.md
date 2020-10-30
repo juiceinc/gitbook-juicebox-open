@@ -26,7 +26,7 @@ A good rule of thumb is that measures are calculated numbers and dimensions are 
 
 ### Measures
 
-Measures are a kind of data ingredient. A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. 
+Measures are a type of data ingredient. A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. 
 
 Under the hood, measures use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`. If you do not specify an aggregation formula in the measure definition, then `sum()` will be implied.
 
