@@ -22,7 +22,7 @@ Changes made after the first publishing will not be seen by viewers until they a
 
 ## Making changes to an app
 
-Any changes you make to an app are automatically saved to a draft version of the app that only authors can see. Viewers who have already been given access will not see your changes until you publish them. You publish, refine your app, republish, refine some more, republish, and so on. In this way, you can continually improve and experiment with your app without disturbing viewers. 
+Any changes you make to an app are automatically saved to a draft version of the app that only editors can see. Viewers who have already been given access will not see your changes until you publish them. You publish, refine your app, republish, refine some more, republish, and so on. In this way, you can continually improve and experiment with your app without disturbing viewers. 
 
 {% hint style="info" %}
 **Edit freely** - you can always [discard changes](https://juicebox.gitbook.io/juicebox/authoring-apps/publish-and-share/publishing-app-changes#discard-changes-to-an-app), to return to the last published version of the app.

@@ -58,7 +58,7 @@ Here's an overview of what each role can do.
       <td style="text-align:left"></td>
       <td style="text-align:center">
         <p>limited to</p>
-        <p>Viewers</p>
+        <p>viewers</p>
       </td>
       <td style="text-align:center">&#x2714;&#xFE0F;</td>
       <td style="text-align:center">&#x2714;&#xFE0F;</td>
@@ -89,15 +89,15 @@ Here's an overview of what each role can do.
 
 ### Editor
 
-**Editors** can view all apps, edit all apps, and create new apps.  \(In a future release, **Editors** can manage **Viewers** of  apps\)
+**Editors** can view all apps, edit all apps, and create new apps.  \(In a future release, **editors** can manage **viewers** of  apps\)
 
 ### Admin
 
-**Admins** can view all apps, edit all apps, and create new apps. \(In a future release, **Admins** can manage all user roles, except changing the **Owner**\) 
+**Admins** can view all apps, edit all apps, and create new apps. \(In a future release, **admins** can manage all user roles, except changing the **owner**\) 
 
 ### Owner
 
-Each workspace has one **Owner**. The **Owner** can do everything **Admins** can do. \(In a future release, the **Owner** will be able to adjust the subscription and payment information.\) 
+Each workspace has one **owner**. The **owner** can do everything **admins** can do. \(In a future release, the **owner** will be able to adjust the subscription and payment information.\) 
 
 ## Managing Users \(future release\)
 
