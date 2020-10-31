@@ -34,33 +34,33 @@ Remove any rows above your column header row. Remove any other rows that do not 
 
 Columns you don't need can be distracting during data preparation and app building, so it's a good idea to just remove them. \(If you're not sure whether you need a particular column, just leave it in.\)
 
-### 6. Remove rows you don't need
+### 6. Add a numeric column to your data \(if you don't already have one\)
+
+At this time, your data upload will fail if you don't have at least one numeric column in your data. Therefore, if your data does not already have at least one column with numeric data only \(i.e., numbers, with or without decimals, or NULL\), you will need to add one. The numeric data doesn't need to be meaningful. For example, adding a column of all 1s will do the trick.
+
+### 7. Remove rows you don't need
 
 Sometimes your data will contain rows you don't need. For example, let's say your data contains values broken out by state as well as values for the US. Because you can aggregate the state-level values to get the US values, you do not need the US records. Removing unneeded rows will simplify your ingredient definitions later on. 
 
-### 7. Revise column names as needed
+### 8. Revise column names as needed
 
 Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels in the ingredients you [add automagically](../data-sources/adding-ingredients/#adding-ingredients-automagically), so better column names mean less work for you when defining ingredients. 
 
-### 8. Remove number formatting
+### 9. Remove number formatting
 
 Any column with numeric data should be free of formatting that adds thousands separators, $, %, USD, EUR, etc. You should just have numbers, either with or without decimals. 
 
-### 9. Confirm numeric columns contain only numeric data \(or nulls\)
+### 10. Confirm numeric columns contain only numeric data \(or nulls\)
 
 Numeric columns should only contain numbers or nulls. Anything else will prevent you from using the column in measures that use sum\(\), avg\(\), min\(\), or max\(\) aggregation functions. You'll want to remove things like spaces, "-", "--", "N/A", "\#N/A", "NULL", and "\#ERROR". While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not. 
 
-### 10. Confirm date columns contain only dates with date formatting \(or nulls\)
+### 11. Confirm date columns contain only dates with date formatting \(or nulls\)
 
 Date columns should only contain dates or nulls. Dates should be formatted like MM-DD-YYYY, MM/DD/YYYY, or YYYY-MM-DD. While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not.
 
-### 11. Add latitude and longitude
+### 12. Add latitude and longitude
 
 If you want to use the [map](../story-designer/charts/map.md) slice, you will need to have latitude and longitude columns in your data. If you need to add them, we recommend using [this process in Google Sheets](https://discourse.looker.com/t/get-latitude-longitude-for-any-location-through-google-sheets-and-plot-these-in-looker/5402). 
-
-### 12. Add a numeric column to your data \(if you don't already have one\)
-
-At this time, your data upload will fail if you don't have at least one numeric column in your data. Therefore, if your data does not already have at least one column with numeric data only \(i.e., numbers, with or without decimals, or NULL\), you will need to add one. The numeric data doesn't need to be meaningful. For example, adding a column of all 1s will do the trick.
 
 ### 13. Do a final check
 
