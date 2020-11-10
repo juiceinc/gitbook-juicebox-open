@@ -25,7 +25,7 @@ Here's an overview of what each role can do.
       <td style="text-align:center">N/A</td>
     </tr>
     <tr>
-      <td style="text-align:left">Invite users to specific
+      <td style="text-align:left">Invite viewers to specific
         <br />apps</td>
       <td style="text-align:left"></td>
       <td style="text-align:center">&#x2714;&#xFE0F;</td>
@@ -89,7 +89,7 @@ Here's an overview of what each role can do.
 
 ### Editor
 
-**Editors** can view all apps, edit all apps, and create new apps.  \(In a future release, **editors** can manage **viewers** of  apps\)
+**Editors** can view all apps, edit all apps, and create new apps.  \(In a future release, **editors** can manage **viewers** of apps.\)
 
 ### Admin
 
