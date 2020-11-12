@@ -20,11 +20,11 @@ While changes made in the app editor are immediately reflected in the draft app,
 
 ### Accessing the app editor
 
-To access the app editor, select **Edit** on the app \(or the pencil icon on the story\) from the apps page, or select **Edit this app** from the profile menu in a published app's header. 
+To access the app editor for the apps page, select **Edit** on the app \(or the pencil icon on the story\). To access the app editor from a published app, select **Edit this app** from the profile menu in a published app's header or simply hit your **Esc** key. 
 
 ![Accessing the app editor from the apps page](../.gitbook/assets/image%20%2819%29.png)
 
-![Accessing the app editor from the app header in published app](../.gitbook/assets/image%20%2826%29.png)
+![Accessing the app editor from the app header in a published app](../.gitbook/assets/image%20%2899%29.png)
 
 ### Overview of the app editor
 
