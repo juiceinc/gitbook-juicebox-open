@@ -7,7 +7,7 @@
 
 ## Getting Started
 
-* [Set up a Workspace \(future release\)](getting-started/set-up-client-workspace.md)
+* [Sign Up for a Workspace](getting-started/new-workspace.md)
 
 ## Editing Apps
 
@@ -39,7 +39,7 @@
     * [Leaderboard](editing-apps/story-designer/charts/leaderboard.md)
     * [Map](editing-apps/story-designer/charts/map.md)
     * [Trend](editing-apps/story-designer/charts/trend.md)
-    * [Image \(future release\)](editing-apps/story-designer/charts/image.md)
+    * [Image 🔜](editing-apps/story-designer/charts/image.md)
 * [Publish & Share](editing-apps/publish-and-share/README.md)
   * [Publishing app changes](editing-apps/publish-and-share/publishing-app-changes.md)
   * [Sharing and access controls](editing-apps/publish-and-share/sharing-and-access-controls.md)
@@ -58,15 +58,15 @@
 ## Managing Users
 
 * [Adding App Users](managing-users/adding-app-users.md)
-* [Usage Reporting \(future release\)](managing-users/usage-reporting.md)
+* [Usage Reporting 🔜](managing-users/usage-reporting.md)
 * [User Roles and Management](managing-users/user-management-and-roles.md)
 
 ## Managing my workspace \(future release\) <a id="managing-workspaces"></a>
 
-* [Workspace Settings \(future release\)](managing-workspaces/settings.md)
-* [Subscription and Billing \(future release\)](managing-workspaces/untitled.md)
+* [Workspace Settings 🔜](managing-workspaces/settings.md)
+* [Subscription and Billing 🔜](managing-workspaces/untitled.md)
 
 ---
 
-* [Changelog](changelog.md)
+* [Changelog 🎁](changelog.md)
 

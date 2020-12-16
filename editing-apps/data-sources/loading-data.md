@@ -43,7 +43,12 @@ To exit the table view, simply click outside of the table view window. To return
 
 ## Connect to a database table or view
 
-If you are interested in connecting to a database table or view, please reach out to us by clicking the chat button below. 
+If your app is connected to a database, you can select the schema and table to use in the data source. If you are interested in connecting your app to a database, please reach out to us by clicking the chat button below. The following databases are supported:
+
+* Redshift
+* Postgres
+* SQL Server
+* MySQL
 
 ## Connect to a Google Sheet \(future release\)
 

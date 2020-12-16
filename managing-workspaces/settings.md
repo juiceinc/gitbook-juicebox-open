@@ -1,2 +1,2 @@
-# Workspace Settings \(future release\)
+# Workspace Settings 🔜
 

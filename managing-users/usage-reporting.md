@@ -1,2 +1,2 @@
-# Usage Reporting \(future release\)
+# Usage Reporting 🔜
 

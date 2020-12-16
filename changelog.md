@@ -1,10 +1,29 @@
-# Changelog
+# Changelog 🎁
 
 ## What's coming soon?
 
-* Speedier app editor loading
-* Improvements to custom database connections
-* On-demand signup for new workspaces
+* Options for making an app publicly available. 
+* Better ways for admins to manage users and invite users to a workspace with specific roles.
+
+## December 16, 2020
+
+### 🎁 What's new?
+
+* **Sign up for a workspace.** Now you \(and all your friends\) can [create your own __workspace](getting-started/new-workspace.md). Why would you want your own workspace? Perhaps you want to do some data presentation work for that non-profit you're helping out with. Or maybe you have an idea for a data reporting side-gig. Whatever data-prez itch you have, now you can create a separate workspace to put it in. _Juicebox all-the-things!_
+* **Duplicate an app.** If you want to create a new app that is similar to an existing app, you can [duplicate it](editing-apps/app-settings.md#duplicating-an-app).
+
+![Duplicate an app](.gitbook/assets/screen_recording_2020-12-16_at_12.23.23_pm.gif)
+
+* **New footer.**🦶Your app footer now shows the name of the app, when it was last published, the Juicebox version, and all the legal stuff. No more wondering if your Juicebox is up to date.
+
+### 🐛 Bug fixes & other improvements
+
+* More polished loading of the apps page and app editor.
+* Publishing apps should be celebrated - and now it is! 🎉
+* Improved chart layouts.
+* Access links shared on Facebook and LinkedIn are more inviting.
+* Database connections to Redshift, Snowflake, Postgres, SQL Server, and MySQL are now supported.
+* Many, _many_ other things to make Juicebox even better. 
 
 ## October 29, 2020
 

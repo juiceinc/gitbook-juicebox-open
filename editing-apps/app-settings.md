@@ -32,7 +32,11 @@ Choose a typographic style for your app.
 
 To delete an app, click the menu icon \(![](../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Delete App**. 
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%28104%29.png)
 
+### Duplicating an app
 
+To duplicate an app, click the menu icon \(![](../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate App**. Then give your new app a  title and select **Duplicate**. Once the new app is created it will open as a draft version, ready for you to make edits and publish.
+
+![](../.gitbook/assets/image%20%28102%29.png)
 
