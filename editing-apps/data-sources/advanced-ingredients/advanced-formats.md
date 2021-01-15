@@ -667,11 +667,8 @@ You can use [date formats](https://strftime.org/) to adjust how dates display in
 | Format | Number | Result |
 | :--- | :--- | :--- |
 | `<%Y-%m-%d>` | dt | 2014-01-01 |
-| `<%Y/%m/%d>` | dt | 2014/01/01 |
 | `<%Y-%m-%d>` | dt | 2014-01-01 |
-| `<%Y/%m/%d>` | dt | 2014/01/01 |
 | `<%Y-%m-%d>;;;"NODATA"` | null | NODATA |
-| `<%Y/%m/%d>;;;"NODATA"` | null | NODATA |
 | `"prefix"<%Y-%m-%d>` | dt | prefix2014-01-01 |
 | `"The "<%Y-%m-%d>" Conundrum"` | dt | The 2014-01-01 Conundrum |
 | `<%Y-%m-%d>"suffix"` | dt | 2014-01-01suffix |
