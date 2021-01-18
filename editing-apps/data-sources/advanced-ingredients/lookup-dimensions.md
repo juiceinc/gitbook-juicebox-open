@@ -1,6 +1,6 @@
 # Lookup dimensions
 
-If the dimension values in your data are not what you want displayed in your app, you can create a lookup dimension to change them. For example, the Unhealthy Americans data has a Question field with two distinct, very long values: 
+If the dimension values in your data are not what you want displayed in your app, you can create a lookup dimension to change them. For example, let's say your data has a Question field with two distinct, very long values: 
 
 * "Percent of adults aged 18 years and older who have obesity" 
 * "Percent of adults aged 18 years and older who have an overweight classification" 

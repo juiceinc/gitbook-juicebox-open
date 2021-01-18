@@ -2,23 +2,32 @@
 
 ## Publishing an app
 
-Before publishing your app, only editors can see the changes you've made. When you're ready to share your work with viewers, it's time to publish. 
-
-{% hint style="info" %}
-Apps are **not made public** when they are published. However, explicitly making apps public will be possible in a future feature release. 
-{% endhint %}
+Before publishing your app, only editors in your workspace can see the changes you've made. When you're ready to share your work with viewers, it's time to publish. 
 
 ### Publishing for the first time
 
-To publish for the first time, go to the Publish & Share section in the app editor and click **Publish**.
+To publish for the first time, go to the Publish & Share section in the app editor and click **Publish**. 
 
-![](../../.gitbook/assets/screen-shot-2020-07-17-at-3.16.10-pm.png)
+![Select &quot;Publish&quot; to publish an app for the first time](../../.gitbook/assets/image%20%28124%29.png)
+
+Next, select whether you want to publish the app as a **public app** or a **private app**. 
+
+* A public app can be viewed by anyone with the app link. Viewers of public apps are not required to sign in and their app access cannot be managed.  
+* A private app can be viewed only by those that have signed in with an account that has access to the app. Viewer access to the app can be [managed in the People view](../../managing-users/user-management-and-roles.md).
+
+![Select whether to publish as a public or private app](../../.gitbook/assets/image%20%28113%29.png)
+
+{% hint style="info" %}
+ If your app contains information that not everyone should see, you should publish it as a private app. If your app does not contain sensitive information, you may not have certainty at the outset whether you want the app to be public or private. That's ok! Just select one and change it later as needed. 
+{% endhint %}
+
+After publishing, you are ready to [share your app](sharing-and-access-controls.md). 
 
 ### Republishing
 
 Changes made after the first publishing will not be seen by viewers until they are republished. When you make changes to the app, the Publish & Share section's name will change to **Republish & Share**. To republish, go to the Republish & Share section and click **Republish changes**. 
 
-![Republish &amp; Share after first publishing](../../.gitbook/assets/image%20%2828%29.png)
+![Viewers will not see your changes until you select &quot;Republish changes&quot;](../../.gitbook/assets/image%20%28126%29.png)
 
 ## Making changes to an app
 

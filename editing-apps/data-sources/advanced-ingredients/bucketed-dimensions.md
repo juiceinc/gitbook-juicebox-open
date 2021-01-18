@@ -1,6 +1,6 @@
 # Bucketed dimensions
 
-A bucketed dimension is a dimension that groups field values into buckets based on conditions. For example, the Unhealthy Americans data includes the `LocationAbbr` field with state abbreviation values. Let's say you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you would create an advanced ingredient like so--
+A bucketed dimension is a dimension that groups field values into buckets based on conditions. For example, let's say your data includes a `LocationAbbr` field with state abbreviation values, and you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you would create an advanced ingredient like so--
 
 ![Advanced ingredient: bucketed dimension](../../../.gitbook/assets/image%20%2839%29.png)
 

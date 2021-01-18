@@ -7,5 +7,5 @@ Creating apps in Juicebox requires a computer with an internet connection and a 
 * Mozilla Firefox
 * Microsoft Edge
 
-While you can view Juicebox apps from a smartphone or tablet, creating apps can only be done from a computer at this time. 
+While you can view published Juicebox apps from a smartphone or tablet, creating apps can only be done from a computer at this time. 
 

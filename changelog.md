@@ -2,8 +2,24 @@
 
 ## What's coming soon?
 
-* Options for making an app publicly available. 
-* Better ways for admins to manage users and invite users to a workspace with specific roles.
+* More info about your data uploads.
+* Easily invite new editors to your workspace.
+
+## January 18, 2021
+
+### 🎁 What's new?
+
+* \*\*\*\*🌎**Publish as "Public"**.  Apps can now be [available to anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops \(or from your favorite social network\)! 🏔
+
+![Publish as a public app](.gitbook/assets/screen_recording_2021-01-15_at_6.06.57_pm.gif)
+
+* **Better control of who can see what.** Owners and Admins have a new [People view](managing-users/user-management-and-roles.md#managing-users) to see who is using your apps. Friend your friends🥰; change user roles✊; control app access🔐; unfriend your enemies😒. 
+
+### 🐛 Bug fixes & other improvements
+
+* Even more chart layout improvements.
+* Faster app and new workspace creation.
+* Lots more performance and bug fixes. 
 
 ## December 16, 2020
 
