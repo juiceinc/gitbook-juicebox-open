@@ -9,7 +9,7 @@
 
 ### 🎁 What's new?
 
-* \*\*\*\*🌎**Publish as "Public"**.  Apps can now be [available to anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops \(or from your favorite social network\)! 🏔
+* \*\*\*\*🌎**Publish as "Public"**.  Apps can now be [viewed by anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops \(or from your favorite social network\)! 🏔
 
 ![Publish as a public app](.gitbook/assets/screen_recording_2021-01-15_at_6.06.57_pm.gif)
 
