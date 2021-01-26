@@ -61,7 +61,7 @@ Here's an overview of what each role can do.
       <td style="text-align:center">&#x2714;&#xFE0F;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Workspace settings</td>
+      <td style="text-align:left">Manage workspace settings &#x1F51C;</td>
       <td style="text-align:left"></td>
       <td style="text-align:center"></td>
       <td style="text-align:center">&#x2714;&#xFE0F;</td>

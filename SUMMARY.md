@@ -63,8 +63,8 @@
 
 ## Managing my workspace \(future release\) <a id="managing-workspaces"></a>
 
-* [Workspace Settings 🔜](managing-workspaces/settings.md)
-* [Subscription and Billing 🔜](managing-workspaces/untitled.md)
+* [Workspace Settings 🔜](managing-workspaces/workspace-settings.md)
+* [Subscription and Billing 🔜](managing-workspaces/subscription-and-billing.md)
 
 ---
 
