@@ -1,6 +1,6 @@
 # User Roles and Management
 
-Users must be logged in to the workspace with a Juicebox user account. What users can do once logged in depends on their user role.  There are four user roles: viewer, editor, admin, and owner. 
+Users must be logged in to the workspace with a Juicebox user account. User permissions \(i.e., what users can do once logged in\) depends on the user role.  There are four user roles: viewer, editor, admin, and owner. 
 
 ## User Roles
 
