@@ -10,6 +10,8 @@ Data preparation is tedious and time-consuming. We get it. But unless the data i
 * Clean. Number formatting, leading and trailing spaces, carriage returns, and other weird values \(e.g., "\#N/A" and "\#ERROR"\) are removed. 
 * Column headers. The first row of your data should be your column header row. Column names should have letters, spaces, or underscores, and nothing else. 
 
+![An example of properly prepared data](../../.gitbook/assets/image%20%28127%29.png)
+
 ## Let's take it step-by-step
 
 Your goal here is a single sheet containing all data organized into columns and rows, with the first row containing the column headers and each column containing values of the correct data type. 
