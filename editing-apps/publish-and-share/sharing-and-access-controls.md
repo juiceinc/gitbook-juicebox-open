@@ -20,7 +20,7 @@ To share a private app, you share an access link.
 
 To share your app, 
 
-* navigate to the Publish & Share section of the app editor
+* navigate to the Publish & Share section of the editing panel
 * copy the the access link
 * share the link with anyone you want to view your app
 

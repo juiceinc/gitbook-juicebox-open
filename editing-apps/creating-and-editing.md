@@ -12,23 +12,23 @@ Once your app is created, you will see the app on the apps page. You're now read
 
 ## Edit an app
 
-You can make changes to a draft version of the app using an in-browser interface called the **app editor**. Only [users with editing rights](../managing-users/user-management-and-roles.md#user-roles) can access the app editor. 
+You can make changes to a draft version of the app using an in-browser interface called the **editing panel**. Only [users with editing rights](../managing-users/user-management-and-roles.md#user-roles) can access the editing panel. 
 
 {% hint style="info" %}
-While changes made in the app editor are immediately reflected in the draft app, viewers cannot see the changes until they are published.
+While changes made in the editing panel are immediately reflected in the draft app, viewers cannot see the changes until they are published.
 {% endhint %}
 
-### Accessing the app editor
+### Accessing the editing
 
-To access the app editor for the apps page, select **Edit** on the app \(or the pencil icon on the story\). To access the app editor from a published app, select **Edit this app** from the profile menu in a published app's header or simply hit your **Esc** key. 
+To access the editing panel from the apps page, select **Edit** on the app \(or the pencil icon on the story\). To access the editing panel from a published app, select **Edit this app** from the profile menu in a published app's header or simply hit your **Esc** key. 
 
-![Accessing the app editor from the apps page](../.gitbook/assets/image%20%2819%29.png)
+![Accessing the editing panel from the apps page](../.gitbook/assets/image%20%2819%29.png)
 
-![Accessing the app editor from the app header in a published app](../.gitbook/assets/image%20%2899%29.png)
+![Accessing the editing panel from the app header in a published app](../.gitbook/assets/image%20%2899%29.png)
 
-### Overview of the app editor
+### Overview of the editing panel
 
-Changes to an app are made to a draft version of the app. If you see the app editor, you know you are in the draft version. The app editor is a panel on the left side of the draft app. Changes made \(and saved\) in the app editor are immediately reflected and saved in the draft app. 
+Changes to an app are made to a draft version of the app. If you see the editing panel, you know you are in the draft version. The editing panel is located on the left side of the draft app. Changes made \(and saved\) in the editing panel are immediately reflected and saved in the draft app. 
 
 {% hint style="info" %}
 Learn more about [how to manage app changes](publish-and-share/publishing-app-changes.md#making-changes-to-an-app).
@@ -36,7 +36,7 @@ Learn more about [how to manage app changes](publish-and-share/publishing-app-ch
 
 ![](../.gitbook/assets/image%20%2822%29.png)
 
-There are four app editor sections: [App Settings](app-settings.md), [Data Sources](data-sources/), [Story Designer](story-designer/), and [Publish & Share](publish-and-share/). These sections are accessed from the buttons at the top of the app editor and are described on the following pages:
+There are four editing panel sections: [App Settings](app-settings.md), [Data Sources](data-sources/), [Story Designer](story-designer/), and [Publish & Share](publish-and-share/). These sections are accessed from the buttons at the top of the editing panel and are described on the following pages:
 
 {% page-ref page="app-settings.md" %}
 

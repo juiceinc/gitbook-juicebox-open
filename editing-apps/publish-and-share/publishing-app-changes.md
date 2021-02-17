@@ -6,7 +6,7 @@ Before publishing your app, only editors in your workspace can see the changes y
 
 ### Publishing for the first time
 
-To publish for the first time, go to the Publish & Share section in the app editor and click **Publish**. 
+To publish for the first time, go to the Publish & Share section in the editing panel and click **Publish**. 
 
 ![Select &quot;Publish&quot; to publish an app for the first time](../../.gitbook/assets/image%20%28124%29.png)
 
@@ -40,7 +40,7 @@ Any changes you make to an app are automatically saved to a draft version of the
 Because all changes are saved to the draft version until they are published, you do not have to keep track of whether you are working in the draft version. But here are indicators that you are in the draft version:
 
 * You will see "draft" in the app link
-* You will see the app editor
+* You will see the editing panel
 * Prior to first publishing:
   * You will see "There are unpublished changes..." in Publish & Share
   * You will see an "Unpublished" pill in the app header

@@ -1,6 +1,6 @@
 # App Settings
 
-The App Settings section of the app editor is where you set up basic information about your app, including title, description, color, and font. This is also where you can delete an app. To access the App Settings section, select the **Settings** button at the top of the app editor. 
+The App Settings section of the editing panel is where you set up basic information about your app, including title, description, color, and font. This is also where you can delete an app. To access the App Settings section, select the **Settings** button at the top of the editing panel. 
 
 After any changes are made, be sure to click "Save" at the bottom. 
 

@@ -50,7 +50,7 @@ To have more control over the type of ingredient that is created, you can add th
 
 The ingredient editor is a form that you fill out to define your ingredient. The form varies somewhat by type of ingredient because different ingredient types require somewhat different [components](ingredient-components.md). 
 
-To access the ingredient editor for an existing ingredient, click on the ingredient pill. You can click on an ingredient pill in either the Data Sources or the Story Designer sections of the app editor.
+To access the ingredient editor for an existing ingredient, click on the ingredient pill. You can click on an ingredient pill in either the Data Sources or the Story Designer sections of the editing panel.
 
 ![Access the ingredient editor by clicking ingredient pill](../../../.gitbook/assets/open-ingredients-editor.gif)
 

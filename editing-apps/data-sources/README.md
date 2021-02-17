@@ -1,6 +1,6 @@
 # Data Sources
 
-The Data Sources section of the app editor is where you set up your data sources. To access the Data Sources section, select the **Data** button at the top of the app editor. 
+The Data Sources section of the editing panel is where you set up your data sources. To access the Data Sources section, select the **Data** button at the top of the editing panel. 
 
 ![Select Data to access Data Sources section](../../.gitbook/assets/image%20%2821%29.png)
 
