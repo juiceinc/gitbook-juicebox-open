@@ -19,7 +19,7 @@ There are three ways to add ingredients: add ingredients "automagically", add in
 
 Adding ingredients "automagically" allows you to quickly add ingredients so you can dive into designing your story. To add ingredients automagically,
 
-1. navigate to the [table view](../loading-data.md#the-table-view) 
+1. navigate to the [data preview](../loading-data.md#the-data-preview) 
 2. select the **Add Automagically** button
 3. select the the fields you want to add as data ingredients
 4. select the **Add Selected** button. 
@@ -38,13 +38,13 @@ The automagically added ingredients are just a starting point. You can revise th
 
 Sometimes the ingredients created through the automagic method will not be what you need. For example, let's say you have `year`  in your data. Because the `year` values are integers, the automagic method will create a new measure ingredient. But you will probably want a dimension ingredient instead.
 
-To have more control over the type of ingredient that is created, you can add the ingredient manually from the [table view](../loading-data.md#the-table-view), 
+To have more control over the type of ingredient that is created, you can add the ingredient manually from the [data preview](../loading-data.md#the-data-preview), 
 
 1. click the **+** next to the field you want to use in the new ingredient
 2. select the type of ingredient you want to create from the available options
 3. define the ingredient in the [ingredient editor](../loading-data.md#ingredients-editor)
 
-{% embed url="https://www.loom.com/share/68e5589825f44dca960da8897b7f08f0" caption="Adding ingredients manually from the table view" %}
+{% embed url="https://www.loom.com/share/68e5589825f44dca960da8897b7f08f0" caption="Adding ingredients manually from the data preview" %}
 
 ### Ingredient editor
 

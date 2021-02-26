@@ -4,9 +4,9 @@ After you publish your app, it's time to invite others to view it! How you do th
 
 ## Sharing a public app
 
-To share a public app, click the Copy Public Link button to copy the app link and share the link as you would any other website link. Anyone who clicks on the link will see the published version of your app. 
+To share a public app, click the Copy Public Link button to copy the app link and share the link as you would any other website link. Anyone who clicks on the link will see the published version of your app and be counted as a page view. 
 
-![](../../.gitbook/assets/image%20%28115%29.png)
+![](../../.gitbook/assets/image%20%28133%29.png)
 
 {% hint style="info" %}
 You can also embed your public app into another website by putting the app link into an iframe on that website. 
@@ -32,7 +32,7 @@ The access link can be sent via email, text, social media, or any other means. T
 
 #### Regenerate link
 
-To prevent new users from accessing the app, simply regenerate the link. Any previous links will no longer allow new users to sign up. Users that signed up using previous links will still be able to see the app. Their access can be managed through the user management portal. 
+To prevent new users from accessing the app through a previously shared access link, simply regenerate the link. Any previous links will no longer allow new users to sign up. Users that signed up using previous links will still be able to see the app. Their access can be managed through the user management portal. 
 
 To regenerate the link, select **Link Settings** and then **Regenerate**. 
 

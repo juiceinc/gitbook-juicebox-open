@@ -8,7 +8,7 @@ You must [add a data source](loading-data.md) before you can design your story. 
 
 ## Data
 
-The data can be a CSV or \(future release\) a table or view in a database or a Google Sheet. If your data is in a CSV, you upload the CSV. \(In a future release, if your data is in a database, you connect to the database and select the table or view that should be used. \)
+The data can be a CSV or a table in a database. If your data is a CSV, you will upload the CSV. If your data is in a database, you will select the schema and table to connect to. \(In a future release, if your data is in a database, you connect to the database through the editing panel. For now, if you want to connect to a database, please reach out to us by clicking the chat button below. \)
 
 ### Supported data types
 

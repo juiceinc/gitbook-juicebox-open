@@ -1,8 +1,8 @@
-# Edit or delete a data source
+# Update or delete a data source
 
 ## Replace data
 
-From time to time, you may want to update the data for a data source. For example, you may want to correct data in existing rows, add or remove rows, or add or remove columns. To do this, open the table view for the data source you want to update. Select Replace and select the CSV containing the replacement data to begin the upload process. Once the upload process finishes, refresh the page. The app will then display the updated data. 
+From time to time, you may want to update the data for a data source. For example, you may want to correct data in existing rows, add or remove rows, or add or remove columns. To do this, open the [data preview](loading-data.md#the-data-preview) for the data source you want to update. Select Replace and select the CSV containing the replacement data to begin the upload process. Once the upload process finishes, refresh the page. The app will then display the updated data. 
 
 ![Use Replace to replace the data underlying the data source](../../.gitbook/assets/image%20%2882%29.png)
 
@@ -30,7 +30,7 @@ To make a change to an ingredient definition, click on the ingredient pill in ei
 
 ## Delete a data source
 
-If you have a data source that you don't plan to use in your app, you may want to delete the data source to declutter the Data Sources section of the editing panel. To do this, open the table view for the data source you want to delete and select the ![](../../.gitbook/assets/trash-alt-regular.svg) button, then select **Yes, delete it**. 
+If you have a data source that you don't plan to use in your app, you may want to delete the data source to declutter the Data Sources section of the app editor. To do this, open the [data preview](loading-data.md#the-data-preview) for the data source you want to delete and select the ![](../../.gitbook/assets/trash-alt-regular.svg) button, then select **Yes, delete it**. 
 
 {% hint style="warning" %}
 You will receive a warning message if the data source ingredients are used in your app. In general, you should not delete a data source that is being used by an app. Doing so will cause all ingredients from the data source to break, i.e., become "broken ingredients." 

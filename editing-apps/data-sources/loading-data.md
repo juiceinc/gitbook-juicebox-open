@@ -21,14 +21,14 @@ When using CSVs, it is important that your data be nice and clean. Common proble
 
 {% embed url="https://www.loom.com/share/d54b4b43aa194b76a4057d713963f4d1" caption="Add a data source by uploading a CSV" %}
 
-### The table view
+### The data preview
 
-After the data loads, the **table view** will pop up, providing a preview of your data. The preview will only show a sample of your data records.  
+After the data loads, the **data preview** will pop up, providing a preview of your data. The preview will only show a sample of your data records.  
 
-![After the data is loaded, the table view will pop up](../../.gitbook/assets/image%20%2888%29.png)
+![](../../.gitbook/assets/image%20%28131%29.png)
 
 {% hint style="success" %}
-After loading your data, do a quick review of the table view for anything unexpected. If you spot something unexpected, this usually indicates an issue with the data. Here are some common examples:
+After loading your data, do a quick review of the data preview for anything unexpected. If you spot something unexpected, this usually indicates an issue with the data. Here are some common examples:
 
 * Do any numeric fields have a`string`data type? That likely means you have non-numeric data in the column \(e.g., spaces, commas, "N/A", "null", "-"\). Any field you plan to use in a sum or average calculation must have the`number`data type. 
 * Do any date fields have a`string`data type? That likely means you have non-date data in the column. Any date fields you want to use in a [trend](../story-designer/charts/trend.md) chart must have the`date`data type. 
@@ -37,15 +37,16 @@ After loading your data, do a quick review of the table view for anything unexpe
 Spotting and fixing these issues early and re-loading your data will save you time and frustration down the road. 
 {% endhint %}
 
-To exit the table view, simply click outside of the table view window. To return to the table view, select the the data source button from the list of data sources.
+To exit the data preview, simply click outside of the data preview window. To return to the data preview, select the the data source button from the list of data sources.
 
-![Click the table view button to access the table view](../../.gitbook/assets/image%20%2879%29.png)
+![Click the data preview button to access the data preview](../../.gitbook/assets/image%20%28130%29.png)
 
-## Connect to a database table or view
+## Connect to a database table
 
 If your app is connected to a database, you can select the schema and table to use in the data source. If you are interested in connecting your app to a database, please reach out to us by clicking the chat button below. The following databases are supported:
 
 * Redshift
+* Snowflake
 * Postgres
 * SQL Server
 * MySQL

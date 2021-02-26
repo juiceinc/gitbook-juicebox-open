@@ -2,8 +2,27 @@
 
 ## What's coming soon?
 
-* More info about your data uploads.
-* Easily invite new editors to your workspace.
+* Manage workspace settings and subscriptions.
+* Invite viewers by email.
+* An easier sign-in experience.
+
+## February 25, 2021
+
+### 🎁 What's new?
+
+* ✉️  **Invite editors to your workspace**. Now you can add editors to your workspace team more quickly by sharing invite links or sending invitation emails from either the People view or from the Publish & Share section of an app. 
+
+![](.gitbook/assets/screen_recording_2021-02-25_at_3.30.09_pm.gif)
+
+* 🕵️‍♀️ **Find your folks**. The new search bar in the People view lets you find and manage users even more easily.
+
+### 🐛 Bug fixes & other improvements
+
+* ➕ When you create a new app, you'll go directly to the Data Sources section in that app.
+* 🎨  When you open an existing app, you'll go directly to the Story Designer section in that app. 
+* 🔢  More data about your data. The data preview now shows you when you last loaded your data and the total number of records. 
+* 📱 Editors can now _view_ both published and draft apps when on a phone.
+* More performance and bug fixes.
 
 ## January 18, 2021
 

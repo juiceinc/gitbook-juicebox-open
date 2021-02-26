@@ -23,7 +23,7 @@
     * [Bucketed dimensions](editing-apps/data-sources/advanced-ingredients/bucketed-dimensions.md)
     * [Advanced formulas](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md)
     * [Advanced formats](editing-apps/data-sources/advanced-ingredients/advanced-formats.md)
-  * [Edit or delete a data source](editing-apps/data-sources/edit-a-data-source.md)
+  * [Update or delete a data source](editing-apps/data-sources/edit-a-data-source.md)
 * [Story Designer](editing-apps/story-designer/README.md)
   * [Story Settings](editing-apps/story-designer/story-settings.md)
   * [Sections](editing-apps/story-designer/sections.md)
@@ -44,6 +44,7 @@
   * [Publishing app changes](editing-apps/publish-and-share/publishing-app-changes.md)
   * [Sharing and access controls](editing-apps/publish-and-share/sharing-and-access-controls.md)
 * [Tips and Tricks](editing-apps/design-tips/README.md)
+  * [The Help Center](editing-apps/design-tips/the-help-center.md)
   * [Telling data stories](editing-apps/design-tips/telling-data-stories.md)
   * [Visual design](editing-apps/design-tips/visual-design.md)
   * [Preparing your data](editing-apps/design-tips/preparing-your-data.md)
@@ -57,7 +58,7 @@
 
 ## Managing Users
 
-* [Adding App Users](managing-users/adding-app-users.md)
+* [Adding Users](managing-users/adding-users.md)
 * [Usage Reporting 🔜](managing-users/usage-reporting.md)
 * [User Roles and Management](managing-users/user-management-and-roles.md)
 

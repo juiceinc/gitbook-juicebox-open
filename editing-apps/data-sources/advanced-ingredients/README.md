@@ -2,18 +2,18 @@
 
 In cases where you need to do something more than the [ingredient editor](../adding-ingredients/#ingredient-editor) allows, you can use advanced ingredients. Advanced ingredients are added in two ways: 
 
-1. by [adding a new advanced ingredient](../adding-ingredients/#adding-a-new-ingredient-from-the-table-view) from the table view
+1. by [adding a new advanced ingredient](../adding-ingredients/#adding-a-new-ingredient-from-the-table-view) from the data preview
 2. by [duplicating an existing ingredient as advanced](./#duplicating-an-existing-ingredient-as-advanced-from-within-the-ingredients-editor) from within the ingredient editor
 
 Advanced ingredients are defined using the **advanced ingredient editor**. In the advanced ingredient editor, you define your ingredient using a text editor. This allows for [more complex ingredient definitions](./#what-you-can-do-with-advanced-ingredients), but is also more susceptible to typos or syntax errors. 
 
-## Adding a new advanced ingredient from the table view
+## Adding a new advanced ingredient from the data preview
 
-You can add a new advanced ingredient from the table view. To access the table view, click on the table view button for the data source: 
+You can add a new advanced ingredient from the data preview. To access the data preview, click on the data preview button for the data source: 
 
-![Click the table view button to access the table view](../../../.gitbook/assets/image%20%2879%29.png)
+![Click the data preview button to access the data preview](../../../.gitbook/assets/image%20%28141%29.png)
 
-To create a new advanced ingredient from the table view, click the **+ Add Advanced** button. This will open the advanced ingredient editor where you can enter the [ingredient components](../adding-ingredients/ingredient-components.md) using a text editor. 
+To create a new advanced ingredient from the data preview, click the **+ Add Advanced** button. This will open the advanced ingredient editor where you can enter the [ingredient components](../adding-ingredients/ingredient-components.md) using a text editor. 
 
 ![](../../../.gitbook/assets/image%20%2881%29.png)
 
