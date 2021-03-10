@@ -124,7 +124,7 @@ A measure is a value calculated over a group of data records. Average sales, stu
 And here are the underlying components:
 
 ```text
-kind: Metric
+kind: Measure
 field: avg(Data_Value)
 singular: Data Value
 icon: hashtag
