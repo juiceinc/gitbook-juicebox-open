@@ -54,7 +54,7 @@ Any column with numeric data should be free of formatting that adds thousands se
 
 ### 10. Confirm numeric columns contain only numeric data \(or nulls\)
 
-Numeric columns should only contain numbers or nulls. Anything else will prevent you from using the column in measures that use sum\(\), avg\(\), min\(\), or max\(\) aggregation functions. You'll want to remove things like spaces, "-", "--", "N/A", "\#N/A", "NULL", and "\#ERROR". While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not. A decimal point `.` should be used as the decimal separator.
+Numeric columns should only contain numbers or nulls. Anything else will prevent you from using the column in measures that use sum\(\), avg\(\), min\(\), or max\(\) aggregation functions. You'll want to remove things like spaces, "-", "--", "N/A", "\#N/A", "NULL", and "\#ERROR". While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not. A period `.` should be used as the decimal separator.
 
 ### 11. Confirm date columns contain only dates with date formatting \(or nulls\)
 
@@ -70,7 +70,7 @@ You're almost there! Do a final check to make everything looks ok. Should null v
 
 ### 14. Download your data as a CSV file
 
-Download your prepared data as a CSV file, with commas separating the values. Give it a meaningful but brief name and save it in a location you can easily find.
+Download your prepared data as a CSV file, with commas `,` separating the values. Give it a meaningful but brief name and save it in a location you can easily find.
 
 Congratulations! You're now ready to [add a data source](../data-sources/loading-data.md).
 
