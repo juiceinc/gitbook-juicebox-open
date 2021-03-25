@@ -50,11 +50,11 @@ Your column names should be readable, brief, and contain only letters, spaces, a
 
 ### 9. Remove number formatting
 
-Any column with numeric data should be free of formatting that adds thousands separators, $, %, USD, EUR, etc. You should just have numbers, either with or without decimals. A period `.` should be used as the decimal separator.
+Any column with numeric data should be free of formatting that adds thousands separators, $, %, USD, EUR, etc. You should just have numbers, either with or without decimals. A period `.` should be used as the decimal separator. Negative numbers should be indicated by a `-` before the number, e.g., `-2567.4`. 
 
 ### 10. Confirm numeric columns contain only numeric data \(or nulls\)
 
-Numeric columns should only contain numbers or nulls. Anything else will prevent you from using the column in measures that use sum\(\), avg\(\), min\(\), or max\(\) aggregation functions. You'll want to remove things like spaces, "-", "--", "N/A", "\#N/A", "NULL", and "\#ERROR". While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not. A period `.` should be used as the decimal separator.
+Numeric columns should only contain numbers or nulls. Anything else will prevent you from using the column in measures that use sum\(\), avg\(\), min\(\), or max\(\) aggregation functions. You'll want to remove things like spaces, "--", "N/A", "\#N/A", "NULL", and "\#ERROR". While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not. A period `.` should be used as the decimal separator. Negative numbers should be indicated by a `-` before the number, e.g., `-2567.4`. 
 
 ### 11. Confirm date columns contain only dates with date formatting \(or nulls\)
 
