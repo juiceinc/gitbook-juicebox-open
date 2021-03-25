@@ -50,7 +50,7 @@ Your column names should be readable, brief, and contain only letters, spaces, a
 
 ### 9. Remove number formatting
 
-Any column with numeric data should be free of formatting that adds thousands separators, $, %, USD, EUR, etc. You should just have numbers, either with or without decimals. 
+Any column with numeric data should be free of formatting that adds thousands separators, $, %, USD, EUR, etc. You should just have numbers, either with or without decimals. A period `.` should be used as the decimal separator.
 
 ### 10. Confirm numeric columns contain only numeric data \(or nulls\)
 
