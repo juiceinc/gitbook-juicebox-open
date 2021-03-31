@@ -48,27 +48,43 @@ Sometimes your data will contain rows you don't need. For example, let's say you
 
 Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels in the ingredients you [add automagically](../data-sources/adding-ingredients/#adding-ingredients-automagically), so better column names mean less work for you when defining ingredients. 
 
-### 9. Remove number formatting
+### 9. Restructure data as needed <a id="h_f12bd5a4c0"></a>
+
+Consider each of your column headers. Does the column header _itself_ contain a value that you'll want to use in your analysis? If so, you'll need to restructure your data.
+
+A common example is data with separate columns for each year, quarter, or other time period. In other words, your data may look like this:
+
+![](https://downloads.intercomcdn.com/i/o/318593145/ac726ffbb60329cc079b8568/image.png)
+
+When it needs to look like this:
+
+![](https://downloads.intercomcdn.com/i/o/318593725/5fc269e1bc90c2211b267037/image.png)
+
+There are different approaches to restructuring data. [Here's one](https://infoinspired.com/google-docs/spreadsheet/unpivot-a-dataset-in-google-sheets-reverse-pivot-formula/). If you need help, please reach out to us by clicking the orange chat button.
+
+### 10. Remove number formatting
 
 Any column with numeric data should be free of formatting that adds thousands separators, $, %, USD, EUR, etc. You should just have numbers, either with or without decimals. A period `.` should be used as the decimal separator. Negative numbers should be indicated by a `-` before the number, e.g., `-2567.4`. 
 
-### 10. Confirm numeric columns contain only numeric data \(or nulls\)
+### 11. Confirm numeric columns contain only numeric data \(or nulls\)
 
 Numeric columns should only contain numbers or nulls. Anything else will prevent you from using the column in measures that use sum\(\), avg\(\), min\(\), or max\(\) aggregation functions. You'll want to remove things like spaces, "--", "N/A", "\#N/A", "NULL", and "\#ERROR". While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not. A period `.` should be used as the decimal separator. Negative numbers should be indicated by a `-` before the number, e.g., `-2567.4`. 
 
-### 11. Confirm date columns contain only dates with date formatting \(or nulls\)
+### 12. Confirm date columns contain only dates with date formatting \(or nulls\)
 
 Date columns should only contain dates or nulls. Dates should be formatted like MM-DD-YYYY, MM/DD/YYYY, or YYYY-MM-DD. While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not.
 
-### 12. Add latitude and longitude
+Any time periods in your data should include day, month, and year. For example, if you have a **Year** column in your data, the values should look like `2018-01-01`, rather than `2018`. \(Otherwise, the **Year** column will be considered a numeric column.\) 
+
+### 13. Add latitude and longitude
 
 If you want to use the [map](../story-designer/charts/map.md) slice, you will need to have latitude and longitude columns in your data. If you need to add them, we recommend using [this process in Google Sheets](https://discourse.looker.com/t/get-latitude-longitude-for-any-location-through-google-sheets-and-plot-these-in-looker/5402). 
 
-### 13. Do a final check
+### 14. Do a final check
 
 You're almost there! Do a final check to make everything looks ok. Should null values be null? Do values contain carriage returns, leading or trailing spaces, or anything else odd? The `TRIM()` function is useful for dealing with large numbers of leading and trailing spaces.
 
-### 14. Download your data as a CSV file
+### 15. Download your data as a CSV file
 
 Download your prepared data as a CSV file, with commas `,` separating the values. Give it a meaningful but brief name and save it in a location you can easily find.
 
