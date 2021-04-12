@@ -2,7 +2,7 @@
 
 ## Sign Up
 
-To sign up for a new workspace, go to [www.myjuicebox.io](https://www.myjuicebox.io). 
+To sign up for a new workspace, go to [myjuicebox.io](https://myjuicebox.io). 
 
 ![](../.gitbook/assets/image%20%28152%29.png)
 
@@ -32,5 +32,5 @@ After creating your workspace, you'll be taken to the _Hello, Juicebox!_ app wit
 We highly recommend that you complete the _Hello, Juicebox!_ app tour. This will walk you through how to add a chart to an app. 
 {% endhint %}
 
-Your workspace will have its own web address. This is your workspace URL. You can go directly to this URL to access your workspace. But if you forget the URL, you can always go to [www.myjuicebox.io](https://www.myjuicebox.io) and click **Sign back in** to access the workspaces associated with your email address. 
+Your workspace will have its own web address. This is your workspace URL. You can go directly to this URL to access your workspace. But if you forget the URL, you can always go to [myjuicebox.io](https://myjuicebox.io) and click **Sign back in** to access the workspaces associated with your email address. 
 
