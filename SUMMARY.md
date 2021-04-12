@@ -2,12 +2,11 @@
 
 * [Juicebox Documentation](README.md)
 * [What is Juicebox?](what-is-juicebox/README.md)
-  * [An example app](what-is-juicebox/example-app.md)
   * [Technology requirements](what-is-juicebox/technology-requirements.md)
 
 ## Getting Started
 
-* [Sign Up for a Workspace](getting-started/new-workspace.md)
+* [Signing Up for a Workspace](getting-started/new-workspace.md)
 
 ## Editing Apps
 

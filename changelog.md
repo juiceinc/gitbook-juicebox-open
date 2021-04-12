@@ -2,9 +2,25 @@
 
 ## What's coming soon?
 
-* Manage workspace settings and subscriptions.
-* Invite viewers by email.
-* An easier sign-in experience.
+* Easier editing and home page navigation.
+* Improved color themes and easy-to-add images.
+* Data loading improvements.
+
+## April 12, 2021
+
+### 🎁 What's new?
+
+* **Easier sign in**. If you've ever created a workspace only to realize you don't quite remember how to get back to that space, you know how low that can make you feel. But, those day of scrounging around for the right URL are gone! Now, you can just point your browser to [myjuicebox.io](https://www.myjuicebox.io) and sign in there -- you'll be ushered right to your space, just like the celeb you are. \(Oh yeah, and if you have multiple workspaces, you'll be able to pick the one you want -- all from [myjuicebox.io](https://www.myjuicebox.io).\)
+
+![](.gitbook/assets/screen_recording_2021-04-12_at_5.12.50_pm.gif)
+
+* **Sample data**. We've brought some interesting sample data sets to Juicebox so you can start making presentations without hunting for a clean CSV.
+
+### 🐛 Bug fixes & other improvements
+
+* 💅Layout, formatting and tooltip improvements. Great data presentations are more than a pretty face, but prettier doesn't hurt.
+* 📈+📉The trend chart now properly displays negative numbers. 
+* 🏎️ More performance and bug fixes. Vroom, vrroooom!
 
 ## February 25, 2021
 

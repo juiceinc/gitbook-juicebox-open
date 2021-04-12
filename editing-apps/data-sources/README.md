@@ -2,9 +2,9 @@
 
 The Data Sources section of the editing panel is where you set up your data sources. To access the Data Sources section, select the **Data** button at the top of the editing panel. 
 
-![Select Data to access Data Sources section](../../.gitbook/assets/image%20%2821%29.png)
+![Select the Data tab to change your Data Sources](../../.gitbook/assets/data-sources.jpg)
 
-You must [add a data source](loading-data.md) before you can design your story. A data source is made up of two things:  **data** and **data ingredients**.
+You must [add a data source](loading-data.md) before you can design your story. A data source is made up of two things: **data** and **data ingredients**.
 
 ## Data
 

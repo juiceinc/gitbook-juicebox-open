@@ -4,11 +4,11 @@ If you're logged in as [an editor \(or a user with editing rights\)](../managing
 
 ## Add a new app
 
-To add a new app, select **+ New App** from the apps page. Selecting **+ New App** will start the app creation wizard, which walks you through creating your app. Here's a video showing how the Unhealthy Americans app was created:
+To add a new app, select **+ New App** from the apps page. Selecting **+ New App** will start the app creation wizard, which walks you through creating your app. Here's a video showing how to create a new app:
 
-{% embed url="https://www.loom.com/share/e707496dbb55466a97642df54fff6879" caption="Adding a new app" %}
+{% embed url="https://www.loom.com/share/759d9f1f6e8343d3bb8b9d12f60206ce" caption="Creating a new app" %}
 
-Once your app is created, you will see the app on the apps page. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/).  ****
+Once your app is created, you'll be taken to it. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/).  ****
 
 ## Edit an app
 
@@ -18,7 +18,7 @@ You can make changes to a draft version of the app using an in-browser interface
 While changes made in the editing panel are immediately reflected in the draft app, viewers cannot see the changes until they are published.
 {% endhint %}
 
-### Accessing the editing
+### Accessing the editing panel
 
 To access the editing panel from the apps page, select **Edit** on the app \(or the pencil icon on the story\). To access the editing panel from a published app, select **Edit this app** from the profile menu in a published app's header or simply hit your **Esc** key. 
 

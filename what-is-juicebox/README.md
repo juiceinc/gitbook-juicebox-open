@@ -14,11 +14,11 @@ So what makes up a Juicebox app? Each app has the following parts that flow in a
 
 ![Parts of a Juicebox app](../.gitbook/assets/image%20%2811%29.png)
 
-## Juicebox magic
+## What's unique about Juicebox
 
-We've built a lot of magic into the Juicebox platform, including:
+Juicebox lets you make data presentations easily and automatically. Key elements of Juicebox include:
 
 * **No code required**. You can build a Juicebox app entirely from your computer browser using the [editing panel](../editing-apps/creating-and-editing.md#edit-an-app). If you know how to create a formula in a spreadsheet, you are ready to start building apps. 
 * **Interactivity is automatic**. Selections made in slices above _automatically_ flow down to the slices below, allowing users to drill down and drive the story where they want to go. We call this [data flow](../viewing-apps/data-flow.md).
-* **Sharing is the point**. Juicebox apps are meant to be [shared](../editing-apps/publish-and-share/sharing-and-access-controls.md)--easily, widely, and without budget stress.
+* **Sharing is the point**. Juicebox apps are meant to be [shared](../editing-apps/publish-and-share/sharing-and-access-controls.md)—easily and widely.
 

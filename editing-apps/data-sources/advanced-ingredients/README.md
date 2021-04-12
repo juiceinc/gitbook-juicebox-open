@@ -1,25 +1,8 @@
 # Advanced ingredients
 
-In cases where you need to do something more than the [ingredient editor](../adding-ingredients/#ingredient-editor) allows, you can use advanced ingredients. Advanced ingredients are added in two ways: 
+In cases where you need to do something more than the [ingredient editor](../adding-ingredients/#ingredient-editor) allows, you can use advanced ingredients. Advanced ingredients are defined using the **advanced ingredient editor**. In the advanced ingredient editor, you define your ingredient using a text editor. This allows for [more complex ingredient definitions](./#what-you-can-do-with-advanced-ingredients), but is also more susceptible to typos or syntax errors. 
 
-1. by [adding a new advanced ingredient](../adding-ingredients/#adding-a-new-ingredient-from-the-table-view) from the data preview
-2. by [duplicating an existing ingredient as advanced](./#duplicating-an-existing-ingredient-as-advanced-from-within-the-ingredients-editor) from within the ingredient editor
-
-Advanced ingredients are defined using the **advanced ingredient editor**. In the advanced ingredient editor, you define your ingredient using a text editor. This allows for [more complex ingredient definitions](./#what-you-can-do-with-advanced-ingredients), but is also more susceptible to typos or syntax errors. 
-
-## Adding a new advanced ingredient from the data preview
-
-You can add a new advanced ingredient from the data preview. To access the data preview, click on the data preview button for the data source: 
-
-![Click the data preview button to access the data preview](../../../.gitbook/assets/image%20%28141%29.png)
-
-To create a new advanced ingredient from the data preview, click the **+ Add Advanced** button. This will open the advanced ingredient editor where you can enter the [ingredient components](../adding-ingredients/ingredient-components.md) using a text editor. 
-
-![](../../../.gitbook/assets/image%20%2881%29.png)
-
-## Duplicating an existing ingredient as advanced from within the ingredient editor
-
-You can also add a new advanced ingredient by duplicating an existing ingredient as advanced. To do this, open the ingredient editor by clicking the ingredient pill for the ingredient you want to duplicate. From there, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate as Advanced**. 
+Advanced ingredients are added by [duplicating an existing ingredient as advanced](./#duplicating-an-existing-ingredient-as-advanced-from-within-the-ingredients-editor) from within the ingredient editor. To do this, open the ingredient editor by clicking the ingredient pill for the ingredient you want to duplicate. From there, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate as Advanced**. 
 
 ![Select Duplicate as Advanced to create an advanced ingredient](../../../.gitbook/assets/image%20%2836%29.png)
 
