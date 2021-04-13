@@ -58,7 +58,7 @@ Below are examples of the ingredient editor for the different ingredient types \
 
 ### Dimension Ingredient
 
-A dimension is an ingredient that is used to define a group of data records. Students, states, and years are all examples of dimensions. Here is the `Categories` dimension from the Unhealthy Americans app.:
+A dimension is an ingredient that is used to define a group of data records. Students, states, and years are all examples of dimensions. Here is an example of a dimension labeled `Categories` :
 
 ![Dimension definition](../../../.gitbook/assets/image%20%2846%29.png)
 
@@ -74,7 +74,7 @@ icon: hashtag
 
 ### Place Ingredient
 
-A place ingredient is a special kind of dimension ingredient that has an associated geographic location \(i.e., latitude and longitude\). A place ingredient is required by the [map](../../story-designer/charts/map.md) chart. Here is the `States` place ingredient from the Unhealthy Americans app:
+A place ingredient is a special kind of dimension ingredient that has an associated geographic location \(i.e., latitude and longitude\). A place ingredient is required by the [map](../../story-designer/charts/map.md) chart. Here is an example of a place ingredient labeled `States` :
 
 ![Place dimension definition](../../../.gitbook/assets/image%20%2853%29.png)
 
@@ -92,11 +92,7 @@ longitude_field: Longitude
 
 ### Time Ingredient
 
-A time ingredient is a special kind of dimension ingredient that uses a date field. Time ingredients are automatically created from date fields in your data, so long as the fields are [formatted properly](../../design-tips/preparing-your-data.md). 
-
-You must have at least one time ingredient defined if you want to use the [trend](../../story-designer/charts/trend.md) chart, because the trend chart requires a time ingredient. 
-
-Here is the `Year Dates` time ingredient from the Unhealthy Americans app:
+A time ingredient is a special kind of dimension ingredient that uses a date field. Time ingredients are automatically created from date fields in your data, so long as the fields are [formatted properly](../../design-tips/preparing-your-data.md). A time ingredient is required by the [trend](../../story-designer/charts/trend.md) chart. Here is an example of a time ingredient labeled `Year Dates` :
 
 ![Time dimension definition](../../../.gitbook/assets/image%20%2851%29.png)
 
@@ -117,7 +113,7 @@ Time ingredients will "roll up" to the period selected for the `format`component
 
 ### Measure Ingredient
 
-A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Here is the `Data Value` measure from the Unhealthy Americans app:
+A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Here is an example of a measure labeled `Data Value` :
 
 ![Measure definition](../../../.gitbook/assets/image%20%2835%29.png)
 

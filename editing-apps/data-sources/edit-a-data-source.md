@@ -2,7 +2,7 @@
 
 ## Replace data
 
-From time to time, you may want to update the data for a data source. For example, you may want to correct data in existing rows, add or remove rows, or add or remove columns. To do this, open the [data preview](loading-data.md#the-data-preview) for the data source you want to update. Select Replace and select the CSV containing the replacement data to begin the upload process. Once the upload process finishes, refresh the page. The app will then display the updated data. 
+From time to time, you may want to update the data for a data source. For example, you may want to correct data in existing rows, add or remove rows, or add or remove columns. To do this, open the [data preview](loading-data.md#the-data-preview) for the data source you want to update. Select **Replace** and select the CSV containing the replacement data to begin the upload process. Once the upload process finishes, refresh the page. The app will then display the updated data. 
 
 ![Use Replace to replace the data underlying the data source](../../.gitbook/assets/image%20%2882%29.png)
 

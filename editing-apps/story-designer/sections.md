@@ -12,7 +12,7 @@ When you click **Add Section**, a new section named "Untitled section" will be a
 
 ![](../../.gitbook/assets/image%20%2898%29.png)
 
-Although not required, adding a meaningful section name help you organize your slices around a theme. Section names also help when you want to collapse them, move the around, and easily find the section you want to work on. 
+Although not required, adding a meaningful section name help you organize your slices around a theme. Section names also help when you want to collapse them, move them around, and easily find the section you want to work on. 
 
 ## Delete a section
 
