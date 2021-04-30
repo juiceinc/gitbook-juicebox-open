@@ -5,7 +5,7 @@
 * Easier editing and home page navigation.
 * Improved color themes and easy-to-add images.
 
-## April 29, 2021
+## April 30, 2021
 
 ### 🎁 What's new?
 
