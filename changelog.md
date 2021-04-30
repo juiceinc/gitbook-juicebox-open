@@ -4,7 +4,21 @@
 
 * Easier editing and home page navigation.
 * Improved color themes and easy-to-add images.
-* Data loading improvements.
+
+## April 29, 2021
+
+### 🎁 What's new?
+
+* ✨**Drag and drop data loading**: The Data tab in the editor gets you where you need to go with fewer clicks. You can 🐉drag-n-drop CSV files to create new data sources or replace data in an existing data source.
+
+![](.gitbook/assets/drag_and_drop_2.gif)
+
+### 🐛 Bug fixes & other improvements
+
+* 💅Layout and usability improvements to the Story Designer
+* ⚗️Adding ingredients "automagically" is easier and quicker
+* ⌨️ Improved keyboard navigation. 
+* More performance and bug fixes.
 
 ## April 12, 2021
 

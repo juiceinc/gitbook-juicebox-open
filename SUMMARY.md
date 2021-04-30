@@ -22,7 +22,7 @@
     * [Bucketed dimensions](editing-apps/data-sources/advanced-ingredients/bucketed-dimensions.md)
     * [Advanced formulas](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md)
     * [Advanced formats](editing-apps/data-sources/advanced-ingredients/advanced-formats.md)
-  * [Update or delete a data source](editing-apps/data-sources/edit-a-data-source.md)
+  * [Managing data sources](editing-apps/data-sources/edit-a-data-source.md)
 * [Story Designer](editing-apps/story-designer/README.md)
   * [Story Settings](editing-apps/story-designer/story-settings.md)
   * [Sections](editing-apps/story-designer/sections.md)
