@@ -4,7 +4,7 @@ description: >-
   dynamically.
 ---
 
-# Data Card
+# Data Cards
 
 A data card chart can be used to for the following:
 
@@ -12,18 +12,27 @@ A data card chart can be used to for the following:
 * Let a user choose which measure to explore 
 * Let a user choose which dimension to explore
 
-Choices made in a data card can drive the filtering narrative of the story that follows. There are two types: measure data card and dimension data card.
+Choices made in a data card chart can drive the filtering narrative of the story that follows [using dynamic ingredients](data-card.md#using-dynamic-ingredients). There are two types: measure data card and dimension data card.
 
 ## Data card chart with measures
 
-A data card chart with measures will display a high-level summary that provides context for users as they make their selections. The selection made in a measure data card slice can be used as a [dynamic measure](data-card.md#using-dynamic-ingredients) ingredient in other charts, allowing for user-driven exploration.
+A data card chart with measures \(i.e., a measure data card slice\) will display a high-level summary that provides context for users as they make their selections. The selection made in a measure data card slice can be used as a [dynamic measure](data-card.md#using-dynamic-ingredients) ingredient in other charts, allowing for user-driven exploration.
 
 #### To add a measure data card slice:
 
-* select **Data card** from the chart list
+* select **Data Cards** from the chart list
+
+![](../../../.gitbook/assets/image%20%28192%29.png)
+
 * select the measures you want to add in the order you want them displayed
-  * Once you select the first measure, the app will remove the dimensions as options, as you cannot mix dimensions and measures
-* add title text \(optional\)
+* add slice text \(optional\)
+* click **Save**
+
+![](../../../.gitbook/assets/image%20%28212%29.png)
+
+{% hint style="info" %}
+The type of data card depends on the first ingredient you add. Once you select a measure, any additional ingredients must be measures. 
+{% endhint %}
 
 ## Data card chart with dimensions
 
@@ -31,10 +40,19 @@ A data card chart with dimensions \(i.e., a dimension data card slice\) lets use
 
 #### To add a dimension data card slice:
 
-* select **Data card** from the chart list
+* select **Data Cards** from the chart list
+
+![](../../../.gitbook/assets/image%20%28199%29.png)
+
 * select the dimensions you want to add in the order you want them displayed
-  * Once you select the first dimension, the app will remove the measures as options, as you cannot mix dimensions and measures
-* add title text \(optional\)
+
+![](../../../.gitbook/assets/image%20%28205%29.png)
+
+* add slice text \(optional\)
+
+{% hint style="info" %}
+The type of data card depends on the first ingredient you add. Once you select a dimension, any additional ingredients must be dimensions. 
+{% endhint %}
 
 ## Using dynamic ingredients
 
@@ -53,11 +71,11 @@ To reference the selection made in a data card slice**:**
 A slice can reference both a dimension data card and a measure data card in the respective dimension and measure drop downs.
 {% endhint %}
 
-![The slice slug is in the header](../../../.gitbook/assets/screen-shot-2020-06-23-at-12.34.29-pm.png)
+![Select a dynamic ingredient to your chart to make it interactive ](../../../.gitbook/assets/image%20%28249%29.png)
 
-![The data chooser slug will be the first option in the dimension drop down](../../../.gitbook/assets/screen-shot-2020-06-23-at-12.33.52-pm.png)
+Here's how to make your charts dynamic:
 
-![The chart on the left is shown if &quot;Location&quot; is selected, but the chart on the right is shown if &quot;Year&quot; is selected](../../../.gitbook/assets/screen-shot-2020-06-23-at-12.53.43-pm.png)
+{% embed url="https://www.loom.com/share/460990e6e0464d369bb0f717ec2bfb3c" %}
 
-
+After making your chart dynamic, you may want to make your slice text dynamic as well. To learn how, go [here](../slices/dynamic-text.md). 
 

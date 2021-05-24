@@ -7,15 +7,21 @@ The trend chart displays a measure plotted over a time dimension. Adding a slice
 To add a trend slice:
 
 * select **Trend** from the chart list
+
+![](../../../.gitbook/assets/image%20%28256%29.png)
+
 * select the [time ingredient](../../data-sources/adding-ingredients/#time-ingredient) to use for the x-axis
 * select the measure to use for the y-axis
-* \(optional\) add a title
+* add slice text \(optional\)
+* click **Save**
+
+![](../../../.gitbook/assets/image%20%28251%29.png)
 
 {% hint style="info" %}
-Because the trend chart requires a [time ingredient](../../data-sources/adding-ingredients/#time-ingredient), at least one of your dimensions must be a time ingredient. A time ingredient is an ingredient defined using a date field. The format selected for the time ingredient will determine how your dates roll up in your trend chart. For example, if you select the format `month yyyy`, the trend chart will roll up by month. If you select the format `yyyy`, the trend chart will roll up by year. 
+Because the trend chart requires a [time ingredient](../../data-sources/adding-ingredients/#time-ingredient), at least one of your dimensions must be a time ingredient. A time ingredient is an ingredient defined using a date or timestamp field. The format selected for the time ingredient will determine how your dates roll up in your trend chart. For example, if you select the format `month yyyy`, the trend chart will roll up by month. If you select the format `yyyy`, the trend chart will roll up by year. 
 {% endhint %}
 
-{% embed url="https://www.loom.com/share/0aab6c25f80f4b6fa6f6893161e574e1" caption="Adding a trend slice" %}
+{% embed url="https://www.loom.com/share/b5520e0548fa4ab59d3284efd3f792ae" caption="Adding a trend slice" %}
 
 ## Using a trend slice
 

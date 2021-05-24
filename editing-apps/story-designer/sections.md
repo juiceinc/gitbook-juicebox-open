@@ -4,21 +4,21 @@ Sections are groups of slices within a story. Sections allow you to control layo
 
 ## Add a section
 
-To add a section, scroll to the bottom of the Story Designer. There you will see the **Add Section** button. 
+To add a section, scroll to the bottom of the Designer. There you will see the **Add Section** button. 
 
-![Add Section button at bottom of Story Designer](../../.gitbook/assets/image%20%2824%29.png)
+![Add Section button is at the bottom of the Designer](../../.gitbook/assets/image%20%28254%29.png)
 
 When you click **Add Section**, a new section named "Untitled section" will be added at the end of your story. The new section will initially be empty, waiting for you to add one or more slices. 
 
 ![](../../.gitbook/assets/image%20%2898%29.png)
 
-Although not required, adding a meaningful section name help you organize your slices around a theme. Section names also help when you want to collapse them, move them around, and easily find the section you want to work on. 
+Although not required, adding a meaningful section name can help you organize your slices around a theme. Section names also help when you want to collapse them, move them around, and easily find the section you want to work on. 
 
 ## Delete a section
 
 To delete a section, hover over the section header \(the gray area at the top of the section\) until you see the menu icon \(![](../../.gitbook/assets/ellipsis-h-solid.svg)\). Click the menu icon and then click **Delete**.
 
-![Deleting a section](../../.gitbook/assets/image%20%2823%29.png)
+![Deleting a section](../../.gitbook/assets/image%20%28195%29.png)
 
 ## Collapse and reorder sections
 

@@ -7,10 +7,16 @@ The filters chart displays pills \(i.e., filter pills\) that allow users to filt
 To add a filter slice:
 
 * select **Filters** from the chart list
-* select the ingredients you want to add as filters in the order you want them displayed
-* add title text \(optional\)
 
-{% embed url="https://www.loom.com/share/0307b76752bb4a428827940d809f3c53" caption="Adding a filter slice" %}
+![](../../../.gitbook/assets/image%20%28177%29.png)
+
+* select the dimensions you want to add as filters in the order you want them displayed
+* add slice text \(optional\)
+* click **Save**
+
+![](../../../.gitbook/assets/image%20%28232%29.png)
+
+{% embed url="https://www.loom.com/share/79dc53c9b59e446987b15ec043a8d566" caption="Adding a filter slice" %}
 
 {% hint style="info" %}
 The order of your filter pills may be important, because selections made in a filter pill will filter "downstream" filter pills. For example, say you have three filter pills in this order: Organization, Cohort, and Student Name. Values selected for Organization will filter Cohort and Student Name. Values selected for Cohort, will filter Student Name but not filter Organization. Values selected in Student Name will not filter either Organization or Cohort. 

@@ -14,7 +14,7 @@ You can add an editor to your workspace from either the [People view](user-manag
 
 ![From the People view, click + New Editor to invite a new editor to your workspace](../.gitbook/assets/image%20%28140%29.png)
 
-![From the Publish &amp; Share section, click + New Editor to invite a new editor to your workspace](../.gitbook/assets/image%20%28129%29.png)
+![From the Publish &amp; Share section, click + New Editor to invite a new editor to your workspace ](../.gitbook/assets/image%20%28225%29.png)
 
 Next, select whether to invite the new editor by creating and sharing an invite link or by sending an invitation via email.
 

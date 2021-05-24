@@ -4,11 +4,11 @@ In cases where you need to do something more than the [ingredient editor](../add
 
 Advanced ingredients are added by [duplicating an existing ingredient as advanced](./#duplicating-an-existing-ingredient-as-advanced-from-within-the-ingredients-editor) from within the ingredient editor. To do this, open the ingredient editor by clicking the ingredient pill for the ingredient you want to duplicate. From there, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate as Advanced**. 
 
-![Select Duplicate as Advanced to create an advanced ingredient](../../../.gitbook/assets/image%20%2836%29.png)
+![Select Duplicate as Advanced to create an advanced ingredient](../../../.gitbook/assets/image%20%28213%29.png)
 
 This will make a copy of the ingredient and open the advanced ingredient editor. Modify the ingredient components in the advanced ingredient editor as needed. 
 
-![Duplicate ingredient created with text editor](../../../.gitbook/assets/image%20%2843%29.png)
+![Duplicate ingredient created with advanced ingredient editor](../../../.gitbook/assets/image%20%28216%29.png)
 
 ## What you can do with advanced ingredients
 

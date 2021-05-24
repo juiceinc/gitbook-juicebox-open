@@ -6,39 +6,39 @@ If you're logged in as [an editor \(or a user with editing rights\)](../managing
 
 To add a new app, select **+ New App** from the apps page. Selecting **+ New App** will start the app creation wizard, which walks you through creating your app. Here's a video showing how to create a new app:
 
-{% embed url="https://www.loom.com/share/759d9f1f6e8343d3bb8b9d12f60206ce" caption="Creating a new app" %}
+{% embed url="https://www.loom.com/share/bea2a7cee5b9412a918d020db2e650dc" caption="Click +New App to add a new app to your workspace" %}
 
-Once your app is created, you'll be taken to it. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/).  ****
+Once your app is created, you'll be taken to the draft version of the app. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/).  ****
 
 ## Edit an app
 
-You can make changes to a draft version of the app using an in-browser interface called the **editing panel**. Only [users with editing rights](../managing-users/user-management-and-roles.md#user-roles) can access the editing panel. 
+You make changes to a draft version of the app using an in-browser interface called the **editing panel**. Only [users with editing rights](../managing-users/user-management-and-roles.md#user-roles) can access the editing panel. 
 
 {% hint style="info" %}
-While changes made in the editing panel are immediately reflected in the draft app, viewers cannot see the changes until they are published.
+While changes made in the editing panel are immediately reflected in the draft app, viewers cannot see the changes until they are [published](publish-and-share/).
 {% endhint %}
 
 ### Accessing the editing panel
 
-To access the editing panel from the apps page, select **Edit** on the app \(or the pencil icon on the story\). To access the editing panel from a published app, select **Edit this app** from the profile menu in a published app's header or simply hit your **Esc** key. 
+To access the editing panel from the apps page, select **Edit** on the app. 
 
-![Accessing the editing panel from the apps page](../.gitbook/assets/image%20%2819%29.png)
+![Accessing the editing panel for an app from the apps page](../.gitbook/assets/image%20%28180%29.png)
 
-![Accessing the editing panel from the app header in a published app](../.gitbook/assets/image%20%2899%29.png)
+To access the editing panel from a published app, select **Edit this app** from the profile menu in the app header or hit your **Esc** key. 
 
-### Overview of the editing panel
+![Accessing the editing panel from the app header of a published app](../.gitbook/assets/image%20%28190%29.png)
 
-Changes to an app are made to a draft version of the app. If you see the editing panel, you know you are in the draft version. The editing panel is located on the left side of the draft app. Changes made \(and saved\) in the editing panel are immediately reflected and saved in the draft app. 
+### Overview of a draft app
+
+Changes to an app are made to a draft version of the app. If you see the editing panel, you know you are in the draft app. The editing panel is located on the left side of the draft app. Changes made \(and saved\) in the editing panel are immediately saved and reflected in the draft app view. 
 
 {% hint style="info" %}
 Learn more about [how to manage app changes](publish-and-share/publishing-app-changes.md#making-changes-to-an-app).
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2822%29.png)
+![Parts of a draft app](../.gitbook/assets/image%20%28220%29.png)
 
-There are four editing panel sections: [App Settings](app-settings.md), [Data Sources](data-sources/), [Story Designer](story-designer/), and [Publish & Share](publish-and-share/). These sections are accessed from the buttons at the top of the editing panel and are described on the following pages:
-
-{% page-ref page="app-settings.md" %}
+There are three editing panel sections: [Data Sources](data-sources/), [Designer](story-designer/), and [Publish & Share](publish-and-share/). These sections are accessed from the buttons at the top of the editing panel and are described on the following pages:
 
 {% page-ref page="data-sources/" %}
 
@@ -48,5 +48,5 @@ There are four editing panel sections: [App Settings](app-settings.md), [Data So
 
 ## Delete an app
 
-[Deleting an app](https://juicebox.gitbook.io/juicebox/authoring-apps/app-settings#deleting-an-app) is done from App Settings. 
+[Deleting an app](story-designer/story-settings.md#deleting-an-app) is done from **Designer** section, under **Settings & Themes**. 
 

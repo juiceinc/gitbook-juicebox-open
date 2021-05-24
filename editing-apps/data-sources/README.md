@@ -1,14 +1,14 @@
-# Data Sources
+# Data
 
-The Data Sources section of the editing panel is where you set up your data sources. To access the Data Sources section, select the **Data** button at the top of the editing panel. 
+The Data section of the editing panel is where you set up your data sources. To access the Data section, select the **Data** tab at the top of the editing panel. 
 
-![Select the Data tab to change your Data Sources](../../.gitbook/assets/data-sources.jpg)
+![Select the Data button to set up and manage data sources](../../.gitbook/assets/image%20%28228%29.png)
 
-You must [add a data source](loading-data.md) before you can design your story. A data source is made up of two things: **data** and **data ingredients**.
+You must [add a data source](loading-data.md) before you can design your story. A data source is made up of two things: **data** and **data ingredients**. 
 
 ## Data
 
-The data can be a CSV or a table in a database. If your data is a CSV, you will upload the CSV. If your data is in a database, you will select the schema and table to connect to. \(In a future release, if your data is in a database, you connect to the database through the editing panel. For now, if you want to connect to a database, please reach out to us by clicking the chat button below. \)
+The data can be a CSV or a table in a database. [Load your data](loading-data.md) by either uploading the CSV or, if your data is in a database, selecting the schema and table to connect to. \(Connecting to data in databases will be enabled in a future release. For now, if you want to connect to a database, please reach out to us by clicking the chat button below. \)
 
 ### Supported data types
 
@@ -28,10 +28,6 @@ Data ingredients \(or just **ingredients**\) are the basic building blocks used 
 
 A **measure** is a value calculated over a group of data records. A **dimension** is used to define a group of data records.
 
-{% hint style="info" %}
-The word **aggregation** means "a group of data records." So you can also say that a measure is a value calculated over an aggregation, and a dimension is used to define an aggregation. 
-{% endhint %}
-
 {% hint style="success" %}
 A good rule of thumb is that measures are calculated numbers and dimensions are categories of things. 
 {% endhint %}
@@ -44,7 +40,7 @@ Under the hood, measures use the following aggregation formulas: `sum()`, `avg()
 
 You can combine aggregation formulas and field math together to create complex measures, such as weighted averages. See [advanced ingredients](adding-ingredients/#advanced-ingredients).
 
-Measure ingredients that are not advanced ingredients display as a pill with an aggregation, like so: 
+Measure ingredients that are not advanced ingredients display as an orange pill with an aggregation, like so: 
 
 ![Measure ingredient with the sum\(\) aggregation](../../.gitbook/assets/image%20%2897%29.png)
 
@@ -52,11 +48,13 @@ Measure ingredients that are advanced ingredients display with a calculator icon
 
 ![Measure ingredient that is an advanced ingredient](../../.gitbook/assets/image%20%2895%29.png)
 
+To review and edit a measure ingredient definition, click on its orange pill. This will open the [**ingredient editor**](adding-ingredients/#ingredient-editor). From there, you can change the measure's field, aggregation formula, label, format, or icon. 
+
 ### Dimensions
 
 Dimensions are a type of data ingredient. A dimension is used to define a group of data records. Students, states, and years are all examples of dimensions.
 
-There are two special kinds of dimensions in Juicebox: [**place**](https://juicebox.gitbook.io/juicebox/authoring-apps/data-sources/add-a-data-source#place-ingredient) dimensions and [**time**](https://juicebox.gitbook.io/juicebox/authoring-apps/data-sources/add-a-data-source#time-ingredient) dimensions:
+There are two special kinds of dimensions in Juicebox: [**place**](https://juicebox.gitbook.io/juicebox/authoring-apps/data-sources/add-a-data-source#place-ingredient) dimension and [**time**](https://juicebox.gitbook.io/juicebox/authoring-apps/data-sources/add-a-data-source#time-ingredient) dimension:
 
 * A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the [map](../story-designer/charts/map.md) chart. 
 * A time dimension is a dimension that is a date. Time dimensions are used in the [trend](../story-designer/charts/trend.md) chart. 
@@ -64,4 +62,6 @@ There are two special kinds of dimensions in Juicebox: [**place**](https://juice
 Dimension ingredients display as a pill like so:
 
 ![Dimension ingredient](../../.gitbook/assets/image%20%2894%29.png)
+
+To review and edit a dimension ingredient definition, click on its orange pill. This will open the [ingredient editor](https://app.gitbook.com/@juicebox/s/juicebox-open/~/drafts/-Ma8Bt7dTu7rysKLxD5V/editing-apps/data-sources/adding-ingredients#ingredient-editor). From there, you can change the field, labels, or icon.
 

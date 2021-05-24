@@ -1,24 +1,22 @@
 # Navigating Apps
 
-For workspaces with multiple apps, users need to navigate between apps. \(In the future, Juicebox will support multiple stories within an app. For apps with multiple stories, users will need to navigate between stories.\) Here's how to do that.
+For workspaces with multiple apps, users can navigate between apps using the apps page. In addition, users can navigate directly to a specific app using its app link. 
 
-## Navigating between apps
+### Using the apps page
 
-For workspaces with multiple apps, users can navigate between apps from the apps page. In addition, users can navigate directly to a specific app using its app link. 
+After [signing in](signing-in.md) to your workspace, you will be on the workspace apps page. Editors for the workspace will see all of the workspace apps on the apps page. Viewers will only see those apps they have been given access to.
 
-### From the apps page
+To find a specific app you can use the **Sort by** feature to order apps by last edit date, last publish date, or alphabetically. You can also use the **Search** feature to search app titles and descriptions. 
 
-Each Juicebox workspace has its own apps page. \(For example, the apps page for HealthyCo is `https://healthyco.juiceboxdata.com`.\) After logging into the apps page, users will see all of their apps for that workspace. To access an app, users will click on the story.  
+To open the draft version of an app, click the **Edit** button. To open the published version of an app, hover or click around the app title, and then click the **Open Published** button. \(If the app has not been published, you'll see a "Not published yet" message.  
 
-![Click the story to access the app](../.gitbook/assets/image%20%2830%29.png)
+![Open the draft or published version of an app from the apps page](../.gitbook/assets/image%20%28201%29.png)
 
 To get back to the apps page from any app, click on the Apps button in the app header.
 
-![Click the Apps button to return to the apps page](../.gitbook/assets/image%20%2892%29.png)
+![Click the Apps button to return to the apps page](../.gitbook/assets/image%20%28209%29.png)
 
-### From the app link
+### Using the app link
 
-Each app has a unique link that will take a user directly to the app. For example, the app link for HealthyCo's Unhealthy Americans app is `https://healthyco.juiceboxdata.com/a/unhealthy_americans/`.
-
-## Navigating between stories \(future release\)
+Each app has a unique link that will take a user directly to the app. App links look similar to `https://227-friendly-lemons.juiceboxdata.com/a/movie_trends2/`.
 

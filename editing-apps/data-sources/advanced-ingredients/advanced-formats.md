@@ -4,9 +4,9 @@ The [most commonly used formats](../adding-ingredients/ingredient-formats.md) ar
 
 ## Advanced number formats
 
-You can use  [number formats](https://github.com/d3/d3-format) to adjust how numbers display in your story. For example, let's say you want to display `Overweight %` with 1 decimal. Because the ingredient editor does not include an option to display a percent with 1 decimal, you will need to do this as an advanced ingredient, like so:
+You can use  [number formats](https://github.com/d3/d3-format) to adjust how numbers display in your story. For example, let's say you want to display `Obese %` with 1 decimal. Because the ingredient editor does not include an option to display a percent with 1 decimal, you will need to do this as an advanced ingredient, like so:
 
-![Set format to a percent with 1 decimal](../../../.gitbook/assets/image%20%2848%29.png)
+![Set format to a percent with 1 decimal](../../../.gitbook/assets/image%20%28194%29.png)
 
 Number formats in juicebox have the following parts
 
@@ -660,7 +660,18 @@ Using "ordinal" as a format will
 
 You can use [date formats](https://strftime.org/) to adjust how dates display in your story. For example, let's say you want to display `Year Dates` like "January 1, 2018" \(full month and unpadded day\). If the ingredient editor did not include an option to display this date format, could do this as an advanced ingredient, like so:
 
-![Set date format to full month and unpadded day](../../../.gitbook/assets/image%20%2849%29.png)
+![Set date format to full month and unpadded day](../../../.gitbook/assets/image%20%28233%29.png)
+
+![Set date format to full month and unpadded day](../../../.gitbook/assets/image%20%28233%29.png)
+
+And here are the underlying components:
+
+```text
+kind: Dimension
+field: Year_Date
+singular: Dates
+format: '%B %e, %Y'
+```
 
 ### Date Formatting Examples
 
@@ -672,16 +683,6 @@ You can use [date formats](https://strftime.org/) to adjust how dates display in
 | `"prefix"<%Y-%m-%d>` | dt | prefix2014-01-01 |
 | `"The "<%Y-%m-%d>" Conundrum"` | dt | The 2014-01-01 Conundrum |
 | `<%Y-%m-%d>"suffix"` | dt | 2014-01-01suffix |
-
-Here's an example of what an Advanced Ingredient with custom date formats might look like
-
-```text
-kind: Dimension
-field: Year_Date
-singular: Year Date2
-plural: Year Dates2
-format: '%B %e, %Y'
-```
 
 #### 
 

@@ -100,7 +100,7 @@ Each workspace has at least one **owner**. Owners can do everything admins ****c
 
 Workspace owners and admins can manage users through the People view. At the top of the apps page, owners and admins will see two buttons: **Apps** and **People**. 
 
-![The People button will display on the apps page if you are an owner or admin](../.gitbook/assets/image%20%28117%29.png)
+![The People button will display on the apps page if your are an owner or admin](../.gitbook/assets/image%20%28185%29.png)
 
 Clicking the **People** button will open the People view. 
 

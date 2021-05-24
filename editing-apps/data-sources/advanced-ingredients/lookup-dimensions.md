@@ -5,9 +5,9 @@ If the dimension values in your data are not what you want displayed in your app
 * "Percent of adults aged 18 years and older who have obesity" 
 * "Percent of adults aged 18 years and older who have an overweight classification" 
 
-Instead of those long values, you want to display "Obese" and "Overweight," respectively.  To do that, you would create an advanced ingredient like so:
+Instead of those long values, you want to display "Obese" and "Overweight," respectively.  To do that, you could create an advanced ingredient like so:
 
-![Advanced ingredient: lookup dimension](../../../.gitbook/assets/image%20%2837%29.png)
+![Advanced ingredient: lookup dimension ](../../../.gitbook/assets/image%20%28247%29.png)
 
 To create a lookup dimension, you add the `lookup:` component to the dimension definition. The lookup values need to be indented consistently.
 
@@ -15,8 +15,6 @@ To create a lookup dimension, you add the `lookup:` component to the dimension d
 kind: Dimension
 field: [field]
 singular: [singular label]
-plural: [plural label]
-icon: [icon]
 lookup:
   [value to lookup]: [value to display]
   [value to lookup]: [value to display]

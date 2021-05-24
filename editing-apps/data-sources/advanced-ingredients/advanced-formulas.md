@@ -10,7 +10,7 @@ You can add, subtract, multiply and divide numeric data fields. You can also use
 
 You can perform mathematical operations with data fields and constants. For example, if you have `revenue` and `cost` in your data, you can add a `Profit` measure like so: 
 
-![Measure using subtraction](../../../.gitbook/assets/image%20%2874%29.png)
+![Measure ingredient using subtraction](../../../.gitbook/assets/image%20%28215%29.png)
 
 Here are the underlying components:
 
@@ -18,9 +18,6 @@ Here are the underlying components:
 field: sum(revenue - cost)
 kind: Measure
 format: '$,.0f'
-singular: Profit
-plural: Profit
-icon: sack-dollar
 ```
 
 If you divide by zero, you’ll get a null. If you do not specify an aggregate function, `sum()` will be implied. 
@@ -62,16 +59,14 @@ Conversion functions change the value for a field. It might change to a differen
 
 You can use `+` to concatenate text data fields together. For example, if `LocationDesc` has state names and `LocationAbbr` has state abbreviations, this`States2` dimension will combine state names with state abbreviations to display like `Georgia (GA)`.  
 
-![Field math: concatenation](../../../.gitbook/assets/image%20%2856%29.png)
+![Dimension ingredient using concatenation](../../../.gitbook/assets/image%20%28227%29.png)
 
 Here are the underlying components:
 
 ```text
 kind: Dimension
 field: LocationDesc + " (" + LocationAbbr + ")"
-singular: State2
-plural: States2
-icon: map-marker-alt
+singular: State
 latitude_field: Latitude
 longitude_field: Longitude
 ```
@@ -82,22 +77,19 @@ You must use double quotes in field expressions to define string constants. Sing
 
 If you want to concatenate fields that do not have the `string` data type, you'll need to first convert the field to a string using the [conversion function](advanced-formulas.md#conversion-functions) `string()`. For example, if you want to concatenate `address`, `state`, `city`, and `zip` together, but `zip` is not a string, you'll need to define the ingredient like so:
 
-![](../../../.gitbook/assets/image%20%2890%29.png)
+![Using string\(\) to convert number to string](../../../.gitbook/assets/image%20%28245%29.png)
 
 ## Using multiple aggregation functions
 
 You can combine multiple aggregate functions together. For example, if you have `sales_revenue` and `salesperson_id` in your data, you can add an `Avg Sales per salesperson` measure using the `sum()` and `count()` aggregate functions together like so: 
 
-![Measure uses division and multiple aggregation functions](../../../.gitbook/assets/image%20%2875%29.png)
+![Measure using division and multiple aggregation functions](../../../.gitbook/assets/image%20%28217%29.png)
 
 Here are the underlying components:
 
 ```text
 kind: Measure
 field: sum(total_sales) / count_distinct(salesperson_id)
-singular: Avg Sales per salesperson
-plural: Avg Sales per salesperson
-icon: dollar-sign
 format: ',.2f'
 ```
 

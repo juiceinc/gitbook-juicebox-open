@@ -14,7 +14,7 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Color
 
-* Choose [**a data color**](../app-settings.md#data-color) that resonates with your story topic or company brand. Bolder, vibrant colors tend to be better for this. 
+* Choose [**a data color**]() that resonates with your story topic or company brand. Bolder, vibrant colors tend to be better for this. 
 * Use ****[**section color**](../story-designer/sections.md#section-background-color) backgrounds to define a visual flow for your story. For example, you may want a bold colored introductory section to grab interest, and then use lighter color section backgrounds in the rest of your story that will be less distracting for reading data from charts.  
 * Be sure your **text has good contrast** for readability. If a dark background color is chosen on a section or slice, Juicebox will automatically make your text white.
 * If you do add photos, think about how well the colors compliment the rest of your visuals. 
@@ -22,7 +22,7 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Typography & Styles
 
-* There are 4 [**typographic pair styles**](../app-settings.md#typography) ****to choose from. Choose a set that conveys the mood of your story best. Is the story more opinionated or explanatory? Choose the "Literary" style. Is the story more a statistically accurate report update? You may want to choose "Professional", or "Bold" if you want to make a stronger point.
+* There are 4 [**typographic pair styles**]() ****to choose from. Choose a set that conveys the mood of your story best. Is the story more opinionated or explanatory? Choose the "Literary" style. Is the story more a statistically accurate report update? You may want to choose "Professional", or "Bold" if you want to make a stronger point.
 * Use **large text headers** in Slice text to create titles for your sections. You can use [**Markdown style**](../story-designer/slices/#adding-text) text formatting. Try it by starting a text line with one `#` or two `##` to see how it works. 
 * Use small text for notes about data or guidance tips you would like to communicate to your viewers. Try it with `#####` or surrounding text like this: `~~Here is a data note~~` . You can also `**bold**` or make text `*italic*` .
 * Want to add a bit more😄fun?! While Juicebox doesn't have its own way to insert emojis yet, you can add them yourself [if you know how](https://buffer.com/library/emojis-keyboard-shortcut-mac-windows/#:~:text=How%20to%20add%20emojis%20on%20Windows%3A%20Touch%20keyboard,to%20open%20your%20emoji%20keyboard.). 

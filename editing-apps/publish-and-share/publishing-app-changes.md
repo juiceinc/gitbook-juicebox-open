@@ -8,7 +8,7 @@ Before publishing your app, only editors in your workspace can see the changes y
 
 To publish for the first time, go to the Publish & Share section in the editing panel and click **Publish**. 
 
-![Select &quot;Publish&quot; to publish an app for the first time](../../.gitbook/assets/image%20%28124%29.png)
+![Select Publish to publish an app for the first time](../../.gitbook/assets/image%20%28172%29.png)
 
 Next, select whether you want to publish the app as a **public app** or a **private app**. 
 
@@ -48,13 +48,13 @@ Because all changes are saved to the draft version until they are published, you
   * The Publish & Share section's name will change to Republish & Share, highlighted yellow, if there are any unpublished changes
   * You will see an "Unpublished changes" pill in the app header
 
-![](../../.gitbook/assets/image%20%283%29.png)
-
-
+![](../../.gitbook/assets/image%20%28222%29.png)
 
 ## Discard changes to an app
 
 At some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to the Republish & Share section and select **Discard changes**. 
+
+![Click Discard Changes to discard all changes and revert to the last published version of the app](../../.gitbook/assets/image%20%28206%29.png)
 
 {% hint style="danger" %}
 Discarding changes will discard _**all changes**_ made since the last publishing _i**ncluding changes to data sources**_. 

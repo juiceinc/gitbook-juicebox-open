@@ -6,11 +6,11 @@ From time to time, you may want to update the data for a data source. For exampl
 
 To do this, either drag the new CSV onto the data source—
 
-![](../../.gitbook/assets/replace_drag_n_drop.gif)
+![](../../.gitbook/assets/replace-data.gif)
 
 —or click the **Replace** button next to the data source or in the [data preview](adding-ingredients/#the-data-preview) and select the new CSV.
 
-![Select the Replace button next to the data source](../../.gitbook/assets/image%20%28167%29.png)
+![Select the Replace button next to the data source](../../.gitbook/assets/image%20%28186%29.png)
 
 ![Select the Replace button from the data preview](../../.gitbook/assets/image%20%28169%29.png)
 
@@ -28,7 +28,7 @@ The Replace functionality only updates the data underlying the data source. It d
 
 After replacing data, some of your ingredients may display as pink, striped pills. This indicates that the ingredients are broken. 
 
-![Ingredients that are pink with stripes are broken ingredients](../../.gitbook/assets/image%20%28161%29.png)
+![Ingredients that are pink with stripes are broken ingredients](../../.gitbook/assets/image%20%28218%29.png)
 
 So long as the column names and types in the new CSV are the same as in the old CSV, the ingredients should not break. But if the column names or types have changed, you will need to fix the ingredient definitions.  
 
@@ -40,19 +40,15 @@ If you see the "Couldn't get the data" error message in your app, this means the
 
 ## Update ingredient definitions
 
-To make a change to an ingredient definition, click on the ingredient pill in either the Data Sources or Story Designer sections of the editing panel. This will open up the ingredient editor.  From there, make the desired changes to the ingredient. Keep in mind that some changes may require that you [add an advanced ingredient](advanced-ingredients/).
+To make a change to an ingredient definition, click on the ingredient pill in either the Data Sources or Designer sections of the editing panel. This will open up the ingredient editor.  From there, make the desired changes to the ingredient. Keep in mind that some changes may require that you [add an advanced ingredient](advanced-ingredients/).
 
 ## Delete a data source
 
-If you have a data source that you don't plan to use in your app, you may want to delete the data source to declutter the Data Sources section of the app editor. To do this, open the [data preview](loading-data.md#the-data-preview) for the data source you want to delete and select the ![](../../.gitbook/assets/trash-alt-regular.svg) button, then select **Yes, delete it**. 
+If you have a data source that you don't plan to use in your app, you may want to delete the data source to declutter the Data Sources section of the editing panel. To do this, open the [data preview](loading-data.md#the-data-preview) for the data source you want to delete and select the ![](../../.gitbook/assets/trash-alt-regular.svg) button, then select **Yes, delete it**. 
 
 {% hint style="warning" %}
 You will receive a warning message if the data source ingredients are used in your app. In general, you should not delete a data source that is being used by an app. Doing so will cause all ingredients from the data source to break, i.e., become "broken ingredients." 
 {% endhint %}
 
-![A warning message appears if you attempt to delete a data source that is used in the app](../../.gitbook/assets/image%20%28162%29.png)
-
-{% hint style="warning" %}
-At this time, you cannot delete a data source if any ingredient from the data source is being used in your story.
-{% endhint %}
+![A warning message appears if you attempt to delete a data source that is used in the app](../../.gitbook/assets/image%20%28173%29.png)
 

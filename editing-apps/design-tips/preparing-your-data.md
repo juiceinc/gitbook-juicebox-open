@@ -30,7 +30,11 @@ Values should not span multiple columns or rows. Un-merge any merged cells.
 
 ### 4. Remove extra rows and sheets
 
-Remove any rows above your column header row. Remove any other rows that do not contain data organized into columns \(e.g., footnotes\). If there are any sheets other than the one with your data, remove those. 
+The first row in your data should contain your column headers. Remove any rows above your column header row. Remove any other rows that do not contain data organized into columns \(e.g., footnotes\). If there are any sheets other than the one with your data, remove those. 
+
+{% hint style="info" %}
+If you get the data loading error "At least 1 non-string field required", double check that your first row contains your column headers. 
+{% endhint %}
 
 ### 5. Remove columns you don't need \(optional\)
 
@@ -38,11 +42,15 @@ Columns you don't need can be distracting during data preparation and app buildi
 
 ### 6. Add a numeric column to your data \(if you don't already have one\)
 
-At this time, your data upload will fail if you don't have at least one numeric column in your data. Therefore, if your data does not already have at least one column with numeric data only \(i.e., numbers, with or without decimals, or NULL\), you will need to add one. The numeric data doesn't need to be meaningful. For example, adding a column of all 1s will do the trick.
+At this time, your data upload will fail if you don't have at least one numeric column in your data. Therefore, if your data does not already have at least one column with numeric data only \(i.e., numbers, with or without decimals, or NULL\), you will need to add one. The numeric data doesn't need to be meaningful. For example, adding a column of all 1s will do the trick. 
+
+{% hint style="info" %}
+If you get the data loading error "At least 1 non-string field required", confirm that you have at least one numeric column double check. 
+{% endhint %}
 
 ### 7. Remove rows you don't need
 
-Sometimes your data will contain rows you don't need. For example, let's say your data contains values broken out by state as well as values for the US. Because you can aggregate the state-level values to get the US values, you do not need the US records. Removing unneeded rows will simplify your ingredient definitions later on. 
+Sometimes your data will contain rows you don't need. For example, let's say your data contains values broken out by state as well as values for the US. Because you can aggregate the state-level values to get the US values, you may not need the US records. Removing unneeded rows will simplify your ingredient definitions later on. 
 
 ### 8. Revise column names as needed
 

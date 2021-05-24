@@ -9,25 +9,25 @@ There are two steps to adding a data source:
 1. upload or connect to your data
 2. add your data ingredients
 
-This section covers the first step. \(The second step is covered [here](adding-ingredients/).\) You can upload a CSV or, in a future release, connect to a database table or view or a Google Sheet.
+This section covers the first step. \(The second step is covered [here](adding-ingredients/).\) You can upload a CSV or connect to a database table. \(In a future release, you'll be able to connect to a Google Sheet.\)
 
 ## Upload a CSV
 
 To upload a CSV, navigate to the **Data** section of the editing panel and drag a CSV into the data source box or click **Upload CSV** and  select the CSV file to be uploaded.
 
-![Add a data source by uploading a CSV](../../.gitbook/assets/image%20%28163%29.png)
+![Add data by uploading a CSV](../../.gitbook/assets/image%20%28255%29.png)
 
 {% hint style="warning" %}
 When using CSVs, it is important that your data be nice and clean. Here are some tips for [preparing your data](../design-tips/preparing-your-data.md). 
 {% endhint %}
 
-{% embed url="https://www.loom.com/share/b763db2a4741445bb10d95d7178adab1" %}
+{% embed url="https://www.loom.com/share/b5197f1395024e67a01c151b93da5e4a" caption="Loading data" %}
 
-## Connect to Sample Data
+## Connect to sample data
 
 Juicebox also provides a selection of sample data tables if you want to start exploring before you have your own data. To load sample data, select the **Sample Data** button and choose one of the available datasets. 
 
-![Add a data source by connecting to sample data](../../.gitbook/assets/image%20%28166%29.png)
+![Load data by connecting to sample data](../../.gitbook/assets/image%20%28204%29.png)
 
 Choose a table to get started and select **Add Table**.
 

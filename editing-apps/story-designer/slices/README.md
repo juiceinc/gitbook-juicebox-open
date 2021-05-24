@@ -10,19 +10,19 @@ To add a slice to an empty section, select the **+ Add Slice** button.
 
 To add a slice to a section that has one or more slices, click the **+** where you want the new slice to appear.
 
-![Adding a slice to a section with one or more slice](../../../.gitbook/assets/image%20%2862%29.png)
+![Adding a slice to a section with one or more slices](../../../.gitbook/assets/image%20%28202%29.png)
 
 Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) in the slice you want to duplicate and select **Duplicate** from the dropdown. The new duplicate slice will appear directly below the original slice. 
 
-![Duplicating a slice](../../../.gitbook/assets/image%20%2864%29.png)
+![Duplicating a slice](../../../.gitbook/assets/image%20%28224%29.png)
 
 To delete a slice, select the menu icon \(![](../../../.gitbook/assets/ellipsis-h-solid.svg)\) in the slice you want to delete and select **Delete** from the dropdown. 
 
-![Deleting a slice](../../../.gitbook/assets/image%20%2861%29.png)
+![Deleting a slice](../../../.gitbook/assets/image%20%28182%29.png)
 
 ## Slice content
 
-Slices can contain text, a chart, or both a chart and text.
+Slices can contain text only, a chart only, or both a chart and text.
 
 ### Adding text
 
@@ -114,15 +114,13 @@ To add text to a slice, simply type in the text area. The text area supports mos
   </tbody>
 </table>
 
-
-
-![Use Markdown to add text, links, and images](../../../.gitbook/assets/image%20%2859%29.png)
+![Use Markdown to add text, links, and images](../../../.gitbook/assets/image%20%28179%29.png)
 
 ### Adding a chart
 
-To add a chart to a slice, select the **+Chart** button and select the desired [chart](../charts/) from the list. 
+To add a chart to a slice, select the **Add Chart** button and select the desired [chart](../charts/) from the list. 
 
-![](../../../.gitbook/assets/image%20%2863%29.png)
+![Click the Add Chart button to a add a chart to a slice ](../../../.gitbook/assets/image%20%28181%29.png)
 
 ## Reordering slices
 

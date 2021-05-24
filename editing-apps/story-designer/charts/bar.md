@@ -7,11 +7,17 @@ The bar chart displays a dimension ranked by a measure. Adding a slice with a ba
 To add a bar slice:
 
 * select **Bar** from the chart list
-* select the dimension with your categories you want to compare
-* choose the measure you want to use to make the comparison
-* \(optional\) add a title
 
-{% embed url="https://www.loom.com/share/cd560edd28cb46ebbaac7971c03644ad" caption="Adding a bar chart" %}
+![](../../../.gitbook/assets/image%20%28236%29.png)
+
+* select the dimension to use for the bars
+* select the measure you want to use for the bar width
+* add slice text \(optional\)
+* click **Save**
+
+![](../../../.gitbook/assets/image%20%28243%29.png)
+
+{% embed url="https://www.loom.com/share/7073bf10534d40e5bb25be1f31bc1737" caption="Adding a bar chart" %}
 
 ## Using a bar slice
 

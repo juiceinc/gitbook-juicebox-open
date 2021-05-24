@@ -2,8 +2,28 @@
 
 ## What's coming soon?
 
-* Easier editing and home page navigation.
 * Improved color themes and easy-to-add images.
+* Improved data loading.
+
+## May 24, 2021
+
+### 🎁 What's new?
+
+* **Redesigned Apps Page**. The apps page is that special place you keep all your creations. So we decided to love on it some and give it the features it's been deserving:
+  * **Sort your apps** — Sort the apps in your workspace based on _date edited_, _date published_, and \(of course\) _alphabetically._
+  * **Search your apps** — Find that app you created by searching for text in the title and description.
+  * **Know your apps** — Finally, more information about app publish status is on the apps page.
+  * **😍 your apps** — The app layout is more beautiful. Oh yeah, and it uses less space. _A lot_ less.
+
+![](.gitbook/assets/new_apps_page.gif)
+
+* **Simplified \(fewer\) Editor Tabs** — The configuration options in the Settings tab have been consolidated into the "Designer" tab in the Editor. So, from now on, that's where you'll be setting the Settings settings.
+
+### 🐛 Bug fixes & other improvements
+
+* 🕵️‍♀️Better recognition of the delimiter that is used in delimited CSV files.
+* A profile popup to change your name or your password. 
+* More performance and bug fixes.
 
 ## April 30, 2021
 
@@ -75,7 +95,7 @@
 ### 🎁 What's new?
 
 * **Sign up for a workspace.** Now you \(and all your friends\) can [create your own __workspace](getting-started/new-workspace.md). Why would you want your own workspace? Perhaps you want to do some data presentation work for that non-profit you're helping out with. Or maybe you have an idea for a data reporting side-gig. Whatever data-prez itch you have, now you can create a separate workspace to put it in. _Juicebox all-the-things!_
-* **Duplicate an app.** If you want to create a new app that is similar to an existing app, you can [duplicate it](editing-apps/app-settings.md#duplicating-an-app).
+* **Duplicate an app.** If you want to create a new app that is similar to an existing app, you can [duplicate it]().
 
 ![Duplicate an app](.gitbook/assets/screen_recording_2020-12-16_at_12.23.23_pm.gif)
 

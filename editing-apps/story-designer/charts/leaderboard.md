@@ -6,13 +6,17 @@ The leaderboard chart displays which dimensions rank at the top \(or bottom\) ac
 
 To add a leaderboard slice:
 
-* select **Leaderboard** from the chart list
+* select **Leaderboard** from the chart list 
+
+![](../../../.gitbook/assets/image%20%28175%29.png)
+
 * select the dimension you want to be ranked
 * select the measures by which you want to rank the dimension
 * select the max rows
-* \(optional\) add a title
+* add slice text \(optional\)
+* click **Save**
 
-{% embed url="https://www.loom.com/share/270a4471feab4a8d96ce5bfef14291bb" caption="Adding a leaderboard slice" %}
+{% embed url="https://www.loom.com/share/78c8a8a487044fffafeed1e34d3c87bd" caption="Adding a leaderboard slice" %}
 
 ## Using a leaderboard slice
 

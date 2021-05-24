@@ -7,11 +7,17 @@ The table chart displays selected ingredients as columns in a table. Adding a sl
 To add a table slice:
 
 * select **Table** from the chart list
-* select the ingredients you want displayed in the table in the order you want them displayed
-* choose whether you want users to be able to download the data
-* \(optional\) add a title
 
-{% embed url="https://www.loom.com/share/efb4e37e69af47fe9f14b7e1f7a3e4bc" caption="Adding a table slice" %}
+![](../../../.gitbook/assets/image%20%28210%29.png)
+
+* select the ingredients you want displayed in the table in the order you want them displayed 
+* choose whether you want users to be able to download the data
+* add slice text \(optional\)
+* click **Save**
+
+![](../../../.gitbook/assets/image%20%28183%29.png)
+
+{% embed url="https://www.loom.com/share/a6fdd83d93a7414b85f4663cae48fd5a" caption="Adding a table slice" %}
 
 ## Using a table slice
 

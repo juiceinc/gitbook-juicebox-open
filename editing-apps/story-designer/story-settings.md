@@ -1,28 +1,54 @@
-# Story Settings
+# Settings & Theme
 
-The Story Settings section at the top of the Story Designer is where you set up basic information about your story, including title, description, color, and icon.  Click directly on any of those details to edit them.
+The Settings & Theme section at the top of the Designer is where you can modify the basic settings for your app \(title, description, icon\), as well as the color and typography themes. Here you can  also delete or duplicate an app. 
 
-![Story Settings](../../.gitbook/assets/image%20%2847%29.png)
+To do this, first expand the  Settings & Theme section. Make changes as needed, and then click **Save**. 
 
+![The Settings &amp; Themes section, expanded.](../../.gitbook/assets/image%20%28231%29.png)
 
+## Settings
 
-## Title
+### Title
 
-This is the title for the story. It will appear on the apps page. By default it will be the same as the app title. The story title should be brief, ideally one or two words.
+The title appears in the apps page and app header. Aim to keep this short, ideally 1-2 words.
 
-## Description
+### Description
 
-This is the description for the story. It will appear on the apps page. By default it will be the same as the app description. The story description should provide a bit more detail about the story, ideally a phrase or two.
+The description appears in the apps page. Here's where you add a bit more detail about your app. Aim to keep it at a sentence or a few phrases in length.
 
-## Color
+### Icon
 
-This sets the primary color for your story, and will be used as the background color of the story on the apps page, as well as the color of the story header.
+This is the icon that will appear on the apps page. Each app starts with a basic icon.
 
-## Icon
+## Themes
 
-This is the icon that will appear on the apps page for the story. Each story starts with a basic icon.
+### Color theme
 
-## Image \(future release\)
+Choose the color to use primary thematic color of your app. This color will appear in the apps page, app header, and charts. 
 
-Instead of a color, you can opt to have an image for the story. This will be appear on the apps page as a background image for the story. 
+### Typography theme
+
+Choose a typographic style for your app.
+
+### Image background \(future release\)
+
+In a future release, you will be able to select an image to use as the app background, instead of the color.
+
+{% hint style="info" %}
+Changes to settings and themes must be published before they will appear on the apps page.
+{% endhint %}
+
+## More Actions
+
+### Deleting an app
+
+To delete an app, click the menu icon \(![](../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Delete App**. 
+
+![Select Delete App to delete an app](../../.gitbook/assets/image%20%28214%29.png)
+
+### Duplicating an app
+
+To duplicate an app, click the menu icon \(![](../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate App**. Then give your new app a title and select **Duplicate**. Once the new app is created it will open as a draft version, ready for you to make edits and publish.
+
+![Select Duplicate App to duplicate an app](../../.gitbook/assets/image%20%28178%29.png)
 

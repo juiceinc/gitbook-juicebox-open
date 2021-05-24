@@ -7,13 +7,19 @@ The scatterplot chart displays a dimension as a bubble plotted at the intersecti
 To add a scatterplot slice:
 
 * select **Scatterplot** from the chart list
-* select the dimension you want to display as a bubble 
-* select the x-axis and y-axis measures
-* \(optional\) select a measure to use for the bubble size
-* select the number of regions
-* \(optional\) add a title
 
-{% embed url="https://www.loom.com/share/c58b38b332614986be6ee5ccf964ac5a" caption="Adding a scatterplot slice" %}
+![](../../../.gitbook/assets/image%20%28203%29.png)
+
+* select the dimension you want to display as a bubble
+* select the x- and y-axis measures
+* select the measure to use for the bubble size \(optional\)
+* select the number of regions
+* add slice text \(optional\)
+* click **Save**
+
+![](../../../.gitbook/assets/image%20%28246%29.png)
+
+{% embed url="https://www.loom.com/share/0d0a15f66c484896869a7d88e991a2ba" caption="Adding a scatterplot slice" %}
 
 ## Using a scatterplot slice
 
