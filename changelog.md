@@ -9,7 +9,7 @@
 
 ### 🎁 What's new?
 
-* **Redesigned Apps Page**. The apps page is that special place you keep all your creations. So we decided to love on it some and give it the features it's been deserving:
+* **Redesigned Apps Page**. The apps page is that special place you keep all your creations. So we decided to give it some love and add features that it’s been deserving:
   * **Sort your apps** — Sort the apps in your workspace based on _date edited_, _date published_, and \(of course\) _alphabetically._
   * **Search your apps** — Find that app you created by searching for text in the title and description.
   * **Know your apps** — Finally, more information about app publish status is on the apps page.
@@ -17,11 +17,11 @@
 
 ![](.gitbook/assets/new_apps_page.gif)
 
-* **Simplified \(fewer\) Editor Tabs** — The configuration options in the Settings tab have been consolidated into the "Designer" tab in the Editor. So, from now on, that's where you'll be setting the Settings settings.
+* **Simplified \(fewer\) Editor Tabs** — The configuration options in the Settings tab have been consolidated into the Designer tab of the Editing Panel to help keep everything simple. So, from now on, that's where you'll be setting the Settings settings.
 
 ### 🐛 Bug fixes & other improvements
 
-* 🕵️‍♀️Better recognition of the delimiter that is used in delimited CSV files.
+* 🕵️‍♀️Better recognition of the delimiter that is used in CSV files.
 * A profile popup to change your name or your password. 
 * More performance and bug fixes.
 
