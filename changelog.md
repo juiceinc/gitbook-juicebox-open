@@ -5,7 +5,7 @@
 * Rich text editing.
 * Improved color themes.
 
-## June \[12\], 2021
+## June 15, 2021
 
 ### 🎁 What's new?
 
