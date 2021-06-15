@@ -6,7 +6,7 @@ Slices are the basic building blocks of your story. Slices are added to [section
 
 To add a slice to an empty section, select the **+ Add Slice** button. 
 
-![](../../../.gitbook/assets/screen-shot-2020-07-14-at-9.58.01-am.png)
+![](../../../.gitbook/assets/image%20%28260%29.png)
 
 To add a slice to a section that has one or more slices, click the **+** where you want the new slice to appear.
 
@@ -20,9 +20,17 @@ To delete a slice, select the menu icon \(![](../../../.gitbook/assets/ellipsis-
 
 ![Deleting a slice](../../../.gitbook/assets/image%20%28182%29.png)
 
+## Slice placeholders
+
+Charts show sample data until you choose what data your chart will show. This lets you explore what kind of story you want to tell even though you may not be sure what data you need.
+
+You can interact with a chart while it is showing sample data.
+
+![This map is showing sample data until you configure it](../../../.gitbook/assets/image%20%28266%29.png)
+
 ## Slice content
 
-Slices can contain text only, a chart only, or both a chart and text.
+Slices can contain text only, a chart or image only, or a combination of text and  a chart, or text and an image.
 
 ### Adding text
 
@@ -102,11 +110,6 @@ To add text to a slice, simply type in the text area. The text area supports mos
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Image</td>
-      <td style="text-align:left"><code>![Alternate image text](image.jpg)</code>
-      </td>
-    </tr>
-    <tr>
       <td style="text-align:left">Link</td>
       <td style="text-align:left"><code>[title](https://www.example.com)</code>
       </td>
@@ -122,23 +125,31 @@ To add a chart to a slice, select the **Add Chart** button and select the desire
 
 ![Click the Add Chart button to a add a chart to a slice ](../../../.gitbook/assets/image%20%28181%29.png)
 
+### Adding an image
+
+To add an image to a slice, select the **Add Image** button and either upload your own image or find an image on Unsplash. 
+
+![](../../../.gitbook/assets/image%20%28261%29.png)
+
 ## Reordering slices
 
-To reorder slices, hover over the slice and put the cursor over the handle icon \( ![](../../../.gitbook/assets/screen-shot-2020-07-17-at-4.21.42-pm.png) \) until the cursor becomes a hand. Then click and drag the slice and drop it where you want it to display.
+To reorder slices, grab the ![](../../../.gitbook/assets/expand-arrows-alt-solid.svg) icon on the slice you want to move, then drag and drop the slice where you want it to display. 
+
+![](../../../.gitbook/assets/image%20%28258%29.png)
 
 ## Slice layouts
 
-There are four layout options for slices that control how slice text will appear in relation to the chart. To adjust the layout, hover over the slice, click the layout icon, and select the desired layout option.
+There are four layout options for slices that control how slice text will appear in relation to the chart or image. To adjust the layout, hover over the slice, click the layout icon, and select the desired layout option.
 
 | Icon | Layout option | Description |
 | :--- | :--- | :--- |
-| ![](../../../.gitbook/assets/arrow-down-solid.svg)  | Top to bottom | The slice text will display above the chart. This is the default layout. |
-| ![](../../../.gitbook/assets/arrow-up-solid.svg)  | Bottom to top | The slice text will display below the chart. |
-| ![](../../../.gitbook/assets/arrow-right-solid%20%281%29.svg)  | Left to right | The slice text will display to the left of the chart. |
-| ![](../../../.gitbook/assets/arrow-left-solid.svg)  | Right to left | The slice text will display to the right of the chart. |
+| ![](../../../.gitbook/assets/arrow-up-solid.svg)  | Text above | The slice text will display above the chart or image. This is the default layout |
+| ![](../../../.gitbook/assets/arrow-left-solid.svg) | Text on left | The slice text will display to the left of the chart or image. |
+| ![](../../../.gitbook/assets/arrow-right-solid%20%281%29.svg)  | Text on right | The slice text will display to the right of the chart or image. |
+| ![](../../../.gitbook/assets/arrow-down-solid.svg)  | Text below | The slice text will display below the chart or image.  |
 
 {% hint style="info" %}
-For text-only slices, each layout will display the same. 
+For text-only slices, changing the layout will have no effect. 
 {% endhint %}
 
 ## Slice backgrounds

@@ -30,7 +30,7 @@
     * [Multiple data sources](editing-apps/story-designer/slices/working-with-multiple-data-sources.md)
   * [Charts](editing-apps/story-designer/charts/README.md)
     * [Filters](editing-apps/story-designer/charts/filters.md)
-    * [Data Cards](editing-apps/story-designer/charts/data-card.md)
+    * [Data Chooser](editing-apps/story-designer/charts/data-card.md)
     * [Table](editing-apps/story-designer/charts/table.md)
     * [Bar](editing-apps/story-designer/charts/bar.md)
     * [Scatterplot](editing-apps/story-designer/charts/scatterplot.md)
@@ -52,7 +52,7 @@
 
 * [Signing In](viewing-apps/signing-in.md)
 * [Navigating Apps](viewing-apps/navigating-apps.md)
-* [Data Flow](viewing-apps/data-flow.md)
+* [Understanding Data Flow](viewing-apps/data-flow.md)
 
 ## Managing Users
 

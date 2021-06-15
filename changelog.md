@@ -2,14 +2,30 @@
 
 ## What's coming soon?
 
-* Improved color themes and easy-to-add images.
-* Improved data loading.
+* Rich text editing.
+* Improved color themes.
+
+## June \[12\], 2021
+
+### 🎁 What's new?
+
+* **Easy-to-add images**.  Juicebox's new image upload capability lets you easily add images to your Juicebox app -- no more cryptic code.  And, you can make an even bigger splash with the [Unsplash ](https://unsplash.com/)integration. Now, go image like a pro 📸.
+
+![](.gitbook/assets/add_an_image.gif)
+
+* **Add a chart even if you don't have data.** No data? No problem! Now when you click "Add a Chart" and select a chart type, you'll see an example of that chart in your app. Even if you don't yet have all the data that chart requires, it will still display _and_ be interactive. So, now you can build your data story and _then_ go find the data that tells your story. That's one more blocker to frictionless storytelling _eliminated!_ 🥊
+
+### 🐛 Bug fixes & other improvements
+
+* An improved Designer tab in the editing panel.
+* Smarter data loading, particularly for European file formats.
+* More performance and bug fixes.
 
 ## May 24, 2021
 
 ### 🎁 What's new?
 
-* **Redesigned Apps Page**. The apps page is that special place you keep all your creations. So we decided to give it some love and add features that it’s been deserving:
+* **A redesigned Apps page**. The apps page is that special place you keep all your creations. So we decided to give it some love and add features that it’s been deserving:
   * **Sort your apps** — Sort the apps in your workspace based on _date edited_, _date published_, and \(of course\) _alphabetically._
   * **Search your apps** — Find that app you created by searching for text in the title and description.
   * **Know your apps** — Finally, more information about app publish status is on the apps page.
@@ -17,7 +33,7 @@
 
 ![](.gitbook/assets/new_apps_page.gif)
 
-* **Simplified \(fewer\) Editor Tabs** — The configuration options in the Settings tab have been consolidated into the Designer tab of the Editing Panel to help keep everything simple. So, from now on, that's where you'll be setting the Settings settings.
+* **Simplified Editor Tabs** — The options in the Settings tab have been moved into the Designer tab of the Editing Panel to help keep everything simple. So, from now on, that's where you'll be setting the Settings settings.
 
 ### 🐛 Bug fixes & other improvements
 
