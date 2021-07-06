@@ -24,6 +24,7 @@
   * [Managing data sources](editing-apps/data-sources/edit-a-data-source.md)
 * [Designer](editing-apps/story-designer/README.md)
   * [Settings & Theme](editing-apps/story-designer/story-settings.md)
+  * [Header Style](editing-apps/story-designer/header-style.md)
   * [Sections](editing-apps/story-designer/sections.md)
   * [Slices](editing-apps/story-designer/slices/README.md)
     * [Dynamic text](editing-apps/story-designer/slices/dynamic-text.md)

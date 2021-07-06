@@ -4,11 +4,12 @@ The Designer section of the editing panel is where you design your data story. A
 
 To access the Designer section, select the **Designer** tab at the top of the editing panel. 
 
-![Select &quot;Designer&quot; to access the Designer section of the editing panel](../../.gitbook/assets/image%20%28229%29.png)
+![Select &quot;Designer&quot; to access the Designer section of the editing panel](../../.gitbook/assets/image%20%28270%29.png)
 
 There are several components you will be working with in the Designer. They are:
 
 * Settings & Theme
+* Header Style
 * Sections
 * Slices
 * Charts

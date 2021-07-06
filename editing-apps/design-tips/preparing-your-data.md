@@ -82,8 +82,6 @@ Numeric columns should only contain numbers or nulls. Anything else will prevent
 
 Date columns should only contain dates or nulls. Dates should be formatted like MM-DD-YYYY, MM/DD/YYYY, or YYYY-MM-DD. While true nulls \(i.e., empty cells\) are ok, words like "null" or "blank" are not.
 
-Any time periods in your data should include day, month, and year. For example, if you have a **Year** column in your data, the values should look like `2018-01-01`, rather than `2018`. \(Otherwise, the **Year** column will be considered a numeric column.\) 
-
 ### 13. Add latitude and longitude
 
 If you want to use the [map](../story-designer/charts/map.md) slice, you will need to have latitude and longitude columns in your data. If you need to add them, we recommend using [this process in Google Sheets](https://discourse.looker.com/t/get-latitude-longitude-for-any-location-through-google-sheets-and-plot-these-in-looker/5402). 

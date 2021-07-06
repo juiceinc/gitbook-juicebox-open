@@ -2,8 +2,23 @@
 
 ## What's coming soon?
 
-* Rich text editing.
-* Improved color themes.
+* Rich text editing!! What? Yep, you'll no longer have to use Markdown \(unless you want to.\)
+* Improved color themes. More colors -- but only the good looking ones.
+* Team subscription plan, which allows a custom subdomain, more than 3 workspace users, and more than 1,000 public app page views per month.
+
+## July 6, 2021
+
+### 🎁 What's new?
+
+* **Header styles.**  We've added three pre-formatted options for your app's header: small, medium, and large. Feeling bold? You can turn those off and do your own thing. _Vive la différence!_
+
+![](.gitbook/assets/header-style.gif)
+
+### 🐛 Bug fixes & other improvements
+
+* The Help menu now has links to Documentation, Help articles, and other resources.
+* "Automagically" adding ingredients now adds a time ingredient for year columns.
+* Improved data loading now catches even more issues \(so you don't have to\).
 
 ## June 15, 2021
 

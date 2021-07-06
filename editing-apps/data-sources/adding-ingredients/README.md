@@ -24,7 +24,8 @@ After uploading or connecting to your data, decide how to add your ingredients.
 Adding ingredients "automagically" allows you to quickly add ingredients so you can dive into designing your story. To add ingredients automagically, select the **Automagically** button. Juicebox will inspect the  fields in your data and create an ingredient for each based on its best guess, according to these rules:
 
 * If the field contains only numeric values, a [**measure**](./#measure-ingredient) ingredient will be created.
-* If the field contains only date values, a [**time**](./#time-ingredient) ****dimension ingredient will be created.
+* If the field contains only date values, a [**time**](./#time-ingredient) **** ingredient will be created.
+* If the field contains a numeric values that appear to be years, both a measure ingredient and a time ingredient will be created. 
 * If the field contains values other than numeric or date values, a [**dimension**](./#dimension-ingredient) ingredient will be created. 
 
 The automagically added ingredients are just a starting point. You can revise them later using the [**ingredient editor**](./#ingredient-editor).  
@@ -33,9 +34,7 @@ The automagically added ingredients are just a starting point. You can revise th
 
 ## Adding ingredients manually
 
-Sometimes the ingredients created through the automagic method will not be what you need. For example, let's say you have `year`  in your data. Because the `year` values are numbers, the automagic method will create a new measure ingredient. But you will probably want a dimension ingredient instead.
-
-To have more control over ingredient definitions, you can add ingredients manually by selecting the **Manually** button \(which will open the the [data preview](./#the-data-preview)\) or select the **Manage** button next to the data source to open the data preview. From there,
+Sometimes the ingredients created through the automagic method will not be what you need. To have more control over ingredient definitions, you can add ingredients manually by selecting the **Manually** button \(which will open the the [data preview](./#the-data-preview)\) or select the **Manage** button next to the data source to open the data preview. From there,
 
 1. click the **+** next to the field you want to use in the new ingredient
 2. select the type of ingredient you want to create from the available options

@@ -4,7 +4,7 @@ The Settings & Theme section at the top of the Designer is where you can modify 
 
 To do this, first expand the  Settings & Theme section. Make changes as needed, and then click **Save**. 
 
-![The Settings &amp; Themes section, expanded.](../../.gitbook/assets/image%20%28231%29.png)
+![The Settings &amp; Theme section, expanded](../../.gitbook/assets/image%20%28271%29.png)
 
 ## Settings
 
