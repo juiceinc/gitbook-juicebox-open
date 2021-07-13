@@ -8,7 +8,7 @@ Data preparation is tedious and time-consuming. We get it. But unless the data i
 * Complete. All the values you need are in the data. 
 * Consistent. Data in a column should be of the same type. Number columns should contain only numbers. Date columns should contain only dates. 
 * Clean. Number formatting, leading and trailing spaces, carriage returns, and other weird values \(e.g., "\#N/A" and "\#ERROR"\) are removed. 
-* Column headers. The first row of your data should be your column header row. Column names should have letters, spaces, or underscores, and nothing else. 
+* Column headers. The first row of your data should be your column header row. Column names should have letters, spaces, or underscores, and nothing else. Each column header should be unique.
 
 ![An example of properly prepared data](../../.gitbook/assets/image%20%28158%29.png)
 
@@ -54,7 +54,7 @@ Sometimes your data will contain rows you don't need. For example, let's say you
 
 ### 8. Revise column names as needed
 
-Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels in the ingredients you [add automagically](../data-sources/adding-ingredients/#adding-ingredients-automagically), so better column names mean less work for you when defining ingredients. 
+The first row of your data should contain your column names. Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels in the ingredients you [add automagically](../data-sources/adding-ingredients/#adding-ingredients-automagically), so better column names mean less work for you when defining ingredients. Each column name should be unique. 
 
 ### 9. Restructure data as needed <a id="h_f12bd5a4c0"></a>
 
