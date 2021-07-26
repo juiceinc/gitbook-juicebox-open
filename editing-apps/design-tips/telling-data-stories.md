@@ -110,7 +110,7 @@ Within slices, you can also choose the layout of the text relative to a visualiz
 
 ### ![](../../.gitbook/assets/check-square-solid.svg) Breaking up your story into sections, visual breaks
 
-A data story will often have multiple sections, perhaps reflecting the [three-parts of a story](telling-data-stories.md#story-structure). In Juicebox, you can make visual breaks between sections using color. Find the color selector on the top of each section in the Story Designer. By visually breaking up your sections, you’ll help your readers understand where the logical breaks are in your story.
+A data story will often have multiple sections, perhaps reflecting the [three-parts of a story](telling-data-stories.md#story-structure). In Juicebox, you can make visual breaks between sections using color. Find the color selector on the top of each section on the Design tab. By visually breaking up your sections, you’ll help your readers understand where the logical breaks are in your story.
 
 ![](../../.gitbook/assets/image%20%2868%29.png)
 
