@@ -1,63 +1,60 @@
-# Publishing app changes
+# Sharing changes to your app
 
-## Publishing an app
+## Sharing an app
 
-Before publishing your app, only editors in your workspace can see the changes you've made. When you're ready to share your work with viewers, it's time to publish. 
+Before you start sharing your app, only editors in your workspace will see the changes you've made. When you're ready, it's time to share your work with viewers.
 
-### Publishing for the first time
+### Sharing for the first time
 
-To publish for the first time, go to the Publish & Share section in the editing panel and click **Publish**. 
+To publish for the first time, go to Share in the editing panel and click **Start Sharing**.
 
-![Select Publish to publish an app for the first time](../../.gitbook/assets/image%20%28172%29.png)
+![](../../.gitbook/assets/share_panel.jpg)
 
-Next, select whether you want to publish the app as a **public app** or a **private app**. 
+Next, decide whether you want to share the app **publicly** or **privately**.
 
-* A public app can be viewed by anyone with the app link. Viewers of public apps are not required to sign in and their app access cannot be managed.  
-* A private app can be viewed only by those that have signed in with an account that has access to the app. Viewer access to the app can be [managed in the People view](../../managing-users/user-management-and-roles.md).
+* A **public app** can be viewed by anyone with the app url. Viewers of public apps are not required to sign in and their app access cannot be managed. 
+* A **private app** can be viewed only by those that have signed in with a Juicebox account that has access to the app. Viewer access to the app can be [managed in the People view](../../managing-users/user-management-and-roles.md).
 
 ![Select whether to publish as a public or private app](../../.gitbook/assets/image%20%28113%29.png)
 
 {% hint style="info" %}
- If your app contains information that not everyone should see, you should publish it as a private app. If your app does not contain sensitive information, you may not have certainty at the outset whether you want the app to be public or private. That's ok! Just select one and change it later as needed. 
+If your app contains information that not everyone should see, you should publish it as a private app. If your app does not contain sensitive information, you may not know whether you want the app to be public or private. That's ok! Just select one and change it later as needed. 
 {% endhint %}
 
 After publishing, you are ready to [share your app](sharing-and-access-controls.md). 
 
-### Republishing
+### Handling changes after sharing
 
-Changes made after the first publishing will not be seen by viewers until they are republished. When you make changes to the app, the Publish & Share section's name will change to **Republish & Share**. To republish, go to the Republish & Share section and click **Republish changes**. 
+New changes made after you share will not be seen by viewers until you chose to share them. To share the newest changes, click **Share changes**.
 
-![Viewers will not see your changes until you select &quot;Republish changes&quot;](../../.gitbook/assets/image%20%28126%29.png)
+![Viewers will not see your newest changes until you select &quot;Share changes&quot;](../../.gitbook/assets/pending_changes3.jpg)
 
 ## Making changes to an app
 
-Any changes you make to an app are automatically saved to a draft version of the app that only editors can see. Viewers who have already been given access will not see your changes until you publish them. You publish, refine your app, republish, refine some more, republish, and so on. In this way, you can continually improve and experiment with your app without disturbing viewers. 
+Any changes you make to an app are only visible to editors. Viewers who have already been given access won't see your changes until you are ready to share them. With Juicebox, you can share, refine your app, share the new changes, refine some more, share the new changes, and so on. You can continually improve and experiment without affecting what viewers see.
 
 {% hint style="info" %}
-**Edit freely** - you can always [discard changes](https://juicebox.gitbook.io/juicebox/authoring-apps/publish-and-share/publishing-app-changes#discard-changes-to-an-app), to return to the last published version of the app.
+**Edit freely** - you can always [discard changes](https://juicebox.gitbook.io/juicebox/authoring-apps/publish-and-share/publishing-app-changes#discard-changes-to-an-app), to return to the last version of the app that you shared with viewers.
 {% endhint %}
 
-Because all changes are saved to the draft version until they are published, you do not have to keep track of whether you are working in the draft version. But here are indicators that you are in the draft version:
+The version  of the app that editors work on is called the **draft version**. All changes are saved to the draft version until they are shared, you do not have to keep track of whether you are working in the draft version. Here are indicators that you are in the draft version:
 
-* You will see "draft" in the app link
+* You will see "draft" in the app url
 * You will see the editing panel
-* Prior to first publishing:
-  * You will see "There are unpublished changes..." in Publish & Share
-  * You will see an "Unpublished" pill in the app header
 * After first publishing:
-  * The Publish & Share section's name will change to Republish & Share, highlighted yellow, if there are any unpublished changes
-  * You will see an "Unpublished changes" pill in the app header
+  * If there are any unshared changes, the Share section's name be highlighted in yellow
+  * You will see an "Pending changes" pill in the app header
 
-![](../../.gitbook/assets/image%20%28222%29.png)
+![An app with pending changes](../../.gitbook/assets/an_app_with_pending_changes.jpg)
 
 ## Discard changes to an app
 
-At some point you may want to discard all the unpublished changes in the draft version and go back to the published version. To do this, go to the Republish & Share section and select **Discard changes**. 
+At some point you may want to discard all the unshared changes in the draft version and go back to the previously shared version. To do this, go to the Share section and select **Discard changes**. 
 
-![Click Discard Changes to discard all changes and revert to the last published version of the app](../../.gitbook/assets/image%20%28206%29.png)
+![Discard changes will go back to the previously shared version.](../../.gitbook/assets/discard_changes.jpg)
 
 {% hint style="danger" %}
-Discarding changes will discard _**all changes**_ made since the last publishing _i**ncluding changes to data sources**_. 
+Discarding changes will discard **all changes** made since the last share _**including changes**_ **to data sources.** 
 {% endhint %}
 
 

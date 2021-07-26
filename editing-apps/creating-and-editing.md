@@ -38,7 +38,7 @@ Learn more about [how to manage app changes](publish-and-share/publishing-app-ch
 
 ![Parts of a draft app](../.gitbook/assets/image%20%28220%29.png)
 
-There are three editing panel sections: [Data Sources](data-sources/), [Designer](story-designer/), and [Publish & Share](publish-and-share/). These sections are accessed from the buttons at the top of the editing panel and are described on the following pages:
+There are three editing panel sections: [Data](data-sources/), [Design](story-designer/), and [Share](publish-and-share/). These sections are accessed from the buttons at the top of the editing panel and are described on the following pages:
 
 {% page-ref page="data-sources/" %}
 
@@ -48,5 +48,5 @@ There are three editing panel sections: [Data Sources](data-sources/), [Designer
 
 ## Delete an app
 
-[Deleting an app](story-designer/story-settings.md#deleting-an-app) is done from **Designer** section, under **Settings & Themes**. 
+[Deleting an app](story-designer/story-settings.md#deleting-an-app) is done from **Design** section, under **Settings & Themes**. 
 

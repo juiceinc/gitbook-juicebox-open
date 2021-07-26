@@ -1,17 +1,16 @@
 ---
 description: >-
-  The Publish & Share section of the editing panel is where you publish (or
-  republish) the changes you've made to your app and where you share your app
-  with others.
+  The Share section of the editing panel is where you decide how to share your
+  app with others.
 ---
 
-# Publish & Share
+# Share
 
-To access the Publish & Share section, select the **Publish & Share** button \(or **Republish & Share** button\) at the top of the editing panel. 
+To access Share section, select the **Share** button at the top of the editing panel. 
 
-![The Publish &amp; Share section of the editing panel](../../.gitbook/assets/image%20%28237%29.png)
+![It&apos;s time to share](../../.gitbook/assets/share_panel.jpg)
 
- The following pages describe the functionality of the Publish & Share section:
+ The following pages describe the functionality of the Share section:
 
 {% page-ref page="publishing-app-changes.md" %}
 

@@ -1,10 +1,10 @@
 # Settings & Theme
 
-The Settings & Theme section at the top of the Designer is where you can modify the basic settings for your app \(title, description, icon\), as well as the color and typography themes. Here you can  also delete or duplicate an app. 
+The Settings & Theme section at the top of the Design section is where you can modify the basic settings for your app \(title, description, icon\), as well as the color and typography themes. Here you can  also delete or duplicate an app. 
 
 To do this, first expand the  Settings & Theme section. Make changes as needed, and then click **Save**. 
 
-![The Settings &amp; Theme section, expanded](../../.gitbook/assets/image%20%28271%29.png)
+![The Settings &amp; Theme section, expanded](../../.gitbook/assets/design_options.jpg)
 
 ## Settings
 
@@ -24,7 +24,7 @@ This is the icon that will appear on the apps page. Each app starts with a basic
 
 ### Color theme
 
-Choose the color to use primary thematic color of your app. This color will appear in the apps page, app header, and charts. 
+Choose the color to use primary color of your app. This color will appear in the apps page, app header, and charts. 
 
 ### Typography theme
 
@@ -44,11 +44,11 @@ Changes to settings and themes must be published before they will appear on the 
 
 To delete an app, click the menu icon \(![](../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Delete App**. 
 
-![Select Delete App to delete an app](../../.gitbook/assets/image%20%28214%29.png)
+![Select Delete App to delete an app](../../.gitbook/assets/delete_app.jpg)
 
 ### Duplicating an app
 
 To duplicate an app, click the menu icon \(![](../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate App**. Then give your new app a title and select **Duplicate**. Once the new app is created it will open as a draft version, ready for you to make edits and publish.
 
-![Select Duplicate App to duplicate an app](../../.gitbook/assets/image%20%28178%29.png)
+![Select Duplicate App to duplicate an app](../../.gitbook/assets/duplicate_app.jpg)
 

@@ -58,7 +58,7 @@ To open the data preview, click the **Manage** button next to the data source.
 
 The **ingredient editor** is a form that you fill out to define your ingredient. The form varies somewhat by type of ingredient because different ingredient types require somewhat different [components](ingredient-components.md). 
 
-To access the ingredient editor for an existing ingredient, click on the ingredient pill. You can click on an ingredient pill in either the Data Sources or the Designer sections of the editing panel.
+To access the ingredient editor for an existing ingredient, click on the ingredient pill. You can click on an ingredient pill in either the Data  or Design sections of the editing panel.
 
 ![Access the ingredient editor by clicking the ingredient pill](../../../.gitbook/assets/editing_ingredents.gif)
 

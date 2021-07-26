@@ -22,7 +22,7 @@
     * [Advanced formulas](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md)
     * [Advanced formats](editing-apps/data-sources/advanced-ingredients/advanced-formats.md)
   * [Managing data sources](editing-apps/data-sources/edit-a-data-source.md)
-* [Designer](editing-apps/story-designer/README.md)
+* [Design](editing-apps/story-designer/README.md)
   * [Settings & Theme](editing-apps/story-designer/story-settings.md)
   * [Header Style](editing-apps/story-designer/header-style.md)
   * [Sections](editing-apps/story-designer/sections.md)
@@ -38,10 +38,9 @@
     * [Leaderboard](editing-apps/story-designer/charts/leaderboard.md)
     * [Map](editing-apps/story-designer/charts/map.md)
     * [Trend](editing-apps/story-designer/charts/trend.md)
-    * [Image 🔜](editing-apps/story-designer/charts/image.md)
-* [Publish & Share](editing-apps/publish-and-share/README.md)
-  * [Publishing app changes](editing-apps/publish-and-share/publishing-app-changes.md)
-  * [Sharing and access controls](editing-apps/publish-and-share/sharing-and-access-controls.md)
+* [Share](editing-apps/publish-and-share/README.md)
+  * [Sharing changes to your app](editing-apps/publish-and-share/publishing-app-changes.md)
+  * [Controlling sharing](editing-apps/publish-and-share/sharing-and-access-controls.md)
 * [Tips and Tricks](editing-apps/design-tips/README.md)
   * [The Help Center](editing-apps/design-tips/the-help-center.md)
   * [Telling data stories](editing-apps/design-tips/telling-data-stories.md)
@@ -61,10 +60,10 @@
 * [Usage Reporting 🔜](managing-users/usage-reporting.md)
 * [User Roles and Management](managing-users/user-management-and-roles.md)
 
-## Managing my workspace \(future release\) <a id="managing-workspaces"></a>
+## Managing my workspace <a id="managing-workspaces"></a>
 
-* [Workspace Settings 🔜](managing-workspaces/workspace-settings.md)
-* [Subscription and Billing 🔜](managing-workspaces/subscription-and-billing.md)
+* [Workspace Settings](managing-workspaces/workspace-settings.md)
+* [Subscription and Billing](managing-workspaces/subscription-and-billing.md)
 
 ---
 

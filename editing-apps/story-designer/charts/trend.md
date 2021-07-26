@@ -11,7 +11,8 @@ To add a trend slice:
 ![](../../../.gitbook/assets/image%20%28256%29.png)
 
 * select the [time ingredient](../../data-sources/adding-ingredients/#time-ingredient) to use for the x-axis
-* select the measure to use for the y-axis
+* select up to 5 measures to display on a single y-axis
+* optionally, select 1 measure to display on a second y-axis
 * add slice text \(optional\)
 * click **Save**
 

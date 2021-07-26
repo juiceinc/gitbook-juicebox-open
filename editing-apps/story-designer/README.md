@@ -1,12 +1,16 @@
-# Designer
+---
+description: Design is where you tell your story.
+---
 
-The Designer section of the editing panel is where you design your data story. A story should be tightly focused on a particular audience and purpose and gently guide users to the actionable insights they need. Within each story are sections, and within each section are slices. Each slice can have text and/or charts. 
+# Design
 
-To access the Designer section, select the **Designer** tab at the top of the editing panel. 
+The **Design** section of the editing panel is where you design your data story. A story should be focused on a particular audience and purpose and gently guide users to the actionable insights they need. Within each story are sections, and within each section are slices. Each slice can have text and/or charts. 
 
-![Select &quot;Designer&quot; to access the Designer section of the editing panel](../../.gitbook/assets/image%20%28270%29.png)
+Select the **Design** tab at the top of the editing panel to get started
 
-There are several components you will be working with in the Designer. They are:
+![Select Design to start designing your story](../../.gitbook/assets/design_tab.jpg)
+
+There are several components you will be working with in the Design section. They are:
 
 * Settings & Theme
 * Header Style

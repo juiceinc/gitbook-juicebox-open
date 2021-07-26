@@ -18,5 +18,3 @@ Charts are data visualizations you can add to your story. Each slice can contain
 
 {% page-ref page="trend.md" %}
 
-{% page-ref page="image.md" %}
-

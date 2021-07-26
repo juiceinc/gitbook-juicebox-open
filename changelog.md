@@ -2,15 +2,33 @@
 
 ## What's coming soon?
 
-* Rich text editing!! What? Yep, you'll no longer have to use Markdown \(unless you want to.\)
-* Improved color themes. More colors -- but only the good looking ones.
-* Team subscription plan, which allows a custom subdomain, more than 3 workspace users, and more than 1,000 public app page views per month.
+* More text editor improvements.
+* Improved color themes. More colors—but only the good-looking ones.
+* Template apps. Pre-designed apps suited for different applications, to help reduce the time and effort between your idea and a polished app you'll be proud to share. 
+
+## July 26, 2021
+
+### 🎁 What's new?
+
+* **✨New text editor✨** With our new text editor, you can add and style text, emojis 🔥, and links with ease. Huzzah! \(But if you still want to get down with Markdown, you can do that too.\)
+* **Multi-line trend.** Now you can show up to 5 measures in a single trend chart. Compare to a target or a moving average \(or both!\) and bring context and clarity to changes over time. And if you want dual vertical axes, you can do that too. 
+
+![](.gitbook/assets/screen_recording_2021-07-22_at_12.43.47_pm.gif)
+
+* **Custom subdomains**. Is your cute-and-fruity workspace subdomain a little _too_ cute for your needs? Now you can customize your subdomain in the new Settings page. \(Requires a Team plan subscription.\)
+* **Team plan goodies**. Sign up for the Team plan and get access to more users, bigger uploads, a custom subdomain, and more. ****
+
+### 🐛 Bug fixes & other improvements
+
+* Simplified sharing. 
+* The list of charts you can add to a slice was being cut off. That's fixed now. 
+* Even more improvements to data loading. 
 
 ## July 6, 2021
 
 ### 🎁 What's new?
 
-* **Header styles.**  We've added three pre-formatted options for your app's header: small, medium, and large. Feeling bold? You can turn those off and do your own thing. _Vive la différence!_
+* **Header styles.** We've added three pre-formatted options for your app's header: small, medium, and large. Feeling bold? You can turn those off and do your own thing. _Vive la différence!_
 
 ![](.gitbook/assets/header-style.gif)
 
@@ -24,7 +42,7 @@
 
 ### 🎁 What's new?
 
-* **Easy-to-add images**.  Juicebox's new image upload capability lets you easily add images to your Juicebox app -- no more cryptic code.  And, you can make an even bigger splash with the [Unsplash ](https://unsplash.com/)integration. Now, go image like a pro 📸.
+* **Easy-to-add images**. Juicebox's new image upload capability lets you easily add images to your Juicebox app -- no more cryptic code. And, you can make an even bigger splash with the [Unsplash ](https://unsplash.com/)integration. Now, go image like a pro 📸.
 
 ![](.gitbook/assets/add_an_image.gif)
 
@@ -109,7 +127,7 @@
 
 ### 🎁 What's new?
 
-* \*\*\*\*🌎**Publish as "Public"**.  Apps can now be [viewed by anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops \(or from your favorite social network\)! 🏔
+* \*\*\*\*🌎**Publish as "Public"**. Apps can now be [viewed by anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops \(or from your favorite social network\)! 🏔
 
 ![Publish as a public app](.gitbook/assets/screen_recording_2021-01-15_at_6.06.57_pm.gif)
 

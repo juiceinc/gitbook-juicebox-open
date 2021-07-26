@@ -14,7 +14,7 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Color
 
-* Choose [**a data color**]() that resonates with your story topic or company brand. Bolder, vibrant colors tend to be better for this. 
+* Choose **a data color** that resonates with your story topic or company brand. Bolder, vibrant colors tend to be better for this. 
 * Use ****[**section color**](../story-designer/sections.md#section-background-color) backgrounds to define a visual flow for your story. For example, you may want a bold colored introductory section to grab interest, and then use lighter color section backgrounds in the rest of your story that will be less distracting for reading data from charts.  
 * Be sure your **text has good contrast** for readability. If a dark background color is chosen on a section or slice, Juicebox will automatically make your text white.
 * If you do add photos, think about how well the colors compliment the rest of your visuals. 
@@ -22,10 +22,10 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Typography & Styles
 
-* There are 4 [**typographic pair styles**]() ****to choose from. Choose a set that conveys the mood of your story best. Is the story more opinionated or explanatory? Choose the "Literary" style. Is the story more a statistically accurate report update? You may want to choose "Professional", or "Bold" if you want to make a stronger point.
-* Use **large text headers** in Slice text to create titles for your sections. You can use [**Markdown style**](../story-designer/slices/#adding-text) text formatting. Try it by starting a text line with one `#` or two `##` to see how it works. 
-* Use small text for notes about data or guidance tips you would like to communicate to your viewers. Try it with `#####` or surrounding text like this: `~~Here is a data note~~` . You can also `**bold**` or make text `*italic*` .
-* Want to add a bit more😄fun?! While Juicebox doesn't have its own way to insert emojis yet, you can add them yourself [if you know how](https://buffer.com/library/emojis-keyboard-shortcut-mac-windows/#:~:text=How%20to%20add%20emojis%20on%20Windows%3A%20Touch%20keyboard,to%20open%20your%20emoji%20keyboard.). 
+* There are 4 **typographic pair styles** \(Refined, Literary, Professional, and Bold\) to choose from. Choose a set that conveys the mood of your story best. Is the story more opinionated or explanatory? Choose the "Literary" style. Is the story more a statistically accurate report update? You may want to choose "Professional", or "Bold" if you want to make a stronger point.
+* Use **large text headers** in Slice text to create titles for your sections.
+* Use small text for notes about data or guidance tips you would like to communicate to your viewers. 
+* Want to add a bit more😄fun?! Sprinkle in emojis. 
 
 ## Data ingredient labels & Icons 
 
@@ -43,12 +43,11 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 ## Branding
 
 * Often you may have a logo or branding colors you would like to style a data story with. You may want to set the [data color](visual-design.md#color) as your logo color. And then use lighter secondary brand colors in section or slice backgrounds. 
-* Have a logo? Right now, the best way to present it is [via Markdown](../story-designer/slices/#slice-text) in a slice text area. Add it in your intro section or perhaps also in a concluding section. If your logo shows up too big, change the dimensions of your image file to be the size you would like it to appear as.
+* Have a logo? [Add the logo image](../story-designer/slices/#adding-an-image) to a slice for instant brand appeal. _Voila_! 
 
 ## Photos
 
-* You can add images [via Markdown](../story-designer/slices/#slice-text) in slice text. Photos a great opportunity to add visual interest to your story. Similar to a blog post with a great intro image, data stories are no different.  
-* Use your own images, or you may want to use a service like [Unsplash](https://unsplash.com/). Don't forget to add attribution where required, perhaps via a note style like `~~Photo credit: (name)~~` 
+* You can [add images](../story-designer/slices/#adding-an-image) to a slice, either your own or images from [Unsplash](https://unsplash.com/). Photos a great opportunity to add visual interest to your story. Similar to a blog post with a great intro image, data stories are no different.  
 
 
 
