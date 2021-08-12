@@ -110,13 +110,13 @@ sales > 1000 OR state = "Texas"
 name IS NULL
 ```
 
-To use conditions in formulas, use the `IF` function. This function contains pairs of conditions and values. A final value is used if none of your conditions match. Here is the `IF` function pattern:
+To use conditions in formulas, use the `if` function. This function contains pairs of conditions and values. A final value is used if none of your conditions match. Here is the `if` function pattern:
 
 ```text
-IF([condition1], [value1], [condition2], [value2], …, [else_value])
+if([condition1], [value1], [condition2], [value2], …, [else_value])
 ```
 
-Here are examples for formulas that use the `IF` function:
+Here are examples for formulas that use the `if` function:
 
 ```text
 # A simple if  
@@ -125,7 +125,7 @@ sum(if(state="Texas", sales_dollars, 0.0))
 # Multiple condition/value pairs
 sum(if(state="Texas", sales_dollars*0.08, state="Georgia", sales_dollars*0.07, state="Tennessee", sales_dollars*0.0925, sales_dollars*0.055))
 
-# You can use IF functions for both dimensions and measures
+# You can use if() functions for both dimensions and measures
 if(last_name IS NULL, first_name, first_name + " " + last_name)
 ```
 
