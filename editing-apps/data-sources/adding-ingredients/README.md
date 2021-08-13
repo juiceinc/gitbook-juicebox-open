@@ -153,7 +153,7 @@ You can add a new ingredient by duplicating an existing ingredient. To do this, 
 
 This will duplicate the ingredient and open the ingredient editor for the duplicated ingredient. Revise the ingredient definition as needed and save.
 
-![Ingredient definition of the duplicated ingredient ](../../../.gitbook/assets/image%20%28196%29.png)
+![Ingredient definition for the duplicated ingredient](../../../.gitbook/assets/image%20%28280%29.png)
 
 {% hint style="warning" %}
 You cannot convert from one ingredient type to another. For example, you cannot create a place dimension ingredient from a measure ingredient. Therefore, the ingredient you select for duplication will need to have the desired ingredient type. Alternatively, you can add a new ingredient of the desired type using [this method](./#adding-ingredients-one-at-a-time). 

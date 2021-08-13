@@ -2,9 +2,24 @@
 
 ## What's coming soon?
 
-* More text editor improvements.
-* Improved color themes. More colors—but only the good-looking ones.
-* Template apps. Pre-designed apps suited for different applications, to help reduce the time and effort between your idea and a polished app you'll be proud to share. 
+* Improved color themes. More colors—and new ways of picking groups of colors—to make it easier to pick just the right look for your creations. 🎨
+* More template apps. Add professionally-designed templates to reduce the time between your idea and a polished app you'll be proud to share. 
+
+## August 13, 2021
+
+### 🎁 What's new?
+
+* **More ways to style text.** And now, with even _more_ style! You can add numbered lists, bulleted lists, and block quotes. The text in your editor panel now looks more like it _actually_ does in your app.
+
+![](.gitbook/assets/10.7.gif)
+
+* **Less ingredient clutter.** A big, unorganized pile of ingredients makes it hard to cook—and hard to build your Juicebox app. The new tidy _and separate_ columns for measures and dimensions mean there's less clutter with your ingredients. _Bon appétit_! 🍱
+
+### 🐛 Bug fixes & other improvements
+
+* Adding charts is quicker and easier.
+* Improved trend legends.
+* Backend synchronization has been improved.
 
 ## July 26, 2021
 

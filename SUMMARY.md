@@ -31,7 +31,7 @@
     * [Multiple data sources](editing-apps/story-designer/slices/working-with-multiple-data-sources.md)
   * [Charts](editing-apps/story-designer/charts/README.md)
     * [Filters](editing-apps/story-designer/charts/filters.md)
-    * [Data Chooser](editing-apps/story-designer/charts/data-card.md)
+    * [Chooser](editing-apps/story-designer/charts/data-card.md)
     * [Table](editing-apps/story-designer/charts/table.md)
     * [Bar](editing-apps/story-designer/charts/bar.md)
     * [Scatterplot](editing-apps/story-designer/charts/scatterplot.md)
