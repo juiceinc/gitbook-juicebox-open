@@ -2,7 +2,7 @@
 
 ## Signing in to your workspace
 
-You can sign in to your workspace by going directly to your workspace URL or by going to [myjuicebox.io](https://myjuicebox.io). 
+You can sign in to your workspace by going directly to your workspace URL or by going to [myjuicebox.io](https://myjuicebox.io) and clicking the **Sign back in** button. 
 
 ### Signing in using your workspace URL
 

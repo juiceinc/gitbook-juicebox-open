@@ -26,7 +26,7 @@ Slices can contain text only, a chart or image only, or a combination of text an
 
 ### Adding text
 
-To add text to a slice, simply type in the text area. Use the text editor to style text and add emojis and links. You can add lists by typing a "\*" before each bulleted list item or "1." before each numbered list item. 
+To add text to a slice, simply type in the text area. Use the text editor to style text and add emojis and links.
 
 ### Adding a chart
 
@@ -48,9 +48,7 @@ To add an image to a slice, select the **Add Image** button and either upload yo
 
 ## Reordering slices
 
-To reorder slices, grab the ![](../../../.gitbook/assets/expand-arrows-alt-solid.svg) icon on the slice you want to move, then drag and drop the slice where you want it to display. 
-
-![](../../../.gitbook/assets/image%20%28258%29.png)
+To reorder slices, drag and drop the slice where you want it to display. You can reorder slices within a section and move slices to different sections.
 
 ## Slice layouts
 

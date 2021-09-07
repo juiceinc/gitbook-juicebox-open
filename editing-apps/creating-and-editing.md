@@ -4,7 +4,7 @@ If you're logged in as [an editor \(or a user with editing rights\)](../managing
 
 ## Add a new app
 
-To add a new app, select **+ New App** from the apps page. Selecting **+ New App** will start the app creation wizard, which walks you through creating your app. Here's a video showing how to create a new app:
+To add a new app, select **+ Create New** from the apps page. Selecting **+ Create New** will start the app creation wizard, which walks you through creating your app. Here's a video showing how to create a new app:
 
 {% embed url="https://www.loom.com/share/bea2a7cee5b9412a918d020db2e650dc" caption="Click +New App to add a new app to your workspace" %}
 
@@ -15,7 +15,7 @@ Once your app is created, you'll be taken to the draft version of the app. You'r
 You make changes to a draft version of the app using an in-browser interface called the **editing panel**. Only [users with editing rights](../managing-users/user-management-and-roles.md#user-roles) can access the editing panel. 
 
 {% hint style="info" %}
-While changes made in the editing panel are immediately reflected in the draft app, viewers cannot see the changes until they are [published](publish-and-share/).
+While changes made in the editing panel are immediately reflected in the draft app, viewers cannot see the changes until they are [shared](publish-and-share/).
 {% endhint %}
 
 ### Accessing the editing panel

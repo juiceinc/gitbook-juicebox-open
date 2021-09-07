@@ -2,7 +2,7 @@
 
 ## Sharing an app
 
-Before you start sharing your app, only editors in your workspace will see the changes you've made. When you're ready, it's time to share your work with viewers.
+Before you start sharing your app, only editors in your workspace will see the changes you've made. When you're ready for other to see your app, it's time to share your work with viewers.
 
 ### Sharing for the first time
 
@@ -31,7 +31,7 @@ New changes made after you share will not be seen by viewers until you chose to 
 
 ## Making changes to an app
 
-Any changes you make to an app are only visible to editors. Viewers who have already been given access won't see your changes until you are ready to share them. With Juicebox, you can share, refine your app, share the new changes, refine some more, share the new changes, and so on. You can continually improve and experiment without affecting what viewers see.
+Until you share them, any changes you make to an app are only visible to editors. Viewers who have already been given access won't see your changes until you are ready to share them. With Juicebox, you can share, refine your app, share the new changes, refine some more, share the new changes, and so on. You can continually improve and experiment without affecting what viewers see.
 
 {% hint style="info" %}
 **Edit freely** - you can always [discard changes](https://juicebox.gitbook.io/juicebox/authoring-apps/publish-and-share/publishing-app-changes#discard-changes-to-an-app), to return to the last version of the app that you shared with viewers.

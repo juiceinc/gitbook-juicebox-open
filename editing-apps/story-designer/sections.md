@@ -4,27 +4,23 @@ Sections are groups of slices within a story. Sections allow you to control layo
 
 ## Add a section
 
-To add a section, click the **Add Section** button. A new section named "Untitled section" will be added at the end of your story. The new section will initially be empty, waiting for you to add one or more slices. 
+To add a section, click the **Add Section** button at the top or bottom of your story and then select the first slice type for the first slice in the section. A new section named "Untitled Section" will be added with the initial slice. 
 
-![Click Add Section to add a section to the end of your story](../../.gitbook/assets/add_section.jpg)
+![Click the Add Section button to add a section to the top or bottom of your story](../../.gitbook/assets/image%20%28290%29.png)
 
 Although not required, adding a meaningful section name can help you organize your slices around a theme. Section names also help when you want to collapse them, move them around, and easily find the section you want to work on. 
 
-![](../../.gitbook/assets/image%20%28262%29.png)
+![](../../.gitbook/assets/image%20%28288%29.png)
 
 ## Delete a section
 
-To delete a section, hover over the section header \(the gray area at the top of the section\) until you see the menu icon \(![](../../.gitbook/assets/ellipsis-h-solid.svg)\). Click the menu icon and then click **Delete**.
+To delete a section, hover over the section header \(the gray area at the top of the section\) until you see the trash can icon \(![](../../.gitbook/assets/trash-alt-regular.svg)\). Click the icon to delete the section.
 
-![Deleting a section](../../.gitbook/assets/image%20%28195%29.png)
+![Deleting a section](../../.gitbook/assets/image%20%28284%29.png)
 
 ## Collapse and reorder sections
 
-To move a section up or down, hover over the section header until you see the ![](../../.gitbook/assets/expand-arrows-alt-solid.svg) icon. Grab the icon and drag and drop the section where you want it to display.
-
-![Hover over the Section header to reveal the Reordering icon](../../.gitbook/assets/image%20%28265%29.png)
-
-Because sections can get quite long, reordering will be easier if you collapse your sections first. To collapse a section, simply click the section header. To expand a collapsed section, click section header again again.
+To move a section up or down, hover over the section header and drag and drop the section where you want it to display. Because sections can get quite long, reordering will be easier if you collapse your sections first. To collapse a section, simply click the section header. To expand a collapsed section, click section header again again.
 
 ## Section layouts
 

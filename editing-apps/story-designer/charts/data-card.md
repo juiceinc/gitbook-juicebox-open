@@ -26,9 +26,9 @@ A chooser chart with measures \(i.e., a measure chooser slice\) will display a h
 
 * select the measures you want to add in the order you want them displayed
 * add slice text \(optional\)
-* click **Save**
+* click **Save changes**
 
-![](../../../.gitbook/assets/image%20%28212%29.png)
+![](../../../.gitbook/assets/image%20%28287%29.png)
 
 {% hint style="info" %}
 The type of chooser is determined by the first ingredient you add. Once you select a measure, any additional ingredients must be measures. 
@@ -46,9 +46,10 @@ A chooser chart with dimensions \(i.e., a dimension chooser slice\) lets users s
 
 * select the dimensions you want to add in the order you want them displayed
 
-![](../../../.gitbook/assets/image%20%28205%29.png)
+![](../../../.gitbook/assets/image%20%28289%29.png)
 
 * add slice text \(optional\)
+* click **Save changes**
 
 {% hint style="info" %}
 The type of chooser is determined by the first ingredient you add. Once you select a dimension, any additional ingredients must be dimensions. 
@@ -71,7 +72,7 @@ To reference the selection made in a chooser slice**:**
 A slice can reference both a dimension chooser and a measure chooser in the respective dimension and measure drop downs.
 {% endhint %}
 
-![Select a dynamic ingredient to your chart to make it interactive ](../../../.gitbook/assets/image%20%28249%29.png)
+![Use dynamic ingredients in your charts to make them interactive](../../../.gitbook/assets/image%20%28293%29.png)
 
 Here's how to make your charts dynamic:
 

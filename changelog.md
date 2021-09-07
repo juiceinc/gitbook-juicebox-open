@@ -3,7 +3,24 @@
 ## What's coming soon?
 
 * Improved color themes. More colors—and new ways of picking groups of colors—to make it easier to pick just the right look for your creations. 🎨
-* More template apps. Add professionally-designed templates to reduce the time between your idea and a polished app you'll be proud to share. 
+* More app templates. Add professionally-designed templates to reduce the time between your idea and a polished app you'll be proud to share. 
+
+## September 7, 2021
+
+### 🎁 What's new?
+
+* **Choosers have a new look.** Chooser buttons are now sized based on their content and have a more eye-catching appearance.
+
+![](.gitbook/assets/image%20%28283%29.png)
+
+* **Support for private editing notes.** Now you can leave notes in apps for yourself and other editors that won't be seen by your users.
+
+### 🐛 Bug fixes & other improvements
+
+* Public app links shared on Facebook and Slack look better.
+* Dynamic text can now be copied using the slice "@" button and pasted into the text of a downstream slice. 
+* Added Excel files \(.xls and .xlsx\) to data upload options \(for now this defaults to loading only the first Excel tab\).
+* Other improvements to the Design tab to make adding and configuring slices easier.
 
 ## August 13, 2021
 

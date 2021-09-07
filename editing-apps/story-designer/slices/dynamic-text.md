@@ -18,9 +18,9 @@ If you want your slice text to display what was selected in an upstream slice, y
 
 You want to replace the phrase "the measure selected above" with the label of the measure selected above. For example, If the user selects IMDb Rating in the chooser slice, you want the trend slice title to display "Here's the trend for IMDb Rating." Likewise, if the user selects Budget, you want the trend slice title to display "Here's the trend for IMDb Rating" \(and so on\).  
 
-To do this, you would replace "the measure selected above" in the slice text area with  `==sliceslug.selectionDisplay()==`, where `sliceslug` is the "slug" of the chooser slice. The slug can be found in the chart config header.
+To do this, you would replace "the measure selected above" in the slice text area with  `==sliceslug.selectionDisplay()==`, where `sliceslug` is the "slug" of the chooser slice. The slug can be found in the chart config header by hovering over the "@" button. Selecting the "@" button will copy the `==sliceslug.selectionDisplay()==`, which you can then paste into a downstream slice.
 
-![](../../../.gitbook/assets/image%20%28248%29.png)
+![](../../../.gitbook/assets/image%20%28285%29.png)
 
 Here's what that looks like:
 

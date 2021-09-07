@@ -18,5 +18,5 @@ To get back to the apps page from any app, click on the Apps button in the app h
 
 ### Using the app link
 
-Each app has a unique link that will take a user directly to the app. App links look similar to `https://227-friendly-lemons.juiceboxdata.com/a/movie_trends2/`.
+Each app has a unique link that will take a user directly to the app. App links look similar to `https://227-friendly-lemons.myjuicebox.io/a/movie_trends2/`.
 
