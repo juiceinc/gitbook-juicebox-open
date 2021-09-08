@@ -68,6 +68,8 @@ When it needs to look like this:
 
 ![](https://downloads.intercomcdn.com/i/o/318593725/5fc269e1bc90c2211b267037/image.png)
 
+Another common example is survey data, where each survey question is a separate column. We recommend restructuring the data so that there is a `Question` column and each question response is on a separate row. 
+
 There are different approaches to restructuring data. [Here's one](https://infoinspired.com/google-docs/spreadsheet/unpivot-a-dataset-in-google-sheets-reverse-pivot-formula/). If you need help, please reach out to us by clicking Help in the upper-right of your workspace. 
 
 ### 10. Remove number formatting
