@@ -13,28 +13,27 @@ This section covers the second step.  \(The first step is covered [here](../load
 
 After loading data, you're ready to add data ingredients. Data ingredients are the basic building blocks for every chart in your app. So before you can add charts to your app, you'll need ingredients. 
 
-There are three ways to add ingredients: add ingredients "automagically", add ingredients manually one at a time, or duplicate existing ingredients. You can use any or all of the three methods to create the ingredients you need for your data story. 
+There are three ways to add ingredients: add ingredients automatically, add ingredients manually one at a time, or duplicate existing ingredients. You can use any or all of the three methods to create the ingredients you need for your data story. 
 
 After uploading or connecting to your data, decide how to add your ingredients.
 
 ![Decide whether to add ingredients automagically or manually](../../../.gitbook/assets/image%20%28159%29.png)
 
-## Adding ingredients "automagically"
+## Adding ingredients automatically
 
-Adding ingredients "automagically" allows you to quickly add ingredients so you can dive into designing your story. To add ingredients automagically, select the **Automagically** button. Juicebox will inspect the  fields in your data and create an ingredient for each based on its best guess, according to these rules:
+Adding ingredients automatically allows you to quickly add ingredients so you can dive into designing your story. To add ingredients automatically, select the **Automatically** button. Juicebox will inspect the  fields in your data and create an ingredient for each based on its best guess, according to these rules:
 
 * If the field contains only numeric values, a [**measure**](./#measure-ingredient) ingredient will be created.
 * If the field contains only date values, a [**time**](./#time-ingredient) **** ingredient will be created.
-* If the field contains a numeric values that appear to be years, both a measure ingredient and a time ingredient will be created. 
 * If the field contains values other than numeric or date values, a [**dimension**](./#dimension-ingredient) ingredient will be created. 
 
-The automagically added ingredients are just a starting point. You can revise them later using the [**ingredient editor**](./#ingredient-editor).  
+The automatically added ingredients are just a starting point. You can revise them later using the [**ingredient editor**](./#ingredient-editor).  
 
 {% embed url="https://www.loom.com/share/0a823c277ed74a8080eac0d10e9b26d3" caption="Adding ingredients automagically" %}
 
 ## Adding ingredients manually
 
-Sometimes the ingredients created through the automagic method will not be what you need. To have more control over ingredient definitions, you can add ingredients manually by selecting the **Manually** button \(which will open the the [data preview](./#the-data-preview)\) or select the **Manage** button next to the data source to open the data preview. From there,
+Sometimes the ingredients created through the automatic method will not be what you need. To have more control over ingredient definitions, you can add ingredients manually by selecting the **Manually** button \(which will open the the [data preview](./#the-data-preview)\) or select the **Manage** button next to the data source to open the data preview. From there,
 
 1. click the **+** next to the field you want to use in the new ingredient
 2. select the type of ingredient you want to create from the available options
