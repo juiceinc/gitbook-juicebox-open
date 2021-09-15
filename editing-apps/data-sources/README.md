@@ -54,7 +54,7 @@ To review and edit a measure ingredient definition, click on its orange pill. Th
 
 Dimensions are a type of data ingredient. A dimension is used to define a group of data records. Students, states, and years are all examples of dimensions.
 
-There are two special kinds of dimensions in Juicebox: [**place**](https://juicebox.gitbook.io/juicebox/authoring-apps/data-sources/add-a-data-source#place-ingredient) dimension and [**time**](https://juicebox.gitbook.io/juicebox/authoring-apps/data-sources/add-a-data-source#time-ingredient) dimension:
+There are two special kinds of dimensions in Juicebox: [**place**](adding-ingredients/#place-ingredient) dimension and [**time**](adding-ingredients/#time-ingredient) dimension:
 
 * A place dimension is a dimension that has an associated geographic location \(i.e., latitude and longitude\). Place dimensions are used in the [map](../story-designer/charts/map.md) chart. 
 * A time dimension is a dimension that is a date. Time dimensions are used in the [trend](../story-designer/charts/trend.md) chart. 

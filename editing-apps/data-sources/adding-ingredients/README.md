@@ -98,6 +98,10 @@ latitude_field: latitude
 longitude_field: longitude
 ```
 
+{% hint style="info" %}
+This Help Center [article](https://help.myjuicebox.io/en/articles/5152187-adding-a-place-ingredient) walks you through how to create a place ingredient.  The latitude and longitude fields in your data must be numbers, not strings. In other words, your latitudes should look like `38.8977` rather than `38.8977° N`. Likewise, your longitudes should look like `-77.0365`, rather than `77.0365° W`.
+{% endhint %}
+
 ### Time Ingredient
 
 A time ingredient is a special kind of dimension ingredient that uses a date or timestamp field. A time ingredient is required by the [trend](../../story-designer/charts/trend.md) chart. Here is an example of a time ingredient labeled `Years` :
