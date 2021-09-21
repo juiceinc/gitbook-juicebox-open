@@ -20,7 +20,7 @@ To add a map slice:
 ![](../../../.gitbook/assets/image%20%28241%29.png)
 
 {% hint style="info" %}
-The map slice requires that you have a [place ingredient](../../data-sources/#dimensions).  A place ingredient is a special type of dimension that has associated latitude and longitude fields.
+The map slice requires that you have a [place ingredient](../../data-sources/adding-ingredients/#place-ingredient).  A place ingredient is a special type of dimension that has associated latitude and longitude fields.
 {% endhint %}
 
 {% hint style="warning" %}
