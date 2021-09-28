@@ -3,16 +3,28 @@
 ## What's coming soon?
 
 * Improved color themes. More colors—and new ways of picking groups of colors—to make it easier to pick just the right look for your creations. 🎨
-* More app templates. Add professionally-designed templates to reduce the time between your idea and a polished app you'll be proud to share. 
+* Data, simplified. All of your data columns will be available for use as both dimensions and measures. You can decide how you want to calculate measures as you're adding charts to your story.
+
+## September 28, 2021
+
+### 🎁 What's new?
+
+* **Templates added to the** _**+Create New**_ **app workflow**. We've incorporated templates of some of our best Juice-approved app designs into the workflow where you create a new app. These templates include full apps, and singular \(but sweetly styled\) charts that you can pick from. You can also add complete example apps to your workspace to use as inspiration and reference. Now, that data report idea you have can get the Juice-approved kick start you've been looking for.
+
+![](.gitbook/assets/templates3.gif)
+
+### 🐛 Bug fixes & other improvements
+
+* The map can display locations even if no measures have been selected.
+* Option to skip app setup details. If you want to accept the defaults and open your new app quickly, you can select **Skip Setup** in the app creation wizard. 
+* Loading data from Excel files has been improved.
+* Other reliability and operational improvements.
 
 ## September 7, 2021
 
 ### 🎁 What's new?
 
 * **Choosers have a new look.** Chooser buttons are now sized based on their content and have a more eye-catching appearance.
-
-![](.gitbook/assets/image%20%28283%29.png)
-
 * **Support for private editing notes.** Now you can leave notes in apps for yourself and other editors that won't be seen by your users.
 
 ### 🐛 Bug fixes & other improvements

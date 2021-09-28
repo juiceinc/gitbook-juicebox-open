@@ -4,9 +4,15 @@ If you're logged in as [an editor \(or a user with editing rights\)](../managing
 
 ## Add a new app
 
-To add a new app, select **+ Create New** from the apps page. Selecting **+ Create New** will start the app creation wizard, which walks you through creating your app. Here's a video showing how to create a new app:
+To add a new app, select **+ Create New** from the apps page. After selecting **+ Create New**, you'll be asked to select the starting point for building your app. You can start with a pre-designed app from the **Templates** or **Charts** categories, or select **Start Blank** to build an app from scratch:
 
-{% embed url="https://www.loom.com/share/bea2a7cee5b9412a918d020db2e650dc" caption="Click +New App to add a new app to your workspace" %}
+* **Templates**. Selections in the Templates category are fully styled apps using combinations of charts best suited for a particular task. The available templates are: Dashboard, Report, Presentation, and Survey. Just add your data and ingredients to quickly create a complete app. 
+* **Charts**. Selections in the Charts are apps with one or two charts focused on a particular chart type. This is a great place to start if you know you want a particular chart type in your app, but aren't sure about what other charts or text you might want to add.
+* **Start Blank**. Select **Start Blank** if you want to start with a blank slate. 
+
+After selecting your starting point, the app creation wizard will walk you through creating your app. You'll provide a title, description, data color, and font, and then select **Create App** to create your app. \(Alternatively, you can select **Skip Setup** to create your app with default settings, which can be changed later.\) 
+
+{% embed url="https://www.loom.com/share/eea1d522026a44cdabe7d903f28b2b4c" caption="Click +Create New to add a new app to your workspace" %}
 
 Once your app is created, you'll be taken to the draft version of the app. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/).  ****
 
