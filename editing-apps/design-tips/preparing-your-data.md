@@ -30,7 +30,7 @@ Values should not span multiple columns or rows. Un-merge any merged cells.
 
 ### 4. Remove extra rows and sheets
 
-The first row in your data should contain your column headers. Remove any rows above your column header row. Remove any other rows that do not contain data organized into columns \(e.g., footnotes\). If there are any sheets other than the one with your data, remove those. 
+The first row in your data should contain your column headers. Remove any rows above your column header row \(e.g., report titles\). Remove any other rows that do not contain data organized into columns \(e.g., footnotes\). If there are any sheets other than the one with your data, remove those. 
 
 {% hint style="info" %}
 If you get the data loading error "At least 1 non-string field required", double check that your first row contains your column headers. 
