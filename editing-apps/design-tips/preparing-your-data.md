@@ -32,10 +32,6 @@ Values should not span multiple columns or rows. Un-merge any merged cells.
 
 The first row in your data should contain your column headers. Remove any rows above your column header row \(e.g., report titles\). Remove any other rows that do not contain data organized into columns \(e.g., footnotes\). If there are any sheets other than the one with your data, remove those. 
 
-{% hint style="info" %}
-If you get the data loading error "At least 1 non-string field required", double check that your first row contains your column headers. 
-{% endhint %}
-
 ### 5. Remove columns you don't need \(optional\)
 
 Columns you don't need can be distracting during data preparation and app building, so it's a good idea to just remove them. \(If you're not sure whether you need a particular column, just leave it in.\)
