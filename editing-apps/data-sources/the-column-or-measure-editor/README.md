@@ -10,7 +10,7 @@ If the options available in the column or measure editor are not sufficient to d
 
 ## The column editor
 
-Every column editor lets you modify the column's icon and labels (plural and singular). Depending on the [data type](../the-data-preview.md#data-types) of the underlying data field, you may also be able to modify the [number format](ingredient-formats.md) or [time format](time-formats.md). The column editor looks like this for most columns:
+Every column editor lets you modify the column's icon and labels (plural and singular). Depending on the [data type](../the-data-preview.md#data-types) of the underlying data field, you may also be able to modify the [number format](../adding-ingredients/ingredient-formats.md) or [time format](time-formats.md). The column editor looks like this for most columns:
 
 ![The column editor](<../../../.gitbook/assets/image (320).png>)
 
@@ -54,7 +54,7 @@ This Help Center [article](https://help.myjuicebox.io/en/articles/5152187-adding
 
 ## The measure editor
 
-The measure editor lets you modify the measure's icon, label, and [number format](ingredient-formats.md):
+The measure editor lets you modify the measure's icon, label, and [number format](../adding-ingredients/ingredient-formats.md):
 
 ![The measure editor](<../../../.gitbook/assets/image (306).png>)
 

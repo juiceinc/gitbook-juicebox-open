@@ -1,6 +1,6 @@
 # Advanced formats
 
-The [most commonly used formats](../the-column-or-measure-editor/ingredient-formats.md) are available in the column and measure editor. But if you need to use a different format, you can add an advanced column or measure and adjust the `format:` component within the advanced ingredient definition.
+The [most commonly used formats](../adding-ingredients/ingredient-formats.md) are available in the column and measure editor. But if you need to use a different format, you can add an advanced column or measure and adjust the `format:` component within the advanced ingredient definition.
 
 ## Advanced number formats
 

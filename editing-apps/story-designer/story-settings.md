@@ -1,8 +1,8 @@
-# Settings & Theme
+# Settings & Themes
 
-The Settings & Theme section at the top of the Design tab is where you can modify the basic settings for your app (title, description, icon), as well as the color and typography themes. Here you can  also delete or duplicate an app.&#x20;
+The Settings & Themes section at the top of the Design tab is where you can modify the basic settings for your app (title, description, icon), as well as the color and typography themes. Here you can also delete or duplicate an app.&#x20;
 
-To do this, first expand the  Settings & Theme section. Make changes as needed, and then click **Save**.&#x20;
+To do this, first expand the Settings & Themes section. Make changes as needed, and then click **Save**.&#x20;
 
 ![The Settings & Theme section, expanded](<../../.gitbook/assets/image (330).png>)
 
