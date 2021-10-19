@@ -8,75 +8,74 @@ description: >-
 
 A data chooser chart can be used to for the following:
 
-* Show a summary of measures
-* Let a user choose which measure to explore 
-* Let a user choose which dimension to explore
+* Show a summary of key measures
+* Let a user choose which key measure to use in downstream charts&#x20;
+* Let a user choose which column to use in downstream charts
 
-Choices made in a chooser chart can drive the filtering narrative of the story that follows [using dynamic ingredients](data-card.md#using-dynamic-ingredients). There are two types: measure chooser and dimension chooser.
+Choices made in a chooser chart can drive the narrative of the story that follows [using dynamic columns or measures](data-card.md#using-dynamic-ingredients). There are two types: measure chooser and column chooser.
 
 ## Chooser chart with measures
 
-A chooser chart with measures \(i.e., a measure chooser slice\) will display a high-level summary that provides context for users as they make their selections. The selection made in a measure chooser slice can be used as a [dynamic measure](data-card.md#using-dynamic-ingredients) ingredient in other charts, allowing for user-driven exploration.
+A chooser chart with measures (i.e., a measure chooser slice) will display a high-level summary of key measures. The selection made in a measure chooser slice can be used as a [dynamic measure](data-card.md#using-dynamic-ingredients)  in one or more downstream charts, allowing for user-driven exploration.&#x20;
 
 #### To add a measure chooser slice:
 
-* select  **Chooser** from the chart list
+* select ** Chooser** from the chart list
 
-![](../../../.gitbook/assets/image%20%28282%29.png)
+![](<../../../.gitbook/assets/image (282).png>)
 
 * select the measures you want to add in the order you want them displayed
-* add slice text \(optional\)
+* add slice text (optional)
 * click **Save changes**
 
-![](../../../.gitbook/assets/image%20%28287%29.png)
+![](<../../../.gitbook/assets/image (287).png>)
 
 {% hint style="info" %}
-The type of chooser is determined by the first ingredient you add. Once you select a measure, any additional ingredients must be measures. 
+The type of chooser is determined by whether you add a column or measure first. Once you select the first measure, only measures can be added.&#x20;
 {% endhint %}
 
-## Chooser chart with dimensions
+## Chooser chart with columns
 
-A chooser chart with dimensions \(i.e., a dimension chooser slice\) lets users select one dimension from a group of dimensions. The selection made in a dimension chooser can be used as a [dynamic dimension](data-card.md#using-dynamic-ingredients) ingredient in other charts, allowing for user-driven exploration.
+A chooser chart with columns (i.e., a column chooser slice) lets users select one column from a group of columns for use as a [dynamic column](data-card.md#using-dynamic-ingredients) in one or more downstream charts, allowing for user-driven exploration.
 
-#### To add a dimension chooser slice:
+{% hint style="warning" %}
+A column chooser slice should always be connected to at least one downstream chart. See the [dynamic columns](data-card.md#using-dynamic-columns-or-measures) section below.
+{% endhint %}
+
+#### To add a column chooser slice:
 
 * select **Chooser** from the chart list
 
-![](../../../.gitbook/assets/image%20%28281%29.png)
+![](<../../../.gitbook/assets/image (281).png>)
 
-* select the dimensions you want to add in the order you want them displayed
+* select the columns you want to add in the order you want them displayed
 
-![](../../../.gitbook/assets/image%20%28289%29.png)
+![](<../../../.gitbook/assets/image (289).png>)
 
-* add slice text \(optional\)
+* add slice text (optional)
 * click **Save changes**
 
 {% hint style="info" %}
-The type of chooser is determined by the first ingredient you add. Once you select a dimension, any additional ingredients must be dimensions. 
+The type of chooser is determined by whether you add a column or measure first. Once you select the first column, only columns can be added.&#x20;
 {% endhint %}
 
-## Using dynamic ingredients
+## Using dynamic columns or measures
 
 Chooser slices are particularly powerful when slices further down the app refer to the selections in the chooser.
 
 {% hint style="info" %}
-Chooser values will be "display only" \(i.e., unselectable\) unless a downstream slice includes a dynamic ingredient referring to the chooser.
+Chooser values will be "display only" (i.e., unselectable) unless a downstream slice includes a dynamic column or measure referring to the chooser.
 {% endhint %}
 
-To reference the selection made in a chooser slice**:** 
+To reference the selection made in a chooser slice**: **
 
-* Create a dimension chooser or measure chooser using the above instructions
-* In a slice that is below the chooser slice that should be referenced, select the chooser's slice slug in the dimension drop down and/or measure drop down
+* Create a column chooser or measure chooser using the above instructions
+* In a downstream slice, select the chooser's slice slug in the column dropdown and/or measure dropdown
 
-{% hint style="info" %}
-A slice can reference both a dimension chooser and a measure chooser in the respective dimension and measure drop downs.
-{% endhint %}
-
-![Use dynamic ingredients in your charts to make them interactive](../../../.gitbook/assets/image%20%28293%29.png)
+![Use dynamic ingredients in your charts to make them interactive](<../../../.gitbook/assets/image (293).png>)
 
 Here's how to make your charts dynamic:
 
 {% embed url="https://www.loom.com/share/460990e6e0464d369bb0f717ec2bfb3c" %}
 
-After making your chart dynamic, you may want to make your slice text dynamic as well. To learn how, go [here](../slices/dynamic-text.md). 
-
+After making your chart dynamic, you may want to make your slice text dynamic as well. To learn how, go [here](../slices/dynamic-text.md).&#x20;

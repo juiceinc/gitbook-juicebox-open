@@ -7,5 +7,4 @@ Creating apps in Juicebox requires a computer with an internet connection and a 
 * Mozilla Firefox
 * Microsoft Edge
 
-Creating and editing apps require a browser with a width of at least 960 px.
-
+Creating and editing apps requires a browser with a width of at least 960 px.

@@ -1,12 +1,12 @@
-# Bucketed dimensions
+# Bucketed columns
 
-A bucketed dimension is a dimension that groups field values into buckets based on conditions. For example, let's say your data includes a `LocationAbbr` field with state abbreviation values, and you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you could create an advanced ingredient like so--
+A bucketed column is a column that groups field values into buckets based on conditions. For example, let's say your data includes a `LocationAbbr` field with state abbreviation values, and you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you could create an advanced column like so--
 
-![Advanced ingredient: bucketed dimension](../../../.gitbook/assets/image%20%28191%29.png)
+![Advanced ingredient: bucketed column](<../../../.gitbook/assets/image (191).png>)
 
---with the following components:
+\--with the following components:
 
-```text
+```
 kind: Dimension
 field: LocationAbbr
 singular: Region
@@ -24,9 +24,9 @@ buckets:
 buckets_default_label: Other
 ```
 
-To create a bucketed dimension, you add the `buckets:` and \(optionally\) a `buckets_default_label:` components to the dimension definition. Within `buckets`, define a list of`label` and `condition`. If the `condition` is met, your `label` will be displayed. If you don't define a `buckets_default_label` and none of your conditions match, "Not found" will be displayed.
+To create a bucketed column, you add the `buckets:` and (optionally) `buckets_default_label:` components to the column definition. Within `buckets`, define a list, with each list item containing a `label` and `condition`. If the `condition` is met, your `label` will be displayed. If you don't define a `buckets_default_label` and none of your conditions match, "Not found" will be displayed.
 
-```text
+```
 kind: Dimension
 field: [field]
 singular: [singular label]
@@ -42,26 +42,26 @@ buckets_default_label: [defaultbucketlabel]
 
 ### Defining conditions
 
-Conditions are defined like \[\(optional\) field\] \[comparison\] \[values\]. These comparisons can be ANDed or ORed together. 
+Conditions are defined like \[(optional) field] \[comparison] \[values]. These comparisons can be ANDed or ORed together.&#x20;
 
-| Conditions | Examples |
-| :--- | :--- |
-| Greater than a number | `>20` or `>20.5` |
-| Greater than or equal to | `>=20` |
-| Equal to a number or a string \(strings must be surrounded by double quotes. | `=20` or `="Tennessee"` |
-| Not equal to a number or string | `!=20` or `!="Tennessee` |
-| Checking if a value is null | `IS NULL` |
-| Checking if a value is in a list of values | `IN ("TN", "GA", "FL")` |
-| Comparing dates.  | `BETWEEN "A WEEK AGO" and "TODAY"` or `BETWEEN "2020-01-01" AND "2020-06-30"` |
-| Intelligent date ranges \(use PREVIOUS, THIS, or NEXT to define an offset and DAY, MONTH, MTD, QTR, YEAR, or YTD to define the period\). | `IS THIS MONTH` or `IS LAST MONTH` |
-| ANDing two conditions |  `sales > 1000 AND sales_date IS THIS MONTH` |
-| ORing two conditions | `sales > 1000 OR sales IS NULL` |
+| Conditions                                                                                                                             | Examples                                                                      |
+| -------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| Greater than a number                                                                                                                  | `>20` or `>20.5`                                                              |
+| Greater than or equal to                                                                                                               | `>=20`                                                                        |
+| Equal to a number or a string (strings must be surrounded by double quotes.                                                            | `=20` or `="Tennessee"`                                                       |
+| Not equal to a number or string                                                                                                        | `!=20` or `!="Tennessee`                                                      |
+| Checking if a value is null                                                                                                            | `IS NULL`                                                                     |
+| Checking if a value is in a list of values                                                                                             | `IN ("TN", "GA", "FL")`                                                       |
+| Comparing dates.                                                                                                                       | `BETWEEN "A WEEK AGO" and "TODAY"` or `BETWEEN "2020-01-01" AND "2020-06-30"` |
+| Intelligent date ranges (use PREVIOUS, THIS, or NEXT to define an offset and DAY, MONTH, MTD, QTR, YEAR, or YTD to define the period). | `IS THIS MONTH` or `IS LAST MONTH`                                            |
+| ANDing two conditions                                                                                                                  |  `sales > 1000 AND sales_date IS THIS MONTH`                                  |
+| ORing two conditions                                                                                                                   | `sales > 1000 OR sales IS NULL`                                               |
 
 ### Providing an explicit field for the condition
 
 By default, each condition will be compared against the main `field`. Let's look at a sample ingredient--
 
-```text
+```
 kind: Dimension
 field: sales_dollars
 singular: Sales Group
@@ -76,7 +76,7 @@ buckets_default_label: Large
 
 You can provide an alternative field in the condition itself. This is the **same definition** with the field provided explicitly.
 
-```text
+```
 kind: Dimension
 field: sales_dollars
 singular: Sales Group
@@ -91,7 +91,7 @@ buckets_default_label: Large
 
 By providing an alternative field, you can create complex buckets that look at multiple values
 
-```text
+```
 kind: Dimension
 field: sales_dollars
 singular: Sales Group
@@ -111,7 +111,7 @@ buckets_default_label: Large
 
 Conditions within buckets are evaluated in the order they are defined, which makes defining buckets for continuous values convenient:
 
-```text
+```
 kind: Dimension
 field: age
 singular: Age Range
@@ -126,7 +126,7 @@ buckets:
 buckets_default_label: 65 and over
 ```
 
-```text
+```
 kind: Dimension
 field: household_income
 singular: Income Range
@@ -141,4 +141,3 @@ buckets:
 buckets_default_label: 100k and over
 icon: money-bill-alt
 ```
-

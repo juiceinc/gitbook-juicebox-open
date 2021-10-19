@@ -4,11 +4,11 @@ description: Design is where you tell your story.
 
 # Design
 
-The **Design** section of the editing panel is where you design your data story. A story should be focused on a particular audience and purpose and gently guide users to the actionable insights they need. Within each story are sections, and within each section are slices. Each slice can have text and/or charts. 
+The **Design **section of the editing panel is where you design your data story. Within each story are sections, and within each section are slices. Each slice can have text and/or an image or chart.&#x20;
 
 Select the **Design** tab at the top of the editing panel to get started
 
-![Select Design to start designing your story](../../.gitbook/assets/design_tab.jpg)
+![Select Design to start designing your story](../../.gitbook/assets/design\_tab.jpg)
 
 There are several components you will be working with in the Design section. They are:
 
@@ -20,11 +20,18 @@ There are several components you will be working with in the Design section. The
 
 These components are described on the following pages:
 
-{% page-ref page="story-settings.md" %}
+{% content-ref url="story-settings.md" %}
+[story-settings.md](story-settings.md)
+{% endcontent-ref %}
 
-{% page-ref page="sections.md" %}
+{% content-ref url="sections.md" %}
+[sections.md](sections.md)
+{% endcontent-ref %}
 
-{% page-ref page="slices/" %}
+{% content-ref url="slices/" %}
+[slices](slices/)
+{% endcontent-ref %}
 
-{% page-ref page="charts/" %}
-
+{% content-ref url="charts/" %}
+[charts](charts/)
+{% endcontent-ref %}

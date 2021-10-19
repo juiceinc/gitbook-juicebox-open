@@ -13,22 +13,25 @@
 * [Creating and Editing Apps](editing-apps/creating-and-editing.md)
 * [Data](editing-apps/data-sources/README.md)
   * [Loading data](editing-apps/data-sources/loading-data.md)
-  * [Adding ingredients](editing-apps/data-sources/adding-ingredients/README.md)
-    * [Ingredient components](editing-apps/data-sources/adding-ingredients/ingredient-components.md)
-    * [Ingredient formats](editing-apps/data-sources/adding-ingredients/ingredient-formats.md)
-  * [Advanced ingredients](editing-apps/data-sources/advanced-ingredients/README.md)
-    * [Lookup dimensions](editing-apps/data-sources/advanced-ingredients/lookup-dimensions.md)
-    * [Bucketed dimensions](editing-apps/data-sources/advanced-ingredients/bucketed-dimensions.md)
+  * [The data preview](editing-apps/data-sources/the-data-preview.md)
+  * [Columns and measures](editing-apps/data-sources/columns-and-measures.md)
+  * [The column (or measure) editor](editing-apps/data-sources/the-column-or-measure-editor/README.md)
+    * [Time formats](editing-apps/data-sources/the-column-or-measure-editor/time-formats.md)
+    * [Number formats](editing-apps/data-sources/the-column-or-measure-editor/ingredient-formats.md)
+  * [Advanced columns and measures](editing-apps/data-sources/advanced-ingredients/README.md)
+    * [Lookup columns](editing-apps/data-sources/advanced-ingredients/lookup-dimensions.md)
+    * [Bucketed columns](editing-apps/data-sources/advanced-ingredients/bucketed-dimensions.md)
     * [Advanced formulas](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md)
     * [Advanced formats](editing-apps/data-sources/advanced-ingredients/advanced-formats.md)
-  * [Managing data sources](editing-apps/data-sources/edit-a-data-source.md)
+    * [Components of columns and measures](editing-apps/data-sources/advanced-ingredients/ingredient-components.md)
+  * [Managing data](editing-apps/data-sources/edit-a-data-source.md)
 * [Design](editing-apps/story-designer/README.md)
   * [Settings & Theme](editing-apps/story-designer/story-settings.md)
   * [Header Style](editing-apps/story-designer/header-style.md)
   * [Sections](editing-apps/story-designer/sections.md)
   * [Slices](editing-apps/story-designer/slices/README.md)
     * [Dynamic text](editing-apps/story-designer/slices/dynamic-text.md)
-    * [Multiple data sources](editing-apps/story-designer/slices/working-with-multiple-data-sources.md)
+    * [Multiple data tables](editing-apps/story-designer/slices/working-with-multiple-data-sources.md)
   * [Charts](editing-apps/story-designer/charts/README.md)
     * [Filters](editing-apps/story-designer/charts/filters.md)
     * [Chooser](editing-apps/story-designer/charts/data-card.md)
@@ -60,12 +63,11 @@
 * [Usage Reporting 🔜](managing-users/usage-reporting.md)
 * [User Roles and Management](managing-users/user-management-and-roles.md)
 
-## Managing my workspace <a id="managing-workspaces"></a>
+## Managing my workspace <a href="managing-workspaces" id="managing-workspaces"></a>
 
 * [Workspace Settings](managing-workspaces/workspace-settings.md)
 * [Subscription and Billing](managing-workspaces/subscription-and-billing.md)
 
----
+***
 
 * [Changelog 🎁](changelog.md)
-

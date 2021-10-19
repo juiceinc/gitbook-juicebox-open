@@ -1,10 +1,10 @@
 # Settings & Theme
 
-The Settings & Theme section at the top of the Design tab is where you can modify the basic settings for your app \(title, description, icon\), as well as the color and typography themes. Here you can  also delete or duplicate an app. 
+The Settings & Theme section at the top of the Design tab is where you can modify the basic settings for your app (title, description, icon), as well as the color and typography themes. Here you can  also delete or duplicate an app.&#x20;
 
-To do this, first expand the  Settings & Theme section. Make changes as needed, and then click **Save**. 
+To do this, first expand the  Settings & Theme section. Make changes as needed, and then click **Save**.&#x20;
 
-![The Settings &amp; Theme section, expanded](../../.gitbook/assets/design_options.jpg)
+![The Settings & Theme section, expanded](<../../.gitbook/assets/image (330).png>)
 
 ## Settings
 
@@ -22,15 +22,19 @@ This is the icon that will appear on the apps page. Each app starts with a basic
 
 ## Themes
 
-### Color theme
+### Color themes
 
-Choose the color to use primary color of your app. This color will appear in the apps page, app header, and charts. 
+Choose the color theme to use for your app. You can select from pre-designed color themes or create your own. The color in the circle will be the color used in charts. The three additional colors will be used automatically as the header and section backgrounds and will be available for selection as the background color for the header, sections, and slices.&#x20;
+
+![Where color theme colors appear in the app](<../../.gitbook/assets/image (324).png>)
+
+You can switch color themes at any time. If theme colors are used as backgrounds, these will be switched to the new theme colors. (If a non-theme color is used as a background, this color will not change when the theme changes.)
 
 ### Typography theme
 
 Choose a typographic style for your app.
 
-### Image background \(future release\)
+### Image background (future release)
 
 In a future release, you will be able to select an image to use as the app background, instead of the color.
 
@@ -42,13 +46,12 @@ Changes to settings and themes must be published before they will appear on the 
 
 ### Deleting an app
 
-To delete an app, click the menu icon \(![](../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Delete App**. 
+To delete an app, click the delete icon (![](<../../.gitbook/assets/trash-alt-regular (1).svg>)).
 
-![Select Delete App to delete an app](../../.gitbook/assets/delete_app.jpg)
+![Deleting an app](<../../.gitbook/assets/image (337).png>)
 
 ### Duplicating an app
 
-To duplicate an app, click the menu icon \(![](../../.gitbook/assets/ellipsis-h-solid.svg)\) and select **Duplicate App**. Then give your new app a title and select **Duplicate**. Once the new app is created it will open as a draft version, ready for you to make edits and publish.
+To duplicate an app, click the duplicate icon (![](../../.gitbook/assets/clone-regular.svg)). Next, give your new app a title and select **Duplicate**. Once the new app is created it will open as a draft version, ready for you to edit and share.
 
-![Select Duplicate App to duplicate an app](../../.gitbook/assets/duplicate_app.jpg)
-
+![Duplicating an app](<../../.gitbook/assets/image (316).png>)
