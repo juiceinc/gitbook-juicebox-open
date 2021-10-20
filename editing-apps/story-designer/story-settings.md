@@ -22,7 +22,7 @@ This is the icon that will appear on the apps page. Each app starts with a basic
 
 ## Themes
 
-### Color themes
+### Color theme
 
 Choose the color theme to use for your app. You can select from pre-designed color themes or create your own. The color in the circle will be the color used in charts. The three additional colors will be used automatically as the header and section backgrounds and will be available for selection as the background color for the header, sections, and slices.&#x20;
 
