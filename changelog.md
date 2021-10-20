@@ -9,16 +9,16 @@
 
 ### 🎁 What's new?
 
-* **Easier color makeovers.** Quickly see how your app looks in a whole new wardrobe. Themed color palettes make it easy to change the look of your app in one click. 👔&#x20;
+* **Easier color makeovers.** Quickly see how your app looks in a whole new wardrobe. Themed color palettes make it easy to change the look of your app in one click.&#x20;
 
 ![](.gitbook/assets/Themes.gif)
 
-* **Easier to use data**. Count your text, itemize your numbers. No, things aren't all higgledy-piggledy. Our new data loading makes it possible for you to use all of your data columns as both dimensions and measures. You can decide how you want to calculate measures as you're adding charts to your story.
+* **Easier to use data**. Our new data loading makes it possible for you to use all of your data columns as both dimensions and measures. You can decide how you want to calculate measures as you're adding charts to your story.
 
 ### 🐛 Bug fixes & other improvements
 
 * A simpler way to create locations while making a map.
-* Selections in table charts now filter properly (i.e., based on all columns, not just the first one.)
+* Selections in table charts now filter properly (i.e., based on all columns, not just the first one).
 * Improved performance for paginated charts.
 * Deleting or duplicating apps, sections, and slices is easier with new ![](<.gitbook/assets/trash-alt-regular (1).svg>) and ![](.gitbook/assets/clone-regular.svg) buttons.
 * Broken ingredients are (mostly) a thing of the past.

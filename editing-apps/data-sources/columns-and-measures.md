@@ -15,7 +15,7 @@ There are two special kinds of columns in Juicebox: [**place**](broken-reference
 * A place column associates a location field with latitude and longitude fields. The [map](../story-designer/charts/map.md) chart requires a place column. You will need to have both latitude and longitude fields in your data in order to create a place column. &#x20;
 
 {% hint style="info" %}
-You add a place column when you add a [map](../story-designer/charts/map.md) chart to your data story.&#x20;
+You [add a place column](the-column-or-measure-editor/#place-column-editor) when you add a [map](../story-designer/charts/map.md) chart to your data story.&#x20;
 {% endhint %}
 
 * A time column is created from a field that has a date or time [data type](the-data-preview.md#data-types). The [trend](../story-designer/charts/trend.md) chart requires a time column.&#x20;
