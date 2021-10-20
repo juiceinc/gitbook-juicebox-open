@@ -13,7 +13,7 @@
 
 ![](.gitbook/assets/Themes.gif)
 
-* **Easier to use data**. Our new data loading makes it possible for you to use all of your data columns as both dimensions and measures. You can decide how you want to calculate measures as you're adding charts to your story.
+* **Easier to use data**. Now you can use all of your data columns as either dimensions or measures in charts. And you can decide how you want to calculate measures as you're adding charts to your story.
 
 ### 🐛 Bug fixes & other improvements
 
