@@ -25,5 +25,5 @@ Here are data types that are recognized in Juicebox:
 | Time      | A value for a date and time that includes the year, month, day, hour, minute, second, and (optionally) subsecond | `2020-10-30 19:35:25.125456`                 |
 
 {% hint style="info" %}
-If the data type for a column is not what you expect, that may indicate there is an issue with the data. For example, if you expect a column to have the Number data type, but it is has a Text data type, there may be values in the column that are not numbers. Here is guidance on [preparing your data](../design-tips/preparing-your-data.md) for use in Juicebox.&#x20;
+If the data type for a column is not what you expect, that may indicate there is an issue with the data. For example, if you expect a column to have the Number data type, but it instead has a Text data type, there may be values in the column that are not numbers. Here is guidance on [preparing your data](../design-tips/preparing-your-data.md) for use in Juicebox.&#x20;
 {% endhint %}
