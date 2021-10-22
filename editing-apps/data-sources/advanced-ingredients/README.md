@@ -6,7 +6,7 @@ Advanced columns and measures allow you to define--
 
 * Columns that [display a lookup value](lookup-dimensions.md) rather than the field value
 * Columns that [group values into "buckets"](bucketed-dimensions.md) based on conditions&#x20;
-* Measures and dimensions that [use field math](advanced-formulas.md#field-math)
+* Measures and columns that [use field math](advanced-formulas.md#field-math)
 * Measures that [use multiple aggregation functions](advanced-formulas.md#multiple-aggregate-functions)
 * Measures and columns that [include conditional logic](advanced-formulas.md#conditional-logic)
 * Measures or number columns formatted to [use any d3 number format](advanced-formats.md#advanced-number-formats)
