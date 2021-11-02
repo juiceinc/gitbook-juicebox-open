@@ -16,10 +16,6 @@ If you're looking for information on a specific concept, check out these links f
 [creating-and-editing.md](editing-apps/creating-and-editing.md)
 {% endcontent-ref %}
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 {% content-ref url="editing-apps/story-designer/" %}
 [story-designer](editing-apps/story-designer/)
 {% endcontent-ref %}
