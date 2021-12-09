@@ -72,7 +72,7 @@ The following diagram shows [how these three stages connect to traditional story
 
 We want to provide a short checklist of items to evaluate whether you’ve considered important design choices with your data story.
 
-### ****![](../../.gitbook/assets/check-square-solid.svg)** **Setting context
+### ****![](../../.gitbook/assets/check-square-solid.svg) **** Setting context
 
 Before your reader dives into the data, you want to [set the context](https://www.juiceanalytics.com/writing/use-context-to-make-your-audience-care). How? At the top of your story, add a slice that gives a title, describes the data, even tells people what kinds of questions they can answer.&#x20;
 

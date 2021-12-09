@@ -10,10 +10,10 @@ To publish for the first time, go to Share in the editing panel and click **Star
 
 ![](../../.gitbook/assets/share\_panel.jpg)
 
-Next, decide whether you want to share the app **publicly **or **privately**.
+Next, decide whether you want to share the app **publicly** or **privately**.
 
-* A **public app **can be viewed by anyone with the app url. Viewers of public apps are not required to sign in and their app access cannot be managed.&#x20;
-* A **private app **can be viewed only by those that have signed in with a Juicebox account that has access to the app. Viewer access to the app can be [managed in the People view](../../managing-users/user-management-and-roles.md).
+* A **public app** can be viewed by anyone with the app url. Viewers of public apps are not required to sign in and their app access cannot be managed.&#x20;
+* A **private app** can be viewed only by those that have signed in with a Juicebox account that has access to the app. Viewer access to the app can be [managed in the People view](../../managing-users/user-management-and-roles.md).
 
 ![Select whether to publish as a public or private app](<../../.gitbook/assets/image (113).png>)
 
@@ -54,6 +54,6 @@ At some point you may want to discard all the unshared changes in the draft app 
 ![Discard changes will go back to the previously shared version.](../../.gitbook/assets/discard\_changes.jpg)
 
 {% hint style="danger" %}
-Discarding changes will discard **all changes** made since the last share _**including changes to data**_**. **
+Discarding changes will discard **all changes** made since the last share _**including changes to data**_**.**&#x20;
 {% endhint %}
 

@@ -66,7 +66,7 @@ The editor for an [advanced measure](../advanced-ingredients/) will look very di
 
 You can duplicate an existing column or measure from the editor by clicking the menu icon (![](../../../.gitbook/assets/ellipsis-h-solid.svg)) and selecting **Duplicate**.
 
-![Duplicating a column or measure](<../../../.gitbook/assets/image (310).png>)
+![Duplicating a column or measure](<../../../.gitbook/assets/image (310) (1).png>)
 
 You can delete an existing column or measure from the editor by clicking the menu icon (![](../../../.gitbook/assets/ellipsis-h-solid.svg)) and selecting **Delete**.
 

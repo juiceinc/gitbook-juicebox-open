@@ -4,6 +4,22 @@
 
 * Replace data and switch data sources more easily
 * Auto-saved editing
+* Custom fonts
+
+## December 8, 2021
+
+### 🎁 What's new?
+
+* **Add images to the background of your header and sections**. Take your data story style to the next level by adding background images to headers and sections. You can add your own images or find images on Unsplash.&#x20;
+
+![](<.gitbook/assets/image (1) (1).png>)
+
+* **Streamlined data prep**. We've added lots of smarts to our data loading process so you can spend less time on data prep, more time telling your data story. &#x20;
+
+### 🐛 Bug fixes & other improvements
+
+* New editing panel improvements help you get to the right place.
+* Charts no longer allow configuration if data has not been loaded.
 
 ## October 19, 2021
 
@@ -60,7 +76,7 @@
 
 ### 🎁 What's new?
 
-* **More ways to style text. **And now, with even _more_ style! You can add numbered lists, bulleted lists, and block quotes. The text in your editor panel now looks more like it _actually_ does in your app.
+* **More ways to style text.** And now, with even _more_ style! You can add numbered lists, bulleted lists, and block quotes. The text in your editor panel now looks more like it _actually_ does in your app.
 
 ![](.gitbook/assets/10.7.gif)
 
@@ -76,13 +92,13 @@
 
 ### 🎁 What's new?
 
-* **✨New text editor✨ **With our new text editor, you can add and style text, emojis 🔥, and links with ease. Huzzah! (But if you still want to get down with Markdown, you can do that too.)
-* **Multi-line trend. **Now you can show up to 5 measures in a single trend chart. Compare to a target or a moving average (or both!) and bring context and clarity to changes over time. And if you want dual vertical axes, you can do that too.&#x20;
+* **✨New text editor✨** With our new text editor, you can add and style text, emojis 🔥, and links with ease. Huzzah! (But if you still want to get down with Markdown, you can do that too.)
+* **Multi-line trend.** Now you can show up to 5 measures in a single trend chart. Compare to a target or a moving average (or both!) and bring context and clarity to changes over time. And if you want dual vertical axes, you can do that too.&#x20;
 
 ![](.gitbook/assets/screen\_recording\_2021-07-22\_at\_12.43.47\_pm.gif)
 
-* **Custom subdomains**. Is your cute-and-fruity workspace subdomain a little _too _cute for your needs? Now you can customize your subdomain in the new Settings page. (Requires a Team plan subscription.)
-* **Team plan goodies**. Sign up for the Team plan and get access to more users, bigger uploads, a custom subdomain, and more.** **
+* **Custom subdomains**. Is your cute-and-fruity workspace subdomain a little _too_ cute for your needs? Now you can customize your subdomain in the new Settings page. (Requires a Team plan subscription.)
+* **Team plan goodies**. Sign up for the Team plan and get access to more users, bigger uploads, a custom subdomain, and more. ****&#x20;
 
 ### 🐛 Bug fixes & other improvements
 
@@ -209,7 +225,7 @@
 
 ### 🎁 What's new?
 
-* **Sign up for a workspace. **Now you (and all your friends) can [create your own_ _workspace](getting-started/new-workspace.md). Why would you want your own workspace? Perhaps you want to do some data presentation work for that non-profit you're helping out with. Or maybe you have an idea for a data reporting side-gig. Whatever data-prez itch you have, now you can create a separate workspace to put it in. _Juicebox all-the-things!_
+* **Sign up for a workspace.** Now you (and all your friends) can [create your own __ workspace](getting-started/new-workspace.md). Why would you want your own workspace? Perhaps you want to do some data presentation work for that non-profit you're helping out with. Or maybe you have an idea for a data reporting side-gig. Whatever data-prez itch you have, now you can create a separate workspace to put it in. _Juicebox all-the-things!_
 * **Duplicate an app.** If you want to create a new app that is similar to an existing app, you can [duplicate it](broken-reference).
 
 ![Duplicate an app](.gitbook/assets/screen\_recording\_2020-12-16\_at\_12.23.23\_pm.gif)
@@ -247,11 +263,11 @@
 
 ### 🎁 What's new?
 
-* **Automagic color contrast **- Don't be afraid of the dark!** 🎃**Now, when you change the background of your slices to a dark color, the slice will automatically invert other colors so that it remains readable. It's a beautiful way to draw attention to the highlights of your data story!&#x20;
+* **Automagic color contrast** - Don't be afraid of the dark! **🎃**Now, when you change the background of your slices to a dark color, the slice will automatically invert other colors so that it remains readable. It's a beautiful way to draw attention to the highlights of your data story!&#x20;
 
 ![Color your story with beautiful Sections.](.gitbook/assets/feature-inverting.gif)
 
-* **Easier to find your way home **🏠** **- To get back to the apps page, just click the Apps button in the header of any app. It's a little like Little Red Riding Hood... but without the wolf.
+* **Easier to find your way home** 🏠 **** - To get back to the apps page, just click the Apps button in the header of any app. It's a little like Little Red Riding Hood... but without the wolf.
 
 ### 🐛 Bug fixes & other improvements
 
@@ -265,16 +281,16 @@
 
 ### 🎁 What's new?
 
-* **An improved trend chart **📈 - We did a brain upgrade on the trend chart. The [trend chart](editing-apps/story-designer/charts/trend.md) is now smarter about handling dates and times. You can easily roll up dates by month or year (see time ingredient improvement below), see which dates are missing data, and select ranges of dates to filter the story below. Hey, Trend Chart: it's time you were schooled 🎓.&#x20;
+* **An improved trend chart** 📈 - We did a brain upgrade on the trend chart. The [trend chart](editing-apps/story-designer/charts/trend.md) is now smarter about handling dates and times. You can easily roll up dates by month or year (see time ingredient improvement below), see which dates are missing data, and select ranges of dates to filter the story below. Hey, Trend Chart: it's time you were schooled 🎓.&#x20;
 
 ![](.gitbook/assets/release-trend.gif)
 
-* **Broken ingredients **🐣- Change is hard, we know that. When you replace a CSV on a data source, sometimes the new data has different names or different data types. This can break data ingredients. You'll see these [broken ingredients](editing-apps/data-sources/edit-a-data-source.md#fixing-broken-ingredients-caused-by-changes-in-column-names) highlighted (in a style we call "the blushing zebra") so you can fix them. Now change isn't so hard.&#x20;
+* **Broken ingredients** 🐣- Change is hard, we know that. When you replace a CSV on a data source, sometimes the new data has different names or different data types. This can break data ingredients. You'll see these [broken ingredients](editing-apps/data-sources/edit-a-data-source.md#fixing-broken-ingredients-caused-by-changes-in-column-names) highlighted (in a style we call "the blushing zebra") so you can fix them. Now change isn't so hard.&#x20;
 
 ### 🐛 Bug fixes & other improvements
 
 * **Roll up time ingredients by month or year**: You can easily roll up time ingredient dates by month or year by choosing a month or year format when [defining the time ingredient](broken-reference). It's time to roll ⏰.
-* **New advanced ingredient functions: **There are new options for advanced aggregations. You can calculate [percentiles and ages](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md#aggregation-functions). This improvement is in the top percentile.
+* **New advanced ingredient functions:** There are new options for advanced aggregations. You can calculate [percentiles and ages](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md#aggregation-functions). This improvement is in the top percentile.
 * **More docs on formatting:** The advanced ingredients docs now contains lots of examples of how to build [custom number formats](editing-apps/data-sources/advanced-ingredients/advanced-formats.md#advanced-number-formats). `,.0f" days until Christmas"` might not mean anything to you, but it does to Juicebox. And to Santa. 🎁
 * Various performance and bug fixes.
 

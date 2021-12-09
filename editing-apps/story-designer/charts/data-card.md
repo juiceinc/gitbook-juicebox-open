@@ -20,7 +20,7 @@ A chooser chart with measures (i.e., a measure chooser slice) will display a hig
 
 #### To add a measure chooser slice:
 
-* select ** Chooser** from the chart list
+* select **Chooser** from the chart list
 
 ![](<../../../.gitbook/assets/image (282).png>)
 
@@ -67,7 +67,7 @@ Chooser slices are particularly powerful when slices further down the app refer 
 Chooser values will be "display only" (i.e., unselectable) unless a downstream slice includes a dynamic column or measure referring to the chooser.
 {% endhint %}
 
-To reference the selection made in a chooser slice**: **
+To reference the selection made in a chooser slice**:**&#x20;
 
 * Create a column chooser or measure chooser using the above instructions
 * In a downstream slice, select the chooser's slice slug in the column dropdown and/or measure dropdown

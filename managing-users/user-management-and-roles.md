@@ -20,19 +20,19 @@ Here's an overview of what each role can do.&#x20;
 
 ### Viewer
 
-**Viewers **can view the apps they've been given access to through an access link. They cannot see apps they have not been given access to and they can not create new apps or edit apps.&#x20;
+**Viewers** can view the apps they've been given access to through an access link. They cannot see apps they have not been given access to and they can not create new apps or edit apps.&#x20;
 
 ### Editor
 
-**Editors **can view all apps, edit all apps, and create new apps.&#x20;
+**Editors** can view all apps, edit all apps, and create new apps.&#x20;
 
 ### Admin
 
-**Admins **can view all apps, edit all apps, create new apps, and manage user roles and app access in the [People view](user-management-and-roles.md#managing-users).
+**Admins** can view all apps, edit all apps, create new apps, and manage user roles and app access in the [People view](user-management-and-roles.md#managing-users).
 
 ### Owner
 
-Each workspace has at least one **owner**. Owners can do everything admins** **can do. In addition, owners can adjust subscription and payment information.
+Each workspace has at least one **owner**. Owners can do everything admins **** can do. In addition, owners can adjust subscription and payment information.
 
 ## Managing Users
 

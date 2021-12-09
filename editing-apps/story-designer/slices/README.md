@@ -10,7 +10,7 @@ To add a slice to an empty section, select the **+ Add Slice** button.&#x20;
 
 ![](<../../../.gitbook/assets/image (260).png>)
 
-To add a slice to a section that has one or more slices, click the **+ **where you want the new slice to appear.
+To add a slice to a section that has one or more slices, click the **+** where you want the new slice to appear.
 
 ![Adding a slice to a section with one or more slices](<../../../.gitbook/assets/image (202).png>)
 

@@ -4,7 +4,7 @@ description: Handy tips for telling a great data story visually.
 
 # Visual design
 
-## Data _doesn't _speak for itself.&#x20;
+## Data _doesn't_ speak for itself.&#x20;
 
 While "the data speaks for itself" is a nice idealistic phrase, in practice people often don't see or hear anything from the data because it is simply presented poorly. While you don't want to present a message the data _isn't_ saying, you do want to ensure valuable insights are both attractive and effective.&#x20;
 
@@ -15,14 +15,14 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 ## Color
 
 * Choose **a data color** that resonates with your story topic or company brand. Bolder, vibrant colors tend to be better for this.&#x20;
-* Use** **[**section color**](../story-designer/sections.md#section-background-color) backgrounds to define a visual flow for your story. For example, you may want a bold colored introductory section to grab interest, and then use lighter color section backgrounds in the rest of your story that will be less distracting for reading data from charts. &#x20;
+* Use **** [**section color**](../story-designer/sections.md#section-background-color) backgrounds to define a visual flow for your story. For example, you may want a bold colored introductory section to grab interest, and then use lighter color section backgrounds in the rest of your story that will be less distracting for reading data from charts. &#x20;
 * Be sure your **text has good contrast** for readability. If a dark background color is chosen on a section or slice, Juicebox will automatically make your text white.
 * If you do add photos, think about how well the colors compliment the rest of your visuals.&#x20;
 * Less is more. The more colors you add, the less you can use color to emphasize specific messages or your data you don't want to get lost.
 
 ## Typography & Styles
 
-* There are 4 **typographic pair styles **(Refined, Literary, Professional, and Bold) to choose from. Choose a set that conveys the mood of your story best. Is the story more opinionated or explanatory? Choose the "Literary" style. Is the story more a statistically accurate report update? You may want to choose "Professional", or "Bold" if you want to make a stronger point.
+* There are 4 **typographic pair styles** (Refined, Literary, Professional, and Bold) to choose from. Choose a set that conveys the mood of your story best. Is the story more opinionated or explanatory? Choose the "Literary" style. Is the story more a statistically accurate report update? You may want to choose "Professional", or "Bold" if you want to make a stronger point.
 * Use **large text headers** in Slice text to create titles for your sections.
 * Use small text for notes about data or guidance tips you would like to communicate to your viewers.&#x20;
 * Want to add a bit more:smile:fun?! Sprinkle in emojis.&#x20;

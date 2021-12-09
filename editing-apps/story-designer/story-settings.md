@@ -48,7 +48,7 @@ Changes to settings and themes must be published before they will appear on the 
 
 To delete an app, click the delete icon (![](<../../.gitbook/assets/trash-alt-regular (1).svg>)).
 
-![Deleting an app](<../../.gitbook/assets/image (337).png>)
+![Deleting an app](<../../.gitbook/assets/image (337) (1).png>)
 
 ### Duplicating an app
 

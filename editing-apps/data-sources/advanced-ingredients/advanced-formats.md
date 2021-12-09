@@ -18,7 +18,7 @@ Every part of the number format is optional except for the positive\_format . If
 
 #### prefix and suffix
 
-`Prefix` can be any text that appears before the number, while `suffix` will appear after the number. **They must be between double quotes. **Prefix and suffix support a special command `pluralize(singular, plural)` which chooses between two strings. If the number being formatted is one, the singular value will be displayed, otherwise the plural value will be displayed.
+`Prefix` can be any text that appears before the number, while `suffix` will appear after the number. **They must be between double quotes.** Prefix and suffix support a special command `pluralize(singular, plural)` which chooses between two strings. If the number being formatted is one, the singular value will be displayed, otherwise the plural value will be displayed.
 
 | Format                                | Number | Result                       |
 | ------------------------------------- | ------ | ---------------------------- |

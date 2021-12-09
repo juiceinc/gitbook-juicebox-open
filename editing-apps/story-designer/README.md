@@ -4,7 +4,7 @@ description: Design is where you tell your story.
 
 # Design
 
-The **Design **section of the editing panel is where you design your data story. Within each story are sections, and within each section are slices. Each slice can have text and/or an image or chart.&#x20;
+The **Design** section of the editing panel is where you design your data story. Within each story are sections, and within each section are slices. Each slice can have text and/or an image or chart.&#x20;
 
 Select the **Design** tab at the top of the editing panel to get started
 

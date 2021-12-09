@@ -17,7 +17,7 @@ After selecting your starting point, the app creation wizard will walk you throu
 Click +Create New to add a new app to your workspace
 {% endembed %}
 
-Once your app is created, you'll be taken to the draft version of the app. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/). ** **
+Once your app is created, you'll be taken to the draft version of the app. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/). ****&#x20;
 
 ## Edit an app
 

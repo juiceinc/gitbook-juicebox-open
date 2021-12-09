@@ -9,7 +9,7 @@ Selections made in a story automatically drive how the story progresses in two w
 
 Selections in a slice will automatically filter downstream slices. This allows users to drill down on the data that is relevant to their problem.&#x20;
 
-In the example below, there are two slices. The top slice has a [bar](../editing-apps/story-designer/charts/bar.md) chart that shows regions** **ranked by** **a Happiness measure, and the bottom slice has a [leaderboard](../editing-apps/story-designer/charts/leaderboard.md) chart that shows which countries lead across multiple measures. Notice that when nothing is selected in the bar chart, the leaderboard shows the leaders across all countries. But when a particular region is selected in the bar chart (i.e., Western Europe), the leaderboard only ranks countries within the selected region.&#x20;
+In the example below, there are two slices. The top slice has a [bar](../editing-apps/story-designer/charts/bar.md) chart that shows regions **** ranked by **** a Happiness measure, and the bottom slice has a [leaderboard](../editing-apps/story-designer/charts/leaderboard.md) chart that shows which countries lead across multiple measures. Notice that when nothing is selected in the bar chart, the leaderboard shows the leaders across all countries. But when a particular region is selected in the bar chart (i.e., Western Europe), the leaderboard only ranks countries within the selected region.&#x20;
 
 ![Selections in slices above filter slices below](../.gitbook/assets/data\_flow\_viz.gif)
 

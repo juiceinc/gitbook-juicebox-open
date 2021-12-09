@@ -44,7 +44,7 @@ Sometimes your data will contain rows you don't need. For example, let's say you
 
 The first row of your data should contain your column names. Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels, so better column names mean less work for you when defining [columns and measures](../data-sources/columns-and-measures.md). Each column name should be unique.&#x20;
 
-### 8. Restructure data as needed <a href="h_f12bd5a4c0" id="h_f12bd5a4c0"></a>
+### 8. Restructure data as needed <a href="#h_f12bd5a4c0" id="h_f12bd5a4c0"></a>
 
 Consider each of your column headers. Does the column header _itself_ contain a value that you'll want to use in your analysis? If so, you'll need to restructure your data.
 
@@ -80,7 +80,7 @@ If you want to use the [map](../story-designer/charts/map.md) slice, you will ne
 
 You're almost there! Do a final check to make everything looks ok. Should null values be null? Do values contain carriage returns, leading or trailing spaces, or anything else odd? The `TRIM()` function is useful for dealing with large numbers of leading and trailing spaces.
 
-### 14. Download your data as a CSV file
+### 14. Download your data as a CSV or Excel file
 
 Download your prepared data as a CSV file, with commas `,` separating the values. Give it a meaningful but brief name and save it in a location you can easily find.
 

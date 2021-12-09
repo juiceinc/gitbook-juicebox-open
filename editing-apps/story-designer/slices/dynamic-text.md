@@ -3,7 +3,7 @@
 Slice text can change dynamically based on what a user has selected in slices above.
 
 {% hint style="info" %}
-It is best practice to add dynamic text after configuring charts. Dynamic text will only return selections_ _in charts.&#x20;
+It is best practice to add dynamic text after configuring charts. Dynamic text will only return selections __ in charts.&#x20;
 {% endhint %}
 
 For example, suppose you have a [chooser](../charts/data-card.md) slice followed by a [trend](../charts/trend.md) slice, and the measure used in the trend slice is the measure selected in the upstream chooser slice. Your trend slice title says "Here's the trend for **the measure selected above**":
