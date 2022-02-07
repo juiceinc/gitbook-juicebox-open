@@ -63,7 +63,7 @@
 * [Usage Reporting 🔜](managing-users/usage-reporting.md)
 * [User Roles and Management](managing-users/user-management-and-roles.md)
 
-## Managing my workspace <a href="managing-workspaces" id="managing-workspaces"></a>
+## Managing my workspace <a href="#managing-workspaces" id="managing-workspaces"></a>
 
 * [Workspace Settings](managing-workspaces/workspace-settings.md)
 * [Subscription and Billing](managing-workspaces/subscription-and-billing.md)
@@ -71,3 +71,4 @@
 ***
 
 * [Changelog 🎁](changelog.md)
+* [googlee5075ab85003c1ce](googlee5075ab85003c1ce.md)
