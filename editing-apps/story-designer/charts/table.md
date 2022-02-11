@@ -8,14 +8,14 @@ To add a table slice:
 
 * select **Table** from the chart list
 
-![](<../../../.gitbook/assets/image (210).png>)
+![Select Table from the dropdown](<../../../.gitbook/assets/image (322).png>)
 
 * select the columns and measures you want displayed in the table in the order you want them displayed&#x20;
 * choose whether you want users to be able to download the data
 * add slice text (optional)
-* click **Save**
+* click **Save changes**
 
-![](<../../../.gitbook/assets/image (183).png>)
+![A table slice](<../../../.gitbook/assets/image (383).png>)
 
 {% embed url="https://www.loom.com/share/a6fdd83d93a7414b85f4663cae48fd5a" %}
 Adding a table slice

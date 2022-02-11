@@ -1,13 +1,8 @@
 # Lookup columns
 
-If the values in a field are not what you want displayed in your app, you can create a lookup column to change them. For example, let's say your data has a Question field with two distinct, very long values:&#x20;
+If the values in a field are not what you want displayed in your app, you can create a lookup column to change them. For example, let's say your data has a Country field with the full name of each country, but you only want to display an abbreviation. To do that, you could create an advanced ingredient like so:
 
-* "Percent of adults aged 18 years and older who have obesity"&#x20;
-* "Percent of adults aged 18 years and older who have an overweight classification"&#x20;
-
-Instead of those long values, you want to display "Obese" and "Overweight," respectively.  To do that, you could create an advanced ingredient like so:
-
-![Advanced ingredient: lookup dimension ](<../../../.gitbook/assets/image (247).png>)
+![Advanced column using lookup](<../../../.gitbook/assets/image (339).png>)
 
 To create a lookup dimension, you add the `lookup:` component to the column definition. The lookup values need to be indented consistently.
 

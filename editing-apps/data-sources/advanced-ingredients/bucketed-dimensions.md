@@ -1,26 +1,28 @@
 # Bucketed columns
 
-A bucketed column is a column that groups field values into buckets based on conditions. For example, let's say your data includes a `LocationAbbr` field with state abbreviation values, and you want to groups these state abbreviation values into different regions: Southeast, Northeast, Midwest, Southwest, and West. To do that, you could create an advanced column like so--
+A bucketed column is a column that groups field values into buckets based on conditions. For example, let's say your data includes a `Score` field with user scores, and you want to use the scores to group users into different groups:&#x20;
 
-![Advanced ingredient: bucketed column](<../../../.gitbook/assets/image (191).png>)
+* Detractor
+* Passive
+* Promoter
+
+To do that, you could create an advanced column like so--
+
+![Advanced column using buckets](<../../../.gitbook/assets/image (342).png>)
 
 \--with the following components:
 
 ```
 kind: Dimension
-field: LocationAbbr
-singular: Region
+field: score
+singular: Role
 buckets:
-  - label: Southeast
-    condition: 'IN ("AR", "AL", "GA", "MS", "TN", "KY", "SC", "NC", "VA", "WV", "DC", "FL", "LA")'
-  - label: Northeast
-    condition: 'IN ("ME","VT","NH","CT","NY","NJ","DE","MD","PA","MA","RI")'
-  - label: Midwest
-    condition: 'IN ("IA","MI","WI","MN","NE","MO","IN","IL","OH","KS","ND","SD")'
-  - label: Southwest
-    condition: 'IN ("TX","OK","AZ","NM")'
-  - label: West
-    condition: 'IN ("CA","NV","CO","UT","OR","WA","HI","WY","MT","ID","AK")'
+  - label: Detractor
+    condition: <= 6
+  - label: Passive
+    condition: <= 8
+  - label: Promoter
+    condition: <= 10
 buckets_default_label: Other
 ```
 

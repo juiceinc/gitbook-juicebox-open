@@ -10,7 +10,7 @@ Here's an overview of what each role can do.&#x20;
 | -------------------------------------------------- | :----: | :-----: | :----: | :---: |
 | Action                                             | Viewer | Editor  | Admin  | Owner |
 | View specific apps that they've been invited to    |   ✔️   |   N/A   |   N/A  |  N/A  |
-| <p>Invite viewers to specific <br>apps</p>         |        |    ✔️   |   ✔️   |   ✔️  |
+| Invite viewers to specific apps                    |        |    ✔️   |   ✔️   |   ✔️  |
 | View all apps                                      |        |    ✔️   |   ✔️   |   ✔️  |
 | Edit all apps                                      |        |    ✔️   |   ✔️   |   ✔️  |
 | Create new apps                                    |        |    ✔️   |   ✔️   |   ✔️  |
@@ -20,7 +20,7 @@ Here's an overview of what each role can do.&#x20;
 
 ### Viewer
 
-**Viewers** can view the apps they've been given access to through an access link. They cannot see apps they have not been given access to and they can not create new apps or edit apps.&#x20;
+**Viewers** can view the apps they've been given access to through an access link. They cannot see apps they have not been given access to and they cannot create new apps or edit apps.&#x20;
 
 ### Editor
 
@@ -32,17 +32,17 @@ Here's an overview of what each role can do.&#x20;
 
 ### Owner
 
-Each workspace has at least one **owner**. Owners can do everything admins **** can do. In addition, owners can adjust subscription and payment information.
+Each workspace has at least one **owner**. Owners can do everything admins **** can do. In addition, owners can adjust workspace settings and subscription and payment information.
 
 ## Managing Users
 
-Workspace owners and admins can manage users through the People view. At the top of the apps page, owners and admins will see two buttons: **Apps** and **People**.&#x20;
+Workspace owners and admins can manage users through the People view. At the top of the workspace home page, owners and admins will see two buttons: **Apps** and **People**.&#x20;
 
-![The People button will display on the apps page if your are an owner or admin](<../.gitbook/assets/image (185).png>)
+![The People button will display on the home page if you are an owner or admin](<../.gitbook/assets/image (329).png>)
 
 Clicking the **People** button will open the People view.&#x20;
 
-![The People view](<../.gitbook/assets/image (123).png>)
+![The People view](<../.gitbook/assets/image (304).png>)
 
 The People view lists each workspace user as well as the number of apps the user has access to, the user's role, when the user last logged in, and when the user first signed up. You can search for users using the search bar at the top of the People view. You can sort the values in a column by clicking the column header.
 

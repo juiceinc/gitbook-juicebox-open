@@ -8,15 +8,15 @@ To add a trend slice:
 
 * select **Trend** from the chart list
 
-![](<../../../.gitbook/assets/image (327).png>)
+![Select Trend from the dropdown](<../../../.gitbook/assets/image (384).png>)
 
 * select the [time column](../../data-sources/columns-and-measures.md#special-columns-place-and-time) to use for the x-axis
 * select up to 5 measures to display on a single y-axis
 * select 1 measure to display on a second y-axis (optional)
 * add slice text (optional)
-* click **Save**
+* click **Save changes**
 
-![](<../../../.gitbook/assets/image (251).png>)
+![A Trend slice](<../../../.gitbook/assets/image (346).png>)
 
 {% hint style="info" %}
 Because the trend chart requires a [time column](../../data-sources/columns-and-measures.md#special-columns-place-and-time). A time column is created from date or time fields in your data. The [time format](../../data-sources/the-column-or-measure-editor/time-formats.md) selected for the time column will determine how your dates "roll up" in your trend chart. For example, if you select the format `month yyyy`, the trend chart will roll up by month. If you select the format `yyyy`, the trend chart will roll up by year.&#x20;

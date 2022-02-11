@@ -17,7 +17,7 @@ After selecting your starting point, the app creation wizard will walk you throu
 Click +Create New to add a new app to your workspace
 {% endembed %}
 
-Once your app is created, you'll be taken to the draft version of the app. You're now ready to edit the app to [add your data source](data-sources/) and [design your story](story-designer/). ****&#x20;
+Once your app is created, you'll be taken to the draft version of the app. You're now ready to edit the app to [add your data table](data-sources/) and [design your story](story-designer/). ****&#x20;
 
 ## Edit an app
 
@@ -33,9 +33,7 @@ To access the editing panel from the apps page, select **Edit** on the app.&#x20
 
 ![Accessing the editing panel for an app from the apps page](<../.gitbook/assets/image (180).png>)
 
-To access the editing panel from a published app, select **Edit this app** from the profile menu in the app header or hit your **Esc** key.&#x20;
-
-![Accessing the editing panel from the app header of a published app](<../.gitbook/assets/image (190).png>)
+To access the editing panel from a published app, hit your **Esc** key.&#x20;
 
 ### Overview of a draft app
 
@@ -45,9 +43,9 @@ Changes to an app are made to a draft version of the app. If you see the editing
 Changes made in the editing panel are immediately reflected in the draft app, but viewers cannot see the changes until they are [shared](publish-and-share/). Learn more about [how to manage app changes](publish-and-share/publishing-app-changes.md#making-changes-to-an-app).
 {% endhint %}
 
-![Parts of a draft app](<../.gitbook/assets/image (220).png>)
+![Parts of a draft app](<../.gitbook/assets/image (385).png>)
 
-There are three editing panel sections: [Data](data-sources/), [Design](story-designer/), and [Share](publish-and-share/). These sections are accessed from the buttons at the top of the editing panel and are described on the following pages:
+You [design](story-designer/) your app using the editing panel. You add [data](data-sources/) to your app from the Data Tables drawer. You [share](publish-and-share/) your app by clicking the App Status button.&#x20;
 
 {% content-ref url="data-sources/" %}
 [data-sources](data-sources/)

@@ -1,59 +1,50 @@
-# Sharing changes to your app
+# Publishing an app (or app changes)
 
-## Sharing an app
+The first step in sharing an app is publishing the app.&#x20;
 
-Before you start sharing your app, only editors in your workspace will see the changes you've made. When you're ready for other to see your app, it's time to share your work with viewers.
+## Publishing for the first time
 
-### Sharing for the first time
+To publish for the first time, click the Sharing button in the app header. It will say "**Start Sharing**".
 
-To publish for the first time, go to Share in the editing panel and click **Start Sharing**.
+![Click Start Sharing to share an app for the first time](<../../.gitbook/assets/image (326).png>)
 
-![](../../.gitbook/assets/share\_panel.jpg)
-
-Next, decide whether you want to share the app **publicly** or **privately**.
+Next, decide whether you want to publish the app **publicly** or **privately**.
 
 * A **public app** can be viewed by anyone with the app url. Viewers of public apps are not required to sign in and their app access cannot be managed.&#x20;
 * A **private app** can be viewed only by those that have signed in with a Juicebox account that has access to the app. Viewer access to the app can be [managed in the People view](../../managing-users/user-management-and-roles.md).
 
-![Select whether to publish as a public or private app](<../../.gitbook/assets/image (113).png>)
+![Select whether to publish as a public or private app](<../../.gitbook/assets/image (330).png>)
 
 {% hint style="info" %}
 If your app contains information that not everyone should see, you should publish it as a private app. If your app does not contain sensitive information, you may not know whether you want the app to be public or private. That's ok! Just select one and change it later as needed.&#x20;
 {% endhint %}
 
-After publishing, you are ready to [share your app](sharing-and-access-controls.md).&#x20;
+After publishing, you are ready to [invite viewers to your app](sharing-and-access-controls.md).&#x20;
 
-### Handling changes after sharing
+## Publishing changes to an app
 
-New changes made after you share will not be seen by viewers until you chose to share them. To share the newest changes, click **Share changes**.
+Until you publish them, any changes you make to an app are only visible to editors while in the draft app. That is, viewers with access to the app won't see your changes until you publish them. With Juicebox, you can publish, refine your app, publish the new changes, refine some more, publish the new changes, and so on. You can continually improve and experiment without affecting what viewers see until you're ready.
 
-![Viewers will not see your newest changes until you select "Share changes"](../../.gitbook/assets/pending\_changes3.jpg)
+To publish changes, click the Sharing button in the app header. It will say "**Share changes**".
 
-## Making changes to an app
-
-Until you share them, any changes you make to an app are only visible to editors. Viewers who have already been given access won't see your changes until you are ready to share them. With Juicebox, you can share, refine your app, share the new changes, refine some more, share the new changes, and so on. You can continually improve and experiment without affecting what viewers see.
+![Click "Share changes" to publish changes to a previously shared app](<../../.gitbook/assets/image (393).png>)
 
 {% hint style="info" %}
 **Edit freely** - you can always [discard changes](publishing-app-changes.md#discard-changes-to-an-app), to return to the last version of the app that you shared with viewers.
 {% endhint %}
 
-The version of the app that editors work on is called the **draft app**. All changes are saved to the draft app until they are shared, you do not have to keep track of whether you are working in the draft app. Here are indicators that you are in the draft version:
+The version of the app that editors work on is called the **draft app**. All changes are saved to the draft app until they are published, you do not have to keep track of whether you are working in the draft app. Here are indicators that you are in the draft version:
 
-* You will see "draft" in the app url
-* You will see the editing panel
-* After first publishing:
-  * If there are any unshared changes, the Share section's name be highlighted in yellow
-  * You will see an "Pending changes" pill in the app header
+* You see "draft" in the app url
+* You see the editing panel
+* You see the Sharing button
 
-![An app with pending changes](../../.gitbook/assets/an\_app\_with\_pending\_changes.jpg)
+## Discarding changes to an app
 
-## Discard changes to an app
+At some point you may want to discard all the unpublished changes in the draft app and go back to the previously published version of the app. To do this, click the Sharing button and select **Discard changes**.&#x20;
 
-At some point you may want to discard all the unshared changes in the draft app and go back to the previously shared version of the app. To do this, go to the Share section and select **Discard changes**.&#x20;
-
-![Discard changes will go back to the previously shared version.](../../.gitbook/assets/discard\_changes.jpg)
+![Click "Discard changes" to revert back to the previously published version of the app](<../../.gitbook/assets/image (305).png>)
 
 {% hint style="danger" %}
-Discarding changes will discard **all changes** made since the last share _**including changes to data**_**.**&#x20;
+Discarding changes will discard **all changes** made since the last publish _**including changes to data**_**.**&#x20;
 {% endhint %}
-

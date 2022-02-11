@@ -2,9 +2,35 @@
 
 ## What's coming soon?
 
-* Replace data and switch data sources more easily
-* Auto-saved editing
-* Custom fonts
+* Range filtering on dates and numbers
+* More font options!!
+* New Pie chart 🥧 to easily see the relationship of parts to the whole
+* Export as PDF or PNG
+
+## February 11, 2022
+
+### 🎁 What's new?
+
+Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In this release, we're finishing our journey to remove the editing tabs in the editing panel on the left of the workspace. Some really important things are moving around ("_where's my data??_" and "_so... how do I share now?_" might be questions you'll ask if you don't read 🤓.) So, take a moment to review the highlights:
+
+* The **Data Tables drawer** replaces the Data tab
+  * We've moved the Data tab to a drawer at the bottom of the window so you can easily see your data while you work. This gives you a clearer view of all your data and lets you switch between them more easily.
+  * You can update your data using the easier-to-find **Replace file** button
+  * A nice bonus: Now you can Download data tables making collaborating with other Editors easier than ever
+* The **Sharing** button replaces the Share tab
+  * We've moved the Sharing tab to a button in the upper right of the window that is always present, regardless of what you're doing in the editor. Now, you can quickly save and share your work with the click of a button.
+
+![](.gitbook/assets/data-footer.gif)
+
+### 🐛 Bug fixes & other improvements
+
+* Leaderboard charts now have a bold new look. _Really_ bold.&#x20;
+* Leaderboard, Trend, and Map charts now use colors that are based on the color theme.&#x20;
+* A newly designed Resource Center (in the bottom right of the window) and videos help you get the most out of Juicebox.
+* Column and measure pills have a new, cleaner look and are easier to remove from charts.
+* For apps with multiple data tables, a new chart configuration option lets you choose which data table to use in the chart.&#x20;
+
+![](.gitbook/assets/Screen\_Shot\_2022-02-11\_at\_9\_58\_58\_AM.jpg)
 
 ## December 8, 2021
 
@@ -61,7 +87,7 @@
 
 * **Choosers have a new look.** Chooser buttons are now sized based on their content and have a more eye-catching appearance.
 
-![](<.gitbook/assets/image (332).png>)
+![](<.gitbook/assets/image (332) (1).png>)
 
 * **Support for private editing notes.** Now you can leave notes in apps for yourself and other editors that won't be seen by your users.
 

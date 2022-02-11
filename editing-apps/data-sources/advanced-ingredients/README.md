@@ -12,16 +12,16 @@ Advanced columns and measures allow you to define--
 * Measures or number columns formatted to [use any d3 number format](advanced-formats.md#advanced-number-formats)
 * Time columns formatted to [use any d3 date format](advanced-formats.md#advanced-date-formats)
 
-To create an advanced column or measure click on the orange pill for a related column or measure, select the menu icon (![](../../../.gitbook/assets/ellipsis-h-solid.svg)), and select **Duplicate as Advanced**. This will open the advanced column and measure editor (or advanced editor). In the advanced editor, you define your new column or measure [components](../adding-ingredients/ingredient-components.md) using yaml.&#x20;
+To create an advanced column or measure click on the pill for a related column or measure, select the menu icon (![](../../../.gitbook/assets/ellipsis-h-solid.svg)), and select **Duplicate as Advanced**. This will open the advanced editor. In the advanced editor, you define your new column or measure [components](../adding-ingredients/ingredient-components.md) using yaml.&#x20;
 
-![Select Duplicate as Advanced to create an advanced column or measure](<../../../.gitbook/assets/image (331).png>)
+![Select Duplicate as Advanced to create an advanced column or measure](<../../../.gitbook/assets/image (306).png>)
 
 This will make a copy of the column or measure and open the advanced editor. Modify the components in the advanced editor as needed.&#x20;
 
-![After duplicating as advanced, you can modify the column or measure as needed](<../../../.gitbook/assets/image (336).png>)
+![After duplicating as advanced, you can modify the column or measure as needed](<../../../.gitbook/assets/image (388).png>)
 
 {% hint style="info" %}
-The advanced column and measure editor lets you build complex and powerful columns and measures. But it is also more susceptible to typos or syntax errors. Please reach out to us if you need help building your advanced column or measure by clicking Help in the top right of your workspace and starting a chat with us.&#x20;
+The advanced editor lets you build complex and powerful columns and measures. But it is also more susceptible to typos or syntax errors. Please reach out to us if you need help building your advanced column or measure by clicking **Help** in the top right of your workspace and starting a chat with us.&#x20;
 {% endhint %}
 
 The sections that follow demonstrate how to define those ingredient components based on what you want to do:

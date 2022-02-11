@@ -2,9 +2,9 @@
 
 The Header Style section at the top of the Design tab is where you can quickly create and style an intro section for your app.&#x20;
 
-To do this, first expand the  Header Style section. Select the header style and background color you want to apply, and then click **Save**.&#x20;
+To do this, first expand the  Header Style section. Select the header style, background color, and background image you want to apply, and then click **Save**.&#x20;
 
-![The Header Style section, expanded](../../.gitbook/assets/header\_style.jpg)
+![The Header Style section, expanded](<../../.gitbook/assets/image (345).png>)
 
 ## Background Colors
 
@@ -13,6 +13,8 @@ You can adjust the background color of the header style. To do this, click the p
 ### Choose another theme color
 
 To change the header background color from one theme color to another, you simply select the new theme color.&#x20;
+
+\[REPLACE]
 
 ![](../../.gitbook/assets/Screen\_Recording\_2021-12-06\_at\_1.04.08\_PM.gif)
 

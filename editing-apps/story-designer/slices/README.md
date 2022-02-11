@@ -6,25 +6,25 @@ Slices are the basic building blocks of your story. Slices are added to [section
 
 ### Adding a slice
 
-To add a slice to an empty section, select the **+ Add Slice** button.&#x20;
+To add a slice to an empty section, select the **+** button within the empty section.&#x20;
 
-![](<../../../.gitbook/assets/image (260).png>)
+![Adding a slice to an empty section](<../../../.gitbook/assets/image (334).png>)
 
 To add a slice to a section that has one or more slices, click the **+** where you want the new slice to appear.
 
-![Adding a slice to a section with one or more slices](<../../../.gitbook/assets/image (202).png>)
+![Adding a slice to a section with one or more slices](<../../../.gitbook/assets/image (396).png>)
 
 ### Duplicating a slice
 
 Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, select the duplicate icon (![](../../../.gitbook/assets/clone-regular.svg)) in the slice you want to duplicate. The duplicated slice will appear directly below the original slice.&#x20;
 
-![Duplicating a slice](<../../../.gitbook/assets/image (339).png>)
+![Duplicating a slice](<../../../.gitbook/assets/image (379).png>)
 
 ### Deleting a slice
 
 To delete a slice, select the delete icon (![](<../../../.gitbook/assets/trash-alt-regular (1).svg>)) in the slice you want to delete.&#x20;
 
-![Deleting a slice](<../../../.gitbook/assets/image (333).png>)
+![Deleting a slice](<../../../.gitbook/assets/image (333) (1).png>)
 
 ## Slice content
 
@@ -36,21 +36,19 @@ To add text to a slice, simply type in the text area. Use the text editor to sty
 
 ### Adding a chart
 
-To add a chart to a slice, select the **Add Chart** button and select the desired [chart](../charts/) from the list.&#x20;
+To add a chart to a slice, select the **+ Add Chart** button and select the desired [chart](../charts/) from the list.&#x20;
 
-![Click the Add Chart button to a add a chart to a slice ](<../../../.gitbook/assets/image (181).png>)
+![Click the + Add Chart button to add a chart to a slice ](<../../../.gitbook/assets/image (378).png>)
 
-Charts show sample data until you choose what data your chart will show. This lets you explore what kind of story you want to tell even though you may not be sure what data you need.
+Until you configure your chart, the chart will display as a placeholder. This gives you a sense of what the chart will look like.&#x20;
 
-You can interact with a chart while it is showing sample data.
-
-![This map is showing sample data until you configure it](<../../../.gitbook/assets/image (266).png>)
+![A placeholder Scatterplot chart](<../../../.gitbook/assets/image (370).png>)
 
 ### Adding an image
 
 To add an image to a slice, select the **Add Image** button and either upload your own image or find an image on Unsplash.&#x20;
 
-![](<../../../.gitbook/assets/image (261).png>)
+![Click the Add Image button to add an image to a slice](<../../../.gitbook/assets/image (367).png>)
 
 ## Reordering slices
 
@@ -58,14 +56,14 @@ To reorder slices, drag and drop the slice where you want it to display. You can
 
 ## Slice layouts
 
-If a slice has a chart or image, there are four layout options that control how the chart or image will appear in relation to the text. To adjust the layout, hover over the chart or image configuration box, click the layout button, and select the desired layout option.
+If a slice has a chart, there are four layout options that control how the chart will appear in relation to the text. To adjust the layout, hover over the chart configuration box, click the layout button, and select the desired layout option.
 
-| ![](../../../.gitbook/assets/arrow-down-solid.svg)  Chart/Image below text      | <p>The slice text will display above the chart or image. This is the default layout.</p><p></p><p></p> |
-| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| ![](<../../../.gitbook/assets/arrow-right-solid (1).svg>)  Chart/Image on right | The slice text will display on the left, and the chart or image will display on the right.             |
-| ![](../../../.gitbook/assets/arrow-left-solid.svg)  Chart/Image on left         | The chart or image will display on the left and the slice text will display on the right.              |
-| ![](../../../.gitbook/assets/arrow-up-solid.svg)  Chart/Image above text        | The chart or image will display above the slice text.                                                  |
+| ![](../../../.gitbook/assets/arrow-down-solid.svg)  Chart below text      | <p>The slice text will display above the chart. This is the default layout.</p><p></p><p></p> |
+| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| ![](<../../../.gitbook/assets/arrow-right-solid (1).svg>)  Chart on right | The slice text will display on the left, and the chart will display on the right.             |
+| ![](../../../.gitbook/assets/arrow-left-solid.svg)  Chart on left         | The chart will display on the left and the slice text will display on the right.              |
+| ![](../../../.gitbook/assets/arrow-up-solid.svg)  Chart above text        | The chart will display above the slice text.                                                  |
 
 ## Slice backgrounds
 
-By default, slices have a transparent background. To adjust the background color, hover over the slice, click the paint drop icon, and select the desired color from the color picker. If you have a specific color in mind, you can enter the hex code for that color.&#x20;
+By default, slices have a transparent background (revealing the section background color). To adjust the slice background color, hover over the slice, click the paint drop ![](../../../.gitbook/assets/tint-solid.svg), and select the desired color from the color picker. If you have a specific color in mind, you can enter the hex code for that color after clicking the **Custom** button.&#x20;

@@ -6,15 +6,17 @@ The leaderboard chart displays which dimensions rank at the top (or bottom) acro
 
 To add a leaderboard slice:
 
-* select **Leaderboard** from the chart list&#x20;
+* select **Leaderboard** from the chart list
 
-![](<../../../.gitbook/assets/image (175).png>)
+![Select Leaderboard from dropdown](<../../../.gitbook/assets/image (369).png>)
 
 * select the column with the values you want to be ranked
 * select the measures by which you want to rank the column values
 * select the max rows
 * add slice text (optional)
-* click **Save**
+* click **Save changes**
+
+![A leaderboard slice](<../../../.gitbook/assets/image (333).png>)
 
 {% embed url="https://www.loom.com/share/78c8a8a487044fffafeed1e34d3c87bd" %}
 Adding a leaderboard slice

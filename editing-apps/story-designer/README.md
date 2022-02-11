@@ -4,13 +4,9 @@ description: Design is where you tell your story.
 
 # Design
 
-The **Design** section of the editing panel is where you design your data story. Within each story are sections, and within each section are slices. Each slice can have text and/or an image or chart.&#x20;
+The editing panel is where you design your data story. Within each story are sections, and within each section are slices. Each slice can have text and/or an image or chart.&#x20;
 
-Select the **Design** tab at the top of the editing panel to get started
-
-![Select Design to start designing your story](../../.gitbook/assets/design\_tab.jpg)
-
-There are several components you will be working with in the Design section. They are:
+There are several components you will be working with in the editing panel. They are:
 
 * Settings & Theme
 * Header Style

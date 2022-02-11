@@ -7,18 +7,24 @@ description: The first step in adding a data source is loading data.
 You must load data before you can design your story. There are three ways to load data:
 
 1. Upload a data file
-2. Upload sample data
+2. Connect to sample data
 3. Connect to a database table
 
 ## Upload a data file
 
-To upload a data file, navigate to the **Data** section of the editing panel and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the  file to be uploaded.
+To upload the app's first data file, open the Data Tables drawer and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the file to be uploaded.
 
-![Add data by uploading a CSV or Excel file](<../../.gitbook/assets/image (340).png>)
+![Add data by uploading a CSV or Excel file](<../../.gitbook/assets/image (371).png>)
+
+To load additional data files, first click the + and then drag-and-drop or select your CSV or Excel file.
+
+![Click the "+" in the Data Tables drawer to add additional data tables](<../../.gitbook/assets/image (401).png>)
 
 {% hint style="warning" %}
 When loading data files, it is important that your data be nice and clean. Here are some tips for [preparing your data](../design-tips/preparing-your-data.md).&#x20;
 {% endhint %}
+
+\[REPLACE]
 
 {% embed url="https://www.loom.com/share/870b08807fa24075baec0c27f3f7e8a2" %}
 Loading data
@@ -26,13 +32,13 @@ Loading data
 
 ## Connect to sample data
 
-Juicebox also provides a selection of sample data tables if you want to start exploring before you have your own data. To load sample data, select the **Sample Data** button and choose one of the available datasets.&#x20;
+Juicebox also provides a selection of sample data tables if you want to start exploring before you have your own data. To load sample data, open the Data Tables drawer, select the **Sample Data** button, and choose one of the available datasets.&#x20;
 
-![Load data by connecting to sample data](<../../.gitbook/assets/image (311).png>)
+![Load data by connecting to sample data](<../../.gitbook/assets/image (357).png>)
 
 Choose a sample data table and select **Add Table**.
 
-![](<../../.gitbook/assets/image (338).png>)
+![](<../../.gitbook/assets/image (338) (1).png>)
 
 The sample data includes the following tables.&#x20;
 
@@ -48,7 +54,7 @@ If you want more ideas on data to start with, check out this [article](https://h
 
 ## Connect to a database table
 
-If your app is connected to a database, you can select the schema and table to use in the data source. If you are interested in connecting your app to a database, please reach out to us by clicking Help in the top right of your workspace and starting a chat with us. The following databases are supported:
+If your app is connected to a database, you can select the schema and table to use in the data source. If you are interested in connecting your app to a database, please reach out to us by clicking Help in the top right of your workspace and starting a chat with us or by emailing us at [help@myjuicebox.io](mailto:help@myjuicebox.io). The following databases are supported:
 
 * Redshift
 * Snowflake

@@ -6,13 +6,17 @@ description: >-
 
 # Share
 
-To access Share section, select the **Share** button at the top of the editing panel. 
+Until your app is shared, only editors in your workspace will see the changes you've made. When you're ready for others to see your app, it's time to share your work with viewers. There are two steps to sharing an app:
 
-![It&apos;s time to share](../../.gitbook/assets/share_panel.jpg)
+1. Publish the app (or changes to the app)
+2. Invite viewers
 
- The following pages describe the functionality of the Share section:
+&#x20;The following pages describe these steps:
 
-{% page-ref page="publishing-app-changes.md" %}
+{% content-ref url="publishing-app-changes.md" %}
+[publishing-app-changes.md](publishing-app-changes.md)
+{% endcontent-ref %}
 
-{% page-ref page="sharing-and-access-controls.md" %}
-
+{% content-ref url="sharing-and-access-controls.md" %}
+[sharing-and-access-controls.md](sharing-and-access-controls.md)
+{% endcontent-ref %}

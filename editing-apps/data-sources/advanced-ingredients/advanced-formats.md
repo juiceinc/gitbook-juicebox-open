@@ -1,12 +1,12 @@
 # Advanced formats
 
-The [most commonly used formats](../adding-ingredients/ingredient-formats.md) are available in the column and measure editor. But if you need to use a different format, you can add an advanced column or measure and adjust the `format:` component within the advanced ingredient definition.
+The most commonly used [number formats](../adding-ingredients/ingredient-formats.md) and [time formats](../the-column-or-measure-editor/time-formats.md) are available in the column and measure editor. But if you need to use a different format, you can add an advanced column or measure and adjust the `format:` [component](../adding-ingredients/ingredient-components.md).
 
 ## Advanced number formats
 
-You can use  [number formats](https://github.com/d3/d3-format) to adjust how numbers display in your story. For example, let's say you want to display `Avg IMDb Rating` with 1 decimal. Because the column and measure editor does not include an option to display a percent with 1 decimal, you will need to do this as an advanced measure, like so:
+You can use  [number formats](https://github.com/d3/d3-format) to adjust how numbers display in your story. For example, let's say you want to display `IMDb Rating` with 1 decimal. Because the column and measure editor does not include an option to display a percent with 1 decimal, you will need to do this as an advanced measure, like so:
 
-![Set format to 1 decimal](<../../../.gitbook/assets/image (314).png>)
+![Advanced column with 1 decimal number format](<../../../.gitbook/assets/image (390).png>)
 
 Number formats in Juicebox have the following parts
 
@@ -216,16 +216,16 @@ Using "ordinal" as a format will&#x20;
 
 You can use time formats to adjust how dates display in your story. For example, let's say you want to display `Dates` like "January 1, 2014" (full month and unpadded day). You can do this using these [codes](https://strftime.org) in the `format` of an advanced column, like so:
 
-![Set time format to full month and unpadded day](<../../../.gitbook/assets/image (318).png>)
+![Advanced column using time format with full month and unpadded day](<../../../.gitbook/assets/image (356).png>)
 
 And here are the underlying components:
 
 ```
 kind: Dimension
 field: Year
+format: '%B %-d, %Y'
 singular: Date
 plural: Dates
-format: '%B %-d, %Y'
 ```
 
 ####

@@ -8,19 +8,20 @@ You can add, subtract, multiply and divide numeric data fields. You can also use
 
 ### Add, subtract, multiple, and divide
 
-You can perform mathematical operations with data fields and constants. For example, if you have `revenue` and `cost` in your data, you can add a `Profit` measure like so:&#x20;
+You can perform mathematical operations with data fields and constants. For example, if you have `sales` and `cost` in your data, you can add a `Profit` column like so:&#x20;
 
-![Measure ingredient using subtraction](<../../../.gitbook/assets/image (215).png>)
+![Advanced column using field math](<../../../.gitbook/assets/image (309).png>)
 
 Here are the underlying components:
 
 ```
-field: sum(revenue - cost)
-kind: Measure
-format: '$,.0f'
+kind: Dimension
+field: Sales - Cost
+format: ',.0f'
+singular: Profit
 ```
 
-If you divide by zero, you’ll get a null. If you do not specify an aggregate function, `sum()` will be implied.&#x20;
+If you divide by zero, you’ll get a null. If you do not specify an aggregate function in a measure, `sum()` will be implied.&#x20;
 
 ### Aggregation functions
 
@@ -28,7 +29,7 @@ Aggregation functions let you add up values for a field. If no aggregation funct
 
 | Function                                                                                              | Examples                                            |
 | ----------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| Sum                                                                                                   | `sum(sales_dollars) `or `sum(revenue - expenses)`   |
+| Sum                                                                                                   | `sum(sales_dollars)` or `sum(revenue - expenses)`   |
 | Minimum                                                                                               | `min(age)`                                          |
 | Maximum                                                                                               | `max(age)`                                          |
 | Average                                                                                               | `avg(home_value)`                                   |
@@ -57,40 +58,36 @@ Conversion functions change the value for a field. It might change to a differen
 
 ### Concatenating text fields
 
-You can use `+` to concatenate text data fields together. For example, if `LocationDesc` has state names and `LocationAbbr` has state abbreviations, this`States2` column will combine state names with state abbreviations to display like `Georgia (GA)`. &#x20;
+You can use `+` to concatenate text data fields together. For example, if `State` has state names and `StateAbbr` has state abbreviations, you can create a new`States` column that combine state names with state abbreviations to display like `Georgia (GA)`. &#x20;
 
-![Dimension ingredient using concatenation](<../../../.gitbook/assets/image (227).png>)
+![Advanced column using string concatenation](<../../../.gitbook/assets/image (375).png>)
 
 Here are the underlying components:
 
 ```
 kind: Dimension
-field: LocationDesc + " (" + LocationAbbr + ")"
+field: State + " (" + StateAbbr + ")" 
 singular: State
-latitude_field: Latitude
-longitude_field: Longitude
 ```
 
 {% hint style="warning" %}
 You must use double quotes in field expressions to define string constants. Single quotes will not work.&#x20;
 {% endhint %}
 
-If you want to concatenate fields that do not have the `string` data type, you'll need to first convert the field to a string using the [conversion function](advanced-formulas.md#conversion-functions) `string()`. For example, if you want to concatenate `address`, `state`, `city`, and `zip` together, but `zip` is not a string, you'll need to define the ingredient like so:
-
-![Using string() to convert number to string](<../../../.gitbook/assets/image (245).png>)
+If you want to concatenate fields that do not have the `string` data type, you'll need to first convert the field to a string using the [conversion function](advanced-formulas.md#conversion-functions) `string()`. For example, if you want to concatenate `address`, `state`, `city`, and `zip` together, but `zip` is not a string, you'll need to use `string(zip)`.
 
 ## Using multiple aggregation functions
 
-You can combine multiple aggregate functions together. For example, if you have `sales_revenue` and `salesperson_id` in your data, you can add an `Avg Sales per salesperson` measure using the `sum()` and `count_distinct()` aggregate functions together like so:&#x20;
+You can combine multiple aggregate functions together. For example, if you have `sales_revenue` and `salesperson_id` in your data, you can add an `Sales per salesperson` measure using the `sum()` and `count_distinct()` aggregate functions together like so:&#x20;
 
-![Measure using division and multiple aggregation functions](<../../../.gitbook/assets/image (217).png>)
+![Advanced measure using division and multiple aggregation functions](<../../../.gitbook/assets/image (299).png>)
 
 Here are the underlying components:
 
 ```
 kind: Measure
-field: sum(total_sales) / count_distinct(salesperson_id)
-format: ',.2f'
+field: sum(sales) / count_distinct(name)
+format: ',.0f'
 ```
 
 ## Conditional logic

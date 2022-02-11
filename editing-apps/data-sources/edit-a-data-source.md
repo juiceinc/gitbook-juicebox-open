@@ -4,9 +4,9 @@
 
 From time to time, you may want to update your data. For example, you may want to correct data in existing rows, add or remove rows, or add or remove columns.&#x20;
 
-To do this, either drag the new data file (CSV, XLS, or XLSX) onto the data you want to replace or click the **Replace file** button and select the new data file.
+To do this, click the **Replace file** button. If there is more than one data table in your app, select the data table that you want to update. Then, select the new data file (CSV, XLS, or XLSX).
 
-![Select the Replace file button to replace data](<../../.gitbook/assets/image (328).png>)
+![Select the Replace file button to update a data table](<../../.gitbook/assets/image (380).png>)
 
 Once the upload process finishes, refresh the page. The app will then display the updated data.&#x20;
 
@@ -16,14 +16,25 @@ It is good practice to share before replacing data. That way if you select the w
 
 ## Update columns or measures
 
-To make a change to a column or measure, click on its orange pill in either the Data or Design sections of the editing panel. This will open up the column or measure editor. From there, make the desired changes. Keep in mind that some changes may require that you [add an advanced column or measure](advanced-ingredients/).
+To make a change to a column or measure, click on its pill in either the [data preview](the-data-preview.md) or in the chart configuration. This will open up the column or measure editor. From there, make the desired changes. Keep in mind that some changes may require that you [add an advanced column or measure](advanced-ingredients/).
 
 ## Delete data
 
-If you have data that you don't plan to use in your app, you may want to delete the data to declutter the Data section of the editing panel. To do this, open the [data preview](loading-data.md#the-data-preview) for the data you want to delete and select the ![](../../.gitbook/assets/trash-alt-regular.svg) button, then select **Yes, delete it**.&#x20;
+If you have data that you don't plan to use in your app, you may want to delete the data to declutter the Data Tables drawer. To do this, open the Data Tables drawer, select the data table you want to delete, click the gear icon, and select **Delete**.
+
+![Deleting a data table](<../../.gitbook/assets/image (381).png>)
 
 {% hint style="warning" %}
-You will receive a warning message if the data source ingredients are used in your app.&#x20;
+You will receive a warning message if the data table columns are used in your app.&#x20;
 {% endhint %}
 
-![A warning message appears if you attempt to delete a data source that is used in the app](<../../.gitbook/assets/image (173).png>)
+If you are sure you want to delete the data table, click **Yes, delete it**.
+
+![A warning message appears if you attempt to delete a data table that is used in the app](<../../.gitbook/assets/image (359).png>)
+
+## Download data
+
+You can download the data in a data table by opening the Data Tables drawer, selecting the data table you want to download, clicking the gear icon, and selecting **Download**. The data will download as a CSV.
+
+![Downloading data](<../../.gitbook/assets/image (348).png>)
+

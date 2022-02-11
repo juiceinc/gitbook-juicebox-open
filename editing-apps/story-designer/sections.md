@@ -4,9 +4,9 @@ Sections are groups of slices within a story. Sections allow you to control layo
 
 ## Add a section
 
-To add a section, click the **Add Section** button at the top or bottom of your story and then select the first slice type for the first slice in the section. A new section named "Untitled Section" will be added with the initial slice.&#x20;
+To add a section, click the **+ Add** button at the top or bottom of your story and then select the slice type for the first slice in the section. A new section named "Untitled Section" will be added with the initial slice.&#x20;
 
-![Click the Add Section button to add a section to the top or bottom of your story](<../../.gitbook/assets/image (290).png>)
+![Click the + Add button to add a section to the top or bottom of your story](<../../.gitbook/assets/image (372).png>)
 
 Although not required, adding a meaningful section name can help you organize your slices around a theme. Section names also help when you want to collapse them, move them around, and easily find the section you want to work on.&#x20;
 

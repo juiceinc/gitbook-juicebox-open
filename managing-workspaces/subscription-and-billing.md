@@ -2,11 +2,9 @@
 
 You can subscribe to a Juicebox plan, set and adjust billing information, and unsubscribe from the Subscription page.  To access the Subscription page, click the gear icon in the upper right corner of your workspace. From there, select **Subscription**.
 
-![How to access the Subscription page](../.gitbook/assets/image%20%28274%29.png)
+![Accessing the workspace Subscription page](<../.gitbook/assets/image (360).png>)
 
-Once on the Subscription page, you can subscribe to a plan and set and adjust your billing information. You can also unsubscribe, which will revert your workspace back to the Free plan. 
+Once on the Subscription page, you can subscribe to a plan and set and adjust your payment information. You can also unsubscribe. After unsubscribing, your workspace will be recoverable for 30 days. To recover your workspace, send an email to help@myjuicebox.io. After 30 days, your workspace (including all apps, data, and users) will be deleted. &#x20;
 
-![The Subscription page](../.gitbook/assets/image%20%28279%29.png)
-
-
+![The workspace Subscription page](<../.gitbook/assets/image (320).png>)
 
