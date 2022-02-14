@@ -1,6 +1,6 @@
 # Bucketed columns
 
-A bucketed column is a column that groups field values into buckets based on conditions. For example, let's say your data includes a `Score` field with user scores, and you want to use the scores to group users into different groups:&#x20;
+A bucketed column is a column that groups field values into buckets based on conditions. For example, let's say your data includes a `Score` field with user scores, and you want to use the scores to group users into different roles:&#x20;
 
 * Detractor
 * Passive
