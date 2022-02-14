@@ -56,13 +56,13 @@ To reorder slices, drag and drop the slice where you want it to display. You can
 
 ## Slice layouts
 
-If a slice has a chart, there are four layout options that control how the chart will appear in relation to the text. To adjust the layout, hover over the chart configuration box, click the layout button, and select the desired layout option.
+If a slice has a chart (or image), there are four layout options that control how the chart (or image) will appear in relation to the text. To adjust the layout, hover over the chart (or image) configuration box, click the layout button, and select the desired layout option.
 
-| ![](../../../.gitbook/assets/arrow-down-solid.svg)  Chart below text      | <p>The slice text will display above the chart. This is the default layout.</p><p></p><p></p> |
-| ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
-| ![](<../../../.gitbook/assets/arrow-right-solid (1).svg>)  Chart on right | The slice text will display on the left, and the chart will display on the right.             |
-| ![](../../../.gitbook/assets/arrow-left-solid.svg)  Chart on left         | The chart will display on the left and the slice text will display on the right.              |
-| ![](../../../.gitbook/assets/arrow-up-solid.svg)  Chart above text        | The chart will display above the slice text.                                                  |
+| ![](../../../.gitbook/assets/arrow-down-solid.svg)  Chart/Image below text      | <p>The slice text will display above the chart/image. This is the default layout.</p><p></p><p></p> |
+| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| ![](<../../../.gitbook/assets/arrow-right-solid (1).svg>)  Chart/Image on right | The slice text will display on the left, and the chart/image will display on the right.             |
+| ![](../../../.gitbook/assets/arrow-left-solid.svg)  Chart/Image on left         | The chart/image will display on the left and the slice text will display on the right.              |
+| ![](../../../.gitbook/assets/arrow-up-solid.svg)  Chart/Image above text        | The chart/image will display above the slice text.                                                  |
 
 ## Slice backgrounds
 
