@@ -24,8 +24,6 @@ To load additional data files, first click the + and then drag-and-drop or selec
 When loading data files, it is important that your data be nice and clean. Here are some tips for [preparing your data](../design-tips/preparing-your-data.md).&#x20;
 {% endhint %}
 
-\[REPLACE]
-
 {% embed url="https://www.loom.com/share/870b08807fa24075baec0c27f3f7e8a2" %}
 Loading data
 {% endembed %}
