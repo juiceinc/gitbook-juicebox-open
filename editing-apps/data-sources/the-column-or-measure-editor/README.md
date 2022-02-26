@@ -2,8 +2,6 @@
 
 The **column editor** is a form used to edit a column. The **measure editor** is a form used to edit a measure. To access either editor, simply click on the pill for the column or measure you want to edit. &#x20;
 
-\[REPLACE]
-
 ![Access the column editor by clicking the column pill](<../../../.gitbook/assets/Column editor.gif>)
 
 {% hint style="info" %}

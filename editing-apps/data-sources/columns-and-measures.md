@@ -20,7 +20,7 @@ You [add a place column](the-column-or-measure-editor/#place-column-editor) when
 
 ## Measures
 
-Measures (also called "column measures") are created as you add them to your [charts](../story-designer/charts/). A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Under the hood, measures use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`.
+As you add measures to your [charts](../story-designer/charts/), measures (also called "column measures") are created. A measure is a value calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Under the hood, measures use the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, `count()`, and `count_distinct()`.
 
 Measures (except advanced measures) display as pills with an aggregation badge, like so:&#x20;
 
