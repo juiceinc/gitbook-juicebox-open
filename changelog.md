@@ -6,7 +6,7 @@
 * New Pie chart 🥧 to easily see the relationship of parts to the whole
 * Export as PDF or PNG
 
-## March 8, 2022
+## March 10, 2022
 
 ### 🎁 What's new?
 
