@@ -22,7 +22,7 @@ To make a change to a column or measure, click on its pill in either the [data p
 
 If you have data that you don't plan to use in your app, you may want to delete the data to declutter the Data Tables drawer. To do this, open the Data Tables drawer, select the data table you want to delete, click the gear icon, and select **Delete**.
 
-![Deleting a data table](<../../.gitbook/assets/image (381).png>)
+![Deleting a data table](<../../.gitbook/assets/image (381) (1).png>)
 
 {% hint style="warning" %}
 You will receive a warning message if the data table columns are used in your app.&#x20;

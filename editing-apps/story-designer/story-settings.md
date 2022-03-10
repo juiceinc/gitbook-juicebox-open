@@ -42,12 +42,12 @@ Changes to settings and themes must be published before they will appear on the 
 
 ### Deleting an app
 
-To delete an app, click the delete icon (![](<../../.gitbook/assets/trash-alt-regular (1).svg>)).
+To delete an app, click the **Delete App** button. Then confirm that you want to delete the app.&#x20;
 
-![Deleting an app](<../../.gitbook/assets/image (336).png>)
+![Deleting an app](<../../.gitbook/assets/image (299).png>)
 
 ### Duplicating an app
 
-To duplicate an app, click the duplicate icon (![](../../.gitbook/assets/clone-regular.svg)). Next, give your new app a title and select **Duplicate**. Once the new app is created it will open as a draft version, ready for you to edit and share.
+To duplicate an app, click the **Duplicate App** button at the top of the editing panel. Next, give your new app a title and select **Duplicate**. Once the new app is created it will open as a draft version, ready for you to edit and share.
 
-![Duplicating an app](<../../.gitbook/assets/image (351).png>)
+![Duplicating an app](<../../.gitbook/assets/image (381).png>)

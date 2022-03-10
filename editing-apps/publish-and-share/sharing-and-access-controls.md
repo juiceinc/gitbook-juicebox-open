@@ -23,7 +23,7 @@ To share a private app, you invite individuals to sign up using a viewer access 
 
 To send a preset email with the viewer access link to one or more email addresses, click the Sharing button and select the **Send Viewer Access** button.
 
-![Click the Send Viewer Access button to send the viewer access link via a preset email](<../../.gitbook/assets/image (350).png>)
+![Click the Send Viewer Access button to send the viewer access link via a preset email](<../../.gitbook/assets/image (350) (1).png>)
 
 Next, enter the email addresses for the recipients and click Send.
 

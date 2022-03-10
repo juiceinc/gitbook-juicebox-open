@@ -8,7 +8,7 @@ To add a bar slice:
 
 * select **Bar** from the chart list
 
-![Select Bar from the dropdown](<../../../.gitbook/assets/image (349).png>)
+![Select Bar from the dropdown](<../../../.gitbook/assets/image (349) (1).png>)
 
 * select the column to use for the bars
 * select the measure you want to use for the bar width

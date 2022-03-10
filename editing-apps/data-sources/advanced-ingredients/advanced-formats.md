@@ -6,7 +6,7 @@ The most commonly used [number formats](../adding-ingredients/ingredient-formats
 
 You can use  [number formats](https://github.com/d3/d3-format) to adjust how numbers display in your story. For example, let's say you want to display `IMDb Rating` with 1 decimal. Because the column and measure editor does not include an option to display a percent with 1 decimal, you will need to do this as an advanced measure, like so:
 
-![Advanced column with 1 decimal number format](<../../../.gitbook/assets/image (390).png>)
+![Advanced column with 1 decimal number format](<../../../.gitbook/assets/image (390) (1).png>)
 
 Number formats in Juicebox have the following parts
 

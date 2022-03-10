@@ -20,10 +20,6 @@ To add a filters slice:
 Adding a filter slice
 {% endembed %}
 
-{% hint style="info" %}
-The order of your filter pills may be important, because selections made in a filter pill will filter "downstream" filter pills. For example, say you have three filter pills in this order:  Organization, Cohort, Student Name. Values selected for Organization will filter Cohort and Student Name. Values selected for Cohort, will filter Student Name but not filter Organization. Values selected in Student Name will not filter either Organization or Cohort.&#x20;
-{% endhint %}
-
 ## Using a filter slice
 
 To use a filter slice, click on the filter pill and select the values that you want to filter on.&#x20;

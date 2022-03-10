@@ -59,6 +59,12 @@ You [design](story-designer/) your app using the editing panel. You add [data](d
 [publish-and-share](publish-and-share/)
 {% endcontent-ref %}
 
+## Duplicate an app
+
+To duplicate an app, click the **Duplicate App** button at the top of the editing panel. Next, give your new app a title and select **Duplicate**. Once the new app is created it will open as a draft version, ready for you to edit and share.
+
+![Duplicate an app](<../.gitbook/assets/image (358).png>)
+
 ## Delete an app
 
 [Deleting an app](story-designer/story-settings.md#deleting-an-app) is done from **Design** section, under **Settings & Themes**.&#x20;

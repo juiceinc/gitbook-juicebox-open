@@ -80,7 +80,7 @@ If you want to concatenate fields that do not have the `string` data type, you'l
 
 You can combine multiple aggregate functions together. For example, if you have `sales_revenue` and `salesperson_id` in your data, you can add an `Sales per salesperson` measure using the `sum()` and `count_distinct()` aggregate functions together like so:&#x20;
 
-![Advanced measure using division and multiple aggregation functions](<../../../.gitbook/assets/image (299).png>)
+![Advanced measure using division and multiple aggregation functions](<../../../.gitbook/assets/image (299) (1).png>)
 
 Here are the underlying components:
 

@@ -3,9 +3,23 @@
 ## What's coming soon?
 
 * Range filtering on dates and numbers
-* More font options!!
 * New Pie chart 🥧 to easily see the relationship of parts to the whole
 * Export as PDF or PNG
+
+## March 8, 2022
+
+### 🎁 What's new?
+
+* Four new font themes give you more options for setting the tone of your app.&#x20;
+* Four new color themes add both dark and light palettes.
+
+![](.gitbook/assets/Screen\_Recording\_2022-03-08\_at\_2.37.23\_PM.gif)
+
+### 🐛 Bug fixes & other improvements
+
+* Selections made for one filter pill in the Filter slice now filter across all other filter pills, so you don't have to worry about the order of columns. Filtering performance has improved too.
+* Did you know you can duplicate an app? The **Duplicate App** button is now at the top of the editing panel to make that more findable.&#x20;
+* Higher numbers are often better (🏀), but not always (⛳️). A new [advanced measure](editing-apps/data-sources/advanced-ingredients/) option lets you tell Juicebox when a lower measure value is better, so that the Leaderboard chart shows who's really on top. &#x20;
 
 ## February 11, 2022
 
