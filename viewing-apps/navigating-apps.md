@@ -10,7 +10,7 @@ To find a specific app you can use the **Sort by** feature to order apps by last
 
 To open the draft version of an app, click the **Edit** button. To open the published version of an app, hover or click around the app title, and then click the **Open Published** button. (If the app has not been published, you'll see a "Not published yet" message. &#x20;
 
-![Open the draft or shared version of an app from the apps page](<../.gitbook/assets/image (315) (1).png>)
+![Open the draft or shared version of an app from the apps page](<../.gitbook/assets/image (315) (1) (1).png>)
 
 To get back to the home page from any app, click on the **Home** button in the app header.
 

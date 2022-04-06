@@ -11,6 +11,10 @@ Until your app is shared, only editors in your workspace will see the changes yo
 1. Publish the app (or changes to the app)
 2. Invite viewers
 
+{% hint style="info" %}
+You can also share an app by downloading it as a PNG or PDF file and sending to viewers as an attachment. To download the app, click the **Download** button in the header or header bar of either the draft or published version of the app.&#x20;
+{% endhint %}
+
 &#x20;The following pages describe these steps:
 
 {% content-ref url="publishing-app-changes.md" %}

@@ -48,7 +48,7 @@ Until you configure your chart, the chart will display as a placeholder. This gi
 
 To add an image to a slice, select the **Add Image** button and either upload your own image or find an image on Unsplash.&#x20;
 
-![Click the Add Image button to add an image to a slice](<../../../.gitbook/assets/image (367).png>)
+![Click the Add Image button to add an image to a slice](<../../../.gitbook/assets/image (367) (1).png>)
 
 ## Reordering slices
 

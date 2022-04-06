@@ -2,9 +2,20 @@
 
 ## What's coming soon?
 
-* Range filtering on dates and numbers
 * New Pie chart 🥧 to easily see the relationship of parts to the whole
-* Export as PDF or PNG
+* Changes to text and charts will "autosave" as you make them
+* Filtering on number ranges
+
+## April 6, 2022
+
+### 🎁 What's new?
+
+* You can now export an app as either a PDF or PNG file. Just look for the **Download** button in the app header or header bar.&#x20;
+
+### 🐛 Bug fixes & other improvements
+
+* You can create a Count measure using a boolean column. That used to be False, but now it's True.&#x20;
+* Dynamic text that references selections in the filter slice is working.&#x20;
 
 ## March 10, 2022
 
