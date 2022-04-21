@@ -17,7 +17,7 @@
 
 ### 🐛 Bug fixes & other improvements
 
-* Would you like to embed a Juicebox app in your own website? Just paste in the public app embed code.&#x20;
+* Would you like to embed a Juicebox app in your own website? Just paste in the public app [embed code](editing-apps/publish-and-share/sharing-and-access-controls.md#embedding-a-public-app).&#x20;
 * Trend charts are working again for measures with solely negative values.
 
 ## April 6, 2022
