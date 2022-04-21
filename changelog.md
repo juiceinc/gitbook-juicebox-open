@@ -11,7 +11,7 @@
 
 * 📣 Introducing our newest chart type — **Pie charts!** 🥧 \
   \
-  Confession time: Over the years, we've sidestepped the Great Pie Chart Controversy (Really? [Yes](http://www.perceptualedge.com/articles/08-21-07.pdf). [Oh yes](https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts).) by not offering a pie chart. But not anymore! Our pie chart is beautiful, simple to make, and automatically removes those perilous pie chart pitfalls. It's the right chart for showing parts of a whole, and we think you'll love it. Give it a try!
+  Confession time: Over the years, we've sidestepped the Great Pie Chart Controversy (Really? [Yes](http://www.perceptualedge.com/articles/08-21-07.pdf). [Oh yes](https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts).) by not offering a pie chart. But not anymore! Our pie chart is beautiful, simple to make, and automatically avoids those perilous pie chart pitfalls. It's the right chart for showing parts of a whole, and we think you'll love it. Give it a try!
 
 ![](<.gitbook/assets/pie\_chart (1).gif>)
 
