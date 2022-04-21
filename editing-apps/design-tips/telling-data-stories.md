@@ -72,18 +72,18 @@ The following diagram shows [how these three stages connect to traditional story
 
 We want to provide a short checklist of items to evaluate whether you’ve considered important design choices with your data story.
 
-### ****![](../../.gitbook/assets/check-square-solid.svg) **** Setting context
+### ****<img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> **** Setting context
 
 Before your reader dives into the data, you want to [set the context](https://www.juiceanalytics.com/writing/use-context-to-make-your-audience-care). How? At the top of your story, add a slice that gives a title, describes the data, even tells people what kinds of questions they can answer.&#x20;
 
-### ![](../../.gitbook/assets/check-square-solid.svg) Using descriptive text and dynamic statements
+### <img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Using descriptive text and dynamic statements
 
 Juicebox is designed to do more than just show data visualizations. You can [use text to explain](https://www.juiceanalytics.com/design-principles/use-common-language/) what’s being shown in the data. This text could include:
 
 * Titles for the visualizations to explain the content. Often the title can be expressed as the question that is answered by the visualization.
 * Explanations or insights based on the visualization. Is there something you want your audience to see in the data? Tell them. The text areas in Juicebox are an opportunity to [be in conversation with your audience](https://www.juiceanalytics.com/design-principles/make-it-conversational/).
 
-### ![](../../.gitbook/assets/check-square-solid.svg) Less is more
+### <img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Less is more
 
 So much to show...so little attention. Recognize that your audience may be distracted or have a short attention span. Focus is critical in a good data story. This can mean:
 
@@ -94,7 +94,7 @@ So much to show...so little attention. Recognize that your audience may be distr
 
 Let a trusted colleague review your data story and ask them to identify anything that they think isn’t totally necessary to get your message across. [If it's not necessary, it should be removed](https://www.juiceanalytics.com/writing/10-ways-to-reduce-to-improve-your-data-visualizations). The cost of more content is high when you risk losing the attention of your audience.
 
-### ****![](../../.gitbook/assets/check-square-solid.svg) Using layout
+### ****<img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Using layout
 
 By default, Juicebox will layout your sections and slices vertically. In this way, your audience can read through the content from top to bottom and your filtered selections will pass down the page.
 
@@ -108,12 +108,12 @@ Within slices, you can also choose the layout of the text relative to a visualiz
 
 ![Left-to-right slice layout](<../../.gitbook/assets/image (69).png>)
 
-### ![](../../.gitbook/assets/check-square-solid.svg) Breaking up your story into sections, visual breaks
+### <img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Breaking up your story into sections, visual breaks
 
 A data story will often have multiple sections, perhaps reflecting the [three-parts of a story](telling-data-stories.md#story-structure). In Juicebox, you can make visual breaks between sections using color. Find the color selector on the top of each section on the Design tab. By visually breaking up your sections, you’ll help your readers understand where the logical breaks are in your story.
 
 ![](<../../.gitbook/assets/image (68).png>)
 
-### ![](../../.gitbook/assets/check-square-solid.svg) Data ingredient labels
+### <img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Data ingredient labels
 
 Getting your data ingredient labels right is a small and important design choice. Often when you load data into Juicebox, the data columns may not be written in a way that is easy for your audience to understand. We’ve made it easy in Juicebox to change those labels. What is [the simplest and clearest way to describe](https://www.juiceanalytics.com/design-principles/use-common-language/) the data ingredient? Will your audience understand any abbreviations or acronyms you are using?&#x20;

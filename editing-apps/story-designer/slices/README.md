@@ -16,13 +16,13 @@ To add a slice to a section that has one or more slices, click the **+** where y
 
 ### Duplicating a slice
 
-Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, select the duplicate icon (![](../../../.gitbook/assets/clone-regular.svg)) in the slice you want to duplicate. The duplicated slice will appear directly below the original slice.&#x20;
+Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, select the duplicate icon (<img src="../../../.gitbook/assets/clone-regular.svg" alt="" data-size="line">) in the slice you want to duplicate. The duplicated slice will appear directly below the original slice.&#x20;
 
 ![Duplicating a slice](<../../../.gitbook/assets/image (379).png>)
 
 ### Deleting a slice
 
-To delete a slice, select the delete icon (![](<../../../.gitbook/assets/trash-alt-regular (1).svg>)) in the slice you want to delete.&#x20;
+To delete a slice, select the delete icon (<img src="../../../.gitbook/assets/trash-alt-regular (1).svg" alt="" data-size="line">) in the slice you want to delete.&#x20;
 
 ![Deleting a slice](<../../../.gitbook/assets/image (333) (1).png>)
 
@@ -58,12 +58,12 @@ To reorder slices, drag and drop the slice where you want it to display. You can
 
 If a slice has a chart (or image), there are four layout options that control how the chart (or image) will appear in relation to the text. To adjust the layout, hover over the chart (or image) configuration box, click the layout button, and select the desired layout option.
 
-| ![](../../../.gitbook/assets/arrow-down-solid.svg)  Chart/Image below text      | <p>The slice text will display above the chart/image. This is the default layout.</p><p></p><p></p> |
-| ------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](<../../../.gitbook/assets/arrow-right-solid (1).svg>)  Chart/Image on right | The slice text will display on the left, and the chart/image will display on the right.             |
-| ![](../../../.gitbook/assets/arrow-left-solid.svg)  Chart/Image on left         | The chart/image will display on the left and the slice text will display on the right.              |
-| ![](../../../.gitbook/assets/arrow-up-solid.svg)  Chart/Image above text        | The chart/image will display above the slice text.                                                  |
+| <img src="../../../.gitbook/assets/arrow-down-solid.svg" alt="" data-size="line">  Chart/Image below text    | <p>The slice text will display above the chart/image. This is the default layout.</p><p></p><p></p> |
+| ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| <img src="../../../.gitbook/assets/arrow-right-solid (1).svg" alt="" data-size="line">  Chart/Image on right | The slice text will display on the left, and the chart/image will display on the right.             |
+| <img src="../../../.gitbook/assets/arrow-left-solid.svg" alt="" data-size="line">  Chart/Image on left       | The chart/image will display on the left and the slice text will display on the right.              |
+| <img src="../../../.gitbook/assets/arrow-up-solid.svg" alt="" data-size="line">  Chart/Image above text      | The chart/image will display above the slice text.                                                  |
 
 ## Slice backgrounds
 
-By default, slices have a transparent background (revealing the section background color). To adjust the slice background color, hover over the slice, click the paint drop ![](../../../.gitbook/assets/tint-solid.svg), and select the desired color from the color picker. If you have a specific color in mind, you can enter the hex code for that color after clicking the **Custom** button.&#x20;
+By default, slices have a transparent background (revealing the section background color). To adjust the slice background color, hover over the slice, click the paint drop <img src="../../../.gitbook/assets/tint-solid.svg" alt="" data-size="line">, and select the desired color from the color picker. If you have a specific color in mind, you can enter the hex code for that color after clicking the **Custom** button.&#x20;

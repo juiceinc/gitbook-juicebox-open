@@ -6,11 +6,15 @@ After you publish your app, it's time to invite others to view it! How this happ
 
 To share a public app, click the Sharing button and then click the **Share Public Link** button to copy the app link. Share the copied link with others as you would any other website link. Anyone who clicks on the link will see the published version of your app.&#x20;
 
-![Copy and share the public app link to share a public app](<../../.gitbook/assets/image (344).png>)
+![Copy and share the public app link to share a public app](<../../.gitbook/assets/image (332).png>)
 
-{% hint style="info" %}
-You can also embed your public app into another website by putting the app link into an iframe on that website.&#x20;
-{% endhint %}
+## Embedding a public app
+
+Public apps can be embedded in your site using an iframe. To do this click the Copy Embed Code button and paste the embed code into your website:
+
+* In **Squarespace** you'll want to add a [code block](https://support.squarespace.com/hc/en-us/articles/206543167).
+* **Wordpress** lets you embed media from other sites as explained in this [article](https://kinsta.com/blog/wordpress-iframe/).
+* Guidance for embedding on **Wix** is [here](https://support.wix.com/en/article/wix-editor-using-iframes-to-display-visible-content-on-your-site).
 
 ## Sharing a private app
 

@@ -66,6 +66,6 @@ To give the viewer access to all apps in the workspace, select **All Apps**. To 
 
 ### Deleting a user
 
-To delete a user, hover over the user you wish to delete and select the trash can icon (![](../.gitbook/assets/trash-alt-regular-1-.svg)).&#x20;
+To delete a user, hover over the user you wish to delete and select the trash can icon (<img src="../.gitbook/assets/trash-alt-regular-1-.svg" alt="" data-size="line">).&#x20;
 
 ![Click the trash can icon to delete the user](<../.gitbook/assets/image (114).png>)

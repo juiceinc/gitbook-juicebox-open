@@ -12,7 +12,7 @@ If the options available in the column or measure editor are not sufficient to d
 
 Every column editor lets you modify the column's icon and labels (plural and singular). Depending on the [data type](../the-data-preview.md#data-types) of the underlying data field, you may also be able to modify the [number format](../adding-ingredients/ingredient-formats.md) or [time format](time-formats.md). The column editor looks like this for most columns:
 
-![The column editor](<../../../.gitbook/assets/image (331) (1).png>)
+![The column editor](<../../../.gitbook/assets/image (331) (1) (1).png>)
 
 {% hint style="info" %}
 The editor for an [advanced column](../advanced-ingredients/) will look very different.
@@ -64,11 +64,11 @@ The editor for an [advanced measure](../advanced-ingredients/) will look very di
 
 ## Duplicating or deleting columns or measures
 
-You can duplicate an existing column or measure from the editor by clicking the menu icon (![](../../../.gitbook/assets/ellipsis-h-solid.svg)) and selecting **Duplicate**.
+You can duplicate an existing column or measure from the editor by clicking the menu icon (<img src="../../../.gitbook/assets/ellipsis-h-solid.svg" alt="" data-size="line">) and selecting **Duplicate**.
 
 ![Duplicating a column or measure](<../../../.gitbook/assets/image (338).png>)
 
-You can delete an existing column or measure from the editor by clicking the menu icon (![](../../../.gitbook/assets/ellipsis-h-solid.svg)) and selecting **Delete**.
+You can delete an existing column or measure from the editor by clicking the menu icon (<img src="../../../.gitbook/assets/ellipsis-h-solid.svg" alt="" data-size="line">) and selecting **Delete**.
 
 ![Deleting a column or measure](<../../../.gitbook/assets/image (358) (1).png>)
 

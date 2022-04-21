@@ -50,7 +50,7 @@ A column chooser slice should always be connected to at least one downstream cha
 
 * select the columns you want to add in the order you want them displayed
 
-![A column chooser slice](<../../../.gitbook/assets/image (332).png>)
+![A column chooser slice](<../../../.gitbook/assets/image (332) (1).png>)
 
 * add slice text (optional)
 * click **Save changes**

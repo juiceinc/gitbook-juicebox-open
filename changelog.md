@@ -2,9 +2,23 @@
 
 ## What's coming soon?
 
-* New Pie chart 🥧 to easily see the relationship of parts to the whole
 * Changes to text and charts will "autosave" as you make them
 * Filtering on number ranges
+
+## April 20, 2022
+
+### 🎁 What's new?
+
+* 📣 Introducing our newest chart type — **Pie charts!** 🥧 \
+  \
+  Confession time: Over the years, we've sidestepped the Great Pie Chart Controversy (Really? [Yes](http://www.perceptualedge.com/articles/08-21-07.pdf). [Oh yes](https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts).) by not offering a pie chart. But not anymore! Our pie chart is beautiful, simple to make, and automatically removes those perilous pie chart pitfalls. It's the right chart for showing parts of a whole, and we think you'll love it. Give it a try!
+
+![](<.gitbook/assets/pie\_chart (1).gif>)
+
+### 🐛 Bug fixes & other improvements
+
+* Would you like to embed a Juicebox app in your own website? Just paste in the public app embed code.&#x20;
+* Trend charts are working again for measures with solely negative values.
 
 ## April 6, 2022
 
@@ -87,7 +101,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * A simpler way to create locations while making a map.
 * Selections in table charts now filter properly (i.e., based on all columns, not just the first one).
 * Improved performance for paginated charts.
-* Deleting or duplicating apps, sections, and slices is easier with new ![](<.gitbook/assets/trash-alt-regular (1).svg>) and ![](.gitbook/assets/clone-regular.svg) buttons.
+* Deleting or duplicating apps, sections, and slices is easier with new <img src=".gitbook/assets/trash-alt-regular (1).svg" alt="" data-size="line"> and <img src=".gitbook/assets/clone-regular.svg" alt="" data-size="line"> buttons.
 * Broken ingredients are (mostly) a thing of the past.
 * Improvements to data loading workflow.&#x20;
 
@@ -112,7 +126,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * **Choosers have a new look.** Chooser buttons are now sized based on their content and have a more eye-catching appearance.
 
-![](<.gitbook/assets/image (332) (1).png>)
+![](<.gitbook/assets/image (332) (1) (1).png>)
 
 * **Support for private editing notes.** Now you can leave notes in apps for yourself and other editors that won't be seen by your users.
 

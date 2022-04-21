@@ -13,7 +13,7 @@ Next, decide whether you want to publish the app **publicly** or **privately**.
 * A **public app** can be viewed by anyone with the app url. Viewers of public apps are not required to sign in and their app access cannot be managed.&#x20;
 * A **private app** can be viewed only by those that have signed in with a Juicebox account that has access to the app. Viewer access to the app can be [managed in the People view](../../managing-users/user-management-and-roles.md).
 
-![Select whether to publish as a public or private app](<../../.gitbook/assets/image (330).png>)
+![Select whether to publish as a public or private app](<../../.gitbook/assets/image (330) (1).png>)
 
 {% hint style="info" %}
 If your app contains information that not everyone should see, you should publish it as a private app. If your app does not contain sensitive information, you may not know whether you want the app to be public or private. That's ok! Just select one and change it later as needed.&#x20;

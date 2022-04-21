@@ -12,7 +12,7 @@ Advanced columns and measures allow you to define--
 * Measures or number columns formatted to [use any d3 number format](advanced-formats.md#advanced-number-formats)
 * Time columns formatted to [use any d3 date format](advanced-formats.md#advanced-date-formats)
 
-To create an advanced column or measure click on the pill for a related column or measure, select the menu icon (![](../../../.gitbook/assets/ellipsis-h-solid.svg)), and select **Duplicate as Advanced**. This will open the advanced editor. In the advanced editor, you define your new column or measure [components](../adding-ingredients/ingredient-components.md) using yaml.&#x20;
+To create an advanced column or measure click on the pill for a related column or measure, select the menu icon (<img src="../../../.gitbook/assets/ellipsis-h-solid.svg" alt="" data-size="line">), and select **Duplicate as Advanced**. This will open the advanced editor. In the advanced editor, you define your new column or measure [components](../adding-ingredients/ingredient-components.md) using yaml.&#x20;
 
 ![Select Duplicate as Advanced to create an advanced column or measure](<../../../.gitbook/assets/image (306).png>)
 

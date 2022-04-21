@@ -41,6 +41,7 @@
     * [Leaderboard](editing-apps/story-designer/charts/leaderboard.md)
     * [Map](editing-apps/story-designer/charts/map.md)
     * [Trend](editing-apps/story-designer/charts/trend.md)
+    * [Pie](editing-apps/story-designer/charts/pie.md)
 * [Share](editing-apps/publish-and-share/README.md)
   * [Publishing an app (or app changes)](editing-apps/publish-and-share/publishing-app-changes.md)
   * [Inviting viewers](editing-apps/publish-and-share/sharing-and-access-controls.md)
