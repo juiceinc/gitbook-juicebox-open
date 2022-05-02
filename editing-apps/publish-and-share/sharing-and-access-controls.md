@@ -55,7 +55,7 @@ To regenerate the link, select **Link Settings** and then **Regenerate**.&#x20;
 
 ![Select the Link Settings button to regenerate the viewer access link](<../../.gitbook/assets/image (310).png>)
 
-![Select the Regenerate button to regenerate the viewer access link](<../../.gitbook/assets/image (341).png>)
+![Select the Regenerate button to regenerate the viewer access link](<../../.gitbook/assets/image (341) (1).png>)
 
 #### User email domain (future release)
 
