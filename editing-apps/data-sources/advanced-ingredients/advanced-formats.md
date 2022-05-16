@@ -214,7 +214,7 @@ Using "ordinal" as a format will&#x20;
 
 ## Advanced time formats
 
-You can use time formats to adjust how dates display in your story. For example, let's say you want to display `Dates` like "January 1, 2014" (full month and unpadded day). You can do this using these [codes](https://strftime.org) in the `format` of an advanced column, like so:
+You can use time formats to adjust how dates display in your story. For example, let's say you want to display `Dates` like "January 1, 2014" (full month and unpadded day). You can do this using these [codes](https://strftime.org/) in the `format` of an advanced column, like so:
 
 ![Advanced column using time format with full month and unpadded day](<../../../.gitbook/assets/image (356).png>)
 

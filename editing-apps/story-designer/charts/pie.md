@@ -14,7 +14,6 @@ To add a pie slice:
 * select the measure to use to determine the size of each slice
 * select **Value** to display the actual value of each pie slice or **% Percent of whole** to display the share of the pie slice as a percent
 * add slice text (optional)
-* click **Save changes**
 
 ![A Pie slice](<../../../.gitbook/assets/image (330).png>)
 

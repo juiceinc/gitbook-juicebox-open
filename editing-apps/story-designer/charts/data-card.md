@@ -26,7 +26,6 @@ A chooser chart with measures (i.e., a measure chooser slice) will display a hig
 
 * select the measures you want to add in the order you want them displayed
 * add slice text (optional)
-* click **Save changes**
 
 ![A measure chooser slice](<../../../.gitbook/assets/image (311).png>)
 

@@ -14,7 +14,6 @@ To add a trend slice:
 * select up to 5 measures to display on a single y-axis
 * select 1 measure to display on a second y-axis (optional)
 * add slice text (optional)
-* click **Save changes**
 
 ![A Trend slice](<../../../.gitbook/assets/image (346) (1) (1).png>)
 

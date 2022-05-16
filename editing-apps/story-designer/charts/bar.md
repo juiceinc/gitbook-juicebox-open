@@ -13,7 +13,6 @@ To add a bar slice:
 * select the column to use for the bars
 * select the measure you want to use for the bar width
 * add slice text (optional)
-* click **Save changes**
 
 ![A bar slice](<../../../.gitbook/assets/image (307).png>)
 

@@ -12,7 +12,6 @@ To add a filters slice:
 
 * select the columns you want to add as filters in the order you want them displayed
 * add slice text (optional)
-* click **Save changes**
 
 ![A filters slice](<../../../.gitbook/assets/image (376).png>)
 

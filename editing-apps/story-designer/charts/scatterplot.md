@@ -15,7 +15,6 @@ To add a scatterplot slice:
 * select the measure to use for the bubble size (optional)
 * select the number of regions
 * add slice text (optional)
-* click **Save changes**
 
 ![A scatterplot slice](<../../../.gitbook/assets/image (373).png>)
 

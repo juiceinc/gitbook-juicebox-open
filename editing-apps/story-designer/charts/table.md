@@ -13,7 +13,6 @@ To add a table slice:
 * select the columns and measures you want displayed in the table in the order you want them displayed&#x20;
 * choose whether you want users to be able to download the data
 * add slice text (optional)
-* click **Save changes**
 
 ![A table slice](<../../../.gitbook/assets/image (383).png>)
 

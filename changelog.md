@@ -2,8 +2,21 @@
 
 ## What's coming soon?
 
-* Changes to text and charts will "autosave" as you make them
-* Filtering on number ranges
+* Password-protected apps and other sharing improvements
+* Filtering and data upload improvements
+
+## May 12, 2022
+
+### 🎁 What's new?
+
+* As you make changes to charts, text, and colors, your app will update automatically! 🎉
+
+![](.gitbook/assets/Autosaving1.gif)
+
+### 🐛 Bug fixes & other improvements
+
+* In the filter slice, you can now filter on a range of values in a number column. &#x20;
+* Custom color themes are now easier to update.
 
 ## April 20, 2022
 
@@ -189,7 +202,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **Easy-to-add images**. Juicebox's new image upload capability lets you easily add images to your Juicebox app -- no more cryptic code. And, you can make an even bigger splash with the [Unsplash ](https://unsplash.com)integration. Now, go image like a pro 📸.
+* **Easy-to-add images**. Juicebox's new image upload capability lets you easily add images to your Juicebox app -- no more cryptic code. And, you can make an even bigger splash with the [Unsplash ](https://unsplash.com/)integration. Now, go image like a pro 📸.
 
 ![](.gitbook/assets/add\_an\_image.gif)
 

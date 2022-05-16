@@ -14,7 +14,6 @@ To add a leaderboard slice:
 * select the measures by which you want to rank the column values
 * select the max rows
 * add slice text (optional)
-* click **Save changes**
 
 ![A leaderboard slice](<../../../.gitbook/assets/image (333).png>)
 

@@ -47,5 +47,5 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Photos
 
-* You can [add images](../story-designer/slices/#adding-an-image) to a slice, either your own or images from [Unsplash](https://unsplash.com). Photos a great opportunity to add visual interest to your story. Similar to a blog post with a great intro image, data stories are no different. &#x20;
+* You can [add images](../story-designer/slices/#adding-an-image) to a slice, either your own or images from [Unsplash](https://unsplash.com/). Photos a great opportunity to add visual interest to your story. Similar to a blog post with a great intro image, data stories are no different. &#x20;
 

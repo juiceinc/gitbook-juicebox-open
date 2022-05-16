@@ -15,7 +15,6 @@ To add a map slice:
 * select a measure to use for the bubble color (optional)
 * select a map style
 * add slice text (optional)
-* click **Save changes**
 
 ![A map slice](<../../../.gitbook/assets/image (387).png>)
 
