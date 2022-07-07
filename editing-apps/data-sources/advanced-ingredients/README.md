@@ -21,7 +21,7 @@ This will make a copy of the column or measure and open the advanced editor. Mod
 ![After duplicating as advanced, you can modify the column or measure as needed](<../../../.gitbook/assets/image (388).png>)
 
 {% hint style="info" %}
-The advanced editor lets you build complex and powerful columns and measures. But it is also more susceptible to typos or syntax errors. Please reach out to us if you need help building your advanced column or measure by clicking **Help** in the top right of your workspace and starting a chat with us.&#x20;
+The advanced editor lets you build complex and powerful columns and measures. But it is also more susceptible to typos or syntax errors. Please reach out to us if you need help building your advanced column or measure by clicking the blue button in the bottom right of your workspace and starting a chat with us.&#x20;
 {% endhint %}
 
 The sections that follow demonstrate how to define those ingredient components based on what you want to do:

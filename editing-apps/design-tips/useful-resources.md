@@ -4,7 +4,7 @@ Here are some resources that we use at Juice and recommend.
 
 ## Colors and images
 
-Here are some tools we like for finding the right colors and images for your app:
+Here are some tools we like for finding the right colors and images for your report:
 
 * [Eye Dropper](https://chrome.google.com/webstore/detail/eye-dropper/hmdcmlfkchdmnmnmheododdhjedfccka?hl=en): a Google Chrome extension that lets you find the hex code for any color on most websites
 * [Coolors](https://coolors.co/): a color scheme generator that helps you find colors that work together
@@ -12,5 +12,8 @@ Here are some tools we like for finding the right colors and images for your app
 
 ## Fake data generator
 
-Sometimes you want to play around with design before gathering real data. To do that, you'll need some fake data. [Mockaroo](https://www.mockaroo.com/) can help generate good quality fake data quickly. 
+Sometimes you want to play around with design before gathering real data. To do that, you'll need some fake data. [Mockaroo](https://www.mockaroo.com/) can help generate good quality fake data quickly.&#x20;
 
+## Data preparation
+
+Cleaning and restructuring data is a lot easier with a tool like [Trifacta](https://www.trifacta.com/).

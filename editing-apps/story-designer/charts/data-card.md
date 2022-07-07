@@ -49,7 +49,7 @@ A column chooser slice should always be connected to at least one downstream cha
 
 * select the columns you want to add in the order you want them displayed
 
-![A column chooser slice](<../../../.gitbook/assets/image (332) (1).png>)
+![A column chooser slice](<../../../.gitbook/assets/image (332) (1) (1).png>)
 
 * add slice text (optional)
 * click **Save changes**
@@ -60,7 +60,7 @@ The type of chooser is determined by whether you add a column or measure first. 
 
 ## Using dynamic columns or measures
 
-Chooser slices are particularly powerful when slices further down the app refer to the selections in the chooser.
+Chooser slices are particularly powerful when slices further down the report refer to the selections in the chooser.
 
 {% hint style="info" %}
 Chooser values will be "display only" (i.e., unselectable) unless a downstream slice includes a dynamic column or measure referring to the chooser.

@@ -15,7 +15,7 @@ To add a leaderboard slice:
 * select the max rows
 * add slice text (optional)
 
-![A leaderboard slice](<../../../.gitbook/assets/image (333).png>)
+![A leaderboard slice](<../../../.gitbook/assets/image (333) (1).png>)
 
 {% embed url="https://www.loom.com/share/78c8a8a487044fffafeed1e34d3c87bd" %}
 Adding a leaderboard slice

@@ -1,20 +1,35 @@
 # Charts
 
-Charts are data visualizations you can add to your story. Each slice can contain one chart. The following charts are available:
+Charts are data visualizations you can add to your report. Each slice can contain one chart. The following charts are available:
 
-{% page-ref page="filters.md" %}
+{% content-ref url="filters.md" %}
+[filters.md](filters.md)
+{% endcontent-ref %}
 
-{% page-ref page="data-card.md" %}
+{% content-ref url="data-card.md" %}
+[data-card.md](data-card.md)
+{% endcontent-ref %}
 
-{% page-ref page="table.md" %}
+{% content-ref url="table.md" %}
+[table.md](table.md)
+{% endcontent-ref %}
 
-{% page-ref page="bar.md" %}
+{% content-ref url="bar.md" %}
+[bar.md](bar.md)
+{% endcontent-ref %}
 
-{% page-ref page="scatterplot.md" %}
+{% content-ref url="scatterplot.md" %}
+[scatterplot.md](scatterplot.md)
+{% endcontent-ref %}
 
-{% page-ref page="leaderboard.md" %}
+{% content-ref url="leaderboard.md" %}
+[leaderboard.md](leaderboard.md)
+{% endcontent-ref %}
 
-{% page-ref page="map.md" %}
+{% content-ref url="map.md" %}
+[map.md](map.md)
+{% endcontent-ref %}
 
-{% page-ref page="trend.md" %}
-
+{% content-ref url="trend.md" %}
+[trend.md](trend.md)
+{% endcontent-ref %}

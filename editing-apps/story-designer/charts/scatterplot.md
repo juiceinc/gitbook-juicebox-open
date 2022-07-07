@@ -16,7 +16,7 @@ To add a scatterplot slice:
 * select the number of regions
 * add slice text (optional)
 
-![A scatterplot slice](<../../../.gitbook/assets/image (373).png>)
+![A scatterplot slice](<../../../.gitbook/assets/image (373) (1).png>)
 
 {% embed url="https://www.loom.com/share/0d0a15f66c484896869a7d88e991a2ba" %}
 Adding a scatterplot slice

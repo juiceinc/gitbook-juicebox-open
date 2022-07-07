@@ -8,9 +8,9 @@
 
 * [Signing Up for a Workspace](getting-started/new-workspace.md)
 
-## Editing Apps
+## Editing Reports <a href="#editing-apps" id="editing-apps"></a>
 
-* [Creating and Editing Apps](editing-apps/creating-and-editing.md)
+* [Creating and Editing Reports](editing-apps/creating-and-editing.md)
 * [Data](editing-apps/data-sources/README.md)
   * [Loading data](editing-apps/data-sources/loading-data.md)
   * [The data preview](editing-apps/data-sources/the-data-preview.md)
@@ -43,7 +43,7 @@
     * [Trend](editing-apps/story-designer/charts/trend.md)
     * [Pie](editing-apps/story-designer/charts/pie.md)
 * [Share](editing-apps/publish-and-share/README.md)
-  * [Publishing an app (or app changes)](editing-apps/publish-and-share/publishing-app-changes.md)
+  * [Publishing a report (or report changes)](editing-apps/publish-and-share/publishing-app-changes.md)
   * [Inviting viewers](editing-apps/publish-and-share/sharing-and-access-controls.md)
 * [Tips and Tricks](editing-apps/design-tips/README.md)
   * [The Help Center](editing-apps/design-tips/the-help-center.md)
@@ -52,11 +52,11 @@
   * [Preparing your data](editing-apps/design-tips/preparing-your-data.md)
   * [Useful resources](editing-apps/design-tips/useful-resources.md)
 
-## Viewing Apps
+## Viewing Reports <a href="#viewing-apps" id="viewing-apps"></a>
 
 * [Signing In](viewing-apps/signing-in.md)
-* [Navigating Apps](viewing-apps/navigating-apps.md)
-* [Understanding Data Flow](viewing-apps/data-flow.md)
+* [Navigating Reports](viewing-apps/navigating-apps.md)
+* [Zoom and Filter](viewing-apps/data-flow.md)
 
 ## Managing Users
 

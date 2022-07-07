@@ -22,12 +22,12 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Typography & Styles
 
-* There are 4 **typographic pair styles** (Refined, Literary, Professional, and Bold) to choose from. Choose a set that conveys the mood of your story best. Is the story more opinionated or explanatory? Choose the "Literary" style. Is the story more a statistically accurate report update? You may want to choose "Professional", or "Bold" if you want to make a stronger point.
+* There are several font themes to choose from. Choose a set that conveys the mood of your story best. Is the story more opinionated or explanatory? Choose the "Literary" style. Is the story more a statistically accurate report update? You may want to choose "Professional", or "Bold" if you want to make a stronger point.
 * Use **large text headers** in Slice text to create titles for your sections.
 * Use small text for notes about data or guidance tips you would like to communicate to your viewers.&#x20;
 * Want to add a bit more:smile:fun?! Sprinkle in emojis.&#x20;
 
-## Column and measure Labels & Icons&#x20;
+## Column and Measure Labels & Icons&#x20;
 
 * Any data you add to Juicebox will be represented by a [column or measure](../data-sources/columns-and-measures.md). Taking the extra thought to label this well and provide complimentary icons will make the editing experience better for you as an editor. However more importantly, this will result in a more unique and understandable story for your audience.&#x20;
 * **Keep your labels as short as possible** while maintaining clarity. For example, instead of "Sales Dollars", you may just want to write "Sales" since you can use a dollar sign for your icon and format your numbers with the dollar format.&#x20;
@@ -36,9 +36,9 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 ## Slices & Layouts
 
 * Unlike other dashboard reporting tools, Juicebox is more about helping you present your data like a story that has a beginning, middle, and end. This is why slices lay out vertically, by default, like a cross between a website and a slideshow presentation. You wouldn't start a presentation to your team by showing thumbnails of all your slides at once. Why would a data presentation be any different?
-* Put text next to your chart with a slice "Left to Right" or "Right to Left" [**layout option.**](../story-designer/slices/#slice-layouts) This is great for adding more explanatory text that can easily be read while viewing a chart.&#x20;
-* You also may put entire slices next to each other by changing the [s**ection layout**](../story-designer/sections.md#section-layouts) to "Horizontal". For this option, sometimes slices will scroll horizontally, so this is a good option when there are charts or text you would consider optional viewing.&#x20;
-* In general, a bit of layout diversity will create a more visually interesting story, but don't forget to put yourself in your audiences' shoes. They are likely less familiar with the data than you, so you don't want to create unnecessarily distracting layout changes when they are simply wanting to understand something clearly.&#x20;
+* Put text next to your chart with a slice "Chart on right" or "Chart on left" [**layout option.**](../story-designer/slices/#slice-layouts) This is great for adding more explanatory text that can easily be read while viewing a chart.&#x20;
+* You also may put entire slices next to each other by changing the [**section layout**](../story-designer/sections.md#section-layouts) to "Side-by-side layout". For this option, sometimes slices will scroll horizontally, so this is a good option when there are charts or text you would consider optional viewing.&#x20;
+* In general, a bit of layout diversity will create a more visually interesting story, but don't forget to put yourself in your audience's shoes. They are likely less familiar with the data than you, so you don't want to create unnecessarily distracting layout changes when they are simply wanting to understand something clearly.&#x20;
 
 ## Branding
 
@@ -47,5 +47,5 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Photos
 
-* You can [add images](../story-designer/slices/#adding-an-image) to a slice, either your own or images from [Unsplash](https://unsplash.com/). Photos a great opportunity to add visual interest to your story. Similar to a blog post with a great intro image, data stories are no different. &#x20;
+* You can [add images](../story-designer/slices/#adding-an-image) to a slice, either your own or images from [Unsplash](https://unsplash.com/). Photos are a great opportunity to add visual interest to your story. Similar to a blog post with a great intro image, data stories are no different. &#x20;
 

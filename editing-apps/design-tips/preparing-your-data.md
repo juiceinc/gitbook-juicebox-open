@@ -1,6 +1,6 @@
 # Preparing your data
 
-Data preparation is tedious and time-consuming. We get it. But unless the data is properly prepared, your app building process is likely to be frustrating and unsuccessful. Time spent preparing your data will be worth it.
+Data preparation is tedious and time-consuming. We get it. But unless the data is properly prepared, your report design process is likely to be frustrating and unsuccessful. Time spent preparing your data will be worth it.
 
 ## What does properly prepared data look like?
 
@@ -34,7 +34,7 @@ The first row in your data should contain your column headers. Remove any rows a
 
 ### 5. Remove columns you don't need (optional)
 
-Columns you don't need can be distracting during data preparation and app building, so it's a good idea to just remove them. (If you're not sure whether you need a particular column, just leave it in.)
+Columns you don't need can be distracting during data preparation and report design, so it's a good idea to just remove them. (If you're not sure whether you need a particular column, just leave it in.)
 
 ### 6. Remove rows you don't need
 
@@ -58,7 +58,7 @@ When it needs to look like this:
 
 Another common example is survey data, where each survey question is a separate column. We recommend restructuring the data so that there is a `Question` column and a `Response` column, and each question response is on a separate row.&#x20;
 
-There are different approaches to restructuring data. [Here's one](https://infoinspired.com/google-docs/spreadsheet/unpivot-a-dataset-in-google-sheets-reverse-pivot-formula/). If you need help, please reach out to us by clicking Help in the top right of your workspace and starting a chat.&#x20;
+Restructuring data can be tricky, but it's a lot easier with the right tool. We recommend [Trifacta](https://www.trifacta.com/). If you need help, please reach out to us by clicking the blue button in the bottom right of your workspace and starting a chat.&#x20;
 
 ### 9. Remove number formatting
 

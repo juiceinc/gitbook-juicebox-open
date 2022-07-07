@@ -60,7 +60,7 @@ Conversion functions change the value for a field. It might change to a differen
 
 You can use `+` to concatenate text data fields together. For example, if `State` has state names and `StateAbbr` has state abbreviations, you can create a new`States` column that combine state names with state abbreviations to display like `Georgia (GA)`. &#x20;
 
-![Advanced column using string concatenation](<../../../.gitbook/assets/image (375).png>)
+![Advanced column using string concatenation](<../../../.gitbook/assets/image (375) (1).png>)
 
 Here are the underlying components:
 

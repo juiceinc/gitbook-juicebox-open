@@ -34,17 +34,17 @@ Your workspace will have its own web address. This is your workspace URL. You ca
 
 After signing in to your workspace, you will be on the workspace home page. What you see on the home page will depend on your [user role](../managing-users/user-management-and-roles.md):
 
-* Viewers will only see those apps they have been given access to.&#x20;
-* Editors, admins, and owners for the workspace will see all apps in the workspace. &#x20;
+* Viewers will only see those reports they have been given access to.&#x20;
+* Editors, admins, and owners for the workspace will see all reports in the workspace. &#x20;
 * Owners and admins will have access to the [People page](../managing-users/user-management-and-roles.md#managing-users) to manage users.
 * Owners will have access to the workspace [Settings](../managing-workspaces/workspace-settings.md) and [Subscriptions](../managing-workspaces/subscription-and-billing.md) pages.&#x20;
 
-To find a specific app you can use the **Sort by** feature to order apps by last edit date, last publish date, or alphabetically. You can also use the **Search** feature to search app titles and descriptions.&#x20;
+To find a specific report you can use the **Sort by** feature to order reports by last edit date, last publish date, or alphabetically. You can also use the **Search** feature to search report titles and descriptions.&#x20;
 
-To open the draft version of an app, click the **Edit** button. To open the shared version of an app, hover or click around the app title, and then click the **Open App** button. (If the app has not been shared, you'll see a "Not shared yet" message. &#x20;
+To open the draft version of a report, click the **Edit** button. To open the shared version of a report, hover or click around the report title, and then click the **Open Report** button. (If the report has not been shared, you'll see a "Not shared yet" message. &#x20;
 
 ![Open the draft or shared version of an app from the apps page](<../.gitbook/assets/image (300).png>)
 
-To get back to the home page from any app, click on the **Home** button in the app header.
+To get back to the home page from any report, click on the **Home** button in the report header.
 
 ![Click the Home button to return to the workspace home page](<../.gitbook/assets/image (400).png>)

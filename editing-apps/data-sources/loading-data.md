@@ -4,7 +4,7 @@ description: The first step in adding a data source is loading data.
 
 # Loading data
 
-You must load data before you can design your story. There are three ways to load data:
+You must load data before you can design your report. There are three ways to load data:
 
 1. Upload a data file
 2. Connect to sample data
@@ -12,13 +12,13 @@ You must load data before you can design your story. There are three ways to loa
 
 ## Upload a data file
 
-To upload the app's first data file, open the Data Tables drawer and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the file to be uploaded.
+To upload the report's first data file, open the Data Tables drawer and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the file to be uploaded.
 
-![Add data by uploading a CSV or Excel file](<../../.gitbook/assets/image (371).png>)
+![Add data by uploading a CSV or Excel file](<../../.gitbook/assets/image (371) (1).png>)
 
 To load additional data files, first click the + and then drag-and-drop or select your CSV or Excel file.
 
-![Click the "+" in the Data Tables drawer to add additional data tables](<../../.gitbook/assets/image (401).png>)
+![Click the "+" in the Data Tables drawer to add additional data tables](<../../.gitbook/assets/image (401) (1).png>)
 
 {% hint style="warning" %}
 When loading data files, it is important that your data be nice and clean. Here are some tips for [preparing your data](../design-tips/preparing-your-data.md).&#x20;
@@ -52,7 +52,7 @@ If you want more ideas on data to start with, check out this [article](https://h
 
 ## Connect to a database table
 
-If your app is connected to a database, you can select the schema and table to use in the data source. If you are interested in connecting your app to a database, please reach out to us by clicking Help in the top right of your workspace and starting a chat with us or by emailing us at [help@myjuicebox.io](mailto:help@myjuicebox.io). The following databases are supported:
+If your report is connected to a database, you can select the schema and table to use in the data source. If you are interested in connecting your report to a database, please reach out to us by clicking the blue button in the bottom right of your workspace and starting a chat with us or by emailing us at [help@myjuicebox.io](mailto:help@myjuicebox.io). The following databases are supported:
 
 * Redshift
 * Snowflake

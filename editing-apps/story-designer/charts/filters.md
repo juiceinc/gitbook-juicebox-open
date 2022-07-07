@@ -1,6 +1,6 @@
 # Filters
 
-The filters chart displays pills (i.e., filter pills) that allow users to filter story data by column values. When a user clicks on a filter pill, all of the column values are displayed in a side panel. Selecting one or more of the values will filter the downstream slices. Adding a slice with a filters chart (i.e., a filter slice) is a good choice when you want to let your users focus the story on what is most important to them.&#x20;
+The filters chart displays pills (i.e., filter pills) that allow users to filter by column values. When a user clicks on a filter pill, all of the column values are displayed in a side panel. Selecting one or more of the values will filter the downstream slices. Adding a slice with a filters chart (i.e., a filter slice) is a good choice when you want to let your users focus the story on what is most important to them.&#x20;
 
 ## Adding a filters slice
 

@@ -1,12 +1,12 @@
 # Number formats
 
-To control how numbers are displayed in the app, you can specify a format. For example, let's say you have the following measure:
+To control how numbers are displayed in the report, you can specify a format. For example, let's say you have the following measure:
 
 ![Select a number format from the list](<../../../.gitbook/assets/image (395).png>)
 
-Representative values for `Budget` in your data are `3231.447` and `0.5264`. You probably do not want to display the unformatted value in your app. Therefore, you will want to specify a number format in the `Budget` definition.&#x20;
+Representative values for `Budget` in your data are `3231.447` and `0.5264`. You probably do not want to display the unformatted value in your report. Therefore, you will want to specify a number format in the `Budget` definition.&#x20;
 
-The format specified in the measure editor will determine how the value will display in your app. The following standard formats are available for measures:&#x20;
+The format specified in the measure editor will determine how the value will display in your report. The following standard formats are available for measures:&#x20;
 
 | **format label** | **d3 equivalent** | **How value`3231.447` will display** | **How value `0.5264` will display** |
 | ---------------- | ----------------- | ------------------------------------ | ----------------------------------- |

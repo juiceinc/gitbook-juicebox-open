@@ -1,6 +1,6 @@
 # Lookup columns
 
-If the values in a field are not what you want displayed in your app, you can create a lookup column to change them. For example, let's say your data has a Country field with the full name of each country, but you only want to display an abbreviation. To do that, you could create an advanced ingredient like so:
+If the values in a field are not what you want displayed in your report, you can create a lookup column to change them. For example, let's say your data has a Country field with the full name of each country, but you only want to display an abbreviation. To do that, you could create an advanced ingredient like so:
 
 ![Advanced column using lookup](<../../../.gitbook/assets/image (339).png>)
 

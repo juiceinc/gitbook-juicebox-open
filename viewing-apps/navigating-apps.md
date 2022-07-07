@@ -1,21 +1,17 @@
-# Navigating Apps
+# Navigating Reports
 
-For workspaces with multiple apps, users can navigate between apps from the workspace home page. In addition, users can navigate directly to a specific app using its app link.&#x20;
+For workspaces with multiple reports, users can navigate between reports from the workspace home page.
 
 ### Using the home page
 
-After [signing in](signing-in.md) to your workspace, you will be on the workspace home page. If the Apps view button is highlighted, Editors for the workspace will see all of the workspace apps on the apps page. Viewers will only see those apps they have been given access to.
+After [signing in](signing-in.md) to your workspace, you will be on the workspace home page. If the Reports view button is highlighted, Editors for the workspace will see all of the workspace reports. Viewers will only see those reports they have been given access to.
 
-To find a specific app you can use the **Sort by** feature to order apps by last edit date, last publish date, or alphabetically. You can also use the **Search** feature to search app titles and descriptions.&#x20;
+To find a specific report you can use the **Sort by** feature to order reports by last edit date, last publish date, or alphabetically. You can also use the **Search** feature to search report titles and descriptions.&#x20;
 
-To open the draft version of an app, click the **Edit** button. To open the published version of an app, hover or click around the app title, and then click the **Open Published** button. (If the app has not been published, you'll see a "Not published yet" message. &#x20;
+To open the draft version of a report, click the **Edit** button. To open the published version of a report, hover or click around the report title, and then click the **View Report** button. (If the report has not been shared, you'll see a "Not shared yet" message.) &#x20;
 
-![Open the draft or shared version of an app from the apps page](<../.gitbook/assets/image (315) (1) (1).png>)
+![Open the draft or shared version of a report from the home page](<../.gitbook/assets/image (315) (1) (1).png>)
 
-To get back to the home page from any app, click on the **Home** button in the app header.
+To get back to the home page from any report, click on the **Home** button in the report header.
 
 ![Click the Home button to return to the workspace home page](<../.gitbook/assets/image (314).png>)
-
-### Using the app link
-
-Each app has a unique link that will take a user directly to the app. App links look similar to `https://227-friendly-lemons.myjuicebox.io/a/movie_trends2/`.

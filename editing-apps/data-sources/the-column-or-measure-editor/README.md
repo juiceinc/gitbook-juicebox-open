@@ -56,7 +56,7 @@ The latitude and longitude fields in your data must be numbers, not strings. In 
 
 The measure editor lets you modify the measure's icon, label, and [number format](../adding-ingredients/ingredient-formats.md):
 
-![The measure editor](<../../../.gitbook/assets/image (328).png>)
+![The measure editor](<../../../.gitbook/assets/image (328) (1).png>)
 
 {% hint style="info" %}
 The editor for an [advanced measure](../advanced-ingredients/) will look very different.

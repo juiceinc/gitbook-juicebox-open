@@ -1,12 +1,12 @@
 # Time formats
 
-To control how time columns are displayed in the app, you can specify a format. For example, let's say you have the following time column definition for `Years`:
+To control how time columns are displayed in the report, you can specify a format. For example, let's say you have the following time column definition for `Years`:
 
 ![Select a time format from the list](<../../../.gitbook/assets/image (308).png>)
 
-Let's say a representative value for the `Year` field in your data is `2019-03-01`. You probably do  not want to display the unformatted value in your app. Therefore, you will want to specify a format in the `Years` column editor.&#x20;
+A representative value for the `Year` field in your data is `2019-03-01`. You probably do not want to display the unformatted value in your report. Therefore, you will want to specify a format in the `Years` column editor.&#x20;
 
-The format specified will determine how the date or time value will display in your app. The following date formats are available for selection in the column editor:&#x20;
+The format specified will determine how the date or time value will display in your report. The following date formats are available for selection in the column editor:&#x20;
 
 | **format label** | **d3 equivalent** | **How value`2019-03-01`will display** |
 | ---------------- | ----------------- | ------------------------------------- |

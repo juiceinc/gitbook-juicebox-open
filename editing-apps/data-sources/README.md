@@ -4,6 +4,6 @@ The Data Tables drawer is where you set up your data. To open the Data Tables dr
 
 ![Click the bar at the bottom to open the Data Tables drawer](<../../.gitbook/assets/image (368).png>)
 
-You must [load data](loading-data.md) before you can design your story. Data can be in a flat file (CSV, XLS, or XLSX) or in a database table. You load your data by either uploading the file or, if your data is in a database, selecting the schema and table to connect to.&#x20;
+You must [load data](loading-data.md) before you can design your report. Data can be in a flat file (CSV, XLS, or XLSX) or in a database table. You load your data by either uploading the file or, if your data is in a database, selecting the schema and table to connect to.&#x20;
 
 After you load data, you can view your columns in the [data preview](the-data-preview.md) and add charts using [columns and column measures](columns-and-measures.md).

@@ -1,8 +1,8 @@
 # Juicebox Documentation
 
-Welcome to the Juicebox documentation! Here you'll find resources and information on creating and sharing your Juicebox applications, as well as tips and troubleshooting advice. We hope you find this resource helpful.&#x20;
+Welcome to the Juicebox documentation! Here you'll find resources and information on creating and sharing your Juicebox reports, as well as tips and troubleshooting advice. We hope you find this resource helpful.&#x20;
 
-We are continually updating the documentation to reflect what's new in Juicebox. If you spot an area that could be improved, please let us know by clicking the Help button in the top right of your workspace and starting a chat with us.&#x20;
+We are continually updating the documentation to reflect what's new in Juicebox. If you spot an area that could be improved, please let us know by clicking the blue button in the bottom right of your workspace and starting a chat with us.&#x20;
 
 #### Commonly Used Resources
 

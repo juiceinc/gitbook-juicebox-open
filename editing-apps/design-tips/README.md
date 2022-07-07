@@ -1,14 +1,20 @@
 # Tips and Tricks
 
-Here are some tips and tricks we've learned along the way to help you build great apps:
+Here are some tips and tricks we've learned along the way to help you build great reports:
 
-{% page-ref page="telling-data-stories.md" %}
+{% content-ref url="telling-data-stories.md" %}
+[telling-data-stories.md](telling-data-stories.md)
+{% endcontent-ref %}
 
-{% page-ref page="visual-design.md" %}
+{% content-ref url="visual-design.md" %}
+[visual-design.md](visual-design.md)
+{% endcontent-ref %}
 
-{% page-ref page="preparing-your-data.md" %}
+{% content-ref url="preparing-your-data.md" %}
+[preparing-your-data.md](preparing-your-data.md)
+{% endcontent-ref %}
 
-{% page-ref page="useful-resources.md" %}
-
-
+{% content-ref url="useful-resources.md" %}
+[useful-resources.md](useful-resources.md)
+{% endcontent-ref %}
 

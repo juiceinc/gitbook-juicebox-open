@@ -32,7 +32,7 @@ To change the section layout, hover over the section header until you see the la
 
 ## Section background color
 
-By default the section background color will be white. You can change this by clicking the paint drop <img src="../../.gitbook/assets/tint-solid.svg" alt="" data-size="line"> in the section header. From there, you can select one of theme colors or enter the hex code for a custom color.
+You can change the section background color by clicking the paint drop <img src="../../.gitbook/assets/tint-solid.svg" alt="" data-size="line"> in the section header. From there, you can select one of theme colors. If you have a specific color in mind, you can enter the hex code for that color after clicking the **Custom** button.&#x20;
 
 If you choose a dark background, Juicebox will invert the visualization and text colors automatically.
 
@@ -40,4 +40,4 @@ If you choose a dark background, Juicebox will invert the visualization and text
 
 ## Section background image
 
-You can add a background image to your section by either uploading your own image or by selecting an image from Unsplash. To do this, click the paint <img src="../../.gitbook/assets/tint-solid (1).svg" alt="" data-size="line"> in the upper right of the section and click the **Add Image** button. From there, select **Upload image** to load your image or **Find images** to search Unsplash images and select an image for your app. After adding an image, you can adjust the opacity of the background color as desired.&#x20;
+You can add a background image to your section by either uploading your own image or by selecting an image from Unsplash. To do this, click the paint <img src="../../.gitbook/assets/tint-solid (1).svg" alt="" data-size="line"> in the upper right of the section and click the **Add Image** button. From there, select **Upload image** to load your image or **Find images** to search Unsplash images and select an image for your report. After adding an image, you can adjust the opacity of the background color as desired.&#x20;

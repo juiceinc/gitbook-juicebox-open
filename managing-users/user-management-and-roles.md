@@ -9,26 +9,26 @@ Here's an overview of what each role can do.&#x20;
 | Action                                             | Viewer | Editor  | Admin  | Owner |
 | -------------------------------------------------- | :----: | :-----: | :----: | :---: |
 | Action                                             | Viewer | Editor  | Admin  | Owner |
-| View specific apps that they've been invited to    |   ✔️   |   N/A   |   N/A  |  N/A  |
-| Invite viewers to specific apps                    |        |    ✔️   |   ✔️   |   ✔️  |
-| View all apps                                      |        |    ✔️   |   ✔️   |   ✔️  |
-| Edit all apps                                      |        |    ✔️   |   ✔️   |   ✔️  |
-| Create new apps                                    |        |    ✔️   |   ✔️   |   ✔️  |
+| View specific reports that they've been invited to |   ✔️   |   N/A   |   N/A  |  N/A  |
+| Invite viewers to specific reports                 |        |    ✔️   |   ✔️   |   ✔️  |
+| View all reports                                   |        |    ✔️   |   ✔️   |   ✔️  |
+| Edit all reports                                   |        |    ✔️   |   ✔️   |   ✔️  |
+| Create new reports                                 |        |    ✔️   |   ✔️   |   ✔️  |
 | Manage users                                       |        |         |   ✔️   |   ✔️  |
 | Manage workspace settings                          |        |         |   ✔️   |   ✔️  |
 | <p>Change subscription</p><p>and payment info </p> |        |         |        |   ✔️  |
 
 ### Viewer
 
-**Viewers** can view the apps they've been given access to through an access link. They cannot see apps they have not been given access to and they cannot create new apps or edit apps.&#x20;
+**Viewers** can view the reports they've been given access to through an access link. They cannot see reports they have not been given access to and they cannot create new reports or edit reports.&#x20;
 
 ### Editor
 
-**Editors** can view all apps, edit all apps, and create new apps.&#x20;
+**Editors** can view all reports, edit all reports, and create new reports.&#x20;
 
 ### Admin
 
-**Admins** can view all apps, edit all apps, create new apps, and manage user roles and app access in the [People view](user-management-and-roles.md#managing-users).
+**Admins** can view all reports, edit all reports, create new reports, and manage user roles and report access in the [People view](user-management-and-roles.md#managing-users).
 
 ### Owner
 
@@ -36,7 +36,7 @@ Each workspace has at least one **owner**. Owners can do everything admins **** 
 
 ## Managing Users
 
-Workspace owners and admins can manage users through the People view. At the top of the workspace home page, owners and admins will see two buttons: **Apps** and **People**.&#x20;
+Workspace owners and admins can manage users through the People view. At the top of the workspace home page, owners and admins will see two buttons: **Reports** and **People**.&#x20;
 
 ![The People button will display on the home page if you are an owner or admin](<../.gitbook/assets/image (329).png>)
 
@@ -44,7 +44,7 @@ Clicking the **People** button will open the People view.&#x20;
 
 ![The People view](<../.gitbook/assets/image (304).png>)
 
-The People view lists each workspace user as well as the number of apps the user has access to, the user's role, when the user last logged in, and when the user first signed up. You can search for users using the search bar at the top of the People view. You can sort the values in a column by clicking the column header.
+The People view lists each workspace user as well as the number of reports the user has access to, the user's role, when the user last logged in, and when the user first signed up. You can search for users using the search bar at the top of the People view. You can sort the values in a column by clicking the column header.
 
 ### Changing a user's role
 
@@ -56,13 +56,13 @@ To change a user's role, click on the user's name in the list of users. A modal 
 There must be at least one workspace owner. If a user is the only owner for the workspace, the user's role cannot be changed.&#x20;
 {% endhint %}
 
-### Changing a viewer's apps
+### Changing a viewer's reports
 
-While owners, admins, and editors can access all apps in a workspace, viewers can only view the apps they have been given access to. To modify a viewer's apps, click on the viewer's name from the list of users. A modal will open where you can modify the viewers app access. &#x20;
+While owners, admins, and editors can access all reports in a workspace, viewers can only view the reports they have been given access to. To modify a viewer's reports, click on the viewer's name from the list of users. A modal will open where you can modify the viewers report access. &#x20;
 
-![Modify the viewer's app access](<../.gitbook/assets/image (116).png>)
+![Modify the viewer's report access](<../.gitbook/assets/image (116).png>)
 
-To give the viewer access to all apps in the workspace, select **All Apps**. To give the user access to specific apps in the workspace, select **Customized** and then tick the boxes for each app the viewer should have access to.&#x20;
+To give the viewer access to all reports in the workspace, select **All Reports**. To give the user access to specific reports in the workspace, select **Customized** and then tick the boxes for each report the viewer should have access to.&#x20;
 
 ### Deleting a user
 

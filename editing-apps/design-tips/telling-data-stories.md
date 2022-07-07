@@ -2,7 +2,7 @@
 
 ## Start with your audience
 
-Before you start creating your Juicebox data story, you’ll want to make sure you have a good understanding of your audience’s needs. Everyone who will be using your data story or report has a role in the organization. And associated responsibilities. The more your data story or report can help them fulfill those responsibilities, the more value it will have. To do that, make sure you understand your ideal user. Consider these questions:
+Before you start creating your Juicebox data story, you’ll want to make sure you have a good understanding of your audience’s needs. Everyone who will be using your data story or report has a role in the organization and associated responsibilities. The more your data story or report can help them fulfill those responsibilities, the more value it will have. To do that, make sure you understand your ideal user. Consider these questions:
 
 * Who is your ideal user?
 * What role do they have in the organization?

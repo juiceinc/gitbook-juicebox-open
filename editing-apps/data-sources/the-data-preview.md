@@ -22,6 +22,8 @@ Here are data types that are recognized in Juicebox:
 | Date      | A value for a date that includes the year, month, and day                                                        | `2020-10-30`                                 |
 | Time      | A value for a date and time that includes the year, month, day, hour, minute, second, and (optionally) subsecond | `2020-10-30 19:35:25.125456`                 |
 
+Certain things in Juicebox require particular data types. For example, creating a sum or average measure only works with number columns, and the [trend](../story-designer/charts/trend.md) chart requires a date or time column. **Bottom line: Don't mix-and-match data types within the same column in your data file.** Number columns should contain only numbers, date columns should contain only dates, and so on. If a column has more than one type of data, it will get the text data type.&#x20;
+
 {% hint style="info" %}
-If the data type for a column is not what you expect, that may indicate there is an issue with the data. For example, if you expect a column to have the Number data type, but it instead has a Text data type, there may be values in the column that are not numbers. Here is guidance on [preparing your data](../design-tips/preparing-your-data.md) for use in Juicebox.&#x20;
+If the data type for a column is not what you expect, that may indicate there is an issue with the data. For example, if you expect a column to have the number data type, but it instead has a text data type, there may be values in the column that are not numbers. Here is guidance on [preparing your data](../design-tips/preparing-your-data.md) for use in Juicebox.&#x20;
 {% endhint %}

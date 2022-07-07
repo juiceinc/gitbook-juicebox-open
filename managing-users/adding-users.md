@@ -1,20 +1,20 @@
 # Adding Users
 
-## Adding viewers to an app
+## Adding viewers to a report
 
-To add a viewer to a private app, simply [share the app access link](../editing-apps/publish-and-share/sharing-and-access-controls.md#access-links).  Anyone who clicks on the access link and [signs in](../viewing-apps/signing-in.md) becomes a new user in your workspace with the [viewer user role](user-management-and-roles.md#viewer) and access to the app. &#x20;
+To add a viewer to a report with "Sign in required" access, you [share a viewer access link](../editing-apps/publish-and-share/sharing-and-access-controls.md). Anyone who clicks on the access link and [signs in](../viewing-apps/signing-in.md) becomes a new user in your workspace with the [viewer user role](user-management-and-roles.md#viewer) and access to the report. &#x20;
 
 {% hint style="info" %}
-For public apps, [anyone with the app link can view the app ](../editing-apps/publish-and-share/sharing-and-access-controls.md#sharing-a-public-app)(no sign in required).&#x20;
+For reports with "Anyone with the link" access, [anyone with the report link can view the report ](../editing-apps/publish-and-share/sharing-and-access-controls.md#sharing-a-public-app)(no sign in required).&#x20;
 {% endhint %}
 
 ## Adding editors to your workspace
 
-You can add an editor to your workspace from either the [People view](user-management-and-roles.md#managing-users) or from the editing panel of any app. From there, click the **Add Editor** button.
+You can add an editor to your workspace from either the [People view](user-management-and-roles.md#managing-users) or from the editing panel of any report. From there, click the **Add Editor** button.
 
 ![From the People view, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (392).png>)
 
-![From the app editing panel, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (377).png>)
+![From the editing panel, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (377).png>)
 
 Next, select whether to invite the new editor by creating and sharing an invite link or by sending an invitation via email.
 

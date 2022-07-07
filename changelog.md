@@ -2,8 +2,27 @@
 
 ## What's coming soon?
 
-* Password-protected apps and other sharing improvements
-* Filtering and data upload improvements
+* Report sharing with just a password protected link
+* More data upload improvements
+* Insights sharing
+
+## July 7, 2022
+
+### 🎁 What's new?
+
+* Sharing options have been redesigned for more clarity. There are three sharing options:
+  * 📢Sharing as "Public" is now "Anyone with the link," and just like the name says (now 😊) this sharing mode allows anyone with the link to view the report.
+  * 🔐Sharing as "Private" is now "Sign in required." This mode requires people to sign in to Juicebox before they can see the report. There are two sub-sharing-options for this mode:
+    * "Send an email" will send a single-use invite link to the recipient you specify.
+    * "Share a multi-use invite" creates an invite link that can be used any number of times, but still requires the viewers to sign in to see the report. _**Pro tip:** you can have your recipients forward this invitation so others can join... after signing in, of course._
+
+![](<.gitbook/assets/image (332).png>)
+
+### 🐛 Bug fixes & other improvements
+
+* Juicebox "apps" are now called "reports"
+* Improvements to data uploading
+* Date range selections in Filter slices are now done with a calendar picker
 
 ## May 12, 2022
 
@@ -139,7 +158,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * **Choosers have a new look.** Chooser buttons are now sized based on their content and have a more eye-catching appearance.
 
-![](<.gitbook/assets/image (332) (1) (1).png>)
+![](<.gitbook/assets/image (332) (1) (1) (1).png>)
 
 * **Support for private editing notes.** Now you can leave notes in apps for yourself and other editors that won't be seen by your users.
 
