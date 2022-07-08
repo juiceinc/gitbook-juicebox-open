@@ -28,7 +28,7 @@ Here's an overview of what each role can do.&#x20;
 
 ### Admin
 
-**Admins** can view all reports, edit all reports, create new reports, and manage user roles and report access in the [People view](user-management-and-roles.md#managing-users).
+**Admins** can view all reports, edit all reports, create new reports, and manage user roles and report access in the [People page](user-management-and-roles.md#managing-users).
 
 ### Owner
 
@@ -36,15 +36,15 @@ Each workspace has at least one **owner**. Owners can do everything admins **** 
 
 ## Managing Users
 
-Workspace owners and admins can manage users through the People view. At the top of the workspace home page, owners and admins will see two buttons: **Reports** and **People**.&#x20;
+Workspace owners and admins can manage users through the People page. At the top of the workspace home page, owners and admins will see two buttons: **Reports** and **People**.&#x20;
 
 ![The People button will display on the home page if you are an owner or admin](<../.gitbook/assets/image (329).png>)
 
-Clicking the **People** button will open the People view.&#x20;
+Clicking the **People** button will open the People page.&#x20;
 
-![The People view](<../.gitbook/assets/image (304).png>)
+![The People page](<../.gitbook/assets/image (304).png>)
 
-The People view lists each workspace user as well as the number of reports the user has access to, the user's role, when the user last logged in, and when the user first signed up. You can search for users using the search bar at the top of the People view. You can sort the values in a column by clicking the column header.
+The People page lists each workspace user as well as the number of reports the user has access to, the user's role, when the user last logged in, and when the user first signed up. You can search for users using the search bar at the top of the People page. You can sort the values in a column by clicking the column header.
 
 ### Changing a user's role
 

@@ -10,9 +10,9 @@ For reports with "Anyone with the link" access, [anyone with the report link can
 
 ## Adding editors to your workspace
 
-You can add an editor to your workspace from either the [People view](user-management-and-roles.md#managing-users) or from the editing panel of any report. From there, click the **Add Editor** button.
+You can add an editor to your workspace from either the [People page](user-management-and-roles.md#managing-users) or from the editing panel of any report. From there, click the **Add Editor** button.
 
-![From the People view, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (392).png>)
+![From the People page, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (392).png>)
 
 ![From the editing panel, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (377).png>)
 

@@ -288,11 +288,11 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* ✉️  **Invite editors to your workspace**. Now you can add editors to your workspace team more quickly by sharing invite links or sending invitation emails from either the People view or from the Publish & Share section of an app.&#x20;
+* ✉️  **Invite editors to your workspace**. Now you can add editors to your workspace team more quickly by sharing invite links or sending invitation emails from either the People page or from the Publish & Share section of an app.&#x20;
 
 ![](.gitbook/assets/screen\_recording\_2021-02-25\_at\_3.30.09\_pm.gif)
 
-* 🕵️‍♀️ **Find your folks**. The new search bar in the People view lets you find and manage users even more easily.
+* 🕵️‍♀️ **Find your folks**. The new search bar in the People page lets you find and manage users even more easily.
 
 ### 🐛 Bug fixes & other improvements
 
@@ -310,7 +310,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ![Publish as a public app](.gitbook/assets/screen\_recording\_2021-01-15\_at\_6.06.57\_pm.gif)
 
-* **Better control of who can see what.** Owners and Admins have a new [People view](managing-users/user-management-and-roles.md#managing-users) to see who is using your apps. Friend your friends:smiling\_face\_with\_3\_hearts:; change user roles:fist:; control app access:closed\_lock\_with\_key:; unfriend your enemies:unamused:.&#x20;
+* **Better control of who can see what.** Owners and Admins have a new [People page](managing-users/user-management-and-roles.md#managing-users) to see who is using your apps. Friend your friends:smiling\_face\_with\_3\_hearts:; change user roles:fist:; control app access:closed\_lock\_with\_key:; unfriend your enemies:unamused:.&#x20;
 
 ### 🐛 Bug fixes & other improvements
 
