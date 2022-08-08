@@ -26,7 +26,7 @@ To move a section up or down, hover over the section header and drag and drop th
 
 You can control how slices are laid out within a section. By default, the section will display slices vertically in a stack, with the first slice displaying at the top and each additional slice displaying underneath the previous slice. You can opt to change this layout to horizontal, with the first slice displaying on the left and each additional slice displaying to the right of the previous slice.&#x20;
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (5) (1).png>)
 
 To change the section layout, hover over the section header until you see the layout icon ( <img src="../../.gitbook/assets/arrows-alt-v-solid.svg" alt="" data-size="line"> or <img src="../../.gitbook/assets/arrows-alt-h-solid.svg" alt="" data-size="line">). Click the layout icon and select either horizontal or stacked layouts.&#x20;
 

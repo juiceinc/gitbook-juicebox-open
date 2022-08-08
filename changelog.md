@@ -2,17 +2,29 @@
 
 ## What's coming soon?
 
-* Report sharing with just a password protected link
-* More data upload improvements
-* Insights sharing
+* New ways of sharing insights you find in Juicebox reports.
+
+## August 8, 2022
+
+### 🎁 What's new?
+
+* **Share a Juicebox Report link with a Password:** We've added a "middle of the road" option for Report Sharing. In addition to **Public** sharing ("Anyone with the link") and **Private** sharing ("sign-in required") Juicebox now has the ability to share a **Link with a Password**. This provides some control over who can view your report without requiring that they have a Juicebox account to see what you shared (but it's still private.)
+
+![](<.gitbook/assets/image (2).png>)
+
+### 🐛 Bug fixes & other improvements
+
+* How many page views do you have left for this billing period? Now you can keep track by clicking the Share button for any report.&#x20;
+* Quickly navigate from one report to another using the Home button dropdown in the header of any report.
+* Duplicate and delete reports directly from the Home page.
 
 ## July 7, 2022
 
 ### 🎁 What's new?
 
 * Sharing options have been redesigned for more clarity. There are three sharing options:
-  * 📢Sharing as "Public" is now "Anyone with the link," and just like the name says (now 😊) this sharing mode allows anyone with the link to view the report.
-  * 🔐Sharing as "Private" is now "Sign in required." This mode requires people to sign in to Juicebox before they can see the report. There are two sub-sharing-options for this mode:
+  * 📢 Sharing as "Public" is now "Anyone with the link," and just like the name says (now 😊) this sharing mode allows anyone with the link to view the report.
+  * 🔐 Sharing as "Private" is now "Sign in required." This mode requires people to sign in to Juicebox before they can see the report. There are two sub-sharing-options for this mode:
     * "Send an email" will send a single-use invite link to the recipient you specify.
     * "Share a multi-use invite" creates an invite link that can be used any number of times, but still requires the viewers to sign in to see the report. _**Pro tip:** you can have your recipients forward this invitation so others can join... after signing in, of course._
 
