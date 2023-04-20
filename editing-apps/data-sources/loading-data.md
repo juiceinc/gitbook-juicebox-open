@@ -57,5 +57,6 @@ If your report is connected to a database, you can select the schema and table t
 * Redshift
 * Snowflake
 * Postgres
+* BigQuery
 * SQL Server
 * MySQL
