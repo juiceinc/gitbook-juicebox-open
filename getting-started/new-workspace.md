@@ -1,38 +1,22 @@
-# Signing Up for a Workspace
+# Getting a Workspace
 
-## Sign Up
+## Get a workspace
 
-To sign up for a new workspace, go to [myjuicebox.io](https://myjuicebox.io).&#x20;
+To get a workspace, go to [juiceanalytics.com](https://www.juiceanalytics.com) and click the **Get Started** button. From there, pick a time to talk or send us a message. Once we understand your needs, we'll send you instructions to create your workspace.&#x20;
 
-![](<../.gitbook/assets/image (152).png>)
-
-### Sign up by email
-
-To sign up by email, enter your email address and click the **Sign up free** button. You'll be asked to enter a 6-digit code sent to your email address.&#x20;
-
-![](<../.gitbook/assets/image (154).png>)
-
-Next, create your workspace. Enter the name of your workspace and your first and last name.  After accepting the Juicebox User Agreement terms, select **Create workspace**.&#x20;
-
-![](<../.gitbook/assets/image (155).png>)
-
-### Sign up using a Google or LinkedIn account
-
-To sign up using your Google or LinkedIn account, select the **Google** or **LinkedIn** button and follow the instructions. Once you are authenticated, you'll be asked to create your workspace. Enter the name of your workspace, accept the Juicebox User Agreement terms, and select **Create workspace**.
-
-![](<../.gitbook/assets/image (148).png>)
+<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption><p>Get in touch to get a Juicebox workspace</p></figcaption></figure>
 
 ## Your new workspace
 
 After creating your workspace, you'll be taken to the workspace [home page](new-workspace.md#the-workspace-home-page). You are the [owner](../managing-users/user-management-and-roles.md#owner) of this workspace.&#x20;
 
-![The workspace home page](<../.gitbook/assets/image (365).png>)
+<figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption><p>The workspace home page</p></figcaption></figure>
 
-Your workspace will have its own web address. This is your workspace URL. You can go directly to this URL to access your workspace. But if you forget the URL, you can always go to [myjuicebox.io](https://myjuicebox.io) and click **Sign back in** to access the workspaces associated with your email address.&#x20;
+Your workspace will have its own web address (something like 340-witty-oranges.myjuicebox.io, which is customizable with [Business plan or higher](../managing-workspaces/subscription-and-billing.md)). This is your workspace URL. You can go directly to this URL to access your workspace. But if you forget the URL, you can always go to [juiceanalytics.com](https://www.juiceanalytics.com) and click **Sign In** to access the workspaces associated with your email address.&#x20;
 
 ### The workspace home page
 
-After signing in to your workspace, you will be on the workspace home page. What you see on the home page will depend on your [user role](../managing-users/user-management-and-roles.md):
+After [signing in](../viewing-apps/signing-in.md) to your workspace, you will be on the workspace home page. What you see on the home page will depend on your [user role](../managing-users/user-management-and-roles.md):
 
 * Viewers will only see those reports they have been given access to.&#x20;
 * Editors, admins, and owners for the workspace will see all reports in the workspace. &#x20;
@@ -43,8 +27,8 @@ To find a specific report you can use the **Sort by** feature to order reports b
 
 To open the draft version of a report, click the **Edit** button. To open the shared version of a report, hover or click around the report title, and then click the **Open Report** button. (If the report has not been shared, you'll see a "Not shared yet" message. &#x20;
 
-![Open the draft or shared version of an app from the apps page](<../.gitbook/assets/image (300).png>)
+<figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption><p>Open the draft or shared version of a report from the workspace home page</p></figcaption></figure>
 
 To get back to the home page from any report, click on the **Home** button in the report header.
 
-![Click the Home button to return to the workspace home page](<../.gitbook/assets/image (400).png>)
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Click the Home button to return to the workspace home page</p></figcaption></figure>

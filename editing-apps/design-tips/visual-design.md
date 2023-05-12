@@ -10,12 +10,16 @@ While "the data speaks for itself" is a nice idealistic phrase, in practice peop
 
 Visual design is about guiding attention. Let's look at some simple tips to guide attention through your data presentation.
 
-![Photo by Halacious on Unsplash](../../.gitbook/assets/halacious-tzc3vjpck-q-unsplash.jpg)
+<div align="center">
+
+<img src="../../.gitbook/assets/halacious-tzc3vjpck-q-unsplash.jpg" alt="Photo by Halacious on Unsplash">
+
+</div>
 
 ## Color
 
 * Choose **a data color** that resonates with your story topic or company brand. Bolder, vibrant colors tend to be better for this.&#x20;
-* Use **** [**section color**](../story-designer/sections.md#section-background-color) backgrounds to define a visual flow for your story. For example, you may want a bold colored introductory section to grab interest, and then use lighter color section backgrounds in the rest of your story that will be less distracting for reading data from charts. &#x20;
+* Use [**section color**](../story-designer/sections.md#section-background-color) backgrounds to define a visual flow for your story. For example, you may want a bold colored introductory section to grab interest, and then use lighter color section backgrounds in the rest of your story that will be less distracting for reading data from charts. &#x20;
 * Be sure your **text has good contrast** for readability. If a dark background color is chosen on a section or slice, Juicebox will automatically make your text white.
 * If you do add photos, think about how well the colors compliment the rest of your visuals.&#x20;
 * Less is more. The more colors you add, the less you can use color to emphasize specific messages or your data you don't want to get lost.

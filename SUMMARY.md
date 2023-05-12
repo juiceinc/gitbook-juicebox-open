@@ -6,7 +6,7 @@
 
 ## Getting Started
 
-* [Signing Up for a Workspace](getting-started/new-workspace.md)
+* [Getting a Workspace](getting-started/new-workspace.md)
 
 ## Editing Reports <a href="#editing-apps" id="editing-apps"></a>
 

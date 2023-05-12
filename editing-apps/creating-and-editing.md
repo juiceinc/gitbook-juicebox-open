@@ -17,7 +17,7 @@ After selecting your starting point, the report creation wizard will walk you th
 Click +Create New to add a new report to your workspace
 {% endembed %}
 
-Once your report is created, you'll be taken to the draft version of the report. You're now ready to edit the report to [add your data table](data-sources/) and [design your story](story-designer/). ****&#x20;
+Once your report is created, you'll be taken to the draft version of the report. You're now ready to edit the report to [add your data table](data-sources/) and [design your story](story-designer/). &#x20;
 
 ## Edit a report
 
@@ -40,31 +40,25 @@ To access the editing panel from a published report, hit your **Esc** key.&#x20;
 Changes to a report are made to a draft version of the report. If you see the editing panel, you know you are in the draft report. The editing panel is located on the left side of the draft report. Changes made and saved in the editing panel are immediately reflected in the draft report. &#x20;
 
 {% hint style="info" %}
-Changes made in the editing panel are immediately reflected in the draft report, but viewers cannot see the changes until they are [shared](publish-and-share/). Learn more about [how to manage report changes](publish-and-share/publishing-app-changes.md#making-changes-to-an-app).
+Changes made in the editing panel are immediately reflected in the draft report, but viewers cannot see the changes until they are [shared](publish-and-share/). Learn more about [how to manage report changes](publish-and-share/publishing-app-changes.md#publishing-changes-to-a-report).
 {% endhint %}
 
-![Parts of a draft app](<../.gitbook/assets/image (385).png>)
+<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Parts of a draft report</p></figcaption></figure>
 
-You [design](story-designer/) your report using the editing panel. You add [data](data-sources/) to your report from the Data Tables drawer. You [share](publish-and-share/) your report by clicking the Sharing button.&#x20;
-
-{% content-ref url="data-sources/" %}
-[data-sources](data-sources/)
-{% endcontent-ref %}
-
-{% content-ref url="story-designer/" %}
-[story-designer](story-designer/)
-{% endcontent-ref %}
-
-{% content-ref url="publish-and-share/" %}
-[publish-and-share](publish-and-share/)
-{% endcontent-ref %}
+You [design](story-designer/) your report using the editing panel. You add [data](data-sources/) to your report from the data drawer. You [share](publish-and-share/) your report (or report changes) by clicking the Sharing button.&#x20;
 
 ## Duplicate a report
 
-To duplicate a report, click the **Duplicate Report** button at the top of the editing panel. Next, give your new report a title and select **Duplicate**. Once the new report is created it will open as a draft version, ready for you to edit and share.
+To duplicate a report, click the **Duplicate Report** button at the top of the editing panel. (Alternatively, you can click the **Duplicate Report** button from report Settings menu or from the home page.) Next, give your new report a title and select **Duplicate**. Once the new report is created it will open as a draft version, ready for you to edit and share.
 
-![Duplicate an app](<../.gitbook/assets/image (358).png>)
+<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Duplicate a report</p></figcaption></figure>
 
 ## Delete a report
 
-[Deleting a report](story-designer/story-settings.md#deleting-an-app) is done from **Design** section, under **Settings & Themes**.&#x20;
+To delete a report, open **Settings & Themes** and click the **Delete Report** button. (Alternatively, you can click the **Delete Report** button from the report Settings menu or from the home page.) Then confirm that you want to delete the report.
+
+{% hint style="danger" %}
+Deleting a report cannot be undone.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>

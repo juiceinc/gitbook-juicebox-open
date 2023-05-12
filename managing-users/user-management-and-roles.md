@@ -32,7 +32,7 @@ Here's an overview of what each role can do.&#x20;
 
 ### Owner
 
-Each workspace has at least one **owner**. Owners can do everything admins **** can do. In addition, owners can adjust workspace settings and subscription and payment information.
+Each workspace has at least one **owner**. Owners can do everything admins can do. In addition, owners can adjust workspace settings and subscription and payment information.
 
 ## Managing Users
 

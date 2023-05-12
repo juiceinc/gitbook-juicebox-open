@@ -2,7 +2,22 @@
 
 ## What's coming soon?
 
-* New ways of sharing insights you find in Juicebox reports.
+* A new chart type for displaying data-driven text.
+* A new chart type for displaying multiple metrics at once.&#x20;
+* The option to use shapefiles in the map chart.
+* Many additional advanced report design options available through our report design consulting services.
+
+## Jan 9, 2023
+
+### 🎁 What's new?
+
+* Our new **Insights** feature (available to Business plan subscribers) lets you easily capture a particular insight within a report and share it using Powerpoint, email, Slack, or other tool of your choice. Use Insights to highlight the key takeaways and invite deeper conversation about the story your data is telling. (If you're on the Starter plan and would like to see Insights in action, just [reach out to us](mailto:help@myjuicebox.io).)&#x20;
+* With the new Selection option, you can make a chart display only (_Select none_) or require a single selection (_Select one_). By default, charts allow multiple selections (_Select many_).
+
+### 🐛 Bug fixes & other improvements
+
+* Selecting date ranges in a date filter is easier with our improved date picker.&#x20;
+* Reordering columns and measures within a chart was broken, but it's fixed now.&#x20;
 
 ## August 8, 2022
 
@@ -207,7 +222,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ![](.gitbook/assets/screen\_recording\_2021-07-22\_at\_12.43.47\_pm.gif)
 
 * **Custom subdomains**. Is your cute-and-fruity workspace subdomain a little _too_ cute for your needs? Now you can customize your subdomain in the new Settings page. (Requires a Team plan subscription.)
-* **Team plan goodies**. Sign up for the Team plan and get access to more users, bigger uploads, a custom subdomain, and more. ****&#x20;
+* **Team plan goodies**. Sign up for the Team plan and get access to more users, bigger uploads, a custom subdomain, and more.&#x20;
 
 ### 🐛 Bug fixes & other improvements
 
@@ -318,7 +333,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* ****:earth\_americas:**Publish as "Public"**. Apps can now be [viewed by anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops (or from your favorite social network)! 🏔
+* :earth\_americas:**Publish as "Public"**. Apps can now be [viewed by anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops (or from your favorite social network)! 🏔
 
 ![Publish as a public app](.gitbook/assets/screen\_recording\_2021-01-15\_at\_6.06.57\_pm.gif)
 
@@ -334,7 +349,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **Sign up for a workspace.** Now you (and all your friends) can [create your own __ workspace](getting-started/new-workspace.md). Why would you want your own workspace? Perhaps you want to do some data presentation work for that non-profit you're helping out with. Or maybe you have an idea for a data reporting side-gig. Whatever data-prez itch you have, now you can create a separate workspace to put it in. _Juicebox all-the-things!_
+* **Sign up for a workspace.** Now you (and all your friends) can [create your own workspace](getting-started/new-workspace.md). Why would you want your own workspace? Perhaps you want to do some data presentation work for that non-profit you're helping out with. Or maybe you have an idea for a data reporting side-gig. Whatever data-prez itch you have, now you can create a separate workspace to put it in. _Juicebox all-the-things!_
 * **Duplicate an app.** If you want to create a new app that is similar to an existing app, you can [duplicate it](broken-reference).
 
 ![Duplicate an app](.gitbook/assets/screen\_recording\_2020-12-16\_at\_12.23.23\_pm.gif)
@@ -376,7 +391,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ![Color your story with beautiful Sections.](.gitbook/assets/feature-inverting.gif)
 
-* **Easier to find your way home** 🏠 **** - To get back to the apps page, just click the Apps button in the header of any app. It's a little like Little Red Riding Hood... but without the wolf.
+* **Easier to find your way home** 🏠 - To get back to the apps page, just click the Apps button in the header of any app. It's a little like Little Red Riding Hood... but without the wolf.
 
 ### 🐛 Bug fixes & other improvements
 

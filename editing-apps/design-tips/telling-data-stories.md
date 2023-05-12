@@ -72,7 +72,7 @@ The following diagram shows [how these three stages connect to traditional story
 
 We want to provide a short checklist of items to evaluate whether you’ve considered important design choices with your data story.
 
-### ****<img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> **** Setting context
+### <img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Setting context
 
 Before your reader dives into the data, you want to [set the context](https://www.juiceanalytics.com/writing/use-context-to-make-your-audience-care). How? At the top of your story, add a slice that gives a title, describes the data, even tells people what kinds of questions they can answer.&#x20;
 
@@ -94,7 +94,7 @@ So much to show...so little attention. Recognize that your audience may be distr
 
 Let a trusted colleague review your data story and ask them to identify anything that they think isn’t totally necessary to get your message across. [If it's not necessary, it should be removed](https://www.juiceanalytics.com/writing/10-ways-to-reduce-to-improve-your-data-visualizations). The cost of more content is high when you risk losing the attention of your audience.
 
-### ****<img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Using layout
+### <img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Using layout
 
 By default, Juicebox will layout your sections and slices vertically. In this way, your audience can read through the content from top to bottom and your filtered selections will pass down the page.
 
