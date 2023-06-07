@@ -1,7 +1,3 @@
----
-description: The first step in adding a data source is loading data.
----
-
 # Loading data
 
 You must load data before you can design your report. There are three ways to load data:
