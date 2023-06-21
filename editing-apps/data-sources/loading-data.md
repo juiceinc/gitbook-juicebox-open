@@ -55,6 +55,5 @@ If your report is connected to a database, you can select the schema and table t
 * Postgres
 * BigQuery
 * SQL Server
-* MySQL
 
 For databases that are not maintained on a cloud platform, we support the latest two release versions. Earlier versions may work with Juicebox, but are not supported.
