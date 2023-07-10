@@ -14,7 +14,7 @@ Advanced columns and measures allow you to define--
 
 To create an advanced column or measure click on the pill for a related column or measure, select the menu icon (<img src="../../../.gitbook/assets/ellipsis-h-solid.svg" alt="" data-size="line">), and select **Duplicate as Advanced**. This will open the advanced editor. In the advanced editor, you define your new column or measure [components](../adding-ingredients/ingredient-components.md) using yaml.&#x20;
 
-![Select Duplicate as Advanced to create an advanced column or measure](<../../../.gitbook/assets/image (306).png>)
+![Select Duplicate as Advanced to create an advanced column or measure](<../../../.gitbook/assets/image (306) (2).png>)
 
 This will make a copy of the column or measure and open the advanced editor. Modify the components in the advanced editor as needed.&#x20;
 

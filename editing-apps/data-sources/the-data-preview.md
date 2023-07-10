@@ -14,13 +14,7 @@ From the data preview, you can see each column in your data and the data types f
 
 Here are data types that are recognized in Juicebox:
 
-| Data type | Description                                                                                                      | Example                                      |
-| --------- | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------- |
-| Text      | Variable-length character data                                                                                   | `882d8f4dccdb3d143df3cc06901f3399` or `Joe`  |
-| Number    | Numeric values, either with or without decimals                                                                  | `46` or `53.5`                               |
-| Boolean   | Values that denote either TRUE or FALSE                                                                          | `True` or `False`                            |
-| Date      | A value for a date that includes the year, month, and day                                                        | `2020-10-30`                                 |
-| Time      | A value for a date and time that includes the year, month, day, hour, minute, second, and (optionally) subsecond | `2020-10-30 19:35:25.125456`                 |
+<table data-header-hidden><thead><tr><th>Data type</th><th width="234.33333333333331">Description</th><th>Example</th></tr></thead><tbody><tr><td>Data type</td><td>Description</td><td>Example</td></tr><tr><td>Text</td><td>Variable-length character data</td><td><code>882d8f4dccdb3d143df3cc06901f3399</code> or <code>Joe</code> </td></tr><tr><td>Number</td><td>Numeric values, either with or without decimals</td><td><code>46</code> or <code>53.5</code></td></tr><tr><td>Boolean</td><td>Values that denote either TRUE or FALSE</td><td><code>True</code> or <code>False</code></td></tr><tr><td>Date</td><td>A value for a date that includes the year, month, and day</td><td><code>2020-10-30</code></td></tr><tr><td>Time</td><td>A value for a date and time that includes the year, month, day, hour, minute, second, and (optionally) subsecond</td><td><code>2020-10-30 19:35:25.125456</code></td></tr></tbody></table>
 
 Certain things in Juicebox require particular data types. For example, creating a sum or average measure only works with number columns, and the [trend](../story-designer/charts/trend.md) chart requires a date or time column. **Bottom line: Don't mix-and-match data types within the same column in your data file.** Number columns should contain only numbers, date columns should contain only dates, and so on. If a column has more than one type of data, it will get the text data type.&#x20;
 

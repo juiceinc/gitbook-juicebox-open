@@ -6,17 +6,7 @@ Users must be logged in to the workspace with a Juicebox user account. User perm
 
 Here's an overview of what each role can do.&#x20;
 
-| Action                                             | Viewer | Editor  | Admin  | Owner |
-| -------------------------------------------------- | :----: | :-----: | :----: | :---: |
-| Action                                             | Viewer | Editor  | Admin  | Owner |
-| View specific reports that they've been invited to |   ✔️   |   N/A   |   N/A  |  N/A  |
-| Invite viewers to specific reports                 |        |    ✔️   |   ✔️   |   ✔️  |
-| View all reports                                   |        |    ✔️   |   ✔️   |   ✔️  |
-| Edit all reports                                   |        |    ✔️   |   ✔️   |   ✔️  |
-| Create new reports                                 |        |    ✔️   |   ✔️   |   ✔️  |
-| Manage users                                       |        |         |   ✔️   |   ✔️  |
-| Manage workspace settings                          |        |         |   ✔️   |   ✔️  |
-| <p>Change subscription</p><p>and payment info </p> |        |         |        |   ✔️  |
+<table><thead><tr><th width="206">Action</th><th width="150" align="center">Viewer</th><th width="150" align="center">Editor </th><th width="150" align="center">Admin </th><th align="center">Owner</th></tr></thead><tbody><tr><td>Action</td><td align="center">Viewer</td><td align="center">Editor </td><td align="center">Admin </td><td align="center">Owner</td></tr><tr><td>View specific reports that they've been invited to</td><td align="center">✔️</td><td align="center">N/A</td><td align="center">N/A</td><td align="center">N/A</td></tr><tr><td>Invite viewers to specific reports</td><td align="center"></td><td align="center">✔️</td><td align="center">✔️</td><td align="center">✔️</td></tr><tr><td>View all reports</td><td align="center"></td><td align="center">✔️</td><td align="center">✔️</td><td align="center">✔️</td></tr><tr><td>Edit all reports</td><td align="center"></td><td align="center">✔️</td><td align="center">✔️</td><td align="center">✔️</td></tr><tr><td>Create new reports</td><td align="center"></td><td align="center">✔️</td><td align="center">✔️</td><td align="center">✔️</td></tr><tr><td>Manage users</td><td align="center"></td><td align="center"></td><td align="center">✔️</td><td align="center">✔️</td></tr><tr><td>Manage workspace settings</td><td align="center"></td><td align="center"></td><td align="center">✔️</td><td align="center">✔️</td></tr><tr><td><p>Change subscription</p><p>and payment info </p></td><td align="center"></td><td align="center"></td><td align="center"></td><td align="center">✔️</td></tr></tbody></table>
 
 ### Viewer
 

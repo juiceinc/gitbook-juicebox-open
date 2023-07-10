@@ -58,11 +58,7 @@ To reorder slices, drag and drop the slice where you want it to display. You can
 
 If a slice has a chart (or image), there are four layout options that control how the chart (or image) will appear in relation to the text. To adjust the layout, hover over the chart (or image) configuration box, click the layout button, and select the desired layout option.
 
-| <img src="../../../.gitbook/assets/arrow-down-solid.svg" alt="" data-size="line">  Chart/Image below text    | <p>The slice text will display above the chart/image. This is the default layout.</p><p></p><p></p> |
-| ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------- |
-| <img src="../../../.gitbook/assets/arrow-right-solid (1).svg" alt="" data-size="line">  Chart/Image on right | The slice text will display on the left, and the chart/image will display on the right.             |
-| <img src="../../../.gitbook/assets/arrow-left-solid.svg" alt="" data-size="line">  Chart/Image on left       | The chart/image will display on the left and the slice text will display on the right.              |
-| <img src="../../../.gitbook/assets/arrow-up-solid.svg" alt="" data-size="line">  Chart/Image above text      | The chart/image will display above the slice text.                                                  |
+<table data-header-hidden><thead><tr><th width="169.88425660364788">Layout button</th><th>Description</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/arrow-down-solid.svg" alt="" data-size="line">  Chart/Image below text</td><td><p>The slice text will display above the chart/image. This is the default layout.</p><p></p><p></p></td></tr><tr><td><img src="../../../.gitbook/assets/arrow-right-solid (1).svg" alt="" data-size="line">  Chart/Image on right</td><td>The slice text will display on the left, and the chart/image will display on the right. </td></tr><tr><td><img src="../../../.gitbook/assets/arrow-left-solid.svg" alt="" data-size="line">  Chart/Image on left </td><td>The chart/image will display on the left and the slice text will display on the right. </td></tr><tr><td><img src="../../../.gitbook/assets/arrow-up-solid.svg" alt="" data-size="line">  Chart/Image above text</td><td>The chart/image will display above the slice text. </td></tr></tbody></table>
 
 ## Slice backgrounds
 
