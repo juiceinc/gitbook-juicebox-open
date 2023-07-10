@@ -4,12 +4,17 @@ description: Here are the relevant API calls
 
 # Juicebox Embedding API
 
-To embed Juicebox apps, first request a JWT token.
+To embed Juicebox apps in your own website, follow these steps.
 
 1. Request a JWT token as a client admin user. This token can be reused.
 2. Request details about what Juicebox apps are available. This will provide you an app id for the app you want to embed.
 3. Create a Juicebox user with the appropriate [**Data permissions object**](../limiting-what-data-users-can-see.md) that limits what the user can see.
 4. Request an embed url for this user to see the app.&#x20;
+5. Serve the embed url in an iframe on your site.
+
+
+
+Let's look at the details for each of these steps.
 
 {% swagger method="get" path="/" baseUrl="https://{domain}.myjuicebox.io/api/v1/jb/api-token-auth" summary="Request a JWT token for a Client Admin user" expanded="true" fullWidth="true" %}
 {% swagger-description %}
@@ -127,7 +132,7 @@ Your Juicebox domain
 
 Now you can request an app embed url.
 
-{% swagger method="post" path="/jb/apps/{appid}/embed/{email}/" baseUrl="https://{domain}/api/v1" summary="Request an app embed url for a user" expanded="true" fullWidth="true" %}
+{% swagger method="post" path="/jb/apps/{appid}/embed/{email}/" baseUrl="https://{domain}.myjuicebox.io/api/v1" summary="Request an app embed url for a user" expanded="true" fullWidth="true" %}
 {% swagger-description %}
 For security, the default duration of an embed url is 60 seconds. It can only be loaded once. It can be regenerated as many times as needed.
 {% endswagger-description %}
@@ -167,7 +172,18 @@ Can by 1 or 0. Should the application header be displayed.
 
 
 
+Serving the app in an iframe. To embed the app in your site, use the following html. You can vary height and width as appropriate for your site.
 
+```
+<iframe 
+  title="{app title}" 
+  src="{url}" 
+  height="650px" 
+  width="100%" 
+  frameborder="0" 
+  sandbox="allow-scripts allow-downloads allow-same-origin allow-forms allow-popups">
+</iframe>
+```
 
 
 
