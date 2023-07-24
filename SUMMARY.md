@@ -24,6 +24,7 @@
     * [Advanced formulas](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md)
     * [Advanced formats](editing-apps/data-sources/advanced-ingredients/advanced-formats.md)
     * [Components of columns and measures](editing-apps/data-sources/adding-ingredients/ingredient-components.md)
+    * [Examples](editing-apps/data-sources/advanced-ingredients/examples.md)
   * [Managing data](editing-apps/data-sources/edit-a-data-source.md)
 * [Design](editing-apps/story-designer/README.md)
   * [Settings & Themes](editing-apps/story-designer/story-settings.md)
