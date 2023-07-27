@@ -30,6 +30,6 @@ There are several ways to use Juicebox. \
 
 ### How embedding works
 
-Use the Juicebox API to perform user setup and request an embeddable url to show a user an app. That embeddable url can be used as an iFrame src to display the Juicebox in your website. Here is the flow.
+Use the Juicebox API to perform user setup and request an embeddable url to show a user an app. That embeddable url can be used as an iFrame src to display the Juicebox in your website. [Here is the flow](./#how-embedding-works).
 
 \
