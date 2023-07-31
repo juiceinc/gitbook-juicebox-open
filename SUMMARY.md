@@ -67,6 +67,7 @@
 * [Embedding Juicebox Apps](managing-users/embedding-juicebox-apps/README.md)
   * [How embedding works](managing-users/embedding-juicebox-apps/how-embedding-works.md)
   * [Juicebox Embedding API](managing-users/embedding-juicebox-apps/juicebox-embedding-api.md)
+  * [Juicebox API](managing-users/embedding-juicebox-apps/juicebox-api.md)
 
 ## Managing my workspace <a href="#managing-workspaces" id="managing-workspaces"></a>
 
