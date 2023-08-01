@@ -46,15 +46,18 @@ When you upload a CSV file, percentiles and medians are calculated as approximat
 
 Conversion functions change the value for a field. It might change to a different type or to a different time period.
 
-| Function                                             | Examples              |
-| ---------------------------------------------------- | --------------------- |
-| Round to the nearest week (requires a date field)    | `week(sales_date)`    |
-| Round to the nearest month (requires a date field)   | `month(sales_date)`   |
-| Round to the nearest quarter (requires a date field) | `quarter(sales_date)` |
-| Round to the nearest year (requires a date field)    | `year(sales_date)`    |
-| Convert a numeric value to a string                  | `string(zipcode)`     |
-| Convert a string value to an integer                 | `int(age)`            |
-| Calculate an age at the current date.                | `age(birth_date)`     |
+| Function                                             | Examples                                                                                      |
+| ---------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| Round to the nearest week (requires a date field)    | `week(sales_date)`                                                                            |
+| Round to the nearest month (requires a date field)   | `month(sales_date)`                                                                           |
+| Round to the nearest quarter (requires a date field) | `quarter(sales_date)`                                                                         |
+| Round to the nearest year (requires a date field)    | `year(sales_date)`                                                                            |
+| Convert a numeric value to a string                  | `string(zipcode)`                                                                             |
+| Convert a string value to an integer                 | `int(age)`                                                                                    |
+| Calculate an age at the current date.                | `age(birth_date)`                                                                             |
+| Calculate the difference between dates               | `datediff(end_date, start_date)`                                                              |
+| Extract a component of a date                        | `extract(YEAR, birth_date)`                                                                   |
+| Return the last date in a period                     |  `lastday(sales_date, MONTH)` note: this can be used only on bigquery and snowflake databases |
 
 ### Concatenating text fields
 
