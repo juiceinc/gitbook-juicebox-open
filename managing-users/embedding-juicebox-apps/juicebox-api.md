@@ -6,44 +6,38 @@ description: >-
 
 # Juicebox API
 
-
-
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/api-token-auth/" method="post" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/access_views/" method="get" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/api-token-auth/" method="post" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/access_views/" method="post" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/jb/api-token-auth/" method="post" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/access_views/{key}/" method="get" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/jb/api-token-refresh/" method="post" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/access_views/{key}/" method="put" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/jb/api-token-verify/" method="post" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/access_views/{key}/" method="delete" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/jb/apps/" method="get" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/access_views/{key}/" method="patch" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/jb/apps/{id}/embed/" method="put" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/access_views/{key}/usage/" method="get" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/jb/apps/{id}/embed/" method="patch" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/jb/api-token-auth/" method="post" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
 
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/jb/apps/{id}/embed/{email}/" method="get" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
-{% endswagger %}
-
-{% swagger src="../../.gitbook/assets/Juicebox API (2).yaml" path="/api/v1/jb/users/{email}/token/" method="get" expanded="true" fullWidth="true" %}
-[Juicebox API (2).yaml](<../../.gitbook/assets/Juicebox API (2).yaml>)
+{% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/jb/apps/" method="get" expanded="true" fullWidth="true" %}
+[Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
