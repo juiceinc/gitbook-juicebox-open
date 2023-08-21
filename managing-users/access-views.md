@@ -1,12 +1,10 @@
 ---
 description: >-
-  Access Views combine data permissions, selections and security and app
-  features into a view that you can embed or share with users.
+  Access Views combine data permissions, selections, security, and app features
+  into a view that you can embed or share with users.
 ---
 
 # Access Views
-
-Access Views combine data permissions, selections and security and app features into a view that you can embed or share with users.
 
 ### How to set selections on an Access View
 
@@ -37,7 +35,7 @@ Choosers can just include the chooser slice name.
 }
 ```
 
-For choosers, need to get the Ingredient Id for the Ingredient you want to select
+For choosers, you need to get the Ingredient Id for the Ingredient you want to select
 
 <figure><img src="../.gitbook/assets/image (405).png" alt=""><figcaption><p>Finding Ingredient Ids for a Chooser</p></figcaption></figure>
 
@@ -51,13 +49,13 @@ To select the third "Count of Date and Time" ingredient in the chooser above, yo
 
 ### Making selections in the Access View URL.
 
-You can also make selections using http get parameters. To do so, pass the data like this:
+You can also make selections using the url. To do so, pass the data like this:
 
 ```
 {url}?Choice1=metric_dateandtime_z936yh2d
 ```
 
-Here's an example of a complex selection that selects one choice and two items on a leaderboard. All of this would appear on a single line, but we're splitting it to make it easier to read.
+Here's an example of a complex selection that selects one choice and two items on a leaderboard. All of this would appear on a single line, but we're splitting it to make it easier to read. Note that spaces need to be [url-encoded ](https://www.wikiwand.com/en/URL\_encoding)by replacing them with a "+" sign or "%20".
 
 ```
 {url}?Choice1=metric_num_5fta5sgd
