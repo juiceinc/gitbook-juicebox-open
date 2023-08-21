@@ -6,6 +6,10 @@ description: >-
 
 # Access Views
 
+### Setting Data Permissions for an Access View
+
+See [Limiting what data users can see](limiting-what-data-users-can-see.md).
+
 ### How to set selections on an Access View
 
 You can preselect items for your users on the Access View. A selections object contains keys that are a colon delimited pair of the Slice Slug and the Ingredient Id of the Ingredient used in the slice.
