@@ -15,7 +15,7 @@ Data permission objects reference ingredients which are named expressions that c
 * `ingredient: [list of values]` Show only rows where the ingredient expression evaluates to one of the list of values.
 
 {% hint style="info" %}
-Soon, Juicebox will also support acccessing raw column values like this
+Soon, Juicebox will also support accessing raw column values like this
 
 `[column]: [list of values]`Show only rows where the database column is in the list of values.
 {% endhint %}
