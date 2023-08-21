@@ -64,6 +64,7 @@
 * [Adding Users](managing-users/adding-users.md)
 * [User Roles and Management](managing-users/user-management-and-roles.md)
 * [Limiting what data users can see](managing-users/limiting-what-data-users-can-see.md)
+* [Access Views](managing-users/access-views.md)
 * [Embedding Juicebox Apps](managing-users/embedding-juicebox-apps/README.md)
   * [How embedding works](managing-users/embedding-juicebox-apps/how-embedding-works.md)
   * [Juicebox Embedding API](managing-users/embedding-juicebox-apps/juicebox-embedding-api.md)
