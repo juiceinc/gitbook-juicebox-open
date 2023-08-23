@@ -22,12 +22,12 @@ A chooser chart with measures (i.e., a measure chooser slice) will display a hig
 
 * select **Chooser** from the chart list
 
-![Select Chooser from the dropdown](<../../../.gitbook/assets/image (402).png>)
+![Select Chooser from the dropdown](<../../../.gitbook/assets/image (470).png>)
 
 * select the measures you want to add in the order you want them displayed
 * add slice text (optional)
 
-![A measure chooser slice](<../../../.gitbook/assets/image (311).png>)
+![A measure chooser slice](<../../../.gitbook/assets/image (374).png>)
 
 {% hint style="info" %}
 The type of chooser is determined by whether you add a column or measure first. Once you select the first measure, only measures can be added.&#x20;
@@ -45,11 +45,11 @@ A column chooser slice should always be connected to at least one downstream cha
 
 * select **Chooser** from the chart list
 
-![Select Chooser from the dropdown](<../../../.gitbook/assets/image (374).png>)
+![Select Chooser from the dropdown](<../../../.gitbook/assets/image (281).png>)
 
 * select the columns you want to add in the order you want them displayed
 
-![A column chooser slice](<../../../.gitbook/assets/image (332) (1) (1).png>)
+![A column chooser slice](<../../../.gitbook/assets/image (455).png>)
 
 * add slice text (optional)
 * click **Save changes**
@@ -71,7 +71,7 @@ To reference the selection made in a chooser slice**:**&#x20;
 * Create a column chooser or measure chooser using the instructions in the sections above
 * In a downstream slice, select the chooser's slice slug in the column dropdown and/or measure dropdown
 
-![Use dynamic ingredients in your charts to make them interactive](<../../../.gitbook/assets/image (340).png>)
+![Use dynamic ingredients in your charts to make them interactive](<../../../.gitbook/assets/image (425).png>)
 
 Here's how to make your charts dynamic:
 

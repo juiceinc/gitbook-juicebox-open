@@ -7,7 +7,7 @@ description: >-
 
 # How embedding works
 
-<figure><img src="../../.gitbook/assets/image (306).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (394).png" alt=""><figcaption></figcaption></figure>
 
 The Juicebox API is documented [here](juicebox-embedding-api.md).&#x20;
 

@@ -6,17 +6,17 @@ Sections are groups of slices within a story. Sections allow you to control layo
 
 To add a section, click the **+ Add** button at the top or bottom of your story and then select the slice type for the first slice in the section. A new section named "Untitled Section" will be added with the initial slice.&#x20;
 
-![Click the + Add button to add a section to the top or bottom of your story](<../../.gitbook/assets/image (372).png>)
+![Click the + Add button to add a section to the top or bottom of your story](<../../.gitbook/assets/image (316).png>)
 
 Although not required, adding a meaningful section name can help you organize your slices around a theme. Section names also help when you want to collapse them, move them around, and easily find the section you want to work on.&#x20;
 
-![](<../../.gitbook/assets/image (288).png>)
+![](<../../.gitbook/assets/image (309).png>)
 
 ## Delete a section
 
 To delete a section, hover over the section header (the gray area at the top of the section) until you see the trash can icon (<img src="../../.gitbook/assets/trash-alt-regular.svg" alt="" data-size="line">). Click the icon to delete the section.
 
-![Deleting a section](<../../.gitbook/assets/image (284).png>)
+![Deleting a section](<../../.gitbook/assets/image (1).png>)
 
 ## Collapse and reorder sections
 
@@ -26,7 +26,7 @@ To move a section up or down, hover over the section header and drag and drop th
 
 You can control how slices are laid out within a section. By default, the section will display slices vertically in a stack, with the first slice displaying at the top and each additional slice displaying underneath the previous slice. You can opt to change this layout to horizontal, with the first slice displaying on the left and each additional slice displaying to the right of the previous slice.&#x20;
 
-![](<../../.gitbook/assets/image (5) (1).png>)
+![](<../../.gitbook/assets/image (28).png>)
 
 To change the section layout, hover over the section header until you see the layout icon ( <img src="../../.gitbook/assets/arrows-alt-v-solid.svg" alt="" data-size="line"> or <img src="../../.gitbook/assets/arrows-alt-h-solid.svg" alt="" data-size="line">). Click the layout icon and select either horizontal or stacked layouts.&#x20;
 
@@ -36,7 +36,7 @@ You can change the section background color by clicking the paint drop <img src=
 
 If you choose a dark background, Juicebox will invert the visualization and text colors automatically.
 
-![Examples of automatic behavior with light and dark backgrounds.](../../.gitbook/assets/light-dark-2048.png)
+![Examples of automatic behavior with light and dark backgrounds.](<../../.gitbook/assets/Light Dark 2048.png>)
 
 ## Section background image
 

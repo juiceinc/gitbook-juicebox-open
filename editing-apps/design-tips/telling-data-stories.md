@@ -102,17 +102,17 @@ However, sometimes it will make sense to take advantage of the alternative layou
 
 Within sections, you can layout slices horizontally. Horizontal layouts will help put more information on the screen at once. They can be useful for displaying groups of measures side-by-side. You might also try laying out a bar chart and trend chart horizontally to visually connect the data in those two charts. Generally, it isn’t a good idea to show more than two or three slices horizontally.
 
-![Horizontal section layou](<../../.gitbook/assets/image (70).png>)
+![Horizontal section layou](<../../.gitbook/assets/image (72).png>)
 
 Within slices, you can also choose the layout of the text relative to a visualization. Placing the text to the left of the visualization is an effective way to make your data story easier to read.
 
-![Left-to-right slice layout](<../../.gitbook/assets/image (69).png>)
+![Left-to-right slice layout](<../../.gitbook/assets/image (379).png>)
 
 ### <img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Breaking up your story into sections, visual breaks
 
 A data story will often have multiple sections, perhaps reflecting the [three-parts of a story](telling-data-stories.md#story-structure). In Juicebox, you can make visual breaks between sections using color. Find the color selector on the top of each section on the Design tab. By visually breaking up your sections, you’ll help your readers understand where the logical breaks are in your story.
 
-![](<../../.gitbook/assets/image (68).png>)
+![](<../../.gitbook/assets/image (40).png>)
 
 ### <img src="../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line"> Data ingredient labels
 

@@ -4,7 +4,7 @@ The Header Style section at the top of the Design tab is where you can quickly c
 
 To do this, first expand the  Header Style section. Select the header style, background color, and background image you want to apply, and then click **Save**.&#x20;
 
-![The Header Style section, expanded](<../../.gitbook/assets/image (345).png>)
+![The Header Style section, expanded](<../../.gitbook/assets/image (426).png>)
 
 ## Background Colors
 

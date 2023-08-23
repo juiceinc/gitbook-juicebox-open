@@ -10,8 +10,8 @@ To find a specific report you can use the **Sort by** feature to order reports b
 
 To open the draft version of a report, click the **Edit** button. To open the published version of a report, hover or click around the report title, and then click the **View Report** button. (If the report has not been shared, you'll see a "Not shared yet" message.) &#x20;
 
-![Open the draft or shared version of a report from the home page](<../.gitbook/assets/image (315) (1) (1).png>)
+![Open the draft or shared version of a report from the home page](<../.gitbook/assets/image (266).png>)
 
 To get back to the home page from any report, click on the **Home** button in the report header.
 
-![Click the Home button to return to the workspace home page](<../.gitbook/assets/image (314).png>)
+![Click the Home button to return to the workspace home page](<../.gitbook/assets/image (313).png>)

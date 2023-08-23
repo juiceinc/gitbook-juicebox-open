@@ -12,7 +12,7 @@ So what makes up a Juicebox report? Each report has the following parts that flo
 * Each [**section**](../editing-apps/story-designer/sections.md) is composed of one or more slices. Sections allow you to control layouts and background colors within the story.
 * [**Slices**](../editing-apps/story-designer/slices/) are the basic building blocks of your story. Each slice can have text and/or an image or chart.
 
-![Parts of a Juicebox report](<../.gitbook/assets/image (11).png>)
+![Parts of a Juicebox report](<../.gitbook/assets/image (338).png>)
 
 ## What's unique about Juicebox
 

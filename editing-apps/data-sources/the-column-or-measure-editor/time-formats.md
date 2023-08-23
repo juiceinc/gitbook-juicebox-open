@@ -2,7 +2,7 @@
 
 To control how time columns are displayed in the report, you can specify a format. For example, let's say you have the following time column definition for `Years`:
 
-![Select a time format from the list](<../../../.gitbook/assets/image (308).png>)
+![Select a time format from the list](<../../../.gitbook/assets/image (296).png>)
 
 A representative value for the `Year` field in your data is `2019-03-01`. You probably do not want to display the unformatted value in your report. Therefore, you will want to specify a format in the `Years` column editor.&#x20;
 

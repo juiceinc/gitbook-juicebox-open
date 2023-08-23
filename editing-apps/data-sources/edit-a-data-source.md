@@ -6,7 +6,7 @@ From time to time, you may want to update your data. For example, you may want t
 
 To do this, click the **Replace file** button. If there is more than one data table in your report, select the data table that you want to update. Then, select the new data file (CSV, XLS, or XLSX).
 
-![Select the Replace file button to update a data table](<../../.gitbook/assets/image (380).png>)
+![Select the Replace file button to update a data table](<../../.gitbook/assets/image (315).png>)
 
 Once the upload process finishes, refresh the page. The report will then display the updated data.&#x20;
 
@@ -22,7 +22,7 @@ To make a change to a column or measure, click on its pill in either the [data p
 
 If you have data that you don't plan to use in your report, you may want to delete the data to declutter the Data Tables drawer. To do this, open the Data Tables drawer, select the data table you want to delete, click the gear icon, and select **Delete**.
 
-![Deleting a data table](<../../.gitbook/assets/image (381) (1).png>)
+![Deleting a data table](<../../.gitbook/assets/image (436).png>)
 
 {% hint style="warning" %}
 You will receive a warning message if the data table columns are used in your report.&#x20;
@@ -30,11 +30,11 @@ You will receive a warning message if the data table columns are used in your re
 
 If you are sure you want to delete the data table, click **Yes, delete it**.
 
-![A warning message appears if you attempt to delete a data table that is used in the report](<../../.gitbook/assets/image (359).png>)
+![A warning message appears if you attempt to delete a data table that is used in the report](<../../.gitbook/assets/image (114).png>)
 
 ## Download data
 
 You can download the data in a data table by opening the Data Tables drawer, selecting the data table you want to download, clicking the gear icon, and selecting **Download**. The data will download as a CSV.
 
-![Downloading data](<../../.gitbook/assets/image (348).png>)
+![Downloading data](<../../.gitbook/assets/image (435).png>)
 

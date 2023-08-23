@@ -31,7 +31,7 @@ While changes made in the editing panel are immediately reflected in the draft r
 
 To access the editing panel from the home page, select **Edit** on the report.&#x20;
 
-![Accessing the editing panel for an report from the home page](<../.gitbook/assets/image (180).png>)
+![Accessing the editing panel for an report from the home page](<../.gitbook/assets/image (75).png>)
 
 To access the editing panel from a published report, hit your **Esc** key.&#x20;
 
@@ -43,7 +43,7 @@ Changes to a report are made to a draft version of the report. If you see the ed
 Changes made in the editing panel are immediately reflected in the draft report, but viewers cannot see the changes until they are [shared](publish-and-share/). Learn more about [how to manage report changes](publish-and-share/publishing-app-changes.md#publishing-changes-to-a-report).
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption><p>Parts of a draft report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (233).png" alt=""><figcaption><p>Parts of a draft report</p></figcaption></figure>
 
 You [design](story-designer/) your report using the editing panel. You add [data](data-sources/) to your report from the data drawer. You [share](publish-and-share/) your report (or report changes) by clicking the Sharing button.&#x20;
 
@@ -51,7 +51,7 @@ You [design](story-designer/) your report using the editing panel. You add [data
 
 To duplicate a report, click the **Duplicate Report** button at the top of the editing panel. (Alternatively, you can click the **Duplicate Report** button from report Settings menu or from the home page.) Next, give your new report a title and select **Duplicate**. Once the new report is created it will open as a draft version, ready for you to edit and share.
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption><p>Duplicate a report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (203).png" alt=""><figcaption><p>Duplicate a report</p></figcaption></figure>
 
 ## Delete a report
 
@@ -61,4 +61,4 @@ To delete a report, open **Settings & Themes** and click the **Delete Report** b
 Deleting a report cannot be undone.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>

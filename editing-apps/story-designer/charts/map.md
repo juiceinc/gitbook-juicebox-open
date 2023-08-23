@@ -8,7 +8,7 @@ To add a map slice:
 
 * select **Map** from the chart list
 
-![Select Map from the dropdown](<../../../.gitbook/assets/image (343).png>)
+![Select Map from the dropdown](<../../../.gitbook/assets/image (411).png>)
 
 * select the [place column](../../data-sources/columns-and-measures.md#special-columns-place-and-time) you want to display as a bubble on the map
 * select a measure to use for the bubble size (optional)
@@ -16,7 +16,7 @@ To add a map slice:
 * select a map style
 * add slice text (optional)
 
-![A map slice](<../../../.gitbook/assets/image (387).png>)
+![A map slice](<../../../.gitbook/assets/image (461).png>)
 
 {% hint style="info" %}
 The map slice requires that you have a [place column](../../data-sources/columns-and-measures.md#special-columns-place-and-time).  A place column is a special type of column that has associated latitude and longitude fields.

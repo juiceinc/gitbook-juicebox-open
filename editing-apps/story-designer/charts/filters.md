@@ -8,12 +8,12 @@ To add a filters slice:
 
 * select **Filters** from the chart list
 
-![Select Filters from the dropdown](<../../../.gitbook/assets/image (389).png>)
+![Select Filters from the dropdown](<../../../.gitbook/assets/image (412).png>)
 
 * select the columns you want to add as filters in the order you want them displayed
 * add slice text (optional)
 
-![A filters slice](<../../../.gitbook/assets/image (376).png>)
+![A filters slice](<../../../.gitbook/assets/image (154).png>)
 
 {% embed url="https://www.loom.com/share/79dc53c9b59e446987b15ec043a8d566" %}
 Adding a filter slice

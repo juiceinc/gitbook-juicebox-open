@@ -23,11 +23,11 @@ You can preselect items for your users on the Access View. A selections object c
 
 You can find the **Slice Slug** in the editor.&#x20;
 
-<figure><img src="../.gitbook/assets/image (403).png" alt=""><figcaption><p>The Slice Name</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (493).png" alt=""><figcaption><p>The Slice Name</p></figcaption></figure>
 
 The **Ingredient Id** can be found by selecting the Ingredient grouping used in the slice, then selecting "Copy Ingredient Id" in the ingredient editor.
 
-<figure><img src="../.gitbook/assets/image (404).png" alt=""><figcaption><p>Getting the Ingredient Id</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (494).png" alt=""><figcaption><p>Getting the Ingredient Id</p></figcaption></figure>
 
 ### Making selections in a chooser
 
@@ -41,7 +41,7 @@ Choosers can just include the chooser slice name.
 
 For choosers, you need to get the Ingredient Id for the Ingredient you want to select
 
-<figure><img src="../.gitbook/assets/image (405).png" alt=""><figcaption><p>Finding Ingredient Ids for a Chooser</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (495).png" alt=""><figcaption><p>Finding Ingredient Ids for a Chooser</p></figcaption></figure>
 
 To select the third "Count of Date and Time" ingredient in the chooser above, you'd use this selections object.
 
@@ -69,4 +69,4 @@ Here's an example of a complex selection that selects one choice and two items o
 
 The result looks like this:
 
-<figure><img src="../.gitbook/assets/image (406).png" alt=""><figcaption><p>One choice and two leaderboard selections</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (496).png" alt=""><figcaption><p>One choice and two leaderboard selections</p></figcaption></figure>

@@ -8,14 +8,14 @@ To add a pie slice:
 
 * select **Pie** from the chart list
 
-![Select Pie from the dropdown](<../../../.gitbook/assets/image (331).png>)
+![Select Pie from the dropdown](<../../../.gitbook/assets/image (106).png>)
 
 * select the column to use to represent a pie slice
 * select the measure to use to determine the size of each slice
 * select **Value** to display the actual value of each pie slice or **% Percent of whole** to display the share of the pie slice as a percent
 * add slice text (optional)
 
-![A Pie slice](<../../../.gitbook/assets/image (330).png>)
+![A Pie slice](<../../../.gitbook/assets/image (325).png>)
 
 ## Using a pie slice
 

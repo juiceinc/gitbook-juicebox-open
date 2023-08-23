@@ -10,7 +10,7 @@ You can add, subtract, multiply and divide numeric data fields. You can also use
 
 You can perform mathematical operations with data fields and constants. For example, if you have `sales` and `cost` in your data, you can add a `Profit` column like so:&#x20;
 
-![Advanced column using field math](<../../../.gitbook/assets/image (309).png>)
+![Advanced column using field math](<../../../.gitbook/assets/image (348).png>)
 
 Here are the underlying components:
 
@@ -63,7 +63,7 @@ Conversion functions change the value for a field. It might change to a differen
 
 You can use `+` to concatenate text data fields together. For example, if `State` has state names and `StateAbbr` has state abbreviations, you can create a new`States` column that combine state names with state abbreviations to display like `Georgia (GA)`. &#x20;
 
-![Advanced column using string concatenation](<../../../.gitbook/assets/image (375) (1).png>)
+![Advanced column using string concatenation](<../../../.gitbook/assets/image (351).png>)
 
 Here are the underlying components:
 
@@ -83,7 +83,7 @@ If you want to concatenate fields that do not have the `string` data type, you'l
 
 You can combine multiple aggregate functions together. For example, if you have `sales_revenue` and `salesperson_id` in your data, you can add an `Sales per salesperson` measure using the `sum()` and `count_distinct()` aggregate functions together like so:&#x20;
 
-![Advanced measure using division and multiple aggregation functions](<../../../.gitbook/assets/image (299) (1).png>)
+![Advanced measure using division and multiple aggregation functions](<../../../.gitbook/assets/image (317).png>)
 
 Here are the underlying components:
 

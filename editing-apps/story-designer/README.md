@@ -6,7 +6,7 @@ description: Design is where you tell your story.
 
 The editing panel is where you design your data story.&#x20;
 
-![The editing panel is on the left in the draft app view](<../../.gitbook/assets/image (325).png>)
+![The editing panel is on the left in the draft app view](<../../.gitbook/assets/image (427).png>)
 
 There are several components you will be working with in the editing panel. They are:
 

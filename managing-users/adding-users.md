@@ -12,22 +12,22 @@ For reports with "Anyone with the link" access, [anyone with the report link can
 
 You can add an editor to your workspace from either the [People page](user-management-and-roles.md#managing-users) or from the editing panel of any report. From there, click the **Add Editor** button.
 
-![From the People page, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (392).png>)
+![From the People page, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (468).png>)
 
-![From the editing panel, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (377).png>)
+![From the editing panel, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (148).png>)
 
 Next, select whether to invite the new editor by creating and sharing an invite link or by sending an invitation via email.
 
-![Select whether to invite by link or by email](<../.gitbook/assets/image (134).png>)
+![Select whether to invite by link or by email](<../.gitbook/assets/image (387).png>)
 
 ### Invite by link
 
 To invite a new editor by invite link, select **Create Invite Link**. Then copy the one-time use invite link and share with the person you want to invite as an editor. Because the invite link will only work once, you should only share the link with one person. Upon clicking the link, the person will be asked to create a Juicebox account if one does not already exist and sign in. After signing in, the person will be an [editor](user-management-and-roles.md#editor) in your workspace.&#x20;
 
-![Copy and share invite link with one person](<../.gitbook/assets/image (128).png>)
+![Copy and share invite link with one person](<../.gitbook/assets/image (104).png>)
 
 ### Invite by email
 
 To invite a new editor by email, select **Invite via email**. Then enter the email addresses for each person you want to invite as an editor and click **Send**. Each person will receive an email with a one-time use link. Upon clicking the link, the person will be asked to create a Juicebox account if one does not already exist and sign in. After signing in, the person will be an [editor](user-management-and-roles.md#editor) in your workspace.
 
-![](<../.gitbook/assets/image (137).png>)
+![](<../.gitbook/assets/image (147).png>)

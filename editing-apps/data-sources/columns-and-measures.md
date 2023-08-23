@@ -4,7 +4,7 @@
 
 Every field in your data will become a column available for use in charts. Each column is displayed as a pill in the data preview like this:
 
-![A column pill](<../../.gitbook/assets/image (386).png>)
+![A column pill](<../../.gitbook/assets/image (486).png>)
 
 ### Special columns: Place and Time
 
@@ -24,13 +24,13 @@ Measures (also called "column measures") are created as you add them to your [ch
 
 Measures (except advanced measures) display as pills with an aggregation badge, like so:&#x20;
 
-![Measure with the sum() aggregation](<../../.gitbook/assets/image (347).png>)
+![Measure with the sum() aggregation](<../../.gitbook/assets/image (101).png>)
 
 From time to time, you may need to create a more complex measure, such as a weighted average, that uses multiple aggregation formulas or combines aggregations with conditional logic, field math, or other things. You can do this using an [advanced measure](advanced-ingredients/).&#x20;
 
 Measures that are advanced measures display with a calculator icon, like so:
 
-![An advanced measure](<../../.gitbook/assets/image (312).png>)
+![An advanced measure](<../../.gitbook/assets/image (140).png>)
 
 
 

@@ -8,7 +8,7 @@ To add a scatterplot slice:
 
 * select **Scatterplot** from the chart list
 
-![Select Scatterplot from the dropdown](<../../../.gitbook/assets/image (399).png>)
+![Select Scatterplot from the dropdown](<../../../.gitbook/assets/image (480).png>)
 
 * select the column with the values you want to display as bubbles
 * select the x- and y-axis measures
@@ -16,7 +16,7 @@ To add a scatterplot slice:
 * select the number of regions
 * add slice text (optional)
 
-![A scatterplot slice](<../../../.gitbook/assets/image (373) (1).png>)
+![A scatterplot slice](<../../../.gitbook/assets/image (90).png>)
 
 {% embed url="https://www.loom.com/share/0d0a15f66c484896869a7d88e991a2ba" %}
 Adding a scatterplot slice

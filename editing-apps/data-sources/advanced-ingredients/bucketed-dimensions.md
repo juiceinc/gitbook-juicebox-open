@@ -8,7 +8,7 @@ A bucketed column is a column that groups field values into buckets based on con
 
 To do that, you could create an advanced column like so--
 
-![Advanced column using buckets](<../../../.gitbook/assets/image (342).png>)
+![Advanced column using buckets](<../../../.gitbook/assets/image (484).png>)
 
 \--with the following components:
 

@@ -6,14 +6,14 @@ The first step in sharing a report is publishing the report.&#x20;
 
 To publish for the first time, click the Sharing button in the report header. It will say "**Start Sharing**".
 
-![Click Start Sharing to share an report for the first time](<../../.gitbook/assets/image (326) (1).png>)
+![Click Start Sharing to share an report for the first time](<../../.gitbook/assets/image (110).png>)
 
 Next, decide how you want to control access to the report:
 
 * **Sign in required**. Report can only be viewed by those that have signed in with a Juicebox account that has access to the report. Viewer access to the report can be [managed in the People view](../../managing-users/user-management-and-roles.md).
 * **Anyone with the link**. Report can be viewed by anyone with the report link. Because sign in is not required, report access cannot be managed.&#x20;
 
-![Select how you want to control access to the report](<../../.gitbook/assets/image (327).png>)
+![Select how you want to control access to the report](<../../.gitbook/assets/image (474).png>)
 
 {% hint style="info" %}
 If your report contains information that not everyone should see, you should publish it as **Sign in required**. If your report does not contain sensitive information, you may not know how you want to control access to the report. That's ok! Just select one and change it later as needed.&#x20;
@@ -27,7 +27,7 @@ Until you publish them, any changes you make to a report are only visible to edi
 
 To publish changes, click the Sharing button in the report header. It will say "**Share changes**". Then click **Save changes**.
 
-![Click "Share changes" to publish changes to a previously shared report](<../../.gitbook/assets/image (393).png>)
+![Click "Share changes" to publish changes to a previously shared report](<../../.gitbook/assets/image (451).png>)
 
 {% hint style="info" %}
 **Edit freely** - you can always [discard changes](publishing-app-changes.md#discard-changes-to-an-app), to return to the last version of the report that you shared with viewers.
@@ -43,7 +43,7 @@ The version of the report that editors work on is called the **draft report**. A
 
 At some point you may want to discard all the unpublished changes in the draft report and go back to the previously published version of the report. To do this, click the Sharing button and select **Discard changes**.&#x20;
 
-![Click "Discard changes" to revert back to the previously published version of the report](<../../.gitbook/assets/image (326).png>)
+![Click "Discard changes" to revert back to the previously published version of the report](<../../.gitbook/assets/image (416).png>)
 
 {% hint style="danger" %}
 Discarding changes will discard **all changes** made since the last publish _**including changes to data**_**.**&#x20;

@@ -28,11 +28,11 @@ Each workspace has at least one **owner**. Owners can do everything admins can d
 
 Workspace owners and admins can manage users through the People page. At the top of the workspace home page, owners and admins will see two buttons: **Reports** and **People**.&#x20;
 
-![The People button will display on the home page if you are an owner or admin](<../.gitbook/assets/image (329).png>)
+![The People button will display on the home page if you are an owner or admin](<../.gitbook/assets/image (282).png>)
 
 Clicking the **People** button will open the People page.&#x20;
 
-![The People page](<../.gitbook/assets/image (304).png>)
+![The People page](<../.gitbook/assets/image (332).png>)
 
 The People page lists each workspace user as well as the number of reports the user has access to, the user's role, when the user last logged in, and when the user first signed up. You can search for users using the search bar at the top of the People page. You can sort the values in a column by clicking the column header.
 
@@ -40,7 +40,7 @@ The People page lists each workspace user as well as the number of reports the u
 
 To change a user's role, click on the user's name in the list of users. A modal will open where you can select a different role for the user from a dropdown.&#x20;
 
-![Select a new role for the user](<../.gitbook/assets/image (120).png>)
+![Select a new role for the user](<../.gitbook/assets/image (86).png>)
 
 {% hint style="info" %}
 There must be at least one workspace owner. If a user is the only owner for the workspace, the user's role cannot be changed.&#x20;
@@ -50,12 +50,12 @@ There must be at least one workspace owner. If a user is the only owner for the 
 
 While owners, admins, and editors can access all reports in a workspace, viewers can only view the reports they have been given access to. To modify a viewer's reports, click on the viewer's name from the list of users. A modal will open where you can modify the viewers report access. &#x20;
 
-![Modify the viewer's report access](<../.gitbook/assets/image (116).png>)
+![Modify the viewer's report access](<../.gitbook/assets/image (386).png>)
 
 To give the viewer access to all reports in the workspace, select **All Reports**. To give the user access to specific reports in the workspace, select **Customized** and then tick the boxes for each report the viewer should have access to.&#x20;
 
 ### Deleting a user
 
-To delete a user, hover over the user you wish to delete and select the trash can icon (<img src="../.gitbook/assets/trash-alt-regular-1-.svg" alt="" data-size="line">).&#x20;
+To delete a user, hover over the user you wish to delete and select the trash can icon (<img src="../.gitbook/assets/trash-alt-regular (1).svg" alt="" data-size="line">).&#x20;
 
-![Click the trash can icon to delete the user](<../.gitbook/assets/image (114).png>)
+![Click the trash can icon to delete the user](<../.gitbook/assets/image (320).png>)

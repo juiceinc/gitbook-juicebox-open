@@ -12,7 +12,7 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 <div align="center">
 
-<img src="../../.gitbook/assets/halacious-tzc3vjpck-q-unsplash.jpg" alt="Photo by Halacious on Unsplash">
+<img src="../../.gitbook/assets/halacious-tZc3vjPCk-Q-unsplash.jpg" alt="Photo by Halacious on Unsplash">
 
 </div>
 

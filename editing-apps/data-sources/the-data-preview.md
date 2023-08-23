@@ -4,13 +4,13 @@ From the data preview you can see the data table's columns, each column's data t
 
 To open the data preview, first open the Data Tables drawer and then select the data table you want to view. To exit the data preview, close the Data Tables drawer.&#x20;
 
-![The data preview](<../../.gitbook/assets/open data preview.gif>)
+![The data preview](<../../.gitbook/assets/open data preview (1).gif>)
 
 ### Data types
 
 From the data preview, you can see each column in your data and the data types for each column.
 
-![Data types for each column can be viewed from the data preview](<../../.gitbook/assets/image (398).png>)
+![Data types for each column can be viewed from the data preview](<../../.gitbook/assets/image (444).png>)
 
 Here are data types that are recognized in Juicebox:
 

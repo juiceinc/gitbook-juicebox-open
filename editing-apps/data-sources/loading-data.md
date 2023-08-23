@@ -10,11 +10,11 @@ You must load data before you can design your report. There are three ways to lo
 
 To upload the report's first data file, open the Data Tables drawer and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the file to be uploaded.
 
-![Add data by uploading a CSV or Excel file](<../../.gitbook/assets/image (371) (1).png>)
+![Add data by uploading a CSV or Excel file](<../../.gitbook/assets/image (324).png>)
 
 To load additional data files, first click the + and then drag-and-drop or select your CSV or Excel file.
 
-![Click the "+" in the Data Tables drawer to add additional data tables](<../../.gitbook/assets/image (401) (1).png>)
+![Click the "+" in the Data Tables drawer to add additional data tables](<../../.gitbook/assets/image (410).png>)
 
 {% hint style="warning" %}
 When loading data files, it is important that your data be nice and clean. Here are some tips for [preparing your data](../design-tips/preparing-your-data.md).&#x20;
@@ -28,11 +28,11 @@ Loading data
 
 Juicebox also provides a selection of sample data tables if you want to start exploring before you have your own data. To load sample data, open the Data Tables drawer, select the **Sample Data** button, and choose one of the available datasets.&#x20;
 
-![Load data by connecting to sample data](<../../.gitbook/assets/image (357).png>)
+![Load data by connecting to sample data](<../../.gitbook/assets/image (393).png>)
 
 Choose a sample data table and select **Add Table**.
 
-![](<../../.gitbook/assets/image (338) (1).png>)
+![](<../../.gitbook/assets/image (477).png>)
 
 The sample data includes the following tables.&#x20;
 
