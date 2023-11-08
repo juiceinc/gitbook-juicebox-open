@@ -52,7 +52,7 @@ Your Juicebox domain
 
 Find the app you want the user to be able to see.
 
-{% swagger method="get" path="/api/v1/apps/" baseUrl="https://{domain}.myjuicebox.io" summary="Request list of available apps" expanded="true" fullWidth="true" %}
+{% swagger method="get" path="/api/v1/jb/apps/" baseUrl="https://{domain}.myjuicebox.io" summary="Request list of available apps" expanded="true" fullWidth="true" %}
 {% swagger-description %}
 Get a list of all available apps. Juicebox apps have both a published and draft version. The draft version will only be visible to editors and admins.
 {% endswagger-description %}
@@ -98,11 +98,7 @@ The email address of the user you want to create.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="extra" type="Json" %}
-A 
-
-**Juicebox Data Permissions**
-
- object to control what this user can see. If omitted, the user will not have any data permissions applied.
+A **Juicebox Data Permissions** object to control what this user can see. If omitted, the user will not have any data permissions applied.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="first_name" %}
@@ -114,7 +110,7 @@ The user's last name
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="apps" type="" %}
-A list of app ids to give to this user. 
+A list of app ids that this user is allowed to see.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="path" name="domain" required="true" %}
