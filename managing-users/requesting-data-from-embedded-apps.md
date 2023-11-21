@@ -10,6 +10,24 @@ Juicebox uses the [postMessage](https://developer.mozilla.org/en-US/docs/Web/API
 
 The messages can call either export-data, or download-data.
 
+### Receiving the callback
+
+Your page should register an event listener to receive the callback.
+
+```
+     window.addEventListener("message", event => {
+        // Ideally you want to check where the event originated from before responding to it.
+        // But for this demo page it has been commented out.
+        // if (event.origin !== "http://localhost:8000") {
+        //   console.log("Do not trust the sender of this message");
+        //   return;
+        // }
+        console.log("Sender is trusted", event);
+        console.log("Received event", event.data, "from", event.origin);
+      }, false);
+    });
+```
+
 ### Download Data
 
 You can request downloadable data. This will return a time-limited url that can be used to download the content. The download data request looks like:
@@ -96,9 +114,27 @@ Here is a sample response:
 }
 ```
 
+### Receiving the callback
+
+**download-data** or **export-data** request may take several seconds to return. Your page should register an event listener to receive the callback containing the data, like this example. The callback will be a message event with origin matching the Juicebox server.
+
+```
+window.addEventListener("message", event => {
+    // Ideally you want to check where the event originated from before responding to it.
+    // But for this demo page it has been commented out.
+    // if (event.origin !== "http://localhost:8000") {
+    //   console.log("Do not trust the sender of this message");
+    //   return;
+    // }
+   console.log("Sender is trusted", event);
+   console.log("Received event", event.data, "from", event.origin);
+}, false);
+
+```
+
 ### An example
 
-This html file provides a sample implementation of how to communicate with a Juicebox app in an iframe. You can view the source of this file to see how the communication works.
+This html file provides a sample implementation of how to communicate with a Juicebox app in an iframe. You should view the source of this file to see how the communication works.
 
 [https://myjuicebox.io/static/embedaccessview.html](https://myjuicebox.io/static/embedaccessview.html)
 
@@ -111,56 +147,3 @@ To use this file, you'll need:
 5. Choose either "Export Data" or "Download Data".&#x20;
    1. Choosing "Export Data" will log the returned data in the browser console.
    2. Choosing "Download Data" will perform the download.
-
-
-
-
-
-###
-
-The DownloadDataCommand now can be passed commandInput.downloadType values of "xls", "csv", or "json". The download filename for each of these will be "data.xls", "data.csv" or "data.json". We get passed a downloadFilename which is the title template of the detail table. This titleTemplate is not good for the filename.
-
-I've added a new `ExportDataCommand` which performs the json export and passes that content directly back with a response\_action of "postMessage". This is what we'll use to publish data to the containing page.
-
-### Frontend
-
-
-
-Export data returns data from a table with this response format https://docs.google.com/document/d/1N7JBw9oJ9\_gF-zQQ51RtOUHlWS1baW4cBjqkJIr7ORk/edit#heading=h.7m5bgwjgrc2u . This table must be configured in the app to allow download-data. The page containing the iframe can then do the following where `slug` is the slug of the detail table to export.
-
-```
-        document.getElementById("juicebox-iframe").contentWindow.postMessage({
-        type: "export-data",
-        "export-data": {
-          slug
-        }
-      });
-```
-
-We can also request downloadable data. This will return a time-limited url that can be used to download the content. The download data request looks like:
-
-```
-        document.getElementById("juicebox-iframe").contentWindow.postMessage({
-          type: "download-data",
-          "download-data": {
-            slug
-          }
-        });
-      }
-```
-
-The page should register an event listener to receive the callback containing the data, like this
-
-```
-      window.addEventListener("message", event => {
-        // Ideally you want to check where the event originated from before responding to it.
-        // But for this demo page it has been commented out.
-        // if (event.origin !== "http://localhost:8000") {
-        //   console.log("Do not trust the sender of this message");
-        //   return;
-        // }
-        console.log("Sender is trusted", event);
-        console.log("Received event", event.data, "from", event.origin);
-      }, false);
-    });
-```
