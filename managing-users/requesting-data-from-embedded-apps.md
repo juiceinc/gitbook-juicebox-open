@@ -6,7 +6,9 @@ description: You can request content from Juicebox tables in embedded apps
 
 You can request the current filtered state of a Juicebox table. This can return either a downloadable file for your user or a json object that can be used to for other automations.&#x20;
 
-Juicebox uses the [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) javacsript api to safely allow cross origin communication between window objects. Juicebox listens for postMessage events. We filter them to an allowed origin page (currently all Juicebox servers). The messages can call either export-data, or download-data.
+Juicebox uses the [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) javacsript api to safely allow cross origin communication between window objects. Juicebox listens for postMessage events. Juicebox filters postMessage messages to an allowed origin page (currently all Juicebox servers). Your Juicebox representative can ensure your site or test site is whitelisted.
+
+The messages can call either export-data, or download-data.
 
 ### Download Data
 
