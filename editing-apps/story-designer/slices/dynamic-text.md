@@ -22,3 +22,34 @@ Here's what that looks like:
 Add dynamic text
 {% endembed %}
 
+### More dynamic text shortcuts
+
+You can access other details about a slice with the following shortcuts.
+
+| Shortcut      | Description                                                            |
+| ------------- | ---------------------------------------------------------------------- |
+| @Slice.pill   | Display a selectable pill that lets you change the selection in Slice. |
+| @Slice.label  | Show a label for what kind of item is being selected in Slice.         |
+| @Slice.list   | List the selections in Slice.                                          |
+| @Slice.count  | Show the total number of unique items in  Slice.                       |
+| @Slice.number | Show the total number of selected items in Slice                       |
+
+Here's an example
+
+We have a slice that lets you look at a leaderboard of Directors using the Movie Trends data.&#x20;
+
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>This slice is Leaderboard1</p></figcaption></figure>
+
+We can use the dynamic text below to show and change details about what is selected. Here's the text
+
+_@Leaderboard1.number selected out of @Leaderboard1.count @Leaderboard1.label_
+
+_The selections are @Leaderboard1.list_
+
+_Change them yourself here @Leaderboard1.pill_
+
+
+
+Here's what this looks like.
+
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

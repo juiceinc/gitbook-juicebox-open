@@ -16,7 +16,7 @@ Although not required, adding a meaningful section name can help you organize yo
 
 To delete a section, hover over the section header (the gray area at the top of the section) until you see the trash can icon (<img src="../../.gitbook/assets/trash-alt-regular.svg" alt="" data-size="line">). Click the icon to delete the section.
 
-![Deleting a section](<../../.gitbook/assets/image (1).png>)
+![Deleting a section](<../../.gitbook/assets/image (1) (1).png>)
 
 ## Collapse and reorder sections
 
