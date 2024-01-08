@@ -153,8 +153,8 @@ An app id for an app this user has access to.
 An email for a user that has already been created.
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="show_header" type="Integer" %}
-Can by 1 or 0. Should the application header be displayed.
+{% swagger-parameter in="query" name="show_header" %}
+If this parameter is present in the query string, the application header (which allows export as png and pdf) will be displayed.
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="The response will contain Json with url and expires_at keys. This url can be embedded in an iframe." %}
