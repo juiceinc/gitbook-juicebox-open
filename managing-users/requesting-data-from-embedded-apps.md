@@ -1,5 +1,7 @@
 ---
-description: You can request content from Juicebox tables in embedded apps
+description: >-
+  You can request content from Juicebox tables in embedded apps and check if the
+  report is fully loaded.
 ---
 
 # Requesting data from embedded apps
@@ -8,29 +10,52 @@ You can request the current filtered state of a Juicebox table. This can return 
 
 Juicebox uses the [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) javacsript api to safely allow cross origin communication between window objects. Juicebox listens for postMessage events. Juicebox filters postMessage messages to an allowed origin page (currently all Juicebox servers). Your Juicebox representative can ensure your site or test site is whitelisted.
 
-The messages can call either export-data, or download-data.
+The messages can call **is-report-ready**, **export-data**, or **download-data**.
+
+### Checking the report is fully loaded
+
+In order to export or download data, you must confirm that the Juicebox report is fully loaded. To do so, you can poll the Juicebox report with **is-report-ready**. A javascript sample looks like this.
+
+```javascript
+function checkIfReportIsReady() {
+  const isReady = event => {
+    if (event.data.type == "is-report-ready") {
+      window.removeEventListener("message", isReady);
+      if (event.data.data === true) {
+        // Enable or perform the download or export action
+      } else {
+        setTimeout(checkIfReportIsReady, 500);
+      }
+    }
+  };
+  window.addEventListener("message", isReady, false);
+  document.getElementById("juicebox-iframe").contentWindow.postMessage(
+    { type: "is-report-ready" }, "*"
+  );
+};
+```
 
 ### Receiving the callback
 
 Your page should register an event listener to receive the callback.
 
-```
-     window.addEventListener("message", event => {
-        // Ideally you want to check where the event originated from before responding to it.
-        // But for this demo page it has been commented out.
-        // if (event.origin !== "http://localhost:8000") {
-        //   console.log("Do not trust the sender of this message");
-        //   return;
-        // }
-        console.log("Sender is trusted", event);
-        console.log("Received event", event.data, "from", event.origin);
-      }, false);
-    });
+```javascript
+window.addEventListener("message", event => {
+    // Ideally you want to check where the event originated from before responding to it.
+    // But for this demo page it has been commented out.
+    // if (event.origin !== "http://localhost:8000") {
+    //   console.log("Do not trust the sender of this message");
+    //   return;
+    // }
+    console.log("Sender is trusted", event);
+    console.log("Received event", event.data, "from", event.origin);
+  }, false);
+});
 ```
 
-### Download Data
+### Downloading data with download-data
 
-You can request downloadable data. This will return a time-limited url that can be used to download the content. The download data request looks like:
+Once the report is [fully loaded](requesting-data-from-embedded-apps.md#checking-the-report-is-fully-loaded), you can request downloadable data. This will return a time-limited url that can be used to download the content. The download data request looks like:
 
 ```javascript
 document.getElementById("juicebox-iframe").contentWindow.postMessage({
@@ -43,9 +68,9 @@ document.getElementById("juicebox-iframe").contentWindow.postMessage({
 
 In this example, the Juicebox app is iframed in an iframe with id **#juicebox-iframe**. **Table1** is the identifier for the table you want to download.
 
-### Export Data
+### Exporting data with export-data
 
-Export data returns data from a table.&#x20;
+Alternatively, once a report is fully loaded, use **export-data** to return data from a table as a json object.&#x20;
 
 ```javascript
 document.getElementById("juicebox-iframe").contentWindow.postMessage({
