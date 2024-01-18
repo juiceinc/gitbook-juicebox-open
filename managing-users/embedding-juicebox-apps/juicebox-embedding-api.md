@@ -154,7 +154,19 @@ An email for a user that has already been created.
 {% endswagger-parameter %}
 
 {% swagger-parameter in="query" name="show_header" %}
-If this parameter is present in the query string, the application header (which allows export as png and pdf) will be displayed.
+If this parameter is present in the query string, the application header (which allows export as png and pdf) will be displayed.&#x20;
+
+
+
+Turn off display of the header with `?show_header=0`
+{% endswagger-parameter %}
+
+{% swagger-parameter in="query" name="show_footer" %}
+If this parameter is present in the query string, the application footer will be displayed.
+
+
+
+Turn off display of the header with `?show_footer=0`
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="The response will contain Json with url and expires_at keys. This url can be embedded in an iframe." %}
