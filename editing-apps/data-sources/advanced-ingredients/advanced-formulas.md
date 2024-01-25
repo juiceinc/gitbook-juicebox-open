@@ -27,16 +27,18 @@ If you divide by zero, you’ll get a null. If you do not specify an aggregate f
 
 Aggregation functions let you add up values for a field. If no aggregation function is provided for a  measure, `sum()` will be used.&#x20;
 
-| Function                                                                                              | Examples                                            |
-| ----------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| Sum                                                                                                   | `sum(sales_dollars)` or `sum(revenue - expenses)`   |
-| Minimum                                                                                               | `min(age)`                                          |
-| Maximum                                                                                               | `max(age)`                                          |
-| Average                                                                                               | `avg(home_value)`                                   |
-| Count                                                                                                 | `count(student_name)` or `count(*)`                 |
-| Count only distinct items                                                                             | `count_distinct(student_name)`                      |
-| Median                                                                                                | `median(sales_dollars)`                             |
-| Percentiles expressed as `percentileN`. Allowed values of N are 1, 5, 10, 25, 50, 75, 90, 95, and 99. | `percentile1(age)` or `percentile75(sales_dollars)` |
+| Function                                                                        | Examples                                            |
+| ------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Sum                                                                             | `sum(sales_dollars)` or `sum(revenue - expenses)`   |
+| Minimum                                                                         | `min(age)`                                          |
+| Maximum                                                                         | `max(age)`                                          |
+| Average                                                                         | `avg(home_value)`                                   |
+| Count                                                                           | `count(student_name)` or `count(*)`                 |
+| Count only distinct items                                                       | `count_distinct(student_name)`                      |
+| Median                                                                          | `median(sales_dollars)`                             |
+| Percentiles expressed as `percentileN` where N can be between 1 and 99.         | `percentile1(age)` or `percentile75(sales_dollars)` |
+| Percentiles can also be expressed as an expression and a desired percentile.    | `percentile(age, 0.25)`                             |
+| Standard Deviation. Calculates the sample standard deviation for an expression. | `stddev(age)`                                       |
 
 {% hint style="danger" %}
 When you upload a CSV file, percentiles and medians are calculated as approximate values. The statistically exact value may be slightly different.
