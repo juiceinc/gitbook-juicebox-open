@@ -41,3 +41,7 @@ description: >-
 {% swagger src="../../.gitbook/assets/Juicebox API (6).yaml" path="/api/v1/jb/apps/" method="get" expanded="true" fullWidth="true" %}
 [Juicebox API (6).yaml](<../../.gitbook/assets/Juicebox API (6).yaml>)
 {% endswagger %}
+
+{% swagger src="../../.gitbook/assets/Juicebox API (7).yaml" path="/api/v1/jb/apps/{id}/clear_cache/" method="delete" %}
+[Juicebox API (7).yaml](<../../.gitbook/assets/Juicebox API (7).yaml>)
+{% endswagger %}

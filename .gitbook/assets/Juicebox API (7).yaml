@@ -1,0 +1,1383 @@
+openapi: 3.0.3
+info:
+  title: Juicebox API
+  version: 1.0.0
+  description: Data View API for Juicebox
+paths:
+  /api/v1/access_views/:
+    get:
+      operationId: v1_access_views_list
+      description: List Access Views
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AppViewAccessKey'
+          description: ''
+    post:
+      operationId: v1_access_views_create
+      description: List Access Views
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AppViewAccessKey'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/AppViewAccessKey'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/AppViewAccessKey'
+        required: true
+      security:
+      - tokenAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AppViewAccessKey'
+          description: ''
+  /api/v1/access_views/{key}/:
+    get:
+      operationId: v1_access_views_retrieve
+      description: Get an Access View
+      parameters:
+      - in: path
+        name: key
+        schema:
+          type: string
+          pattern: ^\w+$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AppViewAccessKey'
+          description: ''
+    put:
+      operationId: v1_access_views_update
+      description: Modify an Access View
+      parameters:
+      - in: path
+        name: key
+        schema:
+          type: string
+          pattern: ^\w+$
+        required: true
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AppViewAccessKey'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/AppViewAccessKey'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/AppViewAccessKey'
+        required: true
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AppViewAccessKey'
+          description: ''
+    patch:
+      operationId: v1_access_views_partial_update
+      description: Modify an Access View
+      parameters:
+      - in: path
+        name: key
+        schema:
+          type: string
+          pattern: ^\w+$
+        required: true
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedAppViewAccessKey'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/PatchedAppViewAccessKey'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/PatchedAppViewAccessKey'
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AppViewAccessKey'
+          description: ''
+    delete:
+      operationId: v1_access_views_destroy
+      description: Deleting an access view will set the is_active flag to False.
+      parameters:
+      - in: path
+        name: key
+        schema:
+          type: string
+          pattern: ^\w+$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '204':
+          description: The access view has been set to inactive.
+  /api/v1/access_views/{key}/usage/:
+    get:
+      operationId: v1_access_views_usage_list
+      description: List Access Views
+      parameters:
+      - in: path
+        name: key
+        schema:
+          type: string
+          pattern: ^\w+$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/AppViewAccessKeyUsage'
+          description: ''
+  /api/v1/jb/api-token-auth/:
+    post:
+      operationId: v1_jb_api_token_auth_create
+      description: |-
+        For backward compatibility with some client's integrations that have
+        hardcoded 200, we remap status 201 to 200.
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JSONWebToken'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/JSONWebToken'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/JSONWebToken'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JSONWebToken'
+          description: ''
+  /api/v1/jb/api-token-refresh/:
+    post:
+      operationId: v1_jb_api_token_refresh_create
+      description: |-
+        API View that returns a refreshed token (with new expiration) based on
+        existing token
+
+        If 'orig_iat' field (original issued-at-time) is found it will first check
+        if it's within expiration window, then copy it to the new token.
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RefreshAuthToken'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/RefreshAuthToken'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/RefreshAuthToken'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RefreshAuthToken'
+          description: ''
+  /api/v1/jb/api-token-verify/:
+    post:
+      operationId: v1_jb_api_token_verify_create
+      description: |-
+        API View that checks the validity of a token, returning the token if it
+        is valid.
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/VerifyAuthToken'
+          application/x-www-form-urlencoded:
+            schema:
+              $ref: '#/components/schemas/VerifyAuthToken'
+          multipart/form-data:
+            schema:
+              $ref: '#/components/schemas/VerifyAuthToken'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VerifyAuthToken'
+          description: ''
+  /api/v1/jb/apps/:
+    get:
+      operationId: v1_jb_apps_list
+      description: Get a list of apps, new apps are created using the Juicebox editor.
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/JBApp'
+          description: ''
+  /api/v1/jb/apps/{id}/:
+    get:
+      operationId: v1_jb_apps_retrieve
+      description: |-
+        View and update an app. You must have permission to edit the app
+        by being an editor or higher client role to update the app.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBApp'
+          description: The app exists.
+        '404':
+          description: The app does not exists or is not accessible to this user.
+    put:
+      operationId: v1_jb_apps_update
+      description: |-
+        View and update an app. You must have permission to edit the app
+        by being an editor or higher client role to update the app.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JBApp'
+        required: true
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBApp'
+          description: The app exists.
+        '404':
+          description: The app does not exists or is not accessible to this user.
+    patch:
+      operationId: v1_jb_apps_partial_update
+      description: |-
+        View and update an app. You must have permission to edit the app
+        by being an editor or higher client role to update the app.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedJBApp'
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBApp'
+          description: The app exists.
+        '404':
+          description: The app does not exists or is not accessible to this user.
+  /api/v1/jb/apps/{id}/clear_cache/:
+    delete:
+      operationId: v1_jb_apps_clear_cache_destroy
+      description: |-
+        Allow deleting redis cache for any app that the requesting user
+        can modify.
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/v1/jb/apps/{id}/embed/:
+    put:
+      operationId: v1_jb_apps_embed_update
+      description: Get url to embed this app
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JBAppEmbed'
+        required: true
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBAppEmbed'
+          description: ''
+    patch:
+      operationId: v1_jb_apps_embed_partial_update
+      description: Get url to embed this app
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedJBAppEmbed'
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBAppEmbed'
+          description: ''
+  /api/v1/jb/apps/{id}/embed/{email}/:
+    get:
+      operationId: v1_jb_apps_embed_retrieve
+      description: Get url to embed this app for a given user
+      parameters:
+      - in: path
+        name: email
+        schema:
+          type: string
+          pattern: ^.*$
+        required: true
+      - in: path
+        name: id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/v1/jb/apps/{id}/usage/:
+    get:
+      operationId: v1_jb_apps_usage_list
+      description: Get usage logs for an app
+      parameters:
+      - in: path
+        name: id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/JBUserUsage'
+          description: ''
+  /api/v1/jb/users/:
+    get:
+      operationId: v1_jb_users_list
+      description: A list of users that can be admined
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/JBUser'
+          description: ''
+    post:
+      operationId: v1_jb_users_create
+      description: A list of users that can be admined
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JBUserCreate'
+        required: true
+      security:
+      - tokenAuth: []
+      responses:
+        '201':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBUserCreate'
+          description: ''
+  /api/v1/jb/users/{email}/:
+    get:
+      operationId: v1_jb_users_retrieve
+      description: Details about a single user
+      parameters:
+      - in: path
+        name: email
+        schema:
+          type: string
+          pattern: ^.*$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBUser'
+          description: ''
+    put:
+      operationId: v1_jb_users_update
+      description: Details about a single user
+      parameters:
+      - in: path
+        name: email
+        schema:
+          type: string
+          pattern: ^.*$
+        required: true
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/JBUser'
+        required: true
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBUser'
+          description: ''
+    patch:
+      operationId: v1_jb_users_partial_update
+      description: Details about a single user
+      parameters:
+      - in: path
+        name: email
+        schema:
+          type: string
+          pattern: ^.*$
+        required: true
+      tags:
+      - v1
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PatchedJBUser'
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/JBUser'
+          description: ''
+    delete:
+      operationId: v1_jb_users_destroy
+      description: Details about a single user
+      parameters:
+      - in: path
+        name: email
+        schema:
+          type: string
+          pattern: ^.*$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '204':
+          description: No response body
+  /api/v1/jb/users/{email}/token/:
+    get:
+      operationId: v1_jb_users_token_retrieve
+      description: |-
+        API View that returns a JWT for the specified user.
+        Administrators can invoke this to get tokens for users in a client.
+
+        The JSON Web Token can be used for authenticated requests as the user.
+      parameters:
+      - in: path
+        name: email
+        schema:
+          type: string
+          pattern: ^.*$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          description: No response body
+  /api/v1/jb/users/{email}/usage/:
+    get:
+      operationId: v1_jb_users_usage_list
+      description: A list of usage logs for a single user
+      parameters:
+      - in: path
+        name: email
+        schema:
+          type: string
+          pattern: ^.*$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/JBUserUsage'
+          description: ''
+  /api/v1/jb/users/{email}/usage/{app_id}/:
+    get:
+      operationId: v1_jb_users_usage_list_2
+      description: A list of usage logs for a single user
+      parameters:
+      - in: path
+        name: app_id
+        schema:
+          type: string
+          pattern: ^\w+(:\w+)?$
+        required: true
+      - in: path
+        name: email
+        schema:
+          type: string
+          pattern: ^.*$
+        required: true
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/JBUserUsage'
+          description: ''
+  /api/v1/status/:
+    get:
+      operationId: v1_status_retrieve
+      description: Get system heartbeat.
+      tags:
+      - v1
+      security:
+      - tokenAuth: []
+      responses:
+        '200':
+          description: No response body
+components:
+  schemas:
+    AppViewAccessKey:
+      type: object
+      properties:
+        created:
+          type: string
+          format: date-time
+          readOnly: true
+        modified:
+          type: string
+          format: date-time
+          readOnly: true
+        key:
+          type: string
+          readOnly: true
+        is_active:
+          type: boolean
+          description: Can this access key be used
+        allowed_uses_cnt:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+          description: The number of times this access key CAN BE used. 0=unlimited
+            uses
+        usages_cnt:
+          type: integer
+          readOnly: true
+          description: The number of times this access key HAS BEEN used
+        expires_at:
+          type: string
+          format: date-time
+          nullable: true
+        data_permissions:
+          type: object
+          additionalProperties: {}
+          description: A Juicebox data permissions object, like a user extra
+        selections:
+          type: object
+          additionalProperties: {}
+          description: A Juicebox selections object
+        stack_slug:
+          type: string
+          nullable: true
+          description: An optional stack slug to load. If set, the stack with this
+            slug will be loaded.
+          maxLength: 255
+        flags:
+          type: object
+          additionalProperties: {}
+          description: Optional attributes, like slice types, that can be used to
+            filter Access Views
+        autorotate:
+          type: boolean
+          description: Should the key autorotate on usage. If we are proxying a user,
+            this should be True.
+        allowed_networks:
+          type: string
+          description: 'Not yet implemented: What networks are allowed in CIDR format'
+        show_header:
+          type: boolean
+          description: Should the app header be shown
+        show_footer:
+          type: boolean
+          description: Should the app footer be shown
+        language_code:
+          type: string
+          description: 'Not yet implemented: What language was the Access View viewed
+            in'
+          maxLength: 2
+        app:
+          type: string
+          description: The app this key is granting access to
+        user:
+          type: integer
+          nullable: true
+          description: An optional user. If set, this user will override the Access
+            View data_permissions
+      required:
+      - app
+      - created
+      - key
+      - modified
+      - usages_cnt
+    AppViewAccessKeyUsage:
+      type: object
+      properties:
+        raw_key:
+          type: string
+          description: The raw key that was used to access the app. This may differ
+            from the current key if the key autorotates.
+          maxLength: 32
+        data_permissions:
+          type: object
+          additionalProperties: {}
+          description: Juicebox data permisssions object applied to this Access View
+        selections:
+          type: object
+          additionalProperties: {}
+          description: Selections made in the app
+        app_slug:
+          type: string
+          description: Slug of the app
+          maxLength: 255
+        stack_slug:
+          type: string
+          nullable: true
+          description: Optional stack slug that was loaded
+          maxLength: 255
+        user_email:
+          type: string
+          format: email
+          nullable: true
+          description: User's email if the user is logged in
+          maxLength: 254
+        autorotate:
+          type: boolean
+          description: Should this key autorotate on usage?
+        show_header:
+          type: boolean
+          description: Was the header shown
+        show_footer:
+          type: boolean
+          description: Was the footer shown
+        language_code:
+          type: string
+          description: Language code that the Access View was viewed in
+          maxLength: 2
+        ip_address:
+          type: string
+          nullable: true
+          description: IP address of the user
+        user_agent:
+          type: string
+          nullable: true
+          description: The user agent of the user's browser
+          maxLength: 255
+        timestamp:
+          type: string
+          format: date-time
+          readOnly: true
+          description: When the Access View was used in UTC
+      required:
+      - app_slug
+      - timestamp
+    ClientRoleEnum:
+      enum:
+      - 40
+      - 30
+      - 20
+      - 15
+      - 10
+      - 0
+      type: integer
+      description: |-
+        * `40` - Client Owner
+        * `30` - Client Administrator
+        * `20` - Application Author
+        * `15` - All Apps Viewer
+        * `10` - User
+        * `0` - Anonymous User
+    JBApp:
+      type: object
+      properties:
+        client_id:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        description:
+          type: string
+          description: Description of this app, appears below the label on the home
+            page.
+        id:
+          type: string
+          readOnly: true
+        in_maintenance:
+          type: boolean
+        label:
+          type: string
+          description: Label is the displayed name of this app. Appears on the home
+            page.
+          maxLength: 70
+        maintenance_message:
+          type: string
+          maxLength: 256
+        metadata:
+          type: object
+          additionalProperties: {}
+          description: Extra details about this app.
+        raw_config:
+          type: object
+          additionalProperties: {}
+          description: The prevalidated config (app.yaml) used to build this App
+        slug:
+          type: string
+          readOnly: true
+          description: Slug appears in the url for the stack like http://www.juiceboxdata.com/{appslug}/{stackslug}/
+        usage:
+          type: object
+          additionalProperties: {}
+        users:
+          type: array
+          items:
+            type: integer
+          readOnly: true
+      required:
+      - client_id
+      - created_at
+      - id
+      - in_maintenance
+      - label
+      - maintenance_message
+      - slug
+      - usage
+      - users
+    JBAppEmbed:
+      type: object
+      properties:
+        token:
+          type: string
+        stack:
+          type: string
+        show_header:
+          type: boolean
+      required:
+      - token
+    JBUser:
+      type: object
+      properties:
+        apps:
+          type: array
+          items:
+            type: string
+          readOnly: true
+        client_role:
+          allOf:
+          - $ref: '#/components/schemas/ClientRoleEnum'
+          description: |-
+            The role this user has on this client.
+
+            * `40` - Client Owner
+            * `30` - Client Administrator
+            * `20` - Application Author
+            * `15` - All Apps Viewer
+            * `10` - User
+            * `0` - Anonymous User
+        date_joined:
+          type: string
+          format: date-time
+          readOnly: true
+        email:
+          type: string
+          format: email
+          title: Email address
+          maxLength: 254
+        extra:
+          type: object
+          additionalProperties: {}
+        first_name:
+          type: string
+          maxLength: 60
+        handle:
+          type: string
+          readOnly: true
+          nullable: true
+          description: A unique user defined string that shows up for the user in
+            discussions
+        id:
+          type: integer
+          readOnly: true
+        is_active:
+          type: boolean
+          title: Active
+          description: Designates whether this user should be treated as active. Unselect
+            this instead of deleting accounts.
+        is_demo_user:
+          type: boolean
+          title: Demo User
+          description: If the app supports it, this user will only see anonymized
+            data
+        is_staff:
+          type: boolean
+          readOnly: true
+          title: Staff status
+          description: Designates whether the user can log into this admin site.
+        is_superuser:
+          type: boolean
+          readOnly: true
+          title: Superuser status
+          description: Designates that this user has all permissions without explicitly
+            assigning them.
+        last_activated:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+          title: Last date activated
+        last_deactivated:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+          title: Last date deactivated
+        last_login:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        last_name:
+          type: string
+          maxLength: 60
+        last_password_set:
+          type: string
+          format: date-time
+          readOnly: true
+          description: The date the user last changed their password.
+        profile_avatar:
+          type: string
+          format: uri
+          readOnly: true
+          nullable: true
+        profile_color:
+          type: string
+          readOnly: true
+          description: The user's html color to use in discussions
+        show_dataservice_debug:
+          type: boolean
+          description: Show this user data service debug info.
+      required:
+      - apps
+      - date_joined
+      - email
+      - extra
+      - handle
+      - id
+      - is_staff
+      - is_superuser
+      - last_activated
+      - last_deactivated
+      - last_login
+      - last_password_set
+      - profile_avatar
+      - profile_color
+    JBUserCreate:
+      type: object
+      properties:
+        email:
+          type: string
+          format: email
+          title: Email address
+          maxLength: 254
+        first_name:
+          type: string
+          maxLength: 60
+        last_name:
+          type: string
+          maxLength: 60
+        extra:
+          type: object
+          additionalProperties: {}
+        is_demo_user:
+          type: boolean
+          title: Demo User
+          description: If the app supports it, this user will only see anonymized
+            data
+        apps:
+          type: array
+          items:
+            type: string
+      required:
+      - email
+      - extra
+    JBUserUsage:
+      type: object
+      description: |-
+        This serializer gives user usage for StackAccess log queries
+        that are generated via userlogging.get_event_logs.
+      properties:
+        action_description:
+          type: string
+        email:
+          type: string
+        user_first_name:
+          type: string
+        user_last_name:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        app:
+          type: string
+        story:
+          type: string
+      required:
+      - action_description
+      - app
+      - email
+      - story
+      - timestamp
+      - user_first_name
+      - user_last_name
+    JSONWebToken:
+      type: object
+      description: |-
+        Serializer class used to validate a username and password.
+
+        'username' is identified by the custom UserModel.USERNAME_FIELD.
+
+        Returns a JSON Web Token that can be used to authenticate later calls.
+      properties:
+        password:
+          type: string
+          writeOnly: true
+        token:
+          type: string
+          readOnly: true
+        email:
+          type: string
+          writeOnly: true
+      required:
+      - email
+      - password
+      - token
+    PatchedAppViewAccessKey:
+      type: object
+      properties:
+        created:
+          type: string
+          format: date-time
+          readOnly: true
+        modified:
+          type: string
+          format: date-time
+          readOnly: true
+        key:
+          type: string
+          readOnly: true
+        is_active:
+          type: boolean
+          description: Can this access key be used
+        allowed_uses_cnt:
+          type: integer
+          maximum: 2147483647
+          minimum: -2147483648
+          description: The number of times this access key CAN BE used. 0=unlimited
+            uses
+        usages_cnt:
+          type: integer
+          readOnly: true
+          description: The number of times this access key HAS BEEN used
+        expires_at:
+          type: string
+          format: date-time
+          nullable: true
+        data_permissions:
+          type: object
+          additionalProperties: {}
+          description: A Juicebox data permissions object, like a user extra
+        selections:
+          type: object
+          additionalProperties: {}
+          description: A Juicebox selections object
+        stack_slug:
+          type: string
+          nullable: true
+          description: An optional stack slug to load. If set, the stack with this
+            slug will be loaded.
+          maxLength: 255
+        flags:
+          type: object
+          additionalProperties: {}
+          description: Optional attributes, like slice types, that can be used to
+            filter Access Views
+        autorotate:
+          type: boolean
+          description: Should the key autorotate on usage. If we are proxying a user,
+            this should be True.
+        allowed_networks:
+          type: string
+          description: 'Not yet implemented: What networks are allowed in CIDR format'
+        show_header:
+          type: boolean
+          description: Should the app header be shown
+        show_footer:
+          type: boolean
+          description: Should the app footer be shown
+        language_code:
+          type: string
+          description: 'Not yet implemented: What language was the Access View viewed
+            in'
+          maxLength: 2
+        app:
+          type: string
+          description: The app this key is granting access to
+        user:
+          type: integer
+          nullable: true
+          description: An optional user. If set, this user will override the Access
+            View data_permissions
+    PatchedJBApp:
+      type: object
+      properties:
+        client_id:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+        description:
+          type: string
+          description: Description of this app, appears below the label on the home
+            page.
+        id:
+          type: string
+          readOnly: true
+        in_maintenance:
+          type: boolean
+        label:
+          type: string
+          description: Label is the displayed name of this app. Appears on the home
+            page.
+          maxLength: 70
+        maintenance_message:
+          type: string
+          maxLength: 256
+        metadata:
+          type: object
+          additionalProperties: {}
+          description: Extra details about this app.
+        raw_config:
+          type: object
+          additionalProperties: {}
+          description: The prevalidated config (app.yaml) used to build this App
+        slug:
+          type: string
+          readOnly: true
+          description: Slug appears in the url for the stack like http://www.juiceboxdata.com/{appslug}/{stackslug}/
+        usage:
+          type: object
+          additionalProperties: {}
+        users:
+          type: array
+          items:
+            type: integer
+          readOnly: true
+    PatchedJBAppEmbed:
+      type: object
+      properties:
+        token:
+          type: string
+        stack:
+          type: string
+        show_header:
+          type: boolean
+    PatchedJBUser:
+      type: object
+      properties:
+        apps:
+          type: array
+          items:
+            type: string
+          readOnly: true
+        client_role:
+          allOf:
+          - $ref: '#/components/schemas/ClientRoleEnum'
+          description: |-
+            The role this user has on this client.
+
+            * `40` - Client Owner
+            * `30` - Client Administrator
+            * `20` - Application Author
+            * `15` - All Apps Viewer
+            * `10` - User
+            * `0` - Anonymous User
+        date_joined:
+          type: string
+          format: date-time
+          readOnly: true
+        email:
+          type: string
+          format: email
+          title: Email address
+          maxLength: 254
+        extra:
+          type: object
+          additionalProperties: {}
+        first_name:
+          type: string
+          maxLength: 60
+        handle:
+          type: string
+          readOnly: true
+          nullable: true
+          description: A unique user defined string that shows up for the user in
+            discussions
+        id:
+          type: integer
+          readOnly: true
+        is_active:
+          type: boolean
+          title: Active
+          description: Designates whether this user should be treated as active. Unselect
+            this instead of deleting accounts.
+        is_demo_user:
+          type: boolean
+          title: Demo User
+          description: If the app supports it, this user will only see anonymized
+            data
+        is_staff:
+          type: boolean
+          readOnly: true
+          title: Staff status
+          description: Designates whether the user can log into this admin site.
+        is_superuser:
+          type: boolean
+          readOnly: true
+          title: Superuser status
+          description: Designates that this user has all permissions without explicitly
+            assigning them.
+        last_activated:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+          title: Last date activated
+        last_deactivated:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+          title: Last date deactivated
+        last_login:
+          type: string
+          format: date-time
+          readOnly: true
+          nullable: true
+        last_name:
+          type: string
+          maxLength: 60
+        last_password_set:
+          type: string
+          format: date-time
+          readOnly: true
+          description: The date the user last changed their password.
+        profile_avatar:
+          type: string
+          format: uri
+          readOnly: true
+          nullable: true
+        profile_color:
+          type: string
+          readOnly: true
+          description: The user's html color to use in discussions
+        show_dataservice_debug:
+          type: boolean
+          description: Show this user data service debug info.
+    RefreshAuthToken:
+      type: object
+      description: Serializer used for refreshing JWTs.
+      properties:
+        token:
+          type: string
+      required:
+      - token
+    VerifyAuthToken:
+      type: object
+      description: Serializer used for verifying JWTs.
+      properties:
+        token:
+          type: string
+      required:
+      - token
+  securitySchemes:
+    tokenAuth:
+      type: apiKey
+      in: header
+      name: Authorization
+      description: Token-based authentication with required prefix "Token"
