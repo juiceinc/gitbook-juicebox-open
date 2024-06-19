@@ -2,10 +2,39 @@
 
 ## What's coming soon?
 
-* A new chart type for displaying data-driven text.
-* A new chart type for displaying multiple metrics at once.&#x20;
-* The option to use shapefiles in the map chart.
-* Many additional advanced report design options available through our report design consulting services.
+* In-line text editing
+* Versions
+* Additional advanced report design options available through our report design consulting services.
+
+## Jun 13, 2024
+
+(release 4.36)
+
+### 🐛 Bug fixes & other improvements
+
+* Map styling config options are missing
+* Pre-populate slice slugs for custom layouts
+
+## Jun 6, 2024
+
+(release 4.35)
+
+### 🐛 Bug fixes & other improvements
+
+* Add a new config option that allows slices to be hidden when they receive no data
+* Fix: keep "hidden" slices hidden when their data is fetched
+
+## May 31, 2024
+
+(release 4.34)
+
+### 🐛 Bug fixes & other improvements
+
+* Improve insight capture button and animation
+* Update styling of grids and borders
+* Allow slice titles to be updated in-place behind a flag&#x20;
+* Correcting styling for inline text editor
+* Fixes for fontschemes
 
 ## Jan 9, 2023
 
