@@ -36,6 +36,101 @@
 * Correcting styling for inline text editor
 * Fixes for fontschemes
 
+## May 16, 2024
+
+(release 4.33)
+
+### 🐛 Bug fixes & other improvements
+
+* Allow selecting a single item in range pickers
+* Remove the choices dropdown for the "group layout" field in django admin
+* Updates to the runs on cloud formation template for getting hung builds to work again
+* Adjust the browser breakpoint value for the editor on draft apps
+* Fix flickering in the sidepanel
+* Fix issues with appeditrecord deletion
+
+## May 9, 2024
+
+(release 4.32)
+
+### 🐛 Bug fixes & other improvements
+
+* Migrate the map slice to the deckmap slice and allow multiple place dimensions in the deckmap slice
+* Fix: background blog being cut off in the header slice
+* Fix: insight images aren't returning the correct theme font
+
+## May 2, 2024
+
+(release 4.31)
+
+### 🎁 What's new?
+
+* New grid layouts for sections
+* New "simple gauge" style for gauge templates
+
+### 🐛 Bug fixes & other improvements
+
+* &#x20;Support default selections in all slices
+
+## Apr 25, 2024
+
+(release 4.30)
+
+### 🐛 Bug fixes & other improvements
+
+* &#x20;Improve ui in the share tab
+* Allow the number of pie chart segments to be configured in ui
+* Improve ai phase and flags when running data services
+* Improve tests for data services
+* Unify frontend templates between cards and choosers
+* Fix: icon selector modal has incorrect z-index
+* Improve recipe pooling behavior and debug panels
+
+## Apr 18, 2024
+
+(release 4.29)
+
+### 🐛 Bug fixes & other improvements
+
+* Add options the the graphql users query to filter and limit users
+* Enable the "show debug" button for all juicers
+* Validate user and app in the access view apis
+* Use uv for python requirements building
+
+## Apr 11, 2024
+
+(release 4.28)
+
+### 🐛 Bug fixes & other improvements
+
+* Use color-mix to generate colors and simplify palette variables
+* Django performance improvements
+* Improve how we track app edits
+* Create an optional phase for the new dataservice that uses openai to generate automatic titles
+
+## Apr 4, 2024
+
+(release 4.27)
+
+### 🐛 Bug fixes & other improvements
+
+* Convert choosers to a react slice&#x20;
+* Improve button icon text color behavior&#x20;
+* Add graphql mutation to update slice titles
+* Improve table styling
+
+## Mar 28, 2024
+
+(release 4.26)
+
+### 🐛 Bug fixes & other improvements
+
+* Improve caching of parsed expressions
+* Make gh action testing results more concise
+* Add layout options to headline/hero slice
+* Convert gauge templates to tailwind
+* Add an option to colorize table cells by gauge colors
+
 ## Jan 9, 2023
 
 ### 🎁 What's new?
