@@ -1,6 +1,6 @@
 # Data
 
-The Data Tables drawer is where you set up your data. To open the Data Tables drawer, click the bar at the bottom of the editing panel. Click the bar again to close the Data Tables drawer.&#x20;
+The Data Drawer is where you set up your data. To open the Data Drawer, click the bar at the bottom of the editing panel. Click the bar again to close the Data Drawer.&#x20;
 
 ![Click the bar at the bottom to open the Data Tables drawer](<../../.gitbook/assets/image (88).png>)
 

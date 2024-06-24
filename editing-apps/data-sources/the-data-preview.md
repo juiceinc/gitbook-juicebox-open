@@ -2,7 +2,7 @@
 
 From the data preview you can see the data table's columns, each column's data type, and the first 100 rows in the data table. You can also open the column editor by clicking on the pill at the top of each column.&#x20;
 
-To open the data preview, first open the Data Tables drawer and then select the data table you want to view. To exit the data preview, close the Data Tables drawer.&#x20;
+To open the data preview, first open the Data Drawer and then select the data table you want to view. To exit the data preview, close the Data Drawer.&#x20;
 
 ![The data preview](<../../.gitbook/assets/open data preview (1).gif>)
 

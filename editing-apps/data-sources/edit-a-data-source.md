@@ -20,7 +20,7 @@ To make a change to a column or measure, click on its pill in either the [data p
 
 ## Delete data
 
-If you have data that you don't plan to use in your report, you may want to delete the data to declutter the Data Tables drawer. To do this, open the Data Tables drawer, select the data table you want to delete, click the gear icon, and select **Delete**.
+If you have data that you don't plan to use in your report, you may want to delete the data to declutter the Data Drawer. To do this, open the Data Drawer, select the data table you want to delete, click the gear icon, and select **Delete**.
 
 ![Deleting a data table](<../../.gitbook/assets/image (436).png>)
 
@@ -34,7 +34,7 @@ If you are sure you want to delete the data table, click **Yes, delete it**.
 
 ## Download data
 
-You can download the data in a data table by opening the Data Tables drawer, selecting the data table you want to download, clicking the gear icon, and selecting **Download**. The data will download as a CSV.
+You can download the data in a data table by opening the Data Drawer, selecting the data table you want to download, clicking the gear icon, and selecting **Download**. The data will download as a CSV.
 
 ![Downloading data](<../../.gitbook/assets/image (435).png>)
 

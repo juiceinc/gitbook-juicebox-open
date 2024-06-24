@@ -246,7 +246,7 @@
 
 Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In this release, we're finishing our journey to remove the editing tabs in the editing panel on the left of the workspace. Some really important things are moving around ("_where's my data??_" and "_so... how do I share now?_" might be questions you'll ask). So, take a moment to review the highlights:
 
-* The **Data Tables drawer** replaces the Data tab
+* The **Data Drawer** replaces the Data tab
   * We've moved the Data tab to a drawer at the bottom of the window so you can easily see your data while you work. This gives you a clearer view of all your data and lets you switch between them more easily.
   * You can update your data using the easier-to-find **Replace file** button
   * A nice bonus: Now you can Download data tables making collaborating with other Editors easier than ever

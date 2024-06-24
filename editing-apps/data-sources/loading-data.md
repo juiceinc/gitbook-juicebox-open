@@ -8,7 +8,7 @@ You must load data before you can design your report. There are three ways to lo
 
 ## Upload a data file
 
-To upload the report's first data file, open the Data Tables drawer and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the file to be uploaded.
+To upload the report's first data file, open the Data Drawer and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the file to be uploaded.
 
 ![Add data by uploading a CSV or Excel file](<../../.gitbook/assets/image (324).png>)
 
@@ -26,7 +26,7 @@ Loading data
 
 ## Connect to sample data
 
-Juicebox also provides a selection of sample data tables if you want to start exploring before you have your own data. To load sample data, open the Data Tables drawer, select the **Sample Data** button, and choose one of the available datasets.&#x20;
+Juicebox also provides a selection of sample data tables if you want to start exploring before you have your own data. To load sample data, open the Data Drawer, select the **Sample Data** button, and choose one of the available datasets.&#x20;
 
 ![Load data by connecting to sample data](<../../.gitbook/assets/image (393).png>)
 
