@@ -6,6 +6,17 @@
 * Versions
 * Additional advanced report design options available through our report design consulting services.
 
+## Jun 21, 2024
+
+(release 4.37)
+
+### 🐛 Bug fixes & other improvements
+
+* Improve the inline text editing experience
+* Apply rate limits to juicebox api requests
+* Remove forced width on table slices in print pdfs
+* Fix: leaderboard not being rendered correctly sometimes
+
 ## Jun 13, 2024
 
 (release 4.36)
