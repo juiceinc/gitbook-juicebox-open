@@ -2,9 +2,37 @@
 
 ## What's coming soon?
 
-* In-line text editing
 * Versions
 * Additional advanced report design options available through our report design consulting services.
+
+## Jul 11, 2024
+
+(release 4.40)
+
+### 🐛 Bug fixes & other improvements
+
+* Add in-line text editing to the Headline slice
+* Improve app wizard fonts and colors
+
+## Jul 8, 2024
+
+(release 4.39)
+
+### 🎁 What's new?
+
+* In-line text editing
+
+### 🐛 Bug fixes & other improvements
+
+* Improve number formatting in pie charts
+
+## Jun 27, 2024
+
+(release 4.38)
+
+### 🐛 Bug fixes & other improvements
+
+* Improve toast notifications
 
 ## Jun 21, 2024
 
