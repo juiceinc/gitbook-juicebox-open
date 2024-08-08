@@ -3,7 +3,39 @@
 ## What's coming soon?
 
 * Versions
+* AI-generated summary text
 * Additional advanced report design options available through our report design consulting services.
+
+## Aug 1, 2024
+
+(release 4.43)
+
+### 🎁 What's new?
+
+* Enable and disable sections
+
+### 🐛 Bug fixes & other improvements
+
+* Improve in-line editing
+* Fixes to "Load more" in card, table and chart charts
+
+## Jul 25, 2024
+
+(release 4.42)
+
+### 🐛 Bug fixes & other improvements
+
+* Adds UI to set the min and max bubble size
+* Fix to slice alignment in PDFs
+
+## Jul 18, 2024
+
+(release 4.41)
+
+### 🐛 Bug fixes & other improvements
+
+* Fix for off-center positioning of centered text
+* Fixes to map legend styling
 
 ## Jul 11, 2024
 
