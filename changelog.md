@@ -6,6 +6,15 @@
 * AI-generated summary text
 * Additional advanced report design options available through our report design consulting services.
 
+## Aug 8, 2024
+
+(release 4.44)
+
+### 🐛 Bug fixes & other improvements
+
+* Fix: range dimensions that are single select should only send one value
+* Add infrastructure to support AI-generated summary text
+
 ## Aug 1, 2024
 
 (release 4.43)
