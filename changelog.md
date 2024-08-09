@@ -13,7 +13,7 @@
 ### 🐛 Bug fixes & other improvements
 
 * Fix: range dimensions that are single select should only send one value
-* Add infrastructure to support AI-generated summary text
+* Adds infrastructure to support AI-generated summary text
 
 ## Aug 1, 2024
 
