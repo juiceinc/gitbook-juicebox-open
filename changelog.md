@@ -6,6 +6,15 @@
 * AI-generated summary text
 * Additional advanced report design options available through our report design consulting services.
 
+## Aug 15, 2024
+
+(release 4.45)
+
+### 🐛 Bug fixes & other improvements
+
+* Adds new configuration option to the table slice to set the default sort order
+* Fix: Clear the title which switching off advanced titles
+
 ## Aug 8, 2024
 
 (release 4.44)
