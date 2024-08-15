@@ -13,7 +13,7 @@
 ### 🐛 Bug fixes & other improvements
 
 * Adds new configuration option to the table slice to set the default sort order
-* Fix: Clear the title which switching off advanced titles
+* Fix: Clear the title when switching off advanced titles
 
 ## Aug 8, 2024
 
