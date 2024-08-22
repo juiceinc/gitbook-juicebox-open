@@ -6,6 +6,15 @@
 * AI-generated summary text
 * Additional advanced report design options available through our report design consulting services.
 
+## Aug 22, 2024
+
+(release 4.46)
+
+### 🐛 Bug fixes & other improvements
+
+* Various improvements to the "Load more" feature in Bar, Table, and Card slices
+* Adds option to select the file extension of the Table slice data download
+
 ## Aug 15, 2024
 
 (release 4.45)
