@@ -6,6 +6,17 @@
 * AI-generated summary text
 * Additional advanced report design options available through our report design consulting services.
 
+## Aug 29, 2024
+
+(release 4.47)
+
+### 🐛 Bug fixes & other improvements
+
+* Adds option to add a section between other sections
+* Default data download file name is now app label + current date
+* Download data button is centered and uses data color
+* Fix to slice slug uniqueness when sections are hidden
+
 ## Aug 22, 2024
 
 (release 4.46)
