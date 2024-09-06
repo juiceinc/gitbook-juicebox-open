@@ -6,6 +6,19 @@
 * AI-generated summary text
 * Additional advanced report design options available through our report design consulting services.
 
+## Sep 6, 2024
+
+(release 4.48)
+
+### 🐛 Bug fixes & other improvements
+
+* Adds more selection options ("Select one required", "Select up to one")
+* Adds UI for AI configuration and improves AI caching
+* Improves bar slice performance
+* Adds variables.filters expression to aid complex ingredient calculations
+* Improves API
+* Improves compound ID selections
+
 ## Aug 29, 2024
 
 (release 4.47)
