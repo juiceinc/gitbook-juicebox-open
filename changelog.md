@@ -6,6 +6,16 @@
 * AI-generated summary text
 * Additional advanced report design options available through our report design consulting services.
 
+## Sep 12, 2024
+
+(release 4.49)
+
+### 🐛 Bug fixes & other improvements
+
+* Improves bar charts when only measures are selected
+* Improves AI caching
+* Improves color interpolation
+
 ## Sep 6, 2024
 
 (release 4.48)
