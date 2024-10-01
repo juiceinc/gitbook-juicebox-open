@@ -7,6 +7,22 @@
 * Streamlined filter pills that will appear in-line with the report (rather than the side panel opening on the left).&#x20;
 * Additional advanced report design options available through our report design consulting services.
 
+## Sep 30, 2024
+
+(release 4.51)
+
+### &#x20;Bug fixes & other improvements
+
+* Improvements to slice selections configuration UI.
+* Adds option to include filtering context as a slice footnote.&#x20;
+* Fix to slice background color picker bug.
+
+## Sep 19, 2024
+
+(release 4.50)
+
+This release focuses on behind-the-scenes improvements to our infrastructure. You shouldn't notice any changes in your experience.
+
 ## Sep 12, 2024
 
 (release 4.49)
