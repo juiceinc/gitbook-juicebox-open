@@ -7,6 +7,19 @@
 * Streamlined filter pills that will appear in-line with the report (rather than the side panel opening on the left).&#x20;
 * Additional advanced report design options available through our report design consulting services.
 
+## Oct 3, 2024
+
+(release 4.52)
+
+### 🎁 What's new?
+
+* Redesigned home page cards
+* New Reports Navigation slice
+
+### &#x20;Bug fixes & other improvements
+
+* Filter side panel replaced with dropdown
+
 ## Sep 30, 2024
 
 (release 4.51)
