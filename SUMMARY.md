@@ -43,6 +43,7 @@
     * [Map](editing-apps/story-designer/charts/map.md)
     * [Trend](editing-apps/story-designer/charts/trend.md)
     * [Pie](editing-apps/story-designer/charts/pie.md)
+  * [Page](editing-apps/story-designer/page.md)
 * [Share](editing-apps/publish-and-share/README.md)
   * [Publishing a report (or report changes)](editing-apps/publish-and-share/publishing-app-changes.md)
   * [Inviting viewers](editing-apps/publish-and-share/sharing-and-access-controls.md)
