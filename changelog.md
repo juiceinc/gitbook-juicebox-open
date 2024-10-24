@@ -7,6 +7,46 @@
 * Streamlined filter pills that will appear in-line with the report (rather than the side panel opening on the left).&#x20;
 * Additional advanced report design options available through our report design consulting services.
 
+## Oct 24, 2024
+
+(release 4.55)
+
+### 🎁 What's new?
+
+* Save Insight now allows for capture of either section or slice
+* Reports Navigation slice can be configured to pass selections from app to app
+* Allow user permissions to be edited from the People page
+
+### &#x20;Bug fixes & other improvements
+
+* Improvements to caching after ingredient definition changes
+* Fix to password saving
+
+## Oct 17, 2024
+
+(release 4.54)
+
+### 🎁 What's new?
+
+* Adds an optional Insights page to the Home page navigation
+
+### &#x20;Bug fixes & other improvements
+
+* Small fixes to Trend and Bar charts
+* Fix to user count displayed on the Home page
+
+## Oct 10, 2024
+
+(release 4.53)
+
+### 🎁 What's new?
+
+* Adds an optional badge for edits in the app header
+
+### &#x20;Bug fixes & other improvements
+
+* Fix to Reports Navigation for anonymous users
+
 ## Oct 3, 2024
 
 (release 4.52)
