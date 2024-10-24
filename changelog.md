@@ -2,9 +2,7 @@
 
 ## What's coming soon?
 
-* In-report navigation allowing users to jump to a different report from within the current report.
 * AI-enhanced results.
-* Streamlined filter pills that will appear in-line with the report (rather than the side panel opening on the left).&#x20;
 * Additional advanced report design options available through our report design consulting services.
 
 ## Oct 24, 2024
