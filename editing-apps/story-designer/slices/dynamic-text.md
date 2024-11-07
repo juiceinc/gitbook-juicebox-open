@@ -38,7 +38,7 @@ Here's an example
 
 We have a slice that lets you look at a leaderboard of Directors using the Movie Trends data.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>This slice is Leaderboard1</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (26).png" alt=""><figcaption><p>This slice is Leaderboard1</p></figcaption></figure>
 
 We can use the dynamic text below to show and change details about what is selected. Here's the text
 
@@ -52,4 +52,4 @@ _Change them yourself here @Leaderboard1.pill_
 
 Here's what this looks like.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

@@ -12,7 +12,7 @@ Until your report is shared, only editors in your workspace will see the changes
 2. Invite viewers
 
 {% hint style="info" %}
-You can also share a report by downloading it as a PNG or PDF file and sending to viewers as an attachment. To download the app, click the **Download** button in the header or header bar of either the draft or published version of the report.&#x20;
+You can also share a report by downloading it as a PNG or PDF file and sending to viewers as an attachment. To download the app, click the **Export** button in the header or header bar of either the draft or published version of the report.&#x20;
 {% endhint %}
 
 &#x20;The following pages describe these steps:

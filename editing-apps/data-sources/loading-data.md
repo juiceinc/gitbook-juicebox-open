@@ -1,6 +1,6 @@
 # Loading data
 
-You must load data before you can design your report. There are three ways to load data:
+You must load data before you can configure charts. There are three ways to load data:
 
 1. Upload a data file
 2. Connect to sample data
@@ -8,31 +8,25 @@ You must load data before you can design your report. There are three ways to lo
 
 ## Upload a data file
 
-To upload the report's first data file, open the Data Drawer and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the file to be uploaded.
+To upload the report's first data file, open the data drawer and drag a flat file (CSV, XLS, or XLSX) containing your data onto the data upload box or click **Upload CSV or Excel** and select the file to be uploaded. The file will be loaded to a BigQuery table and connected to the report.&#x20;
 
-![Add data by uploading a CSV or Excel file](<../../.gitbook/assets/image (324).png>)
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption><p>Add data by uploading a CSV or Excel file</p></figcaption></figure>
 
 To load additional data files, first click the + and then drag-and-drop or select your CSV or Excel file.
 
-![Click the "+" in the Data Tables drawer to add additional data tables](<../../.gitbook/assets/image (410).png>)
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption><p>Click the "+" in the data drawer to add additional data files</p></figcaption></figure>
 
 {% hint style="warning" %}
 When loading data files, it is important that your data be nice and clean. Here are some tips for [preparing your data](../design-tips/preparing-your-data.md).&#x20;
 {% endhint %}
 
-{% embed url="https://www.loom.com/share/870b08807fa24075baec0c27f3f7e8a2" %}
-Loading data
-{% endembed %}
-
 ## Connect to sample data
 
-Juicebox also provides a selection of sample data tables if you want to start exploring before you have your own data. To load sample data, open the Data Drawer, select the **Sample Data** button, and choose one of the available datasets.&#x20;
+Juicebox also provides a selection of sample data tables if you want to start exploring before you have your own data. To load sample data, open the data drawer, select the **Sample Data** button, and choose one of the available datasets.&#x20;
 
-![Load data by connecting to sample data](<../../.gitbook/assets/image (393).png>)
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption><p>Load sample data</p></figcaption></figure>
 
 Choose a sample data table and select **Add Table**.
-
-![](<../../.gitbook/assets/image (477).png>)
 
 The sample data includes the following tables.&#x20;
 
@@ -44,11 +38,9 @@ The sample data includes the following tables.&#x20;
 | video\_game\_sales             |  **🎮 Video Game Sales** ([CSV download](https://docs.google.com/spreadsheets/d/1HGTdSQF62dQMwyTCq71XcN5lO4cI9WzNIRthT1Uh\_eE/export?format=csv) or see the data in a [Google Sheet](https://docs.google.com/spreadsheets/d/1HGTdSQF62dQMwyTCq71XcN5lO4cI9WzNIRthT1Uh\_eE)). Source: [Kaggle](https://www.kaggle.com/gregorut/videogamesales). A helpful getting started [article and video](https://intercom.help/juiceboxdata/en/articles/4720121-simple-apps-dynamic-bar-chart-and-table) to create a dynamic bar chart. |
 | world\_happiness\_report\_2020 | **😀 World Happiness Report 2020** ([CSV download](https://docs.google.com/spreadsheets/d/1UuRe1YL79gi8eeNDBM\_oHMFiXUDvw4F2IJ6p9SNtZXI/export?format=csv\&gid=6513579) or see the data in a [Google Sheet](https://docs.google.com/spreadsheets/d/1UuRe1YL79gi8eeNDBM\_oHMFiXUDvw4F2IJ6p9SNtZXI/edit#gid=6513579)). Source: [World Happiness Report](https://worldhappiness.report/ed/2020/) and [Data.World](https://data.world/makeovermonday)                                                                           |
 
-If you want more ideas on data to start with, check out this [article](https://help.myjuicebox.io/en/articles/4346552-sample-data-to-get-started) in the Help Center.
+## Connect to a database table or view
 
-## Connect to a database table
-
-If your report is connected to a database, you can select the schema and table to use in the data source. If you are interested in connecting your report to a database, please reach out to us by clicking the blue button in the bottom right of your workspace and starting a chat with us or by emailing us at [help@myjuicebox.io](mailto:help@myjuicebox.io). The following databases are supported:
+If your report is connected to a database, you can select the schema and table (or view) to use as the data source. If you are interested in connecting your report to a database, please reach out to us by emailing us at help@myjuicebox.io or by starting a chat from the Help menu (click the Help icon at the top right of the report header or workspace home page).  The following databases are supported:
 
 * Redshift
 * Snowflake

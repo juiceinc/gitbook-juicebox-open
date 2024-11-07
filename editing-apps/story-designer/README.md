@@ -1,7 +1,3 @@
----
-description: Design is where you tell your story.
----
-
 # Design
 
 The editing panel is where you design your data story.&#x20;

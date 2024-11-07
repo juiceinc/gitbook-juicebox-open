@@ -5,6 +5,28 @@
 * AI-enhanced results.
 * Additional advanced report design options available through our report design consulting services.
 
+## Nov 7, 2024
+
+(release 4.57)
+
+### &#x20;Bug fixes & other improvements
+
+* Improvements API documentation
+* Adds config for Google Gemini safety settings
+* Improvements to the People page so that searches are performed on the backend
+
+## Oct 31, 2024
+
+(release 4.56)
+
+### &#x20;Bug fixes & other improvements
+
+* Improvements to dropdown menus
+* Improvements to action builder buttons
+* Fix to API regarding changing user properties
+* Fix to which apps editors can see on the Insights page
+* Fix to calendar popup x button
+
 ## Oct 24, 2024
 
 (release 4.55)
@@ -460,7 +482,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * **Add images to the background of your header and sections**. Take your data story style to the next level by adding background images to headers and sections. You can add your own images or find images on Unsplash.&#x20;
 
-![](<.gitbook/assets/image (1) (1) (1).png>)
+![](<.gitbook/assets/image (1) (1) (1) (1).png>)
 
 * **Streamlined data prep**. We've added lots of smarts to our data loading process so you can spend less time on data prep, more time telling your data story. &#x20;
 
