@@ -3,7 +3,44 @@
 ## What's coming soon?
 
 * AI-enhanced results.
+* Redesigned editing panel.
 * Additional advanced report design options available through our report design consulting services.
+
+## Dec 12, 2024
+
+(release 4.61)
+
+### &#x20;Bug fixes & other improvements
+
+* Improvements to Publish & Share modal
+* Fix to repositioning of Filter slice dropdown from an embedded filter pill&#x20;
+
+## Dec 5, 2024
+
+(release 4.60)
+
+### &#x20;Bug fixes & other improvements
+
+* Fix to the Media slice to allow multiple images in the same section
+* Fix to correct overflow issues with long card description text
+
+## Nov 21, 2024
+
+(release 4.59)
+
+### &#x20;Bug fixes & other improvements
+
+* Improvements to Bar chart performance
+* Adds shortcut keys for common editing tasks
+
+## Nov 14, 2024
+
+(release 4.58)
+
+### &#x20;Bug fixes & other improvements
+
+* Improvements to the People page
+* Adds new Orientation layout option for the Card slice
 
 ## Nov 7, 2024
 
@@ -11,7 +48,7 @@
 
 ### &#x20;Bug fixes & other improvements
 
-* Improvements API documentation
+* Improvements to API documentation
 * Adds config for Google Gemini safety settings
 * Improvements to the People page so that searches are performed on the backend
 
@@ -418,7 +455,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
   \
   Confession time: Over the years, we've sidestepped the Great Pie Chart Controversy (Really? [Yes](http://www.perceptualedge.com/articles/08-21-07.pdf). [Oh yes](https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts).) by not offering a pie chart. But not anymore! Our pie chart is beautiful, simple to make, and automatically avoids those perilous pie-chart pitfalls. It's the right chart for showing parts of a whole, and we think you'll love it. Give it a try!
 
-![](.gitbook/assets/pie\_chart.gif)
+![](.gitbook/assets/pie_chart.gif)
 
 ### 🐛 Bug fixes & other improvements
 
@@ -443,7 +480,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Four new font themes give you more options for setting the tone of your app.&#x20;
 * Four new color themes add both dark and light palettes.
 
-![](.gitbook/assets/Screen\_Recording\_2022-03-08\_at\_2.37.23\_PM.gif)
+![](.gitbook/assets/Screen_Recording_2022-03-08_at_2.37.23_PM.gif)
 
 ### 🐛 Bug fixes & other improvements
 
@@ -474,7 +511,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Column and measure pills have a new, cleaner look and are easier to remove from charts.
 * For apps with multiple data tables, a new chart configuration option lets you choose which data table to use in the chart.&#x20;
 
-![](.gitbook/assets/Screen\_Shot\_2022-02-11\_at\_9\_58\_58\_AM.jpg)
+![](.gitbook/assets/Screen_Shot_2022-02-11_at_9_58_58_AM.jpg)
 
 ## December 8, 2021
 
@@ -514,7 +551,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **Templates added to the **_**+Create New**_** app workflow**. We've incorporated templates of some of our best Juice-approved app designs into the workflow where you create a new app. These templates include full apps, and singular (but sweetly styled) charts that you can pick from. You can also add complete example apps to your workspace to use as inspiration and reference. Now, that data report idea you have can get the Juice-approved kick start you've been looking for.
+* **Templates added to the&#x20;**_**+Create New**_**&#x20;app workflow**. We've incorporated templates of some of our best Juice-approved app designs into the workflow where you create a new app. These templates include full apps, and singular (but sweetly styled) charts that you can pick from. You can also add complete example apps to your workspace to use as inspiration and reference. Now, that data report idea you have can get the Juice-approved kick start you've been looking for.
 
 ![](.gitbook/assets/templates3.gif)
 
@@ -565,7 +602,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * **✨New text editor✨** With our new text editor, you can add and style text, emojis 🔥, and links with ease. Huzzah! (But if you still want to get down with Markdown, you can do that too.)
 * **Multi-line trend.** Now you can show up to 5 measures in a single trend chart. Compare to a target or a moving average (or both!) and bring context and clarity to changes over time. And if you want dual vertical axes, you can do that too.&#x20;
 
-![](.gitbook/assets/Screen\_Recording\_2021-07-22\_at\_12.43.47\_PM.gif)
+![](.gitbook/assets/Screen_Recording_2021-07-22_at_12.43.47_PM.gif)
 
 * **Custom subdomains**. Is your cute-and-fruity workspace subdomain a little _too_ cute for your needs? Now you can customize your subdomain in the new Settings page. (Requires a Team plan subscription.)
 * **Team plan goodies**. Sign up for the Team plan and get access to more users, bigger uploads, a custom subdomain, and more.&#x20;
@@ -596,7 +633,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * **Easy-to-add images**. Juicebox's new image upload capability lets you easily add images to your Juicebox app -- no more cryptic code. And, you can make an even bigger splash with the [Unsplash ](https://unsplash.com/)integration. Now, go image like a pro 📸.
 
-![](.gitbook/assets/Add\_an\_image.gif)
+![](.gitbook/assets/Add_an_image.gif)
 
 * **Add a chart even if you don't have data.** No data? No problem! Now when you click "Add a Chart" and select a chart type, you'll see an example of that chart in your app. Even if you don't yet have all the data that chart requires, it will still display _and_ be interactive. So, now you can build your data story and _then_ go find the data that tells your story. That's one more blocker to frictionless storytelling _eliminated!_ 🥊
 
@@ -616,7 +653,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
   * **Know your apps** — Finally, more information about app publish status is on the apps page.
   * **😍 your apps** — The app layout is more beautiful. Oh yeah, and it uses less space. _A lot_ less.
 
-![](.gitbook/assets/New\_Apps\_Page.gif)
+![](.gitbook/assets/New_Apps_Page.gif)
 
 * **Simplified Editor Tabs** — The options in the Settings tab have been moved into the Designer tab of the Editing Panel to help keep everything simple. So, from now on, that's where you'll be setting the Settings settings.
 
@@ -632,7 +669,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * ✨**Drag and drop data loading**: The Data tab in the editor gets you where you need to go with fewer clicks. You can 🐉drag-n-drop CSV files to create new data sources or replace data in an existing data source.
 
-![](.gitbook/assets/Drag\_and\_drop\_2.gif)
+![](.gitbook/assets/Drag_and_drop_2.gif)
 
 ### 🐛 Bug fixes & other improvements
 
@@ -647,7 +684,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * **Easier sign in**. If you've ever created a workspace only to realize you don't quite remember how to get back to that space, you know how low that can make you feel. But, those day of scrounging around for the right URL are gone! Now, you can just point your browser to [myjuicebox.io](https://www.myjuicebox.io) and sign in there -- you'll be ushered right to your space, just like the celeb you are. (Oh yeah, and if you have multiple workspaces, you'll be able to pick the one you want -- all from [myjuicebox.io](https://www.myjuicebox.io).)
 
-![](.gitbook/assets/Screen\_Recording\_2021-04-12\_at\_5.12.50\_PM.gif)
+![](.gitbook/assets/Screen_Recording_2021-04-12_at_5.12.50_PM.gif)
 
 * **Sample data**. We've brought some interesting sample data sets to Juicebox so you can start making presentations without hunting for a clean CSV.
 
@@ -663,7 +700,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * ✉️  **Invite editors to your workspace**. Now you can add editors to your workspace team more quickly by sharing invite links or sending invitation emails from either the People page or from the Publish & Share section of an app.&#x20;
 
-![](.gitbook/assets/Screen\_Recording\_2021-02-25\_at\_3.30.09\_PM.gif)
+![](.gitbook/assets/Screen_Recording_2021-02-25_at_3.30.09_PM.gif)
 
 * 🕵️‍♀️ **Find your folks**. The new search bar in the People page lets you find and manage users even more easily.
 
@@ -681,7 +718,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * :earth\_americas:**Publish as "Public"**. Apps can now be [viewed by anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops (or from your favorite social network)! 🏔
 
-![Publish as a public app](.gitbook/assets/Screen\_Recording\_2021-01-15\_at\_6.06.57\_PM.gif)
+![Publish as a public app](.gitbook/assets/Screen_Recording_2021-01-15_at_6.06.57_PM.gif)
 
 * **Better control of who can see what.** Owners and Admins have a new [People page](managing-users/user-management-and-roles.md#managing-users) to see who is using your apps. Friend your friends:smiling\_face\_with\_3\_hearts:; change user roles:fist:; control app access:closed\_lock\_with\_key:; unfriend your enemies:unamused:.&#x20;
 
@@ -698,9 +735,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * **Sign up for a workspace.** Now you (and all your friends) can [create your own workspace](getting-started/new-workspace.md). Why would you want your own workspace? Perhaps you want to do some data presentation work for that non-profit you're helping out with. Or maybe you have an idea for a data reporting side-gig. Whatever data-prez itch you have, now you can create a separate workspace to put it in. _Juicebox all-the-things!_
 * **Duplicate an app.** If you want to create a new app that is similar to an existing app, you can [duplicate it](broken-reference).
 
-![Duplicate an app](.gitbook/assets/Screen\_Recording\_2020-12-16\_at\_12.23.23\_PM.gif)
+![Duplicate an app](.gitbook/assets/Screen_Recording_2020-12-16_at_12.23.23_PM.gif)
 
-* **New footer.**🦶Your app footer now shows the name of the app, when it was last published, the Juicebox version, and all the legal stuff. No more wondering if your Juicebox is up to date.
+* **New footer.**&#xD83E;�Your app footer now shows the name of the app, when it was last published, the Juicebox version, and all the legal stuff. No more wondering if your Juicebox is up to date.
 
 ### 🐛 Bug fixes & other improvements
 
