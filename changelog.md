@@ -6,6 +6,30 @@
 * Redesigned editing panel.
 * Additional advanced report design options available through our report design consulting services.
 
+## Jan 3, 2025
+
+(release 4.63)
+
+### 🎁 What's new?
+
+* Adds a simple ribbon at the top of the draft app for common app-level changes
+
+### &#x20;Bug fixes & other improvements
+
+* Removes the paragraph tag in the published app when the slice title is empty
+* User list API can no search for integers
+* Adds a new height option to the Trend slice
+
+## Dec 19, 2024
+
+(release 4.62)
+
+### &#x20;Bug fixes & other improvements
+
+* Adds a new height option to the Table, Bar, and Card slices
+* Adds the option to customize pie chart colors
+* Adds a My Apps category to the Create New UI for apps marked as clone-able
+
 ## Dec 12, 2024
 
 (release 4.61)
