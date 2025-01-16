@@ -6,6 +6,33 @@
 * Redesigned editing panel.
 * Additional advanced report design options available through our report design consulting services.
 
+## Jan 16, 2025
+
+(release 4.65)
+
+### 🎁 What's new?
+
+* Adds a new Settings & Themes option to show a Table of Contents dropdown in the app ribbon for quick navigation between sections
+
+### &#x20;Bug fixes & other improvements
+
+* Adds a "Wrap cards" orientation option for the Card slice
+* Fixes issue with filter pill search not resetting for paginated slices
+
+## Jan 9, 2025
+
+(release 4.64)
+
+### 🎁 What's new?
+
+* Adds ability to set up new users from the People page
+
+### &#x20;Bug fixes & other improvements
+
+* Adds additional configuration settings to y axes (primary and secondary) in the Trend chart
+* Adds option to show percent-of-whole in the Bar chart
+* Fixes to starter report preview
+
 ## Jan 3, 2025
 
 (release 4.63)
