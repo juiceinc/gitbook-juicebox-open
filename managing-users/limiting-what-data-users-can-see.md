@@ -4,10 +4,6 @@ description: Juicebox apps have integrated data permissions.
 
 # Limiting what data users can see
 
-{% hint style="warning" %}
-Data permissions are only available for Juice Design+ clients with a billing plan that allows user filters.
-{% endhint %}
-
 **Data permissions objects** create filters that are applied to every database query. If the database table does not contain the column or ingredient referenced, the data permission will be ignored.
 
 Data permission objects reference ingredients which are named expressions that can use more than one database column. Data permission objects will soon be able to reference raw table columns by surrounding the column name with square bracket.

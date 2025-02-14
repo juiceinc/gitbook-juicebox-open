@@ -6,6 +6,45 @@
 * Redesigned editing panel.
 * Additional advanced report design options available through our report design consulting services.
 
+## Feb 13, 2025
+
+(release 4.68)
+
+### 🎁 What's new?
+
+* Buckets generation using AI (beta)
+* Trend line styling options
+* New bulk user creation API endpoint
+
+### &#x20;Bug fixes & other improvements
+
+* Removes "View" button for unpublished reports
+* Modifies bar chart tooltips to show % value if configured to show % of whole
+* Removed "Duplicate as Advanced" option for ingredients
+
+## Feb 6, 2025
+
+(release 4.67)
+
+### 🎁 What's new?
+
+* Filters slice style option to show filter options as a Dropdown or Checkbox
+
+### &#x20;Bug fixes & other improvements
+
+* Fix to Add User form to view all reports when scrolling
+* Fix to Add User form to initially deselect all reports for Customized report access
+
+## Jan 30, 2025
+
+(release 4.66)
+
+### &#x20;Bug fixes & other improvements
+
+* Adds a badge for ingredients that use buckets
+* Fixes to Trend tooltip so it doesn't get cut off
+* Removes deprecated Bar chart from UI
+
 ## Jan 16, 2025
 
 (release 4.65)
