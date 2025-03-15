@@ -6,6 +6,63 @@
 * Redesigned editing panel.
 * Additional advanced report design options available through our report design consulting services.
 
+## Mar 13, 2025
+
+(release 4.72)
+
+### 🎁 What's new?
+
+* Select all button added to filters dropdown
+
+### &#x20;Bug fixes & other improvements
+
+* Trend allows clearing selections without using the filter pill
+* Improved handling of duplicate ids in the filter pill
+* Fix to errors in filtersSummary dynamic text if "None" is selected
+* Adds the Reverse control to the ingredient editor for all ingredient types
+
+## Mar 6, 2025
+
+(release 4.71)
+
+### &#x20;Bug fixes & other improvements
+
+* Various improvements to the rich text editing experience
+* Improved data connections to support more connection types, including Databricks
+* App-level data permissions now apply to the draft app (rather than just the published app)
+* Fix to button functionality in the Reports search bar
+
+## Feb 27, 2025
+
+(release 4.70)
+
+### &#x20;Bug fixes & other improvements
+
+* Adds Invite User button to the Add User page
+* Improvements to the comparison measure chooser if the comparison values are 0
+* Fix to data source scrolling in the data drawer
+
+## Feb 20, 2025
+
+(release 4.69)
+
+### 🎁 What's new?
+
+* New dimension value break out in the Trend slice
+* Trend line styling options
+* New bulk user creation API endpoint
+
+### &#x20;Bug fixes & other improvements
+
+* Leaderboard now allows the user to set a custom number of rows to display in the Leaderboard
+* Leaderboard now allows up to 8 measures
+* Pie now has the option to hide the legend/list
+* Bar chart now has the option to hide the y-axis
+* For Bar chart with values displayed as "percent of whole":
+  * percentages will show decimals only if required distinguish between multiple measure values
+  * percent rather than value will display on the y-axis
+* Removes data source from the Reports Navigation slice
+
 ## Feb 13, 2025
 
 (release 4.68)
