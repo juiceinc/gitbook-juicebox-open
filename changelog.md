@@ -6,6 +6,22 @@
 * Redesigned editing panel.
 * Additional advanced report design options available through our report design consulting services.
 
+## Mar 20, 2025
+
+(release 4.73)
+
+### 🎁 What's new?
+
+* New loading progress bar at the bottom of published apps and "Filtered" notifications in each slice
+* New data\_add() function that allows a date to be offset by date units. For example, `date_add(sale_date, -1, year)`will return the sale date minus 1 year.&#x20;
+
+### &#x20;Bug fixes & other improvements
+
+* Option to show grid lines added to the Trend chart
+* Font schemes now use OS fonts rather than web fonts to reduce page load time and empower end users to tailor how fonts appear
+* datediff() and week() functions updated to support more databases, including SQLServer
+* Fix to AI-generated titles
+
 ## Mar 13, 2025
 
 (release 4.72)
