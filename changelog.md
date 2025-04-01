@@ -6,6 +6,18 @@
 * Redesigned editing panel.
 * Additional advanced report design options available through our report design consulting services.
 
+## Mar 27, 2025
+
+(release 4.74)
+
+### Bug fixes & other improvements
+
+* Improves database support for various date functions
+* Adds shadow for horizontal scrolling in the Table slice
+* Adds a PDF Poster export option
+* Flips comparison colors in the measure chooser if both the base and comparison measures have Reverse turned on
+* Fixes @slice\_slug.list dynamic text
+
 ## Mar 20, 2025
 
 (release 4.73)
