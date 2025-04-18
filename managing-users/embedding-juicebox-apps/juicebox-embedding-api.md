@@ -16,167 +16,161 @@ To embed Juicebox apps in your own website, follow these steps.
 
 Let's look at the details for each of these steps.
 
-{% swagger method="get" path="/" baseUrl="https://{domain}.myjuicebox.io/api/v1/jb/api-token-auth" summary="Request a JWT token for a Client Admin user" expanded="true" fullWidth="true" %}
-{% swagger-description %}
+## Request a JWT token for a Client Admin user
+
+<mark style="color:blue;">`GET`</mark> `https://{domain}.myjuicebox.io/api/v1/jb/api-token-auth/`
+
 Request a token that represents a client admin user. This user has permissions to perform user setup and request embed urls for your Juicebox account.
-{% endswagger-description %}
 
-{% swagger-parameter in="body" name="email" type="String" required="true" %}
-A client admin email
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="body" name="password" type="String" required="true" %}
-A client admin password
-{% endswagger-parameter %}
+| Name                                     | Type   | Description          |
+| ---------------------------------------- | ------ | -------------------- |
+| domain<mark style="color:red;">\*</mark> | String | Your Juicebox domain |
 
-{% swagger-parameter in="header" name="Content-Type" type="String" required="true" %}
-application/json
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="path" required="true" name="domain" %}
-Your Juicebox domain
-{% endswagger-parameter %}
+| Name                                           | Type   | Description      |
+| ---------------------------------------------- | ------ | ---------------- |
+| Content-Type<mark style="color:red;">\*</mark> | String | application/json |
 
-{% swagger-response status="200: OK" description="Response will contain a token to use for further requests" %}
+#### Request Body
+
+| Name                                       | Type   | Description             |
+| ------------------------------------------ | ------ | ----------------------- |
+| email<mark style="color:red;">\*</mark>    | String | A client admin email    |
+| password<mark style="color:red;">\*</mark> | String | A client admin password |
+
+{% tabs %}
+{% tab title="200: OK Response will contain a token to use for further requests" %}
 ```
 {
   "token": {client admin token}
 }
 ```
-{% endswagger-response %}
+{% endtab %}
 
-{% swagger-response status="400: Bad Request" description="If your email/password combination is invalid you will receive an Json containing error information." %}
+{% tab title="400: Bad Request If your email/password combination is invalid you will receive an Json containing error information." %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Find the app you want the user to be able to see.
 
-{% swagger method="get" path="/api/v1/jb/apps/" baseUrl="https://{domain}.myjuicebox.io" summary="Request list of available apps" expanded="true" fullWidth="true" %}
-{% swagger-description %}
+## Request list of available apps
+
+<mark style="color:blue;">`GET`</mark> `https://{domain}.myjuicebox.io/api/v1/jb/apps/`
+
 Get a list of all available apps. Juicebox apps have both a published and draft version. The draft version will only be visible to editors and admins.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-"JWT {token}"
+#### Handling Pagination
 
+If the number of available apps exceeds 100, the list of apps will be paginated. Response headers will contain the following values.
 
+* `X-Count` The total number of apps available.
+* `X-Page`The current page number
+* `X-PageSize` The number of apps on each page.
+* `X-Next` A link to fetch the next page of data. This will be "None" when on the last page of data.
+* `X-Previous` A link to fetch the previous page of data. This will be "None" when on the first page of data.
 
-A JWT token for a client admin user.
-{% endswagger-parameter %}
+#### Path Parameters
 
-{% swagger-parameter in="path" name="domain" required="true" %}
-Your Juicebox domain
-{% endswagger-parameter %}
+| Name                                     | Type   | Description          |
+| ---------------------------------------- | ------ | -------------------- |
+| domain<mark style="color:red;">\*</mark> | String | Your Juicebox domain |
 
-{% swagger-response status="200: OK" description="A Json list of all apps in this workspace." %}
+#### Headers
 
-{% endswagger-response %}
+| Name                                            | Type   | Description                                                            |
+| ----------------------------------------------- | ------ | ---------------------------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | <p>"JWT {token}"</p><p></p><p>A JWT token for a client admin user.</p> |
 
-{% swagger-response status="403: Forbidden" description="You do not have permission to view the list of apps." %}
+{% tabs %}
+{% tab title="200: OK A Json list of all apps in this workspace." %}
 
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+
+{% tab title="403: Forbidden You do not have permission to view the list of apps." %}
+
+{% endtab %}
+{% endtabs %}
 
 Create a user with the Juicebox Data Permissions and app access you desire.
 
-{% swagger method="post" path="{domain}.myjuicebox.io/api/v1/jb/users/" baseUrl="https://" summary="Create a user" expanded="true" fullWidth="true" %}
-{% swagger-description %}
+## Create a user
 
-{% endswagger-description %}
+<mark style="color:green;">`POST`</mark> `https://{domain}.myjuicebox.io/api/v1/jb/users/`
 
-{% swagger-parameter in="header" name="Authorization" type="String" required="true" %}
-"JWT {token}"
+#### Path Parameters
 
+| Name                                     | Type   | Description          |
+| ---------------------------------------- | ------ | -------------------- |
+| domain<mark style="color:red;">\*</mark> | String | Your Juicebox domain |
 
+#### Headers
 
-A JWT token for a client admin user.
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                                            |
+| ----------------------------------------------- | ------ | ---------------------------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | <p>"JWT {token}"</p><p></p><p>A JWT token for a client admin user.</p> |
 
-{% swagger-parameter in="body" name="email" required="true" %}
-The email address of the user you want to create.
-{% endswagger-parameter %}
+#### Request Body
 
-{% swagger-parameter in="body" name="extra" type="Json" %}
-A **Juicebox Data Permissions** object to control what this user can see. If omitted, the user will not have any data permissions applied.
-{% endswagger-parameter %}
+| Name                                    | Type   | Description                                                                                                                                |
+| --------------------------------------- | ------ | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| email<mark style="color:red;">\*</mark> | String | The email address of the user you want to create.                                                                                          |
+| extra                                   | Json   | A **Juicebox Data Permissions** object to control what this user can see. If omitted, the user will not have any data permissions applied. |
+| first\_name                             | String | The user's first name                                                                                                                      |
+| last\_name                              | String | The user's last name                                                                                                                       |
+| apps                                    |        | A list of app ids that this user is allowed to see.                                                                                        |
 
-{% swagger-parameter in="body" name="first_name" %}
-The user's first name
-{% endswagger-parameter %}
+{% tabs %}
+{% tab title="201: Created The user was created." %}
 
-{% swagger-parameter in="body" name="last_name" %}
-The user's last name
-{% endswagger-parameter %}
+{% endtab %}
 
-{% swagger-parameter in="body" name="apps" type="" %}
-A list of app ids that this user is allowed to see.
-{% endswagger-parameter %}
+{% tab title="403: Forbidden You do not have permissions to create a user." %}
 
-{% swagger-parameter in="path" name="domain" required="true" %}
-Your Juicebox domain
-{% endswagger-parameter %}
-
-{% swagger-response status="201: Created" description="The user was created." %}
-
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="You do not have permissions to create a user." %}
-
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 Now you can request an app embed url.
 
-{% swagger method="post" path="/jb/apps/{appid}/embed/{email}/" baseUrl="https://{domain}.myjuicebox.io/api/v1" summary="Request an app embed url for a user" expanded="true" fullWidth="true" %}
-{% swagger-description %}
+## Request an app embed url for a user
+
+<mark style="color:green;">`POST`</mark> `https://{domain}.myjuicebox.io/api/v1/jb/apps/{appid}/embed/{email}/`
+
 For security, the default duration of an embed url is 60 seconds. It can only be loaded once. It can be regenerated as many times as needed.
-{% endswagger-description %}
 
-{% swagger-parameter in="header" name="Authorization" required="true" %}
-"JWT {token}"
+#### Path Parameters
 
+| Name                                     | Type   | Description                                        |
+| ---------------------------------------- | ------ | -------------------------------------------------- |
+| domain<mark style="color:red;">\*</mark> | String | Your Juicebox domain                               |
+| appid<mark style="color:red;">\*</mark>  | String | An app id for an app this user has access to.      |
+| email<mark style="color:red;">\*</mark>  | String | An email for a user that has already been created. |
 
+#### Query Parameters
 
-A JWT token for a client admin user.
-{% endswagger-parameter %}
+| Name         | Type   | Description                                                                                                                                                                                                           |
+| ------------ | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| show\_header | String | <p>If this parameter is present in the query string, the application header (which allows export as png and pdf) will be displayed. </p><p></p><p>Turn off display of the header with <code>?show_header=0</code></p> |
+| show\_footer | String | <p>If this parameter is present in the query string, the application footer will be displayed.</p><p></p><p>Turn off display of the header with <code>?show_footer=0</code></p>                                       |
 
-{% swagger-parameter in="path" name="domain" required="true" %}
-Your Juicebox domain
-{% endswagger-parameter %}
+#### Headers
 
-{% swagger-parameter in="path" name="appid" required="true" %}
-An app id for an app this user has access to.
-{% endswagger-parameter %}
+| Name                                            | Type   | Description                                                            |
+| ----------------------------------------------- | ------ | ---------------------------------------------------------------------- |
+| Authorization<mark style="color:red;">\*</mark> | String | <p>"JWT {token}"</p><p></p><p>A JWT token for a client admin user.</p> |
 
-{% swagger-parameter in="path" name="email" required="true" %}
-An email for a user that has already been created.
-{% endswagger-parameter %}
+{% tabs %}
+{% tab title="200: OK The response will contain Json with url and expires_at keys. This url can be embedded in an iframe." %}
 
-{% swagger-parameter in="query" name="show_header" %}
-If this parameter is present in the query string, the application header (which allows export as png and pdf) will be displayed.&#x20;
+{% endtab %}
 
+{% tab title="403: Forbidden The user does not have permission to request app embeds." %}
 
-
-Turn off display of the header with `?show_header=0`
-{% endswagger-parameter %}
-
-{% swagger-parameter in="query" name="show_footer" %}
-If this parameter is present in the query string, the application footer will be displayed.
-
-
-
-Turn off display of the header with `?show_footer=0`
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="The response will contain Json with url and expires_at keys. This url can be embedded in an iframe." %}
-
-{% endswagger-response %}
-
-{% swagger-response status="403: Forbidden" description="The user does not have permission to request app embeds." %}
-
-{% endswagger-response %}
-{% endswagger %}
+{% endtab %}
+{% endtabs %}
 
 
 
