@@ -1,5 +1,4 @@
 ---
-hidden: true
 layout:
   title:
     visible: true
@@ -13,7 +12,7 @@ layout:
     visible: true
 ---
 
-# BigQuery database connection
+# Connecting to BigQuery
 
 To connect to BigQuery, you'll need to give Juicebox service accounts permission on the BigQuery datasets that you want to share. [Reach out to us](../../../getting-started/reach-out-to-us.md) to get our service accounts.&#x20;
 

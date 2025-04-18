@@ -1,8 +1,4 @@
----
-hidden: true
----
-
-# SQL Server database connection
+# Connecting to SQL Server
 
 To set up a connection to a SQL Server database, you'll need to provide us the following information:
 

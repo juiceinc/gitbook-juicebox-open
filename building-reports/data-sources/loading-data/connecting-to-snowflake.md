@@ -1,5 +1,4 @@
 ---
-hidden: true
 layout:
   title:
     visible: true
@@ -13,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Snowflake database connection
+# Connecting to Snowflake
 
 To set up a connection to a Snowflake database, you'll need to provide us the following information:
 

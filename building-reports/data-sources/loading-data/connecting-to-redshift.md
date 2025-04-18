@@ -1,5 +1,4 @@
 ---
-hidden: true
 layout:
   title:
     visible: true
@@ -13,7 +12,7 @@ layout:
     visible: true
 ---
 
-# Redshift database connection
+# Connecting to Redshift
 
 To set up a connection to a Redshift database, you'll need to provide us the following information:
 
