@@ -25,7 +25,7 @@ The Basics section of the ingredient editor contains the options that are requir
 
 <figure><img src="../../../../.gitbook/assets/image (511).png" alt=""><figcaption><p>The dimension ingredient Basics section</p></figcaption></figure>
 
-**Field formula**. This is where the ingredient logic is defined. It could be the name of a single column or it could involve [complex logic](advanced-formulas.md).&#x20;
+**Field formula**. This is where the ingredient logic is defined. It could be the name of a single column or it could involve [complex logic](../../../../editing-apps/data-sources/advanced-ingredients/advanced-formulas.md).&#x20;
 
 **Plural label**. This is the label that will be used when the user selects multiple dimension values or no dimension values in the report.&#x20;
 
@@ -61,7 +61,7 @@ Image url
 
 #### Buckets
 
-A bucketed dimension groups field values into buckets based on [conditions](advanced-formulas.md#conditional-logic) in the **Buckets** box, like so:
+A bucketed dimension groups field values into buckets based on [conditions](../../../../editing-apps/data-sources/advanced-ingredients/advanced-formulas.md#conditional-logic) in the **Buckets** box, like so:
 
 ```
 - label: [label 1]

@@ -10,7 +10,7 @@ You can add, subtract, multiply and divide numeric data fields; apply conversion
 
 You can perform mathematical operations with data fields and constants. For example, if you have `sale_amount` and `cost_amount` in your data, you can add a **Profits** dimension like so:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (530).png" alt=""><figcaption><p>A dimension that uses field math</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (530).png" alt=""><figcaption><p>A dimension that uses field math</p></figcaption></figure>
 
 If you divide by zero, you’ll get a null.&#x20;
 
@@ -31,11 +31,28 @@ Conversion functions change the value for a field. It might change to a differen
 | Extract a component of a date                        | `extract(YEAR, birth_date)`                                                                  |
 | Return the last date in a period                     | `lastday(sales_date, MONTH)` note: this can be used only on bigquery and snowflake databases |
 
+### Date parts in datediff and extract
+
+When using the `datediff` and `extract` functions, you can supply a datepart. This will determine the units that are counted or extracted. Possible values are
+
+| Date part                         | Description                                                                                                                            |
+| --------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| day                               |                                                                                                                                        |
+| week                              | This begins on Sunday                                                                                                                  |
+| week(weekday)                     | This date part begins on weekday. Valid weekdays are "sunday", "monday", "tuesday", "wednesday", "thursday", "friday", and "saturday". |
+| month                             |                                                                                                                                        |
+| quarter                           |                                                                                                                                        |
+| year                              |                                                                                                                                        |
+| isoweek                           | Uses ISO 8601 week boundaries. ISO weeks begin on Monday                                                                               |
+| isoyear                           | Uses ISO 8601 week-numbering year boundary.                                                                                            |
+| dayofweek (extract function only) | Sunday=1, Monday=2, etc.                                                                                                               |
+| dayofyear (extract function only) |                                                                                                                                        |
+
 ### Concatenating text fields
 
 You can use `+` to concatenate text data fields together. For example, you can concatenate `first_name` and `last_name` to create a **Full name** dimension.&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (531).png" alt=""><figcaption><p>Concatenate text fields</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (531).png" alt=""><figcaption><p>Concatenate text fields</p></figcaption></figure>
 
 {% hint style="warning" %}
 You must use double quotes in field expressions to define string constants. Single quotes will not work.&#x20;
@@ -55,7 +72,7 @@ When you upload a CSV file, percentiles and medians are calculated as approximat
 
 You can combine multiple aggregation functions together. For example, if you have `sales_amount` and `salesperson_id` in your data, you can add a **Sales per Salesperson** measure using the `sum()` and `count_distinct()` aggregation functions together like so:&#x20;
 
-<figure><img src="../../../../.gitbook/assets/image (533).png" alt=""><figcaption><p>Combine multiple aggregation functions</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (533).png" alt=""><figcaption><p>Combine multiple aggregation functions</p></figcaption></figure>
 
 ## Conditional logic
 

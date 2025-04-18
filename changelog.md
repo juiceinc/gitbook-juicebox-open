@@ -970,7 +970,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🐛 Bug fixes & other improvements
 
 * **Roll up time ingredients by month or year**: You can easily roll up time ingredient dates by month or year by choosing a month or year format when [defining the time ingredient](broken-reference). It's time to roll ⏰.
-* **New advanced ingredient functions:** There are new options for advanced aggregations. You can calculate [percentiles and ages](building-reports/story-designer/ingredients/the-ingredient-editor/advanced-formulas.md#aggregation-functions). This improvement is in the top percentile.
+* **New advanced ingredient functions:** There are new options for advanced aggregations. You can calculate [percentiles and ages](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md#aggregation-functions). This improvement is in the top percentile.
 * **More docs on formatting:** The advanced ingredients docs now contains lots of examples of how to build [custom number formats](broken-reference). `,.0f" days until Christmas"` might not mean anything to you, but it does to Juicebox. And to Santa. 🎁
 * Various performance and bug fixes.
 
@@ -1001,7 +1001,7 @@ Invite anyone to create an account and view your app by simply [sharing your acc
 
 ### 🎁What's New?
 
-* **Date improvements** 📅- New Data Ingredients options let you [group dates](building-reports/story-designer/ingredients/the-ingredient-editor/advanced-formulas.md#conversion-functions) by week, month, quarter or year.
+* **Date improvements** 📅- New Data Ingredients options let you [group dates](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md#conversion-functions) by week, month, quarter or year.
 
 ### 🐛Bug Fixes & Other improvements
 

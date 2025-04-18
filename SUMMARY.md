@@ -27,7 +27,7 @@
       * [The dimension ingredient editor](building-reports/story-designer/ingredients/the-ingredient-editor/the-dimension-ingredient-editor.md)
       * [The measure ingredient editor](building-reports/story-designer/ingredients/the-ingredient-editor/the-measure-ingredient-editor.md)
       * [Adding new ingredients](building-reports/story-designer/ingredients/the-ingredient-editor/adding-new-ingredients.md)
-      * [Advanced field formulas](building-reports/story-designer/ingredients/the-ingredient-editor/advanced-formulas.md)
+      * [Advanced field formulas](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md)
       * [Time formats](building-reports/story-designer/ingredients/the-ingredient-editor/time-formats.md)
       * [Number formats](building-reports/story-designer/ingredients/the-ingredient-editor/ingredient-formats.md)
   * [Slices](building-reports/story-designer/slices/README.md)
