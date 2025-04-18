@@ -2,10 +2,10 @@
 
 ## Adding viewers to a report
 
-To add a viewer to a report with "Sign in required" access, you [share a viewer access link](../editing-apps/publish-and-share/sharing-and-access-controls.md). Anyone who clicks on the access link and [signs in](../viewing-apps/signing-in.md) becomes a new user in your workspace with the [viewer user role](user-management-and-roles.md#viewer) and access to the report. &#x20;
+To add a viewer to a report with "Sign in required" access, you [share a viewer access link](../building-reports/publish-and-share/sharing-and-access-controls.md). Anyone who clicks on the access link and [signs in](../viewing-apps/signing-in.md) becomes a new user in your workspace with the [viewer user role](user-management-and-roles.md#viewer) and access to the report. &#x20;
 
 {% hint style="info" %}
-For reports with "Anyone with the link" access, [anyone with the report link can view the report ](../editing-apps/publish-and-share/sharing-and-access-controls.md#sharing-a-public-app)(no sign in required).&#x20;
+For reports with "Anyone with the link" access, [anyone with the report link can view the report ](../building-reports/publish-and-share/sharing-and-access-controls.md#sharing-a-public-app)(no sign in required).&#x20;
 {% endhint %}
 
 ## Adding editors to your workspace

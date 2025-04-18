@@ -4,7 +4,7 @@ For workspaces with multiple reports, users can navigate between reports from th
 
 ### Using the home page
 
-After [signing in](signing-in.md) to your workspace, you will be on the workspace home page. If the Reports view button is highlighted, Editors for the workspace will see all of the workspace reports. Viewers will only see those reports they have been given access to.
+After [signing in](signing-in.md) to your workspace, you will be on the workspace home page. Editors for the workspace will see all of the workspace reports. Viewers will only see those reports they have been given access to.
 
 To find a specific report you can use the **Sort by** feature to order reports by last edit date, last publish date, or alphabetically. You can also use the **Search** feature to search report titles and descriptions.&#x20;
 

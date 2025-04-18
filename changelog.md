@@ -634,7 +634,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 ### 🐛 Bug fixes & other improvements
 
-* Would you like to embed a Juicebox app in your own website? Just paste in the public app [embed code](editing-apps/publish-and-share/sharing-and-access-controls.md#embedding-a-public-app).&#x20;
+* Would you like to embed a Juicebox app in your own website? Just paste in the public app [embed code](building-reports/publish-and-share/sharing-and-access-controls.md#embedding-a-public-app).&#x20;
 * Trend charts are working again for measures with solely negative values.
 
 ## April 6, 2022
@@ -661,7 +661,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 * Selections made for one filter pill in the Filter slice now filter across all other filter pills, so you don't have to worry about the order of columns. Filtering performance has improved too.
 * Did you know you can duplicate an app? The **Duplicate App** button is now at the top of the editing panel to make that more findable.&#x20;
-* Higher numbers are often better (🏀), but not always (⛳️). A new [advanced measure](editing-apps/data-sources/advanced-ingredients/) option lets you tell Juicebox when a lower measure value is better, so that the Leaderboard chart shows who's really on top. &#x20;
+* Higher numbers are often better (🏀), but not always (⛳️). A new [advanced measure](broken-reference) option lets you tell Juicebox when a lower measure value is better, so that the Leaderboard chart shows who's really on top. &#x20;
 
 ## February 11, 2022
 
@@ -891,7 +891,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* :earth\_americas:**Publish as "Public"**. Apps can now be [viewed by anyone with the URL](editing-apps/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops (or from your favorite social network)! 🏔
+* :earth\_americas:**Publish as "Public"**. Apps can now be [viewed by anyone with the URL](building-reports/publish-and-share/publishing-app-changes.md#publishing-an-app) — even if they don't have a Juicebox account. Now, go create something _great_ and shout it from the mountain tops (or from your favorite social network)! 🏔
 
 ![Publish as a public app](.gitbook/assets/Screen_Recording_2021-01-15_at_6.06.57_PM.gif)
 
@@ -927,15 +927,15 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **Editable section names** - Now you can rename your old, confusing [section](editing-apps/story-designer/sections.md#add-a-section) names, like _group\_a8fwcyke,_ to something less confusing like _Rumpelstiltskin_. Or something. This will make them memorable _and_ useful. And don't forget you can collapse and organize your sections to bring more clarity to your data story.
+* **Editable section names** - Now you can rename your old, confusing [section](broken-reference) names, like _group\_a8fwcyke,_ to something less confusing like _Rumpelstiltskin_. Or something. This will make them memorable _and_ useful. And don't forget you can collapse and organize your sections to bring more clarity to your data story.
 
 ![](.gitbook/assets/jb-feature-sections2.gif)
 
-* **Support for database connections** - Do you want to add a [data source](editing-apps/data-sources/loading-data.md) from a Redshift or Snowflake database? That's now possible! To get started, send us a message by clicking the chat button below.
+* **Support for database connections** - Do you want to add a [data source](building-reports/data-sources/loading-data/) from a Redshift or Snowflake database? That's now possible! To get started, send us a message by clicking the chat button below.
 
 ### 🐛 Bug fixes & other improvements
 
-* **Numerous slice layout improvements** - Whether you are mixing[ text styles](editing-apps/story-designer/slices/#adding-text) or combining slices in [horizontal section layouts](editing-apps/story-designer/sections.md#section-layouts), everything looks:ok\_hand:.
+* **Numerous slice layout improvements** - Whether you are mixing[ text styles](building-reports/story-designer/slices/#adding-text) or combining slices in [horizontal section layouts](broken-reference), everything looks:ok\_hand:.
 * **Ingredients are easier to find** - In the ingredient pill, measures now show their aggregation, and advanced ingredients get a cute, new calculator icon. Less sleuthing, more finding. 🔎
 * **Trend labeling cleaned up** - The x-axis has been improved so that it shows appropriate labels based on the length of time and aggregation. 📈
 * Various Story Designer improvements. After all who doesn't like a better story?
@@ -954,26 +954,26 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🐛 Bug fixes & other improvements
 
 * **Faster loading apps**: Apps built with uploaded CSVs now get faster the more you use them thanks to the magic of enhanced caching. Nobody likes waiting. Now there's less of it.
-* **Better labels**: Ok, we know that in some situations, labeling in the [scatterplot chart](editing-apps/story-designer/charts/scatterplot.md) was well... broken. 🤕It's better now. Boo-boo all gone.&#x20;
-* **Bar charts use bucket order:** [Bar charts](editing-apps/story-designer/charts/bar.md) that use [bucketed dimensions](editing-apps/data-sources/advanced-ingredients/bucketed-dimensions.md) will now show the buckets in the order you defined them. After all, can't we all use a little more order? &#x20;
-* **Map charts zoom out farther**: The [map chart](editing-apps/story-designer/charts/map.md) now lets you zoom out farther to get a global perspective. 🌍Next step: Mars. Maybe
+* **Better labels**: Ok, we know that in some situations, labeling in the [scatterplot chart](building-reports/story-designer/slices/charts/scatterplot.md) was well... broken. 🤕It's better now. Boo-boo all gone.&#x20;
+* **Bar charts use bucket order:** [Bar charts](building-reports/story-designer/slices/charts/bar.md) that use [bucketed dimensions](broken-reference) will now show the buckets in the order you defined them. After all, can't we all use a little more order? &#x20;
+* **Map charts zoom out farther**: The [map chart](building-reports/story-designer/slices/charts/map.md) now lets you zoom out farther to get a global perspective. 🌍Next step: Mars. Maybe
 * Various performance and bug fixes. Much perform. Un-bugged.
 
 ## September 17, 2020
 
 ### 🎁 What's new?
 
-* **An improved trend chart** 📈 - We did a brain upgrade on the trend chart. The [trend chart](editing-apps/story-designer/charts/trend.md) is now smarter about handling dates and times. You can easily roll up dates by month or year (see time ingredient improvement below), see which dates are missing data, and select ranges of dates to filter the story below. Hey, Trend Chart: it's time you were schooled 🎓.&#x20;
+* **An improved trend chart** 📈 - We did a brain upgrade on the trend chart. The [trend chart](building-reports/story-designer/slices/charts/trend.md) is now smarter about handling dates and times. You can easily roll up dates by month or year (see time ingredient improvement below), see which dates are missing data, and select ranges of dates to filter the story below. Hey, Trend Chart: it's time you were schooled 🎓.&#x20;
 
 ![](.gitbook/assets/release-trend.gif)
 
-* **Broken ingredients** 🐣- Change is hard, we know that. When you replace a CSV on a data source, sometimes the new data has different names or different data types. This can break data ingredients. You'll see these [broken ingredients](editing-apps/data-sources/edit-a-data-source.md#fixing-broken-ingredients-caused-by-changes-in-column-names) highlighted (in a style we call "the blushing zebra") so you can fix them. Now change isn't so hard.&#x20;
+* **Broken ingredients** 🐣- Change is hard, we know that. When you replace a CSV on a data source, sometimes the new data has different names or different data types. This can break data ingredients. You'll see these [broken ingredients](building-reports/data-sources/edit-a-data-source.md#fixing-broken-ingredients-caused-by-changes-in-column-names) highlighted (in a style we call "the blushing zebra") so you can fix them. Now change isn't so hard.&#x20;
 
 ### 🐛 Bug fixes & other improvements
 
 * **Roll up time ingredients by month or year**: You can easily roll up time ingredient dates by month or year by choosing a month or year format when [defining the time ingredient](broken-reference). It's time to roll ⏰.
-* **New advanced ingredient functions:** There are new options for advanced aggregations. You can calculate [percentiles and ages](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md#aggregation-functions). This improvement is in the top percentile.
-* **More docs on formatting:** The advanced ingredients docs now contains lots of examples of how to build [custom number formats](editing-apps/data-sources/advanced-ingredients/advanced-formats.md#advanced-number-formats). `,.0f" days until Christmas"` might not mean anything to you, but it does to Juicebox. And to Santa. 🎁
+* **New advanced ingredient functions:** There are new options for advanced aggregations. You can calculate [percentiles and ages](building-reports/story-designer/ingredients/the-ingredient-editor/advanced-formulas.md#aggregation-functions). This improvement is in the top percentile.
+* **More docs on formatting:** The advanced ingredients docs now contains lots of examples of how to build [custom number formats](broken-reference). `,.0f" days until Christmas"` might not mean anything to you, but it does to Juicebox. And to Santa. 🎁
 * Various performance and bug fixes.
 
 ## August 27, 2020
@@ -982,7 +982,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 #### Share your app via a 🔗 link
 
-Invite anyone to create an account and view your app by simply [sharing your access link](editing-apps/publish-and-share/sharing-and-access-controls.md). ![](https://downloads.intercomcdn.com/i/o/239290807/d306c8ab532685085c8bbd63/feature-sharing2.gif)​
+Invite anyone to create an account and view your app by simply [sharing your access link](building-reports/publish-and-share/sharing-and-access-controls.md). ![](https://downloads.intercomcdn.com/i/o/239290807/d306c8ab532685085c8bbd63/feature-sharing2.gif)​
 
 #### +New sign in with your existing account
 
@@ -1003,7 +1003,7 @@ Invite anyone to create an account and view your app by simply [sharing your acc
 
 ### 🎁What's New?
 
-* **Date improvements** 📅- New Data Ingredients options let you [group dates](editing-apps/data-sources/advanced-ingredients/advanced-formulas.md#conversion-functions) by week, month, quarter or year.
+* **Date improvements** 📅- New Data Ingredients options let you [group dates](building-reports/story-designer/ingredients/the-ingredient-editor/advanced-formulas.md#conversion-functions) by week, month, quarter or year.
 
 ### 🐛Bug Fixes & Other improvements
 
