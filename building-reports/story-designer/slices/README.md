@@ -1,6 +1,6 @@
 # Slices
 
-Slices are the basic building blocks of your story. Slices are added to [sections](../#sections). Each slice can have text either by itself or with media (image or video) or a [chart](charts/).
+Slices are the basic building blocks of your story. Slices are added to [sections](../../../editing-apps/story-designer/#sections). Each slice can have text either by itself or with media (image or video) or a [chart](charts/).
 
 ## Adding, duplicating, and deleting slices
 

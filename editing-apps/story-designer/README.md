@@ -1,3 +1,7 @@
+---
+description: Design is where you tell your story.
+---
+
 # Design
 
 The editing panel appears on the left of the draft report and is where you design the report.
@@ -60,7 +64,7 @@ Click the paint drop icon in the upper right of the Header Style section to adju
 * **Custom**. The **Custom** button lets you add a color outside of the color theme. Using the custom color will not affect any section or slice using a theme color.&#x20;
 
 {% hint style="info" %}
-If you want to create a more custom header, you can set the Header Style to "No Header" and use the [Headline slice](slices/charts/headline.md) to design the custom header.&#x20;
+If you want to create a more custom header, you can set the Header Style to "No Header" and use the [Headline slice](../../building-reports/story-designer/slices/charts/headline.md) to design the custom header.&#x20;
 {% endhint %}
 
 ## Sections
@@ -104,6 +108,6 @@ If you choose a dark background, Juicebox will invert the visualization and text
 
 Slices are the basic building blocks of your report. There's a lot to say about them on the next page.&#x20;
 
-{% content-ref url="slices/" %}
-[slices](slices/)
+{% content-ref url="../../building-reports/story-designer/slices/" %}
+[slices](../../building-reports/story-designer/slices/)
 {% endcontent-ref %}

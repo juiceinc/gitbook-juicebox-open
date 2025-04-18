@@ -17,7 +17,7 @@ After selecting **+ Create New**, you'll be asked to select the starting point f
 
 After selecting your starting point, the report creation wizard will walk you through creating your report. You'll provide a title, description, color theme, and font, and then select **Create Report** to create your report. (Alternatively, you can select **Skip Setup** to create your report with default settings.)&#x20;
 
-Once your report is created, you'll be taken to the draft version of the report. You're now ready to edit the report to [add your data table](data-sources/) and [design your story](story-designer/). &#x20;
+Once your report is created, you'll be taken to the draft version of the report. You're now ready to edit the report to [add your data table](data-sources/) and [design your story](../editing-apps/story-designer/). &#x20;
 
 ## Edit a report
 
@@ -45,7 +45,7 @@ Changes made in the editing panel are immediately reflected in the draft report,
 
 <figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption><p>Parts of a draft report</p></figcaption></figure>
 
-You [design](story-designer/) your report using the editing panel. You add [data](data-sources/) to your report from the data drawer. You [share](publish-and-share/) your report (or report changes) by clicking the Sharing button.&#x20;
+You [design](../editing-apps/story-designer/) your report using the editing panel. You add [data](data-sources/) to your report from the data drawer. You [share](publish-and-share/) your report (or report changes) by clicking the Sharing button.&#x20;
 
 ## Duplicate a report
 
