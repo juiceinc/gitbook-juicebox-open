@@ -32,11 +32,12 @@ This feature is not available on all plans.
 
 If your report is connected to a database, you can select the schema and table (or view) to use as the data source. To set up a database connection, [reach out to us](../../../getting-started/reach-out-to-us.md).  The following databases are supported:
 
-* [Redshift](redshift-database-connection.md)
-* [Snowflake](snowflake-database-connection.md)
-* [BigQuery](bigquery-database-connection.md)
-* [Postgres](postgres-database-connection.md)
-* [SQL Server](sql-server-database-connection.md)
+* [BigQuery](connecting-to-bigquery.md)
+* Databricks
+* [Postgres](connecting-to-postgres.md)
+* [Redshift](connecting-to-redshift.md)
+* [Snowflake](connecting-to-snowflake.md)
+* [SQL Server](connecting-to-sql-server.md)
 
 For databases that are not maintained on a cloud platform, we support the latest two release versions. Earlier versions may work with Juicebox, but are not supported.
 
