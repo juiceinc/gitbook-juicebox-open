@@ -105,7 +105,7 @@ For example, let's say the Country field has "United States" values that you wan
 
 If there is a value in the field that is not added to the list of values to lookup, then the original value in your data will be displayed.&#x20;
 
-Id Field. Specify a custom unique identifier for columns. Especially useful for selections and filtering in unique cases. {I don't really understand what this means}
+Id Field. Specify a custom unique identifier for columns. Especially useful for selections and filtering in unique cases.&#x20;
 
 **Hide dimension labels**
 
@@ -120,4 +120,4 @@ Order By
 
 Filter
 
-**Reverse**. By default, higher numbers are deemed "better." To flip this, turn on Reverse. {Why is this in the dimension ingredient? Doesn't it only impact measures?}
+**Reverse**. By default, higher numbers are deemed "better." To flip this, turn on Reverse.&#x20;
