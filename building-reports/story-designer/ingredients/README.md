@@ -18,7 +18,7 @@ To create a new dimension, you could duplicate the **First Name** ingredient and
 
 ## Measures
 
-Measures are values calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Measures are created using the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, and `count_distinct()`.  Additional aggregations can be used as well (see [advanced field formulas](../../../editing-apps/data-sources/advanced-ingredients/advanced-formulas.md#aggregation-functions)) .  Measures are not displayed in the data preview. Instead you see existing measures and add new ones as you configure [charts](../slices/charts/).&#x20;
+Measures are values calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Measures are created using the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, and `count_distinct()`.  Additional aggregations can be used as well (see [advanced field formulas](advanced-formulas.md#aggregation-functions)) .  Measures are not displayed in the data preview. Instead you see existing measures and add new ones as you configure [charts](../slices/charts/).&#x20;
 
 <figure><img src="../../../.gitbook/assets/image (505).png" alt=""><figcaption><p>New measures are added as you configure charts</p></figcaption></figure>
 

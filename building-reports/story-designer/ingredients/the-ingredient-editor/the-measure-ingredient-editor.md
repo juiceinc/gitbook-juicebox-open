@@ -23,7 +23,7 @@ Field formula
 
 Label
 
-**Number format**. Select how values should be formatted from the dropdown, or enter a custom [number format](ingredient-formats.md).&#x20;
+**Number format**. Select how values should be formatted from the dropdown, or enter a custom [number format](../ingredient-formats.md).&#x20;
 
 Date format. (For min(date) or max(date))
 
