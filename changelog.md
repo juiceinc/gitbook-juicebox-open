@@ -3,8 +3,47 @@
 ## What's coming soon?
 
 * AI-enhanced results.
-* Redesigned editing panel.
+* Redesigned editing experience.
 * Additional advanced report design options available through our report design consulting services.
+
+## Apr 24, 2025
+
+(release 4.78)
+
+### Bug fixes & other improvements
+
+* The sticky filter bar now displays selections made in embedded filter pills referencing hidden filter slices
+* Fixes a bug that was preventing the deletion of annotations to Insights
+* Various improvements to the redesigned editing experience (coming soon)
+
+## Apr 17, 2025
+
+(release 4.77)
+
+### Bug fixes & other improvements
+
+* Various improvements to the redesigned editing experience (coming soon)
+
+## April 10, 2025
+
+(release 4.76)
+
+### Bug fixes & other improvements
+
+* Consistent categorical colors across charts
+* Adds loading progress bar to draft versions
+* Adds a "percent of sum" option to the bar chart
+* Removes the default check-square icon for text dimension ingredients
+* Fixed the dataCount() dynamic text method
+* Various improvements to the redesigned editing experience (coming soon)
+
+## Apr 3, 2025
+
+(release 4.75)
+
+### Bug fixes & other improvements
+
+* Various improvements to the redesigned editing experience (coming soon)
 
 ## Mar 27, 2025
 
