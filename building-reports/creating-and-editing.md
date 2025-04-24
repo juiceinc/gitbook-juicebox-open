@@ -8,12 +8,10 @@ To add a new report, select **+ Create New** from the home page.&#x20;
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Select + Create New to add a new report</p></figcaption></figure>
 
-After selecting **+ Create New**, you'll be asked to select the starting point for building your report. You can start with a pre-designed report from the **Charts**, **Examples**, or **Templates** categories, or select **Start Blank** to build an report from scratch:
+After selecting **+ Create New**, you'll be asked to select the starting point for building your report. You can start with a pre-designed report from the **Examples** or select **Start with a blank report** to build an report from scratch:&#x20;
 
-* **Charts**. Selections in the Charts category are reports with one or two charts focused on a particular chart type. This is a great place to start if you know you want a particular chart type in your report, but aren't sure about what other charts or text you might want to add. The charts are placeholder charts. Just load your data and configure the placeholder charts to quickly create a complete report.&#x20;
 * **Examples**. Selections in the Examples category are finished reports, with data loaded and charts configured using that data. Examples are great to add to your workspace and use as reference or inspiration.&#x20;
-* **Templates**. Selections in the Templates category are fully styled reports using combinations of charts best suited for a particular task. The available templates are: Dashboard, Report, Presentation, Survey, and Infographic. The charts are placeholder charts. Just load your data and configure the placeholder charts to quickly create a complete report.&#x20;
-* **Start Blank**. Select **Start Blank** if you want to start with a blank slate.&#x20;
+* **Start with a blank report**. Select **Start Blank** if you want to start with a blank slate.&#x20;
 
 After selecting your starting point, the report creation wizard will walk you through creating your report. You'll provide a title, description, color theme, and font, and then select **Create Report** to create your report. (Alternatively, you can select **Skip Setup** to create your report with default settings.)&#x20;
 
