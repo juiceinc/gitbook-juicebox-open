@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # Connecting to Databricks
 
 Juicebox supports connections to Databricks across all major cloud providers: AWS, Google Cloud Platform (GCP) and Microsoft Azure.&#x20;
