@@ -6,6 +6,37 @@
 * Redesigned editing experience.
 * Additional advanced report design options available through our report design consulting services.
 
+## May 8, 2025
+
+(release 4.80.0)
+
+### 🎁 What's new?
+
+* New section disconnection option that allows you to toggle whether a section should be disconnected from others
+
+### Bug fixes & other improvements
+
+* Enhanced trend legend functionality including interactive legend highlighting and selection
+* Improved DataBricks OAuth integration
+
+## May 1, 2025
+
+(release 4.79)
+
+### 🎁 What's new?
+
+* Support for exporting and importing apps as YAML
+
+### &#x20;Bug fixes & other improvements
+
+* Improved the tooltip showing editing panel toggle shortcut keys
+* Fixed fonts used in the Debug view
+* Improved dynamic text capabilities, including better handling of advanced slice titles and enhanced selection value displays
+* Removed download menu option for data sources that do not support download
+* Improved bucket generation for date ingredients and enhanced AI prompts
+* Fixed UI issues in the ingredient editor to properly handle bucket options and format fields
+* Various improvements to the redesigned editing experience (coming soon)
+
 ## Apr 24, 2025
 
 (release 4.78)
