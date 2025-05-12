@@ -8,7 +8,7 @@
 
 ## May 8, 2025
 
-(release 4.80.0)
+(release 4.80)
 
 ### 🎁 What's new?
 
