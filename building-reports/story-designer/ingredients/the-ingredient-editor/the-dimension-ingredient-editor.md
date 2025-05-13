@@ -63,13 +63,13 @@ Image url
 
 A bucketed dimension groups field values into buckets based on [conditions](../advanced-formulas.md#conditional-logic) in the **Buckets** box, like so:
 
-```
-- label: [label 1]
-  condition: [condition 1]
-- label: [label 2]
-  condition: [condition 2]
-- label: [label 3]
-  condition: [condition 3]
+```yaml
+- label: Detractor
+  condition: score <= 6
+- label: Passive
+  condition: score <= 8
+- label: Promoter
+  condition: <= 10
 ```
 
 For example, let's say your data includes a `score` field with customer scores, and you want to use the scores to group customers into different roles: Detractor, Passive, and Promoter. Here's what you would enter in the **Buckets** box:
@@ -78,7 +78,7 @@ For example, let's say your data includes a `score` field with customer scores, 
 
 Conditions are evaluated in the order they are defined, which makes defining buckets for continuous values convenient:&#x20;
 
-```
+```yaml
 - label: Under 25k
   condition: <25000
 - label: 25k-49k
@@ -93,10 +93,10 @@ The **Buckets default label** is the label to display if a value does not meet a
 
 If the values in a field are not what you want displayed in your report, you can create lookups to change them by entering a list of values to lookup with their associated value to display in the **Lookups** box, like so:
 
-```
-[value to lookup]: [value to display]
-[value to lookup]: [value to display]
-[value to lookup]: [value to display]
+```yaml
+value to lookup: value to display
+value to lookup: value to display
+value to lookup: value to display
 ```
 
 For example, let's say the Country field has "United States" values that you want to display as "USA", and it has null values that you want to display as "Unknown".  Here's what you would enter in the **Lookups** box:
@@ -105,16 +105,7 @@ For example, let's say the Country field has "United States" values that you wan
 
 If there is a value in the field that is not added to the list of values to lookup, then the original value in your data will be displayed.&#x20;
 
-Id Field. Specify a custom unique identifier for columns. Especially useful for selections and filtering in unique cases.&#x20;
-
-**Hide dimension labels**
-
-You could use `id_field` on an Advanced Dimension column to preserve selection filtering while also providing the `field` with an empty string:
-
-```
-field: string(" ")
-id_field: last_name
-```
+Id Field. Specify a custom unique identifier for columns. Especially useful for selections and filtering in unique cases. For example, you could set the field definition to `string(" ")`  to hide the values and the Id Field to `last_name` .
 
 Order By
 
