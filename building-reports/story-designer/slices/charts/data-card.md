@@ -12,11 +12,11 @@ A chooser chart can be used to:
 * Let a user choose which measure to use in downstream charts&#x20;
 * Let a user choose which column to use in downstream charts
 
-Choices made in a chooser chart can drive the narrative of the story that follows [using dynamic columns or measures](data-card.md#using-dynamic-ingredients). There are two types: measure chooser and column chooser.
+Choices made in a chooser chart can drive the narrative of the story that follows [using dynamic columns or measures](data-card.md#using-dynamic-ingredients). There are two types: measure chooser and dimesnion chooser.
 
-## Chooser chart with measures
+## Measure chooser
 
-A chooser chart with measures (i.e., a measure chooser slice) will display a high-level summary of  measures. The selection made in a measure chooser slice can be used as a [dynamic measure](data-card.md#using-dynamic-ingredients)  in one or more downstream charts, allowing for user-driven exploration.&#x20;
+A chooser chart with measures (i.e., a measure chooser) will display a high-level summary of  measures. The selection made in a measure chooser can be used as a [dynamic measure](data-card.md#using-dynamic-ingredients)  in one or more downstream charts, allowing for user-driven exploration.&#x20;
 
 #### To add a measure chooser slice:
 
@@ -33,21 +33,21 @@ A chooser chart with measures (i.e., a measure chooser slice) will display a hig
 The type of chooser is determined by whether you add a column or measure first. Once you select the first measure, only measures can be added.&#x20;
 {% endhint %}
 
-## Chooser chart with columns
+## Dimension chooser
 
-A chooser chart with columns (i.e., a column chooser slice) lets users select one column from a group of columns for use as a [dynamic column](data-card.md#using-dynamic-ingredients) in one or more downstream charts, allowing for user-driven exploration.
+A chooser chart with dimensions (i.e., a dimension chooser) lets users select one dimension from a group of dimensions for use as a [dynamic dimension](data-card.md#using-dynamic-ingredients) in one or more downstream charts, allowing for user-driven exploration.
 
 {% hint style="warning" %}
-A column chooser slice should always be connected to at least one downstream chart. See the [dynamic columns](data-card.md#using-dynamic-columns-or-measures) section below.
+A dimension chooser slice should always be connected to at least one downstream chart. See the [dynamic dimensions](data-card.md#using-dynamic-columns-or-measures) section below.
 {% endhint %}
 
-#### To add a column chooser slice:
+#### To add a dimension chooser:
 
 * select **Chooser** from the chart list
 
 ![Select Chooser from the dropdown](<../../../../.gitbook/assets/image (281).png>)
 
-* select the columns you want to add in the order you want them displayed
+* select the dimensions you want to add in the order you want them displayed
 
 ![A column chooser slice](<../../../../.gitbook/assets/image (455).png>)
 
@@ -55,20 +55,20 @@ A column chooser slice should always be connected to at least one downstream cha
 * click **Save changes**
 
 {% hint style="info" %}
-The type of chooser is determined by whether you add a column or measure first. Once you select the first column, only columns can be added.&#x20;
+The type of chooser is determined by whether you add a dimension or measure first. Once you select the first dimension, only dimensions can be added.&#x20;
 {% endhint %}
 
-## Using dynamic columns or measures
+## Using dynamic dimensions or measures
 
 Chooser slices are particularly powerful when slices further down the report refer to the selections in the chooser.
 
 {% hint style="info" %}
-Chooser values will be "display only" (i.e., unselectable) unless a downstream slice includes a dynamic column or measure referring to the chooser.
+Chooser values will be "display only" (i.e., unselectable) unless a downstream slice includes a dynamic dimensions or measure referring to the chooser.
 {% endhint %}
 
 To reference the selection made in a chooser slic&#x65;**:**&#x20;
 
-* Create a column chooser or measure chooser using the instructions in the sections above
+* Create a dimension chooser or measure chooser using the instructions in the sections above
 * In a downstream slice, select the chooser's slice slug in the column dropdown and/or measure dropdown
 
 ![Use dynamic ingredients in your charts to make them interactive](<../../../../.gitbook/assets/image (425).png>)

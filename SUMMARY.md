@@ -34,7 +34,7 @@
       * [Table](building-reports/story-designer/slices/charts/table.md)
       * [Card](building-reports/story-designer/slices/charts/card.md)
       * [Reports Navigation](building-reports/story-designer/slices/charts/reports-navigation.md)
-      * [Bars](building-reports/story-designer/slices/charts/bar.md)
+      * [Bar](building-reports/story-designer/slices/charts/bar.md)
       * [Scatterplot](building-reports/story-designer/slices/charts/scatterplot.md)
       * [Leaderboard](building-reports/story-designer/slices/charts/leaderboard.md)
       * [Map](building-reports/story-designer/slices/charts/map.md)

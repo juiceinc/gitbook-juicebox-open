@@ -26,7 +26,7 @@ If changes to the structure of a database-connected table are not reflected afte
 
 ## Delete a data table
 
-If you have data table that you don't plan to use in your report, you may want to delete the data table to declutter the data drawer. To do this, open the data drawer, select the data table you want to delete, click the gear icon, and select **Delete**.
+If you have a data table that you don't plan to use in your report, you may want to delete the data table to declutter the data drawer. To do this, open the data drawer, select the data table you want to delete, click the gear icon, and select **Delete**.
 
 <figure><img src="../../.gitbook/assets/image (524).png" alt=""><figcaption><p>Deleting a data table</p></figcaption></figure>
 
@@ -40,7 +40,7 @@ If you are sure you want to delete the data table, click **Yes, delete it**.
 
 ## Download data
 
-You can download the data in a data table by opening the data drawer, selecting the data table you want to download, clicking the gear icon, and selecting **Download**. The data will download as a CSV.
+For uploaded data tables, you can download the data by opening the data drawer, selecting the data table you want to download, clicking the gear icon, and selecting **Download**. The data will download as a CSV.
 
 <figure><img src="../../.gitbook/assets/image (523).png" alt=""><figcaption><p>Downloading data</p></figcaption></figure>
 

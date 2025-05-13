@@ -22,11 +22,19 @@ If you configure slice selections to act as Variables, the selected values will 
 
 #### Using variables in your ingredients labels <a href="#using-variables-in-your-ingredients-labels" id="using-variables-in-your-ingredients-labels"></a>
 
-You can use variables to make dynamic ingredient labels. To start you need to know the ingredient id of the selected variable. You can open the ingredient and click the "..." and select "Copy Ingredient Id".![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLqYT7hDGyGIUtziD3T8T%2Fuploads%2FW0pBVddQzrZZfNHEnybU%2FScreen%20Shot%202023-08-16%20at%2011.26.18%20AM.png?alt=media\&token=a5918753-0e6b-4075-bb62-052e3ce4b0e8)Use the id of the ingredient being used as a variable in the label by surrounding it with brackets like this “\{{ingredient\_id\}}“. You can also other text in your label too, so "Budget of \{{Director\}}" would work if an ingredient with id of Director was a variable.The variable **must** be selected above. Otherwise you'll just get the label without the variable substituted.
+You can use variables to make dynamic ingredient labels. To start you need to know the ingredient id of the selected variable. You can open the ingredient and click the "..." and select "Copy Ingredient Id".
+
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FLqYT7hDGyGIUtziD3T8T%2Fuploads%2FW0pBVddQzrZZfNHEnybU%2FScreen%20Shot%202023-08-16%20at%2011.26.18%20AM.png?alt=media&#x26;token=a5918753-0e6b-4075-bb62-052e3ce4b0e8" alt=""><figcaption></figcaption></figure>
+
+Use the id of the ingredient being used as a variable in the label by surrounding it with brackets like this “\{{ingredient\_id\}}“. You can also other text in your label too, so "Budget of \{{Director\}}" would work if an ingredient with id of Director was a variable.The variable **must** be selected above. Otherwise you'll just get the label without the variable substituted.
 
 #### Using variables in your ingredient's field expressions <a href="#using-variables-in-your-ingredients-field-expressions" id="using-variables-in-your-ingredients-field-expressions"></a>
 
-If you have an advanced ingredient you can use variables in your field definition. For instance, if you have selected a director in a variable, you can refer to the selected director in your field like this:field: sum(if(Director="\{{Director\}}", Budget, 0))Note, I have to surround the \{{Director\}} with double quotes because it's a string.
+You can use variables in your field definition. For instance, if you have selected a director in a variable, you can refer to the selected director in your field like this: field:&#x20;
+
+`sum(if(Director="{{Director}}", Budget, 0))`&#x20;
+
+Note the double quotes around \{{Director\}} because it's a string.
 
 #### Using variables to define constants <a href="#using-variables-to-define-constants" id="using-variables-to-define-constants"></a>
 

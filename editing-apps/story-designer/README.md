@@ -107,7 +107,3 @@ If you choose a dark background, Juicebox will invert the visualization and text
 ## Slices
 
 Slices are the basic building blocks of your report. There's a lot to say about them on the next page.&#x20;
-
-{% content-ref url="../../building-reports/story-designer/slices/" %}
-[slices](../../building-reports/story-designer/slices/)
-{% endcontent-ref %}
