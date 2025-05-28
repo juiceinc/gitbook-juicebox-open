@@ -38,7 +38,7 @@ Before connecting Juicebox to Databricks, ensure you have:
    * &#x20;A Business or Unlimited subscription. Database connections are only available on these subscription levels. Reach out to help@myjuicebox.io to learn more about subscription options.
    * A Juicebox user account with Owner or Admin privileges.
 3. The connection details (see [Connection Methods](connecting-to-databricks.md#connection-methods) below)
-4. A secure method to share connection details (such as 1Password's one-time sharing feature)
+4. A secure method to share connection details (such as 1Password's [one-time sharing](https://support.1password.com/share-items/?mac) feature)
 
 ## Connection Methods
 
