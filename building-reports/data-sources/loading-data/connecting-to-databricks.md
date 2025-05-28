@@ -4,7 +4,22 @@ hidden: true
 
 # Connecting to Databricks
 
-Juicebox supports connections to Databricks across all major cloud providers: AWS, Google Cloud Platform (GCP) and Microsoft Azure.&#x20;
+## About Juicebox
+
+Juicebox is a data storytelling platform that transforms complex analytics into compelling, interactive narratives. Unlike traditional BI dashboards, Juicebox enables business users to create branded, customer-facing data experiences without coding—turning insights into persuasive stories that drive decisions.
+
+## Juicebox + Databricks Integration
+
+The Juicebox-Databricks integration enables organizations to leverage Databricks' powerful data processing capabilities while using Juicebox to create engaging, interactive data applications for executives, customers, and external audiences. With this integration, you can:
+
+* Build narrative-driven data experiences from your Databricks data
+* Create branded, customer-facing analytics applications
+* Deliver mobile-ready insights that showcase your data's value
+* Enable self-service analytics for non-technical business users
+
+## How it works
+
+This integration connects Juicebox directly to your Databricks SQL warehouse, enabling real-time querying of your Unity Catalog data across all major cloud providers: AWS, Google Cloud Platform (GCP), and Microsoft Azure. Setup requires configuring authentication in Databricks and sharing connection details with the Juice Analytics team.
 
 ## Prerequisites
 
@@ -19,7 +34,7 @@ Before connecting Juicebox to Databricks, ensure you have:
      * `SELECT` on the tables or views
      * `Can use` permissions for a SQL warehouse compute resource
    * A Premium or Enterprise plan (recommended for optimized performance)
-2. A Juicebox workspace with:
+2. A [Juicebox workspace](https://www.juiceanalytics.com/contact-us) with:
    * &#x20;A Business or Unlimited subscription. Database connections are only available on these subscription levels. Reach out to help@myjuicebox.io to learn more about subscription options.
    * A Juicebox user account with Owner or Admin privileges.
 3. The connection details (see [Connection Methods](connecting-to-databricks.md#connection-methods) below)
@@ -49,7 +64,7 @@ PAT authentication can be generated for a Databricks user account and will have 
      * http\_path: The HTTP path to the Databricks SQL endpoint
      * catalog: The catalog to use for the connection
      * schema: The schema to use for the connection (optional)
-     * access\_token: Your Databricks personal access token copied from Step 1 (this will be stored securely)
+     * access\_token: Your Databricks personal access token copied from Step 1 (this will be  encrypted)
 
 ### Connect Using OAuth Authentication
 
@@ -76,10 +91,10 @@ OAuth authentication requires a service principal with appropriate permissions. 
      * schema: The schema to use for the connection (optional)
      * account\_id: The OAuth account ID
      * client\_id: The OAuth client ID (also called the service principal application ID)
-     * secret: Your OAuth client secret from Step 2 (this will be stored securely)
+     * secret: Your OAuth client secret from Step 2 (this will be encrypted)
 
 {% hint style="info" %}
-Juicebox will automatically generate the access tokens, which are used for secure authentication with your Databricks workspace. This eliminates the need for you to manage access token rotation.&#x20;
+Juicebox will automatically generate the access tokens, which will be encrypted and used for secure authentication with your Databricks workspace. This eliminates the need for you to manage access token rotation.&#x20;
 {% endhint %}
 
 ## Finding Connection Details in Databricks
