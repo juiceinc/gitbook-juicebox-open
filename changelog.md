@@ -4,9 +4,20 @@
 
 * AI-enhanced results.
 * Ability to add and manage multiple stacks within the same report, giving you more flexibility in organizing your data applications
-* Ability to test how the report looks for other users
 * Ability to add custom labels to the home page for use in organizing reports
 * Additional advanced report design options available through our report design consulting services.
+
+## July 3, 2025
+
+(release 4.88)
+
+**🎁 What's new?**
+
+* **Test user permissions**: Editors can now preview what the report looks like for different users
+
+**Bug fixes & other improvements**
+
+* The name of the data source selected for the slice can be viewed on hover
 
 ## June 26, 2025
 
