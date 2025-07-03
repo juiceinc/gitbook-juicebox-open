@@ -3,8 +3,80 @@
 ## What's coming soon?
 
 * AI-enhanced results.
-* Redesigned editing experience.
+* Ability to add and manage multiple stacks within the same report, giving you more flexibility in organizing your data applications
+* Ability to test how the report looks for other users
+* Ability to add custom labels to the home page for use in organizing reports
 * Additional advanced report design options available through our report design consulting services.
+
+## June 26, 2025
+
+(release 4.87)
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where the saving shortcut keys (Ctrl+S/Cmd+S) stopped working
+* When you click on a slice badge in the app preview, the outliner now properly scrolls to show the selected slice
+* Various improvements to typography components
+
+## June 23, 2025
+
+(release 4.86)
+
+**🎁 What's new?**
+
+* **Enhanced home page for editors**: New filtering side panel and table view help you organize and find your reports more easily
+
+**Bug fixes & other improvements**
+
+* Improved pie chart legend display and functionality
+
+## June 12, 2025
+
+(release 4.85)
+
+**Bug fixes & other improvements**
+
+* Added support for quarter formats in trend charts, giving you more options for displaying time-based data
+* Improved access to materialized views in database object lists
+* Various dependency updates for better performance
+
+## June 5, 2025
+
+(release 4.84)
+
+**Bug fixes & other improvements**
+
+* Improved debouncing for all filter pill selections, making filtering more responsive
+
+## May 30, 2025
+
+(release 4.83)
+
+**Bug fixes & other improvements**
+
+* Fixed an error that occurred when adding a new section with the media slice
+* Improved tooltip functionality
+* Added config option for bar charts to define label width
+* Various improvements to the editing panel
+
+## May 27, 2025
+
+(release 4.82)
+
+**Bug fixes & other improvements**
+
+* When selecting data sources from a database connection, longer table names are no longer being cut off
+* Added helpful messaging when no data source is available
+
+## May 15, 2025
+
+(release 4.81)
+
+**Bug fixes & other improvements**
+
+* Improved filter clarity: When there's only one value available in filters and dynamic text, unselected data item values are now shown to provide better context
+* Enhanced export functionality with various improvements to make data exports more reliable
+* Improved data permissions system - now supports referencing database columns in both data permissions and automatic filters
 
 ## May 8, 2025
 
