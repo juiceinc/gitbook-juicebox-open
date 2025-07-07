@@ -3,7 +3,7 @@
 ## What's coming soon?
 
 * AI-enhanced results.
-* Ability to add and manage multiple stacks within the same report, giving you more flexibility in organizing your data applications
+* Ability to add and manage multiple stacks within the same report, giving more flexibility in organizing reports
 * Ability to add custom labels to the home page for use in organizing reports
 * Additional advanced report design options available through our report design consulting services.
 
