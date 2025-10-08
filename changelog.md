@@ -3,9 +3,131 @@
 ## What's coming soon?
 
 * AI-enhanced results.
-* Ability to add and manage multiple stacks within the same report, giving more flexibility in organizing reports
-* Ability to add custom labels to the home page for use in organizing reports
+* Ability to add and manage multiple pages within the same report, giving more flexibility in organizing reports.
+* Ability to hide or show different sections to different users.
 * Additional advanced report design options available through our report design consulting services.
+
+## October 7, 2025&#x20;
+
+(release 4.101)
+
+**🎁 What's new?**
+
+* Formula editing panel: New dedicated interface for creating and editing formulas with improved usability
+
+&#x20;**Bug fixes & other improvements**
+
+* Fixed issue where dynamic table column widths
+* Resolved persistent tooltip display issues in scatterplot
+
+## September 25, 2025&#x20;
+
+(release 4.100)
+
+**Bug fixes & other improvements**
+
+* Fixed an error impacting uploading images to Headline slice
+* Improved debug modal
+
+## September 18, 2025
+
+&#x20;(release 4.99)
+
+**🎁 What's new?**
+
+* New centralized debug modal for all slices accessible via the app header and slice configuration panel
+
+**Bug fixes & other improvements**
+
+* Various minor improvements to user experience and performance
+
+## September 11, 2025&#x20;
+
+(release 4.98)
+
+**Bug fixes & other improvements**
+
+* Various minor improvements to user experience and performance
+
+## September 5, 2025&#x20;
+
+(release 4.97)
+
+**Bug fixes & other improvements**
+
+* Home (Reports) page performance improvements
+
+## August 28, 2025&#x20;
+
+(release 4.96)
+
+**Bug fixes & other improvements**
+
+* Improved the debug modal
+* Improved table slice configuration options, including resizable columns
+* Improved ingredient editor panel
+
+## August 21, 2025&#x20;
+
+(release 4.95)
+
+**Bug fixes & other improvements**
+
+* Various minor improvements to user experience and performance
+
+## August 14, 2025&#x20;
+
+(release 4.94)
+
+**Bug fixes & other improvements**
+
+* Various minor improvements to user experience and performance
+
+## August 7, 2025&#x20;
+
+(release 4.93)
+
+**Bug fixes & other improvements**
+
+* Various minor improvements to user experience and performance
+
+## July 31, 2025&#x20;
+
+(release 4.92)
+
+**Bug fixes & other improvements**
+
+* Various minor improvements to user experience and performance
+
+## July 28, 2025&#x20;
+
+(release 4.91)
+
+**Bug fixes & other improvements**
+
+* Various minor improvements to user experience and performance
+
+## July 17, 2025&#x20;
+
+(release 4.90)
+
+**🎁 What's new?**
+
+* Now Editors can add custom labels and assign labels to apps to help organize and manage apps
+
+**Bug fixes & other improvements**
+
+* Adds a thousands separator to numeric counts in dynamic text
+* Various improvements to the Test Data Permissions panel, including adding an "Edit User" link to users with Admin permissions.&#x20;
+
+## July 10, 2025&#x20;
+
+(release 4.89)
+
+**Bug fixes & other improvements**
+
+* User by app search improvements: From the People page, you can search for users with "App: `<slug>`", from app cards on the Reports page, the button showing count of users is now a link to the People page that filters users by those granted access to the app.&#x20;
+* On the user account page, apps that the user has been given access to are now at the top of the list, making it easier to find and manage app access permissions.
 
 ## July 3, 2025
 
