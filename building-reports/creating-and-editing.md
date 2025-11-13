@@ -6,7 +6,7 @@ If you're logged in as [an editor (or a user with editing rights)](../managing-u
 
 To add a new report, select **+ Create New** from the home page.&#x20;
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>Select + Create New to add a new report</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>Select + Create New to add a new report</p></figcaption></figure>
 
 After selecting **+ Create New**, you'll be asked to select the starting point for building your report. You can start with a pre-designed report from the **Examples** or select **Start with a blank report** to build an report from scratch:&#x20;
 
@@ -31,7 +31,7 @@ To access the editing panel from the home page, select **Edit** on the report.&#
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Accessing the editing panel from the home page</p></figcaption></figure>
 
-To access the editing panel from a published report, hit your **Esc** key.&#x20;
+To access the editing panel from a published report, select **Cmd+E** (Mac) or **Ctrl+E** (Windows).&#x20;
 
 ### Overview of a draft report
 

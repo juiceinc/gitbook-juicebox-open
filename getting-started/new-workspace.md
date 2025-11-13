@@ -10,9 +10,9 @@ To get a workspace, go to [juiceanalytics.com](https://www.juiceanalytics.com) a
 
 After creating your workspace, you'll be taken to the workspace [home page](new-workspace.md#the-workspace-home-page). You are the [owner](../managing-users/user-management-and-roles.md#owner) of this workspace.&#x20;
 
-<figure><img src="../.gitbook/assets/image (529).png" alt=""><figcaption><p>The workspace home page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (600).png" alt="The workspace home page"><figcaption><p>The workspace home page</p></figcaption></figure>
 
-Your workspace will have its own web address (something like 782-wily-persimmons.myjuicebox.io, which is customizable with certain subscription plans). This is your workspace URL. You can go directly to this URL to access your workspace.
+Your workspace will have its own web address (something like 782-wily-persimmons.myjuicebox.io, which may be customized, depending on your subscription plan). This is your workspace URL. You can go directly to this URL to access your workspace.
 
 ### The workspace home page
 
@@ -27,8 +27,8 @@ To find a specific report you can use the **Sort by** feature to order reports b
 
 To open the draft version of a report, click the **Edit** button. To open the published version of a report, click the **View** button.  &#x20;
 
-<figure><img src="../.gitbook/assets/image (527).png" alt=""><figcaption><p>Open the draft or published version of a report from the workspace home page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt="Open the draft or published version of a report from the workspace home page"><figcaption><p>Open the draft or published version of a report from the workspace home page</p></figcaption></figure>
 
 To get back to the home page from any report, click on the **Home** button in the report header.
 
-<figure><img src="../.gitbook/assets/image (528).png" alt=""><figcaption><p>Click the Home button to return to the workspace home page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="Click the Home button to return to the workspace home page"><figcaption><p>Click the Home button to return to the workspace home page</p></figcaption></figure>
