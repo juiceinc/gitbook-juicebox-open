@@ -12,7 +12,7 @@ You can configure the slice selections to act as:
 2. Variables. Slice selections will not filter downstream slices but will be available for use in defining ingredients.&#x20;
 3. Filters and Variables. Slices selections will filter downstream slices and be available for use in defining ingredients.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (3) (2).png" alt=""><figcaption></figcaption></figure>
 
 
 

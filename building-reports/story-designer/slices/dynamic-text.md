@@ -52,4 +52,4 @@ _Change them yourself here @Leaderboard1.pill_
 
 Here's what this looks like.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (2).png" alt=""><figcaption></figcaption></figure>

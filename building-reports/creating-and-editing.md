@@ -29,7 +29,7 @@ While changes made in the editing panel are immediately reflected in the draft r
 
 To access the editing panel from the home page, select **Edit** on the report.&#x20;
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p>Accessing the editing panel from the home page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (2).png" alt=""><figcaption><p>Accessing the editing panel from the home page</p></figcaption></figure>
 
 To access the editing panel from a published report, select **Cmd+E** (Mac) or **Ctrl+E** (Windows).&#x20;
 

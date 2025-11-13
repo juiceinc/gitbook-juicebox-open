@@ -20,7 +20,7 @@
     * [Connecting to Postgres](building-reports/data-sources/loading-data/connecting-to-postgres.md)
     * [Connecting to SQL Server](building-reports/data-sources/loading-data/connecting-to-sql-server.md)
     * [Connecting to Databricks](building-reports/data-sources/loading-data/connecting-to-databricks.md)
-  * [Managing data](building-reports/data-sources/edit-a-data-source.md)
+  * [Managing data](building-reports/data-sources/managing-data.md)
   * [The data preview](building-reports/data-sources/the-data-preview.md)
 * [Design](editing-apps/story-designer/README.md)
   * [Slices](building-reports/story-designer/slices/README.md)
