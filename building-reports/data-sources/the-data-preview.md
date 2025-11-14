@@ -1,16 +1,16 @@
 # The data preview
 
-From the data preview you can see the data table columns, each column's data type, and the first 100 rows in the data table. You can also open the column editor by clicking on the pill at the top of each column.&#x20;
+From the data preview you can see the data table columns, each column's data type, and the first 100 rows in the data table. You can also open the [dimension ingredient editor](../story-designer/ingredients/the-ingredient-editor/the-dimension-ingredient-editor.md) by clicking on the pill at the top of each column.&#x20;
 
 To open the data preview, first open the data drawer and then select the data table you want to view. To exit the data preview, close the data drawer.&#x20;
 
-<figure><img src="../../.gitbook/assets/The_data_preview.gif" alt=""><figcaption><p>The data preview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/data_drawer2.gif" alt="The data preview"><figcaption><p>The data preview</p></figcaption></figure>
 
 ### Data types
 
 From the data preview, you can see each column in your data and the data types for each column.
 
-<figure><img src="../../.gitbook/assets/image (497).png" alt=""><figcaption><p>Data types for each column can be viewed from the data preview</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (601).png" alt="Data types for each column can be viewed from the data preview"><figcaption><p>Data types for each column can be viewed from the data preview</p></figcaption></figure>
 
 Here are data types that are recognized in Juicebox:
 
