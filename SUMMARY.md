@@ -25,7 +25,6 @@
 * [Design](editing-apps/story-designer/README.md)
   * [Slices](building-reports/story-designer/slices/README.md)
     * [Dynamic text](building-reports/story-designer/slices/dynamic-text.md)
-    * [Customizing what shows](building-reports/story-designer/slices/customizing-what-shows.md)
     * [Multiple data tables](building-reports/story-designer/slices/working-with-multiple-data-sources.md)
     * [Charts](building-reports/story-designer/slices/charts/README.md)
       * [Headline](building-reports/story-designer/slices/charts/headline.md)
