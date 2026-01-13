@@ -151,10 +151,10 @@ Once the data source has been added to the Juicebox report, you can use it to co
 
 ## User-level permissions within Juicebox
 
-Additional access controls can be configured within Juicebox at the user level. This allows for granular control over who can see which Juicebox reports and what filters are applied for the user within each report. These permissions are managed separately from Databricks permissions. See [Managing Users](broken-reference).
+Additional access controls can be configured within Juicebox at the user level. This allows for granular control over who can see which Juicebox reports and what filters are applied for the user within each report. These permissions are managed separately from Databricks permissions. See [Managing Users](/broken/pages/-M55qRLuGvRN-cIQxHYY).
 
 ## Support
 
 For help setting up a Databricks connection in Juicebox, reach out to us at help@myjuicebox.io.
 
-\
+<br>

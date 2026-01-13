@@ -936,7 +936,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 * Selections made for one filter pill in the Filter slice now filter across all other filter pills, so you don't have to worry about the order of columns. Filtering performance has improved too.
 * Did you know you can duplicate an app? The **Duplicate App** button is now at the top of the editing panel to make that more findable.&#x20;
-* Higher numbers are often better (🏀), but not always (⛳️). A new [advanced measure](broken-reference) option lets you tell Juicebox when a lower measure value is better, so that the Leaderboard chart shows who's really on top. &#x20;
+* Higher numbers are often better (🏀), but not always (⛳️). A new [advanced measure](/broken/pages/-M9V4XsmNAG9oiSOl5fk) option lets you tell Juicebox when a lower measure value is better, so that the Leaderboard chart shows who's really on top. &#x20;
 
 ## February 11, 2022
 
@@ -1181,7 +1181,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🎁 What's new?
 
 * **Sign up for a workspace.** Now you (and all your friends) can [create your own workspace](getting-started/new-workspace.md). Why would you want your own workspace? Perhaps you want to do some data presentation work for that non-profit you're helping out with. Or maybe you have an idea for a data reporting side-gig. Whatever data-prez itch you have, now you can create a separate workspace to put it in. _Juicebox all-the-things!_
-* **Duplicate an app.** If you want to create a new app that is similar to an existing app, you can [duplicate it](broken-reference).
+* **Duplicate an app.** If you want to create a new app that is similar to an existing app, you can [duplicate it](/broken/pages/-M4yTgyq-sgYGM-Vmnn-#duplicating-an-app).
 
 ![Duplicate an app](.gitbook/assets/Screen_Recording_2020-12-16_at_12.23.23_PM.gif)
 
@@ -1200,7 +1200,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **Editable section names** - Now you can rename your old, confusing [section](broken-reference) names, like _group\_a8fwcyke,_ to something less confusing like _Rumpelstiltskin_. Or something. This will make them memorable _and_ useful. And don't forget you can collapse and organize your sections to bring more clarity to your data story.
+* **Editable section names** - Now you can rename your old, confusing [section](/broken/pages/-M29d5mhzv0eZdJT1pzO#add-a-section) names, like _group\_a8fwcyke,_ to something less confusing like _Rumpelstiltskin_. Or something. This will make them memorable _and_ useful. And don't forget you can collapse and organize your sections to bring more clarity to your data story.
 
 ![](.gitbook/assets/jb-feature-sections2.gif)
 
@@ -1208,7 +1208,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🐛 Bug fixes & other improvements
 
-* **Numerous slice layout improvements** - Whether you are mixing[ text styles](building-reports/story-designer/slices/#adding-text) or combining slices in [horizontal section layouts](broken-reference), everything looks:ok\_hand:.
+* **Numerous slice layout improvements** - Whether you are mixing[ text styles](building-reports/story-designer/slices/#adding-text) or combining slices in [horizontal section layouts](/broken/pages/-M29d5mhzv0eZdJT1pzO#section-layouts), everything looks:ok\_hand:.
 * **Ingredients are easier to find** - In the ingredient pill, measures now show their aggregation, and advanced ingredients get a cute, new calculator icon. Less sleuthing, more finding. 🔎
 * **Trend labeling cleaned up** - The x-axis has been improved so that it shows appropriate labels based on the length of time and aggregation. 📈
 * Various Story Designer improvements. After all who doesn't like a better story?
@@ -1228,7 +1228,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * **Faster loading apps**: Apps built with uploaded CSVs now get faster the more you use them thanks to the magic of enhanced caching. Nobody likes waiting. Now there's less of it.
 * **Better labels**: Ok, we know that in some situations, labeling in the [scatterplot chart](building-reports/story-designer/slices/charts/scatterplot.md) was well... broken. 🤕It's better now. Boo-boo all gone.&#x20;
-* **Bar charts use bucket order:** [Bar charts](building-reports/story-designer/slices/charts/bar.md) that use [bucketed dimensions](broken-reference) will now show the buckets in the order you defined them. After all, can't we all use a little more order? &#x20;
+* **Bar charts use bucket order:** [Bar charts](building-reports/story-designer/slices/charts/bar.md) that use [bucketed dimensions](/broken/pages/-M9TXR6V3QjmXtXZUSe6) will now show the buckets in the order you defined them. After all, can't we all use a little more order? &#x20;
 * **Map charts zoom out farther**: The [map chart](building-reports/story-designer/slices/charts/map.md) now lets you zoom out farther to get a global perspective. 🌍Next step: Mars. Maybe
 * Various performance and bug fixes. Much perform. Un-bugged.
 
@@ -1244,9 +1244,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🐛 Bug fixes & other improvements
 
-* **Roll up time ingredients by month or year**: You can easily roll up time ingredient dates by month or year by choosing a month or year format when [defining the time ingredient](broken-reference). It's time to roll ⏰.
+* **Roll up time ingredients by month or year**: You can easily roll up time ingredient dates by month or year by choosing a month or year format when [defining the time ingredient](/broken/pages/-M2oH46TBtoR6EcAo298#time-ingredient). It's time to roll ⏰.
 * **New advanced ingredient functions:** There are new options for advanced aggregations. You can calculate [percentiles and ages](building-reports/story-designer/ingredients/advanced-formulas.md#aggregation-functions). This improvement is in the top percentile.
-* **More docs on formatting:** The advanced ingredients docs now contains lots of examples of how to build [custom number formats](broken-reference). `,.0f" days until Christmas"` might not mean anything to you, but it does to Juicebox. And to Santa. 🎁
+* **More docs on formatting:** The advanced ingredients docs now contains lots of examples of how to build [custom number formats](/broken/pages/-M9TZ8szTE19iRrqkwhu#advanced-number-formats). `,.0f" days until Christmas"` might not mean anything to you, but it does to Juicebox. And to Santa. 🎁
 * Various performance and bug fixes.
 
 ## August 27, 2020
@@ -1266,7 +1266,7 @@ Invite anyone to create an account and view your app by simply [sharing your acc
 ### 🐛Bug fixes & other improvements
 
 * **A better new-app template** - Now, when you make a fresh new app, you'll get a nice template with a header, intro, and sections to fill in to make your data story even more envied by your coworkers.
-* **Automagically add your data**🎩- When you add a Data Source to an app, press the "[Add Automagically](broken-reference)" button to tell Juicebox which data columns you're most interested in.
+* **Automagically add your data**🎩- When you add a Data Source to an app, press the "[Add Automagically](/broken/pages/-M2oH46TBtoR6EcAo298#adding-ingredients-automagically)" button to tell Juicebox which data columns you're most interested in.
 * **Story designer slice card improvements** - Added emphasis to the "Save" button, added nice hovering touches, and cleaned some dusty corners.
 * **No more "null island" ☠️🏝** - The map chart no longer displays Place dimension values where the latitude or longitude are missing (null) or are exactly 0,0 (the location of what we affectionately call null island in the middle of the Atlantic Ocean. We're guessing that's not the location you really wanted 💀).
 * **Table slice column headers now resize** - The table chart no longer cuts off multi-line column headers. Instead, the column header will resize to fit. Nobody likes being squeezed into something that's too small.

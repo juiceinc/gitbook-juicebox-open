@@ -6,4 +6,4 @@ The data drawer is where you set up your data. To open the data drawer, click th
 
 <figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption><p>Click the bar at the bottom to open the data drawer</p></figcaption></figure>
 
-After you load data, you can view your columns in the [data preview](the-data-preview.md) and configure charts using [dimensions and measures](broken-reference).
+After you load data, you can view your columns in the [data preview](the-data-preview.md) and configure charts using [dimensions and measures](/broken/pages/BVOZ5UBY2Y5juPan36Cx).

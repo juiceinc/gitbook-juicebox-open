@@ -41,6 +41,7 @@
     * [Multiple data tables](building-reports/story-designer/slices/working-with-multiple-data-sources.md)
     * [Selections as Variables](building-reports/story-designer/slices/selections-as-variables.md)
     * [Debug](building-reports/story-designer/slices/debug.md)
+    * [Advanced Configuration](building-reports/story-designer/slices/advanced-configuration.md)
   * [Ingredients](building-reports/story-designer/ingredients/README.md)
     * [The ingredient editor](building-reports/story-designer/ingredients/the-ingredient-editor/README.md)
       * [The dimension ingredient editor](building-reports/story-designer/ingredients/the-ingredient-editor/the-dimension-ingredient-editor.md)

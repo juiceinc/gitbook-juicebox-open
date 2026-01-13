@@ -20,8 +20,7 @@ This url can be displayed in an iFrame on HealthyCo’s website.
 
 ### When should I use embedding?
 
-There are several ways to use Juicebox. \
-
+There are several ways to use Juicebox. <br>
 
 | Approach                                                                                                                                                                   | How to setup users                                                                                                                        | The user experience                                                                                |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
@@ -32,4 +31,4 @@ There are several ways to use Juicebox. \
 
 Use the Juicebox API to perform user setup and request an embeddable url to show a user an app. That embeddable url can be used as an iFrame src to display the Juicebox in your website. [Here is the flow](./#how-embedding-works).
 
-\
+<br>

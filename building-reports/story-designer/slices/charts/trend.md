@@ -10,7 +10,7 @@ To add a trend slice:
 
 ![Select Trend from the dropdown](<../../../../.gitbook/assets/image (462).png>)
 
-* select the [time column](broken-reference) to use for the x-axis
+* select the [time column](/broken/pages/BVOZ5UBY2Y5juPan36Cx#special-columns-place-and-time) to use for the x-axis
 * select up to 5 measures to display on a single y-axis
 * select 1 measure to display on a second y-axis (optional)
 * add slice text (optional)
@@ -18,7 +18,7 @@ To add a trend slice:
 ![A Trend slice](<../../../../.gitbook/assets/image (423).png>)
 
 {% hint style="info" %}
-The trend chart requires a [time column](broken-reference). A time column is created from date or time fields in your data. The [time format](../../ingredients/time-formats.md) selected for the time column will determine how your dates "roll up" in your trend chart. For example, if you select the format `month yyyy`, the trend chart will roll up by month. If you select the format `yyyy`, the trend chart will roll up by year.&#x20;
+The trend chart requires a [time column](/broken/pages/BVOZ5UBY2Y5juPan36Cx#special-columns-place-and-time). A time column is created from date or time fields in your data. The [time format](../../ingredients/time-formats.md) selected for the time column will determine how your dates "roll up" in your trend chart. For example, if you select the format `month yyyy`, the trend chart will roll up by month. If you select the format `yyyy`, the trend chart will roll up by year.&#x20;
 {% endhint %}
 
 Time ingredients will "roll up" in charts to the period selected for the Format. For example, selecting the `month yyyy` format will roll up to the month. Selecting the `yyyy` format will roll up to the year.&#x20;

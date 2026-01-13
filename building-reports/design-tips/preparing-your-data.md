@@ -42,7 +42,7 @@ Sometimes your data will contain rows you don't need. For example, let's say you
 
 ### 7. Revise column names as needed
 
-The first row of your data should contain your column names. Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels, so better column names mean less work for you when defining [columns and measures](broken-reference). Each column name should be unique.&#x20;
+The first row of your data should contain your column names. Your column names should be readable, brief, and contain only letters, spaces, and underscores. For example, if the column name is `Student.First.Last.Name`, you could change it to `Student Name`; if the column name is `Revenue (per Proposal)`, you could change it to `Revenue per proposal`.  Your column names will be used as labels, so better column names mean less work for you when defining [columns and measures](/broken/pages/BVOZ5UBY2Y5juPan36Cx). Each column name should be unique.&#x20;
 
 ### 8. Restructure data as needed <a href="#h_f12bd5a4c0" id="h_f12bd5a4c0"></a>
 

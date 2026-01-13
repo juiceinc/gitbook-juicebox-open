@@ -29,7 +29,7 @@ Visual design is about guiding attention. Let's look at some simple tips to guid
 
 ## Column and Measure Labels & Icons&#x20;
 
-* Any data you add to Juicebox will be represented by a [column or measure](broken-reference). Taking the extra thought to label this well and provide complimentary icons will make the editing experience better for you as an editor. However more importantly, this will result in a more unique and understandable story for your audience.&#x20;
+* Any data you add to Juicebox will be represented by a [column or measure](/broken/pages/BVOZ5UBY2Y5juPan36Cx). Taking the extra thought to label this well and provide complimentary icons will make the editing experience better for you as an editor. However more importantly, this will result in a more unique and understandable story for your audience.&#x20;
 * **Keep your labels as short as possible** while maintaining clarity. For example, instead of "Sales Dollars", you may just want to write "Sales" since you can use a dollar sign for your icon and format your numbers with the dollar format.&#x20;
 * **Icons** allow you to add uniqueness or personality appropriate to your story style and data. Don't be afraid to have some fun with your icons! Search for good icons via text search or categories dropdown.
 
