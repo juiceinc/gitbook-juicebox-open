@@ -4,7 +4,7 @@
 
 To update uploaded data, click the **Replace file** button. If there is more than one data table in your report, select the data table that you want to update. (Alternatively, select the data table you want to update, click the gear icon, and select **Replace file** from the menu.) Then, select the new data file (CSV, XLS, or XLSX).&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt="Select the Replace file button to update an uploaded data table"><figcaption><p>Select the Replace file button to update an uploaded data table</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="Select the Replace file button to update an uploaded data table"><figcaption><p>Select the Replace file button to update an uploaded data table</p></figcaption></figure>
 
 Once the upload process finishes, refresh the page. The report will then display the updated data.&#x20;
 
@@ -16,7 +16,7 @@ It is good practice to share before replacing data. That way, if you select the 
 
 To improve performance, charts display cached data. The cache is cleared periodically (by default, every 2 hours), but the cache can be cleared manually by clicking the **Clear Data Cache** button and selecting **Yes, clear it**. The cache will be cleared for all data tables used in the report.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt="Select the Clear Data Cache button to clear all query caches for the report"><figcaption><p>Select the Clear Data Cache button to clear all query caches for the report</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="Select the Clear Data Cache button to clear all query caches for the report"><figcaption><p>Select the Clear Data Cache button to clear all query caches for the report</p></figcaption></figure>
 
 The caching period is set at the database connection level and the current options are: no caching, cleared after 2 hours, cleared after 1 day, or cleared after 1 year. If you would like the caching period adjusted for a particular database connection, [reach out to us](../../getting-started/reach-out-to-us.md).&#x20;
 
@@ -28,7 +28,7 @@ If changes to the structure of a database-connected table are not reflected afte
 
 If you have a data table that you don't plan to use in your report, you may want to delete the data table to declutter the data drawer. To do this, open the data drawer, select the data table you want to delete, click the gear icon, and select **Delete**.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt="Deleting a data table"><figcaption><p>Deleting a data table</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="Deleting a data table"><figcaption><p>Deleting a data table</p></figcaption></figure>
 
 {% hint style="warning" %}
 You will receive a warning message if the data table columns are used in your report.&#x20;
