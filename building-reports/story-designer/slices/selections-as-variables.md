@@ -14,7 +14,7 @@ You can configure the slice selections to act as:
 
 <div data-full-width="false"><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 
-### Finding Available Variables <a href="#variables-use-the-id-of-the-dimension-that-the-slice-is-showing" id="variables-use-the-id-of-the-dimension-that-the-slice-is-showing"></a>
+## Finding Available Variables <a href="#variables-use-the-id-of-the-dimension-that-the-slice-is-showing" id="variables-use-the-id-of-the-dimension-that-the-slice-is-showing"></a>
 
 To see what variables are available to a slice, open the Debug panel, select the slice, and click on the **Variables** tab. This shows you:
 
@@ -113,7 +113,7 @@ With a dynamic label:
 **Note:** In this example, we configured the slices to require selections, so the formulas will always have values to work with. If you're using variables in a scenario where selections might be empty (optional filters), you'll need to handle empty states using the `default()` function - see the section on handling empty selection states below.
 {% endhint %}
 
-#### Range Variables
+### Range Variables
 
 Range selections (date ranges, number ranges) return an array with two elements: a start value and an end value. You can access these using array indexing:
 
@@ -131,7 +131,7 @@ sum(if(joined_date BETWEEN
 * `['id']` extracts the value
 * `date()` wraps the value to ensure proper date type conversion (for date ranges)
 
-#### Handling Empty Selection States
+### Handling Empty Selection States
 
 If a selection might be empty, your formula will break when trying to reference an undefined variable. Use the `default()` function to provide fallback values:
 
