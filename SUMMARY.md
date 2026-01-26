@@ -39,6 +39,7 @@
       * [Pie](building-reports/story-designer/slices/charts/pie.md)
     * [Dynamic text](building-reports/story-designer/slices/dynamic-text.md)
     * [Multiple data tables](building-reports/story-designer/slices/working-with-multiple-data-sources.md)
+    * [Default Selections](building-reports/story-designer/slices/default-selections.md)
     * [Selections as Variables](building-reports/story-designer/slices/selections-as-variables.md)
     * [Debug](building-reports/story-designer/slices/debug.md)
     * [Advanced Configuration](building-reports/story-designer/slices/advanced-configuration.md)
