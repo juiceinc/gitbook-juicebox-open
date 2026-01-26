@@ -38,7 +38,7 @@ config:
 ```
 
 {% hint style="info" %}
-Note: Replace `SentDate` with your ingredient ID.&#x20;
+Note: Replace `SentDate` with your ingredient ID (not the ingredient label, field, or field formula). You can get the ingredient ID by clicking **Copy ID** at the bottom of the ingredient editor. &#x20;
 {% endhint %}
 
 #### **Fixed Date Ranges**
