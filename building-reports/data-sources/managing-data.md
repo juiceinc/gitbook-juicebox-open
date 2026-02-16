@@ -16,7 +16,7 @@ It is good practice to share before replacing data. That way, if you select the 
 
 To improve performance, charts display cached data. The cache is cleared periodically (by default, every 2 hours), but the cache can be cleared manually by clicking the **Clear Data Cache** button and selecting **Yes, clear it**. The cache will be cleared for all data tables used in the report.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="Select the Clear Data Cache button to clear all query caches for the report"><figcaption><p>Select the Clear Data Cache button to clear all query caches for the report</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="Select the Clear Data Cache button to clear all query caches for the report"><figcaption><p>Select the Clear Data Cache button to clear all query caches for the report</p></figcaption></figure>
 
 The caching period is set at the database connection level and the current options are: no caching, cleared after 2 hours, cleared after 1 day, or cleared after 1 year. If you would like the caching period adjusted for a particular database connection, [reach out to us](../../getting-started/reach-out-to-us.md).&#x20;
 

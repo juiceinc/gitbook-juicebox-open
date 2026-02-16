@@ -27,7 +27,7 @@ To find a specific report you can use the **Sort by** feature to order reports b
 
 To open the draft version of a report, click the **Edit** button. To open the published version of a report, click the **View** button.  &#x20;
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="Open the draft or published version of a report from the workspace home page"><figcaption><p>Open the draft or published version of a report from the workspace home page</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="Open the draft or published version of a report from the workspace home page"><figcaption><p>Open the draft or published version of a report from the workspace home page</p></figcaption></figure>
 
 To get back to the home page from any report, click on the **Home** button in the report header.
 

@@ -12,7 +12,7 @@ You can configure the slice selections to act as:
 2. **Variables**. Slice selections will not filter downstream slices but will be available for use in defining ingredients.&#x20;
 3. **Filters and Variables**. Slices selections will filter downstream slices and be available for use in defining ingredients.&#x20;
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Finding Available Variables <a href="#variables-use-the-id-of-the-dimension-that-the-slice-is-showing" id="variables-use-the-id-of-the-dimension-that-the-slice-is-showing"></a>
 
@@ -22,7 +22,7 @@ To see what variables are available to a slice, open the Debug panel, select the
 * The current selected values
 * The structure of the data (especially important for date ranges)
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When a slice is configured to use selections as "Variables" or "Filters and Variables", you'll see selected values here. If the Variables tab shows `{}`, it means either:
 
