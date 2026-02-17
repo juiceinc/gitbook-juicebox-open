@@ -129,7 +129,18 @@ In this example, the app opens with two filters pre-set on the `Filters1` slice:
 Selections determine what the user initially _sees_ in the app's filters. Data permissions determine what data is _available_. A user can change their selections, but they can never see data outside their data permissions.
 {% endhint %}
 
-#### Response
+#### Shortcut: one-time-use access views
+
+If you just need a quick, one-time-use access view without custom data permissions or selections, you can use the shortcut endpoint:
+
+```
+GET https://your-workspace.myjuicebox.io/api/v2/embed/{app_slug}/{user_email}/
+Authorization: Bearer <token>
+```
+
+This creates an access view with `allowed_uses_cnt: 1` that expires after 60 seconds. It's equivalent to POSTing to the access views endpoint with minimal settings.
+
+### Step 3: Get the response
 
 The response includes the same fields plus several read-only fields:
 
@@ -154,18 +165,7 @@ The response includes the same fields plus several read-only fields:
 
 The `url` field is what you embed in your iframe.
 
-#### Shortcut: one-time-use access views
-
-If you just need a quick, one-time-use access view without custom data permissions or selections, you can use the shortcut endpoint:
-
-```
-GET https://your-workspace.myjuicebox.io/api/v2/embed/{app_slug}/{user_email}/
-Authorization: Bearer <token>
-```
-
-This creates an access view with `allowed_uses_cnt: 1` that expires after 60 seconds. It's equivalent to POSTing to the access views endpoint with minimal settings.
-
-### Step 3: Embed in an iframe
+### Step 4: Embed the \`url\` in an iframe
 
 Take the `url` from the access view response and load it in an iframe:
 
