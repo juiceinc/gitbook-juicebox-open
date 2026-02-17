@@ -6,8 +6,6 @@ description: >-
 
 # Requesting data from embedded apps
 
-## Requesting Data from Embedded Apps
-
 Once a Juicebox app is embedded in an iframe, your page can communicate with it to request data from tables in the app. You can either download data as a file or export it as a JSON object for use in your own code.
 
 Juicebox uses the browser's [postMessage](https://developer.mozilla.org/en-US/docs/Web/API/Window/postMessage) API for cross-origin communication between your page and the embedded app. The supported message types are **is-report-ready**, **export-data**, and **download-data**.
