@@ -72,12 +72,10 @@
 * [Adding Users](managing-users/adding-users.md)
 * [User Roles and Management](managing-users/user-management-and-roles.md)
 * [Limiting what data users can see](managing-users/limiting-what-data-users-can-see.md)
-* [Access Views](managing-users/access-views.md)
 * [Embedding Juicebox Apps](managing-users/embedding-juicebox-apps/README.md)
-  * [How embedding works](managing-users/embedding-juicebox-apps/how-embedding-works.md)
-  * [Juicebox Embedding API](managing-users/embedding-juicebox-apps/juicebox-embedding-api.md)
-  * [Juicebox API](managing-users/embedding-juicebox-apps/juicebox-api.md)
-* [Requesting data from embedded apps](managing-users/requesting-data-from-embedded-apps.md)
+  * [Embedding a public app](managing-users/embedding-juicebox-apps/embedding-a-public-app.md)
+  * [Embedding with access views](managing-users/embedding-juicebox-apps/embedding-with-access-views.md)
+  * [Requesting data from embedded apps](managing-users/embedding-juicebox-apps/requesting-data-from-embedded-apps.md)
 
 ## Managing my workspace <a href="#managing-workspaces" id="managing-workspaces"></a>
 

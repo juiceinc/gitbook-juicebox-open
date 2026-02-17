@@ -1,34 +1,39 @@
+---
+description: >-
+  Juicebox apps can be embedded in any website. Choose the approach that fits  
+  your needs.
+---
+
 # Embedding Juicebox Apps
 
-Juicebox apps can be embedded in any website you control.
+You can embed a Juicebox app in your website so that users see it directly on your page, inside an iframe. There are two approaches, depending on how much control you need over who sees what.
 
-### Overview of Embedding
+### Choose your approach
 
-Delivering a Juicebox story requires:
+#### Embed a public app
 
-1. A Juicebox application.
-2. Juicebox users that may have [data permissions](../limiting-what-data-users-can-see.md).
-3. A website where your story will be displayed.
+If your app is shared as a "Public link," you can embed it on any webpage using a simple iframe. No API calls, no user accounts — just copy the embed code and paste it into your site.
 
-Embedding gives you control of items 2) and 3). For these examples, we’ll call you **HealthyCo 🧃**.  You sell organic juices and have developed several reports for internal and external use to show how your juices are performing. &#x20;
+This is the right choice when the data in your app is not sensitive and you want anyone who visits your page to see it.
 
-### What is embedding?
+→ [Embedding a public app](./#embed-a-public-app)
 
-Embedding allows Juicebox stories to be delivered in any webpage by generating a one-time use url that represents a user viewing a report.
+#### Embed with access views
 
-This url can be displayed in an iFrame on HealthyCo’s website.
+If you need to control who sees the app or what data they see, use **access views**. An access view is a URL generated through the Juicebox API that lets a specific user or account view a specific app with specific data permissions — without requiring them to sign in to Juicebox.
 
-### When should I use embedding?
+This is the right choice when you need to restrict data by user, organization, or role, and you want the app embedded seamlessly in your own site.
 
-There are several ways to use Juicebox. <br>
+→ [Embedding with access views](./#embed-with-access-views)
 
-| Approach                                                                                                                                                                   | How to setup users                                                                                                                        | The user experience                                                                                |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| <p><strong>Invite users with access keys</strong><br></p><p>This is easiest for small numbers of users as it requires no integration or development work by HealthyCo.</p> | <p><br>Use the app sharing view to create  </p>                                                                                           | Apps are displayed on a subdomain of the Juicebox website. For instance, healthyco.myjuicebox.io.  |
-| <p><strong>Embedding</strong></p><p><br>This is the most flexible approach and presents the Juicebox report directly in the HealthyCo website.</p>                         | <p><br><br>Use Juicebox APIs to set up users with the correct data permissions. This can be fully customized by HealthyCo developers.</p> | <p><br>The Juicebox story is embedded seamlessly in an iFrame on HealthyCo’s webpage.</p>          |
+### Embedding vs. SSO (OIDC)
 
-### How embedding works
+Embedding and SSO are different ways to give users access to Juicebox apps, and they serve different purposes.
 
-Use the Juicebox API to perform user setup and request an embeddable url to show a user an app. That embeddable url can be used as an iFrame src to display the Juicebox in your website. [Here is the flow](./#how-embedding-works).
+**Embedding with access views** generates a URL via the API for each view, bypasses Juicebox sign-in, and lets you hide the app header and footer so the app blends into your site. Each view requires an API call.
 
-<br>
+**SSO (OIDC)** also bypasses Juicebox sign-in by using your platform's existing authentication, but it gives users the full Juicebox experience — including the workspace homepage and the ability to navigate between apps. No API call is needed for each view.
+
+{% hint style="info" %}
+If you are interested in SSO/OIDC integration, [reach out to us](../../getting-started/reach-out-to-us.md).
+{% endhint %}

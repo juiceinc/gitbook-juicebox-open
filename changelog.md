@@ -969,7 +969,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * **Add images to the background of your header and sections**. Take your data story style to the next level by adding background images to headers and sections. You can add your own images or find images on Unsplash.&#x20;
 
-![](<.gitbook/assets/image (1) (1) (1) (1) (1) (1).png>)
+![](<.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png>)
 
 * **Streamlined data prep**. We've added lots of smarts to our data loading process so you can spend less time on data prep, more time telling your data story. &#x20;
 

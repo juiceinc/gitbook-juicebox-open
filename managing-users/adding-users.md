@@ -1,33 +1,61 @@
+---
+description: How to add users to your Juicebox workspace.
+---
+
 # Adding Users
 
-## Adding viewers to a report
+There are several ways to add users to your workspace, depending on the role you want to assign and your own permissions.
 
-To add a viewer to a report with "Sign in required" access, you [share a viewer access link](../building-reports/publish-and-share/sharing-and-access-controls.md). Anyone who clicks on the access link and [signs in](../viewing-apps/signing-in.md) becomes a new user in your workspace with the [viewer user role](user-management-and-roles.md#viewer) and access to the report. &#x20;
+### Adding a user from the People page
+
+Admins and Owners can add a user with any role directly from the People page.
+
+1. From the People page, click the **Add User** button.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+2. In the **Add a user** dialog, enter the user's email address, first name, and last name.
+3. Select the appropriate **Role** from the dropdown (Viewer, Editor, Admin, or Owner).
+4. If the role is **Viewer**, choose which reports the user can access: **All Reports** or **Customized**. If you select Customized, check the specific reports the user should be able to see.
+5. Optionally, expand **Data Permissions** to set data permission filters for the user. See Limiting what data users can see for details.
+
+<p align="center"><img src="../.gitbook/assets/image (2).png" alt="" data-size="original"></p>
+
+6. Click **Save** to add the user, or **Save and Send Email** to add the user and send them an email notification.
+
+### Adding an editor from the app editor
+
+Editors, Admins, and Owners can invite new Editors from within the app editor. Click the **Add Editor** button in the toolbar at the top of the editor, then choose to create an invite link or send an invitation via email.
+
+**\[Screenshot needed: Add Editor button in app editor toolbar]**
+
+**\[Screenshot needed: Add an Editor dialog with invite link and email options]**
+
+The invite link is one-time use. When the person clicks the link, they will be asked to create a Juicebox account (if they don't already have one) and sign in. After signing in, they will be an Editor in your workspace.
+
+### Adding viewers to a report
+
+To invite viewers to a specific report shared as "Sign-in required", open the report in the editor, click the **Sharing** button, and copy the invite link from the **Publish & Share** dialog.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+Anyone who clicks the invite link and signs in becomes a Viewer with access to that report. Use **Copy Invite Link** to copy just the URL, or **Copy Invite** to copy a message with the link included.
 
 {% hint style="info" %}
-For reports with "Anyone with the link" access, [anyone with the report link can view the report ](../building-reports/publish-and-share/sharing-and-access-controls.md#sharing-a-public-app)(no sign in required).&#x20;
+For reports with "Public link" access, anyone with the link can view the report — no sign-in required.
 {% endhint %}
 
-## Adding editors to your workspace
+### Setting up a password for API access
 
-You can add an editor to your workspace from either the [People page](user-management-and-roles.md#managing-users) or from the editing panel of any report. From there, click the **Add Editor** button.
+The Juicebox API requires an Admin account with password-based login. By default, Juicebox accounts use passwordless sign-in (email code, Google, or LinkedIn). To set up a password:
 
-![From the People page, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (468).png>)
+1. Add a new user with the **Admin** role from the People page (or have an existing Admin or Owner change a user's role to Admin).
+2. The Admin signs in to the workspace using email code sign-in.
+3. Once signed in, click the gear icon in the top-right corner of the workspace, then click on your name to open your user profile.
+4. Click **Set Password** to set a password.
 
-![From the editing panel, click Add Editor to invite a new editor to the workspace](<../.gitbook/assets/image (148).png>)
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Next, select whether to invite the new editor by creating and sharing an invite link or by sending an invitation via email.
+<p align="center"><img src="../.gitbook/assets/image (5).png" alt=""></p>
 
-![Select whether to invite by link or by email](<../.gitbook/assets/image (387).png>)
-
-### Invite by link
-
-To invite a new editor by invite link, select **Create Invite Link**. Then copy the one-time use invite link and share with the person you want to invite as an editor. Because the invite link will only work once, you should only share the link with one person. Upon clicking the link, the person will be asked to create a Juicebox account if one does not already exist and sign in. After signing in, the person will be an [editor](user-management-and-roles.md#editor) in your workspace.&#x20;
-
-![Copy and share invite link with one person](<../.gitbook/assets/image (104).png>)
-
-### Invite by email
-
-To invite a new editor by email, select **Invite via email**. Then enter the email addresses for each person you want to invite as an editor and click **Send**. Each person will receive an email with a one-time use link. Upon clicking the link, the person will be asked to create a Juicebox account if one does not already exist and sign in. After signing in, the person will be an [editor](user-management-and-roles.md#editor) in your workspace.
-
-![](<../.gitbook/assets/image (147).png>)
+Once a password is set, the Admin can use their email and password to authenticate with the Juicebox API.

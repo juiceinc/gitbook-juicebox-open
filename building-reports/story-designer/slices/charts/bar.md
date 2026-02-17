@@ -22,7 +22,7 @@ The CONFIG section has the following fields:
 The **Positive values** and **Negative values** colors set in the measure ingredient editor directly control bar colors. Setting these overrides the default system-assigned colors.
 {% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 **Style options**
 
