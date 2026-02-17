@@ -16,7 +16,7 @@ If your app is shared as a "Public link," you can embed it on any webpage using 
 
 This is the right choice when the data in your app is not sensitive and you want anyone who visits your page to see it.
 
-→ [Embedding a public app](./#embed-a-public-app)
+→ [Embedding a public app](embedding-a-public-app.md)
 
 #### Embed with access views
 
@@ -24,7 +24,7 @@ If you need to control who sees the app or what data they see, use **access view
 
 This is the right choice when you need to restrict data by user, organization, or role, and you want the app embedded seamlessly in your own site.
 
-→ [Embedding with access views](./#embed-with-access-views)
+→ [Embedding with access views](embedding-with-access-views.md)
 
 ### Embedding vs. SSO (OIDC)
 

@@ -180,81 +180,9 @@ Take the `url` from the access view response and load it in an iframe:
 
 Since access view URLs are typically short-lived, you should generate a new access view each time a user loads your page and inject the URL into the iframe `src` dynamically.
 
-### Putting it all together
+### Common patterns
 
-In production, your backend handles the API calls and injects the access view URL into the page dynamically. Here's a complete example using Python and Flask:
-
-```python
-import requests
-from flask import Flask, render_template_string
-
-app = Flask(__name__)
-
-JB_WORKSPACE = "https://your-workspace.myjuicebox.io"
-JB_USERNAME = "your-admin@example.com"
-JB_PASSWORD = "your-password"
-
-def get_token():
-    """Authenticate and return a Bearer token."""
-    resp = requests.post(f"{JB_WORKSPACE}/api/v2/auth/", json={
-        "username": JB_USERNAME,
-        "password": JB_PASSWORD,
-    })
-    resp.raise_for_status()
-    return resp.json()["token"]
-
-def create_access_view(token, app_slug, user_email, data_permissions=None):
-    """Create an access view and return its URL."""
-    payload = {
-        "app_slug": app_slug,
-        "user_email": user_email,
-        "allowed_uses_cnt": 1,
-        "show_header": False,
-        "show_footer": False,
-    }
-    if data_permissions:
-        payload["data_permissions"] = data_permissions
-
-    resp = requests.post(
-        f"{JB_WORKSPACE}/api/v2/accessviews/",
-        json=payload,
-        headers={"Authorization": f"Bearer {token}"},
-    )
-    resp.raise_for_status()
-    return resp.json()["url"]
-
-PAGE_TEMPLATE = """
-<!DOCTYPE html>
-<html>
-<body>
-  <iframe src="{{ embed_url }}" width="100%" height="800" frameborder="0"></iframe>
-</body>
-</html>
-"""
-
-@app.route("/dashboard")
-def dashboard():
-    token = get_token()
-    embed_url = create_access_view(
-        token,
-        app_slug="my_app",
-        user_email="viewer@example.com",
-        data_permissions={
-            "automatic_filters": {
-                "[region]": ["Northeast"]
-            }
-        },
-    )
-    return render_template_string(PAGE_TEMPLATE, embed_url=embed_url)
-```
-
-When a user visits `/dashboard`, the backend authenticates with Juicebox, creates a one-time-use access view, and serves a page with the embedded app. In a real application, you'd look up the current user's identity and set the `user_email` and `data_permissions` accordingly.
-
-{% hint style="warning" %}
-Store your Juicebox credentials securely (e.g., in environment variables), not in your source code. The example above uses hardcoded values for clarity.
-{% endhint %}
-
-### Example: per-user embedding
+#### Per-user embedding
 
 A common pattern is to create an access view each time a user visits your site:
 
@@ -280,7 +208,7 @@ For example, a school district portal might create access views where each schoo
 }
 ```
 
-### Example: shared organizational account
+#### Shared organizational account
 
 Access views don't require individual user accounts. You can use a single email to represent an organization, and multiple people can use access views associated with that email:
 
