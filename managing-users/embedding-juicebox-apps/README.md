@@ -12,7 +12,7 @@ You can embed a Juicebox app in your website so that users see it directly on yo
 
 #### Embed a public app
 
-If your app is shared as a "Public link," you can embed it on any webpage using a simple iframe. No API calls, no user accounts — just copy the embed code and paste it into your site.
+If your app is shared as a "Public link," you can embed it on any webpage using a simple iframe. It doesn't require API calls or user accounts. Just copy the embed code and paste it into your site.
 
 This is the right choice when the data in your app is not sensitive and you want anyone who visits your page to see it.
 
