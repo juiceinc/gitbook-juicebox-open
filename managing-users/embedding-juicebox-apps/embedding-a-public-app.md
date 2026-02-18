@@ -23,7 +23,7 @@ If your Juicebox app is shared as a **Public link**, you can embed it on any web
 ></iframe>
 ```
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 ### When to use this approach
 

@@ -12,14 +12,14 @@ Admins and Owners can add a user with any role directly from the People page.
 
 1. From the People page, click the **Add User** button.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. In the **Add a user** dialog, enter the user's email address, first name, and last name.
 3. Select the appropriate **Role** from the dropdown (Viewer, Editor, Admin, or Owner).
 4. If the role is **Viewer**, choose which reports the user can access: **All Reports** or **Customized**. If you select Customized, check the specific reports the user should be able to see.
 5. Optionally, expand **Data Permissions** to set data permission filters for the user. See Limiting what data users can see for details.
 
-<p align="center"><img src="../.gitbook/assets/image (2).png" alt="" data-size="original"></p>
+<p align="center"><img src="../.gitbook/assets/image (2) (1).png" alt="" data-size="original"></p>
 
 6. Click **Save** to add the user, or **Save and Send Email** to add the user and send them an email notification.
 
@@ -27,9 +27,9 @@ Admins and Owners can add a user with any role directly from the People page.
 
 Editors, Admins, and Owners can invite new Editors from within the app editor. Click the **Add Editor** button in the toolbar at the top of the editor, then choose to create an invite link or send an invitation via email.
 
-**\[Screenshot needed: Add Editor button in app editor toolbar]**
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-**\[Screenshot needed: Add an Editor dialog with invite link and email options]**
+<p align="center"><img src="../.gitbook/assets/image (1).png" alt="" data-size="original"></p>
 
 The invite link is one-time use. When the person clicks the link, they will be asked to create a Juicebox account (if they don't already have one) and sign in. After signing in, they will be an Editor in your workspace.
 

@@ -12,11 +12,11 @@ To remove all advanced configuration completely, **duplicate** a slice.
 
 Some configuration options are not available in the user interface. These can be set by opening the advanced configuration panel. There are two categories of advanced configuration: slice configuration and data configuration.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Opening the configuration panel looks like this.
 
-<figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Slice configuration options
 
