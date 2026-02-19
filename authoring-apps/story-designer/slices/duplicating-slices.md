@@ -1,2 +1,0 @@
-# Duplicating slices \(coming soon!\)
-

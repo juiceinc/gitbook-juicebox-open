@@ -1,2 +1,0 @@
-# Image \(future release\)
-
