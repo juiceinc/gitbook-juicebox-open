@@ -1,4 +1,0 @@
-# Charts
-
-See [this](../charts/)
-

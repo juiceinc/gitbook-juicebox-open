@@ -1,7 +1,0 @@
-# App Info
-
-
-
-* Title
-* Description
-
