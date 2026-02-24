@@ -147,7 +147,7 @@ The response includes the same fields plus several read-only fields:
 ```json
 {
   "key": "abc123def456",
-  "url": "https://your-workspace.myjuicebox.io/a/my_app/view/abc123def456/",
+  "url": "https://your-workspace.myjuicebox.io/v/abc123def456/",
   "app_slug": "my_app",
   "user_email": "viewer@example.com",
   "data_permissions": { ... },
@@ -171,7 +171,7 @@ Take the `url` from the access view response and load it in an iframe:
 
 ```html
 <iframe
-  src="https://your-workspace.myjuicebox.io/a/my_app/view/abc123def456/"
+  src="https://your-workspace.myjuicebox.io/v/abc123def456/"
   width="100%"
   height="800"
   frameborder="0"
