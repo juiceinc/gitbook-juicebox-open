@@ -81,7 +81,7 @@ The only always-required field is `app_slug`. The `user_email` field is required
 | `app_slug`         | string   | **Required.** The slug of the app to display.                                                                                                             |
 | `user_email`       | string   | The email address of an existing Juicebox user who will view the app. Required if the app's access is set to "Sign-in required."                          |
 | `data_permissions` | object   | Restricts what data the viewer can see. See [Data permissions](embedding-with-access-views.md#data-permissions) below.                                    |
-| `selections`       | object   | Pre-sets filter selections in the app. Keys use the format s`lice_slug:ingredient_id`. See [Selections](embedding-with-access-views.md#selections) below. |
+| `selections`       | object   | Pre-sets filter selections in the app. Keys use the format `slice_slug:ingredient_id`. See [Selections](embedding-with-access-views.md#selections) below. |
 | `show_header`      | boolean  | Whether to show the Juicebox app header. Default: `true`.                                                                                                 |
 | `show_footer`      | boolean  | Whether to show the Juicebox app footer. Default: `true`.                                                                                                 |
 | `allowed_uses_cnt` | integer  | How many times the URL can be loaded. `0` = unlimited. Default: `0`.                                                                                      |
