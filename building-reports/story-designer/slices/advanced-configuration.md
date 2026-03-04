@@ -1,24 +1,16 @@
 ---
-description: Describe advanced configuration options
+description: Editing advanced configuration
 ---
 
 # Advanced Configuration
 
-{% hint style="danger" %}
-Once advanced configuration is set, it can be overwritten but **can not** be removed, even if you remove it from the advanced configuration panel.
+Some configuration options are not available in the user interface. These can be set by opening the advanced configuration panel.&#x20;
 
-To remove all advanced configuration completely, **duplicate** a slice.
-{% endhint %}
+<figure><img src="../../../.gitbook/assets/image (603).png" alt=""><figcaption><p>The Advanced Configuration button</p></figcaption></figure>
 
-Some configuration options are not available in the user interface. These can be set by opening the advanced configuration panel. There are two categories of advanced configuration: slice configuration and data configuration.
+Opening the configuration panel and making some changes looks like this.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-
-Opening the configuration panel looks like this.
-
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Editing Advanced Configuration</p></figcaption></figure>
 
 #### Slice configuration options
 
@@ -28,7 +20,7 @@ Here are the available slice configuration options
 
 #### Data configuration options
 
-Data configuration options affect what data shows up in the slice.&#x20;
+Data configuration lets you control what data shows up in the slice. These configuration options will affect the SQL queries run by the slice and how those queries are validated and cached.
 
 <table data-full-width="true"><thead><tr><th>Option</th><th width="359.79833984375">Description</th><th>Required data type</th><th>Slices</th></tr></thead><tbody><tr><td>include_automatic_filter_keys</td><td>A list of strings containing the automatic filters that are allowed. Filters <strong>not on this list</strong> will be ignored.</td><td>A list of strings</td><td>All slices</td></tr><tr><td>exclude_automatic_filter_keys</td><td>A list of strings containing automatic filters to ignore.</td><td>A list of strings</td><td>All slices</td></tr><tr><td>automatic_filters</td><td>A dictionary containing automatic filter keys and values that will be applied to this slice. Using <code>filter_expression</code> is preferred.</td><td>A dictionary</td><td>All slices</td></tr><tr><td>filter_expression</td><td>One or more expressions that customize what you see in this slice. The expressions must evaluate to a boolean value.</td><td>A string, or a list of strings containing valid <strong>boolean</strong> expressions</td><td>All slices</td></tr><tr><td>order_by_expression</td><td>One or more expressions that control the display order of data you see in this slice.</td><td>A string or list of strings containing valid expressions.</td><td>All slices</td></tr><tr><td>apply_automatic_filters</td><td>Should data permissions and user selection filtering be applied to this slice. Default is true.</td><td>true, false, default is true</td><td>All slices</td></tr><tr><td>strict_automatic_filters</td><td>Is every key in data permissions required to exist in the data source used by this slice.</td><td>true, false, default is true</td><td>All slices</td></tr><tr><td>cache_region</td><td>Controls how long SQL query results are cached for. Every database connection has a default cache_region that is set by Juicebox support.</td><td>String, must be one of "1-second", "2-hours", "1-day", "1-year"</td><td>All slices</td></tr></tbody></table>
 
@@ -38,7 +30,7 @@ The **measure chooser slice** supports comparisons. The comparison is based on t
 
 <figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>A measure chooser with comparisons</p></figcaption></figure>
 
-Here are the options you can add.
+Here are the options you can add. Note that they all start with "comparison\_".
 
 <table data-full-width="true"><thead><tr><th>Option</th><th width="359.79833984375">Description</th><th>Required data type</th><th>Slices</th></tr></thead><tbody><tr><td>comparison_exists</td><td>Ensures a comparison is added even if no other comparison values have been set</td><td>Boolean, true or false</td><td>Chooser</td></tr><tr><td>comparison_label</td><td>What to call the comparison value</td><td>String</td><td>Chooser</td></tr><tr><td>comparison_metrics</td><td>A list of values OR a list of metric ids to display as the comparison. The list must be the same length as the number of metrics in the chooser. The lists will be matched to the metrics in the chooser.</td><td>A list of numbers OR a list of strings that are metric ids.</td><td>Chooser</td></tr><tr><td>comparison_apply_automatic_filters</td><td>Should automatic filtering from slices above be applied to this comparison.</td><td>Boolean, true or false</td><td>Chooser</td></tr><tr><td>comparison_exclude_automatic_filter_keys</td><td>A list of strings containing the automatic filters that are allowed. Filters <strong>on this list</strong> will be ignored.</td><td>A list of strings</td><td>Chooser</td></tr><tr><td>comparison_include_automatic_filter_keys</td><td>A list of strings containing the automatic filters that are allowed. </td><td>A list of strings</td><td>Chooser</td></tr><tr><td>comparison_strict_automatic_filters</td><td>Is every key in data permissions required to exist in the data source used by this slice.</td><td>Boolean, true or false.</td><td>Chooser</td></tr><tr><td>comparison_filter_expression</td><td>One or more expressions that customize what you see in this slice. The expressions must evaluate to a boolean value.</td><td>A string, or a list of strings containing valid boolean expressions</td><td>Chooser</td></tr><tr><td>comparison_cache_region</td><td>Controls how long SQL query results are cached for. Every database connection has a default cache_region that is set by Juicebox support.</td><td>String, must be one of "1-second", "2-hours", "1-day", "1-year"</td><td>Chooser</td></tr></tbody></table>
 
