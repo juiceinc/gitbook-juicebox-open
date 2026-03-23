@@ -18,6 +18,8 @@
 
 ### March 12, 2026
 
+(release 4.120)
+
 &#x20;**Bug fixes & other improvements**
 
 * **Bar slice:** Multiple metrics without a dimension now display correctly in both stacked and grouped modes, with working tooltips.
