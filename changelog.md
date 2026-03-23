@@ -16,7 +16,7 @@
 * Leaderboard slices now display wider when showing more than 5 columns, with improved text truncation and better spacing between values and labels.
 * The debug panel now includes a **Data tab** that shows the actual data for each slice. For filter slices, a separate data tab is created for each dimension. Toggle between a code view and a table view to inspect your data.
 
-### March 12, 2026
+## March 12, 2026
 
 (release 4.120)
 
