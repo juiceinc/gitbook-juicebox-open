@@ -26,6 +26,21 @@
 * **Table slice:** Tables with many columns now have better default sizing, and color scales in band and gradient modes have been refined.
 * **Map slice:** Fixed an issue where color range settings on Deckmap slices could be lost when saving.
 
+## March 5, 2026
+
+(release 4.119)
+
+**🎁 What's new?**
+
+* **Advanced Config for all editors:** All report editors can now use Advanced Config to fine-tune slice behavior. Available properties are curated and validated — invalid values are flagged with clear error messages.
+
+&#x20;**Bug fixes & other improvements**
+
+* **Consistent coloring in breakout tables:** Table slices with breakout dimensions now apply coloring consistently across all breakout columns, using a shared scale for easier visual comparison.
+* **Better table layout:** Tables with many columns now have improved default and minimum widths, along with enhanced row hover and selection styles.
+* **Smoother bar chart scrolling:** Bar charts no longer shift layout when a scrollbar appears or disappears.
+* **Selection policy preserved in filter slices:** Fixed an issue where the selection policy setting could be stripped when saving a filter slice through Advanced Config.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
