@@ -16,6 +16,14 @@
 * Leaderboard slices now display wider when showing more than 5 columns, with improved text truncation and better spacing between values and labels.
 * The debug panel now includes a **Data tab** that shows the actual data for each slice. For filter slices, a separate data tab is created for each dimension. Toggle between a code view and a table view to inspect your data.
 
+### March 12, 2026
+
+&#x20;**Bug fixes & other improvements**
+
+* **Bar slice:** Multiple metrics without a dimension now display correctly in both stacked and grouped modes, with working tooltips.
+* **Table slice:** Tables with many columns now have better default sizing, and color scales in band and gradient modes have been refined.
+* **Map slice:** Fixed an issue where color range settings on Deckmap slices could be lost when saving.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
