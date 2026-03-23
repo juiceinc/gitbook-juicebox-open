@@ -41,6 +41,14 @@
 * **Smoother bar chart scrolling:** Bar charts no longer shift layout when a scrollbar appears or disappears.
 * **Selection policy preserved in filter slices:** Fixed an issue where the selection policy setting could be stripped when saving a filter slice through Advanced Config.
 
+## February 26, 2026
+
+(release 4.118)
+
+**Bug fixes & other improvements**
+
+* Various minor improvements to user experience and performance
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
