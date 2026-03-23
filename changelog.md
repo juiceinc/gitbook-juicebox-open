@@ -7,6 +7,15 @@
 * Ability to hide or show different sections to different users.
 * Additional advanced report design options available through our report design consulting services.
 
+## March 23, 2026
+
+(release 4.121)
+
+&#x20;**Bug fixes & other improvements**
+
+* Leaderboard slices now display wider when showing more than 5 columns, with improved text truncation and better spacing between values and labels.
+* The debug panel now includes a **Data tab** that shows the actual data for each slice. For filter slices, a separate data tab is created for each dimension. Toggle between a code view and a table view to inspect your data.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
