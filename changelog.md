@@ -148,6 +148,16 @@
 * Fixed a layout issue where field input groups could overflow their container in the Editor.
 * Improved label styling and orientation support for Bar slices.
 
+## December 11, 2025
+
+(release 4.109)
+
+**Bug fixes & other improvements**
+
+* **Ingredient usage indicators:** Ingredients in the Data Drawer and selection panels now show whether they're used in the current report. In-use ingredients display a blue highlight and "Used in report" badge, and are sorted to the top of the list.
+* **User labels (early access):** Admins can now assign labels to users from the People page, laying the groundwork for controlling which report sections are visible to different users. This feature is currently in early access. [Reach out to us](https://docs.myjuicebox.io/getting-started/reach-out-to-us) if you're interested.
+* Fixed an issue where Filter and Map slice configurations could retain orphaned settings after dimensions were removed.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
