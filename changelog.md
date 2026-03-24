@@ -222,6 +222,18 @@
 * Added safeguards to prevent app data loss if a database error occurs during discard-draft operations.
 * Improved filter button colors for better consistency across light and dark modes.
 
+## October 23, 2025
+
+(release 4.104)
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where slices could sometimes fail to be added or moved in the Editing Panel.
+* Fixed an error that could occur when switching measures in a Table slice.
+* Fixed Scatterplot charts not resizing properly.
+* Fixed Chooser slices getting out of sync when duplicated.
+* Fixed links interfering with clicks in edit mode.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
