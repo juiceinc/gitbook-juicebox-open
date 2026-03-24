@@ -111,6 +111,18 @@
 * Fixed editor options not appearing correctly for Trend and Scatterplot slices.
 * Improved sign-in reliability when the same email address exists across multiple workspaces.
 
+## January 15, 2026
+
+(release 4.112)
+
+🎁 **What's new?**
+
+* **OpenID Connect (OIDC) authentication:** Workspaces can now be configured to use OpenID Connect for single sign-on (SSO), enabling login through enterprise identity providers like Auth0, Okta, and Azure AD. Admins can customize the SSO button, configure auto-redirect, and control which other sign-in methods are available.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where some published apps could fail to load data due to a permissions error in the editor query.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
