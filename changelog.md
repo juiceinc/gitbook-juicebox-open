@@ -49,6 +49,16 @@
 
 * Various minor improvements to user experience and performance
 
+## February 19, 2026
+
+**🎁 What's new?**
+
+* **Table cell coloring modes** — Tables now offer four ways to color cells: None, Ranges, Gradient, and Solid. Gradient mode includes normalized, stepped, and banded options with configurable band counts. A new color picker lets you choose palette colors and set separate colors for negative and positive values.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where signing in with Google could leave the login popup stuck on the homepage instead of closing automatically.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
