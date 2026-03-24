@@ -96,6 +96,21 @@
 * **Table breakout columns.** You can now add breakout (pivot) columns to Table slices. Pick a dimension to break out by and a measure, and the table will automatically create columns for each value — making it easy to compare values side by side. You can set the maximum number of breakout values, and any remaining values are grouped into an "Other" column.
 * **Expanded color palette.** The color theme customization now includes additional semantic colors: Tint, Shade, Info, Success, Warning, and Critical. These colors are used throughout the app and can be customized to match your brand.
 
+## January 22, 2026
+
+(release 4.113)
+
+🎁 **What's new?**
+
+* **Pass filters between pages:** In multi-page apps, editors can now enable "Receive filters from another Page" on any slice. When a user navigates between pages, their active filter selections carry forward to matching filters on the destination page — keeping context intact across your report.
+* **Homepage visibility control:** Workspace admins can now control whether public apps appear on users' homepages with a new setting. When disabled (the default), viewers only see apps they've been explicitly given access to.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where filter selections with multiple dimensions in a single slice could overwrite each other instead of accumulating.
+* Fixed editor options not appearing correctly for Trend and Scatterplot slices.
+* Improved sign-in reliability when the same email address exists across multiple workspaces.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
