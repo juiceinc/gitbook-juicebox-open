@@ -158,6 +158,19 @@
 * **User labels (early access):** Admins can now assign labels to users from the People page, laying the groundwork for controlling which report sections are visible to different users. This feature is currently in early access. [Reach out to us](https://docs.myjuicebox.io/getting-started/reach-out-to-us) if you're interested.
 * Fixed an issue where Filter and Map slice configurations could retain orphaned settings after dimensions were removed.
 
+## December 8, 2025
+
+(release 4.108)
+
+**Bug fixes & other improvements**
+
+* **Ingredient variable badges:** Ingredients with variables now display a `{ }` badge instead of appearing in red. Hovering over the badge shows which variables are required.
+* **Ingredient pill emphasis:** Active ingredient pills in pickers now show a clear black border for better visibility.
+* **AI content styling:** AI-generated content in slice titles now renders with proper typography styling.
+* **Sticky filter bar:** Hidden filter pills no longer incorrectly appear in the sticky filter bar (unless embedded in another slice).
+* **Table printing:** Tables now print with correct height and sizing.
+* **People page performance:** Improved loading performance on the People page.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
