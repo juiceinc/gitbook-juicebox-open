@@ -2,10 +2,8 @@
 
 ## What's coming soon?
 
-* AI-enhanced results.
-* Ability to add and manage multiple pages within the same report, giving more flexibility in organizing reports.
-* Ability to hide or show different sections to different users.
-* Additional advanced report design options available through our report design consulting services.
+* **Default selections.** Set default selected values on slices so your report opens with the view you want viewers to see first.
+* **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
 ## March 23, 2026
 
