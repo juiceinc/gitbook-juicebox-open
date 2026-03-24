@@ -87,7 +87,7 @@
 * Editor styling: Accordion sections in the slice editor are more compact for a denser editing experience.
 * Performance: Increased parallelism for data queries, improving load times for slices with multiple data requests.
 
-## January 30, 2026
+## January 29, 2026
 
 (release 4.114)
 
