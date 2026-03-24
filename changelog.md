@@ -123,6 +123,19 @@
 
 * Fixed an issue where some published apps could fail to load data due to a permissions error in the editor query.
 
+## January 8, 2026
+
+(release 4.111)
+
+🎁 **What's new?**
+
+* **Dynamic section visibility**: Editors can now show or hide sections based on user tags. Set up rules to automatically display different sections for different user groups — for example, show an executive summary only to users tagged as "leadership." Choose between include and exclude modes, select one or more tags, and see visibility indicators right in the section outliner. This feature is currently in early access. [Reach out to us](https://docs.myjuicebox.io/getting-started/reach-out-to-us) if you're interested.
+
+**Bug fixes & other improvements**
+
+* **Range filter fix**: The Apply button on range (numeric) filter pills now works on the first click. Previously, users sometimes had to click Apply twice for changes to take effect.
+* **Data permissions testing**: Fixed an issue where section visibility wasn't updating correctly when using Test Data Permissions to preview the app as different users.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
