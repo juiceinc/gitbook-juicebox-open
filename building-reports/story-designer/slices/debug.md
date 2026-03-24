@@ -13,7 +13,11 @@ There are two ways to open the **Debug All Slices** window:
 * **While editing a draft report**, click the no-bug icon next to any slice name in the editing panel, or click the no-bug icon that appears on the slice itself in the report.
 * **In Preview mode or on a published report**, first toggle debug mode on by clicking the no-bug icon in the upper-right corner of the report header. This makes a no-bug icon appear on each slice. Then click a slice's no-bug icon to open the Debug All Slices window.
 
+<figure><img src="../../../.gitbook/assets/image (604).png" alt=""><figcaption></figcaption></figure>
+
 The Debug All Slices window shows a list of all slices on the left (with response times) and tabbed debug details on the right. You can select any slice to view its information.
+
+<figure><img src="../../../.gitbook/assets/image (605).png" alt=""><figcaption></figcaption></figure>
 
 ## Debug tabs
 
