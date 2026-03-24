@@ -171,6 +171,25 @@
 * **Table printing:** Tables now print with correct height and sizing.
 * **People page performance:** Improved loading performance on the People page.
 
+## November 20, 2025
+
+(release 4.107)
+
+🎁 **What's new?**
+
+* **Ingredient searching:** You can now search ingredients in the ingredient selector panel by name or formula. Type "sum" to find all SUM-based ingredients, or start typing a name to quickly filter a long list.
+* **Data value shortcuts:** New dynamic text accessors let you display specific values from your slice data — the first, last, or nth item — without needing selections.
+
+**Bug fixes & other improvements**
+
+* **Toggles converted to switches:** All toggle controls throughout the editor have been updated to a modern switch design.
+* Fixed an issue where hidden filter pills could incorrectly appear in the sticky filter bar.
+* Fixed slice overlay button text being hard to read on dark backgrounds.
+* Fixed slice action buttons disappearing when refreshing the app while editing a draft.
+* Fixed AI-generated text in slice titles not rendering with the correct typography styles.
+* Fixed ingredient pills overflowing their container in data drawer column headers.
+* Improved handling of older app configurations that were missing show/hide component settings.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
