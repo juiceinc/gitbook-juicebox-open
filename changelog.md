@@ -262,18 +262,18 @@
 * Fixed an issue where date and time formats were not being applied correctly to selection values in dynamic text.
 * Fixed an issue where selections made in a Scatterplot were not being passed through to a downstream Filter slice.
 
-## October 7, 2025&#x20;
+## October 2, 2025
 
 (release 4.101)
 
-**🎁 What's new?**
+🎁 **What's new?**
 
-* Formula editing panel: New dedicated interface for creating and editing formulas with improved usability
+* **Field insertion panel:** When editing formulas in the ingredient editor, a new Field panel lets you browse and insert available fields directly. Type `[` to filter the list, and click a field to insert it at your cursor position.
 
-&#x20;**Bug fixes & other improvements**
+**Bug fixes & other improvements**
 
-* Fixed issue where dynamic table column widths
-* Resolved persistent tooltip display issues in scatterplot
+* Fixed an issue where tooltips on Scatterplot slices could persist on screen after interacting with hexbin regions.
+* Fixed an issue where custom column widths couldn't be configured for dynamic columns in Table slices.
 
 ## September 25, 2025&#x20;
 
