@@ -74,6 +74,19 @@
 * **Table compound selection toggle:** A new toggle in the Table slice editor — "Convert row selections into individual selections by dimension" — lets editors control how compound row selections are sent to downstream slices. When enabled, multi-dimension row selections are broken into individual dimension filters. Off by default.
 * **Debug panel timing fix:** Fixed an issue where ingredient timing values in the debug panel were displayed 1000x higher than the actual value.
 
+## February 5, 2026
+
+(release 4.115)
+
+**Bug fixes & other improvements**
+
+* Table breakout options: When using breakout columns in tables, three new options give editors more control — toggle the "Other" aggregation column, show all breakout values regardless of filters, and sort breakout columns by their measure value.
+* Improved color accuracy: Palette colors now render with improved accuracy across tooltips and other UI elements.
+* Multi-page export fix: Fixed an issue where exporting pages other than the first one could fail.
+* Debug panel improvements: The debug panel now displays error details when a slice's data request returns an error, making it easier to diagnose data issues.
+* Editor styling: Accordion sections in the slice editor are more compact for a denser editing experience.
+* Performance: Increased parallelism for data queries, improving load times for slices with multiple data requests.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
