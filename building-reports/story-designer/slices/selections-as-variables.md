@@ -16,7 +16,7 @@ You can configure the slice selections to act as:
 
 ## Finding Available Variables <a href="#variables-use-the-id-of-the-dimension-that-the-slice-is-showing" id="variables-use-the-id-of-the-dimension-that-the-slice-is-showing"></a>
 
-To see what variables are available to a slice, open the Debug panel, select the slice, and click on the **Variables** tab. This shows you:
+To see what variables are available to a slice, open the [debug information](debug.md), select the slice, and click on the **Variables** tab. This shows you:
 
 * The variable names you can reference in formulas
 * The current selected values
@@ -49,7 +49,7 @@ Let's say you want to compare sales between two quarters that users can select. 
 **Important:** For this comparison example, you must use "Variables" only, not "Filters and Variables". If you used "Filters and Variables", selecting a baseline quarter would filter the data and prevent you from seeing other quarters in the comparison selection. Variables-only mode keeps the selections independent.
 {% endhint %}
 
-4. Add a Chooser slice after the second Table slice and open the Debug panel for the Chooser slice. Navigate to the Variables tab in the Debug panel. You'll see something like:
+4. Add a Chooser slice after the second Table slice and open the [debug information](debug.md) for the Chooser slice. Navigate to the Variables tab. You'll see something like:
 
 ```
 {
