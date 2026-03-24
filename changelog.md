@@ -190,6 +190,19 @@
 * Fixed ingredient pills overflowing their container in data drawer column headers.
 * Improved handling of older app configurations that were missing show/hide component settings.
 
+## November 13, 2025
+
+(release 4.106)
+
+🎁 **What's new?**
+
+* **Debug mode:** Editors can now toggle debug mode directly from the slice action toolbar to inspect data queries and recipe details while building or reviewing apps. The debug panel has been redesigned with organized tabs, SQL syntax highlighting, and one-click copy for each section.
+
+**Bug fixes & other improvements**
+
+* **Bar chart sorting:** Fixed an issue where grouped bar charts could sort incorrectly.
+* **Section layout editing:** Fixed an issue where editing a custom layout in one section could overwrite another section's layout.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
