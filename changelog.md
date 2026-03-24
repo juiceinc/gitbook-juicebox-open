@@ -87,6 +87,15 @@
 * Editor styling: Accordion sections in the slice editor are more compact for a denser editing experience.
 * Performance: Increased parallelism for data queries, improving load times for slices with multiple data requests.
 
+## January 30, 2026
+
+(release 4.114)
+
+**🎁 What's new?**
+
+* **Table breakout columns.** You can now add breakout (pivot) columns to Table slices. Pick a dimension to break out by and a measure, and the table will automatically create columns for each value — making it easy to compare values side by side. You can set the maximum number of breakout values, and any remaining values are grouped into an "Other" column.
+* **Expanded color palette.** The color theme customization now includes additional semantic colors: Tint, Shade, Info, Success, Warning, and Critical. These colors are used throughout the app and can be customized to match your brand.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
