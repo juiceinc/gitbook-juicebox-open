@@ -215,12 +215,12 @@
 
 **Bug fixes & other improvements**
 
-* **PDF export tables:** Fixed an issue where tables in paginated PDF exports weren't expanding to their full width and height.
-* **Bar chart sorting:** Fixed a sorting comparison bug in grouped bar charts.
-* **Bar chart display:** Fixed an issue where measures-only bar charts in certain apps weren't displaying data.
-* **Editor stability:** Fixed a crash when using a data chooser as a metric for a trend slice, and fixed links interfering with click behavior in edit mode.
-* **Draft safety:** Added safeguards to prevent app data loss if a database error occurs during discard-draft operations.
-* **Filter pill styling:** Improved filter button colors for better consistency across light and dark modes.
+* Fixed an issue where tables in paginated PDF exports weren't expanding to their full width and height.
+* Fixed a sorting comparison bug in grouped bar charts.
+* Fixed an issue where measures-only bar charts in certain apps weren't displaying data.
+* Fixed a crash when using a data chooser as a metric for a trend slice, and fixed links interfering with click behavior in edit mode.
+* Added safeguards to prevent app data loss if a database error occurs during discard-draft operations.
+* Improved filter button colors for better consistency across light and dark modes.
 
 ## October 7, 2025&#x20;
 
