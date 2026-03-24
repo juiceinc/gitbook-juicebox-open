@@ -136,6 +136,18 @@
 * **Range filter fix**: The Apply button on range (numeric) filter pills now works on the first click. Previously, users sometimes had to click Apply twice for changes to take effect.
 * **Data permissions testing**: Fixed an issue where section visibility wasn't updating correctly when using Test Data Permissions to preview the app as different users.
 
+## December 18, 2025
+
+(release 4.110)
+
+**Bug fixes & other improvements**
+
+* **"Pages" terminology:** For workspaces using multi-page reports, the Editor UI now uses "Page" instead of "Story" or "Stack." You'll see updated labels like "Manage Pages," "Add Page," and "Edit Page Title."
+* Fixed an issue where the Map legend wasn't showing the "sized by" information.
+* Fixed top padding on the apps home page.
+* Fixed a layout issue where field input groups could overflow their container in the Editor.
+* Improved label styling and orientation support for Bar slices.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
