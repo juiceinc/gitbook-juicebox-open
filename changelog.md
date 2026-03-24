@@ -51,6 +51,8 @@
 
 ## February 19, 2026
 
+(release 4.117)
+
 **🎁 What's new?**
 
 * **Table cell coloring modes** — Tables now offer four ways to color cells: None, Ranges, Gradient, and Solid. Gradient mode includes normalized, stepped, and banded options with configurable band counts. A new color picker lets you choose palette colors and set separate colors for negative and positive values.
@@ -58,6 +60,19 @@
 **Bug fixes & other improvements**
 
 * Fixed an issue where signing in with Google could leave the login popup stuck on the homepage instead of closing automatically.
+
+## February 12, 2026
+
+(release 4.116)
+
+**🎁 What's new?**
+
+* **In-page navigation links:** Editors can now add links within report content that navigate to other pages in the same app. In the rich text editor, the link dialog shows a list of available pages — click one to create a link. These links navigate without reloading the browser and carry forward active filter selections.
+
+**Bug fixes & other improvements**
+
+* **Table compound selection toggle:** A new toggle in the Table slice editor — "Convert row selections into individual selections by dimension" — lets editors control how compound row selections are sent to downstream slices. When enabled, multi-dimension row selections are broken into individual dimension filters. Off by default.
+* **Debug panel timing fix:** Fixed an issue where ingredient timing values in the debug panel were displayed 1000x higher than the actual value.
 
 ## October 7, 2025&#x20;
 
