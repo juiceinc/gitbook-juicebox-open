@@ -203,6 +203,25 @@
 * **Bar chart sorting:** Fixed an issue where grouped bar charts could sort incorrectly.
 * **Section layout editing:** Fixed an issue where editing a custom layout in one section could overwrite another section's layout.
 
+## November 6, 2025
+
+(release 4.105)
+
+🎁 **What's new?**
+
+* **Slice display options:** Control how each slice appears with direct toggles — show or hide the visualization, display as a filter pill, or show as a download button (tables). These replace the previous "Display slice as" dropdown with a more intuitive set of options.
+* **Ingredient selector panel:** A new panel for selecting and organizing the dimensions and measures in your charts. Drag to reorder columns, and easily add or remove ingredients from any chart type.
+* **Debug mode for editors:** Toggle debug mode from the slice action toolbar to inspect data queries and recipe details. Works on both draft and published apps, with per-section tabs, SQL highlighting, and easy copy actions.
+
+**Bug fixes & other improvements**
+
+* **PDF export tables:** Fixed an issue where tables in paginated PDF exports weren't expanding to their full width and height.
+* **Bar chart sorting:** Fixed a sorting comparison bug in grouped bar charts.
+* **Bar chart display:** Fixed an issue where measures-only bar charts in certain apps weren't displaying data.
+* **Editor stability:** Fixed a crash when using a data chooser as a metric for a trend slice, and fixed links interfering with click behavior in edit mode.
+* **Draft safety:** Added safeguards to prevent app data loss if a database error occurs during discard-draft operations.
+* **Filter pill styling:** Improved filter button colors for better consistency across light and dark modes.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
