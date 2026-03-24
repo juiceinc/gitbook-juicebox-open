@@ -234,6 +234,21 @@
 * Fixed Chooser slices getting out of sync when duplicated.
 * Fixed links interfering with clicks in edit mode.
 
+## October 16, 2025
+
+(release 4.103)
+
+🎁 **What's new?**
+
+* **Quick date range buttons:** Trend and Filter slices with day-granularity time ingredients now show quick-range buttons — YTD, MTD, Last 30 Days, and Last 90 Days — in the date range picker, making it faster to jump to common date ranges.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where Map slices could occasionally fail to appear on slower connections due to a script loading race condition.
+* Scatterplot axes now correctly invert when a metric ingredient is set to "reversed."
+* Improved contrast and readability for dark-themed apps across Leaderboard, Table, Card, and other UI elements.
+* Fixed a Table slice error ("Cell count must match column count") that could occur when switching measures via a Chooser.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
