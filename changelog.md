@@ -249,6 +249,19 @@
 * Improved contrast and readability for dark-themed apps across Leaderboard, Table, Card, and other UI elements.
 * Fixed a Table slice error ("Cell count must match column count") that could occur when switching measures via a Chooser.
 
+## October 9, 2025
+
+(release 4.102)
+
+🎁 **What's new?**
+
+* **Hide ingredient descriptions in Choosers:** Editors can now toggle ingredient descriptions on or off in Chooser slices. When hidden, an info icon appears next to each item — hover over it to see the description in a tooltip.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where date and time formats were not being applied correctly to selection values in dynamic text.
+* Fixed an issue where selections made in a Scatterplot were not being passed through to a downstream Filter slice.
+
 ## October 7, 2025&#x20;
 
 (release 4.101)
