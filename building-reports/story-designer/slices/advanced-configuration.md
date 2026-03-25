@@ -2,7 +2,7 @@
 description: Editing advanced configuration
 ---
 
-# Advanced Configuration
+# Advanced configuration
 
 Some configuration options are not available in the user interface. These can be set by opening the advanced configuration panel.&#x20;
 
@@ -10,7 +10,7 @@ Some configuration options are not available in the user interface. These can be
 
 Opening the configuration panel and making some changes looks like this.
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Editing Advanced Configuration</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Editing Advanced Configuration</p></figcaption></figure>
 
 #### Slice configuration options
 
@@ -28,7 +28,7 @@ Data configuration lets you control what data shows up in the slice. These confi
 
 The **measure chooser slice** supports comparisons. The comparison is based on the data shown in the chooser, but this can be adjusted. Here's what a measure chooser with comparisons can look like:
 
-<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption><p>A measure chooser with comparisons</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption><p>A measure chooser with comparisons</p></figcaption></figure>
 
 Here are the options you can add. Note that they all start with "comparison\_".
 

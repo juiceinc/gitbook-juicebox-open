@@ -9,10 +9,10 @@ By default, selections in a slice filter the data in downstream slices. You can 
 You can configure the slice selections to act as:
 
 1. **Filters**. Slice selections will filter downstream slices. (This is the default configuration.)
-2. **Variables**. Slice selections will not filter downstream slices but will be available for use in defining ingredients.&#x20;
-3. **Filters and Variables**. Slices selections will filter downstream slices and be available for use in defining ingredients.&#x20;
+2. **Variables**. Slice selections will not filter downstream slices but will be available for use in defining ingredients.
+3. **Filters and Variables**. Slices selections will filter downstream slices and be available for use in defining ingredients.
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Finding Available Variables <a href="#variables-use-the-id-of-the-dimension-that-the-slice-is-showing" id="variables-use-the-id-of-the-dimension-that-the-slice-is-showing"></a>
 
@@ -22,20 +22,20 @@ To see what variables are available to a slice, open the [debug information](deb
 * The current selected values
 * The structure of the data (especially important for date ranges)
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 When a slice is configured to use selections as "Variables" or "Filters and Variables", you'll see selected values here. If the Variables tab shows `{}`, it means either:
 
-* The slice isn't filtered to use selections as variables, or&#x20;
+* The slice isn't filtered to use selections as variables, or
 * Nothing has been selected yet
 
 ## Using Variables
 
-Variables are most useful when you need to reference selections within your ingredient definitions rather than relying on automatic filtering. A common use case is comparing data across two different time periods.&#x20;
+Variables are most useful when you need to reference selections within your ingredient definitions rather than relying on automatic filtering. A common use case is comparing data across two different time periods.
 
 ### Example: Comparing Sales Across Quarters
 
-Let's say you want to compare sales between two quarters that users can select. You can't accomplish this with regular filtering because you need to reference both quarters simultaneously.&#x20;
+Let's say you want to compare sales between two quarters that users can select. You can't accomplish this with regular filtering because you need to reference both quarters simultaneously.
 
 **Setup**:
 

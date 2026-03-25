@@ -9,7 +9,7 @@
 
 (release 4.121)
 
-&#x20;**Bug fixes & other improvements**
+**Bug fixes & other improvements**
 
 * Leaderboard slices now display wider when showing more than 5 columns, with improved text truncation and better spacing between values and labels.
 * The debug panel now includes a **Data tab** that shows the actual data for each slice. For filter slices, a separate data tab is created for each dimension. Toggle between a code view and a table view to inspect your data.
@@ -18,7 +18,7 @@
 
 (release 4.120)
 
-&#x20;**Bug fixes & other improvements**
+**Bug fixes & other improvements**
 
 * **Bar slice:** Multiple metrics without a dimension now display correctly in both stacked and grouped modes, with working tooltips.
 * **Table slice:** Tables with many columns now have better default sizing, and color scales in band and gradient modes have been refined.
@@ -32,7 +32,7 @@
 
 * **Advanced Config for all editors:** All report editors can now use Advanced Config to fine-tune slice behavior. Available properties are curated and validated — invalid values are flagged with clear error messages.
 
-&#x20;**Bug fixes & other improvements**
+**Bug fixes & other improvements**
 
 * **Consistent coloring in breakout tables:** Table slices with breakout dimensions now apply coloring consistently across all breakout columns, using a shared scale for easier visual comparison.
 * **Better table layout:** Tables with many columns now have improved default and minimum widths, along with enhanced row hover and selection styles.
@@ -273,7 +273,7 @@
 * Fixed an issue where tooltips on Scatterplot slices could persist on screen after interacting with hexbin regions.
 * Fixed an issue where custom column widths couldn't be configured for dynamic columns in Table slices.
 
-## September 25, 2025&#x20;
+## September 25, 2025
 
 (release 4.100)
 
@@ -284,7 +284,7 @@
 
 ## September 18, 2025
 
-&#x20;(release 4.99)
+(release 4.99)
 
 **🎁 What's new?**
 
@@ -294,7 +294,7 @@
 
 * Various minor improvements to user experience and performance
 
-## September 11, 2025&#x20;
+## September 11, 2025
 
 (release 4.98)
 
@@ -302,7 +302,7 @@
 
 * Various minor improvements to user experience and performance
 
-## September 5, 2025&#x20;
+## September 5, 2025
 
 (release 4.97)
 
@@ -310,7 +310,7 @@
 
 * Home (Reports) page performance improvements
 
-## August 28, 2025&#x20;
+## August 28, 2025
 
 (release 4.96)
 
@@ -320,7 +320,7 @@
 * Improved table slice configuration options, including resizable columns
 * Improved ingredient editor panel
 
-## August 21, 2025&#x20;
+## August 21, 2025
 
 (release 4.95)
 
@@ -328,7 +328,7 @@
 
 * Various minor improvements to user experience and performance
 
-## August 14, 2025&#x20;
+## August 14, 2025
 
 (release 4.94)
 
@@ -336,7 +336,7 @@
 
 * Various minor improvements to user experience and performance
 
-## August 7, 2025&#x20;
+## August 7, 2025
 
 (release 4.93)
 
@@ -344,7 +344,7 @@
 
 * Various minor improvements to user experience and performance
 
-## July 31, 2025&#x20;
+## July 31, 2025
 
 (release 4.92)
 
@@ -352,7 +352,7 @@
 
 * Various minor improvements to user experience and performance
 
-## July 28, 2025&#x20;
+## July 28, 2025
 
 (release 4.91)
 
@@ -360,7 +360,7 @@
 
 * Various minor improvements to user experience and performance
 
-## July 17, 2025&#x20;
+## July 17, 2025
 
 (release 4.90)
 
@@ -371,15 +371,15 @@
 **Bug fixes & other improvements**
 
 * Adds a thousands separator to numeric counts in dynamic text
-* Various improvements to the Test Data Permissions panel, including adding an "Edit User" link to users with Admin permissions.&#x20;
+* Various improvements to the Test Data Permissions panel, including adding an "Edit User" link to users with Admin permissions.
 
-## July 10, 2025&#x20;
+## July 10, 2025
 
 (release 4.89)
 
 **Bug fixes & other improvements**
 
-* User by app search improvements: From the People page, you can search for users with "App: `<slug>`", from app cards on the Reports page, the button showing count of users is now a link to the People page that filters users by those granted access to the app.&#x20;
+* User by app search improvements: From the People page, you can search for users with "App: `<slug>`", from app cards on the Reports page, the button showing count of users is now a link to the People page that filters users by those granted access to the app.
 * On the user account page, apps that the user has been given access to are now at the top of the list, making it easier to find and manage app access permissions.
 
 ## July 3, 2025
@@ -485,7 +485,7 @@
 
 * Support for exporting and importing apps as YAML
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Improved the tooltip showing editing panel toggle shortcut keys
 * Fixed fonts used in the Debug view
@@ -553,9 +553,9 @@
 ### 🎁 What's new?
 
 * New loading progress bar at the bottom of published apps and "Filtered" notifications in each slice
-* New data\_add() function that allows a date to be offset by date units. For example, `date_add(sale_date, -1, year)`will return the sale date minus 1 year.&#x20;
+* New data\_add() function that allows a date to be offset by date units. For example, `date_add(sale_date, -1, year)`will return the sale date minus 1 year.
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Option to show grid lines added to the Trend chart
 * Font schemes now use OS fonts rather than web fonts to reduce page load time and empower end users to tailor how fonts appear
@@ -570,7 +570,7 @@
 
 * Select all button added to filters dropdown
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Trend allows clearing selections without using the filter pill
 * Improved handling of duplicate ids in the filter pill
@@ -581,7 +581,7 @@
 
 (release 4.71)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Various improvements to the rich text editing experience
 * Improved data connections to support more connection types, including Databricks
@@ -592,7 +592,7 @@
 
 (release 4.70)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Adds Invite User button to the Add User page
 * Improvements to the comparison measure chooser if the comparison values are 0
@@ -608,7 +608,7 @@
 * Trend line styling options
 * New bulk user creation API endpoint
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Leaderboard now allows the user to set a custom number of rows to display in the Leaderboard
 * Leaderboard now allows up to 8 measures
@@ -629,7 +629,7 @@
 * Trend line styling options
 * New bulk user creation API endpoint
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Removes "View" button for unpublished reports
 * Modifies bar chart tooltips to show % value if configured to show % of whole
@@ -643,7 +643,7 @@
 
 * Filters slice style option to show filter options as a Dropdown or Checkbox
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Fix to Add User form to view all reports when scrolling
 * Fix to Add User form to initially deselect all reports for Customized report access
@@ -652,7 +652,7 @@
 
 (release 4.66)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Adds a badge for ingredients that use buckets
 * Fixes to Trend tooltip so it doesn't get cut off
@@ -666,7 +666,7 @@
 
 * Adds a new Settings & Themes option to show a Table of Contents dropdown in the app ribbon for quick navigation between sections
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Adds a "Wrap cards" orientation option for the Card slice
 * Fixes issue with filter pill search not resetting for paginated slices
@@ -679,7 +679,7 @@
 
 * Adds ability to set up new users from the People page
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Adds additional configuration settings to y axes (primary and secondary) in the Trend chart
 * Adds option to show percent-of-whole in the Bar chart
@@ -693,7 +693,7 @@
 
 * Adds a simple ribbon at the top of the draft app for common app-level changes
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Removes the paragraph tag in the published app when the slice title is empty
 * User list API can no search for integers
@@ -703,7 +703,7 @@
 
 (release 4.62)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Adds a new height option to the Table, Bar, and Card slices
 * Adds the option to customize pie chart colors
@@ -713,16 +713,16 @@
 
 (release 4.61)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Improvements to Publish & Share modal
-* Fix to repositioning of Filter slice dropdown from an embedded filter pill&#x20;
+* Fix to repositioning of Filter slice dropdown from an embedded filter pill
 
 ## Dec 5, 2024
 
 (release 4.60)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Fix to the Media slice to allow multiple images in the same section
 * Fix to correct overflow issues with long card description text
@@ -731,7 +731,7 @@
 
 (release 4.59)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Improvements to Bar chart performance
 * Adds shortcut keys for common editing tasks
@@ -740,7 +740,7 @@
 
 (release 4.58)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Improvements to the People page
 * Adds new Orientation layout option for the Card slice
@@ -749,7 +749,7 @@
 
 (release 4.57)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Improvements to API documentation
 * Adds config for Google Gemini safety settings
@@ -759,7 +759,7 @@
 
 (release 4.56)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Improvements to dropdown menus
 * Improvements to action builder buttons
@@ -777,7 +777,7 @@
 * Reports Navigation slice can be configured to pass selections from app to app
 * Allow user permissions to be edited from the People page
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Improvements to caching after ingredient definition changes
 * Fix to password saving
@@ -790,7 +790,7 @@
 
 * Adds an optional Insights page to the Home page navigation
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Small fixes to Trend and Bar charts
 * Fix to user count displayed on the Home page
@@ -803,7 +803,7 @@
 
 * Adds an optional badge for edits in the app header
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Fix to Reports Navigation for anonymous users
 
@@ -816,7 +816,7 @@
 * Redesigned home page cards
 * New Reports Navigation slice
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Filter side panel replaced with dropdown
 
@@ -824,10 +824,10 @@
 
 (release 4.51)
 
-### &#x20;Bug fixes & other improvements
+### Bug fixes & other improvements
 
 * Improvements to slice selections configuration UI.
-* Adds option to include filtering context as a slice footnote.&#x20;
+* Adds option to include filtering context as a slice footnote.
 * Fix to slice background color picker bug.
 
 ## Sep 19, 2024
@@ -994,7 +994,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 * Improve insight capture button and animation
 * Update styling of grids and borders
-* Allow slice titles to be updated in-place behind a flag&#x20;
+* Allow slice titles to be updated in-place behind a flag
 * Correcting styling for inline text editor
 * Fixes for fontschemes
 
@@ -1032,7 +1032,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 ### 🐛 Bug fixes & other improvements
 
-* &#x20;Support default selections in all slices
+* Support default selections in all slices
 
 ## Apr 25, 2024
 
@@ -1040,7 +1040,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 ### 🐛 Bug fixes & other improvements
 
-* &#x20;Improve ui in the share tab
+* Improve ui in the share tab
 * Allow the number of pie chart segments to be configured in ui
 * Improve ai phase and flags when running data services
 * Improve tests for data services
@@ -1076,8 +1076,8 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 ### 🐛 Bug fixes & other improvements
 
-* Convert choosers to a react slice&#x20;
-* Improve button icon text color behavior&#x20;
+* Convert choosers to a react slice
+* Improve button icon text color behavior
 * Add graphql mutation to update slice titles
 * Improve table styling
 
@@ -1097,13 +1097,13 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 ### 🎁 What's new?
 
-* Our new **Insights** feature (available to Business plan subscribers) lets you easily capture a particular insight within a report and share it using Powerpoint, email, Slack, or other tool of your choice. Use Insights to highlight the key takeaways and invite deeper conversation about the story your data is telling. (If you're on the Starter plan and would like to see Insights in action, just [reach out to us](mailto:help@myjuicebox.io).)&#x20;
+* Our new **Insights** feature (available to Business plan subscribers) lets you easily capture a particular insight within a report and share it using Powerpoint, email, Slack, or other tool of your choice. Use Insights to highlight the key takeaways and invite deeper conversation about the story your data is telling. (If you're on the Starter plan and would like to see Insights in action, just [reach out to us](mailto:help@myjuicebox.io).)
 * With the new Selection option, you can make a chart display only (_Select none_) or require a single selection (_Select one_). By default, charts allow multiple selections (_Select many_).
 
 ### 🐛 Bug fixes & other improvements
 
-* Selecting date ranges in a date filter is easier with our improved date picker.&#x20;
-* Reordering columns and measures within a chart was broken, but it's fixed now.&#x20;
+* Selecting date ranges in a date filter is easier with our improved date picker.
+* Reordering columns and measures within a chart was broken, but it's fixed now.
 
 ## August 8, 2022
 
@@ -1115,7 +1115,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 ### 🐛 Bug fixes & other improvements
 
-* How many page views do you have left for this billing period? Now you can keep track by clicking the Share button for any report.&#x20;
+* How many page views do you have left for this billing period? Now you can keep track by clicking the Share button for any report.
 * Quickly navigate from one report to another using the Home button dropdown in the header of any report.
 * Duplicate and delete reports directly from the Home page.
 
@@ -1147,14 +1147,14 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 ### 🐛 Bug fixes & other improvements
 
-* In the filter slice, you can now filter on a range of values in a number column. &#x20;
+* In the filter slice, you can now filter on a range of values in a number column.
 * Custom color themes are now easier to update.
 
 ## April 20, 2022
 
 ### 🎁 What's new?
 
-* 📣 Introducing our newest chart type — **Pie charts!** 🥧 \
+* 📣 Introducing our newest chart type — **Pie charts!** 🥧\
   \
   Confession time: Over the years, we've sidestepped the Great Pie Chart Controversy (Really? [Yes](http://www.perceptualedge.com/articles/08-21-07.pdf). [Oh yes](https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts).) by not offering a pie chart. But not anymore! Our pie chart is beautiful, simple to make, and automatically avoids those perilous pie-chart pitfalls. It's the right chart for showing parts of a whole, and we think you'll love it. Give it a try!
 
@@ -1162,25 +1162,25 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 ### 🐛 Bug fixes & other improvements
 
-* Would you like to embed a Juicebox app in your own website? Just paste in the public app [embed code](building-reports/publish-and-share/sharing-and-access-controls.md#embedding-a-public-app).&#x20;
+* Would you like to embed a Juicebox app in your own website? Just paste in the public app [embed code](building-reports/publish-and-share/sharing-and-access-controls.md#embedding-a-public-app).
 * Trend charts are working again for measures with solely negative values.
 
 ## April 6, 2022
 
 ### 🎁 What's new?
 
-* You can now export an app as either a PDF or PNG file. Just look for the **Download** button in the app header or header bar.&#x20;
+* You can now export an app as either a PDF or PNG file. Just look for the **Download** button in the app header or header bar.
 
 ### 🐛 Bug fixes & other improvements
 
-* You can create a Count measure using a boolean column. That used to be False, but now it's True.&#x20;
-* Dynamic text that references selections in the filter slice is working.&#x20;
+* You can create a Count measure using a boolean column. That used to be False, but now it's True.
+* Dynamic text that references selections in the filter slice is working.
 
 ## March 10, 2022
 
 ### 🎁 What's new?
 
-* Four new font themes give you more options for setting the tone of your app.&#x20;
+* Four new font themes give you more options for setting the tone of your app.
 * Four new color themes add both dark and light palettes.
 
 ![](.gitbook/assets/Screen_Recording_2022-03-08_at_2.37.23_PM.gif)
@@ -1188,8 +1188,8 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 ### 🐛 Bug fixes & other improvements
 
 * Selections made for one filter pill in the Filter slice now filter across all other filter pills, so you don't have to worry about the order of columns. Filtering performance has improved too.
-* Did you know you can duplicate an app? The **Duplicate App** button is now at the top of the editing panel to make that more findable.&#x20;
-* Higher numbers are often better (🏀), but not always (⛳️). A new [advanced measure](/broken/pages/-M9V4XsmNAG9oiSOl5fk) option lets you tell Juicebox when a lower measure value is better, so that the Leaderboard chart shows who's really on top. &#x20;
+* Did you know you can duplicate an app? The **Duplicate App** button is now at the top of the editing panel to make that more findable.
+* Higher numbers are often better (🏀), but not always (⛳️). A new [advanced measure](/broken/pages/-M9V4XsmNAG9oiSOl5fk) option lets you tell Juicebox when a lower measure value is better, so that the Leaderboard chart shows who's really on top.
 
 ## February 11, 2022
 
@@ -1208,11 +1208,11 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🐛 Bug fixes & other improvements
 
-* Leaderboard charts now have a bold new look. _Really_ bold.&#x20;
-* Leaderboard, Trend, and Map charts now use colors that are based on the color theme.&#x20;
+* Leaderboard charts now have a bold new look. _Really_ bold.
+* Leaderboard, Trend, and Map charts now use colors that are based on the color theme.
 * A newly designed Resource Center (in the bottom right of the window) and videos help you get the most out of Juicebox.
 * Column and measure pills have a new, cleaner look and are easier to remove from charts.
-* For apps with multiple data tables, a new chart configuration option lets you choose which data table to use in the chart.&#x20;
+* For apps with multiple data tables, a new chart configuration option lets you choose which data table to use in the chart.
 
 ![](.gitbook/assets/Screen_Shot_2022-02-11_at_9_58_58_AM.jpg)
 
@@ -1220,11 +1220,11 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **Add images to the background of your header and sections**. Take your data story style to the next level by adding background images to headers and sections. You can add your own images or find images on Unsplash.&#x20;
+* **Add images to the background of your header and sections**. Take your data story style to the next level by adding background images to headers and sections. You can add your own images or find images on Unsplash.
 
-![](<.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
+![](<.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
-* **Streamlined data prep**. We've added lots of smarts to our data loading process so you can spend less time on data prep, more time telling your data story. &#x20;
+* **Streamlined data prep**. We've added lots of smarts to our data loading process so you can spend less time on data prep, more time telling your data story.
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1235,7 +1235,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **Easier color makeovers.** Quickly see how your app looks in a whole new wardrobe. Themed color palettes make it easy to change the look of your app in one click.&#x20;
+* **Easier color makeovers.** Quickly see how your app looks in a whole new wardrobe. Themed color palettes make it easy to change the look of your app in one click.
 
 ![](.gitbook/assets/Themes.gif)
 
@@ -1248,7 +1248,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Improved performance for paginated charts.
 * Deleting or duplicating apps, sections, and slices is easier with new <img src=".gitbook/assets/trash-alt-regular (2).svg" alt="" data-size="line"> and <img src=".gitbook/assets/clone-regular.svg" alt="" data-size="line"> buttons.
 * Broken ingredients are (mostly) a thing of the past.
-* Improvements to data loading workflow.&#x20;
+* Improvements to data loading workflow.
 
 ## September 28, 2021
 
@@ -1261,7 +1261,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🐛 Bug fixes & other improvements
 
 * The map can display locations even if no measures have been selected.
-* Option to skip app setup details. If you want to accept the defaults and open your new app quickly, you can select **Skip Setup** in the app creation wizard.&#x20;
+* Option to skip app setup details. If you want to accept the defaults and open your new app quickly, you can select **Skip Setup** in the app creation wizard.
 * Loading data from Excel files has been improved.
 * Other reliability and operational improvements.
 
@@ -1278,7 +1278,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🐛 Bug fixes & other improvements
 
 * Public app links shared on Facebook and Slack look better.
-* Dynamic text can now be copied using the slice "@" button and pasted into the text of a downstream slice.&#x20;
+* Dynamic text can now be copied using the slice "@" button and pasted into the text of a downstream slice.
 * Added Excel files (.xls and .xlsx) to data upload options (for now this defaults to loading only the first Excel tab).
 * Other improvements to the Design tab to make adding and configuring slices easier.
 
@@ -1303,18 +1303,18 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🎁 What's new?
 
 * **✨New text editor✨** With our new text editor, you can add and style text, emojis 🔥, and links with ease. Huzzah! (But if you still want to get down with Markdown, you can do that too.)
-* **Multi-line trend.** Now you can show up to 5 measures in a single trend chart. Compare to a target or a moving average (or both!) and bring context and clarity to changes over time. And if you want dual vertical axes, you can do that too.&#x20;
+* **Multi-line trend.** Now you can show up to 5 measures in a single trend chart. Compare to a target or a moving average (or both!) and bring context and clarity to changes over time. And if you want dual vertical axes, you can do that too.
 
 ![](.gitbook/assets/Screen_Recording_2021-07-22_at_12.43.47_PM.gif)
 
 * **Custom subdomains**. Is your cute-and-fruity workspace subdomain a little _too_ cute for your needs? Now you can customize your subdomain in the new Settings page. (Requires a Team plan subscription.)
-* **Team plan goodies**. Sign up for the Team plan and get access to more users, bigger uploads, a custom subdomain, and more.&#x20;
+* **Team plan goodies**. Sign up for the Team plan and get access to more users, bigger uploads, a custom subdomain, and more.
 
 ### 🐛 Bug fixes & other improvements
 
-* Simplified sharing.&#x20;
-* The list of charts you can add to a slice was being cut off. That's fixed now.&#x20;
-* Even more improvements to data loading.&#x20;
+* Simplified sharing.
+* The list of charts you can add to a slice was being cut off. That's fixed now.
+* Even more improvements to data loading.
 
 ## July 6, 2021
 
@@ -1363,7 +1363,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🐛 Bug fixes & other improvements
 
 * 🕵️‍♀️Better recognition of the delimiter that is used in CSV files.
-* A profile popup to change your name or your password.&#x20;
+* A profile popup to change your name or your password.
 * More performance and bug fixes.
 
 ## April 30, 2021
@@ -1378,7 +1378,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 * 💅Layout and usability improvements to the Story Designer
 * ⚗️Adding ingredients "automagically" is easier and quicker
-* ⌨️ Improved keyboard navigation.&#x20;
+* ⌨️ Improved keyboard navigation.
 * More performance and bug fixes.
 
 ## April 12, 2021
@@ -1394,14 +1394,14 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🐛 Bug fixes & other improvements
 
 * 💅Layout, formatting and tooltip improvements. Great data presentations are more than a pretty face, but prettier doesn't hurt.
-* 📈+📉The trend chart now properly displays negative numbers.&#x20;
+* 📈+📉The trend chart now properly displays negative numbers.
 * 🏎️ More performance and bug fixes. Vroom, vrroooom!
 
 ## February 25, 2021
 
 ### 🎁 What's new?
 
-* ✉️  **Invite editors to your workspace**. Now you can add editors to your workspace team more quickly by sharing invite links or sending invitation emails from either the People page or from the Publish & Share section of an app.&#x20;
+* ✉️ **Invite editors to your workspace**. Now you can add editors to your workspace team more quickly by sharing invite links or sending invitation emails from either the People page or from the Publish & Share section of an app.
 
 ![](.gitbook/assets/Screen_Recording_2021-02-25_at_3.30.09_PM.gif)
 
@@ -1410,8 +1410,8 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🐛 Bug fixes & other improvements
 
 * ➕ When you create a new app, you'll go directly to the Data Sources section in that app.
-* 🎨  When you open an existing app, you'll go directly to the Story Designer section in that app.&#x20;
-* 🔢  More data about your data. The data preview now shows you when you last loaded your data and the total number of records.&#x20;
+* 🎨 When you open an existing app, you'll go directly to the Story Designer section in that app.
+* 🔢 More data about your data. The data preview now shows you when you last loaded your data and the total number of records.
 * 📱 Editors can now _view_ both published and draft apps when on a phone.
 * More performance and bug fixes.
 
@@ -1421,13 +1421,13 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ![Publish as a public app](.gitbook/assets/Screen_Recording_2021-01-15_at_6.06.57_PM.gif)
 
-* **Better control of who can see what.** Owners and Admins have a new [People page](managing-users/user-management-and-roles.md#managing-users) to see who is using your apps. Friend your friends:smiling\_face\_with\_3\_hearts:; change user roles:fist:; control app access:closed\_lock\_with\_key:; unfriend your enemies:unamused:.&#x20;
+* **Better control of who can see what.** Owners and Admins have a new [People page](managing-users/user-management-and-roles.md#managing-users) to see who is using your apps. Friend your friends:smiling\_face\_with\_3\_hearts:; change user roles:fist:; control app access:closed\_lock\_with\_key:; unfriend your enemies:unamused:.
 
 ### 🐛 Bug fixes & other improvements
 
 * Even more chart layout improvements.
 * Faster app and new workspace creation.
-* Lots more performance and bug fixes.&#x20;
+* Lots more performance and bug fixes.
 
 ## December 16, 2020
 
@@ -1438,7 +1438,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ![Duplicate an app](.gitbook/assets/Screen_Recording_2020-12-16_at_12.23.23_PM.gif)
 
-* **New footer.**&#xD83E;�Your app footer now shows the name of the app, when it was last published, the Juicebox version, and all the legal stuff. No more wondering if your Juicebox is up to date.
+* **New footer.**��Your app footer now shows the name of the app, when it was last published, the Juicebox version, and all the legal stuff. No more wondering if your Juicebox is up to date.
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1447,7 +1447,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Improved chart layouts.
 * Access links shared on Facebook and LinkedIn are more inviting.
 * Database connections to Redshift, Snowflake, Postgres, SQL Server, and MySQL are now supported.
-* Many, _many_ other things to make Juicebox even better.&#x20;
+* Many, _many_ other things to make Juicebox even better.
 
 ## October 29, 2020
 
@@ -1471,7 +1471,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **Automagic color contrast** - Don't be afraid of the dark! **🎃**Now, when you change the background of your slices to a dark color, the slice will automatically invert other colors so that it remains readable. It's a beautiful way to draw attention to the highlights of your data story!&#x20;
+* **Automagic color contrast** - Don't be afraid of the dark! **🎃**Now, when you change the background of your slices to a dark color, the slice will automatically invert other colors so that it remains readable. It's a beautiful way to draw attention to the highlights of your data story!
 
 ![Color your story with beautiful Sections.](.gitbook/assets/feature-inverting.gif)
 
@@ -1480,8 +1480,8 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 ### 🐛 Bug fixes & other improvements
 
 * **Faster loading apps**: Apps built with uploaded CSVs now get faster the more you use them thanks to the magic of enhanced caching. Nobody likes waiting. Now there's less of it.
-* **Better labels**: Ok, we know that in some situations, labeling in the [scatterplot chart](building-reports/story-designer/slices/charts/scatterplot.md) was well... broken. 🤕It's better now. Boo-boo all gone.&#x20;
-* **Bar charts use bucket order:** [Bar charts](building-reports/story-designer/slices/charts/bar.md) that use [bucketed dimensions](/broken/pages/-M9TXR6V3QjmXtXZUSe6) will now show the buckets in the order you defined them. After all, can't we all use a little more order? &#x20;
+* **Better labels**: Ok, we know that in some situations, labeling in the [scatterplot chart](building-reports/story-designer/slices/charts/scatterplot.md) was well... broken. 🤕It's better now. Boo-boo all gone.
+* **Bar charts use bucket order:** [Bar charts](building-reports/story-designer/slices/charts/bar.md) that use [bucketed dimensions](/broken/pages/-M9TXR6V3QjmXtXZUSe6) will now show the buckets in the order you defined them. After all, can't we all use a little more order?
 * **Map charts zoom out farther**: The [map chart](building-reports/story-designer/slices/charts/map.md) now lets you zoom out farther to get a global perspective. 🌍Next step: Mars. Maybe
 * Various performance and bug fixes. Much perform. Un-bugged.
 
@@ -1489,11 +1489,11 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ### 🎁 What's new?
 
-* **An improved trend chart** 📈 - We did a brain upgrade on the trend chart. The [trend chart](building-reports/story-designer/slices/charts/trend.md) is now smarter about handling dates and times. You can easily roll up dates by month or year (see time ingredient improvement below), see which dates are missing data, and select ranges of dates to filter the story below. Hey, Trend Chart: it's time you were schooled 🎓.&#x20;
+* **An improved trend chart** 📈 - We did a brain upgrade on the trend chart. The [trend chart](building-reports/story-designer/slices/charts/trend.md) is now smarter about handling dates and times. You can easily roll up dates by month or year (see time ingredient improvement below), see which dates are missing data, and select ranges of dates to filter the story below. Hey, Trend Chart: it's time you were schooled 🎓.
 
 ![](.gitbook/assets/release-trend.gif)
 
-* **Broken ingredients** 🐣- Change is hard, we know that. When you replace a CSV on a data source, sometimes the new data has different names or different data types. This can break data ingredients. You'll see these [broken ingredients](building-reports/data-sources/managing-data.md#fixing-broken-ingredients-caused-by-changes-in-column-names) highlighted (in a style we call "the blushing zebra") so you can fix them. Now change isn't so hard.&#x20;
+* **Broken ingredients** 🐣- Change is hard, we know that. When you replace a CSV on a data source, sometimes the new data has different names or different data types. This can break data ingredients. You'll see these [broken ingredients](building-reports/data-sources/managing-data.md#fixing-broken-ingredients-caused-by-changes-in-column-names) highlighted (in a style we call "the blushing zebra") so you can fix them. Now change isn't so hard.
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1504,7 +1504,7 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ## August 27, 2020
 
-### 🎁What's new?&#x20;
+### 🎁What's new?
 
 #### Share your app via a 🔗 link
 
@@ -1514,7 +1514,7 @@ Invite anyone to create an account and view your app by simply [sharing your acc
 
 [Sign in](viewing-apps/signing-in.md) or with Google, LinkedIn, or your email address.
 
-&#x20;​![](https://downloads.intercomcdn.com/i/o/239523099/6b98dbf90a20d77bea96a85d/feature-signin.gif)​
+​![](https://downloads.intercomcdn.com/i/o/239523099/6b98dbf90a20d77bea96a85d/feature-signin.gif)​
 
 ### 🐛Bug fixes & other improvements
 
@@ -1542,12 +1542,9 @@ Invite anyone to create an account and view your app by simply [sharing your acc
 ### 🎁What's new?
 
 * **Replace CSV** 🎉- Updating your data just got 💯better. Opening any existing CSV data source now gives you an option to replace its data.
-* **Chat support** 🗣- Get quick access to docs and a place to ask your burning questions. Just click the "?" button in the top right to get started.&#x20;
+* **Chat support** 🗣- Get quick access to docs and a place to ask your burning questions. Just click the "?" button in the top right to get started.
 
 ### 🐛Bug fixes & other improvements
 
 * Side panel measure formatting didn't work in some cases. We've ironed that out.
 * Various data error handling and warning improvements.
-
-
-
