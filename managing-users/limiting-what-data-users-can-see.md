@@ -4,7 +4,7 @@ description: Juicebox apps have integrated data permissions.
 
 # Limiting what data users can see
 
-**Data permissions** create filters that are applied to every database query. If the database table does not contain the column or ingredient referenced, the data permission is ignored.
+**Data permissions** create filters that are applied to every database query. Every permission key must match an ingredient or column in the data source being queried. If a key does not match, Juicebox will raise an error rather than silently skipping it. This strict matching is a security safeguard — a mistyped permission key that was silently ignored could unintentionally give a user access to data they should not see.
 
 Data permission objects can reference **ingredients** by their ID or **raw database columns** (by wrapping the column name in square brackets). You can find an ingredient's ID by opening the ingredient in the ingredient editor and clicking **Copy ID** at the bottom.
 
