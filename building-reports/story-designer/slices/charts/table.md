@@ -1,10 +1,8 @@
 # Table
 
-The table chart displays selected dimensions and measures as columns in a table. Adding a slice with a table chart (i.e., a table slice) is a good choice when users want to see, search, sort, and download detailed data. By default, selecting rows will filter downstream results.&#x20;
+The table chart displays selected dimensions and measures as columns in a table. Adding a slice with a table chart (i.e., a table slice) is a good choice when users want to see, search, sort, and download detailed data. By default, selecting rows will filter downstream results.
 
 <figure><img src="../../../../.gitbook/assets/image (564).png" alt=""><figcaption><p>Example Table slice</p></figcaption></figure>
-
-**\[Screenshot: Replace with an updated Table slice showing cell coloring applied, e.g. Measure Colors Gradient on a measure column]**
 
 #### Adding a table slice
 
@@ -17,7 +15,7 @@ The CONFIG section has the following fields:
 * **Table columns**: Select the dimension and measure ingredients to show in the table. They will appear in the order selected. You can drag ingredients to reorder them.
 
 {% hint style="info" %}
-Dimensions and measures with a number data type will be right-aligned within the table column; all other data types will be left-aligned.&#x20;
+Dimensions and measures with a number data type will be right-aligned within the table column; all other data types will be left-aligned.
 {% endhint %}
 
 * **Optionally add a breakout**: You can add breakout columns to your table to pivot a measure by a dimension. Pick a column to break out by (the breakout dimension) and a measure to break out. The table will show a column for each of the top values in the breakout dimension, with the measure calculated for each value. When a breakout is configured, additional options appear:
@@ -25,13 +23,8 @@ Dimensions and measures with a number data type will be right-aligned within the
   * _Show "Other" column_ (default: on) — Toggle whether the "Other" aggregation column appears. This column is only relevant when there are more values than the max.
   * _Show all breakout values_ (default: off) — When enabled, breakout columns include values for all items in the breakout dimension, even those excluded by active filters.
   * _Sort breakout columns by measure_ (default: off) — When enabled, breakout columns are sorted in descending order of the aggregate measure value, so the highest-value columns appear first.
-
-**\[Screenshot: Table config panel showing the "Optionally add a breakout" section with a breakout dimension and measure selected, and the three toggle options visible below]**
-
-**\[Screenshot: A table rendering with breakout columns visible on the right side, ideally with cell coloring showing consistent colors across breakout columns]**
-
-* **Enable download**: If enabled, users will be able to download the data.&#x20;
-* **File type**: If downloads are enabled, select Excel, CSV, or JSON for the download file type.&#x20;
+* **Enable download**: If enabled, users will be able to download the data.
+* **File type**: If downloads are enabled, select Excel, CSV, or JSON for the download file type.
 * **Hide if no data**: Toggle to hide the slice when no data is available.
 * **Selections**: Controls how many selections a user can make and how those selections affect downstream slices.
 * **Convert row selections into individual selections by dimension**: When a table uses multiple dimensions, row selections are sent downstream as compound selections by default (the full combination of dimension values is treated as a single filter). Enable this toggle to break compound selections into individual dimension filters. For example, if a table groups by Hospital and Department, enabling this toggle sends separate selections for Hospital and Department rather than a combined pair.
@@ -41,14 +34,12 @@ Dimensions and measures with a number data type will be right-aligned within the
 The STYLE section includes several options for customizing the table appearance. Key Table-specific options:
 
 * **Max rows per load**: Enter the number of rows to load. The default value is 250.
-* **Hide column icons**: If enabled, icons for all columns will be hidden.&#x20;
+* **Hide column icons**: If enabled, icons for all columns will be hidden.
 * **Cell coloring**: Choose how measure cells are colored. The options are:
   * _None_ — No cell coloring (default).
   * _Measure Range Colors_ — Color cells based on the value ranges defined in the measure's ingredient editor. Each range maps to a specific color.
   * _Measure Pos/Neg Colors_ — Apply solid colors based on whether the value is positive or negative, using the measure's positive and negative color settings.
   * _Measure Colors Gradient_ — Apply a color gradient across cell values, scaling from the column's lowest to highest value. Uses the measure's positive and negative color settings for the gradient endpoints.
-
-**\[Screenshot: The Cell coloring dropdown open, showing all four options: None, Measure Range Colors, Measure Pos/Neg Colors, Measure Colors Gradient]**
 
 {% hint style="info" %}
 Cell coloring colors are configured in the measure ingredient editor under the **Positive values** and **Negative values** color settings. When breakout columns are present, coloring is applied consistently across all breakout columns using a shared scale.
@@ -61,8 +52,6 @@ Cell coloring colors are configured in the measure ingredient editor under the *
 * **Horizontal borders**: Toggle horizontal row borders.
 * **Vertical borders**: Toggle vertical column borders.
 * **Column widths**: Opens a popover where you can set a custom width for each column. Click **Reset** to return all columns to their default widths.
-
-**\[Screenshot: The Column Widths popover showing per-column width controls and the Reset button]**
 
 #### Using a table slice
 
@@ -80,4 +69,4 @@ Click a row to select it. Selections filter downstream slices based on the table
 
 **Downloading data**
 
-If data download is enabled, click on the **Data** button to download the data as the configured file type (Excel, CSV, or JSON).
+If data download is enabled, click on the **Data** button to download the data as the configured file type (Excel or CSV).
