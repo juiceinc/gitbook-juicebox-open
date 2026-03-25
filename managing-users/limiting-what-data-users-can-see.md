@@ -6,6 +6,10 @@ description: Juicebox apps have integrated data permissions.
 
 **Data permissions** create filters that are applied to every database query. Every permission key must match an ingredient or column in the data source being queried. If a key does not match, Juicebox will raise an error rather than silently skipping it. This strict matching is a security safeguard — a mistyped permission key that was silently ignored could unintentionally give a user access to data they should not see.
 
+{% hint style="info" %}
+If a slice uses a data source that doesn't contain one of the permission keys, you can set `strict_automatic_filters` to `false` in that slice's [advanced configuration](../building-reports/story-designer/slices/advanced-configuration.md) to allow unmatched keys to be skipped. Use this with caution — it means a mistyped permission key will be silently ignored rather than flagged as an error.
+{% endhint %}
+
 Data permission objects can reference **ingredients** by their ID or **raw database columns** (by wrapping the column name in square brackets). You can find an ingredient's ID by opening the ingredient in the ingredient editor and clicking **Copy ID** at the bottom.
 
 #### Syntax
