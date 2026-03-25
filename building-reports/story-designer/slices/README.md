@@ -58,10 +58,16 @@ Variables are very powerful. Learn more here.&#x20;
 
 ### Style tab
 
-**Display**. You can select which elements of a slice should display.&#x20;
+**Display options**. These toggles control which parts of a slice are visible to viewers.
+
+* **Hidden**. Hides the entire slice from viewers. When this is turned on, all other display toggles are hidden. This is useful when you want a slice to set [variables](selections-as-variables.md) without showing anything in the report.
+* **Show Title**. Shows or hides the slice header. On by default.
+* **Show Chart**. Shows or hides the chart or main content. On by default. The label varies by slice type — for example, it reads "Show Filters" on a Filter slice.
+* **Show Filter Pill**. Shows or hides a filter pill for the slice. On by default for most chart types. When you want filter behavior without displaying the full chart, turn off **Show Chart** and leave **Show Filter Pill** on. This option is not available on Chooser, Filter, or Report Navigation slices.
+* **Show as Download Button**. Available on Table slices only. Replaces the table with a download button that lets viewers export the data. Turning this on automatically hides the chart and filter pill.
 
 {% hint style="info" %}
-One of the options is **Hide all**. This option can be used together with Variables and Dynamic text. \[Link to a page with examples.]&#x20;
+Combining **Hidden** with [variables](selections-as-variables.md) and [dynamic text](dynamic-text.md) is a powerful pattern — use a hidden slice to capture selections as variables, then reference those variables in dynamic text or ingredient formulas elsewhere in the report.
 {% endhint %}
 
 **Chart/Media position.** If a slice has a chart (or media), there are four layout options that control how the chart (or media) will appear in relation to the slice text.&#x20;
