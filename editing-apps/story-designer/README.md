@@ -13,6 +13,7 @@ These are the editing panel components:
 * [Header buttons](./#header-buttons)
 * [Settings & Themes](./#settings-and-themes)
 * [Header Style](./#header-style)
+* [Pages](./#pages)
 * [Section](./#sections)
 * [Slices](./#slices)
 
@@ -66,6 +67,40 @@ Click the paint drop icon in the upper right of the Header Style section to adju
 {% hint style="info" %}
 If you want to create a more custom header, you can set the Header Style to "No Header" and use the [Headline slice](../../building-reports/story-designer/slices/charts/headline.md) to design the custom header.&#x20;
 {% endhint %}
+
+## Pages
+
+A report can have one or more pages. Each page has its own sections and slices. Reports with multiple pages show page navigation links below the Home button in the report header, and the current page appears highlighted in the navigation.
+
+{% hint style="info" %}
+Pages are currently available by request. Contact us to enable multi-page support for your workspace.
+{% endhint %}
+
+### Managing pages
+
+To manage your pages, click **Report Settings** in the top bar. The **Manage Pages** section lets you add, rename, reorder, and delete pages.
+
+**\[Screenshot: The Manage Pages section in Report Settings, showing two pages with the + Add Page button]**
+
+**Add a page**. Click **+ Add Page**, enter a page title (keep it short — 2 to 4 words), and click **+ Create**. The new page will start with default sections.
+
+**Rename a page**. Click the pencil icon next to the page name to edit the title.
+
+**Delete a page**. Click the trash icon next to the page name. You will be asked to confirm, because deleting a page permanently removes all of its sections and slices. A published report is not affected until you share the changes.
+
+{% hint style="danger" %}
+Deleting a page cannot be undone. All sections and slices on that page will be permanently removed.
+{% endhint %}
+
+**Reorder pages**. Drag and drop pages in the list to change their order. The order here determines the order of the navigation links in the report header.
+
+### Linking between pages
+
+When editing text in a slice, you can create links that navigate to other pages in the same report. In the text editor link dialog, select a page from the **Link to a Page** list. These links navigate within the report without a full page reload and carry forward any active filter selections. See [Linking to a page](../../building-reports/story-designer/slices/#linking-to-a-page) for details.
+
+### Passing filters between pages
+
+When viewers navigate between pages, slices on the target page can automatically apply matching filter selections from the page they came from. This is controlled by a per-slice toggle called **Receive filters from another Page**. See [Common slice configuration options](../../building-reports/story-designer/slices/#configure-tab) for details.
 
 ## Sections
 

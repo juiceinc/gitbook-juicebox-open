@@ -8,9 +8,9 @@ A Juicebox **report** is the solution you create with Juicebox. [Click here](htt
 
 So what makes up a Juicebox report? Each report has the following parts that flow in a hierarchy:
 
-* A **story** (or data story) is a set of charts (i.e., data visualizations), text, and media presented on a single page, similar to a data dashboard. Each story should be focused on a particular audience and purpose, and guide users to the actionable insights they need. Within each story are sections, and within each section are slices. (Support for multiple stories per app is planned for a future release.)
-* Each [**section**](../editing-apps/story-designer/#sections) is composed of one or more slices. Sections allow you to control layouts and background colors within the story.
-* [**Slices**](../building-reports/story-designer/slices/) are the basic building blocks of your story. Each slice can have text and/or an image, video, or chart.
+* A **page** is a set of charts (i.e., data visualizations), text, and media presented as one view within the report. Each page should be focused on a particular audience and purpose, and guide users to the actionable insights they need. A report can have one or more pages. Within each page are sections, and within each section are slices.
+* Each [**section**](../editing-apps/story-designer/#sections) is composed of one or more slices. Sections allow you to control layouts and background colors within a page.
+* [**Slices**](../building-reports/story-designer/slices/) are the basic building blocks of a page. Each slice can have text and/or an image, video, or chart.
 
 ![Parts of a Juicebox report](<../.gitbook/assets/image (338).png>)
 

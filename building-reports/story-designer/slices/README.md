@@ -24,6 +24,18 @@ Until you configure your chart, the chart will display a "This slice has potenti
 
 <figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption><p>This message will display if the chart has not been configured</p></figcaption></figure>
 
+### Linking to a page
+
+For reports with [multiple pages](../../../editing-apps/story-designer/#pages), you can create links in slice text that navigate to another page in the same report. In the text editor, open the link dialog and look for the **Link to a Page** section, which lists all pages in the report. Click a page name to create the link.
+
+**\[Screenshot: The link editor dialog showing the "Link to a Page" section with page names listed]**
+
+Links created this way navigate to the target page without a full browser reload and carry forward any active filter selections. This means viewers keep their current context as they move between pages.
+
+{% hint style="info" %}
+If you manually add query parameters or hash fragments to the link URL, the link will open in a new browser tab instead of navigating within the report.
+{% endhint %}
+
 ## Common slice configuration options
 
 Each slice type has a specific set of configuration options, but the following options are shared by multiple slice types:
@@ -43,6 +55,8 @@ Each slice type has a specific set of configuration options, but the following o
 {% hint style="success" %}
 Variables are very powerful. Learn more [here](selections-as-variables.md).
 {% endhint %}
+
+**Receive filters from another Page**. For reports with [multiple pages](../../../editing-apps/story-designer/#pages), this toggle controls whether the slice applies matching filter selections from the page the viewer navigated from. When turned on, selections from the source page are automatically applied if the filter dimensions match. This toggle only appears for reports with more than one page.
 
 ### Style tab
 
