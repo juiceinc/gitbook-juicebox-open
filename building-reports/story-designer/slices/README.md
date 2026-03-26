@@ -1,6 +1,6 @@
 # Slices
 
-Slices are the basic building blocks of your story. Slices are added to [sections](../../../editing-apps/story-designer/#sections). Each slice can have text either by itself or with media (image or video) or a [chart](charts/).
+Slices are the basic building blocks of your story. Slices are added to [sections](../sections.md). Each slice can have text either by itself or with media (image or video) or a [chart](charts/).
 
 ## Adding, duplicating, and deleting slices
 
@@ -26,7 +26,7 @@ Until you configure your chart, the chart will display a "This slice has potenti
 
 ### Linking to a page
 
-For reports with [multiple pages](../../../editing-apps/story-designer/#pages), you can create links in slice text that navigate to another page in the same report. In the text editor, open the link dialog and look for the **Link to a Page** section, which lists all pages in the report. Click a page name to create the link.
+For reports with [multiple pages](../report-settings.md#manage-pages), you can create links in slice text that navigate to another page in the same report. In the text editor, open the link dialog and look for the **Link to a Page** section, which lists all pages in the report. Click a page name to create the link.
 
 **\[Screenshot: The link editor dialog showing the "Link to a Page" section with page names listed]**
 
@@ -56,7 +56,7 @@ Each slice type has a specific set of configuration options, but the following o
 Variables are very powerful. Learn more [here](selections-as-variables.md).
 {% endhint %}
 
-**Receive filters from another Page**. For reports with [multiple pages](../../../editing-apps/story-designer/#pages), this toggle controls whether the slice applies matching filter selections from the page the viewer navigated from. When turned on, selections from the source page are automatically applied if the filter dimensions match. This toggle only appears for reports with more than one page.
+**Receive filters from another Page**. For reports with [multiple pages](../report-settings.md#manage-pages), this toggle controls whether the slice applies matching filter selections from the page the viewer navigated from. When turned on, selections from the source page are automatically applied if the filter dimensions match. This toggle only appears for reports with more than one page.
 
 ### Style tab
 
