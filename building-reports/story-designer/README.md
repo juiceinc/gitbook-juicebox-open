@@ -6,19 +6,19 @@ description: Design is where you build your report.
 
 When you open a report in Edit mode, you'll see three main areas:
 
-* **Top bar** — report identity, settings, and sharing controls
+* **Editor header** — report identity, settings, and sharing controls
 * **Editing panel** — the left sidebar where you manage sections and slices
 * **Report canvas** — the main area where you preview and interact with your draft report
 
-**\[Screenshot: The editing view with the top bar, editing panel on the left, and the report canvas on the right]**
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-## Top bar
+## Editor header
 
-The top bar runs across the top of the editing view and contains:
+The editor header runs across the top of the editing view and contains:
 
 * **Icon** — click the icon to change it. The icon appears on the home page and in the report header.
 * **Report name** — click to edit. The name appears on the home page and in the report header. Aim for 1–3 words.
-* **[Report Settings](report-settings.md)** — opens a panel for managing the report description, pages, theme, header style, and other settings.
+* [**Report Settings**](report-settings.md) — opens a panel for managing the report description, pages, theme, header style, and other settings.
 * **Edit / Preview** toggle — switch between editing and previewing the report.
 * **Test data permissions** — preview how the report looks for different user roles.
 * **Start Sharing** — publish or share report changes with viewers.

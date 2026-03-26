@@ -4,9 +4,9 @@ Slices are the basic building blocks of your story. Slices are added to [section
 
 ## Adding, duplicating, and deleting slices
 
-To add a slice to an empty section, hover where you want the slice to be added, click the + button,  and select the slice type from the dropdown list.&#x20;
+To add a slice to an empty section, hover where you want the slice to be added, click the + button, and select the slice type from the dropdown list.
 
-<div><figure><img src="../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div><figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Rather than adding a brand new slice, it may be easier to duplicate and modify an existing slice. To duplicate a slice, select the three-dot icon next to the slice and then select **Duplicate**. The duplicated slice will appear directly below the original slice.
 

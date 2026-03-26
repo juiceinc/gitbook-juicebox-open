@@ -10,7 +10,7 @@ Some configuration options are not available in the user interface. These can be
 
 Opening the configuration panel and making some changes looks like this.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Editing Advanced Configuration</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Editing Advanced Configuration</p></figcaption></figure>
 
 #### Slice configuration options
 

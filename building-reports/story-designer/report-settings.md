@@ -1,12 +1,14 @@
 ---
-description: Configure your report's description, pages, theme, header, and editor behavior.
+description: >-
+  Configure your report's description, pages, theme, header, and editor
+  behavior.
 ---
 
 # Report Settings
 
-Report Settings is a panel that opens from the **Report Settings** button in the top bar. It contains settings that apply to the entire report.
+Report Settings is a panel that opens from the **Report Settings** button in the editor header. It contains settings that apply to the entire report.
 
-**\[Screenshot: The Report Settings panel showing Description, Table of Contents, Manage Pages, Theme, and Header Style]**
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Description
 
@@ -21,12 +23,10 @@ Toggle this on to include a dropdown in the published report that lets viewers j
 A report can have one or more pages. Each page has its own sections and slices. Reports with multiple pages show page navigation links below the Home button in the report header, and the current page appears highlighted in the navigation.
 
 {% hint style="info" %}
-Pages are currently available by request. Contact us to enable multi-page support for your workspace.
+Pages are currently available by request. [Reach out to us](../../getting-started/reach-out-to-us.md) to enable multi-page support for your workspace.
 {% endhint %}
 
 ### Adding, renaming, and deleting pages
-
-**\[Screenshot: The Manage Pages section in Report Settings, showing two pages with the + Add Page button]**
 
 **Add a page**. Click **+ Add Page**, enter a page title (keep it short — 2 to 4 words), and click **+ Create**. The new page will start with default sections.
 
