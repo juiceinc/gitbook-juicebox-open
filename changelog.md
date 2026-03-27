@@ -5,6 +5,15 @@
 * **Default selections.** Set default selected values on slices so your report opens with the view you want viewers to see first.
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
+## March 26, 2026
+
+(release 4.122)
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where Chooser slice dimension selections could be lost when selecting multiple ingredients or when using button-style choosers.
+* Fixed an issue where chart settings like zoom levels, row counts, color ranges, and gridlines could be lost when saving slice configuration.
+
 ## March 23, 2026
 
 (release 4.121)
