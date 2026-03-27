@@ -42,7 +42,7 @@
     * [Dynamic text](building-reports/story-designer/slices/dynamic-text.md)
     * [Multiple data tables](building-reports/story-designer/slices/working-with-multiple-data-sources.md)
     * [Default selections](building-reports/story-designer/slices/default-selections.md)
-    * [Selections as Variables](building-reports/story-designer/slices/selections-as-variables.md)
+    * [Selections as variables](building-reports/story-designer/slices/selections-as-variables.md)
     * [Debug information](building-reports/story-designer/slices/debug.md)
     * [Advanced configuration](building-reports/story-designer/slices/advanced-configuration.md)
   * [Ingredients](building-reports/story-designer/ingredients/README.md)
