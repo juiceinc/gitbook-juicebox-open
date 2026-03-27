@@ -2,7 +2,7 @@
 
 ## What's coming soon?
 
-* **Default selections.** Set default selected values on slices so your report opens with the view you want viewers to see first.
+* **Default selections.** Set default selected values on slices so your report opens with the view you want viewers to see.
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
 ## March 26, 2026
