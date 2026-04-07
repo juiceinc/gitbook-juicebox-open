@@ -2,8 +2,21 @@
 
 ## What's coming soon?
 
-* **Default selections.** Set default selected values on slices so your report opens with the view you want viewers to see.
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
+
+## April 2, 2026
+
+(release 4.123)
+
+🎁 **What's new?**
+
+* **Default selections UI:** Editors can now set default selections for slices directly in the Editing Panel — no custom configuration needed. Set global or per-dimension defaults, including rolling date ranges (last 30 days, year to date, etc.) and fixed date ranges.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where Filter slice selections weren't appearing in the sticky filter bar when scrolling past the slice.
+* Fixed a bar chart header height and text alignment issue.
+* Fixed a performance issue that could cause a crash in filter pill dropdowns with many items.
 
 ## March 26, 2026
 
