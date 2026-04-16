@@ -4,7 +4,7 @@
 
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
-## April 9, 2026
+## April 16, 2026
 
 (release 4.124)
 
