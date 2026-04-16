@@ -4,6 +4,14 @@
 
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
+## April 9, 2026
+
+(release 4.124)
+
+**Bug fixes & other improvements**
+
+* Filter pill selections are now confirmed with an **Apply** button, which closes the popover when clicked. Checkbox-style filters continue to apply immediately on click, without an Apply button.
+
 ## April 2, 2026
 
 (release 4.123)
