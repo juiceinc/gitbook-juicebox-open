@@ -4,6 +4,16 @@
 
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
+## April 22, 2026
+
+(release 4.125)
+
+**Bug fixes & other improvements**
+
+* Table slices now hide the click-to-sort UI on column headers when an `order_by_expression` is set on the Table, so Viewers can't override the configured order. You can also disable sort explicitly by setting `disableSorting: true` in the slice's advanced configuration.
+* Fixed an issue where scrolling a Table slice could trigger a "Maximum update depth exceeded" error and slow down scroll performance.
+* Improved query performance for reports that use very large `automatic_filters` lists. Redundant `IN` filter expressions that are strict supersets of another filter on the same column are now pruned from the generated SQL.
+
 ## April 16, 2026
 
 (release 4.124)
