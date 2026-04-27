@@ -4,6 +4,14 @@
 
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
+## April 27, 2026
+
+(release 4.126)
+
+**Bug fixes & other improvements**
+
+* In the Debug All Slices modal, slices that returned an error are now flagged with a red indicator in the left panel, and the Error tab is automatically selected when you open the slice — making problems easier to spot and diagnose.
+
 ## April 22, 2026
 
 (release 4.125)
