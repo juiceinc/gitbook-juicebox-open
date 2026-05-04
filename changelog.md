@@ -4,6 +4,18 @@
 
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
+## May 4, 2026
+
+(release 4.127)
+
+**Bug fixes & other improvements**
+
+* Improvements to the AI-generated content option in the Rich Text title editor, including more reliable insertion when the title is empty, cleaner state when the AI config is removed, and better keyboard accessibility for the model attribution toggle.
+* Editing certain slice configurations now refreshes the draft app preview reliably, without needing a page reload.
+* For workspaces using OpenID Connect (OIDC) sign-in: app access granted to a user by a workspace admin now persists across OIDC sign-ins. The OIDC role sync adds any missing app roles defined in the OIDC configuration without changing access granted elsewhere.
+* For workspaces using Google or LinkedIn sign-in: users without an account on the workspace now see a friendly message directing them to contact their workspace administrator.
+* Behind-the-scenes improvements to sign-in handling, including stricter validation of redirect URLs and improved logging for support and troubleshooting.
+
 ## April 27, 2026
 
 (release 4.126)
