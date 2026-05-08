@@ -4,6 +4,15 @@
 
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
+## May 8, 2026
+
+(release 4.128)
+
+**Bug fixes & other improvements**
+
+* Fixed an issue in the slice editor where the per-dimension Amount label could show "Many" even after a different selection limit was applied.
+* Refreshed the sign-in failure page with a cleaner design and clearer guidance for the rare cases when a sign-in can't be completed.
+
 ## May 4, 2026
 
 (release 4.127)
