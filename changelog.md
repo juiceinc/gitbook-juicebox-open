@@ -7,9 +7,7 @@
 {% updates format="full" %}
 
 {% update date="2026-05-08" %}
-## May 8, 2026
-
-(release 4.128)
+## Release 4.128
 
 **Bug fixes & other improvements**
 
@@ -19,9 +17,7 @@
 {% endupdate %}
 
 {% update date="2026-05-04" %}
-## May 4, 2026
-
-(release 4.127)
+## Release 4.127
 
 **Bug fixes & other improvements**
 
@@ -34,9 +30,7 @@
 {% endupdate %}
 
 {% update date="2026-04-27" %}
-## April 27, 2026
-
-(release 4.126)
+## Release 4.126
 
 **Bug fixes & other improvements**
 
@@ -45,9 +39,7 @@
 {% endupdate %}
 
 {% update date="2026-04-22" %}
-## April 22, 2026
-
-(release 4.125)
+## Release 4.125
 
 **Bug fixes & other improvements**
 
@@ -58,9 +50,7 @@
 {% endupdate %}
 
 {% update date="2026-04-16" %}
-## April 16, 2026
-
-(release 4.124)
+## Release 4.124
 
 **Bug fixes & other improvements**
 
@@ -69,9 +59,7 @@
 {% endupdate %}
 
 {% update date="2026-04-02" %}
-## April 2, 2026
-
-(release 4.123)
+## Release 4.123
 
 🎁 **What's new?**
 
@@ -86,9 +74,7 @@
 {% endupdate %}
 
 {% update date="2026-03-26" %}
-## March 26, 2026
-
-(release 4.122)
+## Release 4.122
 
 **Bug fixes & other improvements**
 
@@ -98,9 +84,7 @@
 {% endupdate %}
 
 {% update date="2026-03-23" %}
-## March 23, 2026
-
-(release 4.121)
+## Release 4.121
 
 **Bug fixes & other improvements**
 
@@ -110,9 +94,7 @@
 {% endupdate %}
 
 {% update date="2026-03-12" %}
-## March 12, 2026
-
-(release 4.120)
+## Release 4.120
 
 **Bug fixes & other improvements**
 
@@ -123,9 +105,7 @@
 {% endupdate %}
 
 {% update date="2026-03-05" %}
-## March 5, 2026
-
-(release 4.119)
+## Release 4.119
 
 **🎁 What's new?**
 
@@ -141,9 +121,7 @@
 {% endupdate %}
 
 {% update date="2026-02-26" %}
-## February 26, 2026
-
-(release 4.118)
+## Release 4.118
 
 **Bug fixes & other improvements**
 
@@ -152,9 +130,7 @@
 {% endupdate %}
 
 {% update date="2026-02-19" %}
-## February 19, 2026
-
-(release 4.117)
+## Release 4.117
 
 **🎁 What's new?**
 
@@ -167,9 +143,7 @@
 {% endupdate %}
 
 {% update date="2026-02-12" %}
-## February 12, 2026
-
-(release 4.116)
+## Release 4.116
 
 **🎁 What's new?**
 
@@ -183,9 +157,7 @@
 {% endupdate %}
 
 {% update date="2026-02-05" %}
-## February 5, 2026
-
-(release 4.115)
+## Release 4.115
 
 **Bug fixes & other improvements**
 
@@ -199,9 +171,7 @@
 {% endupdate %}
 
 {% update date="2026-01-29" %}
-## January 29, 2026
-
-(release 4.114)
+## Release 4.114
 
 **🎁 What's new?**
 
@@ -211,9 +181,7 @@
 {% endupdate %}
 
 {% update date="2026-01-22" %}
-## January 22, 2026
-
-(release 4.113)
+## Release 4.113
 
 🎁 **What's new?**
 
@@ -229,9 +197,7 @@
 {% endupdate %}
 
 {% update date="2026-01-15" %}
-## January 15, 2026
-
-(release 4.112)
+## Release 4.112
 
 🎁 **What's new?**
 
@@ -244,9 +210,7 @@
 {% endupdate %}
 
 {% update date="2026-01-08" %}
-## January 8, 2026
-
-(release 4.111)
+## Release 4.111
 
 🎁 **What's new?**
 
@@ -260,9 +224,7 @@
 {% endupdate %}
 
 {% update date="2025-12-18" %}
-## December 18, 2025
-
-(release 4.110)
+## Release 4.110
 
 **Bug fixes & other improvements**
 
@@ -275,9 +237,7 @@
 {% endupdate %}
 
 {% update date="2025-12-11" %}
-## December 11, 2025
-
-(release 4.109)
+## Release 4.109
 
 **Bug fixes & other improvements**
 
@@ -288,9 +248,7 @@
 {% endupdate %}
 
 {% update date="2025-12-08" %}
-## December 8, 2025
-
-(release 4.108)
+## Release 4.108
 
 **Bug fixes & other improvements**
 
@@ -304,9 +262,7 @@
 {% endupdate %}
 
 {% update date="2025-11-20" %}
-## November 20, 2025
-
-(release 4.107)
+## Release 4.107
 
 🎁 **What's new?**
 
@@ -326,9 +282,7 @@
 {% endupdate %}
 
 {% update date="2025-11-13" %}
-## November 13, 2025
-
-(release 4.106)
+## Release 4.106
 
 🎁 **What's new?**
 
@@ -342,9 +296,7 @@
 {% endupdate %}
 
 {% update date="2025-11-06" %}
-## November 6, 2025
-
-(release 4.105)
+## Release 4.105
 
 🎁 **What's new?**
 
@@ -364,9 +316,7 @@
 {% endupdate %}
 
 {% update date="2025-10-23" %}
-## October 23, 2025
-
-(release 4.104)
+## Release 4.104
 
 **Bug fixes & other improvements**
 
@@ -379,9 +329,7 @@
 {% endupdate %}
 
 {% update date="2025-10-16" %}
-## October 16, 2025
-
-(release 4.103)
+## Release 4.103
 
 🎁 **What's new?**
 
@@ -397,9 +345,7 @@
 {% endupdate %}
 
 {% update date="2025-10-09" %}
-## October 9, 2025
-
-(release 4.102)
+## Release 4.102
 
 🎁 **What's new?**
 
@@ -413,9 +359,7 @@
 {% endupdate %}
 
 {% update date="2025-10-02" %}
-## October 2, 2025
-
-(release 4.101)
+## Release 4.101
 
 🎁 **What's new?**
 
@@ -429,9 +373,7 @@
 {% endupdate %}
 
 {% update date="2025-09-25" %}
-## September 25, 2025
-
-(release 4.100)
+## Release 4.100
 
 **Bug fixes & other improvements**
 
@@ -441,9 +383,7 @@
 {% endupdate %}
 
 {% update date="2025-09-18" %}
-## September 18, 2025
-
-(release 4.99)
+## Release 4.99
 
 **🎁 What's new?**
 
@@ -456,9 +396,7 @@
 {% endupdate %}
 
 {% update date="2025-09-11" %}
-## September 11, 2025
-
-(release 4.98)
+## Release 4.98
 
 **Bug fixes & other improvements**
 
@@ -467,9 +405,7 @@
 {% endupdate %}
 
 {% update date="2025-09-05" %}
-## September 5, 2025
-
-(release 4.97)
+## Release 4.97
 
 **Bug fixes & other improvements**
 
@@ -478,9 +414,7 @@
 {% endupdate %}
 
 {% update date="2025-08-28" %}
-## August 28, 2025
-
-(release 4.96)
+## Release 4.96
 
 **Bug fixes & other improvements**
 
@@ -491,9 +425,7 @@
 {% endupdate %}
 
 {% update date="2025-08-21" %}
-## August 21, 2025
-
-(release 4.95)
+## Release 4.95
 
 **Bug fixes & other improvements**
 
@@ -502,9 +434,7 @@
 {% endupdate %}
 
 {% update date="2025-08-14" %}
-## August 14, 2025
-
-(release 4.94)
+## Release 4.94
 
 **Bug fixes & other improvements**
 
@@ -513,9 +443,7 @@
 {% endupdate %}
 
 {% update date="2025-08-07" %}
-## August 7, 2025
-
-(release 4.93)
+## Release 4.93
 
 **Bug fixes & other improvements**
 
@@ -524,9 +452,7 @@
 {% endupdate %}
 
 {% update date="2025-07-31" %}
-## July 31, 2025
-
-(release 4.92)
+## Release 4.92
 
 **Bug fixes & other improvements**
 
@@ -535,9 +461,7 @@
 {% endupdate %}
 
 {% update date="2025-07-28" %}
-## July 28, 2025
-
-(release 4.91)
+## Release 4.91
 
 **Bug fixes & other improvements**
 
@@ -546,9 +470,7 @@
 {% endupdate %}
 
 {% update date="2025-07-17" %}
-## July 17, 2025
-
-(release 4.90)
+## Release 4.90
 
 **🎁 What's new?**
 
@@ -562,9 +484,7 @@
 {% endupdate %}
 
 {% update date="2025-07-10" %}
-## July 10, 2025
-
-(release 4.89)
+## Release 4.89
 
 **Bug fixes & other improvements**
 
@@ -574,9 +494,7 @@
 {% endupdate %}
 
 {% update date="2025-07-03" %}
-## July 3, 2025
-
-(release 4.88)
+## Release 4.88
 
 **🎁 What's new?**
 
@@ -589,9 +507,7 @@
 {% endupdate %}
 
 {% update date="2025-06-26" %}
-## June 26, 2025
-
-(release 4.87)
+## Release 4.87
 
 **Bug fixes & other improvements**
 
@@ -602,9 +518,7 @@
 {% endupdate %}
 
 {% update date="2025-06-23" %}
-## June 23, 2025
-
-(release 4.86)
+## Release 4.86
 
 **🎁 What's new?**
 
@@ -617,9 +531,7 @@
 {% endupdate %}
 
 {% update date="2025-06-12" %}
-## June 12, 2025
-
-(release 4.85)
+## Release 4.85
 
 **Bug fixes & other improvements**
 
@@ -630,9 +542,7 @@
 {% endupdate %}
 
 {% update date="2025-06-05" %}
-## June 5, 2025
-
-(release 4.84)
+## Release 4.84
 
 **Bug fixes & other improvements**
 
@@ -641,9 +551,7 @@
 {% endupdate %}
 
 {% update date="2025-05-30" %}
-## May 30, 2025
-
-(release 4.83)
+## Release 4.83
 
 **Bug fixes & other improvements**
 
@@ -655,9 +563,7 @@
 {% endupdate %}
 
 {% update date="2025-05-27" %}
-## May 27, 2025
-
-(release 4.82)
+## Release 4.82
 
 **Bug fixes & other improvements**
 
@@ -667,9 +573,7 @@
 {% endupdate %}
 
 {% update date="2025-05-15" %}
-## May 15, 2025
-
-(release 4.81)
+## Release 4.81
 
 **Bug fixes & other improvements**
 
@@ -680,9 +584,7 @@
 {% endupdate %}
 
 {% update date="2025-05-08" %}
-## May 8, 2025
-
-(release 4.80)
+## Release 4.80
 
 ### 🎁 What's new?
 
@@ -696,9 +598,7 @@
 {% endupdate %}
 
 {% update date="2025-05-01" %}
-## May 1, 2025
-
-(release 4.79)
+## Release 4.79
 
 ### 🎁 What's new?
 
@@ -717,9 +617,7 @@
 {% endupdate %}
 
 {% update date="2025-04-24" %}
-## Apr 24, 2025
-
-(release 4.78)
+## Release 4.78
 
 ### Bug fixes & other improvements
 
@@ -730,9 +628,7 @@
 {% endupdate %}
 
 {% update date="2025-04-17" %}
-## Apr 17, 2025
-
-(release 4.77)
+## Release 4.77
 
 ### Bug fixes & other improvements
 
@@ -741,9 +637,7 @@
 {% endupdate %}
 
 {% update date="2025-04-10" %}
-## April 10, 2025
-
-(release 4.76)
+## Release 4.76
 
 ### Bug fixes & other improvements
 
@@ -757,9 +651,7 @@
 {% endupdate %}
 
 {% update date="2025-04-03" %}
-## Apr 3, 2025
-
-(release 4.75)
+## Release 4.75
 
 ### Bug fixes & other improvements
 
@@ -768,9 +660,7 @@
 {% endupdate %}
 
 {% update date="2025-03-27" %}
-## Mar 27, 2025
-
-(release 4.74)
+## Release 4.74
 
 ### Bug fixes & other improvements
 
@@ -783,9 +673,7 @@
 {% endupdate %}
 
 {% update date="2025-03-20" %}
-## Mar 20, 2025
-
-(release 4.73)
+## Release 4.73
 
 ### 🎁 What's new?
 
@@ -802,9 +690,7 @@
 {% endupdate %}
 
 {% update date="2025-03-13" %}
-## Mar 13, 2025
-
-(release 4.72)
+## Release 4.72
 
 ### 🎁 What's new?
 
@@ -820,9 +706,7 @@
 {% endupdate %}
 
 {% update date="2025-03-06" %}
-## Mar 6, 2025
-
-(release 4.71)
+## Release 4.71
 
 ### Bug fixes & other improvements
 
@@ -834,9 +718,7 @@
 {% endupdate %}
 
 {% update date="2025-02-27" %}
-## Feb 27, 2025
-
-(release 4.70)
+## Release 4.70
 
 ### Bug fixes & other improvements
 
@@ -847,9 +729,7 @@
 {% endupdate %}
 
 {% update date="2025-02-20" %}
-## Feb 20, 2025
-
-(release 4.69)
+## Release 4.69
 
 ### 🎁 What's new?
 
@@ -871,9 +751,7 @@
 {% endupdate %}
 
 {% update date="2025-02-13" %}
-## Feb 13, 2025
-
-(release 4.68)
+## Release 4.68
 
 ### 🎁 What's new?
 
@@ -890,9 +768,7 @@
 {% endupdate %}
 
 {% update date="2025-02-06" %}
-## Feb 6, 2025
-
-(release 4.67)
+## Release 4.67
 
 ### 🎁 What's new?
 
@@ -906,9 +782,7 @@
 {% endupdate %}
 
 {% update date="2025-01-30" %}
-## Jan 30, 2025
-
-(release 4.66)
+## Release 4.66
 
 ### Bug fixes & other improvements
 
@@ -919,9 +793,7 @@
 {% endupdate %}
 
 {% update date="2025-01-16" %}
-## Jan 16, 2025
-
-(release 4.65)
+## Release 4.65
 
 ### 🎁 What's new?
 
@@ -935,9 +807,7 @@
 {% endupdate %}
 
 {% update date="2025-01-09" %}
-## Jan 9, 2025
-
-(release 4.64)
+## Release 4.64
 
 ### 🎁 What's new?
 
@@ -952,9 +822,7 @@
 {% endupdate %}
 
 {% update date="2025-01-03" %}
-## Jan 3, 2025
-
-(release 4.63)
+## Release 4.63
 
 ### 🎁 What's new?
 
@@ -969,9 +837,7 @@
 {% endupdate %}
 
 {% update date="2024-12-19" %}
-## Dec 19, 2024
-
-(release 4.62)
+## Release 4.62
 
 ### Bug fixes & other improvements
 
@@ -982,9 +848,7 @@
 {% endupdate %}
 
 {% update date="2024-12-12" %}
-## Dec 12, 2024
-
-(release 4.61)
+## Release 4.61
 
 ### Bug fixes & other improvements
 
@@ -994,9 +858,7 @@
 {% endupdate %}
 
 {% update date="2024-12-05" %}
-## Dec 5, 2024
-
-(release 4.60)
+## Release 4.60
 
 ### Bug fixes & other improvements
 
@@ -1006,9 +868,7 @@
 {% endupdate %}
 
 {% update date="2024-11-21" %}
-## Nov 21, 2024
-
-(release 4.59)
+## Release 4.59
 
 ### Bug fixes & other improvements
 
@@ -1018,9 +878,7 @@
 {% endupdate %}
 
 {% update date="2024-11-14" %}
-## Nov 14, 2024
-
-(release 4.58)
+## Release 4.58
 
 ### Bug fixes & other improvements
 
@@ -1030,9 +888,7 @@
 {% endupdate %}
 
 {% update date="2024-11-07" %}
-## Nov 7, 2024
-
-(release 4.57)
+## Release 4.57
 
 ### Bug fixes & other improvements
 
@@ -1043,9 +899,7 @@
 {% endupdate %}
 
 {% update date="2024-10-31" %}
-## Oct 31, 2024
-
-(release 4.56)
+## Release 4.56
 
 ### Bug fixes & other improvements
 
@@ -1058,9 +912,7 @@
 {% endupdate %}
 
 {% update date="2024-10-24" %}
-## Oct 24, 2024
-
-(release 4.55)
+## Release 4.55
 
 ### 🎁 What's new?
 
@@ -1076,9 +928,7 @@
 {% endupdate %}
 
 {% update date="2024-10-17" %}
-## Oct 17, 2024
-
-(release 4.54)
+## Release 4.54
 
 ### 🎁 What's new?
 
@@ -1092,9 +942,7 @@
 {% endupdate %}
 
 {% update date="2024-10-10" %}
-## Oct 10, 2024
-
-(release 4.53)
+## Release 4.53
 
 ### 🎁 What's new?
 
@@ -1107,9 +955,7 @@
 {% endupdate %}
 
 {% update date="2024-10-03" %}
-## Oct 3, 2024
-
-(release 4.52)
+## Release 4.52
 
 ### 🎁 What's new?
 
@@ -1123,9 +969,7 @@
 {% endupdate %}
 
 {% update date="2024-09-30" %}
-## Sep 30, 2024
-
-(release 4.51)
+## Release 4.51
 
 ### Bug fixes & other improvements
 
@@ -1136,18 +980,14 @@
 {% endupdate %}
 
 {% update date="2024-09-19" %}
-## Sep 19, 2024
-
-(release 4.50)
+## Release 4.50
 
 This release focuses on behind-the-scenes improvements to our infrastructure. You shouldn't notice any changes in your experience.
 
 {% endupdate %}
 
 {% update date="2024-09-12" %}
-## Sep 12, 2024
-
-(release 4.49)
+## Release 4.49
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1158,9 +998,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-09-06" %}
-## Sep 6, 2024
-
-(release 4.48)
+## Release 4.48
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1174,9 +1012,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-08-29" %}
-## Aug 29, 2024
-
-(release 4.47)
+## Release 4.47
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1188,9 +1024,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-08-22" %}
-## Aug 22, 2024
-
-(release 4.46)
+## Release 4.46
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1200,9 +1034,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-08-15" %}
-## Aug 15, 2024
-
-(release 4.45)
+## Release 4.45
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1212,9 +1044,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-08-08" %}
-## Aug 8, 2024
-
-(release 4.44)
+## Release 4.44
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1224,9 +1054,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-08-01" %}
-## Aug 1, 2024
-
-(release 4.43)
+## Release 4.43
 
 ### 🎁 What's new?
 
@@ -1240,9 +1068,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-07-25" %}
-## Jul 25, 2024
-
-(release 4.42)
+## Release 4.42
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1252,9 +1078,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-07-18" %}
-## Jul 18, 2024
-
-(release 4.41)
+## Release 4.41
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1264,9 +1088,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-07-11" %}
-## Jul 11, 2024
-
-(release 4.40)
+## Release 4.40
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1276,9 +1098,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-07-08" %}
-## Jul 8, 2024
-
-(release 4.39)
+## Release 4.39
 
 ### 🎁 What's new?
 
@@ -1291,9 +1111,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-06-27" %}
-## Jun 27, 2024
-
-(release 4.38)
+## Release 4.38
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1302,9 +1120,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-06-21" %}
-## Jun 21, 2024
-
-(release 4.37)
+## Release 4.37
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1316,9 +1132,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-06-13" %}
-## Jun 13, 2024
-
-(release 4.36)
+## Release 4.36
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1328,9 +1142,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-06-06" %}
-## Jun 6, 2024
-
-(release 4.35)
+## Release 4.35
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1340,9 +1152,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-05-31" %}
-## May 31, 2024
-
-(release 4.34)
+## Release 4.34
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1355,9 +1165,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-05-16" %}
-## May 16, 2024
-
-(release 4.33)
+## Release 4.33
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1371,9 +1179,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-05-09" %}
-## May 9, 2024
-
-(release 4.32)
+## Release 4.32
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1384,9 +1190,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-05-02" %}
-## May 2, 2024
-
-(release 4.31)
+## Release 4.31
 
 ### 🎁 What's new?
 
@@ -1400,9 +1204,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-04-25" %}
-## Apr 25, 2024
-
-(release 4.30)
+## Release 4.30
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1417,9 +1219,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-04-18" %}
-## Apr 18, 2024
-
-(release 4.29)
+## Release 4.29
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1431,9 +1231,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-04-11" %}
-## Apr 11, 2024
-
-(release 4.28)
+## Release 4.28
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1445,9 +1243,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-04-04" %}
-## Apr 4, 2024
-
-(release 4.27)
+## Release 4.27
 
 ### 🐛 Bug fixes & other improvements
 
@@ -1459,9 +1255,7 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 {% endupdate %}
 
 {% update date="2024-03-28" %}
-## Mar 28, 2024
-
-(release 4.26)
+## Release 4.26
 
 ### 🐛 Bug fixes & other improvements
 
