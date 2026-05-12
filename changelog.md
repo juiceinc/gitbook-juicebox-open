@@ -4,6 +4,9 @@
 
 * **Expanded color picker.** A richer color palette with more shades to choose from when customizing your report's look and feel.
 
+{% updates format="full" %}
+
+{% update date="2026-05-08" %}
 ## May 8, 2026
 
 (release 4.128)
@@ -13,6 +16,9 @@
 * Fixed an issue in the slice editor where the per-dimension Amount label could show "Many" even after a different selection limit was applied.
 * Refreshed the sign-in failure page with a cleaner design and clearer guidance for the rare cases when a sign-in can't be completed.
 
+{% endupdate %}
+
+{% update date="2026-05-04" %}
 ## May 4, 2026
 
 (release 4.127)
@@ -25,6 +31,9 @@
 * For workspaces using Google or LinkedIn sign-in: users without an account on the workspace now see a friendly message directing them to contact their workspace administrator.
 * Behind-the-scenes improvements to sign-in handling, including stricter validation of redirect URLs and improved logging for support and troubleshooting.
 
+{% endupdate %}
+
+{% update date="2026-04-27" %}
 ## April 27, 2026
 
 (release 4.126)
@@ -33,6 +42,9 @@
 
 * In the Debug All Slices modal, slices that returned an error are now flagged with a red indicator in the left panel, and the Error tab is automatically selected when you open the slice — making problems easier to spot and diagnose.
 
+{% endupdate %}
+
+{% update date="2026-04-22" %}
 ## April 22, 2026
 
 (release 4.125)
@@ -43,6 +55,9 @@
 * Fixed an issue where scrolling a Table slice could trigger a "Maximum update depth exceeded" error and slow down scroll performance.
 * Improved query performance for reports that use very large `automatic_filters` lists. Redundant `IN` filter expressions that are strict supersets of another filter on the same column are now pruned from the generated SQL.
 
+{% endupdate %}
+
+{% update date="2026-04-16" %}
 ## April 16, 2026
 
 (release 4.124)
@@ -51,6 +66,9 @@
 
 * Filter pill selections are now confirmed with an **Apply** button, which closes the popover when clicked. Checkbox-style filters continue to apply immediately on click, without an Apply button.
 
+{% endupdate %}
+
+{% update date="2026-04-02" %}
 ## April 2, 2026
 
 (release 4.123)
@@ -65,6 +83,9 @@
 * Fixed a bar chart header height and text alignment issue.
 * Fixed a performance issue that could cause a crash in filter pill dropdowns with many items.
 
+{% endupdate %}
+
+{% update date="2026-03-26" %}
 ## March 26, 2026
 
 (release 4.122)
@@ -74,6 +95,9 @@
 * Fixed an issue where Chooser slice dimension selections could be lost when selecting multiple ingredients or when using button-style choosers.
 * Fixed an issue where chart settings like zoom levels, row counts, color ranges, and gridlines could be lost when saving slice configuration.
 
+{% endupdate %}
+
+{% update date="2026-03-23" %}
 ## March 23, 2026
 
 (release 4.121)
@@ -83,6 +107,9 @@
 * Leaderboard slices now display wider when showing more than 5 columns, with improved text truncation and better spacing between values and labels.
 * The debug panel now includes a **Data tab** that shows the actual data for each slice. For filter slices, a separate data tab is created for each dimension. Toggle between a code view and a table view to inspect your data.
 
+{% endupdate %}
+
+{% update date="2026-03-12" %}
 ## March 12, 2026
 
 (release 4.120)
@@ -93,6 +120,9 @@
 * **Table slice:** Tables with many columns now have better default sizing, and color scales in band and gradient modes have been refined.
 * **Map slice:** Fixed an issue where color range settings on Deckmap slices could be lost when saving.
 
+{% endupdate %}
+
+{% update date="2026-03-05" %}
 ## March 5, 2026
 
 (release 4.119)
@@ -108,6 +138,9 @@
 * **Smoother bar chart scrolling:** Bar charts no longer shift layout when a scrollbar appears or disappears.
 * **Selection policy preserved in filter slices:** Fixed an issue where the selection policy setting could be stripped when saving a filter slice through Advanced Config.
 
+{% endupdate %}
+
+{% update date="2026-02-26" %}
 ## February 26, 2026
 
 (release 4.118)
@@ -116,6 +149,9 @@
 
 * Various minor improvements to user experience and performance
 
+{% endupdate %}
+
+{% update date="2026-02-19" %}
 ## February 19, 2026
 
 (release 4.117)
@@ -128,6 +164,9 @@
 
 * Fixed an issue where signing in with Google could leave the login popup stuck on the homepage instead of closing automatically.
 
+{% endupdate %}
+
+{% update date="2026-02-12" %}
 ## February 12, 2026
 
 (release 4.116)
@@ -141,6 +180,9 @@
 * **Table compound selection toggle:** A new toggle in the Table slice editor — "Convert row selections into individual selections by dimension" — lets editors control how compound row selections are sent to downstream slices. When enabled, multi-dimension row selections are broken into individual dimension filters. Off by default.
 * **Debug panel timing fix:** Fixed an issue where ingredient timing values in the debug panel were displayed 1000x higher than the actual value.
 
+{% endupdate %}
+
+{% update date="2026-02-05" %}
 ## February 5, 2026
 
 (release 4.115)
@@ -154,6 +196,9 @@
 * Editor styling: Accordion sections in the slice editor are more compact for a denser editing experience.
 * Performance: Increased parallelism for data queries, improving load times for slices with multiple data requests.
 
+{% endupdate %}
+
+{% update date="2026-01-29" %}
 ## January 29, 2026
 
 (release 4.114)
@@ -163,6 +208,9 @@
 * **Table breakout columns.** You can now add breakout (pivot) columns to Table slices. Pick a dimension to break out by and a measure, and the table will automatically create columns for each value — making it easy to compare values side by side. You can set the maximum number of breakout values, and any remaining values are grouped into an "Other" column.
 * **Expanded color palette.** The color theme customization now includes additional semantic colors: Tint, Shade, Info, Success, Warning, and Critical. These colors are used throughout the app and can be customized to match your brand.
 
+{% endupdate %}
+
+{% update date="2026-01-22" %}
 ## January 22, 2026
 
 (release 4.113)
@@ -178,6 +226,9 @@
 * Fixed editor options not appearing correctly for Trend and Scatterplot slices.
 * Improved sign-in reliability when the same email address exists across multiple workspaces.
 
+{% endupdate %}
+
+{% update date="2026-01-15" %}
 ## January 15, 2026
 
 (release 4.112)
@@ -190,6 +241,9 @@
 
 * Fixed an issue where some published apps could fail to load data due to a permissions error in the editor query.
 
+{% endupdate %}
+
+{% update date="2026-01-08" %}
 ## January 8, 2026
 
 (release 4.111)
@@ -203,6 +257,9 @@
 * **Range filter fix**: The Apply button on range (numeric) filter pills now works on the first click. Previously, users sometimes had to click Apply twice for changes to take effect.
 * **Data permissions testing**: Fixed an issue where section visibility wasn't updating correctly when using Test Data Permissions to preview the app as different users.
 
+{% endupdate %}
+
+{% update date="2025-12-18" %}
 ## December 18, 2025
 
 (release 4.110)
@@ -215,6 +272,9 @@
 * Fixed a layout issue where field input groups could overflow their container in the Editor.
 * Improved label styling and orientation support for Bar slices.
 
+{% endupdate %}
+
+{% update date="2025-12-11" %}
 ## December 11, 2025
 
 (release 4.109)
@@ -225,6 +285,9 @@
 * **User labels (early access):** Admins can now assign labels to users from the People page, laying the groundwork for controlling which report sections are visible to different users. This feature is currently in early access. [Reach out to us](https://docs.myjuicebox.io/getting-started/reach-out-to-us) if you're interested.
 * Fixed an issue where Filter and Map slice configurations could retain orphaned settings after dimensions were removed.
 
+{% endupdate %}
+
+{% update date="2025-12-08" %}
 ## December 8, 2025
 
 (release 4.108)
@@ -238,6 +301,9 @@
 * **Table printing:** Tables now print with correct height and sizing.
 * **People page performance:** Improved loading performance on the People page.
 
+{% endupdate %}
+
+{% update date="2025-11-20" %}
 ## November 20, 2025
 
 (release 4.107)
@@ -257,6 +323,9 @@
 * Fixed ingredient pills overflowing their container in data drawer column headers.
 * Improved handling of older app configurations that were missing show/hide component settings.
 
+{% endupdate %}
+
+{% update date="2025-11-13" %}
 ## November 13, 2025
 
 (release 4.106)
@@ -270,6 +339,9 @@
 * **Bar chart sorting:** Fixed an issue where grouped bar charts could sort incorrectly.
 * **Section layout editing:** Fixed an issue where editing a custom layout in one section could overwrite another section's layout.
 
+{% endupdate %}
+
+{% update date="2025-11-06" %}
 ## November 6, 2025
 
 (release 4.105)
@@ -289,6 +361,9 @@
 * Added safeguards to prevent app data loss if a database error occurs during discard-draft operations.
 * Improved filter button colors for better consistency across light and dark modes.
 
+{% endupdate %}
+
+{% update date="2025-10-23" %}
 ## October 23, 2025
 
 (release 4.104)
@@ -301,6 +376,9 @@
 * Fixed Chooser slices getting out of sync when duplicated.
 * Fixed links interfering with clicks in edit mode.
 
+{% endupdate %}
+
+{% update date="2025-10-16" %}
 ## October 16, 2025
 
 (release 4.103)
@@ -316,6 +394,9 @@
 * Improved contrast and readability for dark-themed apps across Leaderboard, Table, Card, and other UI elements.
 * Fixed a Table slice error ("Cell count must match column count") that could occur when switching measures via a Chooser.
 
+{% endupdate %}
+
+{% update date="2025-10-09" %}
 ## October 9, 2025
 
 (release 4.102)
@@ -329,6 +410,9 @@
 * Fixed an issue where date and time formats were not being applied correctly to selection values in dynamic text.
 * Fixed an issue where selections made in a Scatterplot were not being passed through to a downstream Filter slice.
 
+{% endupdate %}
+
+{% update date="2025-10-02" %}
 ## October 2, 2025
 
 (release 4.101)
@@ -342,6 +426,9 @@
 * Fixed an issue where tooltips on Scatterplot slices could persist on screen after interacting with hexbin regions.
 * Fixed an issue where custom column widths couldn't be configured for dynamic columns in Table slices.
 
+{% endupdate %}
+
+{% update date="2025-09-25" %}
 ## September 25, 2025
 
 (release 4.100)
@@ -351,6 +438,9 @@
 * Fixed an error impacting uploading images to Headline slice
 * Improved debug modal
 
+{% endupdate %}
+
+{% update date="2025-09-18" %}
 ## September 18, 2025
 
 (release 4.99)
@@ -363,6 +453,9 @@
 
 * Various minor improvements to user experience and performance
 
+{% endupdate %}
+
+{% update date="2025-09-11" %}
 ## September 11, 2025
 
 (release 4.98)
@@ -371,6 +464,9 @@
 
 * Various minor improvements to user experience and performance
 
+{% endupdate %}
+
+{% update date="2025-09-05" %}
 ## September 5, 2025
 
 (release 4.97)
@@ -379,6 +475,9 @@
 
 * Home (Reports) page performance improvements
 
+{% endupdate %}
+
+{% update date="2025-08-28" %}
 ## August 28, 2025
 
 (release 4.96)
@@ -389,6 +488,9 @@
 * Improved table slice configuration options, including resizable columns
 * Improved ingredient editor panel
 
+{% endupdate %}
+
+{% update date="2025-08-21" %}
 ## August 21, 2025
 
 (release 4.95)
@@ -397,6 +499,9 @@
 
 * Various minor improvements to user experience and performance
 
+{% endupdate %}
+
+{% update date="2025-08-14" %}
 ## August 14, 2025
 
 (release 4.94)
@@ -405,6 +510,9 @@
 
 * Various minor improvements to user experience and performance
 
+{% endupdate %}
+
+{% update date="2025-08-07" %}
 ## August 7, 2025
 
 (release 4.93)
@@ -413,6 +521,9 @@
 
 * Various minor improvements to user experience and performance
 
+{% endupdate %}
+
+{% update date="2025-07-31" %}
 ## July 31, 2025
 
 (release 4.92)
@@ -421,6 +532,9 @@
 
 * Various minor improvements to user experience and performance
 
+{% endupdate %}
+
+{% update date="2025-07-28" %}
 ## July 28, 2025
 
 (release 4.91)
@@ -429,6 +543,9 @@
 
 * Various minor improvements to user experience and performance
 
+{% endupdate %}
+
+{% update date="2025-07-17" %}
 ## July 17, 2025
 
 (release 4.90)
@@ -442,6 +559,9 @@
 * Adds a thousands separator to numeric counts in dynamic text
 * Various improvements to the Test Data Permissions panel, including adding an "Edit User" link to users with Admin permissions.
 
+{% endupdate %}
+
+{% update date="2025-07-10" %}
 ## July 10, 2025
 
 (release 4.89)
@@ -451,6 +571,9 @@
 * User by app search improvements: From the People page, you can search for users with "App: `<slug>`", from app cards on the Reports page, the button showing count of users is now a link to the People page that filters users by those granted access to the app.
 * On the user account page, apps that the user has been given access to are now at the top of the list, making it easier to find and manage app access permissions.
 
+{% endupdate %}
+
+{% update date="2025-07-03" %}
 ## July 3, 2025
 
 (release 4.88)
@@ -463,6 +586,9 @@
 
 * The name of the data source selected for the slice can be viewed on hover
 
+{% endupdate %}
+
+{% update date="2025-06-26" %}
 ## June 26, 2025
 
 (release 4.87)
@@ -473,6 +599,9 @@
 * When you click on a slice badge in the app preview, the outliner now properly scrolls to show the selected slice
 * Various improvements to typography components
 
+{% endupdate %}
+
+{% update date="2025-06-23" %}
 ## June 23, 2025
 
 (release 4.86)
@@ -485,6 +614,9 @@
 
 * Improved pie chart legend display and functionality
 
+{% endupdate %}
+
+{% update date="2025-06-12" %}
 ## June 12, 2025
 
 (release 4.85)
@@ -495,6 +627,9 @@
 * Improved access to materialized views in database object lists
 * Various dependency updates for better performance
 
+{% endupdate %}
+
+{% update date="2025-06-05" %}
 ## June 5, 2025
 
 (release 4.84)
@@ -503,6 +638,9 @@
 
 * Improved debouncing for all filter pill selections, making filtering more responsive
 
+{% endupdate %}
+
+{% update date="2025-05-30" %}
 ## May 30, 2025
 
 (release 4.83)
@@ -514,6 +652,9 @@
 * Added config option for bar charts to define label width
 * Various improvements to the editing panel
 
+{% endupdate %}
+
+{% update date="2025-05-27" %}
 ## May 27, 2025
 
 (release 4.82)
@@ -523,6 +664,9 @@
 * When selecting data sources from a database connection, longer table names are no longer being cut off
 * Added helpful messaging when no data source is available
 
+{% endupdate %}
+
+{% update date="2025-05-15" %}
 ## May 15, 2025
 
 (release 4.81)
@@ -533,6 +677,9 @@
 * Enhanced export functionality with various improvements to make data exports more reliable
 * Improved data permissions system - now supports referencing database columns in both data permissions and automatic filters
 
+{% endupdate %}
+
+{% update date="2025-05-08" %}
 ## May 8, 2025
 
 (release 4.80)
@@ -546,6 +693,9 @@
 * Enhanced trend legend functionality including interactive legend highlighting and selection
 * Improved DataBricks OAuth integration
 
+{% endupdate %}
+
+{% update date="2025-05-01" %}
 ## May 1, 2025
 
 (release 4.79)
@@ -564,6 +714,9 @@
 * Fixed UI issues in the ingredient editor to properly handle bucket options and format fields
 * Various improvements to the redesigned editing experience (coming soon)
 
+{% endupdate %}
+
+{% update date="2025-04-24" %}
 ## Apr 24, 2025
 
 (release 4.78)
@@ -574,6 +727,9 @@
 * Fixes a bug that was preventing the deletion of annotations to Insights
 * Various improvements to the redesigned editing experience (coming soon)
 
+{% endupdate %}
+
+{% update date="2025-04-17" %}
 ## Apr 17, 2025
 
 (release 4.77)
@@ -582,6 +738,9 @@
 
 * Various improvements to the redesigned editing experience (coming soon)
 
+{% endupdate %}
+
+{% update date="2025-04-10" %}
 ## April 10, 2025
 
 (release 4.76)
@@ -595,6 +754,9 @@
 * Fixed the dataCount() dynamic text method
 * Various improvements to the redesigned editing experience (coming soon)
 
+{% endupdate %}
+
+{% update date="2025-04-03" %}
 ## Apr 3, 2025
 
 (release 4.75)
@@ -603,6 +765,9 @@
 
 * Various improvements to the redesigned editing experience (coming soon)
 
+{% endupdate %}
+
+{% update date="2025-03-27" %}
 ## Mar 27, 2025
 
 (release 4.74)
@@ -615,6 +780,9 @@
 * Flips comparison colors in the measure chooser if both the base and comparison measures have Reverse turned on
 * Fixes @slice\_slug.list dynamic text
 
+{% endupdate %}
+
+{% update date="2025-03-20" %}
 ## Mar 20, 2025
 
 (release 4.73)
@@ -631,6 +799,9 @@
 * datediff() and week() functions updated to support more databases, including SQLServer
 * Fix to AI-generated titles
 
+{% endupdate %}
+
+{% update date="2025-03-13" %}
 ## Mar 13, 2025
 
 (release 4.72)
@@ -646,6 +817,9 @@
 * Fix to errors in filtersSummary dynamic text if "None" is selected
 * Adds the Reverse control to the ingredient editor for all ingredient types
 
+{% endupdate %}
+
+{% update date="2025-03-06" %}
 ## Mar 6, 2025
 
 (release 4.71)
@@ -657,6 +831,9 @@
 * App-level data permissions now apply to the draft app (rather than just the published app)
 * Fix to button functionality in the Reports search bar
 
+{% endupdate %}
+
+{% update date="2025-02-27" %}
 ## Feb 27, 2025
 
 (release 4.70)
@@ -667,6 +844,9 @@
 * Improvements to the comparison measure chooser if the comparison values are 0
 * Fix to data source scrolling in the data drawer
 
+{% endupdate %}
+
+{% update date="2025-02-20" %}
 ## Feb 20, 2025
 
 (release 4.69)
@@ -688,6 +868,9 @@
   * percent rather than value will display on the y-axis
 * Removes data source from the Reports Navigation slice
 
+{% endupdate %}
+
+{% update date="2025-02-13" %}
 ## Feb 13, 2025
 
 (release 4.68)
@@ -704,6 +887,9 @@
 * Modifies bar chart tooltips to show % value if configured to show % of whole
 * Removed "Duplicate as Advanced" option for ingredients
 
+{% endupdate %}
+
+{% update date="2025-02-06" %}
 ## Feb 6, 2025
 
 (release 4.67)
@@ -717,6 +903,9 @@
 * Fix to Add User form to view all reports when scrolling
 * Fix to Add User form to initially deselect all reports for Customized report access
 
+{% endupdate %}
+
+{% update date="2025-01-30" %}
 ## Jan 30, 2025
 
 (release 4.66)
@@ -727,6 +916,9 @@
 * Fixes to Trend tooltip so it doesn't get cut off
 * Removes deprecated Bar chart from UI
 
+{% endupdate %}
+
+{% update date="2025-01-16" %}
 ## Jan 16, 2025
 
 (release 4.65)
@@ -740,6 +932,9 @@
 * Adds a "Wrap cards" orientation option for the Card slice
 * Fixes issue with filter pill search not resetting for paginated slices
 
+{% endupdate %}
+
+{% update date="2025-01-09" %}
 ## Jan 9, 2025
 
 (release 4.64)
@@ -754,6 +949,9 @@
 * Adds option to show percent-of-whole in the Bar chart
 * Fixes to starter report preview
 
+{% endupdate %}
+
+{% update date="2025-01-03" %}
 ## Jan 3, 2025
 
 (release 4.63)
@@ -768,6 +966,9 @@
 * User list API can no search for integers
 * Adds a new height option to the Trend slice
 
+{% endupdate %}
+
+{% update date="2024-12-19" %}
 ## Dec 19, 2024
 
 (release 4.62)
@@ -778,6 +979,9 @@
 * Adds the option to customize pie chart colors
 * Adds a My Apps category to the Create New UI for apps marked as clone-able
 
+{% endupdate %}
+
+{% update date="2024-12-12" %}
 ## Dec 12, 2024
 
 (release 4.61)
@@ -787,6 +991,9 @@
 * Improvements to Publish & Share modal
 * Fix to repositioning of Filter slice dropdown from an embedded filter pill
 
+{% endupdate %}
+
+{% update date="2024-12-05" %}
 ## Dec 5, 2024
 
 (release 4.60)
@@ -796,6 +1003,9 @@
 * Fix to the Media slice to allow multiple images in the same section
 * Fix to correct overflow issues with long card description text
 
+{% endupdate %}
+
+{% update date="2024-11-21" %}
 ## Nov 21, 2024
 
 (release 4.59)
@@ -805,6 +1015,9 @@
 * Improvements to Bar chart performance
 * Adds shortcut keys for common editing tasks
 
+{% endupdate %}
+
+{% update date="2024-11-14" %}
 ## Nov 14, 2024
 
 (release 4.58)
@@ -814,6 +1027,9 @@
 * Improvements to the People page
 * Adds new Orientation layout option for the Card slice
 
+{% endupdate %}
+
+{% update date="2024-11-07" %}
 ## Nov 7, 2024
 
 (release 4.57)
@@ -824,6 +1040,9 @@
 * Adds config for Google Gemini safety settings
 * Improvements to the People page so that searches are performed on the backend
 
+{% endupdate %}
+
+{% update date="2024-10-31" %}
 ## Oct 31, 2024
 
 (release 4.56)
@@ -836,6 +1055,9 @@
 * Fix to which apps editors can see on the Insights page
 * Fix to calendar popup x button
 
+{% endupdate %}
+
+{% update date="2024-10-24" %}
 ## Oct 24, 2024
 
 (release 4.55)
@@ -851,6 +1073,9 @@
 * Improvements to caching after ingredient definition changes
 * Fix to password saving
 
+{% endupdate %}
+
+{% update date="2024-10-17" %}
 ## Oct 17, 2024
 
 (release 4.54)
@@ -864,6 +1089,9 @@
 * Small fixes to Trend and Bar charts
 * Fix to user count displayed on the Home page
 
+{% endupdate %}
+
+{% update date="2024-10-10" %}
 ## Oct 10, 2024
 
 (release 4.53)
@@ -876,6 +1104,9 @@
 
 * Fix to Reports Navigation for anonymous users
 
+{% endupdate %}
+
+{% update date="2024-10-03" %}
 ## Oct 3, 2024
 
 (release 4.52)
@@ -889,6 +1120,9 @@
 
 * Filter side panel replaced with dropdown
 
+{% endupdate %}
+
+{% update date="2024-09-30" %}
 ## Sep 30, 2024
 
 (release 4.51)
@@ -899,12 +1133,18 @@
 * Adds option to include filtering context as a slice footnote.
 * Fix to slice background color picker bug.
 
+{% endupdate %}
+
+{% update date="2024-09-19" %}
 ## Sep 19, 2024
 
 (release 4.50)
 
 This release focuses on behind-the-scenes improvements to our infrastructure. You shouldn't notice any changes in your experience.
 
+{% endupdate %}
+
+{% update date="2024-09-12" %}
 ## Sep 12, 2024
 
 (release 4.49)
@@ -915,6 +1155,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Improves AI caching
 * Improves color interpolation
 
+{% endupdate %}
+
+{% update date="2024-09-06" %}
 ## Sep 6, 2024
 
 (release 4.48)
@@ -928,6 +1171,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Improves API
 * Improves compound ID selections
 
+{% endupdate %}
+
+{% update date="2024-08-29" %}
 ## Aug 29, 2024
 
 (release 4.47)
@@ -939,6 +1185,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Download data button is centered and uses data color
 * Fix to slice slug uniqueness when sections are hidden
 
+{% endupdate %}
+
+{% update date="2024-08-22" %}
 ## Aug 22, 2024
 
 (release 4.46)
@@ -948,6 +1197,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Various improvements to the "Load more" feature in Bar, Table, and Card slices
 * Adds option to select the file extension of the Table slice data download
 
+{% endupdate %}
+
+{% update date="2024-08-15" %}
 ## Aug 15, 2024
 
 (release 4.45)
@@ -957,6 +1209,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Adds new configuration option to the table slice to set the default sort order
 * Fix: Clear the title when switching off advanced titles
 
+{% endupdate %}
+
+{% update date="2024-08-08" %}
 ## Aug 8, 2024
 
 (release 4.44)
@@ -966,6 +1221,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Fix: range dimensions that are single select should only send one value
 * Adds infrastructure to support AI-generated summary text
 
+{% endupdate %}
+
+{% update date="2024-08-01" %}
 ## Aug 1, 2024
 
 (release 4.43)
@@ -979,6 +1237,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Improve in-line editing
 * Fixes to "Load more" in card, table and chart charts
 
+{% endupdate %}
+
+{% update date="2024-07-25" %}
 ## Jul 25, 2024
 
 (release 4.42)
@@ -988,6 +1249,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Adds UI to set the min and max bubble size
 * Fix to slice alignment in PDFs
 
+{% endupdate %}
+
+{% update date="2024-07-18" %}
 ## Jul 18, 2024
 
 (release 4.41)
@@ -997,6 +1261,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Fix for off-center positioning of centered text
 * Fixes to map legend styling
 
+{% endupdate %}
+
+{% update date="2024-07-11" %}
 ## Jul 11, 2024
 
 (release 4.40)
@@ -1006,6 +1273,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Add in-line text editing to the Headline slice
 * Improve app wizard fonts and colors
 
+{% endupdate %}
+
+{% update date="2024-07-08" %}
 ## Jul 8, 2024
 
 (release 4.39)
@@ -1018,6 +1288,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 * Improve number formatting in pie charts
 
+{% endupdate %}
+
+{% update date="2024-06-27" %}
 ## Jun 27, 2024
 
 (release 4.38)
@@ -1026,6 +1299,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 * Improve toast notifications
 
+{% endupdate %}
+
+{% update date="2024-06-21" %}
 ## Jun 21, 2024
 
 (release 4.37)
@@ -1037,6 +1313,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Remove forced width on table slices in print pdfs
 * Fix: leaderboard not being rendered correctly sometimes
 
+{% endupdate %}
+
+{% update date="2024-06-13" %}
 ## Jun 13, 2024
 
 (release 4.36)
@@ -1046,6 +1325,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Map styling config options are missing
 * Pre-populate slice slugs for custom layouts
 
+{% endupdate %}
+
+{% update date="2024-06-06" %}
 ## Jun 6, 2024
 
 (release 4.35)
@@ -1055,6 +1337,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Add a new config option that allows slices to be hidden when they receive no data
 * Fix: keep "hidden" slices hidden when their data is fetched
 
+{% endupdate %}
+
+{% update date="2024-05-31" %}
 ## May 31, 2024
 
 (release 4.34)
@@ -1067,6 +1352,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Correcting styling for inline text editor
 * Fixes for fontschemes
 
+{% endupdate %}
+
+{% update date="2024-05-16" %}
 ## May 16, 2024
 
 (release 4.33)
@@ -1080,6 +1368,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Fix flickering in the sidepanel
 * Fix issues with appeditrecord deletion
 
+{% endupdate %}
+
+{% update date="2024-05-09" %}
 ## May 9, 2024
 
 (release 4.32)
@@ -1090,6 +1381,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Fix: background blog being cut off in the header slice
 * Fix: insight images aren't returning the correct theme font
 
+{% endupdate %}
+
+{% update date="2024-05-02" %}
 ## May 2, 2024
 
 (release 4.31)
@@ -1103,6 +1397,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 
 * Support default selections in all slices
 
+{% endupdate %}
+
+{% update date="2024-04-25" %}
 ## Apr 25, 2024
 
 (release 4.30)
@@ -1117,6 +1414,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Fix: icon selector modal has incorrect z-index
 * Improve recipe pooling behavior and debug panels
 
+{% endupdate %}
+
+{% update date="2024-04-18" %}
 ## Apr 18, 2024
 
 (release 4.29)
@@ -1128,6 +1428,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Validate user and app in the access view apis
 * Use uv for python requirements building
 
+{% endupdate %}
+
+{% update date="2024-04-11" %}
 ## Apr 11, 2024
 
 (release 4.28)
@@ -1139,6 +1442,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Improve how we track app edits
 * Create an optional phase for the new dataservice that uses openai to generate automatic titles
 
+{% endupdate %}
+
+{% update date="2024-04-04" %}
 ## Apr 4, 2024
 
 (release 4.27)
@@ -1150,6 +1456,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Add graphql mutation to update slice titles
 * Improve table styling
 
+{% endupdate %}
+
+{% update date="2024-03-28" %}
 ## Mar 28, 2024
 
 (release 4.26)
@@ -1162,6 +1471,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Convert gauge templates to tailwind
 * Add an option to colorize table cells by gauge colors
 
+{% endupdate %}
+
+{% update date="2023-01-09" %}
 ## Jan 9, 2023
 
 ### 🎁 What's new?
@@ -1174,6 +1486,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Selecting date ranges in a date filter is easier with our improved date picker.
 * Reordering columns and measures within a chart was broken, but it's fixed now.
 
+{% endupdate %}
+
+{% update date="2022-08-08" %}
 ## August 8, 2022
 
 ### 🎁 What's new?
@@ -1188,6 +1503,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Quickly navigate from one report to another using the Home button dropdown in the header of any report.
 * Duplicate and delete reports directly from the Home page.
 
+{% endupdate %}
+
+{% update date="2022-07-07" %}
 ## July 7, 2022
 
 ### 🎁 What's new?
@@ -1206,6 +1524,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Improvements to data uploading
 * Date range selections in Filter slices are now done with a calendar picker
 
+{% endupdate %}
+
+{% update date="2022-05-12" %}
 ## May 12, 2022
 
 ### 🎁 What's new?
@@ -1219,6 +1540,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * In the filter slice, you can now filter on a range of values in a number column.
 * Custom color themes are now easier to update.
 
+{% endupdate %}
+
+{% update date="2022-04-20" %}
 ## April 20, 2022
 
 ### 🎁 What's new?
@@ -1234,6 +1558,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Would you like to embed a Juicebox app in your own website? Just paste in the public app [embed code](building-reports/publish-and-share/sharing-and-access-controls.md#embedding-a-public-app).
 * Trend charts are working again for measures with solely negative values.
 
+{% endupdate %}
+
+{% update date="2022-04-06" %}
 ## April 6, 2022
 
 ### 🎁 What's new?
@@ -1245,6 +1572,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * You can create a Count measure using a boolean column. That used to be False, but now it's True.
 * Dynamic text that references selections in the filter slice is working.
 
+{% endupdate %}
+
+{% update date="2022-03-10" %}
 ## March 10, 2022
 
 ### 🎁 What's new?
@@ -1260,6 +1590,9 @@ This release focuses on behind-the-scenes improvements to our infrastructure. Yo
 * Did you know you can duplicate an app? The **Duplicate App** button is now at the top of the editing panel to make that more findable.
 * Higher numbers are often better (🏀), but not always (⛳️). A new [advanced measure](/broken/pages/-M9V4XsmNAG9oiSOl5fk) option lets you tell Juicebox when a lower measure value is better, so that the Leaderboard chart shows who's really on top.
 
+{% endupdate %}
+
+{% update date="2022-02-11" %}
 ## February 11, 2022
 
 ### 🎁 What's new?
@@ -1285,6 +1618,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 
 ![](.gitbook/assets/Screen_Shot_2022-02-11_at_9_58_58_AM.jpg)
 
+{% endupdate %}
+
+{% update date="2021-12-08" %}
 ## December 8, 2021
 
 ### 🎁 What's new?
@@ -1300,6 +1636,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * New editing panel improvements help you get to the right place.
 * Charts no longer allow configuration if data has not been loaded.
 
+{% endupdate %}
+
+{% update date="2021-10-19" %}
 ## October 19, 2021
 
 ### 🎁 What's new?
@@ -1319,6 +1658,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Broken ingredients are (mostly) a thing of the past.
 * Improvements to data loading workflow.
 
+{% endupdate %}
+
+{% update date="2021-09-28" %}
 ## September 28, 2021
 
 ### 🎁 What's new?
@@ -1334,6 +1676,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Loading data from Excel files has been improved.
 * Other reliability and operational improvements.
 
+{% endupdate %}
+
+{% update date="2021-09-07" %}
 ## September 7, 2021
 
 ### 🎁 What's new?
@@ -1351,6 +1696,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Added Excel files (.xls and .xlsx) to data upload options (for now this defaults to loading only the first Excel tab).
 * Other improvements to the Design tab to make adding and configuring slices easier.
 
+{% endupdate %}
+
+{% update date="2021-08-13" %}
 ## August 13, 2021
 
 ### 🎁 What's new?
@@ -1367,6 +1715,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Improved trend legends.
 * Backend synchronization has been improved.
 
+{% endupdate %}
+
+{% update date="2021-07-26" %}
 ## July 26, 2021
 
 ### 🎁 What's new?
@@ -1385,6 +1736,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * The list of charts you can add to a slice was being cut off. That's fixed now.
 * Even more improvements to data loading.
 
+{% endupdate %}
+
+{% update date="2021-07-06" %}
 ## July 6, 2021
 
 ### 🎁 What's new?
@@ -1399,6 +1753,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * "Automagically" adding ingredients now adds a time ingredient for year columns.
 * Improved data loading now catches even more issues (so you don't have to).
 
+{% endupdate %}
+
+{% update date="2021-06-15" %}
 ## June 15, 2021
 
 ### 🎁 What's new?
@@ -1415,6 +1772,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Smarter data loading, particularly for European file formats.
 * More performance and bug fixes.
 
+{% endupdate %}
+
+{% update date="2021-05-24" %}
 ## May 24, 2021
 
 ### 🎁 What's new?
@@ -1435,6 +1795,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * A profile popup to change your name or your password.
 * More performance and bug fixes.
 
+{% endupdate %}
+
+{% update date="2021-04-30" %}
 ## April 30, 2021
 
 ### 🎁 What's new?
@@ -1450,6 +1813,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * ⌨️ Improved keyboard navigation.
 * More performance and bug fixes.
 
+{% endupdate %}
+
+{% update date="2021-04-12" %}
 ## April 12, 2021
 
 ### 🎁 What's new?
@@ -1466,6 +1832,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * 📈+📉The trend chart now properly displays negative numbers.
 * 🏎️ More performance and bug fixes. Vroom, vrroooom!
 
+{% endupdate %}
+
+{% update date="2021-02-25" %}
 ## February 25, 2021
 
 ### 🎁 What's new?
@@ -1484,6 +1853,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * 📱 Editors can now _view_ both published and draft apps when on a phone.
 * More performance and bug fixes.
 
+{% endupdate %}
+
+{% update date="2021-01-18" %}
 ## January 18, 2021
 
 ### 🎁 What's new?
@@ -1498,6 +1870,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Faster app and new workspace creation.
 * Lots more performance and bug fixes.
 
+{% endupdate %}
+
+{% update date="2020-12-16" %}
 ## December 16, 2020
 
 ### 🎁 What's new?
@@ -1518,6 +1893,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Database connections to Redshift, Snowflake, Postgres, SQL Server, and MySQL are now supported.
 * Many, _many_ other things to make Juicebox even better.
 
+{% endupdate %}
+
+{% update date="2020-10-29" %}
 ## October 29, 2020
 
 ### 🎁 What's new?
@@ -1536,6 +1914,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * Various Story Designer improvements. After all who doesn't like a better story?
 * Various performance and bug fixes. A variety of faster, and an anti-variety of broke.
 
+{% endupdate %}
+
+{% update date="2020-10-10" %}
 ## October 10, 2020
 
 ### 🎁 What's new?
@@ -1554,6 +1935,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * **Map charts zoom out farther**: The [map chart](building-reports/story-designer/slices/charts/map.md) now lets you zoom out farther to get a global perspective. 🌍Next step: Mars. Maybe
 * Various performance and bug fixes. Much perform. Un-bugged.
 
+{% endupdate %}
+
+{% update date="2020-09-17" %}
 ## September 17, 2020
 
 ### 🎁 What's new?
@@ -1571,6 +1955,9 @@ Ok, y'all. This is a big one. Like, **the biggest update we've ever done**. In t
 * **More docs on formatting:** The advanced ingredients docs now contains lots of examples of how to build [custom number formats](/broken/pages/-M9TZ8szTE19iRrqkwhu#advanced-number-formats). `,.0f" days until Christmas"` might not mean anything to you, but it does to Juicebox. And to Santa. 🎁
 * Various performance and bug fixes.
 
+{% endupdate %}
+
+{% update date="2020-08-27" %}
 ## August 27, 2020
 
 ### 🎁What's new?
@@ -1594,6 +1981,9 @@ Invite anyone to create an account and view your app by simply [sharing your acc
 * **Table slice column headers now resize** - The table chart no longer cuts off multi-line column headers. Instead, the column header will resize to fit. Nobody likes being squeezed into something that's too small.
 * Various performance and bug fixes.
 
+{% endupdate %}
+
+{% update date="2020-08-06" %}
 ## August 6, 2020
 
 ### 🎁What's New?
@@ -1606,6 +1996,9 @@ Invite anyone to create an account and view your app by simply [sharing your acc
 * Juicebox is more outgoing and informative if there's an issue uploading data.
 * Various infrastructure, error handling and warning improvements.
 
+{% endupdate %}
+
+{% update date="2020-07-16" %}
 ## July 16, 2020
 
 ### 🎁What's new?
@@ -1617,3 +2010,7 @@ Invite anyone to create an account and view your app by simply [sharing your acc
 
 * Side panel measure formatting didn't work in some cases. We've ironed that out.
 * Various data error handling and warning improvements.
+
+{% endupdate %}
+
+{% endupdates %}
