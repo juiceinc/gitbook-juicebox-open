@@ -1,6 +1,16 @@
 # Changelog 🎁
 
+
+
 {% updates format="full" %}
+{% update date="2026-05-17" %}
+## Release 4.129
+
+🎁 **What's new?**
+
+* **Refreshed background color picker:** The color picker that opens when you click a paint-drop icon for section and slice backgrounds now shows a a broad palette of colors organized by hue, with a range of shades for each.&#x20;
+{% endupdate %}
+
 {% update date="2026-05-08" %}
 ## Release 4.128
 
