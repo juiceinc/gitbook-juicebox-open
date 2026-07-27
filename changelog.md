@@ -3,6 +3,56 @@
 
 
 {% updates format="full" %}
+{% update date="2026-07-23" %}
+## Release 4.134
+
+🎁 **What's new?**
+
+* **Formatted numbers in Table XLS downloads:** When you download a Table, Card, or details Table as XLS, each column's number format now carries through to the Excel file. Percentages, currencies, thousands/decimal formats, and scientific notation render in Excel just as they display in the app.
+{% endupdate %}
+
+{% update date="2026-07-20" %}
+## Release 4.133
+
+**Bug fixes & other improvements**
+
+* The debug panel's Phases tab now labels rendering phases as "Fetch from database, render …" so it's clearer that most of the phase's time is spent fetching data, and each phase now shows how many database queries ran and their total time in the database.
+* Fixed an issue where selecting a row in a Table slice with conditional cell coloring could hide the cell colors under the row selection fill. Selected and hovered rows are now shown with an accent border so cell colors stay visible.
+{% endupdate %}
+
+{% update date="2026-07-13" %}
+## Release 4.132
+
+🎁 **What's new?**
+
+* **SSO-only sign-in for client workspaces:** Client workspaces can now be configured so their sign-in page shows only the SSO button, with a "Sign in another way" link for anyone who needs to sign in from the base domain instead. Set up by your Juicebox account team — [reach out to us](https://docs.myjuicebox.io/getting-started/reach-out-to-us) if you'd like this for your workspace.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where a hidden Table slice could repeated console errors.
+{% endupdate %}
+
+{% update date="2026-06-15" %}
+## Release 4.131
+
+**Bug fixes & other improvements**
+
+* Improved reliability of the **Export current view** download for apps that take a while to render. Downloads are now less likely to fail with a timeout error on large or slow-loading apps.
+* Fixed an issue where `double precision` columns on some Redshift data sources could be introspected as text instead of numeric.
+* Fixed an issue where an app's preview thumbnail could remain stale after republishing.
+{% endupdate %}
+
+{% update date="2026-05-29" %}
+## Release 4.130
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where publishing or cloning an app could occasionally leave it without a palette or font scheme.
+* Filter pills now show more of the selection label before truncating.
+* Fixed an issue where the AI-content button in the slice title toolbar could remain enabled after an AI node had already been inserted.
+* Updated the OIDC sign-in failure message to explain that a new account may take up to 24 hours to be provisioned.
+{% endupdate %}
+
 {% update date="2026-05-17" %}
 ## Release 4.129
 
