@@ -3,6 +3,24 @@
 
 
 {% updates format="full" %}
+{% update date="2026-08-10" %}
+## Release 4.136
+
+**Bug fixes & other improvements**
+
+* Text now stays more readable on colored backgrounds. Across headers, table cells, chart bars, and other slices, the app now picks the text shade (light or dark) that meets accessibility contrast standards, so labels no longer appear as hard-to-read light text on mid-tone or brand-color backgrounds.
+* Improved the contrast of footer text, including the "Last published" line and the copyright and policy links, so it's easier to read on both light and dark footers.
+* Fixed an issue where a Table slice's scrollbar could flicker on and off on Windows and Linux. The scrollbar space is now reserved so the table stays steady.
+* Fixed an issue where the Sharing button could stay highlighted after you discarded draft changes, even though the count of unpublished changes had already returned to zero.
+* Improved the reliability of file downloads by giving the download more time to start before it's cleaned up.
+{% endupdate %}
+
+{% update date="2026-08-03" %}
+## Release 4.135
+
+This release focused on behind-the-scenes maintenance and groundwork for upcoming features. There are no changes to how you use Juicebox.
+{% endupdate %}
+
 {% update date="2026-07-23" %}
 ## Release 4.134
 
