@@ -21,7 +21,7 @@
 This release focused on behind-the-scenes maintenance and groundwork for upcoming features. There are no changes to how you use Juicebox.
 {% endupdate %}
 
-{% update date="2026-07-23" %}
+{% update date="2026-07-26" %}
 ## Release 4.134
 
 🎁 **What's new?**
