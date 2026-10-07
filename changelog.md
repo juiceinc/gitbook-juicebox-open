@@ -3,6 +3,76 @@
 
 
 {% updates format="full" %}
+{% update date="2026-10-04" %}
+## Release 4.142
+
+🎁 **What's new?**
+
+* **Clearer filter pill selections:** Filter pills with an active selection now show a check-mark icon, so you can tell at a glance which filters are applied, whatever your color palette. Screen readers now announce whether a pill has a selection, too.
+* **Tooltips in slice titles:** You can now attach a hover tooltip to text in a slice title using `jb.tooltip()` in the title's advanced editor. The trigger text shows a dotted underline by default, which you can turn off with `{ underline: false }`.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where a newly created slice couldn't be clicked in the Editing Panel's outline until the page was reloaded.
+* Fixed an issue where slices couldn't be moved between sections after a section was edited.
+* Fixed a missing icon for Chooser slices in the Editing Panel's outline.
+* Fixed an issue where switching pages could leave an empty gap at the top of the page when sticky filter pills were showing.
+* Fixed an intermittent error where a slice could fail to load with a message that a filter "must evaluate to a boolean." This happened most often with Pie slices.
+* Icon-only buttons in published apps (such as close buttons) now have names that screen readers can announce.
+{% endupdate %}
+
+{% update date="2026-09-23" %}
+## Release 4.141
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where rows couldn't be selected in a Table slice when the dimension used numeric IDs.
+* Fixed an issue that could cause a 502 error page when signing in.
+{% endupdate %}
+
+{% update date="2026-09-10" %}
+## Release 4.140
+
+**Bug fixes & other improvements**
+
+* Keyboard focus indicators are now consistent and easier to see across the app. When you move through an app with the keyboard, the focused element gets a two-tone outline that stays visible on any background color, no matter what color palette the app uses.
+
+
+{% endupdate %}
+
+{% update date="2026-08-31" %}
+## Release 4.139
+
+🎁 **What's new?**
+
+* **Slice dependencies in the Editing Panel:** When you select a slice in the Editing Panel, you can now see which other slices it **Uses** and which slices it is **Used by**. Dependencies come from things like embedded filter pills, dynamic title text, and selections passed as variables. Hover over a slice in either list to draw an arrow to it, or click it to jump to that slice.
+* **Safer slice deletion:** Before you delete a slice, a confirmation now lists any other slices that depend on it, so you can see what might be affected.
+{% endupdate %}
+
+{% update date="2026-08-20" %}
+## Release 4.138
+
+🎁 **What's new?**
+
+* **Alt text for images:** Editors can now add alt text to images in Media slices so screen readers can describe them. When you pick an image from Unsplash, the alt text is pre-filled from the image's description when one is available. Images without alt text are now skipped by screen readers instead of being read out as a URL.
+* **Chart accessible names:** A new **Chart accessible name** field in a chart slice's Style settings lets you set the name screen readers announce for the chart. If you leave it blank, the slice's ID is used.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where an app could fail to load data from very large tables (more than about 2 billion rows).
+* Images in the Unsplash picker now have descriptive names for screen reader users.
+{% endupdate %}
+
+{% update date="2026-08-14" %}
+## Release 4.137
+
+**Bug fixes & other improvements**
+
+* Fixed an issue in Filter slices where selecting the same value in two different dimensions could clear both selections.
+* The `selectionValue()` dynamic text function now accepts an optional format string that overrides the ingredient's default format.
+* If an account is temporarily locked after too many failed sign-in attempts, the sign-in page now says so instead of silently returning you to the sign-in form.
+{% endupdate %}
+
 {% update date="2026-08-10" %}
 ## Release 4.136
 
