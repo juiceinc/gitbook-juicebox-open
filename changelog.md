@@ -3,6 +3,21 @@
 
 
 {% updates format="full" %}
+{% update date="2026-10-10" %}
+## Release 4.143
+
+🎁 **What's new?**
+
+* **Keyboard and screen reader support for Pie slices:** You can now use a Pie chart without a mouse. Press Tab to move focus to the pie, use the arrow keys to move between slices, and press Enter or Space to select one. Moving focus to a slice previews it the same way hovering does: the slice is highlighted, the center callout updates, and the matching legend row lights up. Screen readers announce each slice and say when your selection changes. The focus outline stays visible on both light and dark slices.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where you couldn't type spaces in a chart slice's **Chart accessible name** field.
+* Improved query performance for apps connected to SQL Server. Some queries, especially ones that count distinct values, were running much slower than expected and could time out.
+* Fixed an issue where a Pie slice could draw incorrectly or fail to finish loading when two of its values had the same label, for example two dates formatted as the same month.
+* Pie slices configured to allow no selections no longer respond when you click a slice or a legend row.
+{% endupdate %}
+
 {% update date="2026-10-04" %}
 ## Release 4.142
 
@@ -30,7 +45,7 @@
 * Fixed an issue that could cause a 502 error page when signing in.
 {% endupdate %}
 
-{% update date="2026-09-10" %}
+{% update date="2026-09-14" %}
 ## Release 4.140
 
 **Bug fixes & other improvements**
@@ -40,7 +55,7 @@
 
 {% endupdate %}
 
-{% update date="2026-08-31" %}
+{% update date="2026-09-02" %}
 ## Release 4.139
 
 🎁 **What's new?**
@@ -49,7 +64,7 @@
 * **Safer slice deletion:** Before you delete a slice, a confirmation now lists any other slices that depend on it, so you can see what might be affected.
 {% endupdate %}
 
-{% update date="2026-08-20" %}
+{% update date="2026-08-24" %}
 ## Release 4.138
 
 🎁 **What's new?**
@@ -63,7 +78,7 @@
 * Images in the Unsplash picker now have descriptive names for screen reader users.
 {% endupdate %}
 
-{% update date="2026-08-14" %}
+{% update date="2026-08-20" %}
 ## Release 4.137
 
 **Bug fixes & other improvements**
