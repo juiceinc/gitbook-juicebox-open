@@ -1,22 +1,43 @@
 # Pie
 
-The pie chart displays column values and their share of the whole. Adding a slice with a pie chart (i.e., a pie slice) is a good choice when users want to see parts of a whole. &#x20;
+The pie chart displays column values and their share of the whole. Adding a slice with a pie chart (i.e., a pie slice) is a good choice when users want to see parts of a whole.
 
-## Adding a pie slice
+<figure><img src="../../../../.gitbook/assets/pie-4-chart-with-other.png" alt=""><figcaption></figcaption></figure>
 
-To add a pie slice:
+### Adding a pie slice
 
-* select **Pie** from the chart list
+To add a pie slice, select **Pie** from the chart list.
 
-![Select Pie from the dropdown](<../../../../.gitbook/assets/image (106).png>)
+<figure><img src="../../../../.gitbook/assets/pie-1-add-slice-menu.png" alt=""><figcaption></figcaption></figure>
 
-* select the column to use to represent a pie slice
-* select the measure to use to determine the size of each slice
-* select **Value** to display the actual value of each pie slice or **% Percent of whole** to display the share of the pie slice as a percent
-* add slice text (optional)
+**Configuring the pie slice**
 
-![A Pie slice](<../../../../.gitbook/assets/image (325).png>)
+The CONFIG section has the following fields:
 
-## Using a pie slice
+* **Slices**: Select the dimension whose values become the pie slices (e.g., Customer Segment, Region).
+* **Measure**: Select the measure that sets the size of each slice.
+* **Hide if no data**: Toggle to hide the slice when no data is available.
+* **Selections**: Controls how many selections a user can make and how those selections affect downstream slices.
 
-You can hover over or select individual pie slices to see more detail in the center of the chart. Selecting pie slices will filter downstream slices.&#x20;
+<figure><img src="../../../../.gitbook/assets/pie-2-config-section.png" alt=""><figcaption></figcaption></figure>
+
+**Style options**
+
+The STYLE section includes several options for customizing the chart appearance. Key Pie-specific options:
+
+* **Show legend**: Shows or hides the legend next to the pie. It's on by default.
+* **Show data as**: **% Percent of whole** (default) shows each slice's share of the pie. **# Value** shows each slice's actual value.
+* **# of pie slices**: The most slices the pie shows, from 1 to 20. The default is 7. If the dimension has more values than this, the largest values get their own slices and the rest are grouped into one "Other" slice, labeled with how many values it holds (for example, "5 Other Regions"). If it has this many values or fewer, there's no "Other" slice.
+* **Chart accessible name**: A short description of what the chart shows, such as "Revenue by region." Screen readers announce it, so people who can't see the chart know what it's about. If you leave it empty, they announce the slice name (such as Pie1) instead, which means little to a viewer.
+
+<figure><img src="../../../../.gitbook/assets/pie-3-style-section.png" alt=""><figcaption></figcaption></figure>
+
+### Using a pie slice
+
+Hover over or select a pie slice to see more detail in the center of the chart. Selecting pie slices filters downstream slices.
+
+**Using the keyboard**
+
+* Press **Tab** to move focus to the pie.
+* Use the **arrow keys** to move from one slice to the next. Focusing a slice previews it the same way hovering does: the center shows its details, and its legend row is highlighted.
+* Press **Enter** or **Space** to select the focused slice. Press either key again to unselect it.

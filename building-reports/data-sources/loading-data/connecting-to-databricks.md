@@ -35,45 +35,45 @@ Before connecting Juicebox to Databricks, ensure you have:
      * `Can use` permissions for a SQL warehouse compute resource
    * A Premium or Enterprise plan (recommended for optimized performance)
 2. A [Juicebox workspace](https://www.juiceanalytics.com/contact-us) with:
-   * &#x20;A Business or Unlimited subscription. Database connections are only available on these subscription levels. Reach out to help@myjuicebox.io to learn more about subscription options.
+   * A Business or Unlimited subscription. Database connections are only available on these subscription levels. Reach out to help@myjuicebox.io to learn more about subscription options.
    * A Juicebox user account with Owner or Admin privileges.
 3. The connection details (see [Connection Methods](connecting-to-databricks.md#connection-methods) below)
 4. A secure method to share connection details (such as 1Password's [one-time sharing](https://support.1password.com/share-items/?mac) feature)
 
 ## Connection Methods
 
-There are two authentication methods available to connect to Databricks from a Juicebox workspace: Personal Access Token (PAT) and OAuth. PAT is suitable for testing and development, but is not recommended for production. OAuth is the recommended method for use in production.&#x20;
+There are two authentication methods available to connect to Databricks from a Juicebox workspace: Personal Access Token (PAT) and OAuth. PAT is suitable for testing and development, but is not recommended for production. OAuth is the recommended method for use in production.
 
 Connection details for either method need to be shared with Juice Analytics by a user having Admin or higher privileges in the Juicebox workspace. To start this process, reach out to help@myjuicebox.io.
 
 ### Connect Using PAT Authentication
 
-PAT authentication can be generated for a Databricks user account and will have the same permissions as the associated user account. It is suitable for testing and development, but is not recommended for production.&#x20;
+PAT authentication can be generated for a Databricks user account and will have the same permissions as the associated user account. It is suitable for testing and development, but is not recommended for production.
 
 1. Create a Personal Access Token in Databricks:
    * In your Databricks workspace, click on the user profile button in the upper-right and select **Settings**
    * In the **Settings** side bar, select the **Developer** tab
-   * Click the **Manage** button in the **Access tokens** section&#x20;
+   * Click the **Manage** button in the **Access tokens** section
    * Click the **Generate new token** button
    * Provide a description and set expiration
    * Copy the generated personal access token (it will only be shown once)
 2. Provide Connection Details to Juice Analytics (see [Finding Connection Details](connecting-to-databricks.md#finding-connection-details-in-databricks) section for more information):
    * Use a secure sharing method like 1Password's [one-time sharing](https://support.1password.com/share-items/?mac) feature
    * Share the following information:
-     * hostname: The Databricks server hostname&#x20;
+     * hostname: The Databricks server hostname
      * http\_path: The HTTP path to the Databricks SQL endpoint
      * catalog: The catalog to use for the connection
      * schema: The schema to use for the connection (optional)
-     * access\_token: Your Databricks personal access token copied from Step 1 (this will be  encrypted)
+     * access\_token: Your Databricks personal access token copied from Step 1 (this will be encrypted)
 
 ### Connect Using OAuth Authentication
 
-OAuth authentication requires a service principal with appropriate permissions. OAuth is suitable for all environments and recommended for production.&#x20;
+OAuth authentication requires a service principal with appropriate permissions. OAuth is suitable for all environments and recommended for production.
 
 1. Create a Service Principal in Databricks (you must be an Admin to do this):
    * In your Databricks workspace, click on the user profile button in the upper-right and select **Settings**
    * In the **Settings** side bar, select the **Identity and access** tab under **Workspace admin**
-   * Click the **Manage** button in the **Service principals** section&#x20;
+   * Click the **Manage** button in the **Service principals** section
    * Click the **Add service principal** button
    * Click the **Add new** button
    * Enter a service principal name and click **Add**
@@ -85,7 +85,7 @@ OAuth authentication requires a service principal with appropriate permissions. 
 3. Provide Connection Details to Juice Analytics (see [Finding Connection Details](connecting-to-databricks.md#finding-connection-details-in-databricks) section for more information):
    * Use a secure sharing method like 1Password's [one-time sharing](https://support.1password.com/share-items/?mac) feature
    * Share the following information:
-     * hostname: The Databricks server hostname&#x20;
+     * hostname: The Databricks server hostname
      * http\_path: The HTTP path to the Databricks SQL warehouse
      * catalog: The catalog to use for the connection
      * schema: The schema to use for the connection (optional)
@@ -94,7 +94,7 @@ OAuth authentication requires a service principal with appropriate permissions. 
      * secret: Your OAuth client secret from Step 2 (this will be encrypted)
 
 {% hint style="info" %}
-Juicebox will automatically generate the access tokens, which will be encrypted and used for secure authentication with your Databricks workspace. This eliminates the need for you to manage access token rotation.&#x20;
+Juicebox will automatically generate the access tokens, which will be encrypted and used for secure authentication with your Databricks workspace. This eliminates the need for you to manage access token rotation.
 {% endhint %}
 
 ## Finding Connection Details in Databricks
@@ -118,12 +118,12 @@ The format of the server hostname differs between cloud providers:
 
 * In your Databricks workspace, navigate to Catalog
 * The top-level container is the catalog. Each connection requires a single catalog.
-* The containers within the catalog are the schemas. Schemas contain tables and views. Specifying the schema is optional. &#x20;
+* The containers within the catalog are the schemas. Schemas contain tables and views. Specifying the schema is optional.
 
 ### account\_id (for OAuth only)
 
 * In your Databricks workspace, click on the workspace dropdown to the left of the user profile button
-* Click **Manage account**. This will open the account console.&#x20;
+* Click **Manage account**. This will open the account console.
 * Click the user profile button in the upper-right of the account console.
 * Copy the **Account ID**.
 
@@ -131,7 +131,7 @@ The format of the server hostname differs between cloud providers:
 
 * In your Databricks workspace, click on the user profile button in the upper-right and select **Settings**
 * In the **Settings** side bar, select the **Identity and access** tab under **Workspace admin**
-* Click the **Manage** button in the **Service principals** section&#x20;
+* Click the **Manage** button in the **Service principals** section
 * Click the service principal name to access its details
 * Copy the Application ID (also called the Client ID)
 
@@ -141,7 +141,7 @@ After sending the connection details to the Juice Analytics team, the Databricks
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXf4dJww3T0w22lx6Zu-_aI6WtJv9bczTp52CwO5t6KmAC-2taA7b7cEAyVjLRHNSXhutVOTeo1wLGhHZAKLcvsZHXYVhgIt5nKzaczpsE43DMB2Yb4AFkaqepvoUxPsAjtuInnl?key=DC8iFrXKhF8GLSQbp4-fJBCD" alt=""><figcaption><p>Two Databricks connections have been set up for this workspace: Databricks Workspace and Databricks Samples</p></figcaption></figure>
 
-To add a data source using the Databricks connection, click on the connection button, select the schema, and select the table or view to add.&#x20;
+To add a data source using the Databricks connection, click on the connection button, select the schema, and select the table or view to add.
 
 <figure><img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXd2JZUicMhQmVGa-oqjj2bbr-0EjHGJYdTT2EJbK3qUJj1661tB95CDbTEoL4tbUo5o5EMj5cuHBPPwhKr069-NsPwo6gJ-jM8ulDDpfI4vW2EMayr7o_jY425GGp1s1-rY1fRD?key=DC8iFrXKhF8GLSQbp4-fJBCD" alt=""><figcaption><p>After clicking on the Databricks connection button, select the data source to add to the Juicebox report</p></figcaption></figure>
 
@@ -151,7 +151,7 @@ Once the data source has been added to the Juicebox report, you can use it to co
 
 ## User-level permissions within Juicebox
 
-Additional access controls can be configured within Juicebox at the user level. This allows for granular control over who can see which Juicebox reports and what filters are applied for the user within each report. These permissions are managed separately from Databricks permissions. See [Managing Users](/broken/pages/-M55qRLuGvRN-cIQxHYY).
+Additional access controls can be configured within Juicebox at the user level. This allows for granular control over who can see which Juicebox reports and what filters are applied for the user within each report. These permissions are managed separately from Databricks permissions. See [Managing Users](https://app.gitbook.com/s/-LmfYn9Ab4YpIl0ZZFm-/managing-users).
 
 ## Support
 
