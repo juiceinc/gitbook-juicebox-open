@@ -3,6 +3,22 @@
 
 
 {% updates format="full" %}
+{% update date="2026-10-26" %}
+## Release 4.144
+
+🎁 **What's new?**
+
+* **Keyboard support for Chooser and Card slices:** You can now make selections in Chooser and Card slices without a mouse. Press Tab to move to an option, then press Enter or Space to select it. Options show a focus outline that stays visible on any color palette. Card slices that don't allow selections no longer add each card to the Tab order, so keyboard users can skip past them.
+
+**Bug fixes & other improvements**
+
+* For apps connected to SQL Server, a slice whose query times out now says "This data took too long to load" and suggests narrowing the filters or trying again later, instead of a generic "Can't fetch data" message. Filter and Chooser slices whose options time out suggest making more specific selections elsewhere on the page.
+* Fixed an issue where pressing Space on a Bar slice didn't select the bar. Holding down Enter or Space on a bar or a Chooser or Card option also no longer switches the selection on and off repeatedly.
+* Fixed an issue in vertical Bar slices with only one or two bars, where the y-axis stretched across the slice and pushed its labels away from the bars.
+* Fixed an issue where a Pie slice with a total of zero showed a full gray "Other" segment at 100%. All segments, including "Other," now show 0%.
+* Fixed an issue where a Bar slice whose values added up to zero could show percentages such as 500%.
+{% endupdate %}
+
 {% update date="2026-10-10" %}
 ## Release 4.143
 
