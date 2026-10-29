@@ -4,66 +4,92 @@ The Card slice is used to display selected columns and measures on cards. Users 
 
 <figure><img src="../../../../.gitbook/assets/image (545).png" alt=""><figcaption><p>Example Card slice</p></figcaption></figure>
 
+## Adding a card slice
 
+To add a card slice, select **Card** from the chart list.
 
-On the **Configure** tab, you can add the following:&#x20;
+<figure><img src="../../../../.gitbook/assets/card-2-add-slice-menu (1).png" alt=""><figcaption></figcaption></figure>
 
-**Title**. A dimension ingredient with values to display as card titles.
+**Configuring the card slice**
 
-**Long text**. A dimension ingredient with values to display as card text.&#x20;
+The CONFIG section has the following fields:
 
-**Secondary data**. Up to 3 measure ingredients to display on each card.
+* **Title**: A dimension whose values appear as the card titles.
+* **Long text**: A dimension whose values appear as the body text of each card.
+* **Additional data**: One or more measures to show on each card.
+* **Image**: A dimension whose values are image URLs. The image appears on each card.
+* **Hide if no data**: Toggle to hide the slice when no data is available.
+* **Selections**: Controls how many cards a user can select and how those selections affect downstream slices.
 
-**Image**. A dimension ingredient with urls to images to display on each card.&#x20;
+**Title**, **Long text**, **Additional data** and **Image** are each optional, but you must fill in at least one. With none, the slice shows a "Can't fetch data" message. There is one card for each distinct combination of **Title**, **Long text** and **Image** values. If you fill in only **Additional data**, you get a single card with the totals. In most cases you'll want a **Title**.
 
-All configuration fields are optional, but you must make a selection in at least one of the fields. In most cases, you will want to configure at least the **Title** field. There will be a card for each distinct combination of **Title**, **Long text**, and **Image**.&#x20;
+<figure><img src="../../../../.gitbook/assets/card-3-config-section.png" alt=""><figcaption></figcaption></figure>
 
-Here's the **Configure** tab for the example above:
+**Style options**
 
-<figure><img src="../../../../.gitbook/assets/image (546).png" alt=""><figcaption><p>Card slice Configure tab</p></figcaption></figure>
+The STYLE section includes several options for customizing how the cards look. Key Card-specific options:
 
-On the **Style** tab, you can adjust how the elements display in the slice. Here's the Style tab for the example above:&#x20;
+* **Max cards per load**: The number of cards shown at first. The default is 250. Turn on **Show button to load more** to add a **Load more** button at the end of the cards that loads the next set.
+* **Orientation**: How the cards are arranged. **Vertical Grid** (default) puts cards in up to four columns, depending on the width of the slice. **Horizontal Scroll** puts them in a single row that users scroll sideways. **Wrap cards** lays out fixed-width cards in centered rows, and the slice grows tall enough to show every loaded card.
+* **Height**: Shown only for **Vertical Grid**. Sets the maximum height of the slice: Short, Default or Tall. When the cards don't fit, a **Load more** button at the bottom lets users scroll through the rest inside the slice.
+* **Card style**: The layout of each card.
+  * **Default**: The title, the long text, and the Additional data values as small labels along the bottom.
+  * **2 Columns**: The text and values on the left and the image on the right. Without an image, the Additional data values are listed one per line.
+  * **Quotes**: The long text as a quote, followed by the title and the Additional data values as small labels.
+  * **Large Measure**: The title, then each Additional data measure with its name and a large value, then the long text.
+  * **Detail Gauge** and **Simple Gauge**: Each Additional data measure with its value and a gauge built from the measure's ranges (see below). Measures without ranges show only the value.
+* **Chart accessible name**: The name screen readers announce for the cards. Describe what they show, for example "Customer comments by NPS role." If left empty, the slice slug (for example, Card1) is used.
 
-<figure><img src="../../../../.gitbook/assets/image (547).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/card-4-style-section.png" alt=""><figcaption></figcaption></figure>
 
 ## Displaying cards with measure gauges
 
-There are two gauge card styles: Detail Gauge and Simple Gauge. These require a special configuration.&#x20;
+The **Detail Gauge** and **Simple Gauge** card styles show each Additional data measure on a gauge. The gauge is built from ranges defined on the measure, so set those up first:
 
-At least one measure ingredient will need to be added to the Card slice configuration. Each measure ingredient will need to have ranges defined in the Advanced/Ranges section of the measure ingredient editor, like so:
+1. In **Additional data**, click the measure to open the measure ingredient editor.
+2. Expand **ADVANCED**.
+3. In **Ranges**, add one entry per range, from lowest to highest. Each entry has a `label`, a `color` (a color name or hex code) and an `endValue`. Give the first range a `startValue` too. Each later range starts where the one before it ends.
+4. Click **Save**.
 
-```yaml
-- color: lightgray
-  label: Poor
-  endValue: 0.4
-  startValue: 0
-- color: gray
-  label: Meh
-  endValue: 0.7
-- color: lightblue
-  label: Top Tier
-  endValue: 1
-```
-
-In this example, we have three ranges: "Poor", "Meh", and "Top Tier". Each range is represented by a different color and has a specific start and end value. The "Poor" range starts at 0 and ends at 0.4, the "Meh" range ends at 0.7, and the "Top Tier" range ends at 1.
-
-Here's a Card slice with the Simple Gauge card style:
-
-<figure><img src="../../../../.gitbook/assets/image (548).png" alt=""><figcaption><p>Card slice using the Simple Gauge card style</p></figcaption></figure>
-
-The Sales measure used in this example has the following ranges defined under Advanced/Ranges in the measure ingredient editor:&#x20;
+These are the ranges used in the examples below, for a recommendation score from 0 to 10:
 
 ```yaml
-- color: "#ee6055"
-  label: Below
-  endValue: 4000000
+- color: "#e5484d"
+  label: Detractor
   startValue: 0
-- color: "#eaf4f4"
-  label: On Target
-  endValue: 5500000
-- color: "#60d394"
-  label: Above
-  endValue: 20000000
+  endValue: 7
+- color: "#9e9e9e"
+  label: Passive
+  endValue: 9
+- color: "#30a46c"
+  label: Promoter
+  endValue: 11
 ```
 
-In this example, there are three ranges: "Below", "On Target", and "Above". Each range is represented by a different color using hex codes and has a specific start and end value. The "Below" range starts at 0 and ends at 4 million, the "On Target" range ends at 5.5 million, and the "Above" range ends at 20 million.
+A value is in a range when it is at least the range's start and less than its end. That's why the last range ends at 11: with an end of 10, a score of exactly 10 would fall outside every range and the gauge would show no range for it. Set the last `endValue` a little above the highest possible value.
+
+**Simple Gauge** shows the range labels above equal-width segments and colors only the segment the value falls in.
+
+<figure><img src="../../../../.gitbook/assets/card-6-simple-gauge.png" alt=""><figcaption></figcaption></figure>
+
+**Detail Gauge** sizes each segment by the width of its range and colors all of them. An arrow marks the value, "In range" names its range, and the lowest and highest values appear below the gauge.
+
+<figure><img src="../../../../.gitbook/assets/card-7-detail-gauge.png" alt=""><figcaption></figcaption></figure>
+
+## Using a card slice
+
+**Selecting cards**
+
+Click a card to select it. Click more cards to add them to the selection. Selected cards are outlined, and the filter pill shows the selection: the card's title and text for a single card, or a count for several (for example, "2 Items"). Click a selected card to unselect it, or click the ✕ on the filter pill to clear all selections. Selections filter downstream slices.
+
+<figure><img src="../../../../.gitbook/assets/card-5-selected-cards.png" alt=""><figcaption></figcaption></figure>
+
+**Expanding a card**
+
+When a card has an image or long text that's cut off, hover over it to show the expand button in its top-right corner. Click it to open the full card in a window. Expanding a card doesn't select it.
+
+**Using the keyboard**
+
+* Press **Tab** to move to a card.
+* Press **Enter** or **Space** to select or unselect it.
+* If the slice doesn't allow selections, its cards are skipped when you press **Tab**.
