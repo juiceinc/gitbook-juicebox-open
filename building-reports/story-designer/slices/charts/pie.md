@@ -28,7 +28,7 @@ The STYLE section includes several options for customizing the chart appearance.
 * **Show legend**: Shows or hides the legend next to the pie. It's on by default.
 * **Show data as**: **% Percent of whole** (default) shows each slice's share of the pie. **# Value** shows each slice's actual value.
 * **# of pie slices**: The most slices the pie shows, from 1 to 20. The default is 7. If the dimension has more values than this, the largest values get their own slices and the rest are grouped into one "Other" slice, labeled with how many values it holds (for example, "5 Other Regions"). If it has this many values or fewer, there's no "Other" slice.
-* **Chart accessible name**: A short description of what the chart shows, such as "Revenue by region." Screen readers announce it, so people who can't see the chart know what it's about. If you leave it empty, they announce the slice name (such as Pie1) instead, which means little to a viewer.
+* **Chart accessible name**: A short description of what the chart shows, such as "Revenue by region." Screen readers announce it, so people who can't see the chart know what it's about. If you leave it empty, they announce the slice slug (such as Pie1) instead, which means little to a viewer.
 
 <figure><img src="../../../../.gitbook/assets/pie-3-style-section.png" alt=""><figcaption></figcaption></figure>
 
