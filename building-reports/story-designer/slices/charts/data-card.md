@@ -36,11 +36,11 @@ The CONFIG section has the following fields:
 
 The STYLE section includes the display options shared by most slices (see [Slices](https://docs.myjuicebox.io/building-reports/story-designer/slices)). Key Chooser-specific options:
 
-* **Visual style**: The layout of each option. It applies to column choosers too.
+* **Visual style**: How each option is laid out, in both measure and column choosers.
   * **Default**: The measure's image (if it has one), icon and name, then its value and description.
   * **2 Columns**: The name, value and description on the left and the image on the right.
   * **Quotes**: The description as a quote, with the image beside it, followed by the name and value as a small label.
-  * **Comparisons**: Each measure's value next to a comparison value, with the difference highlighted in green or red. The comparison is set in [Advanced configuration](https://docs.myjuicebox.io/building-reports/story-designer/slices/advanced-configuration#comparison-configuration-options), for example `comparison_label: vs. Goal` and a `comparison_metrics` list. Without it, only the values show.
+  * **Comparisons**: Each measure's value next to a comparison value, with the difference highlighted in green or red. Set up the comparison in [Advanced configuration](https://docs.myjuicebox.io/building-reports/story-designer/slices/advanced-configuration#comparison-configuration-options). Without it, only the values show.
   * **Detail Gauge** and **Simple Gauge**: Each measure's value on a gauge built from the measure's ranges. See [Card](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/card#displaying-cards-with-measure-gauges) for how to set up ranges.
 * **Hide measure values**: Hides the numbers, so each option shows only its name. Useful when the chooser is just a set of buttons.
 * **Hide null measures**: Hides any measure whose value is empty. Without it, an empty measure shows "---".
@@ -48,7 +48,7 @@ The STYLE section includes the display options shared by most slices (see [Slice
 
 <figure><img src="../../../../.gitbook/assets/chooser-4-style-section.png" alt=""><figcaption></figcaption></figure>
 
-### Using a chooser in other slices
+### Connecting a chooser to other slices
 
 A chooser is most useful when slices below it use its selection.
 
@@ -76,7 +76,7 @@ You can also use the chooser's selection in slice text. See [Dynamic text](https
 
 **Selecting an option**
 
-Click an option to select it. The selected option is outlined, and slices that use the chooser update. One option is always selected: when the report opens, it's the first option unless you've set **Default selections**. Clicking the selected option again doesn't unselect it.
+Click an option to select it. The selected option is outlined, and slices that use the chooser update. One option is always selected: when the report opens, it's the report's default selection, or the first option if there isn't one. Clicking the selected option again doesn't unselect it.
 
 **Using the keyboard**
 
