@@ -1,23 +1,84 @@
 # Filters
 
-The Filter slice allows users to select dimension values to filter downstream results. One or more dimensions can be included in a Filter slice and each dimension will appear as a "pill." When the user clicks on the pill, the dimension values appear in a dropdown and the user can select values from the dropdown. Here's an example of a Filter slice:
+The filter slice lets viewers narrow down the data in a report. Each column you add to the slice appears as a filter pill. Viewers click a pill and choose values, and the slices further down the report update to show only the matching data.
 
-<figure><img src="../../../../.gitbook/assets/image (594).png" alt=""><figcaption><p>Example Filter slice</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/filters-1-example.png" alt=""><figcaption></figcaption></figure>
 
-The **Configure** tab has the following option (in addition to the [common slice configuration options](../#common-slice-configuration-options)):&#x20;
+### Adding a filter slice
 
-**Pick columns to filter on**. Select one or more dimension ingredients to include as filters. Here's the **Configure** tab for the example above:
+To add a filter slice, select **Filters** from the chart list.
 
-<figure><img src="../../../../.gitbook/assets/image (595).png" alt=""><figcaption><p>Filter slice <strong>Configure</strong> tab</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/filters-2-add-slice-menu.png" alt=""><figcaption></figcaption></figure>
 
-The **Style** tab has the following options (in addition to the [common slice configuration options](../#common-slice-configuration-options)):
+**Configuring the filter slice**
 
-**Direction**. If **Horizontal** is selected, the pills will display side-by-side. If Vertical is selected, the pills will be stacked vertically.&#x20;
+The CONFIG section has the following fields:
 
-**Alignment**. Select **Center**, **Left**, or **Right** to adjust how pills are aligned within the slice.&#x20;
+* **Pick columns to filter on**: The columns viewers can filter by. Each column becomes a pill, in the order shown in this field.
+* **Hide if no data**: Hides the entire slice when all of its data has been filtered out.
+* **Selections**: **Amount** sets how many values viewers can select, separately for each column: **Select many** (the default), **Select one required**, **Select up to one** or **Don't allow selection**. **Select as** sets whether selections are used as filters, variables or both. See [Common slice configuration options](https://docs.myjuicebox.io/building-reports/story-designer/slices#common-slice-configuration-options).
 
-**Hide counts**. By default, the number of distinct dimension values will appear in the pill. Enable this option to hide the counts from the pill.&#x20;
+<figure><img src="../../../../.gitbook/assets/filters-3-config-section.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;Here's the **Style** tab for the example above:&#x20;
+**Style options**
 
-<figure><img src="../../../../.gitbook/assets/image (596).png" alt=""><figcaption><p>Filter slice <strong>Style</strong> tab</p></figcaption></figure>
+The STYLE section includes the display options shared by most slices (see [Common slice configuration options](https://docs.myjuicebox.io/building-reports/story-designer/slices#common-slice-configuration-options)). Key Filter-specific options:
+
+* **Direction**: **Horizontal** (the default) places the pills side by side, wrapping onto more rows when needed. **Vertical** stacks them.
+* **Alignment**: Places the pills on the **Left**, in the **Center** (the default) or on the **Right** of the slice.
+* **Hide counts**: Removes the numbers from the pills, so "6 Customer Tiers" reads "Customer Tiers".
+* **Show as**: Sets how each text column appears. **Dropdown** (the default) shows a pill that opens a list of values. **Checkbox** shows every value in the slice as a button viewers can check, with an **Apply** button below.
+
+<figure><img src="../../../../.gitbook/assets/filters-4-style-section.png" alt=""><figcaption></figcaption></figure>
+
+### Using a filter slice
+
+**Choosing values**
+
+Click a pill to open its list of values. Click values to check them, then click **Apply**. The list closes and the slices further down the report update. If you close the list without clicking **Apply**, the filter doesn't change.
+
+When a column has more than 10 values, the list has a search field at the top. Type to narrow the list. **Select all** checks every matching value. It appears when the column allows many selections and 11 to 250 values match.
+
+<figure><img src="../../../../.gitbook/assets/filters-5-dropdown-list.png" alt=""><figcaption></figcaption></figure>
+
+**Reading a pill**
+
+A pill with a selection is highlighted and shows a check mark. The text in the pill changes with the selection:
+
+* With nothing selected, it shows how many values the column has, for example "6 Customer Tiers".
+* With one value selected, it shows that value, for example "Customer Tier: 5 Star Gold".
+* With several values selected, it shows how many are selected, for example "2 NPS Roles". Hover over the pill to see which values they are.
+
+Click the **×** on a highlighted pill to clear its selection. If the pill has a default selection, **×** puts the default back. A pill that shows its default selection has no ×.
+
+The **Amount** setting changes how some pills behave:
+
+* With **Select one required**, the pill always has one value selected, and there's no **×**.
+* With **Don't allow selection**, the pill shows the column name but doesn't open.
+
+**How pills affect each other**
+
+Each pill lists only the values that match the selections in the other pills of the same slice. For example, once a customer tier is selected, the Rental Purposes pill lists only the rental purposes of customers in that tier. A pill's own selection doesn't shorten its own list, so you can still add or change values.
+
+**Choosing a range of numbers or dates**
+
+Number and date columns appear as range pills, which show the current range, for example "NPS Scores -100 to 100".
+
+* For numbers, enter **From** and **To** values, then click **Apply**.
+* For dates, choose a start date and an end date on the two calendars, then click **Apply**. Dates that have data are marked with a dot. When the column's dates include the day (not just the month or year), **Year to Date**, **Month to Date**, **Last 30 Days** and **Last 90 Days** fill in common ranges for you.
+
+<figure><img src="../../../../.gitbook/assets/filters-6-date-range.png" alt=""><figcaption></figcaption></figure>
+
+**Using checkbox filters**
+
+A column shown as checkboxes lists its values in the slice. Click values to check them, then click **Apply**. To clear the selection, click the **×** next to the column name.
+
+**Using the keyboard**
+
+These steps are for pills that open a list.
+
+* Press **Tab** to move between pills, and **Enter** to open one.
+* In the list, press **Tab** to move between the controls: the close button (**×**), the values and **Apply**. When the list has a search field, it has focus when the list opens, so you can start typing.
+* In the values, use the **arrow keys** to move and **Space** to check or uncheck a value.
+* Press **Enter** on **Apply** to apply your choices. Focus returns to the pill.
+* Press **Escape** to close the list. Nothing changes until you apply.
