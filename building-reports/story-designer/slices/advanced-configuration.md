@@ -28,7 +28,7 @@ include_automatic_filter_keys:
 
 Click **Save** to save and close the panel, or **Save & keep open** to keep working. Click **Close** (or **Cancel** if you have unsaved edits) to leave without saving. Like other edits, these changes are part of the draft until you publish.
 
-<figure><img src="../../../.gitbook/assets/advanced-configuration-2-panel.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/advanced-configuration-2-panel-editor.png" alt=""><figcaption></figcaption></figure>
 
 When you save:
 
