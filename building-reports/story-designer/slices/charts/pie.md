@@ -1,6 +1,6 @@
 # Pie
 
-The pie chart displays column values and their share of the whole. Adding a slice with a pie chart (i.e., a pie slice) is a good choice when users want to see parts of a whole.
+The pie chart displays dimension values and their share of the whole. Adding a slice with a pie chart (i.e., a pie slice) is a good choice when users want to see parts of a whole.
 
 <figure><img src="../../../../.gitbook/assets/pie-4-chart-with-other.png" alt=""><figcaption></figcaption></figure>
 

@@ -6,13 +6,13 @@ description: >-
 
 # Chooser
 
-The Chooser slice shows a set of measures or columns that viewers can choose from. Slices further down the report can use the choice, so viewers decide what those slices show.
+The Chooser slice shows a set of measures or dimensions that viewers can choose from. Slices further down the report can use the choice, so viewers decide what those slices show.
 
 A chooser can:
 
 * show a summary of key measures
 * let viewers choose which measure other slices show
-* let viewers choose which column other slices break the data out by
+* let viewers choose which dimension other slices break the data out by
 
 <figure><img src="../../../../.gitbook/assets/chooser-1-example.png" alt=""><figcaption></figcaption></figure>
 
@@ -26,7 +26,7 @@ To add a chooser slice, select **Chooser** from the chart list.
 
 The CONFIG section has the following fields:
 
-* **Pick multiple measures or columns**: The options viewers choose from, in the order they appear. Drag them to reorder. The picker has two tabs: **Columns** and **Columns as Measures**. A chooser holds either columns or measures, not both. Picking from the other tab replaces what you've already picked.
+* **Pick multiple measures or columns**: The options viewers choose from, in the order they appear. Drag them to reorder. The picker has two tabs: **Columns** and **Columns as Measures**. Dimensions are listed on the **Columns** tab. A chooser holds either dimensions or measures, not both. Picking from the other tab replaces what you've already picked.
 * **Selections**: The **Select as** menu sets whether viewers' choices can also be used in formulas and labels. Choose **Variables** or **Filters and Variables** to use the choice as `{{Choice1}}` (named after the chooser's slug). See [Selections as variables](https://docs.myjuicebox.io/building-reports/story-designer/slices/selections-as-variables).
 * **Default selections**: The option selected when the report opens. This becomes available once another slice uses the chooser. Without a default, the first option is selected.
 
@@ -36,7 +36,7 @@ The CONFIG section has the following fields:
 
 The STYLE section includes the display options shared by most slices (see [Slices](https://docs.myjuicebox.io/building-reports/story-designer/slices)). Key Chooser-specific options:
 
-* **Visual style**: How each option is laid out, in both measure and column choosers.
+* **Visual style**: How each option is laid out, in both measure and dimension choosers.
   * **Default**: The measure's image (if it has one), icon and name, then its value and description.
   * **2 Columns**: The name, value and description on the left and the image on the right.
   * **Quotes**: The description as a quote, with the image beside it, followed by the name and value as a small label.
@@ -53,7 +53,7 @@ The STYLE section includes the display options shared by most slices (see [Slice
 A chooser is most useful when slices below it use its selection.
 
 1. Add the chooser above the slices it should control.
-2. In a slice below it, open the measure picker (for a measure chooser) or the column picker (for a column chooser). The chooser appears in the list by its slug, for example **@Choice1**.
+2. In a slice below it, open the measure picker (for a measure chooser) or the dimension picker (for a dimension chooser). The chooser appears in the list by its slug, for example **@Choice1**.
 3. Select it.
 
 <figure><img src="../../../../.gitbook/assets/chooser-5-dynamic-measure.png" alt=""><figcaption></figcaption></figure>
@@ -67,7 +67,7 @@ Until another slice uses the chooser, its options are display only: viewers can'
 {% endhint %}
 
 {% hint style="warning" %}
-If you change a chooser from measures to columns (or back), slices that use it show an error until you update them.
+If you change a chooser from measures to dimensions (or back), slices that use it show an error until you update them.
 {% endhint %}
 
 You can also use the chooser's selection in slice text. See [Dynamic text](https://docs.myjuicebox.io/building-reports/story-designer/slices/dynamic-text).

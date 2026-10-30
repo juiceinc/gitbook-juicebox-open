@@ -1,6 +1,6 @@
 # Card
 
-The Card slice is used to display selected columns and measures on cards. Users can select cards to filter downstream results. Here's an example of a Card slice:
+The Card slice displays dimension and measure values on cards. Users can select cards to filter downstream results. Here's an example of a Card slice:
 
 <figure><img src="../../../../.gitbook/assets/image (545).png" alt=""><figcaption><p>Example Card slice</p></figcaption></figure>
 
@@ -16,7 +16,7 @@ The CONFIG section has the following fields:
 
 * **Title**: A dimension whose values appear as the card titles.
 * **Long text**: A dimension whose values appear as the body text of each card.
-* **Additional data**: One or more measures to show on each card.
+* **Additional data**: One or more measures whose values appear on each card.
 * **Image**: A dimension whose values are image URLs. The image appears on each card.
 * **Hide if no data**: Toggle to hide the slice when no data is available.
 * **Selections**: Controls how many cards a user can select and how those selections affect downstream slices.
