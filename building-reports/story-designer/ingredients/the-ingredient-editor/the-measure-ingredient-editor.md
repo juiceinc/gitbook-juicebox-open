@@ -1,49 +1,65 @@
 # The measure ingredient editor
 
-## The measure ingredient editor
+The measure ingredient editor is where you set up a measure: how it is calculated, its label, and how its values look in the report. The options are grouped into **Basics**, **Styling** and **Advanced** sections. Click a section name to expand or collapse it.
 
-### Header
+### Working in the editor
 
-Icon
+<figure><img src="../../../../.gitbook/assets/measure-1-editor.png" alt=""><figcaption></figcaption></figure>
 
-Label (this is the same as the Label under Basics).&#x20;
+* **Icon and label**: The pill at the top shows the measure's icon and label. Click the icon to pick a different [Font Awesome](https://fontawesome.com/) icon or to remove it. Edit the label right in the pill. Editing it here also changes **Label** in Basics.
+* **Data table**: The name of the data table the measure comes from.
 
-Data table
+The buttons at the bottom of the editor:
 
-Menu
+* **Save**: Saves your changes and closes the editor.
+* **Save & keep open**: Saves your changes and keeps the editor open, so you can see the result in the report and keep adjusting.
+* **Delete**: Deletes the measure right away and removes it from any slices that use it.
+* **Duplicate**: Saves a copy of the measure with "Copy" added to its label (for example, "Sales Total Copy") and opens the copy in the editor. This is a quick way to [add a new ingredient](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/adding-new-ingredients) that is similar to an existing one.
+* **Copy ID**: Copies the measure's ingredient ID, the name Juicebox uses for it internally, to the clipboard.
 
-* Duplicate
-* Duplicate as Advanced
-* Copy ingredient ID
-* Delete
+To close the editor without saving, click the **×** in the top right corner. Unsaved changes are discarded.
 
 ### Basics
 
-Field formula
+The Basics section holds the options you use most.
 
-Label
+* **Field formula**: How the measure is calculated, usually an aggregation of a column, for example `sum([Amount])` or `count(Respondent_ID)`. See [Advanced field formulas](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/advanced-formulas) for the aggregation functions and for combining them.
+* **Label**: The measure's label in the report.
+* **Number format**: Pick a format from the list, or type a custom [number format](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/ingredient-formats) in the box below it. The default is **3 Sig figs** (`.3s`).
 
-**Number format**. Select how values should be formatted from the dropdown, or enter a custom [number format](../ingredient-formats.md).&#x20;
+**Inserting columns into a formula**
 
-Date format. (For min(date) or max(date))
+When you click in a formula box (such as **Field formula** or **Filter**), a **Fields** list opens next to the editor. It lists the columns in the measure's data table and their types. Click a column to insert it at the cursor, in square brackets (for example `[Amount]`). Formulas accept column names with or without brackets. To filter the list, type `[` followed by the start of a column name.
+
+<figure><img src="../../../../.gitbook/assets/measure-2-fields-list.png" alt=""><figcaption></figcaption></figure>
 
 ### Styling
 
-Description
+<figure><img src="../../../../.gitbook/assets/measure-3-styling.png" alt=""><figcaption></figcaption></figure>
 
-Color
+* **Description**: A short explanation of the measure. It appears as a tooltip, for example when a viewer hovers over the measure's column header in a Table slice. Chooser slices can also show it with the measure.
+* **Lower values** and **Higher values**: Colors for the measure's lower and higher values. Click a button to choose a color or a theme swatch, or click **Reset to Auto** to go back to the report's theme colors. Table slices use these colors for **Cell coloring** (see [Table](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/table)). The **Higher values** color is also the measure's line color in Trend slices.
+* **Color gradient mode**: How colors are spread across the values when a gradient is used. **Normalized** makes a smooth gradient from **Lower values** to **Higher values** across the range of values. **Bands** splits the range into a fixed number of equal bands, each with one color, which helps group values into categories. With **Bands**, choose the **Number of bands** (5 or 10).
+* **Image url**: The web address of an image that represents the measure. Chooser slices show it with the measure.
 
-Color when negative
+**Trend line styling**
 
-Image url
+These options change how the measure looks as a line in a Trend slice:
+
+* **Hide Null Gap**: Connects the line across periods with no data, instead of leaving a gap.
+* **Dashed Line**: Draws the line dashed.
+* **No Dots**: Removes the dots from the line.
+* **Accumulate from**: The starting value when the Trend slice's **Accumulate measures** option is on. For example, with **Accumulate from** set to 100000, the line starts at 100,000 plus the first period's value. The default is 0.
 
 ### Advanced
 
-Filter
+<figure><img src="../../../../.gitbook/assets/measure-4-advanced.png" alt=""><figcaption></figcaption></figure>
 
-**Reverse**. By default in the [Leaderboard](../../slices/charts/leaderboard.md), higher numbers are deemed "better." To flip this for a particular measure, turn on **Reverse**.&#x20;
+* **Filter**: A condition that limits which rows of the data table the measure uses. Rows that don't meet the condition don't count toward the measure in any slice that uses it, so in a slice that groups by a dimension, values with no matching rows don't appear. In most cases it's better to limit a slice's data with `filter_expression` in that slice's [Advanced configuration](../../slices/advanced-configuration.md).
+* **Reverse**: Turn this on when lower values are better, for example for wait times or costs. By default, higher values are treated as better. Reverse flips this, for example in [Leaderboard](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/leaderboard) slices and in Chooser comparisons, and it inverts the measure's axis in Scatterplot slices.
+* **Ranges**: Named ranges of values, each with a color. Ranges are needed to show gauges in [Chooser](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/data-card) and [Card](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/card) slices, and to color Table cells when **Cell coloring** is set to **Measure Range Colors**.
 
-**Ranges**. To show [Measure Chooser](../../slices/charts/data-card.md#chooser-chart-with-measures) or [Card](../../slices/charts/card.md) gauges or to colorize measure cells in a [Table](../../slices/charts/table.md), ranges will need to be defined. Here's an example of ranges defined for a **Sales** measure:
+Here's an example of ranges for a sales measure:
 
 ```yaml
 - color: "#ee6055"
@@ -58,4 +74,4 @@ Filter
   endValue: 20000000
 ```
 
-In this example, there are three ranges: "Below", "On Target", and "Above". Each range is represented by a different color using hex codes and has a specific start and end value. The "Below" range starts at 0 and ends at 4 million, the "On Target" range ends at 5.5 million, and the "Above" range ends at 20 million.
+This defines three ranges: "Below" from 0 to 4 million, "On Target" up to 5.5 million, and "Above" up to 20 million. A range without a `startValue` starts where the range before it ends. Colors are hex codes.

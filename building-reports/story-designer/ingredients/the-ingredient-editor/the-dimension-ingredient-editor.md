@@ -1,67 +1,66 @@
 # The dimension ingredient editor
 
-## Header
+The dimension ingredient editor is where you set up a dimension: the data it uses, its labels, and how its values look in the report. The options are grouped into **Basics**, **Styling** and **Advanced** sections. Click a section name to expand or collapse it. Some options only appear for number, date or place dimensions.
 
-In the ingredient editor header, you can set the icon and label, view the source data table, and access perform various actions from the gear menu.&#x20;
+### Working in the editor
 
-<figure><img src="../../../../.gitbook/assets/image (510).png" alt=""><figcaption><p>The dimension ingredient header</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/dimension-1-editor.png" alt=""><figcaption></figcaption></figure>
 
-**Icon**. This is a [FontAwesome](https://fontawesome.com/) icon associated with the dimension ingredient.  By default, text dimensions have `check-square`<img src="../../../../.gitbook/assets/check-square-solid.svg" alt="" data-size="line">, time dimensions have `calendar`<img src="../../../../.gitbook/assets/calendar-solid.svg" alt="" data-size="line">, place dimensions have `map-marker-alt` <img src="../../../../.gitbook/assets/map-marker-alt-solid.svg" alt="" data-size="line"> , and number dimensions and measures have `hashtag` <img src="../../../../.gitbook/assets/hashtag-solid.svg" alt="" data-size="line">. The default icon can be changed, or the icon can be removed.&#x20;
+* **Icon and label**: The pill at the top shows the dimension's icon and label. Click the icon to pick a different [Font Awesome](https://fontawesome.com/) icon or to remove it. Edit the label right in the pill. Editing it here also changes **Plural label** in Basics. By default, date dimensions show a calendar icon, number dimensions a hashtag (#), place dimensions a map marker, and text dimensions no icon.
+* **Data table**: The name of the data table the dimension comes from.
 
-**Label**. This is the ingredient label. It is the same as the Plural label.&#x20;
+The buttons at the bottom of the editor:
 
-**Data table**. This displays the name of the source data table.&#x20;
+* **Save**: Saves your changes and closes the editor.
+* **Save & keep open**: Saves your changes and keeps the editor open, so you can see the result in the report and keep adjusting.
+* **Delete**: Deletes the dimension right away and removes it from any slices that use it.
+* **Duplicate**: Saves a copy of the dimension with "Copy" added to its label (for example, "Region Copy") and opens the copy in the editor. This is a quick way to [add a new ingredient](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/adding-new-ingredients) that is similar to an existing one.
+* **Copy ID**: Copies the dimension's ingredient ID, the name Juicebox uses for it internally, to the clipboard.
 
-**Gear menu**. Provides access to the following actions:&#x20;
+To close the editor without saving, click the **×** in the top right corner. Unsaved changes are discarded.
 
-* **Duplicate column**. Creates a new dimension ingredient with the same definition. This is used to [add new ingredients](../adding-new-ingredients.md).&#x20;
-* **Duplicate as Advanced**. Creates a new dimension ingredient with the same definition expressed in yaml. This is used in cases where the UI does not yet support a particular configuration option. In most cases, you should not need to duplicate as Advanced.
-* **Copy ingredient ID**. Copies the underlying ingredient ID for use in complex ingredient field formulas.&#x20;
-* **Delete column**. Deletes the ingredient.&#x20;
+### Basics
 
-## Basics
+The Basics section holds the options you use most.
 
-The Basics section of the ingredient editor contains the options that are required or used most frequently.&#x20;
-
-<figure><img src="../../../../.gitbook/assets/image (511).png" alt=""><figcaption><p>The dimension ingredient Basics section</p></figcaption></figure>
-
-**Field formula**. This is where the ingredient logic is defined. It could be the name of a single column or it could involve [complex logic](../advanced-formulas.md).&#x20;
-
-**Plural label**. This is the label that will be used when the user selects multiple dimension values or no dimension values in the report.&#x20;
-
-**Singular label**. This is the label that will be used when the user selects a single dimension value in the report.&#x20;
-
-**Number format**. Only for dimensions with a number data type. Select how values should be formatted from the dropdown, or enter a custom [number format](../ingredient-formats.md).&#x20;
-
-**Time format**. Only for date or time dimensions. Select how values should be formatted from the dropdown, or enter in a custom [time format](../time-formats.md).&#x20;
+* **Field formula**: The column the dimension is based on, or a formula built from columns, for example `if(project_status in ("completed", "QA"), "Done", "Open")`. See [Advanced field formulas](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/advanced-formulas).
+* **Plural label**: The label used in most places in the report, such as filter pills and legends.
+* **Singular label**: The label used where the report refers to one item, such as a Table column header. For example, "Region" when the plural label is "Regions".
+* **Number format**: Only for number dimensions. Pick a format from the list, or type a custom [number format](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/ingredient-formats) in the box below it. The default is **3 Sig figs** (`.3s`).
+* **Time format**: Only for date dimensions. Pick a format from the list (for example **month dd, yyyy** or **month yyyy**), or type a custom [time format](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/time-formats) in the box below it.
 
 {% hint style="success" %}
-Date or time ingredients will "roll up" in charts to the period selected for the **Time format**. For example, selecting the `month yyyy` format will roll up to the month. Selecting the `yyyy` format will roll up to the year.&#x20;
+Date dimensions "roll up" in charts to the period of the **Time format**. For example, the **month yyyy** format rolls dates up to months, and **yyyy** rolls them up to years.
 {% endhint %}
 
-**Latitude**. Only for place dimensions. Enter the column associated with latitude value.&#x20;
+Place dimensions show **Places column to map** instead of **Field formula**, plus three more fields:
 
-**Longitude**. Only for place dimensions. Enter the column associated with the longitude value.&#x20;
+* **Places column to map**: The column that holds the place names or codes.
+* **Latitude** and **Longitude**: The columns that hold each place's latitude and longitude.
+* **Geometry Field**: The column that holds each place's shape as GeoJSON geometry.
 
-**Geometry Field**. Only for place dimensions. Enter the column associated with the geojson geometry field.&#x20;
+**Inserting columns into a formula**
 
-## Styling
+When you click in a formula box (such as **Field formula** or **Filter**), a **Fields** list opens next to the editor. It lists the columns in the dimension's data table and their types. Click a column to insert it at the cursor, in square brackets (for example `[Region]`). Formulas accept column names with or without brackets. To filter the list, type `[` followed by the start of a column name.
 
-Description
+<figure><img src="../../../../.gitbook/assets/dimension-2-fields-list.png" alt=""><figcaption></figcaption></figure>
 
-Color
+### Styling
 
-Color when negative
+<figure><img src="../../../../.gitbook/assets/dimension-3-styling.png" alt=""><figcaption></figcaption></figure>
 
-Image url
+* **Description**: A short explanation of the dimension. It appears as a tooltip, for example when a viewer hovers over the dimension's column header in a Table slice.
+* **Lower values**, **Higher values** and **Color gradient mode**: Color settings that slices use for measure values. They are described on [The measure ingredient editor](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/the-ingredient-editor/the-measure-ingredient-editor) page. To color individual dimension values, use **Item Styles** under Advanced.
+* **Image url**: The web address of an image that represents the dimension.
+* **Hide count**: By default, filter pills show the number of values next to the label, for example "4 Region". Turn this on to show only the label.
 
-**Hide count**. By default, filter pills will display the count of distinct dimension values. Enable this option if you want to hide the count.&#x20;
+### Advanced
 
-## Advanced
+**Buckets**
 
-#### Buckets
+Buckets group the dimension's values under new labels. In the **Buckets** box, give each bucket a `label` and a `condition`. Conditions are checked in the order they are listed, and each value goes into the first bucket whose condition it meets. A condition can name the column (`score <= 6`) or start with the comparison (`<= 6`), in which case it applies to the **Field formula**. See [conditional logic](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/advanced-formulas#conditional-logic) for what conditions can contain.
 
-A bucketed dimension groups field values into buckets based on [conditions](../advanced-formulas.md#conditional-logic) in the **Buckets** box, like so:
+For example, if your data has a `score` column with customer scores, these buckets group customers into Detractors, Passives and Promoters:
 
 ```yaml
 - label: Detractor
@@ -69,14 +68,10 @@ A bucketed dimension groups field values into buckets based on [conditions](../a
 - label: Passive
   condition: score <= 8
 - label: Promoter
-  condition: <= 10
+  condition: score <= 10
 ```
 
-For example, let's say your data includes a `score` field with customer scores, and you want to use the scores to group customers into different roles: Detractor, Passive, and Promoter. Here's what you would enter in the **Buckets** box:
-
-<figure><img src="../../../../.gitbook/assets/image (566).png" alt=""><figcaption><p>Adding buckets</p></figcaption></figure>
-
-Conditions are evaluated in the order they are defined, which makes defining buckets for continuous values convenient:&#x20;
+Because conditions are checked in order, buckets for ranges of numbers only need an upper limit:
 
 ```yaml
 - label: Under 25k
@@ -84,31 +79,41 @@ Conditions are evaluated in the order they are defined, which makes defining buc
 - label: 25k-49k
   condition: <50000
 - label: 50k-99k
-  condition: <99000
+  condition: <100000
 ```
 
-The **Buckets default label** is the label to display if a value does not meet any of the conditions.&#x20;
+**Buckets default label** is the label for values that don't meet any condition. If you leave it blank, they are labeled "Other".
 
-#### Lookups
+<figure><img src="../../../../.gitbook/assets/dimension-4-buckets.png" alt=""><figcaption></figcaption></figure>
 
-If the values in a field are not what you want displayed in your report, you can create lookups to change them by entering a list of values to lookup with their associated value to display in the **Lookups** box, like so:
+**Lookups**
+
+Lookups change how values are displayed without changing your data. In the **Lookups** box, list each value in the data followed by the value to display:
 
 ```yaml
-value to lookup: value to display
-value to lookup: value to display
-value to lookup: value to display
+value in data: value to display
+value in data: value to display
 ```
 
-For example, let's say the Country field has "United States" values that you want to display as "USA", and it has null values that you want to display as "Unknown".  Here's what you would enter in the **Lookups** box:
+For example, to show "United States" as "USA":
 
-<figure><img src="../../../../.gitbook/assets/image (521).png" alt=""><figcaption><p>Adding Lookups</p></figcaption></figure>
+```yaml
+United States: USA
+```
 
-If there is a value in the field that is not added to the list of values to lookup, then the original value in your data will be displayed.&#x20;
+Values that aren't in the list are displayed as they are.
 
-Id Field. Specify a custom unique identifier for columns. Especially useful for selections and filtering in unique cases. For example, you could set the field definition to `string(" ")`  to hide the values and the Id Field to `last_name` .
+**Other advanced options**
 
-Order By
+* **Id Field**: A column or formula that identifies each value, separate from the value shown in the report. Selections in the slice filter other slices by the ID. For example, with `customer_name` as the Field formula and `customer_id` as the Id Field, the slice shows customer names, but other slices are filtered by `customer_id`.
+* **Order By**: A column or formula used to sort the dimension's values, instead of sorting by the values themselves. For date dimensions this is called **Order By Field**.
+* **Filter**: A condition that limits which rows of the data table are used. Whenever the dimension is used in a slice, rows that don't meet the condition are left out of that slice. Because this affects every slice that uses the dimension, it's usually better to limit a slice's data with `filter_expression` in that slice's [Advanced configuration](../../slices/advanced-configuration.md).
+*   **Item Styles**: Colors for individual values. For each value, enter the value and a color:
 
-Filter
+    ```yaml
+    West:
+      color: "#1f77b4"
+    ```
 
-**Reverse**. By default, higher numbers are deemed "better." To flip this, turn on Reverse.&#x20;
+    The color is used for that value in charts such as Pie and Bar, in legends, and in lists of values.
+* **Reverse**: Reverses the sort order of the dimension's values, for example from Z to A instead of A to Z.
