@@ -1,28 +1,31 @@
 # Ingredients
 
-Ingredients are used to configure [charts](../slices/charts/) in Juicebox. There are two types of ingredients: [dimensions](./#dimensions) and [measures](./#measures).&#x20;
+Ingredients are the dimensions and measures that slices use. A **dimension** describes or groups your data, such as Region, Product or Order Day. A **measure** is a calculation over a group of rows, such as total sales, average score or the number of customers. When you configure a slice, you pick the dimensions and measures it shows.
 
-## Dimensions
+### Dimensions
 
-When you first load your data, you'll have one dimension ingredient for each column in your data. You can create additional dimensions from those data columns. For example, let's say your data has 3 columns: `First_Name`, `Last_Name`, and `Age`.  After you load your data, you'll have 3 dimension ingredients corresponding to these 3 columns.&#x20;
+When you add a data table, Juicebox creates one dimension for each column. You can add more dimensions built from columns with formulas, for example a dimension that groups four regions into two larger areas. See [Adding new ingredients](adding-new-ingredients.md).
 
-<figure><img src="../../../.gitbook/assets/image (499).png" alt=""><figcaption><p>Each column in the data becomes a dimension ingredient</p></figcaption></figure>
+To see a data table's dimensions, click the data table's name in the **Data Tables** bar at the bottom of the screen. This opens the [data preview](../../data-sources/the-data-preview.md), which shows every dimension, including ones built with formulas. The top of each dimension shows its data type, its pill, and the column or formula it is based on.
 
-You can click on the ingredient pill to open the [ingredient editor](the-ingredient-editor/). The ingredient editor is where you can see and modify the ingredient definition.
+<figure><img src="../../../.gitbook/assets/ingredients-1-data-preview.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/image (504).png" alt=""><figcaption><p>Click on the dimension ingredient pill to open the ingredient editor</p></figcaption></figure>
+### Measures
 
-To create a new dimension, you could duplicate the **First Name** ingredient and modify it to add a new dimension ingredient called **Full Name** that concatenates `First_Name` and `Last_Name` together. After that, you'll have 4 dimension ingredients.&#x20;
+A measure's formula uses an aggregation function, such as `sum()`, `avg()`, `min()`, `max()` or `count_distinct()`. Average sales, student count and maximum price are all examples of measures. See [Advanced field formulas](advanced-formulas.md#aggregation-functions) for more functions.
 
-<figure><img src="../../../.gitbook/assets/image (503).png" alt=""><figcaption><p>A new dimension ingredient called Full Name has been created</p></figcaption></figure>
+You find and create measures while configuring a slice. In the slice's CONFIG section, click the pencil icon on a field that takes measures, such as **Bars** on a Bar slice. This opens the ingredient list, where existing measures are listed under **All Ingredients**. You can also create a measure from a column there. See [Adding new ingredients](adding-new-ingredients.md).
 
-## Measures
+Every data table has a **Total Rows** measure, which counts the rows.
 
-Measures are values calculated over a group of data records. Average sales, student count, and maximum price are all examples of measures. Measures are created using the following aggregation formulas: `sum()`, `avg()`, `min()`, `max()`, and `count_distinct()`.  Additional aggregations can be used as well (see [advanced field formulas](advanced-formulas.md#aggregation-functions)) .  Measures are not displayed in the data preview. Instead you see existing measures and add new ones as you configure [charts](../slices/charts/).&#x20;
+### Ingredient pills
 
-<figure><img src="../../../.gitbook/assets/image (505).png" alt=""><figcaption><p>New measures are added as you configure charts</p></figcaption></figure>
+Ingredients appear as pills in a slice's CONFIG section and in the ingredient list. Dimension pills also appear in the data preview.
 
-As with dimensions, you can click on measure ingredient pills to open the [ingredient editor](the-ingredient-editor/).&#x20;
+* Hover over a pill to see the ingredient's formula and whether it is used in the report.
+* Pills of ingredients that are used in the report have a light blue background.
+* Measure pills show their aggregation, for example **SUM** or **COUNT**.
+* To open an ingredient in the [ingredient editor](the-ingredient-editor/), click its pill in the data preview or in a slice's CONFIG section.
 
-<figure><img src="../../../.gitbook/assets/image (506).png" alt=""><figcaption><p>Click on the measure ingredient pill to open the ingredient editor</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ingredients-2-pill-tooltip.png" alt=""><figcaption></figcaption></figure>
 
