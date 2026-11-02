@@ -38,7 +38,7 @@ Use the **Announcement action** for a single "what's new" link, and **Actions** 
 2. In **Label**, type the link text. If you leave it empty on the announcement action, the link reads "Read more".
 3. In **Link**, enter one of these:
    * A full web address, including `https://`, such as `https://www.juiceanalytics.com`. Without `https://`, the link won't open the website.
-   * `#` followed by a slice's slug, such as `#Text2`, to link to that slice. The slug is shown at the top of the slice's Editing Panel (see [Slices](https://docs.myjuicebox.io/building-reports/story-designer/slices)).
+   * `#` followed by a slice's slug, such as `#Text2`, to link to that slice. The slug is shown at the top of the slice's Editing Panel (see [Slices](../)).
 4. Click **Add Action** in the Action builder to save it.
 
 To change an action, click it in the **Announcement action** or **Actions** field. To remove it, click the **✕** next to it.

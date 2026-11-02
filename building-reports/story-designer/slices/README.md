@@ -43,7 +43,7 @@ Until you configure your chart, the chart will display a "This slice has potenti
 
 ### Linking to a page
 
-For reports with [multiple pages](https://docs.myjuicebox.io/building-reports/story-designer/report-settings#manage-pages), you can create links in slice text that go to another page in the same report. Select the text, click the link button in the toolbar, and click a page name under **or link to a Page**. This list appears only when the report has more than one page.
+For reports with [multiple pages](../report-settings.md#manage-pages), you can create links in slice text that go to another page in the same report. Select the text, click the link button in the toolbar, and click a page name under **or link to a Page**. This list appears only when the report has more than one page.
 
 <figure><img src="../../../.gitbook/assets/slices-6-link-to-page.png" alt=""><figcaption></figcaption></figure>
 
@@ -55,7 +55,7 @@ If you manually add query parameters or hash fragments to the link URL, the link
 
 ## Common slice configuration options
 
-Each slice type has its own options in the Editing Panel, but many options are shared by several slice types. Not every slice type has all of them. The page for each [chart type](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts) describes the options specific to that type.
+Each slice type has its own options in the Editing Panel, but many options are shared by several slice types. Not every slice type has all of them. The page for each [chart type](charts/) describes the options specific to that type.
 
 ### CONFIG section
 
@@ -63,7 +63,7 @@ Each slice type has its own options in the Editing Panel, but many options are s
 
 **Hide if no data**. If turned on, the entire slice is hidden when all of its data has been filtered out. If turned off, the slice shows a message telling the viewer that all data has been filtered out.
 
-**Receive filters from another Page**. For reports with [multiple pages](https://docs.myjuicebox.io/building-reports/story-designer/report-settings#manage-pages), this toggle controls whether the slice applies matching filter selections from the page the viewer came from. When it's on, selections from that page are applied automatically if the filter dimensions match. This toggle appears only in reports with more than one page.
+**Receive filters from another Page**. For reports with [multiple pages](../report-settings.md#passing-filters-between-pages), this toggle controls whether the slice applies matching filter selections from the page the viewer came from. When it's on, selections from that page are applied automatically if the filter dimensions match. This toggle appears only in reports with more than one page.
 
 **Selections**. Two buttons control what viewers can select in the slice and what their selections do.
 
@@ -79,7 +79,7 @@ Chooser slices have only the second button.
 Variables are very powerful. Learn more [here](selections-as-variables.md).
 {% endhint %}
 
-**Default selections**. Sets which items are selected when someone first views the slice. Make the selections in the draft report, then click **Set default selections**. Viewers can still change the selections, and clearing them goes back to the defaults. Learn more in [Default selections](https://docs.myjuicebox.io/building-reports/story-designer/slices/default-selections).
+**Default selections**. Sets which items are selected when someone first views the slice. Make the selections in the draft report, then click **Set default selections**. Viewers can still change the selections, and clearing them goes back to the defaults. Learn more in [Default selections](default-selections.md).
 
 <figure><img src="../../../.gitbook/assets/slices-7-config-common.png" alt=""><figcaption></figcaption></figure>
 
@@ -89,7 +89,7 @@ On some slice types, such as Bar and Trend, the STYLE options are grouped into c
 
 **Display options**. These toggles control which parts of a slice viewers see.
 
-* **Hidden**. Hides the entire slice from viewers. When this is on, the other display toggles are hidden, and the slice is dimmed in the outline with a crossed-out eye icon. This is useful when you want a slice to set [variables](https://docs.myjuicebox.io/building-reports/story-designer/slices/selections-as-variables) without showing anything in the report.
+* **Hidden**. Hides the entire slice from viewers. When this is on, the other display toggles are hidden, and the slice is dimmed in the outline with a crossed-out eye icon. This is useful when you want a slice to set [variables](selections-as-variables.md) without showing anything in the report.
 * **Show Title**. Shows or hides the slice header. On by default.
 * **Show Chart**. Shows or hides the chart or main content. On by default. The label varies by slice type: it reads "Show Filters" on a Filter slice and "Show Reports" on a Reports Navigation slice.
 * **Show Filter Pill**. Shows or hides the slice's filter pill. On by default. When you want filter behavior without displaying the full chart, turn off **Show Chart** and leave **Show Filter Pill** on. This option isn't available on Chooser, Filter, Media or Reports Navigation slices.
@@ -122,7 +122,7 @@ Each slice has a unique ID called a "slug". Slices with text only or media have 
 
 <figure><img src="../../../.gitbook/assets/slices-9-slug-badge.png" alt=""><figcaption></figcaption></figure>
 
-The slug also appears at the top of the Editing Panel. Slugs are how slices refer to each other, for example in [dynamic text](https://docs.myjuicebox.io/building-reports/story-designer/slices/dynamic-text) or when a slice uses a Chooser's selection (such as **@Choice2**). To copy a reference to the slice, click the **@** button next to the slug. On a Filter slice, the **@** button lets you choose which filter to copy. The buttons on the right open the [debug view](https://docs.myjuicebox.io/building-reports/story-designer/slices/debug) and [advanced configuration](https://docs.myjuicebox.io/building-reports/story-designer/slices/advanced-configuration) for the slice.
+The slug also appears at the top of the Editing Panel. Slugs are how slices refer to each other, for example in [dynamic text](dynamic-text.md) or when a slice uses a Chooser's selection (such as **@Choice2**). To copy a reference to the slice, click the **@** button next to the slug. On a Filter slice, the **@** button lets you choose which filter to copy. The buttons on the right open the [debug view](debug.md) and [advanced configuration](advanced-configuration.md) for the slice.
 
 <figure><img src="../../../.gitbook/assets/image (5).png" alt=""><figcaption><p>Click the <strong>@</strong> button to copy the slice slug</p></figcaption></figure>
 

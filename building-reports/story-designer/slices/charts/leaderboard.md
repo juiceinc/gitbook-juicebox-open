@@ -22,7 +22,7 @@ The CONFIG section has the following fields:
 <figure><img src="../../../../.gitbook/assets/leaderboard-3-config-section.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Each column ranks values from highest to lowest. To rank a measure from lowest to highest, for example wait times or costs, turn on **Reverse** for that measure in the [measure ingredient editor](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/the-ingredient-editor/the-measure-ingredient-editor). Reverse is a setting on the measure, so it applies in every slice that uses the measure.
+Each column ranks values from highest to lowest. To rank a measure from lowest to highest, for example wait times or costs, turn on **Reverse** for that measure in the [measure ingredient editor](../../ingredients/the-ingredient-editor/the-measure-ingredient-editor.md). Reverse is a setting on the measure, so it applies in every slice that uses the measure.
 {% endhint %}
 
 **Style options**

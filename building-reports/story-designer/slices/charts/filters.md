@@ -16,13 +16,13 @@ The CONFIG section has the following fields:
 
 * **Pick columns to filter on**: The columns viewers can filter by. Each column becomes a pill, in the order shown in this field.
 * **Hide if no data**: Hides the entire slice when all of its data has been filtered out.
-* **Selections**: **Amount** sets how many values viewers can select, separately for each filter: **Select many** (the default), **Select one required**, **Select up to one** or **Don't allow selection**. **Select as** sets whether selections are used as filters, variables or both. See [Common slice configuration options](https://docs.myjuicebox.io/building-reports/story-designer/slices#common-slice-configuration-options).
+* **Selections**: **Amount** sets how many values viewers can select, separately for each filter: **Select many** (the default), **Select one required**, **Select up to one** or **Don't allow selection**. **Select as** sets whether selections are used as filters, variables or both. See [Common slice configuration options](../#common-slice-configuration-options).
 
 <figure><img src="../../../../.gitbook/assets/filters-3-config-section.png" alt=""><figcaption></figcaption></figure>
 
 **Style options**
 
-The STYLE section includes the display options shared by most slices (see [Common slice configuration options](https://docs.myjuicebox.io/building-reports/story-designer/slices#common-slice-configuration-options)). Key Filter-specific options:
+The STYLE section includes the display options shared by most slices (see [Common slice configuration options](../#common-slice-configuration-options)). Key Filter-specific options:
 
 * **Direction**: **Horizontal** (the default) places the pills side by side, wrapping onto more rows when needed. **Vertical** stacks them.
 * **Alignment**: Places the pills on the **Left**, in the **Center** (the default) or on the **Right** of the slice.

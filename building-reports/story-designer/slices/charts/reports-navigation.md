@@ -23,7 +23,7 @@ The slice lists the reports that the viewer has access to, except:
 
 Because the list depends on each viewer's access, different viewers can see different cards.
 
-To choose which reports are listed and in what order, add `includeAppSlugs` to the slice's [Advanced configuration](https://docs.myjuicebox.io/building-reports/story-designer/slices/advanced-configuration), with a list of report slugs. A report slug is the part of the report's web address after `/a/`. For example, for `https://yourworkspace.myjuicebox.io/a/sales_overview/`, the report slug is `sales_overview`. (Configuration options call reports "apps", which is why the option is named `includeAppSlugs`.)
+To choose which reports are listed and in what order, add `includeAppSlugs` to the slice's [Advanced configuration](../advanced-configuration.md), with a list of report slugs. A report slug is the part of the report's web address after `/a/`. For example, for `https://yourworkspace.myjuicebox.io/a/sales_overview/`, the report slug is `sales_overview`. (Configuration options call reports "apps", which is why the option is named `includeAppSlugs`.)
 
 ```yaml
 includeAppSlugs:
@@ -39,7 +39,7 @@ The CONFIG section has one field:
 
 * **Hide if no data**: Toggle to hide the slice when there are no reports to list.
 
-The STYLE section has these options, which work as described on the [Slices](https://docs.myjuicebox.io/building-reports/story-designer/slices) page:
+The STYLE section has these options, which work as described on the [Slices](../) page:
 
 * **Hidden**, **Show Title** and **Chart position**.
 * **Show Reports**: Shows or hides the report cards. It's on by default.
