@@ -14,7 +14,7 @@ The buttons at the bottom of the editor:
 * **Save**: Saves your changes and closes the editor.
 * **Save & keep open**: Saves your changes and keeps the editor open, so you can see the result in the report and keep adjusting.
 * **Delete**: Deletes the measure right away and removes it from any slices that use it.
-* **Duplicate**: Saves a copy of the measure with "Copy" added to its label (for example, "Sales Total Copy") and opens the copy in the editor. This is a quick way to [add a new ingredient](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/adding-new-ingredients) that is similar to an existing one.
+* **Duplicate**: Saves a copy of the measure with "Copy" added to its label (for example, "Sales Total Copy") and opens the copy in the editor. This is a quick way to [add a new ingredient](../adding-new-ingredients.md) that is similar to an existing one.
 * **Copy ID**: Copies the measure's ingredient ID, the name Juicebox uses for it internally, to the clipboard.
 
 To close the editor without saving, click the **×** in the top right corner. Unsaved changes are discarded.
@@ -23,9 +23,9 @@ To close the editor without saving, click the **×** in the top right corner. Un
 
 The Basics section holds the options you use most.
 
-* **Field formula**: How the measure is calculated, usually an aggregation of a column, for example `sum([Amount])` or `count(Respondent_ID)`. See [Advanced field formulas](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/advanced-formulas) for the aggregation functions and for combining them.
+* **Field formula**: How the measure is calculated, usually an aggregation of a column, for example `sum([Amount])` or `count(Respondent_ID)`. See [Advanced field formulas](../advanced-formulas.md) for the aggregation functions and for combining them.
 * **Label**: The measure's label in the report.
-* **Number format**: Pick a format from the list, or type a custom [number format](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/ingredient-formats) in the box below it. The default is **3 Sig figs** (`.3s`).
+* **Number format**: Pick a format from the list, or type a custom [number format](../ingredient-formats.md) in the box below it. A new measure starts with **Rounded** (`,.0f`) if it counts values, with its column's own format if the column has one, and with **3 Sig figs** (`.3s`) otherwise. For a **MIN** or **MAX** of a date column, this field is called **Date format** and lists date formats, and the default shows dates like "November 1, 2026" (`%B %-d, %Y`).
 
 **Inserting columns into a formula**
 
@@ -38,7 +38,7 @@ When you click in a formula box (such as **Field formula** or **Filter**), a **F
 <figure><img src="../../../../.gitbook/assets/measure-3-styling.png" alt=""><figcaption></figcaption></figure>
 
 * **Description**: A short explanation of the measure. It appears as a tooltip, for example when a viewer hovers over the measure's column header in a Table slice. Chooser slices can also show it with the measure.
-* **Lower values** and **Higher values**: Colors for the measure's lower and higher values. Click a button to choose a color or a theme swatch, or click **Reset to Auto** to go back to the report's theme colors. Table slices use these colors for **Cell coloring** (see [Table](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/table)). The **Higher values** color is also the measure's line color in Trend slices.
+* **Lower values** and **Higher values**: Colors for the measure's lower and higher values. Click a button to choose a color or a theme swatch, or click **Reset to Auto** to go back to the report's theme colors. Table slices use these colors for **Cell coloring** (see [Table](../../slices/charts/table.md)). The **Higher values** color is also the measure's line color in Trend slices.
 * **Color gradient mode**: How colors are spread across the values when a gradient is used. **Normalized** makes a smooth gradient from **Lower values** to **Higher values** across the range of values. **Bands** splits the range into a fixed number of equal bands, each with one color, which helps group values into categories. With **Bands**, choose the **Number of bands** (5 or 10).
 * **Image url**: The web address of an image that represents the measure. Chooser slices show it with the measure.
 
@@ -56,8 +56,8 @@ These options change how the measure looks as a line in a Trend slice:
 <figure><img src="../../../../.gitbook/assets/measure-4-advanced.png" alt=""><figcaption></figcaption></figure>
 
 * **Filter**: A condition that limits which rows of the data table the measure uses. Rows that don't meet the condition don't count toward the measure in any slice that uses it, so in a slice that groups by a dimension, values with no matching rows don't appear. In most cases it's better to limit a slice's data with `filter_expression` in that slice's [Advanced configuration](../../slices/advanced-configuration.md).
-* **Reverse**: Turn this on when lower values are better, for example for wait times or costs. By default, higher values are treated as better. Reverse flips this, for example in [Leaderboard](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/leaderboard) slices and in Chooser comparisons, and it inverts the measure's axis in Scatterplot slices.
-* **Ranges**: Named ranges of values, each with a color. Ranges are needed to show gauges in [Chooser](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/data-card) and [Card](https://docs.myjuicebox.io/building-reports/story-designer/slices/charts/card) slices, and to color Table cells when **Cell coloring** is set to **Measure Range Colors**.
+* **Reverse**: Turn this on when lower values are better, for example for wait times or costs. By default, higher values are treated as better. Reverse flips this, for example in [Leaderboard](../../slices/charts/leaderboard.md) slices and in Chooser comparisons, and it inverts the measure's axis in Scatterplot slices.
+* **Ranges**: Named ranges of values, each with a color. Ranges are needed to show gauges in [Chooser](../../slices/charts/data-card.md) and [Card](../../slices/charts/card.md) slices, and to color Table cells when **Cell coloring** is set to **Measure Range Colors**.
 
 Here's an example of ranges for a sales measure:
 

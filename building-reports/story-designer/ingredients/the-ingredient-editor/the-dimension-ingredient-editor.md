@@ -14,7 +14,7 @@ The buttons at the bottom of the editor:
 * **Save**: Saves your changes and closes the editor.
 * **Save & keep open**: Saves your changes and keeps the editor open, so you can see the result in the report and keep adjusting.
 * **Delete**: Deletes the dimension right away and removes it from any slices that use it.
-* **Duplicate**: Saves a copy of the dimension with "Copy" added to its label (for example, "Region Copy") and opens the copy in the editor. This is a quick way to [add a new ingredient](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/adding-new-ingredients) that is similar to an existing one.
+* **Duplicate**: Saves a copy of the dimension with "Copy" added to its label (for example, "Region Copy") and opens the copy in the editor. This is a quick way to [add a new ingredient](../adding-new-ingredients.md) that is similar to an existing one.
 * **Copy ID**: Copies the dimension's ingredient ID, the name Juicebox uses for it internally, to the clipboard.
 
 To close the editor without saving, click the **×** in the top right corner. Unsaved changes are discarded.
@@ -23,11 +23,11 @@ To close the editor without saving, click the **×** in the top right corner. Un
 
 The Basics section holds the options you use most.
 
-* **Field formula**: The column the dimension is based on, or a formula built from columns, for example `if(project_status in ("completed", "QA"), "Done", "Open")`. See [Advanced field formulas](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/advanced-formulas).
+* **Field formula**: The column the dimension is based on, or a formula built from columns, for example `if(project_status in ("completed", "QA"), "Done", "Open")`. See [Advanced field formulas](../advanced-formulas.md).
 * **Plural label**: The label used in most places in the report, such as filter pills and legends.
 * **Singular label**: The label used where the report refers to one item, such as a Table column header. For example, "Region" when the plural label is "Regions".
-* **Number format**: Only for number dimensions. Pick a format from the list, or type a custom [number format](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/ingredient-formats) in the box below it. The default is **3 Sig figs** (`.3s`).
-* **Time format**: Only for date dimensions. Pick a format from the list (for example **month dd, yyyy** or **month yyyy**), or type a custom [time format](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/time-formats) in the box below it.
+* **Number format**: Only for number dimensions. Pick a format from the list, or type a custom [number format](../ingredient-formats.md) in the box below it. The default is **3 Sig figs** (`.3s`).
+* **Time format**: Only for date dimensions. Pick a format from the list (for example **month dd, yyyy** or **month yyyy**), or type a custom [time format](../time-formats.md) in the box below it.
 
 {% hint style="success" %}
 Date dimensions "roll up" in charts to the period of the **Time format**. For example, the **month yyyy** format rolls dates up to months, and **yyyy** rolls them up to years.
@@ -50,7 +50,7 @@ When you click in a formula box (such as **Field formula** or **Filter**), a **F
 <figure><img src="../../../../.gitbook/assets/dimension-3-styling.png" alt=""><figcaption></figcaption></figure>
 
 * **Description**: A short explanation of the dimension. It appears as a tooltip, for example when a viewer hovers over the dimension's column header in a Table slice.
-* **Lower values**, **Higher values** and **Color gradient mode**: Color settings that slices use for measure values. They are described on [The measure ingredient editor](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/the-ingredient-editor/the-measure-ingredient-editor) page. To color individual dimension values, use **Item Styles** under Advanced.
+* **Lower values**, **Higher values** and **Color gradient mode**: Color settings that slices use for measure values. They are described on [The measure ingredient editor](the-measure-ingredient-editor.md) page. To color individual dimension values, use **Item Styles** under Advanced.
 * **Image url**: The web address of an image that represents the dimension.
 * **Hide count**: By default, filter pills show the number of values next to the label, for example "4 Region". Turn this on to show only the label.
 
@@ -58,7 +58,7 @@ When you click in a formula box (such as **Field formula** or **Filter**), a **F
 
 **Buckets**
 
-Buckets group the dimension's values under new labels. In the **Buckets** box, give each bucket a `label` and a `condition`. Conditions are checked in the order they are listed, and each value goes into the first bucket whose condition it meets. A condition can name the column (`score <= 6`) or start with the comparison (`<= 6`), in which case it applies to the **Field formula**. See [conditional logic](https://docs.myjuicebox.io/building-reports/story-designer/ingredients/advanced-formulas#conditional-logic) for what conditions can contain.
+Buckets group the dimension's values under new labels. In the **Buckets** box, give each bucket a `label` and a `condition`. Conditions are checked in the order they are listed, and each value goes into the first bucket whose condition it meets. A condition can name the column (`score <= 6`) or start with the comparison (`<= 6`), in which case it applies to the **Field formula**. See [conditional logic](../advanced-formulas.md#conditional-logic) for what conditions can contain.
 
 For example, if your data has a `score` column with customer scores, these buckets group customers into Detractors, Passives and Promoters:
 

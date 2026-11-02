@@ -20,8 +20,8 @@ To use the new ingredient, pick it from a slice's ingredient list.
 ### Creating a measure from a column
 
 1. In a slice's CONFIG section, click the pencil icon on a field that takes measures, such as **Bars** on a Bar slice. This opens the ingredient list. In Table and Chooser slices, the list has two tabs, **Columns** and **Columns as Measures**: click **Columns as Measures**.
-2. Under **Create a Measure Ingredient**, find the column and click an aggregation. Number columns show all five; other columns show **COUNT** only. An aggregation is grayed out when the column already has a measure with that aggregation.
-   * **AVG**, **SUM**, **MAX** or **MIN**: the average, total, largest or smallest value.
+2. Under **Create a Measure Ingredient**, find the column and click an aggregation. Number columns show all five, date columns show **MAX**, **MIN** and **COUNT**, and other columns show **COUNT** only. An aggregation is grayed out when the column already has a measure with that aggregation.
+   * **AVG**, **SUM**, **MAX** or **MIN**: the average, total, largest or smallest value. For a date column, **MAX** and **MIN** give the latest and earliest date.
    * **COUNT**: the number of distinct values in the column.
 
 <figure><img src="../../../.gitbook/assets/adding-ingredients-2-create-measure.png" alt=""><figcaption></figcaption></figure>
