@@ -3,6 +3,19 @@
 
 
 {% updates format="full" %}
+{% update date="2026-11-01" %}
+## Release 4.145
+
+🎁 **What's new?**
+
+* **MIN and MAX for date dimensions:** When you create a measure from a date dimension, you can now choose **MIN** or **MAX** to show the earliest or latest date, in addition to **COUNT**. The new measure shows dates, for example "November 1, 2026", and you can change its **Date format** in the measure editor.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue where the format list for a date measure showed number formats, and choosing one could stop the slice from loading.
+* Screen readers now give more context for each Pie slice: its dimension, its share of the total and its measure, for example "Genre: Action, 32% of total, Sales: 1,204". The announcement when a selection changes uses the same wording.
+{% endupdate %}
+
 {% update date="2026-10-26" %}
 ## Release 4.144
 
