@@ -3,6 +3,20 @@
 
 
 {% updates format="full" %}
+{% update date="2026-11-09" %}
+## Release 4.146
+
+🎁 **What's new?**
+
+* **Stick all filters:** Filter slices have a new **Stick all filters** option in the STYLE section. When it's on and viewers scroll past the slice, all of its filter pills stay in the sticky filter bar, not just the ones with a selection. Viewers can then change any of those filters without scrolling back up.
+
+**Bug fixes & other improvements**
+
+* When a selection changes, every slice it affects now shows that it's filtering at the same time, instead of one group of slices after another.
+* Fixed an issue where a filter pill embedded in another slice could disappear from the sticky filter bar when a selection changed. It came back only after the viewer scrolled.
+* When there are more filter pills than fit in the sticky filter bar, the bar now scrolls instead of cutting off the extra pills.
+{% endupdate %}
+
 {% update date="2026-11-01" %}
 ## Release 4.145
 
