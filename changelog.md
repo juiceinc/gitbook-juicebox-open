@@ -3,6 +3,23 @@
 
 
 {% updates format="full" %}
+{% update date="2026-11-18" %}
+## Release 4.147
+
+🎁 **What's new?**
+
+* **Scatterplot data table and keyboard support:** A Scatterplot now shows a short line below the chart with its number of points.  When you click one of the chart's nine regions, or move to it with the keyboard, a table appears below the chart listing that region's points and their values. You can also use a Scatterplot without a mouse: press Tab to move into the chart, use the arrow keys to move between regions, and press Enter or Space to select everything in a region. Screen readers can read the table and select points one at a time. In hexbin mode, the table lists hexagons instead of points.
+* **Reports Navigation slice in every workspace:** The Reports Navigation slice now appears in the add-slice menu in every workspace. Before, it had to be turned on for each workspace.
+
+**Bug fixes & other improvements**
+
+* Fixed an issue in Card and Chooser slices with the **Detail Gauge** or **Simple Gauge** style, where a value equal to the end of a measure's last range, such as a perfect score of 100%, didn't fall in any range. Detail Gauge showed "In range: ---", and Simple Gauge highlighted no segment.
+* Fixed an issue where a Filter slice whose default selections had been cleared went on loading all of its data every time, which could slow down the report.
+* Fixed an issue where downloading data failed when the report's title included ™, ® or other special characters. Downloaded PNG and PDF files now keep these characters in their file names too.
+* Fixed an issue where **Sign Out** showed an error page and left you signed in.
+* Fixed a typo ("checkboxs") in the Filter slice's **Show as** setting.
+{% endupdate %}
+
 {% update date="2026-11-09" %}
 ## Release 4.146
 
